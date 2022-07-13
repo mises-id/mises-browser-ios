@@ -13,9 +13,9 @@
 #include "chrome/browser/ui/tabs/tab_strip_model.h"
 
 PinnedTabService::PinnedTabService(Profile* profile) : profile_(profile) {
-  closing_all_browsers_subscription_ = chrome::AddClosingAllBrowsersCallback(
-      base::BindRepeating(&PinnedTabService::OnClosingAllBrowsersChanged,
-                          base::Unretained(this)));
+  //closing_all_browsers_subscription_ = chrome::AddClosingAllBrowsersCallback(
+  //    base::BindRepeating(&PinnedTabService::OnClosingAllBrowsersChanged,
+  //                        base::Unretained(this)));
 
   for (Browser* browser : *BrowserList::GetInstance())
     OnBrowserAdded(browser);

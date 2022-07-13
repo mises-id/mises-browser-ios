@@ -47,6 +47,7 @@ ReadLaterSidePanelWebView::ReadLaterSidePanelWebView(
 
 void ReadLaterSidePanelWebView::SetVisible(bool visible) {
   views::WebView::SetVisible(visible);
+#if !defined(OS_ANDROID)
   base::RecordAction(
       base::UserMetricsAction(visible ? "SidePanel.Show" : "SidePanel.Hide"));
   if (visible) {
@@ -62,6 +63,7 @@ void ReadLaterSidePanelWebView::SetVisible(bool visible) {
     feature_promo_controller->CloseBubble(
         feature_engagement::kIPHReadingListInSidePanelFeature);
   }
+#endif
 }
 
 ReadLaterSidePanelWebView::~ReadLaterSidePanelWebView() = default;

@@ -27,7 +27,7 @@ namespace chrome {
 // users.
 bool ShouldDisplayManagedUi(Profile* profile);
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // The label for the App Menu item for Managed UI.
 std::u16string GetManagedUiMenuItemLabel(Profile* profile);
 

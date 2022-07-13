@@ -147,7 +147,7 @@
   </message>
 
   <!-- Site Settings desktop-only -->
-  <if expr="not is_android">
+  <if expr="is_android or not is_android">
   <message name="IDS_SITE_SETTINGS_TYPE_FILE_HANDLING" desc="The label used for the file handling site settings controls.">
     File handlers
   </message>

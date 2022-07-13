@@ -38,7 +38,11 @@ PermissionToggleRowView::PermissionToggleRowView(
   row_view_->SetTitle(PageInfoUI::PermissionTypeToUIString(permission.type));
 
   // Add extra details as sublabel.
+#if defined(OS_ANDROID)
+  std::u16string detail;
+#else
   std::u16string detail = delegate->GetPermissionDetail(permission.type);
+#endif
   if (!detail.empty())
     row_view_->AddSecondaryLabel(detail);
 

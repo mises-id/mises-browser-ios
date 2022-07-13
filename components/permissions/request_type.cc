@@ -269,9 +269,9 @@ IconId GetIconId(RequestType type) {
 #endif
 }
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 IconId GetBlockedIconId(RequestType type) {
-  return GetBlockedIconIdDesktop(type);
+  return GetIconIdAndroid(type);
 }
 #endif
 

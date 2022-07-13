@@ -116,6 +116,7 @@ import org.chromium.components.content_settings.ContentSettingValues;
 
 import org.chromium.chrome.browser.AppMenuBridge;
 import org.chromium.base.Log;
+import org.chromium.base.natives.GEN_JNI;
 
 /**
  * Base implementation of {@link AppMenuPropertiesDelegate} that handles hiding and showing menu
@@ -441,7 +442,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
 
         if (canShowExtensions) {
           int itemIndex = numItems++;
-          String extensions = AppMenuBridge.getRunningExtensions(Profile.fromWebContents(webContents).getOriginalProfile(), webContents);
+          String extensions = GEN_JNI.org_chromium_chrome_browser_AppMenuBridge_getRunningExtensions(Profile.fromWebContents(webContents).getOriginalProfile(), webContents);
           if (!extensions.isEmpty()) {
             String[] extensionsArray = extensions.split("\u001f");
             for (String extension: extensionsArray) {
@@ -606,7 +607,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
         }
 
         MenuItem disableProxyMenu = menu.findItem(R.id.disable_proxy_id);
-        boolean isProxyEnabled = AppMenuBridge.isProxyEnabled(Profile.getLastUsedRegularProfile());
+        boolean isProxyEnabled = GEN_JNI.org_chromium_chrome_browser_AppMenuBridge_isProxyEnabled(Profile.getLastUsedRegularProfile());
         if (isProxyEnabled) {
             disableProxyMenu.setVisible(true);
         } else {

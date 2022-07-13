@@ -25,7 +25,7 @@
 #include "chrome/browser/search/instant_service_factory.h"
 #include "chrome/browser/search/instant_service_observer.h"
 #include "chrome/browser/search/most_visited_iframe_source.h"
-#include "chrome/browser/search/new_tab_page_source.h"
+//#include "chrome/browser/search/new_tab_page_source.h"
 #include "chrome/browser/search/search.h"
 #include "chrome/browser/themes/theme_properties.h"
 #include "chrome/browser/themes/theme_service.h"
@@ -95,8 +95,8 @@ InstantService::InstantService(Profile* profile)
                     profile_, chrome::FaviconUrlFormat::kFaviconLegacy));
   content::URLDataSource::Add(profile_,
                               std::make_unique<MostVisitedIframeSource>());
-  content::URLDataSource::Add(profile_,
-                              std::make_unique<NewTabPageSource>());
+  //content::URLDataSource::Add(profile_,
+  //                            std::make_unique<NewTabPageSource>());
 
   theme_observation_.Observe(native_theme_.get());
 }

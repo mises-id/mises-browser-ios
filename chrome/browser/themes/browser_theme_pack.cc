@@ -1660,7 +1660,7 @@ void BrowserThemePack::GenerateWindowControlButtonColor(ImageCache* images) {
   SkAlpha button_bg_alpha = SK_AlphaTRANSPARENT;
   if (GetColor(TP::COLOR_CONTROL_BUTTON_BACKGROUND, &button_bg_color))
     button_bg_alpha = SkColorGetA(button_bg_color);
-
+#if !defined(OS_ANDROID)
   button_bg_alpha =
       WindowFrameUtil::CalculateWindows10GlassCaptionButtonBackgroundAlpha(
           button_bg_alpha);
@@ -1702,6 +1702,7 @@ void BrowserThemePack::GenerateWindowControlButtonColor(ImageCache* images) {
     SetColorIfUnspecified(bg_pair.color_id,
                           ComputeImageColor(dest_image, dest_size.height()));
   }
+#endif
 }
 
 void BrowserThemePack::CreateTabBackgroundImagesAndColors(ImageCache* images) {

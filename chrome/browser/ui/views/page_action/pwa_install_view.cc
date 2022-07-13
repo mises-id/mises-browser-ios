@@ -37,11 +37,12 @@ namespace {
 
 // Site engagement score threshold to show In-Product Help.
 // Add x_ prefix so the IPH feature engagement tracker can ignore this.
+#if !defined(OS_ANDROID)
 constexpr base::FeatureParam<int> kIphSiteEngagementThresholdParam{
     &feature_engagement::kIPHDesktopPwaInstallFeature,
     "x_site_engagement_threshold",
     web_app::kIphFieldTrialParamDefaultSiteEngagementThreshold};
-
+#endif
 }  // namespace
 
 PwaInstallView::PwaInstallView(
@@ -71,6 +72,7 @@ void PwaInstallView::OnTabStripModelChanged(
     const TabStripSelectionChange& selection) {
   // If the active tab changed, or the content::WebContents in the
   // active tab was replaced, close IPH
+#if !defined(OS_ANDROID)
   bool active_tab_changed = selection.active_tab_changed();
   bool web_content_replaced =
       change.type() == TabStripModelChange::Type::kReplaced;
@@ -79,6 +81,7 @@ void PwaInstallView::OnTabStripModelChanged(
         FeaturePromoControllerViews::GetForView(this);
     controller->CloseBubble(feature_engagement::kIPHDesktopPwaInstallFeature);
   }
+#endif
 }
 
 void PwaInstallView::UpdateImpl() {
@@ -113,6 +116,7 @@ void PwaInstallView::UpdateImpl() {
     if (controller) {
       // Reset the iph flag when it's shown again.
       install_icon_clicked_after_iph_shown_ = false;
+  #if !defined(OS_ANDROID)
       bool iph_shown = controller->MaybeShowPromo(
           feature_engagement::kIPHDesktopPwaInstallFeature,
           {webapps::AppBannerManager::GetInstallableWebAppName(web_contents)},
@@ -120,6 +124,7 @@ void PwaInstallView::UpdateImpl() {
                          weak_ptr_factory_.GetWeakPtr()));
       if (iph_shown)
         SetHighlighted(true);
+  #endif
     }
   }
 }
@@ -157,12 +162,14 @@ void PwaInstallView::OnExecuting(PageActionIconView::ExecuteSource source) {
   chrome::PwaInProductHelpState iph_state =
       chrome::PwaInProductHelpState::kNotShown;
   if (controller) {
+#if !defined(OS_ANDROID)
     install_icon_clicked_after_iph_shown_ = controller->BubbleIsShowing(
         feature_engagement::kIPHDesktopPwaInstallFeature);
     if (install_icon_clicked_after_iph_shown_)
       iph_state = chrome::PwaInProductHelpState::kShown;
 
     controller->CloseBubble(feature_engagement::kIPHDesktopPwaInstallFeature);
+#endif
   }
 
   web_app::CreateWebAppFromManifest(
@@ -205,8 +212,12 @@ bool PwaInstallView::ShouldShowIph(content::WebContents* web_contents,
       Profile::FromBrowserContext(web_contents->GetBrowserContext());
   auto score = site_engagement::SiteEngagementService::Get(profile)->GetScore(
       web_contents->GetURL());
+#if defined(OS_ANDROID)
+  return false;
+#else
   return score > kIphSiteEngagementThresholdParam.Get() &&
          web_app::ShouldShowIph(profile->GetPrefs(), app_id);
+#endif
 }
 
 BEGIN_METADATA(PwaInstallView, PageActionIconView)

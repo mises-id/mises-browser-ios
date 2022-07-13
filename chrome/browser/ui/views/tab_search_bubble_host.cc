@@ -103,17 +103,19 @@ bool TabSearchBubbleHost::ShowTabSearchBubble(
   // Close the Tab Search IPH if it is showing.
   FeaturePromoControllerViews* controller =
       FeaturePromoControllerViews::GetForView(button_);
+#if !defined(OS_ANDROID)
   if (controller)
     controller->CloseBubble(feature_engagement::kIPHTabSearchFeature);
+#endif
 
   bubble_created_time_ = base::TimeTicks::Now();
   webui_bubble_manager_.ShowBubble();
-
+#if !defined(OS_ANDROID)
   auto* tracker =
       feature_engagement::TrackerFactory::GetForBrowserContext(profile_);
   if (tracker)
     tracker->NotifyEvent(feature_engagement::events::kTabSearchOpened);
-
+#endif
   if (triggered_by_keyboard_shortcut) {
     base::UmaHistogramEnumeration("Tabs.TabSearch.OpenAction",
                                   TabSearchOpenAction::kKeyboardShortcut);

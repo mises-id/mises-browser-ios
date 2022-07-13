@@ -67,7 +67,21 @@ class CvcUnmaskViewController
       base::WeakPtr<autofill::CardUnmaskDelegate> delegate) override;
   void OnUnmaskVerificationResult(
       autofill::AutofillClient::PaymentsRpcResult result) override;
+#if defined(OS_ANDROID)
+    // Returns whether or not the user, while on the CVC prompt, should be
+    // offered to switch to FIDO authentication for card unmasking. This will
+    // always be false for Desktop since FIDO authentication is offered as a
+    // separate prompt after the CVC prompt. On Android, however, this may be
+    // offered through a checkbox on the CVC prompt. This feature does not yet
+    // exist on iOS.
+    bool ShouldOfferFidoAuth() const override {return false;};
 
+    // This returns true only on Android when the user previously opted-in for
+    // FIDO authentication through the settings page and this is the first card
+    // downstream since. In this case, the opt-in checkbox is not shown and the
+    // opt-in request is sent.
+    bool UserOptedInToFidoFromSettingsPageOnMobile() const override {return false;};
+#endif
  protected:
   // PaymentRequestSheetController:
   std::u16string GetSheetTitle() override;

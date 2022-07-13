@@ -179,6 +179,16 @@ android_resources("chrome_base_module_resources") {
     "java/res_chromium_base/mipmap-xxhdpi/app_icon.png",
     "java/res_chromium_base/mipmap-xxxhdpi/app_icon.png",
     "java/res_chromium_base/values/channel_constants.xml",
+    "java/res_chromium_base/mipmap-mdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-mdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-xxxhdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-xxxhdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-xhdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-xhdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-xxhdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-xxhdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-hdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-hdpi/ic_background.png",
   ]
 }
 
@@ -1856,6 +1866,16 @@ android_resources("chrome_public_apk_base_module_resources") {
     "java/res_chromium_base/mipmap-xxhdpi/app_icon.png",
     "java/res_chromium_base/mipmap-xxxhdpi/app_icon.png",
     "java/res_chromium_base/values/channel_constants.xml",
+     "java/res_chromium_base/mipmap-mdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-mdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-xxxhdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-xxxhdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-xhdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-xhdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-xxhdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-xxhdpi/ic_background.png",
+    "java/res_chromium_base/mipmap-hdpi/ic_foreground.png",
+    "java/res_chromium_base/mipmap-hdpi/ic_background.png",
   ]
 
   # Dep needed to ensure override works properly.
@@ -3792,6 +3812,7 @@ generate_jni("chrome_jni_headers") {
   sources = [
     # Files under a feature's public/ dir are included in chrome_java's source
     # files, so include these files in chrome_jni_headers.
+    "java/src/org/chromium/chrome/browser/AppMenuBridge.java",    
     "java/src/org/chromium/chrome/browser/AppHooks.java",
     "java/src/org/chromium/chrome/browser/ApplicationLifetime.java",
     "java/src/org/chromium/chrome/browser/ChromeBackupAgentImpl.java",

@@ -93,9 +93,9 @@ mojom("device_service") {
     enabled_features += [ "enable_input_device_manager" ]
   }
 
-  if (!is_android) {
+  #if (!is_android) {
     enabled_features += [ "enable_hid" ]
-  }
+  #}
 
   # While the device posture API applies to all platforms, only Android and
   # Windows can fetch posture information so we only build mojo bindings on

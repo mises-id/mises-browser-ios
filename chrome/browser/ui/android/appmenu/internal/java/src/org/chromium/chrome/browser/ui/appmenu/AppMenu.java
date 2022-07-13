@@ -73,7 +73,7 @@ import org.chromium.chrome.browser.app.ChromeActivity;
 
 import org.chromium.base.annotations.NativeMethods;
 
-import org.chromium.chrome.browser.tab.Tab;
+//import org.chromium.chrome.browser.tab.Tab;
 import org.chromium.ui.mojom.WindowOpenDisposition;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.profiles.Profile;

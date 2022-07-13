@@ -42,7 +42,7 @@ class TopToolbarSceneLayer : public SceneLayer {
       jfloat y_offset,
       bool show_shadow,
       bool visible,
-      bool anonymize);
+      bool anonymize, bool enableBottomToolbar);
 
   // Update the progress bar.
   void UpdateProgressBar(JNIEnv* env,

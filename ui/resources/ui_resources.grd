@@ -86,7 +86,7 @@
         <structure type="chrome_scaled_image" name="IDR_AURA_CURSOR_ZOOM_IN" file="common/pointers/zoom_in.png" />
         <structure type="chrome_scaled_image" name="IDR_AURA_CURSOR_ZOOM_OUT" file="common/pointers/zoom_out.png" />
       </if>
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <structure type="chrome_scaled_image" name="IDR_CLOSE_2" file="close_2.png" />
         <structure type="chrome_scaled_image" name="IDR_CLOSE_2_H" file="close_2_hover.png" />
         <structure type="chrome_scaled_image" name="IDR_CLOSE_2_MASK" file="close_2_mask.png" />
@@ -100,7 +100,7 @@
       </if>
       <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON" file="common/default_favicon.png" />
       <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON_DARK" file="common/default_favicon_dark.png" />
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON_32" file="common/default_favicon_32.png" />
         <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON_DARK_32" file="common/default_favicon_dark_32.png" />
         <structure type="chrome_scaled_image" name="IDR_DEFAULT_FAVICON_64" file="common/default_favicon_64.png" />
@@ -151,7 +151,7 @@
         <structure type="chrome_scaled_image" name="IDR_OOBE_ACTION_BOX_BUTTON_NORMAL" file="cros/action_box_button_normal.png" />
         <structure type="chrome_scaled_image" name="IDR_OOBE_ACTION_BOX_BUTTON_PRESSED" file="cros/action_box_button_pressed.png" />
       </if>
-      <if expr="not is_android and not is_ios">
+      <if expr="is_android or not is_android and not is_ios">
         <structure type="chrome_scaled_image" name="IDR_SIGNAL_0_BAR" file="common/signal_0_bar.png" />
         <structure type="chrome_scaled_image" name="IDR_SIGNAL_1_BAR" file="common/signal_1_bar.png" />
         <structure type="chrome_scaled_image" name="IDR_SIGNAL_2_BAR" file="common/signal_2_bar.png" />

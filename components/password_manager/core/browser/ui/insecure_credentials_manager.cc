@@ -27,7 +27,7 @@
 #include "components/password_manager/core/browser/ui/saved_passwords_presenter.h"
 #include "components/password_manager/core/common/password_manager_features.h"
 
-#if !defined(OS_ANDROID) && !defined(OS_IOS)
+#if true || !defined(OS_ANDROID) && !defined(OS_IOS)
 #include "components/password_manager/core/browser/ui/weak_check_utility.h"
 #endif
 
@@ -162,7 +162,7 @@ std::vector<CredentialWithPassword> ExtractInsecureCredentials(
 }
 
 // The function is only used by the weak check.
-#if !defined(OS_ANDROID) && !defined(OS_IOS)
+#if  !defined(OS_IOS)
 base::flat_set<std::u16string> ExtractPasswords(
     SavedPasswordsPresenter::SavedPasswordsView password_forms) {
   return base::MakeFlatSet<std::u16string>(password_forms, {},

@@ -1298,7 +1298,7 @@ const char kPartitionDefaultZoomLevel[] = "partition.default_zoom_level";
 // be displayed at the default zoom level.
 const char kPartitionPerHostZoomLevels[] = "partition.per_host_zoom_levels";
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 const char kPinnedTabs[] = "pinned_tabs";
 #endif  // !defined(OS_ANDROID)
 
@@ -2582,7 +2582,7 @@ const char kSystemTimezoneAutomaticDetectionPolicy[] =
 
 // Pref name for the policy controlling whether to enable Media Router.
 const char kEnableMediaRouter[] = "media_router.enable_media_router";
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // Pref name for the policy controlling whether to force the Cast icon to be
 // shown in the toolbar/overflow menu.
 const char kShowCastIconInToolbar[] = "media_router.show_cast_icon_in_toolbar";
@@ -2718,7 +2718,7 @@ const char kCustomHandlersEnabled[] = "custom_handlers.enabled";
 // by the cloud policy subsystem.
 const char kDevicePolicyRefreshRate[] = "policy.device_refresh_rate";
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // A boolean where true means that the browser has previously attempted to
 // enable autoupdate and failed, so the next out-of-date browser start should
 // not prompt the user to enable autoupdate, it should offer to reinstall Chrome
@@ -3119,7 +3119,7 @@ const char kCrossOriginWebAssemblyModuleSharingEnabled[] =
 extern const char kDisplayCapturePermissionsPolicyEnabled[] =
     "display_capture_permissions_policy_enabled";
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // Boolean to allow SharedArrayBuffer in non-crossOriginIsolated contexts.
 // TODO(crbug.com/1144104) Remove when migration to COOP+COEP is complete.
 const char kSharedArrayBufferUnrestrictedAccessAllowed[] =
@@ -3277,7 +3277,7 @@ const char kAdbSideloadingPowerwashOnNextRebootNotificationShown[] =
     "adb_sideloading_powerwash_on_next_reboot_notification_shown";
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // Boolean pref that indicates whether caret browsing is currently enabled.
 const char kCaretBrowsingEnabled[] = "settings.a11y.caretbrowsing.enabled";
 
@@ -3367,7 +3367,7 @@ const char kPdfAnnotationsEnabled[] = "pdf.enable_annotations";
 const char kExplicitlyAllowedNetworkPorts[] =
     "net.explicitly_allowed_network_ports";
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // Pref name for whether force-installed web apps (origins) are able to query
 // device attributes.
 const char kDeviceAttributesAllowedForOrigins[] =

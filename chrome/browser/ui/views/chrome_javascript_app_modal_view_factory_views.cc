@@ -59,8 +59,8 @@ class ChromeJavaScriptAppModalDialogViews
     // unnecessary on Windows and Chrome OS.
     // TODO(pkotwicz): Find a better way of doing this and remove this hack.
     if (UseEventBlocker() && !event_blocker_.get()) {
-      event_blocker_ = std::make_unique<JavascriptAppModalEventBlocker>(
-          GetWidget()->GetNativeWindow());
+    //  event_blocker_ = std::make_unique<JavascriptAppModalEventBlocker>(
+    //      GetWidget()->GetNativeWindow());
     }
     AppModalDialogViewViews::ShowAppModalDialog();
   }

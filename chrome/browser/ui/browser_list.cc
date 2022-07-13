@@ -125,7 +125,7 @@ void BrowserList::RemoveBrowser(Browser* browser) {
     // shutdown, because Browser::WindowClosing() already makes sure that the
     // SessionService is created and notified.
     browser_shutdown::NotifyAppTerminating();
-    chrome::OnAppExiting();
+   // chrome::OnAppExiting();
   }
 }
 

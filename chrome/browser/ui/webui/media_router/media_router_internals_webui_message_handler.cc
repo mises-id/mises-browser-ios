@@ -82,9 +82,9 @@ void MediaRouterInternalsWebUIMessageHandler::HandleGetProviderState(
 
 void MediaRouterInternalsWebUIMessageHandler::HandleGetLogs(
     const base::ListValue* args) {
-  AllowJavascript();
-  const base::Value& callback_id = args->GetList()[0];
-  ResolveJavascriptCallback(callback_id, router_->GetLogs());
+  //AllowJavascript();
+  //const base::Value& callback_id = args->GetList()[0];
+  //ResolveJavascriptCallback(callback_id, router_->GetLogs());
 }
 
 void MediaRouterInternalsWebUIMessageHandler::OnProviderState(

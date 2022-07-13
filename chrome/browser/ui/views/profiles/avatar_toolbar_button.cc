@@ -342,7 +342,7 @@ void AvatarToolbarButton::SetInsets() {
 void AvatarToolbarButton::MaybeShowProfileSwitchIPHInitialized(bool success) {
   if (!success)
     return;  // IPH system initialization failed.
-
+#if !defined(OS_ANDROID)
   // Prevent showing the promo right when the browser was created. Wait a small
   // delay for a smoother animation.
   base::TimeDelta time_since_creation = base::TimeTicks::Now() - creation_time_;
@@ -362,6 +362,7 @@ void AvatarToolbarButton::MaybeShowProfileSwitchIPHInitialized(bool success) {
       FeaturePromoControllerViews::IsActiveWindowCheckBlockedForTesting())
     feature_promo_controller_->MaybeShowPromo(
         feature_engagement::kIPHProfileSwitchFeature);
+#endif
 }
 
 BEGIN_METADATA(AvatarToolbarButton, ToolbarButton)

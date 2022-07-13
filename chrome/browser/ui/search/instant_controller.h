@@ -13,7 +13,7 @@
 #include "chrome/browser/ui/tabs/tab_strip_model_observer.h"
 
 #if defined(OS_ANDROID)
-#error "Instant is only used on desktop";
+//#error "Instant is only used on desktop";
 #endif
 
 class Profile;

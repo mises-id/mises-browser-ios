@@ -1055,7 +1055,7 @@ void SessionRestore::OpenStartupPagesAfterCrash(Browser* browser) {
   if (tab_to_clobber && browser->tab_strip_model()->count() > 1)
     chrome::CloseWebContents(browser, tab_to_clobber, true);
 }
-
+#if !defined(OS_ANDROID)
 // static
 std::vector<Browser*> SessionRestore::RestoreForeignSessionWindows(
     Profile* profile,
@@ -1068,7 +1068,6 @@ std::vector<Browser*> SessionRestore::RestoreForeignSessionWindows(
       /* log_event */ false, startup_tabs);
   return restorer.RestoreForeignSession(begin, end);
 }
-
 // static
 WebContents* SessionRestore::RestoreForeignSessionTab(
     content::WebContents* source_web_contents,
@@ -1083,7 +1082,7 @@ WebContents* SessionRestore::RestoreForeignSessionTab(
                               /* log_event */ false, startup_tabs);
   return restorer.RestoreForeignTab(tab, disposition);
 }
-
+#endif
 // static
 bool SessionRestore::IsRestoring(const Profile* profile) {
   if (active_session_restorers == nullptr)

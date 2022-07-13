@@ -226,8 +226,10 @@ void ShowReauthForPrimaryAccountWithAuthError(
       browser, access_point,
       ::GetAccountManagerFacade(browser->profile()->GetPath().value()));
 #else
+#if BUILDFLAG(ENABLE_DICE_SUPPORT)
   browser->signin_view_controller()->ShowSignin(
       profiles::BUBBLE_VIEW_MODE_GAIA_REAUTH, access_point);
+#endif
 #endif
 }
 

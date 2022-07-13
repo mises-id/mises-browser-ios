@@ -37,7 +37,7 @@ extern const base::Feature kQuickSettingsPWANotifications;
 extern const base::Feature kEnableUniveralLinks;
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const base::Feature kCopyLinkToText;
 extern const base::Feature kMuteNotificationSnoozeAction;
 #endif

@@ -57,7 +57,7 @@ class Profile;
 class BrowserCommandHandler;
 class RealboxHandler;
 class TaskModuleHandler;
-class CartHandler;
+//class CartHandler;
 class DriveHandler;
 class PhotosHandler;
 
@@ -142,8 +142,8 @@ class NewTabPageUI
 
   // Instantiates the implementor of the chrome_cart::mojom::CartHandler
   // mojo interface passing the pending receiver that will be internally bound.
-  void BindInterface(
-      mojo::PendingReceiver<chrome_cart::mojom::CartHandler> pending_receiver);
+  //void BindInterface(
+  //    mojo::PendingReceiver<chrome_cart::mojom::CartHandler> pending_receiver);
 
   static base::RefCountedMemory* GetFaviconResourceBytes(
       ui::ResourceScaleFactor scale_factor);
@@ -214,7 +214,7 @@ class NewTabPageUI
 #if !defined(OFFICIAL_BUILD)
   std::unique_ptr<FooHandler> foo_handler_;
 #endif
-  std::unique_ptr<CartHandler> cart_handler_;
+  //std::unique_ptr<CartHandler> cart_handler_;
   raw_ptr<Profile> profile_;
   raw_ptr<ThemeService> theme_service_;
   raw_ptr<NtpCustomBackgroundService> ntp_custom_background_service_;

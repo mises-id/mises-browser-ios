@@ -446,7 +446,9 @@ bool FeaturePromoControllerViews::ShowPromoBubbleImpl(
 
   FeaturePromoBubbleView::CreateParams create_params = GetBaseCreateParams(
       spec, anchor_view, std::move(body_text_replacements), is_critical_promo);
-
+#if defined(OS_ANDROID)
+  create_params.has_close_button = true;
+#else
   if (spec.promo_type() == FeaturePromoSpecification::PromoType::kSnooze &&
       base::FeatureList::IsEnabled(
           feature_engagement::kIPHDesktopSnoozeFeature)) {
@@ -455,7 +457,7 @@ bool FeaturePromoControllerViews::ShowPromoBubbleImpl(
   } else {
     create_params.has_close_button = true;
   }
-
+#endif
   // Feature isn't present for some critical promos.
   if (spec.feature()) {
     create_params.dismiss_callback =
@@ -481,10 +483,12 @@ bool FeaturePromoControllerViews::ShowPromoBubbleImpl(
   // note in MaybeShowPromoImpl().
   // TODO(crbug.com/1258216): Rewrite this when we have the ability for FE
   // promos to ignore other active promos.
+#if !defined(OS_ANDROID)
   if (had_screen_reader_promo) {
     tracker_->NotifyEvent(
         feature_engagement::events::kFocusHelpBubbleAcceleratorPromoRead);
   }
+#endif
 
   anchor_view->SetProperty(kHasInProductHelpPromoKey, true);
   anchor_view_tracker_.SetView(anchor_view);
@@ -531,7 +535,7 @@ bool FeaturePromoControllerViews::CheckScreenReaderPromptAvailable() const {
   // code the screen reader prompt would never play.
   if (base::FeatureList::IsEnabled(feature_engagement::kIPHDemoMode))
     return true;
-
+#if !defined(OS_ANDROID)
   if (!tracker_->ShouldTriggerHelpUI(
           feature_engagement::kIPHFocusHelpBubbleScreenReaderPromoFeature)) {
     return false;
@@ -542,7 +546,7 @@ bool FeaturePromoControllerViews::CheckScreenReaderPromptAvailable() const {
   // dismiss can be moved elsewhere once we support concurrency.
   tracker_->Dismissed(
       feature_engagement::kIPHFocusHelpBubbleScreenReaderPromoFeature);
-
+#endif
   return true;
 }
 

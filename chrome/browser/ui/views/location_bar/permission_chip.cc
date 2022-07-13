@@ -56,7 +56,7 @@ PermissionChip::PermissionChip(
       should_expand_(initializer.should_expand) {
   DCHECK(delegate_);
   SetUseDefaultFillLayout(true);
-
+#if !defined(OS_ANDROID)
   chip_button_ = AddChildView(std::make_unique<OmniboxChipButton>(
       base::BindRepeating(&PermissionChip::ChipButtonPressed,
                           base::Unretained(this)),
@@ -69,7 +69,7 @@ PermissionChip::PermissionChip(
           chip_button_)));
   chip_button_->SetExpandAnimationEndedCallback(base::BindRepeating(
       &PermissionChip::ExpandAnimationEnded, base::Unretained(this)));
-
+#endif
   Show(should_start_open_);
 }
 

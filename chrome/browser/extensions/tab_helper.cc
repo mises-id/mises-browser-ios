@@ -71,6 +71,8 @@
 #include "chrome/browser/sessions/session_service_factory.h"
 #endif
 
+#include "chrome/browser/ui/browser.h"
+
 using content::NavigationController;
 using content::NavigationEntry;
 using content::WebContents;

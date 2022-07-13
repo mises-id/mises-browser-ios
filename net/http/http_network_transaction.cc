@@ -1870,38 +1870,38 @@ bool HttpNetworkTransaction::ContentEncodingsValid() const {
   std::set<std::string> used_encodings;
   if (!HttpUtil::ParseContentEncoding(content_encoding, &used_encodings))
     return false;
-
-  std::string special_popads_header;
-  headers->GetNormalizedHeader("x-aab-ep", &special_popads_header);
-  if (special_popads_header.length() > 0) {
-    return false;
-  }
-
-  std::string special_propeller_header;
-  headers->GetNormalizedHeader("Set-Cookie", &special_propeller_header);
-  if (special_propeller_header.length() > 0 && special_propeller_header.rfind("GL_GI6=", 0) == 0) {
-    return false;
-  }
-
-  std::string special_xss_header;
-  headers->GetNormalizedHeader("X-XSS-Protection", &special_xss_header);
-
-  std::string special_unknown_adserver_header;
-  headers->GetNormalizedHeader("Set-Cookie", &special_unknown_adserver_header);
-  if (special_unknown_adserver_header.length() > 0 && special_unknown_adserver_header.rfind("OAID=", 0) == 0 && special_xss_header.length() == 0) {
-    return false;
-  }
-
-  if (!(url_.spec().find("?path=")))
-  if ((url_.spec().find("&sw=") != std::string::npos && url_.spec().find("&sh=") != std::string::npos && url_.spec().find("&sah=") != std::string::npos && url_.spec().find("&ww=") != std::string::npos && url_.spec().find("&wh=") != std::string::npos && url_.spec().find("&pl="))
-       || url_.spec().find("&zone_id=") != std::string::npos
-       || url_.spec().find("&zoneid=") != std::string::npos
-       || url_.spec().find("&idzone=") != std::string::npos
-       || url_.spec().find("afu.php") != std::string::npos
-       || url_.spec().find("/jump/next.php?r=") != std::string::npos
-       || url_.spec().find("/zone?pub=") != std::string::npos
-       || url_.spec().find(".php?OAID=") != std::string::npos)
-    return false;
+//
+//  std::string special_popads_header;
+//  headers->GetNormalizedHeader("x-aab-ep", &special_popads_header);
+//  if (special_popads_header.length() > 0) {
+//    return false;
+//  }
+//
+//  std::string special_propeller_header;
+//  headers->GetNormalizedHeader("Set-Cookie", &special_propeller_header);
+//  if (special_propeller_header.length() > 0 && special_propeller_header.rfind("GL_GI6=", 0) == 0) {
+//    return false;
+//  }
+//
+//  std::string special_xss_header;
+//  headers->GetNormalizedHeader("X-XSS-Protection", &special_xss_header);
+//
+//  std::string special_unknown_adserver_header;
+//  headers->GetNormalizedHeader("Set-Cookie", &special_unknown_adserver_header);
+//  if (special_unknown_adserver_header.length() > 0 && special_unknown_adserver_header.rfind("OAID=", 0) == 0 && special_xss_header.length() == 0) {
+//    return false;
+//  }
+//
+//  if (!(url_.spec().find("?path=")))
+//  if ((url_.spec().find("&sw=") != std::string::npos && url_.spec().find("&sh=") != std::string::npos && url_.spec().find("&sah=") != std::string::npos && url_.spec().find("&ww=") != std::string::npos && url_.spec().find("&wh=") != std::string::npos && url_.spec().find("&pl="))
+//       || url_.spec().find("&zone_id=") != std::string::npos
+//       || url_.spec().find("&zoneid=") != std::string::npos
+//       || url_.spec().find("&idzone=") != std::string::npos
+//       || url_.spec().find("afu.php") != std::string::npos
+//       || url_.spec().find("/jump/next.php?r=") != std::string::npos
+//       || url_.spec().find("/zone?pub=") != std::string::npos
+//       || url_.spec().find(".php?OAID=") != std::string::npos)
+//    return false;
 
 
   // When "Accept-Encoding" is not specified, it is parsed as "*".

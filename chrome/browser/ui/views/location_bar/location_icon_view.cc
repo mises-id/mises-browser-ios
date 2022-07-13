@@ -277,7 +277,7 @@ void LocationIconView::Update(bool suppress_animations) {
   if (!is_editing_or_empty) {
     last_update_security_level_ =
         delegate_->GetLocationBarModel()->GetSecurityLevel();
-
+#if !defined(OS_ANDROID)
     // Show in-product help for the updated connection security icon.
     if (last_update_security_level_ == security_state::SECURE &&
         delegate_->GetLocationBarModel()
@@ -292,6 +292,7 @@ void LocationIconView::Update(bool suppress_animations) {
             feature_engagement::kIPHUpdatedConnectionSecurityIndicatorsFeature);
       }
     }
+#endif
   }
 
   was_editing_or_empty_ = is_editing_or_empty;

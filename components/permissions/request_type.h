@@ -22,13 +22,13 @@ namespace permissions {
 enum class RequestType {
   kAccessibilityEvents,
   kArSession,
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
   kCameraPanTiltZoom,
 #endif
   kCameraStream,
   kClipboard,
   kDiskQuota,
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
   kFileHandling,
   kFontAccess,
 #endif
@@ -44,16 +44,16 @@ enum class RequestType {
 #if defined(OS_ANDROID) || defined(OS_CHROMEOS) || defined(OS_WIN)
   kProtectedMediaIdentifier,
 #endif
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
   kRegisterProtocolHandler,
   kSecurityAttestation,
 #endif
   kStorageAccess,
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
   kU2fApiRequest,
 #endif
   kVrSession,
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
   kWindowPlacement,
   kMaxValue = kWindowPlacement
 #else
@@ -80,7 +80,7 @@ absl::optional<ContentSettingsType> RequestTypeToContentSettingsType(
 // Returns the icon to display.
 IconId GetIconId(RequestType type);
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // Returns the blocked icon to display.
 IconId GetBlockedIconId(RequestType type);
 #endif

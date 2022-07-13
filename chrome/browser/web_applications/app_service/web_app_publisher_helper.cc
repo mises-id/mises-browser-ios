@@ -1470,8 +1470,8 @@ void WebAppPublisherHelper::LaunchAppWithFilesCheckingUserPermission(
 
   switch (web_app->file_handler_approval_state()) {
     case ApiApprovalState::kRequiresPrompt:
-      chrome::ShowWebAppFileLaunchDialog(file_paths, profile(), app_id,
-                                         std::move(launch_callback));
+      //chrome::ShowWebAppFileLaunchDialog(file_paths, profile(), app_id,
+      //                                   std::move(launch_callback));
       break;
     case ApiApprovalState::kAllowed:
       std::move(launch_callback)

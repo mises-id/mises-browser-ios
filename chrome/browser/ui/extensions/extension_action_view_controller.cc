@@ -385,7 +385,7 @@ bool ExtensionActionViewController::CanHandleAccelerators() const {
     return IsEnabled(view_delegate_->GetCurrentWebContents());
 #endif
   if (extension_action_->action_type() == extensions::ActionInfo::TYPE_PAGE)
-    return IsEnabled(TabModelList::GetCurrentTabModel()->GetActiveWebContents());
+    return IsEnabled(view_delegate_->GetCurrentWebContents());
   return true;
 }
 

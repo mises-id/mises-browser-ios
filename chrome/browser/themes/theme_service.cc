@@ -291,6 +291,7 @@ base::RefCountedMemory* ThemeService::BrowserThemeProvider::GetRawData(
 
 absl::optional<SkColor>
 ThemeService::BrowserThemeProvider::GetColorProviderColor(int id) const {
+#if !defined(OS_ANDROID)
   if (base::FeatureList::IsEnabled(
           features::kColorProviderRedirectionForThemeProvider)) {
     if (auto provider_color_id = ThemeProviderColorIdToColorId(id)) {
@@ -303,6 +304,7 @@ ThemeService::BrowserThemeProvider::GetColorProviderColor(int id) const {
       return color_provider->GetColor(provider_color_id.value());
     }
   }
+#endif
   return absl::nullopt;
 }
 

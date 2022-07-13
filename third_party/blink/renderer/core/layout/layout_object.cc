@@ -718,8 +718,8 @@ LayoutObject* LayoutObject::CreateObject(Element* element,
          if (!content_settings_client)
            return nullptr;
 
-         if (!content_settings_client->AllowAds(true))
-           return nullptr;
+         //if (!content_settings_client->AllowAds(true))
+         //  return nullptr;
        } else {
            return nullptr;
        }

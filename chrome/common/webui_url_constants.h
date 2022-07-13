@@ -223,7 +223,7 @@ extern const char kChromeUISnippetsInternalsHost[];
 extern const char kChromeUIUntrustedVideoTutorialsHost[];
 extern const char kChromeUIUntrustedVideoPlayerUrl[];
 extern const char kChromeUIWebApksHost[];
-#else
+//#else
 extern const char kChromeUIAppServiceInternalsHost[];
 extern const char kChromeUINearbyInternalsHost[];
 extern const char kChromeUIReadLaterHost[];
@@ -456,7 +456,7 @@ extern const char kChromeUITabStripHost[];
 extern const char kChromeUITabStripURL[];
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kChromeUICommanderHost[];
 extern const char kChromeUICommanderURL[];
 extern const char kChromeUIDownloadShelfHost[];

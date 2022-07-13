@@ -76,7 +76,11 @@ AvatarToolbarButtonDelegate::~AvatarToolbarButtonDelegate() {
 
 std::u16string AvatarToolbarButtonDelegate::GetProfileName() const {
   DCHECK_NE(GetState(), AvatarToolbarButton::State::kIncognitoProfile);
+#if defined(OS_ANDROID)
+  return std::u16string();
+#else
   return profiles::GetAvatarNameForProfile(profile_->GetPath());
+#endif
 }
 
 std::u16string AvatarToolbarButtonDelegate::GetShortProfileName() const {

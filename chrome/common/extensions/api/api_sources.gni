@@ -70,7 +70,7 @@ schema_sources_ = [
   "windows.json",
 ]
 
-if (!is_android) {
+if (true || !is_android) {
   schema_sources_ += [ "processes.idl" ]
 }
 

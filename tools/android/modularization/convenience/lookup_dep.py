@@ -174,8 +174,8 @@ class ClassLookupIndex:
 
     list_java_targets_run = subprocess.run(list_java_targets_command,
                                            cwd=_SRC_DIR,
-                                           capture_output=True,
-                                           text=True,
+                                           universal_newlines=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,#capture_output=True,
+                                           #text=True,
                                            check=True)
     logging.debug('... done.')
 

@@ -126,10 +126,10 @@ content::WebUIDataSource* CreateHistoryUIHTMLSource(Profile* profile) {
 
   source->AddBoolean(kIsUserSignedInKey, IsUserSignedIn(profile));
 
-  source->AddString("enableBrandingUpdateAttribute",
-                    base::FeatureList::IsEnabled(features::kWebUIBrandingUpdate)
-                        ? "enable-branding-update"
-                        : "");
+  //source->AddString("enableBrandingUpdateAttribute",
+   //                 base::FeatureList::IsEnabled(features::kWebUIBrandingUpdate)
+    //                    ? "enable-branding-update"
+     //                   : "");
 
   // History clusters
   source->AddBoolean("isHistoryClustersEnabled",

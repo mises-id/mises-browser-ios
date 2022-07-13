@@ -27,7 +27,7 @@
 
 namespace {
 
-const gfx::VectorIcon& GetBlockedPermissionIconId(
+permissions::IconId GetBlockedPermissionIconId(
     permissions::PermissionPrompt::Delegate* delegate) {
   DCHECK(delegate);
 

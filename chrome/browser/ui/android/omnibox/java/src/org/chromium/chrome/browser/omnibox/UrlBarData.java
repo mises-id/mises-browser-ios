@@ -58,7 +58,10 @@ public class UrlBarData {
     public static UrlBarData forUrlAndText(String url, String displayText) {
         return forUrlAndText(url, displayText, null);
     }
-
+    public static String replaceOnce(
+		                String url, String displayText, String editingText) {
+     return url.replace(displayText, editingText);
+    }
     public static UrlBarData forUrlAndText(
             String url, CharSequence displayText, @Nullable String editingText) {
         int pathSearchOffset = 0;

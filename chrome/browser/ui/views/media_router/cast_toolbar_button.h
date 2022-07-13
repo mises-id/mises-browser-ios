@@ -89,8 +89,9 @@ class CastToolbarButton : public ToolbarButton,
   bool has_local_display_route_ = false;
 
   raw_ptr<const gfx::VectorIcon> icon_ = nullptr;
-
+#if !defined(OS_ANDROID)
   const raw_ptr<LoggerImpl> logger_;
+#endif
 };
 
 }  // namespace media_router

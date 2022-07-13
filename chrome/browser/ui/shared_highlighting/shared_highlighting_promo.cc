@@ -22,8 +22,8 @@ void OnGetExistingSelectorsComplete(
     base::WeakPtr<FeaturePromoController> feature_promo_controller,
     const std::vector<std::string>& selectors) {
   if (feature_promo_controller && selectors.size() > 0) {
-    feature_promo_controller->MaybeShowPromo(
-        feature_engagement::kIPHDesktopSharedHighlightingFeature);
+    //feature_promo_controller->MaybeShowPromo(
+    //    feature_engagement::kIPHDesktopSharedHighlightingFeature);
   }
 }
 
@@ -41,10 +41,10 @@ SharedHighlightingPromo::~SharedHighlightingPromo() = default;
 void SharedHighlightingPromo::DidFinishLoad(
     content::RenderFrameHost* render_frame_host,
     const GURL& validated_url) {
-  if (!base::FeatureList::IsEnabled(
-          feature_engagement::kIPHDesktopSharedHighlightingFeature)) {
-    return;
-  }
+  //if (!base::FeatureList::IsEnabled(
+  //        feature_engagement::kIPHDesktopSharedHighlightingFeature)) {
+  //  return;
+  //}
 
   if (HasTextFragment(validated_url.spec()))
     CheckExistingSelectors(render_frame_host);

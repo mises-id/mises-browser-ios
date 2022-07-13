@@ -112,7 +112,7 @@ class PasswordManagerPresenter
       const std::vector<std::string>& sort_keys,
       password_manager::PasswordManagerClient* client);
 
-#if !defined(OS_ANDROID)
+//#if !defined(OS_ANDROID)
   // Requests to reveal the plain text password corresponding to |sort_key|. If
   // |sort_key| is a valid key into |password_map_|, runs |callback| with the
   // corresponding value, or nullopt otherwise.
@@ -122,7 +122,7 @@ class PasswordManagerPresenter
       const std::string& sort_key,
       password_manager::PlaintextReason reason,
       base::OnceCallback<void(absl::optional<std::u16string>)> callback) const;
-#endif
+//#endif
 
   // Wrapper around |PasswordStore::AddLogin| that adds the corresponding undo
   // action to |undo_manager_|.

@@ -108,7 +108,7 @@ class BrowserTabStripController::TabContextMenuContents
     model_ = controller_->menu_model_factory_->Create(
         this, controller->browser()->tab_menu_model_delegate(),
         controller->model_, controller->tabstrip_->GetModelIndexOf(tab));
-
+#if !defined(OS_ANDROID)
     // If IPH is showing, continue into the menu. IsCommandIdAlerted()
     // is called on |menu_runner_| construction, and we check
     // |tab_groups_promo_handle_| there. So we must do this first.
@@ -118,7 +118,7 @@ class BrowserTabStripController::TabContextMenuContents
           feature_promo_controller_->CloseBubbleAndContinuePromo(
               feature_engagement::kIPHDesktopTabGroupsNewGroupFeature);
     }
-
+#endif
     // Because we use "new" badging for feature promos, we cannot use system-
     // native context menus. (See crbug.com/1109256.)
     const int run_flags =
@@ -351,7 +351,7 @@ void BrowserTabStripController::CloseTab(int model_index) {
   model_->CloseWebContentsAt(model_index,
                              TabStripModel::CLOSE_USER_GESTURE |
                              TabStripModel::CLOSE_CREATE_HISTORICAL_TAB);
-
+#if !defined(OS_ANDROID)
   // Try to show reading list IPH if needed.
   if (tabstrip_->GetTabCount() >= 7) {
     feature_engagement_tracker_->NotifyEvent(
@@ -360,6 +360,7 @@ void BrowserTabStripController::CloseTab(int model_index) {
     browser_view_->feature_promo_controller()->MaybeShowPromo(
         feature_engagement::kIPHReadingListEntryPointFeature);
   }
+#endif
 }
 
 void BrowserTabStripController::AddTabToGroup(
@@ -675,8 +676,10 @@ void BrowserTabStripController::OnTabGroupChanged(
   switch (change.type) {
     case TabGroupChange::kCreated: {
       tabstrip_->OnGroupCreated(change.group);
+#if !defined(OS_ANDROID)
       feature_engagement_tracker_->NotifyEvent(
           feature_engagement::events::kTabGroupCreated);
+#endif
       break;
     }
     case TabGroupChange::kEditorOpened: {
@@ -782,11 +785,11 @@ void BrowserTabStripController::AddTab(WebContents* contents,
 
   tabstrip_->AddTabAt(index, TabRendererData::FromTabInModel(model_, index),
                       is_active);
+#if !defined(OS_ANDROID)
   // Try to show tab groups IPH if needed.
   if (tabstrip_->GetTabCount() >= 6) {
     feature_engagement_tracker_->NotifyEvent(
         feature_engagement::events::kSixthTabOpened);
-
     browser_view_->feature_promo_controller()->MaybeShowPromo(
         feature_engagement::kIPHDesktopTabGroupsNewGroupFeature);
   }
@@ -797,4 +800,5 @@ void BrowserTabStripController::AddTab(WebContents* contents,
     browser_view_->feature_promo_controller()->MaybeShowPromo(
         feature_engagement::kIPHTabSearchFeature);
   }
+#endif
 }

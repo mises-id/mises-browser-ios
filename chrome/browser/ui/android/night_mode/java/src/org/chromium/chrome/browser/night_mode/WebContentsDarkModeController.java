@@ -146,6 +146,6 @@ public class WebContentsDarkModeController {
           nightModeSettings += "IsGrayScale=1,ImageGrayScalePercent=0.15,ImagePolicy=0,IncreaseTextContrast=1";
         }
 
-        SharedPreferencesManager.getInstance().writeStringUnchecked("night_mode_settings", nightModeSettings);
+        SharedPreferencesManager.getInstance().writeString("night_mode_settings", nightModeSettings);
     }
 }

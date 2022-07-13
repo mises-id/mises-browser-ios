@@ -958,7 +958,11 @@ bool BrowserView::GetGuestSession() const {
 }
 
 bool BrowserView::GetRegularOrGuestSession() const {
+#if defined(OS_ANDROID)
+  return true;
+#else	
   return profiles::IsRegularOrGuestSession(browser_.get());
+#endif
 }
 
 bool BrowserView::GetAccelerator(int cmd_id,
@@ -1402,8 +1406,10 @@ void BrowserView::OnTabRestored(int command_id) {
   if (command_id != AppMenuModel::kMinRecentTabsCommandId &&
       command_id != IDC_RESTORE_TAB)
     return;
+#if !defined(OS_ANDROID)
   feature_promo_controller_->CloseBubble(
       feature_engagement::kIPHReopenTabFeature);
+#endif
 }
 
 void BrowserView::ZoomChangedForActiveTab(bool can_show_bubble) {
@@ -1540,7 +1546,11 @@ void BrowserView::UpdateExclusiveAccessExitBubbleContent(
   // TODO(jamescook): Figure out what to do with mouse-lock.
   if (is_trusted_pinned || bubble_type == EXCLUSIVE_ACCESS_BUBBLE_TYPE_NONE ||
       (ShouldUseImmersiveFullscreenForUrl(url) &&
+#if defined(OS_ANDROID)
+	true)) {
+#else
        !profiles::IsPublicSession())) {
+#endif
     // |exclusive_access_bubble_.reset()| will trigger callback for current
     // bubble with |ExclusiveAccessBubbleHideReason::kInterrupted| if available.
     exclusive_access_bubble_.reset();
@@ -1883,6 +1893,7 @@ void BrowserView::FocusWebContentsPane() {
 
 bool BrowserView::ActivateFirstInactiveBubbleForAccessibility() {
   auto* const feature_bubble_owner = FeaturePromoBubbleOwnerImpl::GetInstance();
+#if !defined(OS_ANDROID)
   if (feature_bubble_owner->ToggleFocusForAccessibility()) {
     // Record that the user successfully used the accelerator to focus the
     // bubble, reducing the need to describe the accelerator the next time a
@@ -1892,7 +1903,7 @@ bool BrowserView::ActivateFirstInactiveBubbleForAccessibility() {
             feature_engagement::events::kFocusHelpBubbleAcceleratorPressed);
     return true;
   }
-
+#endif
   if (GetLocationBarView()->ActivateFirstInactiveBubbleForAccessibility())
     return true;
 
@@ -1964,9 +1975,10 @@ void BrowserView::OnFeatureEngagementTrackerInitialized(bool initialized) {
 void BrowserView::MaybeShowWebUITabStripIPH() {
   if (!webui_tab_strip_)
     return;
-
+#if !defined(OS_ANDROID)
   feature_promo_controller_->MaybeShowPromo(
       feature_engagement::kIPHWebUITabStripFeature);
+#endif
 }
 
 void BrowserView::MaybeShowReadingListInSidePanelIPH() {
@@ -1974,7 +1986,7 @@ void BrowserView::MaybeShowReadingListInSidePanelIPH() {
       !(browser_->window()->IsActive() ||
         FeaturePromoControllerViews::IsActiveWindowCheckBlockedForTesting()))
     return;
-
+#if !defined(OS_ANDROID)
   PrefService* pref_service = browser()->profile()->GetPrefs();
   if (pref_service &&
       pref_service->GetBoolean(
@@ -1982,6 +1994,7 @@ void BrowserView::MaybeShowReadingListInSidePanelIPH() {
     feature_promo_controller_->MaybeShowPromo(
         feature_engagement::kIPHReadingListInSidePanelFeature);
   }
+#endif
 }
 
 void BrowserView::DestroyBrowser() {
@@ -2614,12 +2627,14 @@ std::u16string BrowserView::GetAccessibleWindowTitleForChannelAndProfile(
         IDS_ACCESSIBLE_INCOGNITO_WINDOW_TITLE_FORMAT, title);
   } else if (!profile->IsOffTheRecord() &&
              profile_manager->GetNumberOfProfiles() > 1) {
+#if !defined(OS_ANDROID)
     std::u16string profile_name =
         profiles::GetAvatarNameForProfile(profile->GetPath());
     if (!profile_name.empty()) {
       title = l10n_util::GetStringFUTF16(
           IDS_ACCESSIBLE_WINDOW_TITLE_WITH_PROFILE_FORMAT, title, profile_name);
     }
+#endif
   }
 
   return title;
@@ -2654,11 +2669,13 @@ std::u16string BrowserView::GetAccessibleTabLabel(bool include_app_name,
   }
 
   // Tab has a pending permission request.
+#if !defined(OS_ANDROID)
   if (toolbar_ && toolbar_->location_bar() &&
       toolbar_->location_bar()->chip()) {
     return l10n_util::GetStringFUTF16(
         IDS_TAB_AX_LABEL_PERMISSION_REQUESTED_FORMAT, title);
   }
+#endif
 
   // Alert tab states.
   absl::optional<TabAlertState> alert = tabstrip_->GetTabAlertState(index);
@@ -3887,7 +3904,7 @@ void BrowserView::ShowAvatarBubbleFromAvatarButton(
   profiles::BubbleViewMode bubble_view_mode;
   profiles::BubbleViewModeFromAvatarBubbleMode(mode, GetProfile(),
                                                &bubble_view_mode);
-#if !BUILDFLAG(IS_CHROMEOS_ASH)
+#if !BUILDFLAG(IS_CHROMEOS_ASH) && !defined(OS_ANDROID)
   if (SigninViewController::ShouldShowSigninForMode(bubble_view_mode)) {
     browser_->signin_view_controller()->ShowSignin(bubble_view_mode,
                                                    access_point);

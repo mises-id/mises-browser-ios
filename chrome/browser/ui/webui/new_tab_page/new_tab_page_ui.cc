@@ -12,7 +12,7 @@
 #include "base/strings/stringprintf.h"
 #include "base/time/time.h"
 #include "chrome/browser/buildflags.h"
-#include "chrome/browser/cart/cart_handler.h"
+//#include "chrome/browser/cart/cart_handler.h"
 #include "chrome/browser/new_tab_page/modules/drive/drive_handler.h"
 #include "chrome/browser/new_tab_page/modules/photos/photos_handler.h"
 #include "chrome/browser/new_tab_page/modules/task_module/task_module_handler.h"
@@ -514,12 +514,12 @@ void NewTabPageUI::BindInterface(
 }
 #endif
 
-void NewTabPageUI::BindInterface(
-    mojo::PendingReceiver<chrome_cart::mojom::CartHandler>
-        pending_page_handler) {
-  cart_handler_ =
-      std::make_unique<CartHandler>(std::move(pending_page_handler), profile_);
-}
+//void NewTabPageUI::BindInterface(
+//    mojo::PendingReceiver<chrome_cart::mojom::CartHandler>
+//        pending_page_handler) {
+//  cart_handler_ =
+//      std::make_unique<CartHandler>(std::move(pending_page_handler), profile_);
+//}
 
 void NewTabPageUI::CreatePageHandler(
     mojo::PendingRemote<new_tab_page::mojom::Page> pending_page,

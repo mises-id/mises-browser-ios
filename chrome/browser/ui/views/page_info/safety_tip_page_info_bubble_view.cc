@@ -254,7 +254,7 @@ void SafetyTipPageInfoBubbleView::PrimaryPageChanged(content::Page& page) {
 void SafetyTipPageInfoBubbleView::DidChangeVisibleSecurityState() {
   // Do nothing. (Base class closes the bubble.)
 }
-
+#if !defined(OS_ANDROID)
 void ShowSafetyTipDialog(
     content::WebContents* web_contents,
     security_state::SafetyTipStatus safety_tip_status,
@@ -282,7 +282,7 @@ void ShowSafetyTipDialog(
   bubble->SetArrow(configuration.bubble_arrow);
   bubble->GetWidget()->Show();
 }
-
+#endif
 PageInfoBubbleViewBase* CreateSafetyTipBubbleForTesting(
     gfx::NativeView parent_view,
     content::WebContents* web_contents,

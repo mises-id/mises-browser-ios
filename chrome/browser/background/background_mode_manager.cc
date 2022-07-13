@@ -643,7 +643,9 @@ void BackgroundModeManager::ExecuteCommand(int command_id, int event_flags) {
     case IDC_EXIT:
       RecordMenuItemClick(MENU_ITEM_EXIT);
       base::RecordAction(UserMetricsAction("Exit"));
+ #if !defined(OS_ANDROID)
       chrome::CloseAllBrowsers();
+ #endif
       break;
     case IDC_STATUS_TRAY_KEEP_CHROME_RUNNING_IN_BACKGROUND: {
       // Background mode must already be enabled (as otherwise this menu would

@@ -126,6 +126,7 @@ void StarView::ExecuteCommand(ExecuteSource source) {
   if (reading_list::switches::IsReadingListEnabled() &&
       !base::FeatureList::IsEnabled(features::kReadLaterAddFromDialog) &&
       !base::FeatureList::IsEnabled(features::kSidePanel)) {
+#if !defined(OS_ANDROID)
     FeaturePromoController* feature_promo_controller =
         browser_->window()->GetFeaturePromoController();
     if (feature_promo_controller &&
@@ -148,6 +149,7 @@ void StarView::ExecuteCommand(ExecuteSource source) {
         feature_engagement::TrackerFactory::GetForBrowserContext(
             browser_->profile());
     tracker->NotifyEvent(feature_engagement::events::kBookmarkStarMenuOpened);
+ #endif
   } else {
     chrome::BookmarkCurrentTab(browser_);
   }

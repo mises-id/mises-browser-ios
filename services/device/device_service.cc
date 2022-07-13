@@ -227,6 +227,9 @@ void DeviceService::BindHidManager(
     hid_manager_->AddReceiver(std::move(receiver));
   }
 }
+#else
+void DeviceService::BindHidManager(
+		    mojo::PendingReceiver<mojom::HidManager> receiver) {}
 #endif
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)

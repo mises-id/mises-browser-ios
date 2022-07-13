@@ -593,7 +593,9 @@ component("views") {
       sources += [ "controls/views_text_services_context_menu_chromeos.cc" ]
     }
   }
-
+  if (is_android) {
+    sources += ["widget/native_widget_android.cc",]
+  }
   if (is_mac) {
     public += [
       "cocoa/native_widget_mac_ns_window_host.h",

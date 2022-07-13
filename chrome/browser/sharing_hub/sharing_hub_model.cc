@@ -174,11 +174,11 @@ void SharingHubModel::PopulateFirstPartyActions() {
        &kSendTabToSelfIcon, true, gfx::ImageSkia(),
        "SharingHubDesktop.SendTabToSelfSelected"});
 
-  first_party_action_list_.push_back(
-      {IDC_QRCODE_GENERATOR,
-       l10n_util::GetStringUTF16(IDS_OMNIBOX_QRCODE_GENERATOR_ICON_LABEL),
-       &kQrcodeGeneratorIcon, true, gfx::ImageSkia(),
-       "SharingHubDesktop.QRCodeSelected"});
+  //first_party_action_list_.push_back(
+   //   {IDC_QRCODE_GENERATOR,
+   //    l10n_util::GetStringUTF16(IDS_OMNIBOX_QRCODE_GENERATOR_ICON_LABEL),
+   //    &kQrcodeGeneratorIcon, true, gfx::ImageSkia(),
+   //    "SharingHubDesktop.QRCodeSelected"});
 
   if (media_router::MediaRouterEnabled(context_)) {
     first_party_action_list_.push_back(

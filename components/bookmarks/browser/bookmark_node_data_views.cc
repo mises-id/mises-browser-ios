@@ -14,7 +14,7 @@
 #include "url/url_constants.h"
 
 namespace bookmarks {
-
+#if defined(TOOLKIT_VIEWS)
 // static
 const ui::ClipboardFormatType& BookmarkNodeData::GetBookmarkFormatType() {
   static const base::NoDestructor<ui::ClipboardFormatType> format(
@@ -66,5 +66,5 @@ bool BookmarkNodeData::Read(const ui::OSExchangeData& data) {
 
   return is_valid();
 }
-
+#endif
 }  // namespace bookmarks

@@ -111,7 +111,7 @@ public class ToolbarSwipeLayout extends Layout {
                     (info) -> {
                     }, mLeftTabSupplier, mBrowserControlsStateProvider,
                     () -> mRenderHost.getResourceManager(), topUiColorProvider,
-                    LayoutType.TOOLBAR_SWIPE, true);
+                    true);
             mLeftToolbarOverlay.setManualVisibility(true);
             layoutManager.addSceneOverlay(mLeftToolbarOverlay);
 
@@ -119,7 +119,7 @@ public class ToolbarSwipeLayout extends Layout {
                     (info) -> {
                     }, mRightTabSupplier, mBrowserControlsStateProvider,
                     () -> mRenderHost.getResourceManager(), topUiColorProvider,
-                    LayoutType.TOOLBAR_SWIPE, true);
+                    true);
             mRightToolbarOverlay.setManualVisibility(true);
             layoutManager.addSceneOverlay(mRightToolbarOverlay);
         }

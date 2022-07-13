@@ -95,13 +95,13 @@ std::vector<DiscoveryNetworkInfo> GetDiscoveryNetworkInfoList() {
   std::vector<DiscoveryNetworkInfo> network_ids;
 
   struct ifaddrs* if_list;
-  if (getifaddrs(&if_list)) {
-    return network_ids;
-  }
+ // if (getifaddrs(&if_list)) {
+ //   return network_ids;
+ // }
 
-  GetDiscoveryNetworkInfoListImpl(if_list, &network_ids);
-  StableSortDiscoveryNetworkInfo(network_ids.begin(), network_ids.end());
-  freeifaddrs(if_list);
+//  GetDiscoveryNetworkInfoListImpl(if_list, &network_ids);
+//  StableSortDiscoveryNetworkInfo(network_ids.begin(), network_ids.end());
+//  freeifaddrs(if_list);
   return network_ids;
 }
 

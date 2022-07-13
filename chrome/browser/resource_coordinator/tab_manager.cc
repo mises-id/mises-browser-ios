@@ -181,9 +181,9 @@ void TabManager::Start() {
                            weak_ptr_factory_.GetWeakPtr())));
   }
 
-  g_browser_process->resource_coordinator_parts()
-      ->tab_lifecycle_unit_source()
-      ->Start();
+  //g_browser_process->resource_coordinator_parts()
+  //    ->tab_lifecycle_unit_source()
+  //    ->Start();
 }
 
 LifecycleUnitVector TabManager::GetSortedLifecycleUnits() {

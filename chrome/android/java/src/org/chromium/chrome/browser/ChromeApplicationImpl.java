@@ -60,9 +60,9 @@ public class ChromeApplicationImpl extends SplitCompatApplication.Impl {
 
         boolean migrateToDarkTheme = ContextUtils.getAppSharedPreferences().getString("active_theme", "").equals("Diamond Black");
         if (migrateToDarkTheme) {
-            SharedPreferencesManager.getInstance().writeIntUnchecked("previous_ui_theme_setting", ThemeType.DARK);
+            SharedPreferencesManager.getInstance().writeInt("previous_ui_theme_setting", ThemeType.DARK);
             SharedPreferencesManager.getInstance().writeInt("ui_theme_setting", ThemeType.DARK);
-            SharedPreferencesManager.getInstance().writeStringUnchecked("active_theme", "");
+            SharedPreferencesManager.getInstance().writeString("active_theme", "");
         }
 
         if (SplitCompatApplication.isBrowserProcess()) {

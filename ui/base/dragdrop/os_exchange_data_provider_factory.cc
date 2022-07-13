@@ -16,6 +16,8 @@
 #include "ui/base/dragdrop/os_exchange_data_provider_win.h"
 #endif
 
+#include "ui/base/dragdrop/os_exchange_data_provider_android.h"
+
 namespace ui {
 
 // static
@@ -39,7 +41,8 @@ OSExchangeDataProviderFactory::CreateProvider() {
   // TODO(crbug.com/980371): Implement OSExchangeDataProvider for Fuchsia.
   return std::make_unique<OSExchangeDataProviderNonBacked>();
 #else
-#error "Unknown operating system"
+ //#error "Unknown operating system"
+ return std::make_unique<OSExchangeDataProviderAndroid>();
 #endif
 }
 

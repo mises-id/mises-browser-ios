@@ -53,7 +53,7 @@ class COMPONENT_EXPORT(UI_BASE) OSExchangeData {
     FILE_NAME      = 1 << 2,
     PICKLED_DATA   = 1 << 3,
     FILE_CONTENTS  = 1 << 4,
-#if defined(USE_AURA)
+#if true || defined(USE_AURA)
     HTML           = 1 << 5,
 #endif
   };
@@ -176,7 +176,7 @@ class COMPONENT_EXPORT(UI_BASE) OSExchangeData {
       const;
 #endif
 
-#if defined(USE_AURA)
+#if true ||defined(USE_AURA)
   // Adds a snippet of HTML.  |html| is just raw html but this sets both
   // text/html and CF_HTML.
   void SetHtml(const std::u16string& html, const GURL& base_url);

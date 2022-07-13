@@ -110,6 +110,8 @@ static_library("content") {
     sources += [
       "secure_payment_confirmation_no_creds_view_stub.cc",
       "secure_payment_confirmation_view_stub.cc",
+      "payment_request_state.cc",
+      "payment_request_state.h",
     ]
   } else {
     sources += [

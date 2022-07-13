@@ -95,10 +95,12 @@ void DownloadDangerPrompt::SendSafeBrowsingDownloadReport(
   report->set_download_verdict(download_verdict);
   report->set_url(download.GetURL().spec());
   report->set_did_proceed(did_proceed);
+#if BUILDFLAG(FULL_SAFE_BROWSING)
   std::string token =
       safe_browsing::DownloadProtectionService::GetDownloadPingToken(&download);
   if (!token.empty())
     report->set_token(token);
+#endif
   std::string serialized_report;
   if (report->SerializeToString(&serialized_report)) {
     sb_service->SendSerializedDownloadReport(profile, serialized_report);

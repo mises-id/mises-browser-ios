@@ -449,8 +449,8 @@ const PrefsUtil::TypedPrefMap& PrefsUtil::GetAllowlistedKeys() {
   (*s_allowlist)[::prefs::kAccessibilityFocusHighlightEnabled] =
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
 #endif
-  (*s_allowlist)[::prefs::kCaretBrowsingEnabled] =
-      settings_api::PrefType::PREF_TYPE_BOOLEAN;
+  //(*s_allowlist)[::prefs::kCaretBrowsingEnabled] =
+   //   settings_api::PrefType::PREF_TYPE_BOOLEAN;
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
   // Accounts / Users / People.

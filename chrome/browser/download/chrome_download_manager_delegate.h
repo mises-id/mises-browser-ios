@@ -78,7 +78,7 @@ class ChromeDownloadManagerDelegate
                           DownloadLocationDialogType dialog_type,
                           const base::FilePath& suggested_path,
                           bool supports_later_dialog,
-                          DownloadDialogBridge::DialogCallback callback);
+                          DownloadDialogBridge::DialogCallback callback,download::DownloadItem* item);
 
   void SetDownloadDialogBridgeForTesting(DownloadDialogBridge* bridge);
 #endif

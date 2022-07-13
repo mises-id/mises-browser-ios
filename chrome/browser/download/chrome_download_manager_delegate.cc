@@ -451,7 +451,7 @@ void ChromeDownloadManagerDelegate::ShowDownloadDialog(
     DownloadLocationDialogType dialog_type,
     const base::FilePath& suggested_path,
     bool supports_later_dialog,
-    DownloadDialogBridge::DialogCallback callback) {
+    DownloadDialogBridge::DialogCallback callback, download::DownloadItem* item) {
   DCHECK(download_dialog_bridge_);
   auto connection_type = net::NetworkChangeNotifier::GetConnectionType();
   bool show_date_time_picker = DownloadDialogBridge::ShouldShowDateTimePicker();
@@ -464,7 +464,7 @@ void ChromeDownloadManagerDelegate::ShowDownloadDialog(
   download_dialog_bridge_->ShowDialog(
       native_window, total_bytes, connection_type, dialog_type, suggested_path,
       supports_later_dialog, show_date_time_picker, is_incognito,
-      std::move(callback));
+      std::move(callback), item);
 }
 
 void ChromeDownloadManagerDelegate::SetDownloadDialogBridgeForTesting(
@@ -1101,7 +1101,7 @@ void ChromeDownloadManagerDelegate::RequestConfirmation(
     ShowDownloadDialog(
         native_window, download->GetTotalBytes(), dialog_type, suggested_path,
         ShouldShowDownloadLaterDialog(download),
-        base::BindOnce(&OnDownloadDialogClosed, std::move(callback)));
+        base::BindOnce(&OnDownloadDialogClosed, std::move(callback)), download);
     return;
 
 #else   // !OS_ANDROID
@@ -1176,7 +1176,7 @@ void ChromeDownloadManagerDelegate::GenerateUniqueFileNameDone(
           native_window, 0 /* total_bytes */,
           DownloadLocationDialogType::NAME_CONFLICT, target_path,
           show_download_later_dialog,
-          base::BindOnce(&OnDownloadDialogClosed, std::move(callback)));
+          base::BindOnce(&OnDownloadDialogClosed, std::move(callback)), NULL);
       return;
     }
 

@@ -346,12 +346,12 @@ void PasswordCheckDelegate::StartPasswordCheck(
     std::move(callback).Run(State::kRunning);
     return;
   }
-
+#if !defined(OS_ANDROID)
   // Start the weakness check, and notify observers once done.
   insecure_credentials_manager_.StartWeakCheck(base::BindOnce(
       &PasswordCheckDelegate::RecordAndNotifyAboutCompletedWeakPasswordCheck,
       weak_ptr_factory_.GetWeakPtr()));
-
+#endif
   auto progress = base::MakeRefCounted<PasswordCheckProgress>();
   for (const auto& password : saved_passwords_presenter_->GetSavedPasswords())
     progress->IncrementCounts(password);

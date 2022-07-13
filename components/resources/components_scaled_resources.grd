@@ -20,7 +20,7 @@
       <part file="version_ui_scaled_resources.grdp" />
 
       <!-- Generic resources -->
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <structure type="chrome_scaled_image" name="IDR_HISTORY_FAVICON" file="favicon_history.png" />
       </if>
       <structure type="chrome_scaled_image" name="IDR_SAD_WEBVIEW" file="webview-crash.png" />

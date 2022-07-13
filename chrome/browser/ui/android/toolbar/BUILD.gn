@@ -94,6 +94,7 @@ android_library("java") {
     "java/src/org/chromium/chrome/browser/toolbar/top/TopToolbarOverlayProperties.java",
     "java/src/org/chromium/chrome/browser/toolbar/top/TopToolbarSceneLayer.java",
     "java/src/org/chromium/chrome/browser/toolbar/top/ViewShiftingActionBarDelegate.java",
+    "java/src/org/chromium/chrome/browser/toolbar/top/HandButton.java",
   ]
 
   deps = [
@@ -243,6 +244,11 @@ android_resources("java_resources") {
     "java/res/values/styles.xml",
     "java/res/values/values.xml",
     "java/res/xml/adaptive_toolbar_preference.xml",
+    "java/res/drawable-xxxhdpi/btn_toolbar_hand.png",
+    "java/res/drawable-xhdpi/btn_toolbar_hand.png",
+    "java/res/drawable-hdpi/btn_toolbar_hand.png",
+    "java/res/drawable-xxhdpi/btn_toolbar_hand.png",
+    "java/res/drawable-mdpi/btn_toolbar_hand.png",
   ]
 
   deps = [

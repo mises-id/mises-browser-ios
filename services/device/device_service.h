@@ -167,10 +167,10 @@ class DeviceService : public mojom::DeviceService {
   void BindVibrationManager(
       mojo::PendingReceiver<mojom::VibrationManager> receiver) override;
 
-#if !defined(OS_ANDROID)
+//#if !defined(OS_ANDROID)
   void BindHidManager(
       mojo::PendingReceiver<mojom::HidManager> receiver) override;
-#endif
+//#endif
 
 #if BUILDFLAG(IS_CHROMEOS_ASH)
   void BindBluetoothSystemFactory(

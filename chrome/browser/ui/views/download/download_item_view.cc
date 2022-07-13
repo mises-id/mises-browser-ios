@@ -1428,8 +1428,10 @@ void DownloadItemView::ShowContextMenuImpl(const gfx::Rect& rect,
 }
 
 void DownloadItemView::OpenDownloadDuringAsyncScanning() {
+#if BUILDFLAG(FULL_SAFE_BROWSING)  
   model_->CompleteSafeBrowsingScan();
   model_->SetOpenWhenComplete(true);
+#endif
 }
 
 bool DownloadItemView::SubmitDownloadToFeedbackService(

@@ -693,7 +693,9 @@ config("compiler") {
       if (is_mac) {
         ldflags +=
             [ "-Wl,-cache_path_lto," +
-              rebase_path("$root_out_dir/thinlto-cache", root_build_dir) ]
+              rebase_path("$root_out_dir/thinlto-cache", root_build_dir),
+              "-Wcrl,object_path_lto",
+            ]
       } else {
         ldflags +=
             [ "-Wl,--thinlto-cache-dir=" +
@@ -750,7 +752,7 @@ config("compiler") {
   # Pass flag to LLD so Android builds can allow debuggerd to properly symbolize
   # stack crashes (http://crbug.com/919499).
   if (use_lld && is_android) {
-    ldflags += [ "-Wl,--no-rosegment" ]
+    ldflags += [ "-Wl,--no-rosegment", "-Wl,--error-limit=0" ]
   }
 
   # LLD does call-graph-sorted binary layout by default when profile data is

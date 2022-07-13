@@ -78,7 +78,7 @@ import org.chromium.chrome.browser.compositor.layouts.LayoutManagerChromeTablet;
 import org.chromium.chrome.browser.compositor.layouts.LayoutManagerImpl;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeBehavior;
 import org.chromium.chrome.browser.compositor.layouts.OverviewModeController;
-import org.chromium.chrome.browser.compositor.layouts.phone.StackLayout;
+//import org.chromium.chrome.browser.compositor.layouts.phone.StackLayout;
 import org.chromium.chrome.browser.cookies.CookiesFetcher;
 import org.chromium.chrome.browser.crypto.CipherFactory;
 import org.chromium.chrome.browser.dependency_injection.ChromeActivityComponent;
@@ -2428,9 +2428,9 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
     private void hideOverview() {
         assert (mOverviewModeController.overviewVisible());
         Layout activeLayout = mLayoutManager.getActiveLayout();
-        if (activeLayout instanceof StackLayout) {
-            ((StackLayout) activeLayout).commitOutstandingModelState(LayoutManagerImpl.time());
-        }
+        //if (activeLayout instanceof StackLayout) {
+        //    ((StackLayout) activeLayout).commitOutstandingModelState(LayoutManagerImpl.time());
+        //}
         if (getCurrentTabModel().getCount() != 0) {
             // Don't hide overview if current tab stack is empty()
             mOverviewModeController.hideOverview(true);

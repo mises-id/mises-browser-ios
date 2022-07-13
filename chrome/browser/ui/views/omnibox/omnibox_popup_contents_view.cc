@@ -216,7 +216,11 @@ void OmniboxPopupContentsView::OpenMatch(
 gfx::Image OmniboxPopupContentsView::GetMatchIcon(
     const AutocompleteMatch& match,
     SkColor vector_icon_color) const {
+#if defined(OS_ANDROID)
+  return gfx::Image();
+#else
   return edit_model_->GetMatchIcon(match, vector_icon_color);
+#endif
 }
 
 void OmniboxPopupContentsView::SetSelectedIndex(size_t index) {

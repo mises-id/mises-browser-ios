@@ -545,7 +545,7 @@ AutofillPrivateMigrateCreditCardsFunction::Run() {
 
   // Get local card migration manager from form data importer.
   autofill::LocalCardMigrationManager* local_card_migration_manager =
-      form_data_importer->local_card_migration_manager();
+    NULL; // form_data_importer->local_card_migration_manager();
   if (!local_card_migration_manager)
     return RespondNow(Error(kErrorDataUnavailable));
 

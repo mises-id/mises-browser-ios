@@ -721,10 +721,11 @@ bool OverlayAgentViews::UpdateHighlight(
   layer_for_highlighting_screen_offset_ =
       widget->GetContentsView()->GetBoundsInScreen().OffsetFromOrigin();
 #else
-  gfx::NativeWindow root = window_and_bounds.first->GetRootWindow();
-  root_layer = root->layer();
-  layer_for_highlighting_screen_offset_ =
-      root->GetBoundsInScreen().OffsetFromOrigin();
+  return false;
+  //gfx::NativeWindow root = window_and_bounds.first->GetRootWindow();
+  //root_layer = root->layer();
+  //layer_for_highlighting_screen_offset_ =
+  //    root->GetBoundsInScreen().OffsetFromOrigin();
 #endif  // defined(OS_APPLE)
   DCHECK(root_layer);
 

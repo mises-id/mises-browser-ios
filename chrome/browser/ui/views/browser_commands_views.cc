@@ -34,6 +34,10 @@ views::View* GetActiveWindowRootView(const Browser* browser) {
   NSWindow* active_window = platform_util::GetActiveWindow();
   if (!active_window)
     return nullptr;
+#else 
+  gfx::NativeWindow active_window;
+  if (true)
+    return nullptr;
 #endif
 
   views::Widget* widget =

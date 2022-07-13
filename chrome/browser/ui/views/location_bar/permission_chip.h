@@ -30,8 +30,8 @@ class PermissionChip : public views::AccessiblePaneView,
  protected:
   // Holds all parameters needed for a chip initialization.
   struct DisplayParams {
-    const gfx::VectorIcon& icon_on;
-    const gfx::VectorIcon& icon_off;
+	  permissions::IconId icon_on;
+	  permissions::IconId icon_off;
     std::u16string message;
     bool should_start_open;
     bool is_prominent;

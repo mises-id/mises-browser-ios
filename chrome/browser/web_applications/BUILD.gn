@@ -165,6 +165,12 @@ source_set("web_applications") {
     "web_application_info.cc",
     "web_application_info.h",
   ]
+   
+  if (is_android) {
+    sources += [
+      "web_app_stubs.cc",
+    ]
+  }
 
   if (is_chromeos_ash || is_chromeos_lacros) {
     sources += [

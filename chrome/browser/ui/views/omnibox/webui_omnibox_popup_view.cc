@@ -21,12 +21,16 @@ WebUIOmniboxPopupView::WebUIOmniboxPopupView(
 }
 
 OmniboxPopupHandler* WebUIOmniboxPopupView::GetWebUIHandler() {
+#if defined(OS_ANDROID)
+  return NULL;
+#else
   OmniboxUI* const omnibox_ui =
       static_cast<OmniboxUI*>(GetWebContents()->GetWebUI()->GetController());
   OmniboxPopupHandler* handler = omnibox_ui->popup_handler();
 
   DCHECK(handler);
   return handler;
+ #endif
 }
 
 BEGIN_METADATA(WebUIOmniboxPopupView, views::WebView)

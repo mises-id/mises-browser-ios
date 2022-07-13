@@ -5,7 +5,7 @@
 import("//build/config/locales.gni")
 import("//extensions/buildflags/buildflags.gni")
 import("//tools/grit/grit_rule.gni")
-
+assert(is_android)
 assert(enable_extensions)
 
 grit("strings") {

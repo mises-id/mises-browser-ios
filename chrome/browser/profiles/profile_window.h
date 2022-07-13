@@ -16,7 +16,8 @@
 #include "chrome/browser/ui/startup/startup_types.h"
 
 #if defined(OS_ANDROID)
-#error "Not used on Android"
+//#error "Not used on Android"
+#include "chrome/browser/ui/browser_list_observer.h"
 #endif
 
 class Profile;

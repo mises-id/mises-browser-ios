@@ -246,7 +246,7 @@ const base::Feature kDMServerOAuthForChildUser{
     "DMServerOAuthForChildUser", base::FEATURE_ENABLED_BY_DEFAULT};
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // Whether to allow installed-by-default web apps to be installed or not.
 const base::Feature kPreinstalledWebAppInstallation{
     "DefaultWebAppInstallation", base::FEATURE_ENABLED_BY_DEFAULT};
@@ -420,7 +420,7 @@ const base::Feature kEnterpriseReportingExtensionManifestVersion{
     "EnterpriseReportingExtensionManifestVersion",
     base::FEATURE_DISABLED_BY_DEFAULT};
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 // Lazy initialize IndividualSettings for extensions from enterprise policy
 // that are not installed.
 const base::Feature kExtensionDeferredIndividualSettings{
@@ -626,7 +626,7 @@ const base::Feature kIncognitoBrandConsistencyForAndroid{
 const base::Feature kIncognitoNtpRevamp{"IncognitoNtpRevamp",
                                         base::FEATURE_DISABLED_BY_DEFAULT};
 
-#if defined(OS_MAC) || defined(OS_WIN) || defined(OS_LINUX) || \
+#if true || defined(OS_MAC) || defined(OS_WIN) || defined(OS_LINUX) || \
     defined(OS_CHROMEOS) || defined(OS_FUCHSIA)
 // When enabled, removes any theme or background customization done by the user
 // on the Incognito UI.
@@ -1092,7 +1092,7 @@ const base::Feature kUserActivityEventLogging{"UserActivityEventLogging",
                                               base::FEATURE_ENABLED_BY_DEFAULT};
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 const base::Feature kWebAppManifestIconUpdating{
     "WebAppManifestIconUpdating", base::FEATURE_DISABLED_BY_DEFAULT};
 #endif  // defined(OS_ANDROID)

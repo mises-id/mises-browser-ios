@@ -960,6 +960,7 @@ class JNIFromJavaSource(object):
   @staticmethod
   def CreateFromFile(java_file_name, options):
     with open(java_file_name) as f:
+      print(java_file_name)
       contents = f.read()
     fully_qualified_class = ExtractFullyQualifiedJavaClassName(
         java_file_name, contents)

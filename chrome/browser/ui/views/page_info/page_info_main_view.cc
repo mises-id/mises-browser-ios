@@ -85,6 +85,7 @@ PageInfoMainView::PageInfoMainView(
 
   int link_text_id = 0;
   int tooltip_text_id = 0;
+#if !defined(OS_ANDROID)
   if (ui_delegate_->ShouldShowSiteSettings(&link_text_id, &tooltip_text_id)) {
     site_settings_link_ = AddChildView(std::make_unique<PageInfoHoverButton>(
         base::BindRepeating(
@@ -98,7 +99,7 @@ PageInfoMainView::PageInfoMainView(
         /*tooltip_text=*/l10n_util::GetStringUTF16(tooltip_text_id),
         std::u16string(), PageInfoViewFactory::GetLaunchIcon()));
   }
-
+#endif
   if (base::FeatureList::IsEnabled(page_info::kPageInfoAboutThisSite)) {
     about_this_site_section_ = AddChildView(CreateContainerView());
   }

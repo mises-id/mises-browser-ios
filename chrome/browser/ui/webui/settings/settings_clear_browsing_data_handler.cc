@@ -173,11 +173,11 @@ void ClearBrowsingDataHandler::GetRecentlyLaunchedInstalledApps(
   browsing_data::TimePeriod time_period =
       static_cast<browsing_data::TimePeriod>(period_selected);
 
-  auto installed_apps =
-      site_engagement::ImportantSitesUtil::GetInstalledRegisterableDomains(
-          time_period, profile_, kMaxInstalledAppsToWarnOf);
+  //auto installed_apps =
+  //    site_engagement::ImportantSitesUtil::GetInstalledRegisterableDomains(
+  //        time_period, profile_, kMaxInstalledAppsToWarnOf);
 
-  OnGotInstalledApps(webui_callback_id, installed_apps);
+  //OnGotInstalledApps(webui_callback_id, installed_apps);
 }
 
 void ClearBrowsingDataHandler::OnGotInstalledApps(

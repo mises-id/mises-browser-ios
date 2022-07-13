@@ -19,7 +19,7 @@
 #include "third_party/abseil-cpp/absl/types/optional.h"
 
 #if defined(OS_ANDROID)
-#error "Instant is only used on desktop";
+//#error "Instant is only used on desktop";
 #endif
 
 // Helper class for logging data from the NTP. Attached to each NTP instance.

@@ -692,7 +692,10 @@ public class TabModelImpl extends TabModelJniBridge {
             if (!mRewoundTabs.isEmpty()) return 0;
             return INVALID_TAB_INDEX;
         }
-
+    @Override
+            public int getLastNonExtensionActiveIndex() {
+		                            return INVALID_TAB_INDEX;
+					                                }
         @Override
         public int getCount() {
             return mRewoundTabs.size();
@@ -854,6 +857,11 @@ public class TabModelImpl extends TabModelJniBridge {
     public int index() {
         return mIndex;
     }
+
+    @Override
+        public int getLastNonExtensionActiveIndex() {
+		        return INVALID_TAB_INDEX;
+			    }
 
     @Override
     protected boolean isSessionRestoreInProgress() {

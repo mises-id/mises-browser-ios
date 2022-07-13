@@ -227,7 +227,7 @@ void UnloadController::CancelWindowClose() {
     std::move(on_close_confirmed_).Run(false);
   is_attempting_to_close_browser_ = false;
 
-  chrome::OnClosingAllBrowsers(false);
+  //chrome::OnClosingAllBrowsers(false);
 }
 
 ////////////////////////////////////////////////////////////////////////////////

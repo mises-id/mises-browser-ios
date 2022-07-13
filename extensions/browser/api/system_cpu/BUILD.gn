@@ -38,6 +38,10 @@ source_set("system_cpu") {
     sources += [ "cpu_info_provider_win.cc" ]
   }
 
+  if (is_android) {
+    sources += [ "cpu_info_provider_android.cc" ]
+  }
+
   if (is_chromeos) {
     deps += [ "//chromeos/system" ]
   }

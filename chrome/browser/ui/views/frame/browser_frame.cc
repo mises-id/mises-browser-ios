@@ -366,6 +366,7 @@ void BrowserFrame::OnTouchUiChanged() {
 }
 
 void BrowserFrame::SelectNativeTheme() {
+#if !defined(OS_ANDROID)
   // Select between regular, dark and GTK theme.
   ui::NativeTheme* native_theme = ui::NativeTheme::GetInstanceForNativeUi();
 
@@ -398,6 +399,7 @@ void BrowserFrame::SelectNativeTheme() {
 #endif
 
   SetNativeTheme(native_theme);
+#endif
 }
 
 bool BrowserFrame::RegenerateFrameOnThemeChange(

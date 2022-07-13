@@ -268,7 +268,7 @@ import org.chromium.components.browser_ui.site_settings.WebsitePreferenceBridge;
 import org.chromium.components.browser_ui.site_settings.WebsitePreferenceBridgeJni;
 import org.chromium.ui.widget.Toast;
 
-import org.chromium.chrome.browser.AppMenuBridge;
+import org.chromium.base.natives.GEN_JNI;
 
 /**
  * A {@link AsyncInitializationActivity} that builds and manages a {@link CompositorViewHolder}
@@ -749,10 +749,10 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             // of our control, so we have to disable StrictMode to work. See
             // https://crbug.com/639352.
             try (StrictModeContext ignored = StrictModeContext.allowDiskWrites()) {
-                SharedPreferencesManager.getInstance().writeBooleanUnchecked("is_tablet", DeviceFormFactor.isTablet());
+                SharedPreferencesManager.getInstance().writeBoolean("is_tablet", DeviceFormFactor.isTablet());
                 TraceEvent.begin("setContentView(R.layout.main)");
                 if (ContextUtils.getAppSharedPreferences().getBoolean("enable_bottom_toolbar", false)) {
-                    setContentView(R.layout.main_bottombar);
+                    //setContentView(R.layout.main_bottombar);
                 } else {
                     setContentView(R.layout.main);
                 }
@@ -1831,7 +1831,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         return mNativeInitialized;
     }
 
-    @Override
+    //@Override
     public void setLastItemTitle(String itemTitle) {
         mMenuTitleCondensed = itemTitle;
     }
@@ -2522,11 +2522,11 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             if (tab != null) {
                 WebContents webContents = tab.getWebContents();
                 LaunchMetrics.commitLaunchMetrics(webContents);
-                AppMenuBridge.grantExtensionActiveTab(Profile.fromWebContents(webContents).getOriginalProfile(), webContents, extensionId);
+                GEN_JNI.org_chromium_chrome_browser_AppMenuBridge_grantExtensionActiveTab(Profile.fromWebContents(webContents).getOriginalProfile(), webContents, extensionId);
                 if (!extensionUrl.equals(""))
                   getCurrentTabCreator().launchUrl(extensionUrl, TabLaunchType.FROM_CHROME_UI);
                 else
-                  AppMenuBridge.callExtension(Profile.fromWebContents(webContents).getOriginalProfile(), webContents, extensionId);
+                  GEN_JNI.org_chromium_chrome_browser_AppMenuBridge_callExtension(Profile.fromWebContents(webContents).getOriginalProfile(), webContents, extensionId);
                 return true;
             }
             return false;
@@ -2848,11 +2848,11 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         }
 
         if (id == R.id.developer_tools_id) {
-            AppMenuBridge.openDevTools(currentTab.getWebContents());
+            GEN_JNI.org_chromium_chrome_browser_AppMenuBridge_openDevTools(currentTab.getWebContents());
         }
 
         if (id == R.id.disable_proxy_id) {
-            AppMenuBridge.disableProxy(Profile.fromWebContents(currentTab.getWebContents()).getOriginalProfile());
+            GEN_JNI.org_chromium_chrome_browser_AppMenuBridge_disableProxy(Profile.fromWebContents(currentTab.getWebContents()).getOriginalProfile());
         }
 
         if (id == R.id.auto_dark_web_contents_id || id == R.id.auto_dark_web_contents_check_id) {
@@ -2902,7 +2902,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                           R.color.media_viewer_bg)));
               int currentTheme = ContextUtils.getAppSharedPreferences().getInt("ui_theme_setting", 0);
               SharedPreferencesManager.getInstance().writeBooleanSync("darken_websites_enabled", true);
-              SharedPreferencesManager.getInstance().writeIntUnchecked("previous_ui_theme_setting", currentTheme);
+              SharedPreferencesManager.getInstance().writeInt("previous_ui_theme_setting", currentTheme);
               SharedPreferencesManager.getInstance().writeInt("ui_theme_setting", ThemeType.DARK);
             } else {
               getWindow().setBackgroundDrawable(new ColorDrawable(

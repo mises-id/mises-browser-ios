@@ -2584,6 +2584,7 @@ static_library("browser") {
   if (is_android) {
     sources += [
       "after_startup_task_utils_android.cc",
+      "android/app_menu_bridge.cc",
       "android/accessibility/font_size_prefs_android.cc",
       "android/accessibility/font_size_prefs_android.h",
       "android/android_theme_resources.h",
@@ -3570,7 +3571,8 @@ static_library("browser") {
       ]
       deps += [ "//chrome/android/modules/dev_ui/provider:native" ]
     }
-  } else {
+  } 
+  if (true) {
     #!is_android
     if (!is_chromeos_lacros) {
       sources += [
@@ -3588,14 +3590,14 @@ static_library("browser") {
       "accessibility/caption_bubble_context_browser.h",
       "accessibility/invert_bubble_prefs.cc",
       "accessibility/invert_bubble_prefs.h",
-      "accessibility/live_caption_controller_factory.cc",
-      "accessibility/live_caption_controller_factory.h",
-      "accessibility/live_caption_speech_recognition_host.cc",
-      "accessibility/live_caption_speech_recognition_host.h",
-      "accuracy_tips/accuracy_service_delegate.cc",
-      "accuracy_tips/accuracy_service_delegate.h",
-      "accuracy_tips/accuracy_service_factory.cc",
-      "accuracy_tips/accuracy_service_factory.h",
+      #"accessibility/live_caption_controller_factory.cc",
+      #"accessibility/live_caption_controller_factory.h",
+      #"accessibility/live_caption_speech_recognition_host.cc",
+      #"accessibility/live_caption_speech_recognition_host.h",
+      #"accuracy_tips/accuracy_service_delegate.cc",
+      #"accuracy_tips/accuracy_service_delegate.h",
+      #"accuracy_tips/accuracy_service_factory.cc",
+      #"accuracy_tips/accuracy_service_factory.h",
       "apps/app_discovery_service/app_discovery_features.cc",
       "apps/app_discovery_service/app_discovery_features.h",
       "apps/app_discovery_service/app_discovery_service.cc",
@@ -3686,30 +3688,30 @@ static_library("browser") {
       "banners/app_banner_manager_desktop.h",
       "bookmarks/bookmark_html_writer.cc",
       "bookmarks/bookmark_html_writer.h",
-      "cart/cart_db.cc",
-      "cart/cart_db.h",
-      "cart/cart_discount_fetcher.cc",
-      "cart/cart_discount_fetcher.h",
-      "cart/cart_discount_link_fetcher.cc",
-      "cart/cart_discount_link_fetcher.h",
-      "cart/cart_discount_metric_collector.cc",
-      "cart/cart_discount_metric_collector.h",
-      "cart/cart_features.cc",
-      "cart/cart_features.h",
-      "cart/cart_handler.cc",
-      "cart/cart_handler.h",
-      "cart/cart_metrics_tracker.cc",
-      "cart/cart_metrics_tracker.h",
-      "cart/cart_service.cc",
-      "cart/cart_service.h",
-      "cart/cart_service_factory.cc",
-      "cart/cart_service_factory.h",
-      "cart/commerce_hint_service.cc",
-      "cart/commerce_hint_service.h",
-      "cart/discount_url_loader.cc",
-      "cart/discount_url_loader.h",
-      "cart/fetch_discount_worker.cc",
-      "cart/fetch_discount_worker.h",
+      #"cart/cart_db.cc",
+      #"cart/cart_db.h",
+      #"cart/cart_discount_fetcher.cc",
+      #"cart/cart_discount_fetcher.h",
+      #"cart/cart_discount_link_fetcher.cc",
+      #"cart/cart_discount_link_fetcher.h",
+      #"cart/cart_discount_metric_collector.cc",
+      #"cart/cart_discount_metric_collector.h",
+      #"cart/cart_features.cc",
+      #"cart/cart_features.h",
+      #"cart/cart_handler.cc",
+      #"cart/cart_handler.h",
+      #"cart/cart_metrics_tracker.cc",
+      #"cart/cart_metrics_tracker.h",
+      #"cart/cart_service.cc",
+      #"cart/cart_service.h",
+      #"cart/cart_service_factory.cc",
+      #"cart/cart_service_factory.h",
+      #"cart/commerce_hint_service.cc",
+      #"cart/commerce_hint_service.h",
+      #"cart/discount_url_loader.cc",
+      #"cart/discount_url_loader.h",
+      #"cart/fetch_discount_worker.cc",
+      #"cart/fetch_discount_worker.h",
       "certificate_viewer.h",
       "chrome_process_singleton.cc",
       "chrome_process_singleton.h",
@@ -3773,8 +3775,8 @@ static_library("browser") {
       "download/default_download_dir_policy_handler.h",
       "download/download_commands.cc",
       "download/download_commands.h",
-      "download/download_crx_util.cc",
-      "download/download_crx_util.h",
+      #"download/download_crx_util.cc",
+      #"download/download_crx_util.h",
       "download/download_danger_prompt.cc",
       "download/download_danger_prompt.h",
       "download/download_dir_policy_handler.cc",
@@ -3798,13 +3800,13 @@ static_library("browser") {
       "download/offline_item_model_manager_factory.h",
       "enterprise/connectors/analysis/analysis_service_settings.cc",
       "enterprise/connectors/analysis/analysis_service_settings.h",
-      "enterprise/connectors/analysis/content_analysis_delegate.cc",
-      "enterprise/connectors/analysis/content_analysis_delegate.h",
-      "enterprise/connectors/analysis/content_analysis_delegate_base.h",
-      "enterprise/connectors/analysis/content_analysis_dialog.cc",
-      "enterprise/connectors/analysis/content_analysis_dialog.h",
-      "enterprise/connectors/analysis/content_analysis_downloads_delegate.cc",
-      "enterprise/connectors/analysis/content_analysis_downloads_delegate.h",
+     # "enterprise/connectors/analysis/content_analysis_delegate.cc",
+     # "enterprise/connectors/analysis/content_analysis_delegate.h",
+     # "enterprise/connectors/analysis/content_analysis_delegate_base.h",
+     # "enterprise/connectors/analysis/content_analysis_dialog.cc",
+     # "enterprise/connectors/analysis/content_analysis_dialog.h",
+     # "enterprise/connectors/analysis/content_analysis_downloads_delegate.cc",
+     # "enterprise/connectors/analysis/content_analysis_downloads_delegate.h",
       "enterprise/connectors/common.cc",
       "enterprise/connectors/common.h",
       "enterprise/connectors/connectors_manager.cc",
@@ -3911,24 +3913,24 @@ static_library("browser") {
       "hid/web_hid_histograms.h",
       "icon_transcoder/svg_icon_transcoder.cc",
       "icon_transcoder/svg_icon_transcoder.h",
-      "importer/external_process_importer_client.cc",
-      "importer/external_process_importer_client.h",
-      "importer/external_process_importer_host.cc",
-      "importer/external_process_importer_host.h",
-      "importer/firefox_profile_lock.cc",
-      "importer/firefox_profile_lock.h",
-      "importer/importer_list.cc",
-      "importer/importer_list.h",
-      "importer/importer_lock_dialog.h",
-      "importer/importer_progress_observer.h",
-      "importer/importer_uma.cc",
-      "importer/importer_uma.h",
-      "importer/in_process_importer_bridge.cc",
-      "importer/in_process_importer_bridge.h",
-      "importer/profile_writer.cc",
-      "importer/profile_writer.h",
-      "intranet_redirect_detector.cc",
-      "intranet_redirect_detector.h",
+      #"importer/external_process_importer_client.cc",
+      #"importer/external_process_importer_client.h",
+      #"importer/external_process_importer_host.cc",
+      #"importer/external_process_importer_host.h",
+      #"importer/firefox_profile_lock.cc",
+      #"importer/firefox_profile_lock.h",
+      #"importer/importer_list.cc",
+      #"importer/importer_list.h",
+      #"importer/importer_lock_dialog.h",
+      #"importer/importer_progress_observer.h",
+      #"importer/importer_uma.cc",
+      #"importer/importer_uma.h",
+      #"importer/in_process_importer_bridge.cc",
+      #"importer/in_process_importer_bridge.h",
+      #"importer/profile_writer.cc",
+      #"importer/profile_writer.h",
+      #"intranet_redirect_detector.cc",
+      #"intranet_redirect_detector.h",
       "lifetime/browser_close_manager.cc",
       "lifetime/browser_close_manager.h",
       "lifetime/termination_notification.cc",
@@ -3947,8 +3949,8 @@ static_library("browser") {
       "media/webrtc/desktop_media_picker_factory_impl.h",
       "media/webrtc/display_media_access_handler.cc",
       "media/webrtc/display_media_access_handler.h",
-      "media/webrtc/media_stream_focus_delegate.cc",
-      "media/webrtc/media_stream_focus_delegate.h",
+      #"media/webrtc/media_stream_focus_delegate.cc",
+      #"media/webrtc/media_stream_focus_delegate.h",
       "media/webrtc/tab_desktop_media_list.cc",
       "media/webrtc/tab_desktop_media_list.h",
       "media_galleries/fileapi/av_scanning_file_validator.cc",
@@ -4008,7 +4010,7 @@ static_library("browser") {
       "metrics/desktop_session_duration/touch_mode_stats_tracker.h",
       "metrics/first_web_contents_profiler.cc",
       "metrics/first_web_contents_profiler.h",
-      "metrics/incognito_observer_desktop.cc",
+      #"metrics/incognito_observer_desktop.cc",
       "metrics/power/power_metrics_reporter.cc",
       "metrics/power/power_metrics_reporter.h",
       "metrics/tab_stats/tab_stats_data_store.cc",
@@ -4129,21 +4131,21 @@ static_library("browser") {
       "profile_resetter/triggered_profile_resetter.h",
       "profile_resetter/triggered_profile_resetter_factory.cc",
       "profile_resetter/triggered_profile_resetter_factory.h",
-      "profiles/profile_shortcut_manager.cc",
-      "profiles/profile_shortcut_manager.h",
-      "profiles/profile_theme_update_service.cc",
-      "profiles/profile_theme_update_service.h",
-      "profiles/profile_theme_update_service_factory.cc",
-      "profiles/profile_theme_update_service_factory.h",
-      "profiles/profile_window.cc",
-      "profiles/profile_window.h",
+      #"profiles/profile_shortcut_manager.cc",
+      #"profiles/profile_shortcut_manager.h",
+      #"profiles/profile_theme_update_service.cc",
+      #"profiles/profile_theme_update_service.h",
+      #"profiles/profile_theme_update_service_factory.cc",
+      #"profiles/profile_theme_update_service_factory.h",
+      #"profiles/profile_window.cc",
+      #"profiles/profile_window.h",
       "renderer_context_menu/accessibility_labels_bubble_model.cc",
       "renderer_context_menu/accessibility_labels_bubble_model.h",
       "renderer_context_menu/accessibility_labels_menu_observer.cc",
       "renderer_context_menu/accessibility_labels_menu_observer.h",
       "renderer_context_menu/link_to_text_menu_observer.cc",
       "renderer_context_menu/link_to_text_menu_observer.h",
-      "renderer_context_menu/render_view_context_menu.cc",
+      #"renderer_context_menu/render_view_context_menu.cc",
       "renderer_context_menu/render_view_context_menu.h",
       "renderer_context_menu/spelling_bubble_model.cc",
       "renderer_context_menu/spelling_bubble_model.h",
@@ -4188,8 +4190,8 @@ static_library("browser") {
       "resource_coordinator/tab_metrics_logger.h",
       "resource_coordinator/usage_clock.cc",
       "resource_coordinator/usage_clock.h",
-      "resources_integrity.cc",
-      "resources_integrity.h",
+     # "resources_integrity.cc",
+     # "resources_integrity.h",
       "safe_browsing/generated_safe_browsing_pref.cc",
       "safe_browsing/generated_safe_browsing_pref.h",
       "search/background/ntp_background_data.cc",
@@ -4222,17 +4224,17 @@ static_library("browser") {
       "send_tab_to_self/desktop_notification_handler.h",
       "send_tab_to_self/send_tab_to_self_desktop_util.cc",
       "send_tab_to_self/send_tab_to_self_desktop_util.h",
-      "serial/chrome_serial_delegate.cc",
-      "serial/chrome_serial_delegate.h",
-      "serial/serial_blocklist.cc",
-      "serial/serial_blocklist.h",
-      "serial/serial_chooser_context.cc",
-      "serial/serial_chooser_context.h",
-      "serial/serial_chooser_context_factory.cc",
-      "serial/serial_chooser_context_factory.h",
-      "serial/serial_chooser_histograms.h",
-      "serial/serial_policy_allowed_ports.cc",
-      "serial/serial_policy_allowed_ports.h",
+      #"serial/chrome_serial_delegate.cc",
+      #"serial/chrome_serial_delegate.h",
+      #"serial/serial_blocklist.cc",
+      #"serial/serial_blocklist.h",
+      #"serial/serial_chooser_context.cc",
+      #"serial/serial_chooser_context.h",
+      #"serial/serial_chooser_context_factory.cc",
+      #"serial/serial_chooser_context_factory.h",
+      #"serial/serial_chooser_histograms.h",
+      #"serial/serial_policy_allowed_ports.cc",
+      #"serial/serial_policy_allowed_ports.h",
       "sessions/closed_tab_cache.cc",
       "sessions/closed_tab_cache.h",
       "sessions/closed_tab_cache_service.cc",
@@ -4288,8 +4290,8 @@ static_library("browser") {
       "sharing_hub/sharing_hub_service.h",
       "sharing_hub/sharing_hub_service_factory.cc",
       "sharing_hub/sharing_hub_service_factory.h",
-      "signin/signin_promo.cc",
-      "signin/signin_promo.h",
+      #"signin/signin_promo.cc",
+      #"signin/signin_promo.h",
       "signin/signin_ui_util.cc",
       "signin/signin_ui_util.h",
       "speech/chrome_speech_recognition_service.cc",
@@ -4425,9 +4427,9 @@ static_library("browser") {
       "themes/theme_service_observer.h",
       "themes/theme_syncable_service.cc",
       "themes/theme_syncable_service.h",
-      "upgrade_detector/build_state.cc",
-      "upgrade_detector/build_state.h",
-      "upgrade_detector/build_state_observer.h",
+      #"upgrade_detector/build_state.cc",
+      #"upgrade_detector/build_state.h",
+      #"upgrade_detector/build_state_observer.h",
       "upgrade_detector/upgrade_detector.cc",
       "upgrade_detector/upgrade_detector.h",
       "upgrade_detector/upgrade_observer.h",
@@ -4470,7 +4472,7 @@ static_library("browser") {
       "//chrome/browser/share/core:share_targets",
       "//chrome/browser/share/proto:proto",
       "//chrome/browser/ui/color:color_headers",
-      "//chrome/browser/ui/webui/access_code_cast:mojo_bindings",
+      #"//chrome/browser/ui/webui/access_code_cast:mojo_bindings",
       "//chrome/browser/ui/webui/tab_strip:mojo_bindings",
       "//chrome/browser/web_applications",
       "//chrome/browser/web_applications/app_service",
@@ -4485,7 +4487,7 @@ static_library("browser") {
       "//components/feedback/content:factory",
       "//components/image_fetcher/core",
       "//components/keep_alive_registry",
-      "//components/live_caption",
+      #"//components/live_caption",
       "//components/memory_pressure",
       "//components/pref_registry",
       "//components/services/app_service:lib",
@@ -4500,8 +4502,8 @@ static_library("browser") {
       "//components/services/app_service/public/cpp:protocol_handling",
       "//components/services/app_service/public/cpp:publisher",
       "//components/shared_highlighting/core/common",
-      "//components/soda",
-      "//components/soda:constants",
+      #"//components/soda",
+      #"//components/soda:constants",
       "//components/ukm/content",
       "//components/web_modal",
       "//courgette:courgette_lib",
@@ -4536,10 +4538,10 @@ static_library("browser") {
     # On Windows, the hashes are embedded in //chrome:chrome_initial rather
     # than here in :chrome_dll.
     if (!is_win) {
-      deps += [ "//chrome:packed_resources_integrity" ]
+      #deps += [ "//chrome:packed_resources_integrity" ]
     }
 
-    if (is_posix) {
+    if (!is_android && is_posix) {
       sources += [
         "chrome_browser_main_posix.cc",
         "chrome_browser_main_posix.h",
@@ -6170,6 +6172,9 @@ static_library("browser") {
       "background/background_mode_optimizer.cc",
       "background/background_mode_optimizer.h",
     ]
+    if (is_android) {
+      sources += [ "background/background_mode_manager_android.cc" ]
+    }
     if (is_win) {
       sources += [ "background/background_mode_manager_win.cc" ]
     }
@@ -6933,7 +6938,7 @@ static_library("browser") {
     }
   }
 
-  if (enable_session_service) {
+  if (true || enable_session_service) {
     sources += [
       "sessions/app_session_service.cc",
       "sessions/app_session_service.h",
@@ -7355,8 +7360,10 @@ grit("resources") {
   }
 
   if (is_android) {
-    deps +=
-        [ "//chrome/browser/ui/webui/explore_sites_internals:mojo_bindings_js" ]
+    deps += [ 
+      "//chrome/browser/ui/webui/explore_sites_internals:mojo_bindings_js",
+      "//chrome/browser/resources/inline_login:web_components",
+    ]
   }
   if (!is_android) {
     deps +=
@@ -7893,7 +7900,7 @@ if (is_android) {
   }
 }
 
-if (!is_android) {
+if (true || !is_android) {
   proto_library("cart_db_content_proto") {
     sources = [ "cart/cart_db_content.proto" ]
   }

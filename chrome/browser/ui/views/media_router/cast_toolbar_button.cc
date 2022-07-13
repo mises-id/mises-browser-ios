@@ -65,8 +65,11 @@ CastToolbarButton::CastToolbarButton(
       MediaRoutesObserver(media_router),
       browser_(browser),
       profile_(browser_->profile()),
-      context_menu_(std::move(context_menu)),
-      logger_(media_router->GetLogger()) {
+      context_menu_(std::move(context_menu))
+#if !defined(OS_ANDROID)
+      ,logger_(media_router->GetLogger()) 
+#endif
+{
   button_controller()->set_notify_action(
       views::ButtonController::NotifyAction::kOnPress);
 
@@ -225,6 +228,7 @@ void CastToolbarButton::ButtonPressed() {
 }
 
 void CastToolbarButton::LogIconChange(const gfx::VectorIcon* icon) {
+#if !defined(OS_ANDROID)  
   if (icon_ == &vector_icons::kMediaRouterIdleIcon) {
     logger_->LogInfo(
         mojom::LogCategory::kUi, kLoggerComponent,
@@ -243,6 +247,7 @@ void CastToolbarButton::LogIconChange(const gfx::VectorIcon* icon) {
   } else {
     NOTREACHED();
   }
+#endif
 }
 
 BEGIN_METADATA(CastToolbarButton, ToolbarButton)

@@ -23,8 +23,8 @@
 #include "chrome/browser/hid/hid_chooser_context_factory.h"
 #include "chrome/browser/permissions/permission_manager_factory.h"
 #include "chrome/browser/profiles/profile.h"
-#include "chrome/browser/serial/serial_chooser_context.h"
-#include "chrome/browser/serial/serial_chooser_context_factory.h"
+//#include "chrome/browser/serial/serial_chooser_context.h"
+//#include "chrome/browser/serial/serial_chooser_context_factory.h"
 #include "chrome/browser/subresource_filter/subresource_filter_profile_context_factory.h"
 #include "chrome/browser/usb/usb_chooser_context.h"
 #include "chrome/browser/usb/usb_chooser_context_factory.h"
@@ -349,10 +349,10 @@ permissions::ObjectPermissionContextBase* GetUsbChooserContext(
   return UsbChooserContextFactory::GetForProfile(profile);
 }
 
-permissions::ObjectPermissionContextBase* GetSerialChooserContext(
-    Profile* profile) {
-  return SerialChooserContextFactory::GetForProfile(profile);
-}
+//permissions::ObjectPermissionContextBase* GetSerialChooserContext(
+//    Profile* profile) {
+//  return SerialChooserContextFactory::GetForProfile(profile);
+//}
 
 permissions::ObjectPermissionContextBase* GetHidChooserContext(
     Profile* profile) {
@@ -374,7 +374,7 @@ permissions::ObjectPermissionContextBase* GetBluetoothChooserContext(
 
 const ChooserTypeNameEntry kChooserTypeGroupNames[] = {
     {&GetUsbChooserContext, kUsbChooserDataGroupType},
-    {&GetSerialChooserContext, kSerialChooserDataGroupType},
+    //{&GetSerialChooserContext, kSerialChooserDataGroupType},
     {&GetHidChooserContext, kHidChooserDataGroupType},
     {&GetBluetoothChooserContext, kBluetoothChooserDataGroupType}};
 
@@ -560,9 +560,9 @@ std::unique_ptr<base::DictionaryValue> GetExceptionForPage(
   DCHECK(!setting_string.empty());
   exception->SetString(kSetting, setting_string);
 
-  exception->SetString(site_settings::kSettingDetail,
-                       content_settings::GetPermissionDetailString(
-                           profile, content_type, GURL(pattern.ToString())));
+  //exception->SetString(site_settings::kSettingDetail,
+  //                     content_settings::GetPermissionDetailString(
+  //                         profile, content_type, GURL(pattern.ToString())));
   exception->SetString(kSource, provider_name);
   exception->SetBoolean(kIncognito, incognito);
   exception->SetBoolean(kIsEmbargoed, is_embargoed);

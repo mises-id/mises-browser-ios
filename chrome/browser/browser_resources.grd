@@ -8,7 +8,7 @@
   </outputs>
   <release seq="1">
     <structures>
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <!-- New Tab Page WebUI. -->
         <structure name="IDR_INCOGNITO_TAB_HTML" file="resources\ntp4\incognito_tab.html" flattenhtml="true" type="chrome_html" />
         <structure name="IDR_REVAMPED_INCOGNITO_TAB_HTML" file="resources\ntp4\revamped_incognito_tab.html" flattenhtml="true" type="chrome_html" />
@@ -45,7 +45,7 @@
         <include name="IDR_ABOUT_NACL_CSS" file="resources\about_nacl\about_nacl.css" type="chrome_html" />
         <include name="IDR_ABOUT_NACL_JS" file="resources\about_nacl\about_nacl.js" type="BINDATA" />
       </if>
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <include name="IDR_ABOUT_SYS_HTML" file="resources\about_sys\about_sys.html" type="BINDATA" />
         <include name="IDR_ABOUT_SYS_CSS" file="resources\about_sys\about_sys.css" flattenhtml="true" type="BINDATA" />
         <include name="IDR_ABOUT_SYS_JS" file="resources\about_sys\about_sys.js" preprocess="true" type="BINDATA" />
@@ -89,7 +89,7 @@
         <include name="IDR_HANGOUT_SERVICES_MANIFEST" file="resources\hangout_services\manifest.json" type="BINDATA" />
       </if>
 
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <!-- Page not available for guest. -->
         <include name="IDR_PAGE_NOT_AVAILABLE_FOR_GUEST_APP_HTML" file="resources\page_not_available_for_guest\app.html" type="BINDATA" />
         <!-- In-session login flow -->
@@ -250,7 +250,7 @@
         <include name="IDR_PRODUCT_CHROMEOS_SYNC_CONSENT_SCREEN_ICONS" file="internal\resources\chromeos-sync-consent-icons.html" type="BINDATA" />
         <include name="IDR_PRODUCT_CHROMEOS_SYNC_CONSENT_SCREEN_ICONS_M_JS" file="internal\resources\chromeos-sync-consent-icons.m.js" type="BINDATA" />
       </if>
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <include name="IDR_IDENTITY_INTERNALS_HTML" file="resources\identity_internals\identity_internals.html" type="BINDATA" />
         <include name="IDR_IDENTITY_INTERNALS_CSS" file="resources\identity_internals\identity_internals.css" type="BINDATA" />
         <include name="IDR_IDENTITY_INTERNALS_JS" file="resources\identity_internals\identity_internals.js" type="BINDATA" />
@@ -322,7 +322,7 @@
         </if>
         <include name="IDR_BRAILLE_MANIFEST" file="resources\chromeos\accessibility\braille_ime\manifest.json" type="BINDATA" />
       </if>
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <include name="IDR_MEDIA_ROUTER_INTERNALS_HTML" file="resources\media_router\media_router_internals.html" type="BINDATA" />
         <include name="IDR_MEDIA_ROUTER_INTERNALS_CSS" file="resources\media_router\media_router_internals.css" type="BINDATA" />
         <include name="IDR_MEDIA_ROUTER_INTERNALS_JS" file="resources\media_router\media_router_internals.js" type="BINDATA" />
@@ -370,10 +370,10 @@
         <include name="IDR_RESET_PASSWORD_JS" file="resources\reset_password\reset_password.js" type="BINDATA" />
         <include name="IDR_RESET_PASSWORD_MOJOM_WEBUI_JS" file="${root_gen_dir}\mojom-webui\chrome\browser\ui\webui\reset_password\reset_password.mojom-webui.js" use_base_dir="false" type="BINDATA" />
       </if>
-      <if expr="not is_android">
+      <!-- if expr="not is_android" -->
         <include name="IDR_TAB_RANKER_EXAMPLE_PREPROCESSOR_CONFIG_PB" file="resource_coordinator\tab_ranker\example_preprocessor_config.pb" type="BINDATA" />
         <include name="IDR_TAB_RANKER_PAIRWISE_EXAMPLE_PREPROCESSOR_CONFIG_PB" file="resource_coordinator\tab_ranker\pairwise_preprocessor_config.pb" type="BINDATA" />
-      </if>
+      <!-- /if-->
       <if expr="chromeos">
         <include name="IDR_SMART_DIM_20190521_EXAMPLE_PREPROCESSOR_CONFIG_PB" file="ash\power\ml\smart_dim\20190521_example_preprocessor_config.pb" type="BINDATA" />
         <include name="IDR_SEARCH_RANKER_20190923_EXAMPLE_PREPROCESSOR_CONFIG_PB" file="ui\app_list\search\search_result_ranker\search_ranker_assets\20190923_example_preprocessor_config.pb" type="BINDATA" />
@@ -395,7 +395,7 @@
         <!-- Chrome Cart -->
         <part file="cart/resources/cart_resources.grdp" />
       </if>
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <include name="IDR_DESKTOP_SHARING_HUB_PB" file="${root_gen_dir}\chrome\browser\share\core\resources\desktop_sharing_hub.pb" use_base_dir="false" type="BINDATA" compress="gzip" />
         <include name="IDR_IMAGE_EDITOR_HTML" file="resources\image_editor\image_editor.html" type="BINDATA" />
         <include name="IDR_IMAGE_EDITOR_UNTRUSTED_HTML" file="resources\image_editor\untrusted\untrusted.html" type="BINDATA" />

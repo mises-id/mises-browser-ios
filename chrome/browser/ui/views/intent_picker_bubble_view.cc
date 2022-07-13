@@ -500,6 +500,7 @@ void IntentPickerBubbleView::UpdateCheckboxState() {
   // there is a central Chrome OS apps registry to store persistence.
   // TODO(crbug.com/1000037): allow to persist remote devices too.
   bool should_enable = false;
+#if !defined(OS_ANDROID)
   if (base::FeatureList::IsEnabled(features::kIntentPickerPWAPersistence)) {
     should_enable = true;
   } else {
@@ -507,6 +508,7 @@ void IntentPickerBubbleView::UpdateCheckboxState() {
     should_enable = selected_app_type != apps::PickerEntryType::kWeb &&
                     selected_app_type != apps::PickerEntryType::kDevice;
   }
+#endif
   // Reset the checkbox state to the default unchecked if becomes disabled.
   if (!should_enable)
     remember_selection_checkbox_->SetChecked(false);

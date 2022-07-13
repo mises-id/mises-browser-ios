@@ -27,7 +27,9 @@
 #include "chrome/browser/ui/views/media_router/cast_dialog_sink_button.h"
 #include "chrome/browser/ui/views/media_router/cast_toolbar_button.h"
 #include "chrome/browser/ui/views/toolbar/toolbar_view.h"
+#if !defined(OS_ANDROID)
 #include "chrome/browser/ui/webui/access_code_cast/access_code_cast_ui.h"
+#endif
 #include "chrome/grit/generated_resources.h"
 #include "components/media_router/browser/media_router_metrics.h"
 #include "components/media_router/common/media_sink.h"
@@ -287,11 +289,13 @@ void CastDialogView::ShowAccessCodeCastDialog() {
       preferred_cast_mode = MediaCastMode::LOCAL_FILE;
       break;
   }
-
+#if !defined(OS_ANDROID)
   AccessCodeCastDialog::Show(preferred_cast_mode);
+#endif
 }
 
 void CastDialogView::MaybeShowAccessCodeCastButton() {
+#if !defined(OS_ANDROID)
   if (!base::FeatureList::IsEnabled(features::kAccessCodeCastUI))
     return;
   if (!GetAccessCodeCastEnabledPref(profile_->GetPrefs()))
@@ -303,6 +307,7 @@ void CastDialogView::MaybeShowAccessCodeCastButton() {
   access_code_cast_button_ =
       new CastDialogAccessCodeCastButton(callback, profile_->GetPrefs());
   AddChildView(access_code_cast_button_.get());
+#endif
 }
 
 void CastDialogView::ShowNoSinksView() {

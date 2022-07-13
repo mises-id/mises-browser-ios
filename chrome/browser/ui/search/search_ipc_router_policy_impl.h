@@ -10,7 +10,7 @@
 #include "chrome/browser/ui/search/search_ipc_router.h"
 
 #if defined(OS_ANDROID)
-#error "Instant is only used on desktop";
+//#error "Instant is only used on desktop";
 #endif
 
 namespace content {

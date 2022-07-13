@@ -68,7 +68,7 @@ COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kAppManagementIntentSettings;
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kAppServiceExternalProtocol;
 COMPONENT_EXPORT(CHROME_FEATURES)
@@ -89,7 +89,7 @@ extern const base::Feature kArcPiGhostWindow;
 
 COMPONENT_EXPORT(CHROME_FEATURES) extern const base::Feature kAsyncDns;
 
-#if defined(OS_WIN) || defined(OS_MAC) || defined(OS_LINUX) || \
+#if true || defined(OS_WIN) || defined(OS_MAC) || defined(OS_LINUX) || \
     defined(OS_CHROMEOS) || defined(OS_FUCHSIA)
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kAutofillAddressSurvey;
@@ -175,7 +175,7 @@ COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kDMServerOAuthForChildUser;
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kPreinstalledWebAppInstallation;
 #endif
@@ -268,7 +268,7 @@ extern const base::Feature kEnableRestrictedWebApis;
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kEnableWebAppUninstallFromOsSettings;
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kExtensionDeferredIndividualSettings;
 #endif
@@ -303,7 +303,7 @@ extern const base::Feature
     kGiveJavaUiThreadDefaultTaskTraitsUserBlockingPriority;
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kHappinessTrackingSurveysForDesktopDemo;
 
@@ -413,7 +413,7 @@ extern const base::Feature kIncognitoBrandConsistencyForAndroid;
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kIncognitoNtpRevamp;
 
-#if defined(OS_MAC) || defined(OS_WIN) || defined(OS_LINUX) || \
+#if true || defined(OS_MAC) || defined(OS_WIN) || defined(OS_LINUX) || \
     defined(OS_CHROMEOS) || defined(OS_FUCHSIA)
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kIncognitoBrandConsistencyForDesktop;
@@ -514,9 +514,9 @@ extern const base::Feature kNotificationDurationLongForRequireInteraction;
 COMPONENT_EXPORT(CHROME_FEATURES) extern const base::Feature kNtlmV2Enabled;
 #endif
 
-#if !defined(OS_ANDROID)
+//#if !defined(OS_ANDROID)
 COMPONENT_EXPORT(CHROME_FEATURES) extern const base::Feature kOnConnectNative;
-#endif
+//#endif
 
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kOobeMarketingAdditionalCountriesSupported;
@@ -742,7 +742,7 @@ COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kVrBrowsingExperimentalRendering;
 #endif  // ENABLE_VR
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 COMPONENT_EXPORT(CHROME_FEATURES)
 extern const base::Feature kWebAppManifestIconUpdating;
 #endif  // !defined(OS_ANDROID)

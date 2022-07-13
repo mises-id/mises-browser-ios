@@ -87,13 +87,14 @@ void BrowserAppMenuButton::ShowMenu(int run_types) {
   // showing, we continue the IPH into the menu. Notify the promo
   // controller we are taking control of the promo.
   DCHECK(!reopen_tab_promo_handle_);
+#if !defined(OS_ANDROID)
   if (feature_promo_controller->BubbleIsShowing(
           feature_engagement::kIPHReopenTabFeature)) {
     reopen_tab_promo_handle_ =
         feature_promo_controller->CloseBubbleAndContinuePromo(
             feature_engagement::kIPHReopenTabFeature);
   }
-
+#endif
   bool alert_reopen_tab_items = reopen_tab_promo_handle_.has_value();
 
   RunMenu(

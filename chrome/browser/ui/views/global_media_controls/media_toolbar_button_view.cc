@@ -105,7 +105,7 @@ void MediaToolbarButtonView::Hide() {
 
 void MediaToolbarButtonView::Enable() {
   SetEnabled(true);
-
+#if !defined(OS_ANDROID)
   if (media::IsLiveCaptionFeatureEnabled()) {
     // Live Caption multi language is only enabled when SODA is also enabled.
     if (base::FeatureList::IsEnabled(media::kLiveCaptionMultiLanguage) &&
@@ -128,7 +128,7 @@ void MediaToolbarButtonView::Enable() {
       }
     }
   }
-
+#endif
   for (auto& observer : observers_)
     observer.OnMediaButtonEnabled();
 }
@@ -143,12 +143,14 @@ void MediaToolbarButtonView::Disable() {
 }
 
 void MediaToolbarButtonView::MaybeShowStopCastingPromo() {
+#if !defined(OS_ANDROID)
   if (media_router::GlobalMediaControlsCastStartStopEnabled() &&
       media_router::MediaRouterEnabled(browser_->profile()) &&
       service_->HasLocalCastNotifications()) {
     feature_promo_controller_->MaybeShowPromo(
         feature_engagement::kIPHGMCCastStartStopFeature);
   }
+#endif
 }
 
 void MediaToolbarButtonView::ButtonPressed() {
@@ -166,10 +168,12 @@ void MediaToolbarButtonView::ButtonPressed() {
 }
 
 void MediaToolbarButtonView::ClosePromoBubble() {
+#if !defined(OS_ANDROID)
   feature_promo_controller_->CloseBubble(
       feature_engagement::kIPHLiveCaptionFeature);
   feature_promo_controller_->CloseBubble(
       feature_engagement::kIPHGMCCastStartStopFeature);
+#endif
 }
 
 BEGIN_METADATA(MediaToolbarButtonView, ToolbarButton)

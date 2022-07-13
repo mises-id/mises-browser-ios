@@ -429,7 +429,9 @@ class MediaRouterUI
 #if defined(OS_MAC)
   absl::optional<bool> screen_capture_allowed_for_testing_;
 #endif
+#if !defined(OS_ANDROID)
   raw_ptr<LoggerImpl> logger_;
+#endif
 
   // NOTE: Weak pointers must be invalidated before all other member variables.
   // Therefore |weak_factory_| must be placed at the end.

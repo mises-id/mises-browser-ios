@@ -32,8 +32,8 @@ declare_args() {
   builtin_cert_verifier_policy_supported = is_mac
 
   # Enables support for background apps.
-  enable_background_contents = !is_android && !is_chromecast
-  enable_background_mode = !is_android && !is_chromecast && !is_chromeos
+  enable_background_contents = !is_chromecast
+  enable_background_mode = !is_chromecast && !is_chromeos
 
   # Enable the printing system dialog for platforms that support printing
   # and have a system dialog.

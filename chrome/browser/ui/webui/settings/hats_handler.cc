@@ -78,39 +78,39 @@ void HatsHandler::RequestHatsSurvey(TrustSafetyInteraction interaction) {
     return;
 
   if (interaction == TrustSafetyInteraction::OPENED_PRIVACY_SANDBOX) {
-    hats_service->LaunchDelayedSurveyForWebContents(
-        kHatsSurveyTriggerPrivacySandbox, web_ui()->GetWebContents(),
-        features::kHappinessTrackingSurveysForDesktopPrivacySandboxTime.Get()
-            .InMilliseconds(),
-        GetPrivacySettingsProductSpecificBitsData(profile),
-        /*product_specific_string_data=*/{},
-        /*require_same_origin=*/true);
+//    hats_service->LaunchDelayedSurveyForWebContents(
+//        kHatsSurveyTriggerPrivacySandbox, web_ui()->GetWebContents(),
+//        features::kHappinessTrackingSurveysForDesktopPrivacySandboxTime.Get()
+//            .InMilliseconds(),
+//        GetPrivacySettingsProductSpecificBitsData(profile),
+//        /*product_specific_string_data=*/{},
+//        /*require_same_origin=*/true);
   } else if (interaction == TrustSafetyInteraction::RAN_SAFETY_CHECK ||
              interaction == TrustSafetyInteraction::USED_PRIVACY_CARD) {
     // If the privacy settings survey is explicitly targeting users who have not
     // viewed the Privacy Sandbox page, and this user has viewed the page, do
     // not attempt to show the privacy settings survey.
-    if (features::kHappinessTrackingSurveysForDesktopSettingsPrivacyNoSandbox
-            .Get() &&
-        Profile::FromWebUI(web_ui())->GetPrefs()->GetBoolean(
-            prefs::kPrivacySandboxPageViewed)) {
-      return;
-    }
-    hats_service->LaunchDelayedSurveyForWebContents(
-        kHatsSurveyTriggerSettingsPrivacy, web_ui()->GetWebContents(),
-        features::kHappinessTrackingSurveysForDesktopSettingsPrivacyTime.Get()
-            .InMilliseconds(),
-        GetPrivacySettingsProductSpecificBitsData(profile),
-        /*product_specific_string_data=*/{},
-        /*require_same_origin=*/true);
+//    if (features::kHappinessTrackingSurveysForDesktopSettingsPrivacyNoSandbox
+//            .Get() &&
+//        Profile::FromWebUI(web_ui())->GetPrefs()->GetBoolean(
+//            prefs::kPrivacySandboxPageViewed)) {
+//      return;
+//    }
+//    hats_service->LaunchDelayedSurveyForWebContents(
+//        kHatsSurveyTriggerSettingsPrivacy, web_ui()->GetWebContents(),
+//        features::kHappinessTrackingSurveysForDesktopSettingsPrivacyTime.Get()
+//           .InMilliseconds(),
+//        GetPrivacySettingsProductSpecificBitsData(profile),
+//        /*product_specific_string_data=*/{},
+//        /*require_same_origin=*/true);
   } else if (interaction == TrustSafetyInteraction::COMPLETED_PRIVACY_GUIDE) {
-    hats_service->LaunchDelayedSurveyForWebContents(
-        kHatsSurveyTriggerPrivacyReview, web_ui()->GetWebContents(),
-        features::kHappinessTrackingSurveysForDesktopPrivacyReviewTime.Get()
-            .InMilliseconds(),
-        /*product_specific_bits_data=*/{},
-        /*product_specific_string_data=*/{},
-        /*require_same_origin=*/true);
+//    hats_service->LaunchDelayedSurveyForWebContents(
+//        kHatsSurveyTriggerPrivacyReview, web_ui()->GetWebContents(),
+//        features::kHappinessTrackingSurveysForDesktopPrivacyReviewTime.Get()
+//            .InMilliseconds(),
+//        /*product_specific_bits_data=*/{},
+//       /*product_specific_string_data=*/{},
+//        /*require_same_origin=*/true);
   }
 }
 

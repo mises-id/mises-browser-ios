@@ -208,7 +208,7 @@ void ReadLaterButton::ReadingListDidAddEntry(const ReadingListModel* model,
 
 void ReadLaterButton::ButtonPressed() {
   highlight_color_animation_->Hide();
-
+#if !defined(OS_ANDROID)
   if (webui_bubble_manager_->GetBubbleWidget()) {
     webui_bubble_manager_->CloseBubble();
   } else {
@@ -229,6 +229,7 @@ void ReadLaterButton::ButtonPressed() {
         webui_bubble_manager_->GetBubbleWidget());
     widget_open_timer_.Reset(webui_bubble_manager_->GetBubbleWidget());
   }
+#endif
 }
 
 void ReadLaterButton::UpdateColors() {

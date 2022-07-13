@@ -63,6 +63,7 @@ PageInfoPermissionContentView::PageInfoPermissionContentView(
   state_label_->SetHorizontalAlignment(gfx::ALIGN_LEFT);
 
   // Add extra details as sublabel.
+#if !defined(OS_ANDROID)
   std::u16string detail = ui_delegate_->GetPermissionDetail(type);
   if (!detail.empty()) {
     auto detail_label = std::make_unique<views::Label>(
@@ -70,6 +71,7 @@ PageInfoPermissionContentView::PageInfoPermissionContentView(
     detail_label->SetHorizontalAlignment(gfx::ALIGN_LEFT);
     label_wrapper->AddChildView(std::move(detail_label));
   }
+#endif
 
   remember_setting_ =
       label_wrapper->AddChildView(std::make_unique<views::Checkbox>(

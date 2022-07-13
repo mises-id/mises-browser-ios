@@ -33,6 +33,10 @@ android_library("java") {
     "//third_party/androidx:androidx_annotation_annotation_java",
     "//third_party/androidx:androidx_appcompat_appcompat_resources_java",
     "//ui/android:ui_java",
+    "//chrome/android:chrome_java",
+    "//ui/base/mojom:mojom_java",
+    "//chrome/browser/profiles/android:java",
+    "//content/public/android:content_full_java",
   ]
   resources_package = "org.chromium.chrome.browser.ui.appmenu.internal"
 }

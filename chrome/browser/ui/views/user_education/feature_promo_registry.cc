@@ -93,11 +93,12 @@ void FeaturePromoRegistry::ReinitializeForTesting() {
 }
 
 void FeaturePromoRegistry::RegisterKnownFeatures() {
+#if !defined(OS_ANDROID)
   // kIPHDesktopPwaInstallFeature:
   RegisterFeature(FeaturePromoSpecification::CreateForLegacyPromo(
       &feature_engagement::kIPHDesktopPwaInstallFeature, kInstallPwaElementId,
       IDS_DESKTOP_PWA_INSTALL_PROMO));
-
+#endif
   // kIPHUpdatedConnectionSecurityIndicatorsFeature:
   RegisterFeature(std::move(
       FeaturePromoSpecification::CreateForLegacyPromo(
@@ -105,7 +106,7 @@ void FeaturePromoRegistry::RegisterKnownFeatures() {
           kLocationIconElementId,
           IDS_UPDATED_CONNECTION_SECURITY_INDICATORS_PROMO)
           .SetBubbleArrow(FeaturePromoSpecification::BubbleArrow::kTopLeft)));
-
+#if !defined(OS_ANDROID)
   // kIPHDesktopTabGroupsNewGroupFeature:
   RegisterFeature(std::move(
       FeaturePromoSpecification::CreateForSnoozePromo(
@@ -114,7 +115,6 @@ void FeaturePromoRegistry::RegisterKnownFeatures() {
           .SetBubbleArrow(FeaturePromoSpecification::BubbleArrow::kTopCenter)
           .SetAnchorElementFilter(
               base::BindRepeating(&GetTabGroupsAnchorView))));
-
   // kIPHLiveCaptionFeature:
   RegisterFeature(FeaturePromoSpecification::CreateForToastPromo(
       feature_engagement::kIPHLiveCaptionFeature, kMediaButtonElementId,
@@ -168,18 +168,19 @@ void FeaturePromoRegistry::RegisterKnownFeatures() {
   RegisterFeature(FeaturePromoSpecification::CreateForLegacyPromo(
       &feature_engagement::kIPHTabSearchFeature, kTabSearchButtonElementId,
       IDS_TAB_SEARCH_PROMO));
-
+#endif
   // kIPHWebUITabStripFeature:
 #if BUILDFLAG(ENABLE_WEBUI_TAB_STRIP)
   RegisterFeature(FeaturePromoSpecification::CreateForLegacyPromo(
       &feature_engagement::kIPHWebUITabStripFeature, kTabCounterButtonElementId,
       IDS_WEBUI_TAB_STRIP_PROMO));
 #endif  // BUILDFLAG(ENABLE_WEBUI_TAB_STRIP)
-
+#if !defined(OS_ANDROID)
   // kIPHDesktopSharedHighlightingFeature:
   RegisterFeature(std::move(
       FeaturePromoSpecification::CreateForLegacyPromo(
           &feature_engagement::kIPHDesktopSharedHighlightingFeature,
           kTopContainerElementId, IDS_SHARED_HIGHLIGHTING_PROMO)
           .SetBubbleArrow(FeaturePromoSpecification::BubbleArrow::kNone)));
+#endif
 }

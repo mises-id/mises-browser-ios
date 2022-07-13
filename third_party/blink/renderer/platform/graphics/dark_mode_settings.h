@@ -49,6 +49,8 @@ struct DarkModeSettings {
 
   // True if text contrast should be increased by painting an outline.
   bool increase_text_contrast = false;
+  float grayscale = 0.5;
+  float image_grayscale_percent = 0.0;
 };
 
 }  // namespace blink

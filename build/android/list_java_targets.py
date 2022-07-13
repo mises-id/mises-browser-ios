@@ -74,7 +74,7 @@ def _query_for_build_config_targets(output_dir):
   logging.info('Running: %r', cmd)
   ninja_output = subprocess.run(cmd,
                                 check=True,
-                                capture_output=True,
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                                 encoding='ascii').stdout
   ret = []
   SUFFIX = '__build_config_crbug_908819'

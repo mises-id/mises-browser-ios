@@ -45,7 +45,7 @@ public class TopToolbarOverlayCoordinator implements SceneOverlay {
             ObservableSupplier<Tab> tabSupplier,
             BrowserControlsStateProvider browserControlsStateProvider,
             Supplier<ResourceManager> resourceManagerSupplier,
-            TopUiThemeColorProvider topUiThemeColorProvider, int layoutsToShowOn,
+            TopUiThemeColorProvider topUiThemeColorProvider, 
             boolean isVisibilityManuallyControlled) {
         mModel = new PropertyModel.Builder(TopToolbarOverlayProperties.ALL_KEYS)
                          .with(TopToolbarOverlayProperties.RESOURCE_ID, R.id.control_container)
@@ -64,7 +64,7 @@ public class TopToolbarOverlayCoordinator implements SceneOverlay {
 
         mMediator = new TopToolbarOverlayMediator(mModel, context, layoutManager,
                 progressInfoCallback, tabSupplier, browserControlsStateProvider,
-                topUiThemeColorProvider, layoutsToShowOn, isVisibilityManuallyControlled);
+                topUiThemeColorProvider,  isVisibilityManuallyControlled);
     }
 
     /**
@@ -77,17 +77,17 @@ public class TopToolbarOverlayCoordinator implements SceneOverlay {
 
     /** @param visible Whether the overlay and shadow should be visible despite other signals. */
     public void setManualVisibility(boolean visible) {
-        mMediator.setManualVisibility(visible);
+    //    mMediator.setManualVisibility(visible);
     }
 
     /** @param xOffset The x offset of the toolbar. */
     public void setXOffset(float xOffset) {
-        mMediator.setXOffset(xOffset);
+//mMediator.setXOffset(xOffset);
     }
 
     /** @param anonymize Whether the URL should be hidden when the layer is rendered. */
     public void setAnonymize(boolean anonymize) {
-        mMediator.setAnonymize(anonymize);
+  //      mMediator.setAnonymize(anonymize);
     }
 
     /** Clean up this component. */

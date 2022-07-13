@@ -41,7 +41,7 @@ void TopToolbarSceneLayer::UpdateToolbarLayer(
     jfloat content_offset,
     bool show_shadow,
     bool visible,
-    bool anonymize) {
+    bool anonymize, bool enableBottomToolbar) {
   // If the toolbar layer has not been created yet, create it.
   if (!toolbar_layer_) {
     ui::ResourceManager* resource_manager =

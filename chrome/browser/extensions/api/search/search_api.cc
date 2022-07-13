@@ -13,6 +13,7 @@
 #include "chrome/browser/ui/browser_navigator.h"
 #include "chrome/common/extensions/api/search.h"
 #include "components/search_engines/util.h"
+#include "chrome/browser/ui/tabs/tab_strip_model.h"
 
 namespace extensions {
 

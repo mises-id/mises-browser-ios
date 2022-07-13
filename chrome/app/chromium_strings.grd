@@ -272,7 +272,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
   <release seq="1">
     <messages fallback_to_english="true">
       <!-- Settings specific strings -->
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <part file="settings_chromium_strings.grdp" />
       </if>
 
@@ -780,7 +780,7 @@ Chromium is unable to recover your settings.
       </if>
 
       <!-- Enterprise sign-in dialog -->
-      <if expr="toolkit_views">
+      <if expr="is_android or toolkit_views">
         <message name="IDS_ENTERPRISE_SIGNIN_TITLE" desc="The title of the dialog to confirm linking the browser profile with the signed-in enterprise account">
           Link your Chromium data to this account?
         </message>
@@ -1020,7 +1020,7 @@ Chromium is unable to recover your settings.
         </message>
       </if>
 
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Google to Chromium.">
           If an image doesn’t have a useful description, Chromium will try to provide one for you. To create descriptions, images are sent to Google. You can turn this off in settings at any time.
         </message>
@@ -1102,7 +1102,7 @@ Chromium is unable to recover your settings.
       </message>
 
       <!-- Sync errors. Android uses native UI to handle Sync settings -->
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <message name="IDS_SYNC_UPGRADE_CLIENT" desc="Message indicating client needs to be upgraded to the latest version.">
           Update Chromium to start sync
         </message>
@@ -1218,7 +1218,7 @@ Chromium is unable to recover your settings.
         </message>
       </if>
       <!-- Relaunch notification bubble and dialog. -->
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <if expr="not chromeos">
           <message name="IDS_RELAUNCH_RECOMMENDED_TITLE" desc="The title of a dialog that tells users that a browser relaunch is recommended for an update available for some number of days.">
             {0, plural,

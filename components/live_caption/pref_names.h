@@ -13,7 +13,7 @@ namespace prefs {
 
 // Live Caption is not available on Android, so exclude these unneeded
 // kLiveCaption*  prefs.
-#if !defined(ANDROID)
+#if true || !defined(ANDROID)
 extern const char kLiveCaptionEnabled[];
 extern const char kLiveCaptionLanguageCode[];
 

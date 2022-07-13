@@ -29,8 +29,8 @@
 #include "chrome/browser/hid/hid_chooser_context_factory.h"
 #include "chrome/browser/media/unified_autoplay_config.h"
 #include "chrome/browser/permissions/permission_decision_auto_blocker_factory.h"
-#include "chrome/browser/serial/serial_chooser_context.h"
-#include "chrome/browser/serial/serial_chooser_context_factory.h"
+//#include "chrome/browser/serial/serial_chooser_context.h"
+//#include "chrome/browser/serial/serial_chooser_context_factory.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/browser_list.h"
 #include "chrome/browser/ui/page_info/page_info_infobar_delegate.h"
@@ -1041,9 +1041,9 @@ void SiteSettingsHandler::HandleGetOriginPermissions(
     raw_site_exception.SetStringKey(site_settings::kDisplayName, display_name);
     raw_site_exception.SetStringKey(site_settings::kSetting,
                                     content_setting_string);
-    raw_site_exception.SetStringKey(site_settings::kSettingDetail,
-                                    content_settings::GetPermissionDetailString(
-                                        profile_, content_type, origin_url));
+    //raw_site_exception.SetStringKey(site_settings::kSettingDetail,
+     //                               content_settings::GetPermissionDetailString(
+     //                                   profile_, content_type, origin_url));
     raw_site_exception.SetStringKey(site_settings::kSource, source_string);
 
     exceptions.Append(std::move(raw_site_exception));
@@ -1465,9 +1465,9 @@ void SiteSettingsHandler::ObserveSourcesForProfile(Profile* profile) {
   if (!chooser_observations_.IsObservingSource(usb_context))
     chooser_observations_.AddObservation(usb_context);
 
-  auto* serial_context = SerialChooserContextFactory::GetForProfile(profile);
-  if (!chooser_observations_.IsObservingSource(serial_context))
-    chooser_observations_.AddObservation(serial_context);
+  //auto* serial_context = SerialChooserContextFactory::GetForProfile(profile);
+  //if (!chooser_observations_.IsObservingSource(serial_context))
+  //  chooser_observations_.AddObservation(serial_context);
 
   auto* hid_context = HidChooserContextFactory::GetForProfile(profile);
   if (!chooser_observations_.IsObservingSource(hid_context))
@@ -1493,9 +1493,9 @@ void SiteSettingsHandler::StopObservingSourcesForProfile(Profile* profile) {
   if (chooser_observations_.IsObservingSource(usb_context))
     chooser_observations_.RemoveObservation(usb_context);
 
-  auto* serial_context = SerialChooserContextFactory::GetForProfile(profile);
-  if (chooser_observations_.IsObservingSource(serial_context))
-    chooser_observations_.RemoveObservation(serial_context);
+  //auto* serial_context = SerialChooserContextFactory::GetForProfile(profile);
+  //if (chooser_observations_.IsObservingSource(serial_context))
+  //  chooser_observations_.RemoveObservation(serial_context);
 
   auto* hid_context = HidChooserContextFactory::GetForProfile(profile);
   if (chooser_observations_.IsObservingSource(hid_context))

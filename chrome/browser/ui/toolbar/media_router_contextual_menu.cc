@@ -12,7 +12,9 @@
 #include "base/strings/strcat.h"
 #include "build/build_config.h"
 #include "chrome/app/chrome_command_ids.h"
+#if !defined(OS_ANDROID)
 #include "chrome/browser/media/router/mojo/media_router_mojo_impl.h"
+#endif
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/signin/identity_manager_factory.h"
 #include "chrome/browser/ui/browser.h"

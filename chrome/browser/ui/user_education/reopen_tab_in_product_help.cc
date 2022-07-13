@@ -53,7 +53,9 @@ void ReopenTabInProductHelp::NewTabOpened() {
 }
 
 void ReopenTabInProductHelp::TabReopened() {
+#if !defined(OS_ANDROID)
   GetTracker()->NotifyEvent(feature_engagement::events::kTabReopened);
+#endif
 }
 
 void ReopenTabInProductHelp::OnActiveTabClosed(
@@ -71,9 +73,10 @@ void ReopenTabInProductHelp::OnShowHelp() {
       browser->window()->GetFeaturePromoController();
   if (!feature_promo_controller)
     return;
-
+#if !defined(OS_ANDROID)
   feature_promo_controller->MaybeShowPromo(
       feature_engagement::kIPHReopenTabFeature);
+#endif
 }
 
 void ReopenTabInProductHelp::OnBrowserAdded(Browser* browser) {

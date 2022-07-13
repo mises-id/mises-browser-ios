@@ -646,6 +646,7 @@ void PasswordSaveUpdateView::MaybeShowIPH(IPHType type) {
       FeaturePromoSpecification::BubbleArrow::kRightCenter;
 
   if (type == IPHType::kRegular) {
+#if !defined(OS_ANDROID)
     FeaturePromoSpecification promo_spec =
         FeaturePromoSpecification::CreateForLegacyPromo(
             &feature_engagement::kIPHPasswordsAccountStorageFeature,
@@ -662,6 +663,7 @@ void PasswordSaveUpdateView::MaybeShowIPH(IPHType type) {
       // finished.
       failed_reauth_promo_id_ = absl::nullopt;
     }
+#endif
   } else {
     FeaturePromoSpecification promo_spec =
         FeaturePromoSpecification::CreateForLegacyPromo(
@@ -682,8 +684,10 @@ void PasswordSaveUpdateView::CloseIPHBubbleIfOpen() {
     return;
 
   if (!failed_reauth_promo_id_) {
+#if !defined(OS_ANDROID)
     promo_controller_->CloseBubble(
         feature_engagement::kIPHPasswordsAccountStorageFeature);
+#endif
     return;
   }
 

@@ -46,10 +46,11 @@ constexpr char kIPHShowCountPath[] = "show_count";
 // Finch parameter to control the snooze duration.
 // If this parameter is not specified or is zero, the default duration at the
 // client side will be used.
+#if !defined(OS_ANDROID)
 constexpr base::FeatureParam<base::TimeDelta> kOverriddenDuration{
     &feature_engagement::kIPHDesktopSnoozeFeature,
     "x_iph_snooze_overridden_duration", base::Hours(0)};
-
+#endif
 constexpr base::FeatureParam<FeaturePromoSnoozeService::NonClickerPolicy>::
     Option kNonClickerPolicyOptions[] = {
         {FeaturePromoSnoozeService::NonClickerPolicy::kDismiss, "dismiss"},
@@ -78,9 +79,10 @@ void FeaturePromoSnoozeService::OnUserSnooze(const base::Feature& iph_feature,
 
   if (!snooze_data)
     snooze_data = SnoozeData();
-
+#if !defined(OS_ANDROID)
   if (!kOverriddenDuration.Get().is_zero())
     snooze_duration = kOverriddenDuration.Get();
+#endif
 
   base::UmaHistogramEnumeration(
       "InProductHelp.Promos.Snooze." + std::string(iph_feature.name),

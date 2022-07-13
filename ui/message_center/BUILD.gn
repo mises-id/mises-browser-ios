@@ -89,7 +89,7 @@ component("message_center") {
       ]
     }
 
-    if (toolkit_views) {
+    if (true || toolkit_views) {
       sources += [
         "views/desktop_message_popup_collection.cc",
         "views/desktop_message_popup_collection.h",

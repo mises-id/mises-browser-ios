@@ -207,7 +207,7 @@ bool PWAConfirmationBubbleView::Accept() {
       tabbed_window_checkbox_ && tabbed_window_checkbox_->GetChecked()
           ? web_app::DisplayMode::kTabbed
           : web_app::DisplayMode::kStandalone;
-
+#if !defined(OS_ANDROID)
   if (iph_state_ == chrome::PwaInProductHelpState::kShown) {
     web_app::AppId app_id = web_app::GenerateAppId(web_app_info_->manifest_id,
                                                    web_app_info_->start_url);
@@ -216,6 +216,7 @@ bool PWAConfirmationBubbleView::Accept() {
     web_app::RecordInstallIphInstalled(prefs_, app_id);
     tracker_->NotifyEvent(feature_engagement::events::kDesktopPwaInstalled);
   }
+#endif
   std::move(callback_).Run(true, std::move(web_app_info_));
   return true;
 }

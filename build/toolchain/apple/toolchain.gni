@@ -170,7 +170,8 @@ template("apple_toolchain") {
 
     # Specify an explicit path for the strip binary.
     _strippath = invoker.bin_path + "strip"
-    linker_driver += " -Wcrl,strippath," + _strippath
+    _installnametoolpath = invoker.bin_path + "install_name_tool"
+    linker_driver += " -Wcrl,strippath,${_strippath} -Wcrl,installnametoolpath,${_installnametoolpath}"
 
     # On iOS, the final applications are assembled using lipo (to support fat
     # builds). The correct flags are passed to the linker_driver.py script
@@ -563,10 +564,14 @@ template("apple_toolchain") {
         if (invoker.sdk_developer_dir != "") {
           _env_vars += " DEVELOPER_DIR=${toolchain_args.sdk_developer_dir}"
         }
+        
+        _pch_output_dir = "{{target_out_dir}}/{{module_name}}:pch/"
+        outputs += [ _pch_output_dir ]
 
         command =
             "$_env_vars $python_path $_tool -module-name {{module_name}} " +
-            "-object-dir $_objects_dir " +
+            "-root-dir " + rebase_path("//", root_build_dir) + " " +
+            "-object-dir $_objects_dir -pch-output-dir $_pch_output_dir " +
             "-module-path {{target_gen_dir}}/{{module_name}}.swiftmodule " +
             "-header-path {{target_gen_dir}}/{{target_output_name}}.h " +
             "-depfile {{target_out_dir}}/{{module_name}}.d " +

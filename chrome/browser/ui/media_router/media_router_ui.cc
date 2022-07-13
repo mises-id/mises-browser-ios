@@ -264,8 +264,11 @@ class MediaRouterUI::WebContentsFullscreenOnLoadedObserver final
 
 MediaRouterUI::MediaRouterUI(content::WebContents* initiator)
     : presentation_manager_(WebContentsPresentationManager::Get(initiator)),
-      initiator_(initiator),
-      logger_(GetMediaRouter()->GetLogger()) {
+      initiator_(initiator)
+#if !defined(OS_ANDROID)
+      ,logger_(GetMediaRouter()->GetLogger()) 
+#endif
+{
   CHECK(initiator_);
   if (presentation_manager_)
     presentation_manager_->AddObserver(this);
@@ -377,9 +380,11 @@ void MediaRouterUI::InitWithStartPresentationContextAndMirroring(
 
 bool MediaRouterUI::CreateRoute(const MediaSink::Id& sink_id,
                                 MediaCastMode cast_mode) {
+#if !defined(OS_ANDROID)  
   logger_->LogInfo(mojom::LogCategory::kUi, kLoggerComponent,
                    "CreateRoute requested by MediaRouterViewsUI.", sink_id, "",
                    "");
+#endif
 #if defined(OS_MAC)
   if (RequiresScreenCapturePermission(cast_mode)) {
     const bool screen_capture_allowed =
@@ -441,11 +446,13 @@ bool MediaRouterUI::CreateRoute(const MediaSink::Id& sink_id,
 }
 
 void MediaRouterUI::TerminateRoute(const MediaRoute::Id& route_id) {
+#if !defined(OS_ANDROID)  
   logger_->LogInfo(mojom::LogCategory::kUi, kLoggerComponent,
                    "TerminateRoute requested by MediaRouterUI.",
                    MediaRoute::GetSinkIdFromMediaRouteId(route_id),
                    MediaRoute::GetMediaSourceIdFromMediaRouteId(route_id),
                    MediaRoute::GetPresentationIdFromMediaRouteId(route_id));
+#endif
   GetMediaRouter()->TerminateRoute(route_id);
 }
 
@@ -485,6 +492,7 @@ std::u16string MediaRouterUI::GetPresentationRequestSourceName() const {
 
 void MediaRouterUI::AddIssue(const IssueInfo& issue) {
   GetIssueManager()->AddIssue(issue);
+#if !defined(OS_ANDROID)
   switch (issue.severity) {
     case IssueInfo::Severity::NOTIFICATION:
       logger_->LogInfo(
@@ -506,6 +514,7 @@ void MediaRouterUI::AddIssue(const IssueInfo& issue) {
           MediaRoute::GetPresentationIdFromMediaRouteId(issue.route_id));
       break;
   }
+#endif
 }
 
 void MediaRouterUI::RemoveIssue(const Issue::Id& issue_id) {
@@ -530,6 +539,7 @@ void MediaRouterUI::LogMediaSinkStatus() {
       sink_ids.push_back(sink.sink.id().substr(sink.sink.id().length() - 4));
     }
   }
+#if !defined(OS_ANDROID)
   logger_->LogInfo(
       mojom::LogCategory::kUi, kLoggerComponent,
       base::StrCat(
@@ -537,6 +547,7 @@ void MediaRouterUI::LogMediaSinkStatus() {
                               sink_ids.size()),
            base::JoinString(sink_ids, ",")}),
       "", "", "");
+#endif
 }
 
 MediaRouterUI::RouteRequest::RouteRequest(const MediaSink::Id& sink_id)
@@ -713,21 +724,25 @@ absl::optional<RouteParameters> MediaRouterUI::GetRouteParameters(
       query_result_manager_->GetSourceForCastModeAndSink(cast_mode, sink_id);
 
   if (!source) {
+#if !defined(OS_ANDROID)
     logger_->LogError(
         mojom::LogCategory::kUi, kLoggerComponent,
         base::StringPrintf("No corresponding MediaSource for cast mode %d.",
                            static_cast<int>(cast_mode)),
         sink_id, "", "");
+#endif
     return absl::nullopt;
   }
   params.source_id = source->id();
 
   bool for_presentation_source = cast_mode == MediaCastMode::PRESENTATION;
   if (for_presentation_source && !presentation_request_) {
+#if !defined(OS_ANDROID)
     logger_->LogError(mojom::LogCategory::kUi, kLoggerComponent,
                       "Requested to create a route for presentation, but "
                       "presentation request is missing.",
                       sink_id, source->id(), "");
+#endif
     return absl::nullopt;
   }
 
@@ -930,9 +945,11 @@ void MediaRouterUI::OnRouteResponseReceived(
   const MediaRoute* route = result.route();
   if (!route) {
     // The provider will handle sending an issue for a failed route request.
+ #if !defined(OS_ANDROID)
     logger_->LogError(mojom::LogCategory::kUi, kLoggerComponent,
                       "MediaRouteResponse returned error: " + result.error(),
                       sink_id, "", "");
+ #endif
   }
 
   current_route_request_.reset();

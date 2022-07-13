@@ -20,13 +20,13 @@
 #include "media/base/media_switches.h"
 #include "ui/base/buildflags.h"
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 #include "components/prefs/pref_registry_simple.h"
 #endif
 
 namespace media_router {
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 const base::Feature kMediaRouter{"MediaRouter",
                                  base::FEATURE_ENABLED_BY_DEFAULT};
 const base::Feature kCastAllowAllIPsFeature{"CastAllowAllIPs",

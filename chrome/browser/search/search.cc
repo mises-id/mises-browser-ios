@@ -35,8 +35,8 @@
 #if !defined(OS_ANDROID) || true
 #include "chrome/browser/search/instant_service.h"
 #include "chrome/browser/search/instant_service_factory.h"
-#include "chrome/browser/ui/webui/new_tab_page/new_tab_page_ui.h"
-#include "chrome/browser/ui/webui/new_tab_page_third_party/new_tab_page_third_party_ui.h"
+//include "chrome/browser/ui/webui/new_tab_page/new_tab_page_ui.h"
+//include "chrome/browser/ui/webui/new_tab_page_third_party/new_tab_page_third_party_ui.h"
 #endif
 
 namespace search {
@@ -257,7 +257,7 @@ bool IsNTPURL(const GURL& url) {
       url.host_piece() == "local-ntp") {
     return true;
   }
-#if defined(OS_ANDROID) && 0
+#if defined(OS_ANDROID) && 1 
   return false;
 #else
   return NewTabPageUI::IsNewTabPageOrigin(url) ||

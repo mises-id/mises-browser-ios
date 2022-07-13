@@ -6,6 +6,7 @@
 
 #include "ui/events/event.h"
 #include "ui/views/focus/focus_manager.h"
+#include "build/build_config.h"
 
 namespace views {
 
@@ -13,7 +14,11 @@ namespace views {
 bool UnhandledKeyboardEventHandler::HandleNativeKeyboardEvent(
     gfx::NativeEvent event,
     FocusManager* focus_manager) {
-  return !focus_manager->OnKeyEvent(*(event->AsKeyEvent()));
+#if defined(OS_ANDROID)
+	return false;
+#else
+	return !focus_manager->OnKeyEvent(*(event->AsKeyEvent()));
+#endif
 }
 
 }  // namespace views

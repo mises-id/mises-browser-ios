@@ -548,7 +548,7 @@ bool DownloadUIModel::ShouldPromoteOrigin() const {
   return false;
 }
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 bool DownloadUIModel::IsCommandEnabled(
     const DownloadCommands* download_commands,
     DownloadCommands::Command command) const {
@@ -637,16 +637,16 @@ void DownloadUIModel::ExecuteCommand(DownloadCommands* download_commands,
       NOTREACHED();
       break;
     case DownloadCommands::LEARN_MORE_INTERRUPTED:
-      download_commands->GetBrowser()->OpenURL(content::OpenURLParams(
-          download_commands->GetLearnMoreURLForInterruptedDownload(),
-          content::Referrer(), WindowOpenDisposition::NEW_FOREGROUND_TAB,
-          ui::PAGE_TRANSITION_LINK, false));
+      //download_commands->GetBrowser()->OpenURL(content::OpenURLParams(
+      //    download_commands->GetLearnMoreURLForInterruptedDownload(),
+      //    content::Referrer(), WindowOpenDisposition::NEW_FOREGROUND_TAB,
+      //    ui::PAGE_TRANSITION_LINK, false));
       break;
     case DownloadCommands::LEARN_MORE_MIXED_CONTENT:
-      download_commands->GetBrowser()->OpenURL(content::OpenURLParams(
-          GURL(chrome::kMixedContentDownloadBlockingLearnMoreUrl),
-          content::Referrer(), WindowOpenDisposition::NEW_FOREGROUND_TAB,
-          ui::PAGE_TRANSITION_LINK, false));
+     // download_commands->GetBrowser()->OpenURL(content::OpenURLParams(
+     //     GURL(chrome::kMixedContentDownloadBlockingLearnMoreUrl),
+      //    content::Referrer(), WindowOpenDisposition::NEW_FOREGROUND_TAB,
+      //    ui::PAGE_TRANSITION_LINK, false));
       break;
     case DownloadCommands::PAUSE:
       Pause();

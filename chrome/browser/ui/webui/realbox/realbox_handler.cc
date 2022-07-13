@@ -274,7 +274,7 @@ realbox::mojom::AutocompleteResultPtr CreateAutocompleteResult(
 // static
 void RealboxHandler::SetupWebUIDataSource(content::WebUIDataSource* source) {
   static constexpr webui::ResourcePath kImages[] = {
-      {kGoogleGIconResourceName, IDR_WEBUI_IMAGES_200_LOGO_GOOGLEG_PNG},
+     // {kGoogleGIconResourceName, IDR_WEBUI_IMAGES_200_LOGO_GOOGLEG_PNG},
       {kSearchIconResourceName, IDR_WEBUI_IMAGES_ICON_SEARCH_SVG}};
   source->AddResourcePaths(kImages);
 

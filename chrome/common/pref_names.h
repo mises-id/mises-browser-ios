@@ -187,7 +187,7 @@ extern const char kAccessibilityImageLabelsOnlyOnWifi[];
 #if !BUILDFLAG(IS_CHROMEOS_ASH)
 extern const char kAccessibilityFocusHighlightEnabled[];
 #endif
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kLiveCaptionEnabled[];
 extern const char kLiveCaptionLanguageCode[];
 #endif
@@ -409,7 +409,7 @@ extern const char kContentSettingsPluginWhitelist[];
 extern const char kPartitionDefaultZoomLevel[];
 extern const char kPartitionPerHostZoomLevels[];
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kPinnedTabs[];
 #endif  // !defined(OS_ANDROID)
 
@@ -526,7 +526,7 @@ extern const char kWebRtcEventLogCollectionAllowed[];
 extern const char kWebRtcLocalIpsAllowedUrls[];
 extern const char kWebRTCAllowLegacyTLSProtocols[];
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kHasSeenWelcomePage[];
 extern const char kManagedAccountsSigninRestriction[];
 extern const char kManagedAccountsSigninRestrictionScopeMachine[];
@@ -619,14 +619,14 @@ extern const char kShutdownNumProcesses[];
 extern const char kShutdownNumProcessesSlow[];
 
 extern const char kRestartLastSessionOnShutdown[];
-#if !defined(OS_ANDROID)
+//#if !defined(OS_ANDROID)
 #if !BUILDFLAG(IS_CHROMEOS_ASH)
 extern const char kCommandLineFlagSecurityWarningsEnabled[];
 #endif
 extern const char kPromotionalTabsEnabled[];
 extern const char kSuppressUnsupportedOSWarning[];
 extern const char kWasRestarted[];
-#endif  // !defined(OS_ANDROID)
+//#endif  // !defined(OS_ANDROID)
 
 extern const char kDisableExtensions[];
 
@@ -636,7 +636,7 @@ extern const char kNtpCollapsedForeignSessions[];
 extern const char kNtpCollapsedRecentlyClosedTabs[];
 extern const char kNtpCollapsedSnapshotDocument[];
 extern const char kNtpCollapsedSyncPromo[];
-#else
+//#else
 extern const char kNtpCustomBackgroundDict[];
 extern const char kNtpCustomBackgroundLocalToDevice[];
 extern const char kNtpDisabledModules[];
@@ -889,11 +889,11 @@ extern const char kSystemTimezoneAutomaticDetectionPolicy[];
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
 extern const char kEnableMediaRouter[];
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kShowCastIconInToolbar[];
 #endif  // !defined(OS_ANDROID)
 
-#if !defined(OS_ANDROID)
+#if  true || !defined(OS_ANDROID)
 extern const char kRelaunchNotification[];
 extern const char kRelaunchNotificationPeriod[];
 extern const char kRelaunchWindow[];
@@ -911,7 +911,7 @@ extern const char kMacRestoreLocationPermissionsExperimentCount[];
 extern const char kEnrollmentIdUploadedOnChromad[];
 #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kAttemptedToEnableAutoupdate[];
 
 extern const char kMediaGalleriesUniqueId[];
@@ -971,7 +971,7 @@ extern const char kEasyUnlockLocalStateUserPrefs[];
 
 extern const char kRecoveryComponentNeedsElevation[];
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kCloudExtensionRequestEnabled[];
 extern const char kCloudExtensionRequestIds[];
 #endif
@@ -1072,7 +1072,7 @@ extern const char kCrossOriginWebAssemblyModuleSharingEnabled[];
 
 extern const char kDisplayCapturePermissionsPolicyEnabled[];
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kSharedArrayBufferUnrestrictedAccessAllowed[];
 extern const char kAutoplayAllowed[];
 extern const char kAutoplayWhitelist[];
@@ -1113,7 +1113,7 @@ extern const char kSharingVapidKey[];
 extern const char kSharingFCMRegistration[];
 extern const char kSharingLocalSharingInfo[];
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kHatsSurveyMetadata[];
 #endif  // !defined(OS_ANDROID)
 
@@ -1145,7 +1145,7 @@ extern const char kAdbSideloadingPowerwashPlannedNotificationShownTime[];
 extern const char kAdbSideloadingPowerwashOnNextRebootNotificationShown[];
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kCaretBrowsingEnabled[];
 extern const char kShowCaretBrowsingDialog[];
 #endif
@@ -1186,7 +1186,7 @@ extern const char kPdfAnnotationsEnabled[];
 
 extern const char kExplicitlyAllowedNetworkPorts[];
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kDeviceAttributesAllowedForOrigins[];
 #endif
 
@@ -1194,7 +1194,7 @@ extern const char kDeviceAttributesAllowedForOrigins[];
 extern const char kDesktopSharingHubEnabled[];
 #endif
 
-#if !defined(OS_ANDROID)
+#if true || !defined(OS_ANDROID)
 extern const char kLastWhatsNewVersion[];
 #endif
 

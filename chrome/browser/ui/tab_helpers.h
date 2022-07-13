@@ -19,6 +19,10 @@ class ChromeThinWebViewInitializer;
 }
 }  // namespace thin_webview
 
+namespace chrome{
+class BrowserTabStripModelDelegate;
+}
+
 #else
 
 namespace chrome {
@@ -55,6 +59,9 @@ class TabHelpers {
 
   friend class TabAndroid;
   friend class android::TabWebContentsDelegateAndroid;
+
+  friend class Browser;
+  friend class chrome::BrowserTabStripModelDelegate;
 #else
   friend class Browser;
   friend class chrome::BrowserTabStripModelDelegate;

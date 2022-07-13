@@ -129,13 +129,13 @@ void ExtensionEnableFlow::CheckPermissionAndMaybePromptUser() {
     return;
   }
 
-  if (profiles::IsProfileLocked(profile_->GetPath())) {
+  //if (profiles::IsProfileLocked(profile_->GetPath())) {
 #if !BUILDFLAG(IS_CHROMEOS_ASH)
-    ProfilePicker::Show(ProfilePicker::EntryPoint::kProfileLocked);
+  //  ProfilePicker::Show(ProfilePicker::EntryPoint::kProfileLocked);
 
 #endif  // !BUILDFLAG(IS_CHROMEOS_ASH)
     return;
-  }
+ // }
 
   extensions::ExtensionPrefs* prefs = extensions::ExtensionPrefs::Get(profile_);
   if (!prefs->DidExtensionEscalatePermissions(extension_id_)) {

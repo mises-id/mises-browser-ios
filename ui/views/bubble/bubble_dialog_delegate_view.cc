@@ -264,7 +264,7 @@ class BubbleDialogDelegate::AnchorWidgetObserver : public WidgetObserver,
   AnchorWidgetObserver(BubbleDialogDelegate* owner, Widget* widget)
       : owner_(owner) {
     widget_observation_.Observe(widget);
-#if !defined(OS_MAC)
+#if false && !defined(OS_MAC)
     window_observation_.Observe(widget->GetNativeWindow());
 #endif
   }
@@ -272,7 +272,7 @@ class BubbleDialogDelegate::AnchorWidgetObserver : public WidgetObserver,
 
   // WidgetObserver:
   void OnWidgetDestroying(Widget* widget) override {
-#if !defined(OS_MAC)
+#if false && !defined(OS_MAC)
     DCHECK(window_observation_.IsObservingSource(widget->GetNativeWindow()));
     window_observation_.Reset();
 #endif
@@ -611,7 +611,7 @@ gfx::Rect BubbleDialogDelegate::GetAnchorRect() const {
 
   anchor_rect_ = GetAnchorView()->GetAnchorBoundsInScreen();
 
-#if !defined(OS_MAC)
+#if false && !defined(OS_MAC)
   // GetAnchorBoundsInScreen returns values that take anchor widget's
   // translation into account, so undo that here. Without this, features which
   // apply transforms on windows such as ChromeOS overview mode will see bubbles

@@ -43,7 +43,7 @@ void StorageNotificationServiceImpl::MaybeShowStoragePressureNotification(
     return;
   }
 
-  chrome::ShowStoragePressureBubble(origin);
+  //chrome::ShowStoragePressureBubble(origin);
   disk_pressure_notification_last_sent_at_ = base::TimeTicks::Now();
 }
 

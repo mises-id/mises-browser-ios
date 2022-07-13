@@ -106,7 +106,7 @@
           Learn more
         </message>
       </if>
-      <if expr="is_win or is_linux or is_macosx or is_fuchsia or chromeos">
+      <if expr="is_android or is_win or is_linux or is_macosx or is_fuchsia or chromeos">
         <message name="IDS_SAD_TAB_ERROR_CODE" desc="The message displayed on the crashed web page indicating the type of the crash.">
           Error code: <ph name="ERROR_CODE">$1<ex>STATUS_ACCESS_VIOLATION</ex></ph>
         </message>
@@ -121,7 +121,7 @@
                desc="Title of the new incognito tab page, not to be confused with the action of opening a new incognito tab.">
         New Incognito Tab
       </message>
-      <if expr="not is_android">
+      <if expr="is_android or not is_android">
         <message name="IDS_NEW_TAB_OTR_HEADING"
                  desc="Heading used when a person opens an OTR window">
           You’ve gone Incognito
