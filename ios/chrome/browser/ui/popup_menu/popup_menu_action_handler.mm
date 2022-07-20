@@ -96,6 +96,10 @@ using base::UserMetricsAction;
       RecordAction(UserMetricsAction("MobileMenuSiteInformation"));
       [self.dispatcher showPageInfo];
       break;
+    case PopupMenuActionMises:
+        RecordAction(UserMetricsAction("MobileMenuOpenMises"));
+  	//[Mises PopupMetamask:self.baseViewController];
+        break;
     case PopupMenuActionReportIssue:
       RecordAction(UserMetricsAction("MobileMenuReportAnIssue"));
       [self.dispatcher

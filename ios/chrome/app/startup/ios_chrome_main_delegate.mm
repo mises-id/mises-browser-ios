@@ -8,6 +8,7 @@
 #include "components/component_updater/component_updater_paths.h"
 #include "ios/chrome/browser/chrome_paths.h"
 #include "third_party/skia/include/core/SkGraphics.h"
+#include "ios/third_party/mises/mises_web_client.h"
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
@@ -31,6 +32,10 @@ void IOSChromeMainDelegate::BasicStartupComplete() {
   // for all three arguments.
   component_updater::RegisterPathProvider(
       ios::DIR_USER_DATA, ios::DIR_USER_DATA, ios::DIR_USER_DATA);
+
+  static std::unique_ptr<web::MisesWebClient> web_client;
+  web_client = std::make_unique<web::MisesWebClient>();
+  web::SetWebClient(web_client.get());
 
   // Upstream wires up log file handling here based on flags; for now that's
   // not supported, and this is called just to handle vlog levels and patterns.

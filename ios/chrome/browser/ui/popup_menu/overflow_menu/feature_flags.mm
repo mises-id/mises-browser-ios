@@ -11,7 +11,7 @@
 #endif
 
 const base::Feature kNewOverflowMenu{"NewOverflowMenu",
-                                     base::FEATURE_DISABLED_BY_DEFAULT};
+                                     base::FEATURE_ENABLED_BY_DEFAULT};
 
 bool IsNewOverflowMenuEnabled() {
   if (@available(iOS 15, *)) {

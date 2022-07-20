@@ -14,7 +14,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
-
+import platform
 
 SUPPORTED_TARGETS = ('iphoneos', 'iphonesimulator', 'maccatalyst')
 SUPPORTED_CONFIGS = ('Debug', 'Release', 'Profile', 'Official')
@@ -65,6 +65,13 @@ class ConfigParserWithStringInterpolation(configparser.ConfigParser):
     prefix, suffix = value[:begin], self._ExpandEnvVar(value[end:])
     return prefix + os.environ.get(name, '') + suffix
 
+def HostCpuArch():
+  '''Returns the arch of the host cpu for GN.'''
+  HOST_CPU_ARCH = {
+    'arm64': '"arm64"',
+    'x86_64': '"x64"',
+  }
+  return HOST_CPU_ARCH[platform.machine()]
 
 class GnGenerator(object):
 
@@ -74,8 +81,8 @@ class GnGenerator(object):
 
   TARGET_CPU_VALUES = {
     'iphoneos': '"arm64"',
-    'iphonesimulator': '"x64"',
-    'maccatalyst': '"x64"',
+    'iphonesimulator': HostCpuArch(),
+    'maccatalyst': HostCpuArch(),
   }
 
   TARGET_ENVIRONMENT_VALUES = {

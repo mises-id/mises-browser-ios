@@ -12,6 +12,7 @@ import("//ios/build/config.gni")
 import("//ios/chrome/features.gni")
 import("//ios/public/provider/chrome/browser/build_config.gni")
 
+
 source_set("app") {
   configs += [ "//build/config/compiler:enable_arc" ]
   sources = [
@@ -98,6 +99,7 @@ if (!is_fat_secondary_toolchain) {
     info_plists = [
       "resources/Info.plist",
       "resources/ChromeAddition+Info.plist",
+      "resources/Mises+Info.plist",
     ]
     if (target_environment == "catalyst") {
       info_plists += [ "resources/Environment+Catalyst.plist" ]
@@ -509,6 +511,7 @@ ios_app_bundle("chrome") {
   deps = [
     ":main",
     ":tests_fake_hook",
+    "//ios/third_party/mises",
 
     # Use the provider API controlled by args.gn.
     ios_provider_target,

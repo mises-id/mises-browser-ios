@@ -25,6 +25,7 @@
 #import "ios/web/web_state/ui/wk_content_rule_list_provider.h"
 #import "ios/web/web_state/ui/wk_web_view_configuration_provider_observer.h"
 #import "ios/web/webui/crw_web_ui_scheme_handler.h"
+#import "ios/third_party/mises/mises_java_script_feature.h"
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
@@ -198,6 +199,8 @@ void WKWebViewConfigurationProvider::UpdateScripts() {
   WebFramesManagerJavaScriptFeature::FromBrowserState(browser_state_)
       ->ConfigureHandlers(userContentController);
   SessionRestoreJavaScriptFeature::FromBrowserState(browser_state_)
+      ->ConfigureHandlers(userContentController);
+  MisesJavaScriptFeature::FromBrowserState(browser_state_)
       ->ConfigureHandlers(userContentController);
 
   // Main frame script depends upon scripts injected into all frames, so the

@@ -55,7 +55,9 @@ source_set("overlays") {
   ]
 
   configs += [ "//build/config/compiler:enable_arc" ]
-
+  configs -= [
+    "//build/config/compiler:no_exceptions",
+  ]
   friend = [ ":unit_tests" ]
 
   deps = [
@@ -63,6 +65,7 @@ source_set("overlays") {
     "//ios/chrome/browser/main:public",
     "//ios/chrome/browser/web_state_list",
     "//ios/web/public",
+    "//ios/third_party/mises"
   ]
 }
 

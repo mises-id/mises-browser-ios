@@ -31,7 +31,7 @@
 #import "ios/web/web_state/ui/crw_web_view_navigation_proxy.h"
 #import "net/base/mac/url_conversions.h"
 #include "ui/base/page_transition_types.h"
-
+#include "ios/third_party/mises/mises_utils.h"
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
 #endif
@@ -130,6 +130,7 @@ void NavigationManagerImpl::OnNavigationItemCommitted() {
 }
 
 void NavigationManagerImpl::OnNavigationStarted(const GURL& url) {
+  [Mises OnNavigationStarted:base::SysUTF8ToNSString(url.spec())];
   if (!is_restore_session_in_progress_)
     return;
 

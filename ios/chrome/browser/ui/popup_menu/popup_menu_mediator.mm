@@ -1064,6 +1064,11 @@ PopupMenuTextItem* CreateEnterpriseInfoItem(NSString* imageName,
       @"popup_menu_site_information", kToolsMenuSiteInformation);
   [actionsArray addObject:self.siteInformationItem];
 
+  TableViewItem* mises =
+      CreateTableViewItem(IDS_IOS_OPTIONS_MISES, PopupMenuActionMises,
+                          @"popup_menu_site_information", kToolsMenuMisesId);
+  [actionsArray addObject:mises];
+
   // Report an Issue.
   if (ios::GetChromeBrowserProvider()
           .GetUserFeedbackProvider()

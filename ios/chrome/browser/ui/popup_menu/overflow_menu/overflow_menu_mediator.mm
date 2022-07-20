@@ -53,6 +53,7 @@
 #import "ios/web/public/web_state.h"
 #import "ios/web/public/web_state_observer_bridge.h"
 #include "ui/base/l10n/l10n_util.h"
+#import "ios/third_party/mises/mises_utils.h"
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
@@ -162,6 +163,7 @@ OverflowMenuFooter* CreateOverflowMenuManagedFooter(int nameID,
 @property(nonatomic, strong) OverflowMenuAction* findInPageAction;
 @property(nonatomic, strong) OverflowMenuAction* textZoomAction;
 
+@property(nonatomic, strong) OverflowMenuAction* misesAction;
 @property(nonatomic, strong) OverflowMenuAction* reportIssueAction;
 @property(nonatomic, strong) OverflowMenuAction* helpAction;
 
@@ -417,6 +419,11 @@ OverflowMenuFooter* CreateOverflowMenuManagedFooter(int nameID,
       [[OverflowMenuActionGroup alloc] initWithGroupName:@"page_actions"
                                                  actions:@[]
                                                   footer:nil];
+  
+  self.misesAction = CreateOverflowMenuAction(
+      IDS_IOS_OPTIONS_MISES, @"overflow_menu_action_open_mises", ^{
+        [weakSelf openMises];
+      });
 
   self.reportIssueAction = CreateOverflowMenuAction(
       IDS_IOS_OPTIONS_REPORT_AN_ISSUE, @"overflow_menu_action_report_issue", ^{
@@ -431,6 +438,7 @@ OverflowMenuFooter* CreateOverflowMenuManagedFooter(int nameID,
   self.helpActionsGroup =
       [[OverflowMenuActionGroup alloc] initWithGroupName:@"help_actions"
                                                  actions:@[
+						   self.misesAction,
                                                    self.reportIssueAction,
                                                    self.helpAction,
                                                  ]
@@ -899,6 +907,12 @@ OverflowMenuFooter* CreateOverflowMenuManagedFooter(int nameID,
   RecordAction(UserMetricsAction("MobileMenuTextZoom"));
   [self.dispatcher dismissPopupMenuAnimated:YES];
   [self.dispatcher openTextZoom];
+}
+
+- (void)openMises {
+  RecordAction(UserMetricsAction("MobileMenuOpenMises"));
+  [self.dispatcher dismissPopupMenuAnimated:YES];
+  [Mises PopupMetamask:self.baseViewController];
 }
 
 // Dismisses the menu and opens the Report an Issue screen.
