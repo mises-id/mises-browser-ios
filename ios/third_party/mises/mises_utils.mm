@@ -1,4 +1,5 @@
 #import "mises_utils.h"
+#import "mises_lcd_service.h"
 #include "base/logging.h"
 #include "base/strings/sys_string_conversions.h"
 
@@ -107,6 +108,7 @@
     DLOG(WARNING) << "Init Metamask";
     dispatch_async(dispatch_get_main_queue(), ^{
       [ReactAppDelegate wrapper]; 
+      [[MisesLCDService wrapper] run];
     });
      //
 }
@@ -180,6 +182,16 @@ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(postMessageFromRN:(NSString *)msg:(NSStri
           }
         });
       }
+    });
+
+    return nil;
+}
+
+RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(setMisesUserInfo:(NSString *)json)
+{
+    DLOG(WARNING) << "setMisesUserInfo " << json;
+    dispatch_async(dispatch_get_main_queue(), ^{
+
     });
 
     return nil;

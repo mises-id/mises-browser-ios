@@ -32,6 +32,7 @@ source_set("mises") {
     "mises_web_client.mm",
     "mises_java_script_feature.mm",
     "mises_utils.mm",
+    "mises_lcd_service.mm",
     "RCTAnalytics.mm",
   ]
   public_configs = [
@@ -138,6 +139,7 @@ config("mises_config") {
   frameworks = [
     #"Branch.framework",
     #"Lottie.framework",
+    "Sdk.framework",
     "Mixpanel.framework",
     "OpenSSL.framework",
     "JavaScriptCore.framework",
