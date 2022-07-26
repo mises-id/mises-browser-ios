@@ -188,6 +188,18 @@
   return cancelButton;
 }
 
+- (ToolbarButton*)misesButton {
+  ToolbarButton* misesButton = [ToolbarButton
+      toolbarButtonWithImage:[[UIImage imageNamed:@"mises_user_default"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+  [self configureButton:misesButton width:kAdaptiveToolbarButtonWidth];
+  [misesButton addTarget:self.actionHandler
+                 action:@selector(misesMenuAction)
+       forControlEvents:UIControlEventTouchUpInside];
+  misesButton.visibilityMask =
+      self.visibilityConfiguration.misesButtonVisibility;
+  return misesButton;
+}
+
 #pragma mark - Helpers
 
 // Sets the |button| width to |width| with a priority of

@@ -44,6 +44,9 @@
 @property(nonatomic, readonly)
     ToolbarComponentVisibility locationBarLeadingButtonVisibility;
 
+@property(nonatomic, readonly)
+    ToolbarComponentVisibility misesButtonVisibility;
+
 @end
 
 #endif  // IOS_CHROME_BROWSER_UI_TOOLBAR_BUTTONS_TOOLBAR_BUTTON_VISIBILITY_CONFIGURATION_H_

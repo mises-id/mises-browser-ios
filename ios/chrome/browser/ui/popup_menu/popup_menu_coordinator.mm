@@ -138,6 +138,12 @@ PopupMenuCommandType CommandTypeFromPopupType(PopupMenuType type) {
             fromNamedGuide:kToolsMenuGuide];
 }
 
+- (void)showMisesMenuPopup {
+  // The metric is registered at the toolbar level.
+  [self presentPopupOfType:PopupMenuTypeMisesMenu
+            fromNamedGuide:kMisesButtonGuide];
+}
+
 - (void)showTabGridButtonPopup {
   base::RecordAction(base::UserMetricsAction("MobileToolbarShowTabGridMenu"));
   [self presentPopupOfType:PopupMenuTypeTabGrid

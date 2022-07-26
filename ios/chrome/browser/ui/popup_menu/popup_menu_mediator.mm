@@ -77,6 +77,7 @@
 #import "ios/web/public/web_state_observer_bridge.h"
 #include "ui/base/l10n/l10n_util.h"
 #include "ui/gfx/image/image.h"
+#include "ios/third_party/mises/mises_utils.h"
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
@@ -478,6 +479,9 @@ PopupMenuTextItem* CreateEnterpriseInfoItem(NSString* imageName,
     switch (self.type) {
       case PopupMenuTypeToolsMenu:
         [self createToolsMenuItems];
+        break;
+      case PopupMenuTypeMisesMenu:
+        [self createMisesMenuItems];
         break;
       case PopupMenuTypeNavigationForward:
         [self createNavigationItemsForType:PopupMenuTypeNavigationForward];
@@ -962,6 +966,50 @@ PopupMenuTextItem* CreateEnterpriseInfoItem(NSString* imageName,
   } else {
     self.items = @[ tabActions, collectionActions, browserActions ];
   }
+}
+
+- (void)createMisesMenuItems {
+
+   if (![Mises isLogin]) {
+
+    TableViewItem* misesCreateRestore =
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_CREATE_RESTORE, PopupMenuActionMises,
+                            @"popup_menu_mises_create", kToolsMenuMisesId);
+    NSArray* signinActions = @[ misesCreateRestore ];
+    self.items = @[ signinActions ];
+   } else {
+
+    TableViewItem* misesMyData =
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_MY_DATA, PopupMenuActionMisesMyData,
+                            @"popup_menu_mises_mydata", kToolsMenuMisesMyDataId);
+    TableViewItem* misesDiscover =
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_DISCOVER, PopupMenuActionMisesDiscover,
+                            @"popup_menu_mises_discover", kToolsMenuMisesDiscoverId); 
+    TableViewItem* misesWallet =
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_WALLET, PopupMenuActionMisesWallet,
+                            @"popup_menu_mises_wallet", kToolsMenuMisesWalletId);    
+    TableViewItem* misesStakingPortal =
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_STAKING_PORTAL, PopupMenuActionMisesStakingPortal,
+                            @"popup_menu_mises_portal", kToolsMenuMisesStakingPortalId);
+    TableViewItem* misesNft =
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_NFT, PopupMenuActionMisesNft,
+                            @"popup_menu_mises_nft", kToolsMenuMisesNftId);                   
+    NSArray* walletActions = @[ misesMyData, misesDiscover, misesWallet,misesStakingPortal,misesNft ];
+
+     
+    TableViewItem* misesInvite =
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_INVITE, PopupMenuActionMisesInvite,
+                            @"popup_menu_mises_invite", kToolsMenuMisesInviteId);
+    TableViewItem* misesOffical=
+        CreateTableViewItem(IDS_IOS_OPTIONS_MISES_VIEW_OFFICIAL_WEBSITE, PopupMenuActionMisesOfficialSite,
+                            @"popup_menu_mises_view_website", kToolsMenuMisesOfficialSiteId);                   
+    NSArray* otherActions = @[ misesInvite, misesOffical ];
+    self.items = @[ walletActions, otherActions ];
+
+   }
+
+  
+
 }
 
 - (NSArray<TableViewItem*>*)itemsForNewTab {

@@ -1493,8 +1493,33 @@ While in Incognito, sites can't use cookies to see your browsing activity across
       <message name="IDS_IOS_PRIVACY_GOOGLE_SERVICES_FOOTER" desc="Footer to invite the user to open the Google Services settings.">
         For more settings that relate to privacy, security, and data collection, see <ph name="BEGIN_LINK">BEGIN_LINK</ph>Google Services<ph name="END_LINK">END_LINK</ph>.
       </message>
+      
       <message name="IDS_IOS_OPTIONS_MISES" desc="Title for the option on Settings page to open mises. [Length: 20em] [iOS only]">
         Mises
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_CREATE_RESTORE" desc="Title for the option create or restore mises account. [Length: 20em] [iOS only]">
+        Create/Restore
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_MY_DATA" desc="Title for the option open mises account. [Length: 20em] [iOS only]">
+        My Data
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_DISCOVER" desc="Title for the option open mises discover. [Length: 20em] [iOS only]">
+        Mises Discover
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_WALLET" desc="Title for the option open mises wallet. [Length: 20em] [iOS only]">
+        Wallet
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_STAKING_PORTAL" desc="Title for the option open mises staking portal. [Length: 20em] [iOS only]">
+        Staking Portal
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_NFT" desc="Title for the option open mises nft. [Length: 20em] [iOS only]">
+        NFT
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_INVITE" desc="Title for the option open mises invite. [Length: 20em] [iOS only]">
+        Invite
+      </message>
+      <message name="IDS_IOS_OPTIONS_MISES_VIEW_OFFICIAL_WEBSITE" desc="Title for the option open mises official web site. [Length: 20em] [iOS only]">
+        View Official Website
       </message>
       <message name="IDS_IOS_OPTIONS_REPORT_AN_ISSUE" desc="Title for the option on Settings page to report an issue. [Length: 20em] [iOS only]">
         Report an Issue

@@ -127,4 +127,15 @@
   }
 }
 
+
+- (ToolbarComponentVisibility)misesButtonVisibility {
+  switch (self.type) {
+    case PRIMARY:
+      return ToolbarComponentVisibilityAlways &
+             ~ToolbarComponentVisibilitySplit;
+    case SECONDARY:
+      return ToolbarComponentVisibilityAlways;
+  }
+}
+
 @end

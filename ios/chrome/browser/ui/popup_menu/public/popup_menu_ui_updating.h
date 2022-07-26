@@ -15,6 +15,7 @@ typedef NS_ENUM(NSInteger, PopupMenuType) {
   PopupMenuTypeTabGrid,
   PopupMenuTypeNewTab,
   PopupMenuTypeTabStripTabGrid,
+  PopupMenuTypeMisesMenu,
 };
 
 // Protocol for a class updating the UI to reflect the presentation of a popup

@@ -27,6 +27,7 @@
 #import "ios/chrome/browser/web/web_navigation_browser_agent.h"
 #import "ios/chrome/browser/window_activities/window_activity_helpers.h"
 #include "url/gurl.h"
+#import "ios/third_party/mises/mises_utils.h"
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
@@ -97,9 +98,43 @@ using base::UserMetricsAction;
       [self.dispatcher showPageInfo];
       break;
     case PopupMenuActionMises:
-        RecordAction(UserMetricsAction("MobileMenuOpenMises"));
-  	//[Mises PopupMetamask:self.baseViewController];
-        break;
+      RecordAction(UserMetricsAction("MobileMenuOpenMises"));
+  	  [Mises PopupMetamask:self.baseViewController];
+      [self.dispatcher dismissPopupMenuAnimated:NO];
+      break;
+    case PopupMenuActionMisesMyData:
+      RecordAction(UserMetricsAction("MobileMenuOpenMisesMyData"));
+      [self.dispatcher openSinglePage:@"https://home.mises.site/userInfo"];
+  	  
+      break;
+    
+    case PopupMenuActionMisesDiscover:
+      RecordAction(UserMetricsAction("MobileMenuOpenMisesDiscover"));
+      [self.dispatcher openSinglePage:@"https://home.mises.site/home/discover"];
+      break;
+    case PopupMenuActionMisesWallet:
+      RecordAction(UserMetricsAction("MobileMenuOpenMisesWallet"));
+      [Mises PopupMetamask:self.baseViewController];
+      [self.dispatcher dismissPopupMenuAnimated:NO];
+      break;
+    case PopupMenuActionMisesStakingPortal:
+      RecordAction(UserMetricsAction("MobileMenuOpenMisesStakingPortal"));
+      [self.dispatcher openSinglePage:@"https://portal.mises.site"];
+      break;
+    case PopupMenuActionMisesNft:
+      RecordAction(UserMetricsAction("MobileMenuOpenMisesNft"));
+      [self.dispatcher openSinglePage:@"https://home.mises.site/nft"];
+      break;
+    case PopupMenuActionMisesInvite: {
+      RecordAction(UserMetricsAction("MobileMenuOpenMisesInvite"));
+      NSString *url = @"https://home.mises.site/myInvitation?misesId=";
+      [self.dispatcher openSinglePage:[url stringByAppendingString:[Mises misesId]]];
+      break;
+      }
+    case PopupMenuActionMisesOfficialSite:
+      RecordAction(UserMetricsAction("MobileMenuOpenMisesOfficialSite"));
+      [self.dispatcher openSinglePage:@"https://www.mises.site"];
+      break;
     case PopupMenuActionReportIssue:
       RecordAction(UserMetricsAction("MobileMenuReportAnIssue"));
       [self.dispatcher

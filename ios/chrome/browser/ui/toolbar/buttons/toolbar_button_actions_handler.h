@@ -58,6 +58,8 @@ class WebNavigationBrowserAgent;
 // Action when the button to cancel the omnibox focus is tapped.
 - (void)cancelOmniboxFocusAction;
 
+- (void)misesMenuAction;
+
 @end
 
 #endif  // IOS_CHROME_BROWSER_UI_TOOLBAR_BUTTONS_TOOLBAR_BUTTON_ACTIONS_HANDLER_H_

@@ -29,7 +29,6 @@ NSString* const kToolsMenuBookmarksId = @"kToolsMenuBookmarksId";
 NSString* const kToolsMenuReadingListId = @"kToolsMenuReadingListId";
 NSString* const kToolsMenuOtherDevicesId = @"kToolsMenuOtherDevicesId";
 NSString* const kToolsMenuHistoryId = @"kToolsMenuHistoryId";
-NSString* const kToolsMenuMisesId = @"kToolsMenuMisesId";
 NSString* const kToolsMenuReportAnIssueId = @"kToolsMenuReportAnIssueId";
 NSString* const kToolsMenuTranslateId = @"kToolsMenuTranslateId";
 NSString* const kToolsMenuFindInPageId = @"kToolsMenuFindInPageId";
@@ -49,3 +48,13 @@ NSString* const kToolsMenuQRCodeSearch = @"kToolsMenuQRCodeSearch";
 NSString* const kToolsMenuCopiedImageSearch = @"kToolsMenuCopiedImageSearch";
 NSString* const kToolsMenuTextZoom = @"kToolsMenuTextZoom";
 NSString* const kTextMenuEnterpriseInfo = @"kTextMenuEnterpriseInfo";
+
+
+NSString* const kToolsMenuMisesId = @"kToolsMenuMisesId";
+NSString* const kToolsMenuMisesWalletId = @"kToolsMenuMisesWalletId";
+NSString* const kToolsMenuMisesMyDataId = @"kToolsMenuMisesMyDataId";
+NSString* const kToolsMenuMisesDiscoverId = @"kToolsMenuMisesDiscoverId";
+NSString* const kToolsMenuMisesStakingPortalId = @"kToolsMenuMisesStakingPortalId";
+NSString* const kToolsMenuMisesNftId = @"kToolsMenuMisesNftId";
+NSString* const kToolsMenuMisesInviteId = @"kToolsMenuMisesInviteId";
+NSString* const kToolsMenuMisesOfficialSiteId = @"kToolsMenuMisesOfficialSiteId";

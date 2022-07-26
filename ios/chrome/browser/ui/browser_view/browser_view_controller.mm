@@ -2217,6 +2217,7 @@ NSString* const kBrowserViewControllerSnackbarCategory =
       kVoiceSearchButtonGuide,
       kDiscoverFeedHeaderMenuGuide,
       kPrimaryToolbarLocationViewGuide,
+      kMisesButtonGuide,
     ];
     AddNamedGuidesToView(guideNames, self.view);
 
@@ -3863,6 +3864,15 @@ NSString* const kBrowserViewControllerSnackbarCategory =
   GURL helpUrl(l10n_util::GetStringUTF16(IDS_IOS_TOOLS_MENU_HELP_URL));
   UrlLoadParams params = UrlLoadParams::InNewTab(helpUrl);
   params.append_to = kCurrentTab;
+  params.user_initiated = NO;
+  params.in_incognito = self.isOffTheRecord;
+  UrlLoadingBrowserAgent::FromBrowser(self.browser)->Load(params);
+}
+
+- (void)openSinglePage:(NSString*)url {
+ 
+  GURL pageUrl  =  net::GURLWithNSURL([NSURL URLWithString:url]);
+  UrlLoadParams params = UrlLoadParams::SwitchToTab(web::NavigationManager::WebLoadParams(pageUrl));
   params.user_initiated = NO;
   params.in_incognito = self.isOffTheRecord;
   UrlLoadingBrowserAgent::FromBrowser(self.browser)->Load(params);

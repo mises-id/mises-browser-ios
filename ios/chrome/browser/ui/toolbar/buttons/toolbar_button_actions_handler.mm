@@ -42,6 +42,10 @@
   [self.dispatcher showToolsMenuPopup];
 }
 
+- (void)misesMenuAction {
+  [self.dispatcher showMisesMenuPopup];
+}
+
 - (void)shareAction {
   [self.dispatcher sharePage];
 }
@@ -68,5 +72,6 @@
 - (void)cancelOmniboxFocusAction {
   [self.dispatcher cancelOmniboxEdit];
 }
+
 
 @end

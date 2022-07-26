@@ -39,7 +39,6 @@ extern NSString* const kToolsMenuReadingListId;
 extern NSString* const kToolsMenuOtherDevicesId;
 // History item accessibility Identifier.
 extern NSString* const kToolsMenuHistoryId;
-extern NSString* const kToolsMenuMisesId;
 // Report an issue item accessibility Identifier.
 extern NSString* const kToolsMenuReportAnIssueId;
 // Translate item accessibility Identifier.
@@ -79,4 +78,14 @@ extern NSString* const kToolsMenuTextZoom;
 // Text Enterprise info item accessibility identifier.
 extern NSString* const kTextMenuEnterpriseInfo;
 
+
+
+extern NSString* const kToolsMenuMisesId;
+extern NSString* const kToolsMenuMisesWalletId;
+extern NSString* const kToolsMenuMisesMyDataId;
+extern NSString* const kToolsMenuMisesDiscoverId;
+extern NSString* const kToolsMenuMisesStakingPortalId;
+extern NSString* const kToolsMenuMisesNftId;
+extern NSString* const kToolsMenuMisesInviteId;
+extern NSString* const kToolsMenuMisesOfficialSiteId;
 #endif  // IOS_CHROME_BROWSER_UI_POPUP_MENU_POPUP_MENU_CONSTANTS_H_

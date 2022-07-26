@@ -49,6 +49,8 @@ const CGFloat kToolsMenuOffset = -7;
 // Button to create a new tab, redefined as readwrite.
 @property(nonatomic, strong, readwrite) ToolbarButton* openNewTabButton;
 
+@property(nonatomic, strong, readwrite) ToolbarButton* misesButton;
+
 @end
 
 @implementation SecondaryToolbarView
@@ -61,6 +63,8 @@ const CGFloat kToolsMenuOffset = -7;
 @synthesize toolsMenuButton = _toolsMenuButton;
 @synthesize openNewTabButton = _openNewTabButton;
 @synthesize tabGridButton = _tabGridButton;
+
+@synthesize misesButton = _misesButton;
 
 #pragma mark - Public
 
@@ -114,6 +118,8 @@ const CGFloat kToolsMenuOffset = -7;
   self.tabGridButton = [self.buttonFactory tabGridButton];
   self.toolsMenuButton = [self.buttonFactory toolsMenuButton];
 
+  self.misesButton = [self.buttonFactory misesButton];
+
   // Move the tools menu button such as it looks visually balanced with the
   // button on the other side of the toolbar.
   NSInteger textDirection = base::i18n::IsRTL() ? -1 : 1;
@@ -121,7 +127,7 @@ const CGFloat kToolsMenuOffset = -7;
       CGAffineTransformMakeTranslation(textDirection * kToolsMenuOffset, 0);
 
   self.allButtons = @[
-    self.backButton, self.forwardButton, self.openNewTabButton,
+    self.misesButton, self.backButton, self.forwardButton,
     self.tabGridButton, self.toolsMenuButton
   ];
 

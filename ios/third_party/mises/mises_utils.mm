@@ -102,6 +102,12 @@
 }
 @end
 
+
+NSString* mMisesId = @"";
+NSString* mMisesToken = @"";
+NSString* mMisesNickname = @"";
+NSString* mMisesAvatar = @"";
+
 @implementation Mises
 
 + (void) Init{
@@ -131,6 +137,27 @@
 + (void) onWebViewActivated:(WKWebView *) wv {
   [ReactAppDelegate wrapper].webView = wv;
 }
+
+
++ (BOOL) isLogin {
+  return mMisesToken != nil && [mMisesToken length] > 0;
+}
++ (NSString*) misesId {
+  return [mMisesId copy];
+
+}
++ (NSString*) misesToken{
+  return [mMisesToken copy];
+
+}
++ (NSString*) misesNickname{
+  return [mMisesNickname copy];
+
+}
++ (NSString*) misesAvatar{
+  return [mMisesAvatar copy];
+}
+
 @end
 
 
@@ -187,11 +214,34 @@ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(postMessageFromRN:(NSString *)msg:(NSStri
     return nil;
 }
 
-RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(setMisesUserInfo:(NSString *)json)
+RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(setMisesUserInfo:(NSString *)jsonString)
 {
-    DLOG(WARNING) << "setMisesUserInfo " << json;
+    DLOG(WARNING) << "setMisesUserInfo " << jsonString;
     dispatch_async(dispatch_get_main_queue(), ^{
+      NSData *stringData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
+      id json = [NSJSONSerialization JSONObjectWithData:stringData options:0 error:nil];
 
+      if ([json isKindOfClass:[NSDictionary class]]) {
+
+          id misesId = json[@"misesId"];
+          if ([misesId isKindOfClass:[NSString class]]) {
+            mMisesId = [misesId copy];
+          }
+          id token = json[@"token"];
+          if ([token isKindOfClass:[NSString class]]) {
+            mMisesToken = [token copy];
+          }
+          id nickname = json[@"nickname"];
+          if ([nickname isKindOfClass:[NSString class]]) {
+            mMisesNickname = [nickname copy];
+          }
+          id avatar = json[@"avatar"];
+          if ([avatar isKindOfClass:[NSString class]]) {
+            mMisesAvatar = [avatar copy];
+          } else {
+            mMisesAvatar = @"";
+          }
+      }
     });
 
     return nil;

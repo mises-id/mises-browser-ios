@@ -54,6 +54,8 @@
 // Button to cancel the edit of the location bar.
 - (UIButton*)cancelButton;
 
+- (ToolbarButton*)misesButton;
+
 @end
 
 #endif  // IOS_CHROME_BROWSER_UI_TOOLBAR_BUTTONS_TOOLBAR_BUTTON_FACTORY_H_

@@ -438,4 +438,8 @@
   return nil;
 }
 
+- (ToolbarButton*)misesButton {
+  return nil;
+}
+
 @end

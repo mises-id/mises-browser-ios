@@ -87,6 +87,8 @@ class GURL;
 // prevent interaction with the web page.
 - (void)showActivityOverlay:(BOOL)show;
 
+- (void)openSinglePage:(NSString*)url;
+
 @end
 
 #endif  // IOS_CHROME_BROWSER_UI_COMMANDS_BROWSER_COMMANDS_H_

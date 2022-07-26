@@ -62,4 +62,6 @@ extern GuideName* const kPrimaryToolbarLocationViewGuide;
 // tab grid.
 extern GuideName* const kTabGridBottomToolbarGuide;
 
+extern GuideName* const kMisesButtonGuide;
+
 #endif  // IOS_CHROME_BROWSER_UI_UTIL_LAYOUT_GUIDE_NAMES_H_

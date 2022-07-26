@@ -37,6 +37,7 @@ source_set("buttons") {
     "resources:toolbar_share",
     "resources:toolbar_stop",
     "resources:toolbar_switcher",
+    "resources:mises_user_default",
     "//base",
     "//components/strings",
     "//ios/chrome/app/strings",

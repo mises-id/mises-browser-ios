@@ -40,6 +40,8 @@
 // Separator between the toolbar and the content.
 @property(nonatomic, strong, readonly) UIView* separator;
 
+@property(nonatomic, strong, readonly) ToolbarButton* misesButton;
+
 @end
 
 #endif  // IOS_CHROME_BROWSER_UI_TOOLBAR_ADAPTIVE_TOOLBAR_VIEW_H_

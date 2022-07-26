@@ -23,6 +23,13 @@ typedef NS_ENUM(NSInteger, PopupMenuAction) {
   PopupMenuActionSiteInformation,
   PopupMenuActionReportIssue,
   PopupMenuActionMises,
+  PopupMenuActionMisesMyData,
+  PopupMenuActionMisesDiscover,
+  PopupMenuActionMisesWallet,
+  PopupMenuActionMisesStakingPortal,
+  PopupMenuActionMisesNft,
+  PopupMenuActionMisesInvite,
+  PopupMenuActionMisesOfficialSite,
   PopupMenuActionHelp,
   PopupMenuActionTextZoom,
 #if !defined(NDEBUG)

@@ -82,3 +82,13 @@ imageset("toolbar_forward") {
     "toolbar_forward.imageset/toolbar_forward@3x.png",
   ]
 }
+
+
+imageset("mises_user_default") {
+  sources = [
+    "mises_user_default.imageset/Contents.json",
+    "mises_user_default.imageset/mises_user_default.png",
+    "mises_user_default.imageset/mises_user_default@2x.png",
+    "mises_user_default.imageset/mises_user_default@3x.png",
+  ]
+}

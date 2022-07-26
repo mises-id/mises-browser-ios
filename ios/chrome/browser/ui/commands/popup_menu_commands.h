@@ -29,6 +29,8 @@ typedef NS_ENUM(NSInteger, PopupMenuCommandType) {
 // Dismisses the currently presented popup.
 - (void)dismissPopupMenuAnimated:(BOOL)animated;
 
+- (void)showMisesMenuPopup;
+
 @end
 
 #endif  // IOS_CHROME_BROWSER_UI_COMMANDS_POPUP_MENU_COMMANDS_H_

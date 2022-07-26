@@ -13,5 +13,13 @@
 + (void) OnNavigationStarted:(NSString*) url;
 
 + (void) onWebViewActivated:(WKWebView *) wv;
+
+
++ (BOOL) isLogin;
++ (NSString*) misesId;
++ (NSString*) misesToken;
++ (NSString*) misesNickname;
++ (NSString*) misesAvatar;
+
 @end
 #endif  // IOS_CHROME_APP_MISES_UTILS_H_

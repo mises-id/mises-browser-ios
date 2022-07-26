@@ -89,6 +89,7 @@ const CGFloat kTabGridAnimationsTotalDuration = 0.5;
   self.view.openNewTabButton.guideName = kNewTabButtonGuide;
   self.view.forwardButton.guideName = kForwardButtonGuide;
   self.view.backButton.guideName = kBackButtonGuide;
+  self.view.misesButton.guideName = kMisesButtonGuide;
 
   // Add navigation popup menu triggers.
   [self addLongPressGestureToView:self.view.backButton];
@@ -248,6 +249,9 @@ const CGFloat kTabGridAnimationsTotalDuration = 0.5;
     case PopupMenuTypeToolsMenu:
       selectedButton = self.view.toolsMenuButton;
       break;
+    case PopupMenuTypeMisesMenu:
+      selectedButton = self.view.misesButton;
+      break;
     case PopupMenuTypeTabStripTabGrid:
       // ignore
       break;
@@ -266,6 +270,7 @@ const CGFloat kTabGridAnimationsTotalDuration = 0.5;
   self.view.openNewTabButton.spotlighted = NO;
   self.view.tabGridButton.spotlighted = NO;
   self.view.toolsMenuButton.spotlighted = NO;
+  self.view.misesButton.spotlighted = NO;
 
   for (ToolbarButton* button in self.view.allButtons) {
     button.dimmed = NO;
@@ -367,6 +372,8 @@ const CGFloat kTabGridAnimationsTotalDuration = 0.5;
     base::RecordAction(base::UserMetricsAction("MobileToolbarShareMenu"));
   } else if (sender == self.view.openNewTabButton) {
     base::RecordAction(base::UserMetricsAction("MobileToolbarNewTabShortcut"));
+  } else if (sender == self.view.misesButton) {
+      base::RecordAction(base::UserMetricsAction("MobileToolbarMises"));
   } else {
     NOTREACHED();
   }
@@ -396,6 +403,9 @@ const CGFloat kTabGridAnimationsTotalDuration = 0.5;
     } else if (gesture.view == self.view.toolsMenuButton) {
       base::RecordAction(base::UserMetricsAction("MobileToolbarShowMenu"));
       [self.dispatcher showToolsMenuPopup];
+    } else if (gesture.view == self.view.misesButton) {
+      base::RecordAction(base::UserMetricsAction("MobileMisesShowMenu"));
+      [self.dispatcher showMisesMenuPopup];
     }
     TriggerHapticFeedbackForImpact(UIImpactFeedbackStyleHeavy);
   } else if (gesture.state == UIGestureRecognizerStateEnded) {
