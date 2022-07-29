@@ -161,6 +161,9 @@ all other OS specific variables will be false.
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
+      <message name="IDS_IOS_MISES_SHARE_EXTENSION" desc="Share extension button to mises discover [Length: 30em]" meaning="Button title [Length: 30em]">
+        Share to Mises Discover
+      </message>
       <message name="IDS_IOS_ADD_READING_LIST_SHARE_EXTENSION" desc="Share extension button to add to reading list [Length: 30em]" meaning="Button title [Length: 30em]">
         Add to Reading List
       </message>

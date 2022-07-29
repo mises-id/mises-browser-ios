@@ -194,6 +194,32 @@ const CGFloat kToolsMenuOffset = -7;
 
 
 - (void)updateMisesAvatar:(UIImage*)image {
-  [self.misesButton setImage:image forState:UIControlStateNormal];
+   
+//    if (self.misesButton) {
+//        UIView *first = [[self.stackView arrangedSubviews] objectAtIndex:0];
+//        [self.stackView removeArrangedSubview:first];
+//        [first removeFromSuperview];
+//    }
+//
+//    self.misesButton = nil;
+//    self.stackView.subviews
+//    [self.stackView setNeedsLayout];
+    //self.misesButton = [self.buttonFactory misesButton];
+    
+    if (image == nil) {
+        UIImage* icon = [[UIImage imageNamed:@"mises_user_default"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        [self.misesButton setImage:icon forState:UIControlStateNormal];
+        return;
+    }
+    
+    CGSize newSize = CGSizeMake(kAdaptiveToolbarIconSize, kAdaptiveToolbarIconSize);
+    UIGraphicsBeginImageContextWithOptions(newSize, NO, 0.0);
+    [image drawInRect:CGRectMake(0, 0, newSize.width, newSize.height)];
+    UIImage *resized_image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    UIImage *icon = [resized_image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [self.misesButton setImage:icon forState:UIControlStateNormal];
+    
+   // [self.stackView insertArrangedSubview:self.misesButton atIndex:0];
 }
 @end

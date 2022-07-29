@@ -7,6 +7,5 @@
 
 #import <UIKit/UIKit.h>
 
-UIImage* LoadImageThumb(NSString* imageURL, CGFloat imageLength);
 
 #endif  // IOS_CHROME_BROWSER_UI_QR_GENERATOR_QR_GENERATOR_UTIL_H_

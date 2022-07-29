@@ -404,6 +404,15 @@ const CGFloat kMediumAlpha = 0.5;
                 }];
 }
 
+- (void)shareExtensionViewDidSelectMisesShare:(id)sender {
+  [self queueActionItemURL:_shareURL
+                     title:_shareTitle
+                    action:app_group::MISES_SHARE
+                    cancel:NO
+                completion:^{
+                    [self dismissAndReturnItem:self->_shareItem];
+                }];
+}
 - (void)shareExtensionView:(id)sender
                typeChanged:(app_group::ShareExtensionItemType)type {
   [self setItemType:type];

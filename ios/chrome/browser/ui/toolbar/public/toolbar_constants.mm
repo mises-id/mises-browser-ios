@@ -23,6 +23,7 @@ const CGFloat kProgressBarHeight = 2.0f;
 
 const CGFloat kToolbarSeparatorHeight = 0.1f;
 
+const CGFloat kAdaptiveToolbarIconSize = 33.0f;
 const CGFloat kAdaptiveToolbarButtonHeight = 44.0f;
 const CGFloat kAdaptiveToolbarButtonWidth = 44.0f;
 const CGFloat kSearchButtonWidth = 70.0f;

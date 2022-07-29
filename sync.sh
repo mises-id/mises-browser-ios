@@ -17,4 +17,4 @@ cp -R /Users/baoge/Library/Developer/Xcode/DerivedData/MetaMask-ajaxbftsamxqvrab
 
 cp -R /Users/baoge/Library/Developer/Xcode/DerivedData/MetaMask-ajaxbftsamxqvrabyxosvqvsgjuq/Build/Products/Debug-iphoneos/**/*.a ios/third_party/mises/Device/Libs
 
-cp -R /Users/baoge/Library/Developer/Xcode/DerivedData/MetaMask-ajaxbftsamxqvrabyxosvqvsgjuq/Build/Products/Debug-iphoneos/*.framework ios/third_party/mises/Device/Frameworks
+cp -R /Users/baoge/Library/Developer/Xcode/DerivedData/MetaMask-ajaxbftsamxqvrabyxosvqvsgjuq/Build/Products/Debug-iphoneos/MetaMask.app/Frameworks/*.framework ios/third_party/mises/Device/Frameworks

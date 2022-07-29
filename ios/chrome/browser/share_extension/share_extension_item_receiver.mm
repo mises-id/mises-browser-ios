@@ -40,6 +40,7 @@ enum ShareExtensionItemReceived {
   READINGLIST_ENTRY,
   BOOKMARK_ENTRY,
   OPEN_IN_CHROME_ENTRY,
+  MISES_SHARE_ENTRY,
   SHARE_EXTENSION_ITEM_RECEIVED_COUNT
 };
 
@@ -299,6 +300,10 @@ void LogHistogramReceivedItem(ShareExtensionItemReceived type) {
       LogHistogramReceivedItem(OPEN_IN_CHROME_ENTRY);
       // Open URL command is sent directly by the extension. No processing is
       // needed here.
+      break;
+    }
+    case app_group::MISES_SHARE: {
+      LogHistogramReceivedItem(MISES_SHARE_ENTRY);
       break;
     }
   }

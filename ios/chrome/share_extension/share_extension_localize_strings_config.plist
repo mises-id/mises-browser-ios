@@ -12,7 +12,8 @@
 			<key>name</key>
 			<string>Localizable.strings</string>
 			<key>strings</key>
-			<array>
+			<array> 
+                                <string>IDS_IOS_MISES_SHARE_EXTENSION</string>
 				<string>IDS_IOS_ADD_READING_LIST_SHARE_EXTENSION</string>
 				<string>IDS_IOS_ADD_BOOKMARKS_SHARE_EXTENSION</string>
 				<string>IDS_IOS_OPEN_IN_CHROME_SHARE_EXTENSION</string>

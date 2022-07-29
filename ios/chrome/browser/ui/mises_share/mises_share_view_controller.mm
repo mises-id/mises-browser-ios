@@ -14,14 +14,15 @@
 #include "ios/chrome/grit/ios_strings.h"
 #include "ui/base/l10n/l10n_util_mac.h"
 
+#import <MaterialComponents/MDCBaseTextArea.h>
+
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
 #endif
 
 namespace {
 
-// Height and width of the QR code image, in points.
-const CGFloat kThumbImageSize = 200.0;
+//const CGFloat kThumbImageSize = 200.0;
 constexpr CGFloat kGeneratedImagePadding = 20;
 constexpr CGFloat kButtonMaxWidth = 327;
 constexpr CGFloat kContentMaxWidth = 500;
@@ -29,10 +30,13 @@ constexpr CGFloat kBottomMargin = 24;
 
 }  // namespace
 
-@interface MisesShareViewController ()
+@interface MisesShareViewController ()<UITextViewDelegate>
 
 // Container view that will wrap the views making up the content.
 @property(nonatomic, strong) UIStackView* stackView;
+
+@property(nonatomic, strong) UIImageView* thumbView;
+@property(nonatomic, strong) MDCBaseTextArea* inputView;
 
 // URL of the page to generate a QR code for.
 @property(nonatomic, copy) NSURL* pageURL;
@@ -85,11 +89,13 @@ constexpr CGFloat kBottomMargin = 24;
   scrollView.translatesAutoresizingMaskIntoConstraints = NO;
   [self.view addSubview:scrollView];
 
-  UIView* imageView = [self createImageView];
+  self.thumbView = [self createImageView];
   UILabel* title = [self createTitleLabel];
   UILabel* subtitle = [self createSubtitleLabel];
+  self.inputView = [self createTextView];
+  
   UIStackView* stackView = [[UIStackView alloc]
-      initWithArrangedSubviews:@[ imageView, title, subtitle ]];
+      initWithArrangedSubviews:@[ self.thumbView, title, subtitle, self.inputView ]];
   self.stackView = stackView;
   stackView.spacing = 8;
   stackView.axis = UILayoutConstraintAxisVertical;
@@ -214,9 +220,6 @@ constexpr CGFloat kBottomMargin = 24;
 
 #pragma mark - Private Methods
 
-- (UIImage*)createThumbImage {
-  return LoadImageThumb([self.pageURL absoluteString], kThumbImageSize);
-}
 
 // Helper to create the top toolbar.
 - (UIToolbar*)createTopToolbar {
@@ -306,7 +309,7 @@ constexpr CGFloat kBottomMargin = 24;
 // Helper to create the image view.
 - (UIImageView*)createImageView {
   UIImageView* imageView =
-      [[UIImageView alloc] initWithImage:[self createThumbImage]];
+      [[UIImageView alloc] init];
   imageView.contentMode = UIViewContentModeScaleAspectFit;
 
   imageView.isAccessibilityElement = YES;
@@ -349,6 +352,27 @@ constexpr CGFloat kBottomMargin = 24;
   return subtitle;
 }
 
+
+- (MDCBaseTextArea*)createTextView {
+    MDCBaseTextArea* input = [[MDCBaseTextArea alloc] init];
+  input.textView.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+  input.textView.textColor = [UIColor colorNamed:kTextSecondaryColor];
+    input.textView.delegate = self;
+  input.placeholder = @"Say someting";
+  input.textView.textAlignment = NSTextAlignmentLeft;
+    input.translatesAutoresizingMaskIntoConstraints = NO;
+    input.adjustsFontForContentSizeCategory = YES;
+    input.textView.translatesAutoresizingMaskIntoConstraints = NO;
+    input.textView.adjustsFontForContentSizeCategory = YES;
+    input.layer.borderWidth = 0;
+  return input;
+}
+
+- (void)textViewDidChange:(UITextView *)textView {
+  [self.view setNeedsLayout];
+}
+
+
 // Helper to create the primary action button.
 - (UIButton*)createPrimaryActionButton {
   UIButton* primaryActionButton = PrimaryActionButton(YES);
@@ -365,5 +389,25 @@ constexpr CGFloat kBottomMargin = 24;
 
   return primaryActionButton;
 }
+
+- (void)updateThumbImage:(UIImage*)image {
+  [self.thumbView setImage:image];
+    [self updateInputSize];
+    [self.stackView invalidateIntrinsicContentSize];
+    [self.view layoutIfNeeded];
+}
+
+
+- (void)updateInputSize {
+    CGFloat textAreaWidth = CGRectGetWidth(self.view.frame) - (2 * kBottomMargin);
+    MDCBaseTextArea *textArea = self.inputView;
+   CGFloat textAreaMinX = CGRectGetMinX(textArea.frame);
+   CGFloat textAreaMinY = CGRectGetMinY(textArea.frame);
+   CGFloat viewHeight = CGRectGetHeight(textArea.frame);
+    CGRect viewFrame = CGRectMake(textAreaMinX, textAreaMinY, textAreaWidth, viewHeight);
+   textArea.frame = viewFrame;
+    [textArea sizeToFit];
+}
+
 
 @end

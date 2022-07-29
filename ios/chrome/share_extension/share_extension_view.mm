@@ -58,6 +58,7 @@ const CGFloat kButtonFontSize = 17;
 @property(nonatomic, strong) UIButton* readingListButton;
 @property(nonatomic, strong) UIImageView* screenshotView;
 @property(nonatomic, strong) UIView* itemView;
+@property(nonatomic, strong) UIButton* misesShareButton;
 
 @property(nonatomic, weak) id<ShareExtensionViewActionTarget> target;
 
@@ -83,6 +84,13 @@ const CGFloat kButtonFontSize = 17;
 
     self.backgroundColor = [UIColor colorNamed:kBackgroundColor];
 
+    NSString* misesShareTitle = NSLocalizedString(
+        @"IDS_IOS_MISES_SHARE_EXTENSION",
+        @"The share to mises button in share extension.");
+    self.misesShareButton =
+        [self buttonWithTitle:misesShareTitle
+                     selector:@selector(misesSharePressed:)];
+
     NSString* addToReadingListTitle = NSLocalizedString(
         @"IDS_IOS_ADD_READING_LIST_SHARE_EXTENSION",
         @"The add to reading list button text in share extension.");
@@ -105,7 +113,7 @@ const CGFloat kButtonFontSize = 17;
                      selector:@selector(openInChromePressed:)];
 
     for (UIButton* button in
-         @[ self.readingListButton, bookmarksButton, openButton ]) {
+         @[ self.misesShareButton, self.readingListButton, bookmarksButton, openButton ]) {
       button.pointerInteractionEnabled = YES;
       button.pointerStyleProvider = ^UIPointerStyle*(
           UIButton* theButton, __unused UIPointerEffect* proposedEffect,
@@ -120,7 +128,7 @@ const CGFloat kButtonFontSize = 17;
 
     UIStackView* contentStack = [[UIStackView alloc] initWithArrangedSubviews:@[
       [self navigationBar], [self dividerView], [self sharedItemView],
-      [self dividerView], self.readingListButton, [self dividerView],
+      [self dividerView], self.misesShareButton,[self dividerView],  self.readingListButton, [self dividerView],
       bookmarksButton, [self dividerView], openButton
     ]];
     [contentStack setAxis:UILayoutConstraintAxisVertical];
@@ -291,6 +299,18 @@ const CGFloat kButtonFontSize = 17;
   [titleItem setHidesBackButton:YES];
   [navigationBar pushNavigationItem:titleItem animated:NO];
   return navigationBar;
+}
+
+- (void)misesSharePressed:(UIButton*)sender {
+  if (self.dismissed) {
+    return;
+  }
+  self.dismissed = YES;
+  [self
+      animateButtonPressed:sender
+            withCompletion:^{
+                [self.target shareExtensionViewDidSelectMisesShare:sender];
+            }];
 }
 
 // Called when "Add to Reading List" button has been pressed.

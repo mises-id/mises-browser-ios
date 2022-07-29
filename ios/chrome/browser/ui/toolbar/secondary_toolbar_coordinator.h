@@ -11,6 +11,7 @@
 // containing the controls displayed only on specific size classes.
 @interface SecondaryToolbarCoordinator : AdaptiveToolbarCoordinator
 
+- (void) activate;
 @end
 
 #endif  // IOS_CHROME_BROWSER_UI_TOOLBAR_SECONDARY_TOOLBAR_COORDINATOR_H_

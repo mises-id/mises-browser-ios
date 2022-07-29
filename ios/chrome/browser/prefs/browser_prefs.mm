@@ -56,6 +56,8 @@
 #include "components/update_client/update_client.h"
 #include "components/variations/service/variations_service.h"
 #include "components/web_resource/web_resource_pref_names.h"
+#include "components/image_fetcher/core/cache/image_cache.h"
+
 #include "ios/chrome/browser/browser_state/browser_state_info_cache.h"
 #include "ios/chrome/browser/first_run/first_run.h"
 #import "ios/chrome/browser/memory/memory_debugger_manager.h"
@@ -238,6 +240,7 @@ void RegisterBrowserStatePrefs(user_prefs::PrefRegistrySyncable* registry) {
   unified_consent::UnifiedConsentService::RegisterPrefs(registry);
   variations::VariationsService::RegisterProfilePrefs(registry);
   ZeroSuggestProvider::RegisterProfilePrefs(registry);
+  image_fetcher::ImageCache::RegisterProfilePrefs(registry);
 
   [BookmarkMediator registerBrowserStatePrefs:registry];
   [BookmarkPathCache registerBrowserStatePrefs:registry];

@@ -18,6 +18,8 @@
 // |pageURL|.
 - (instancetype)initWithTitle:(NSString*)title pageURL:(NSURL*)pageURL;
 
+- (void)updateThumbImage:(UIImage*)image;
+
 // The action handler for interactions in this View Controller.
 @property(nonatomic, weak) id<ConfirmationAlertActionHandler> actionHandler;
 

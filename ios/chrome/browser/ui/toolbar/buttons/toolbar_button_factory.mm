@@ -197,6 +197,9 @@
        forControlEvents:UIControlEventTouchUpInside];
   misesButton.visibilityMask =
       self.visibilityConfiguration.misesButtonVisibility;
+    UIImageView *imageView = misesButton.imageView;
+    [imageView.layer setCornerRadius:kAdaptiveToolbarIconSize/2];
+    [imageView.layer setMasksToBounds:YES];
   return misesButton;
 }
 

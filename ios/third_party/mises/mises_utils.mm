@@ -94,11 +94,11 @@
 }
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 {
-#if DEBUG
+//#if DEBUG
   return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
-#else
-  return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
-#endif
+//#else
+ //return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
+//#endif
 }
 @end
 
@@ -107,6 +107,8 @@ NSString* mMisesId = @"";
 NSString* mMisesToken = @"";
 NSString* mMisesNickname = @"";
 NSString* mMisesAvatar = @"";
+NSString* const kMisesInfoKey = @"NSDefaultsMisesInfo";
+
 __weak id<MisesDelegate> mDelegate;
 
 @implementation Mises
@@ -116,6 +118,12 @@ __weak id<MisesDelegate> mDelegate;
     dispatch_async(dispatch_get_main_queue(), ^{
       [ReactAppDelegate wrapper]; 
       [[MisesLCDService wrapper] run];
+        
+        id json = [[NSUserDefaults standardUserDefaults] objectForKey:kMisesInfoKey];
+        if ([json isKindOfClass:[NSDictionary class]]) {
+            [Mises loadFrom:json];
+        }
+        
     });
      //
 }
@@ -162,14 +170,38 @@ __weak id<MisesDelegate> mDelegate;
 + (void) setDelegate:(id<MisesDelegate>)delegate {
   mDelegate = delegate;
 }
+
+
++ (void) loadFrom:(NSDictionary *) json{
+    if (!json) {
+        return;
+    }
+    id misesId = json[@"misesId"];
+    if ([misesId isKindOfClass:[NSString class]]) {
+      mMisesId = [misesId copy];
+    }
+    id token = json[@"token"];
+    if ([token isKindOfClass:[NSString class]]) {
+      mMisesToken = [token copy];
+    }
+    id nickname = json[@"nickname"];
+    if ([nickname isKindOfClass:[NSString class]]) {
+      mMisesNickname = [nickname copy];
+    }
+    id avatar = json[@"avatar"];
+    if ([avatar isKindOfClass:[NSString class]]) {
+      mMisesAvatar = [avatar copy];
+    } else {
+      mMisesAvatar = @"";
+    }
+}
+
 @end
 
 
 
 
-
 @implementation RCTMisesModule
-
 // To export a module named RCTMisesModule
 RCT_EXPORT_MODULE()
 
@@ -226,32 +258,16 @@ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(setMisesUserInfo:(NSString *)jsonString)
       id json = [NSJSONSerialization JSONObjectWithData:stringData options:0 error:nil];
 
       if ([json isKindOfClass:[NSDictionary class]]) {
-
-          id misesId = json[@"misesId"];
-          if ([misesId isKindOfClass:[NSString class]]) {
-            mMisesId = [misesId copy];
-          }
-          id token = json[@"token"];
-          if ([token isKindOfClass:[NSString class]]) {
-            mMisesToken = [token copy];
-          }
-          id nickname = json[@"nickname"];
-          if ([nickname isKindOfClass:[NSString class]]) {
-            mMisesNickname = [nickname copy];
-          }
-          id avatar = json[@"avatar"];
-          if ([avatar isKindOfClass:[NSString class]]) {
-            mMisesAvatar = [avatar copy];
-          } else {
-            mMisesAvatar = @"";
-          }
+          [Mises loadFrom:json];
           if (mDelegate) {
             [mDelegate accountChanged];
           }
+          [[NSUserDefaults standardUserDefaults] setObject:json forKey:kMisesInfoKey];
       }
     });
 
     return nil;
 }
+
 
 @end

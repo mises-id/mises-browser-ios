@@ -490,7 +490,7 @@ NSString* const kBrowserViewControllerSnackbarCategory =
     PrimaryToolbarCoordinator* primaryToolbarCoordinator;
 // Secondary toolbar.
 @property(nonatomic, strong)
-    AdaptiveToolbarCoordinator* secondaryToolbarCoordinator;
+    SecondaryToolbarCoordinator* secondaryToolbarCoordinator;
 // The container view for the secondary toolbar.
 // TODO(crbug.com/880656): Convert to a container coordinator.
 @property(nonatomic, strong) UIView* secondaryToolbarContainerView;
@@ -907,6 +907,11 @@ NSString* const kBrowserViewControllerSnackbarCategory =
   }
   if (primary) {
     [self updateBroadcastState];
+      
+        
+    if (self.secondaryToolbarCoordinator) {
+      [self.secondaryToolbarCoordinator activate];
+    }
   }
 }
 
@@ -1076,8 +1081,9 @@ NSString* const kBrowserViewControllerSnackbarCategory =
       PagePlaceholderTabHelper::FromWebState(self.currentWebState)
           ->AddPlaceholderForNextNavigation();
     }
-    if (self.currentWebState)
+    if (self.currentWebState) {
       [self displayWebState:self.currentWebState];
+    }
   }
 
   [self setNeedsStatusBarAppearanceUpdate];

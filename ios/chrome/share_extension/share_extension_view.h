@@ -25,6 +25,8 @@
 // Called when the user presses the "Open in Chrome" button.
 - (void)shareExtensionViewDidSelectOpenInChrome:(id)sender;
 
+- (void)shareExtensionViewDidSelectMisesShare:(id)sender;
+
 @end
 
 // This is the view for the ShareExtensionController. It shows the shared

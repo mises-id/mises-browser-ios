@@ -35,6 +35,7 @@ extern const CGFloat kProgressBarHeight;
 extern const CGFloat kToolbarSeparatorHeight;
 
 // Toolbar Buttons.
+extern const CGFloat kAdaptiveToolbarIconSize;
 extern const CGFloat kAdaptiveToolbarButtonHeight;
 extern const CGFloat kAdaptiveToolbarButtonWidth;
 extern const CGFloat kSearchButtonWidth;

@@ -24,7 +24,8 @@ enum AppGroupApplications {
 enum ShareExtensionItemType {
   READING_LIST_ITEM = 0,
   BOOKMARK_ITEM,
-  OPEN_IN_CHROME_ITEM
+  OPEN_IN_CHROME_ITEM,
+  MISES_SHARE
 };
 
 // The x-callback-url indicating that an application in the group requires a
