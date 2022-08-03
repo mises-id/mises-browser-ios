@@ -103,7 +103,7 @@ constexpr CGFloat kBottomMargin = 24;
   stackView.alignment = UIStackViewAlignmentCenter;
   [scrollView addSubview:stackView];
 
-  UIView* primaryActionButton = [self createPrimaryActionButton];
+  UIButton* primaryActionButton = [self createPrimaryActionButton];
   _primaryActionButton = primaryActionButton;
   [self.view addSubview:primaryActionButton];
 
@@ -304,7 +304,9 @@ constexpr CGFloat kBottomMargin = 24;
 // Handles taps on the primary action button.
 - (void)didTapPrimaryActionButton {
   [self.actionHandler confirmationAlertPrimaryAction];
-  //_primaryActionButton.enable = NO;
+  _primaryActionButton.enabled = NO;
+
+  [_primaryActionButton setBackgroundColor:UIColor.lightGrayColor];
 }
 
 // Helper to create the image view.

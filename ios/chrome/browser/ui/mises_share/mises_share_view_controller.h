@@ -27,7 +27,7 @@
 @property(nonatomic, readonly) UIImage* content;
 
 // The button for the primary action.
-@property(nonatomic, readonly) UIView* primaryActionButton;
+@property(nonatomic, readonly) UIButton* primaryActionButton;
 
 // The help button item in the top left of the view.
 @property(nonatomic, readonly) UIBarButtonItem* helpButton;

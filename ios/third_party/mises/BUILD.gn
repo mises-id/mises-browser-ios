@@ -39,20 +39,20 @@ source_set("mises") {
   ]
   public_configs = [
     ":config",
-   ":mises_config",
+    ":mises_config",
       
    "//build/config/compiler:enable_arc",
    "//build/config/compiler:enable_legacy_dispatch",
   ]
    
   remove_configs = [
-    #"//build/config/compiler:no_exceptions",
-    #"//build/config/compiler:no_rtti",
+    "//build/config/compiler:no_exceptions",
+   # "//build/config/compiler:no_rtti",
   ]
 
 
  configs += public_configs
-  configs -= remove_configs
+ configs -= remove_configs
   deps = [
     ":mises_bundle_data",
     ":mises_frameworks",
@@ -65,6 +65,7 @@ source_set("mises") {
     "//ios/web/public",
     "//ios/web/js_messaging",
     "//ios/web/public/js_messaging",
+    "//ios/chrome/browser/ui/commands",
   ]
 }
 bundle_data("mises_bundle_data") {

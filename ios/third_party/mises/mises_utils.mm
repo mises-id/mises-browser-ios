@@ -1,5 +1,7 @@
 #import "mises_utils.h"
 #include "base/logging.h"
+#include "base/command_line.h"
+
 #include "base/strings/sys_string_conversions.h"
 
 #import "ios/web/js_messaging/web_view_js_utils.h"
@@ -46,7 +48,6 @@
 @end
 
 
-
 @implementation MetamaskUIViewController
 
 - (BOOL)isModal {
@@ -55,6 +56,20 @@
 
     return NO;
  }
+- (void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
+  dispatch_async(dispatch_get_main_queue(), ^{
+
+    [[Mises bridge] enqueueJSCall:@"NativeBridge.windowStatusChanged" args:@[@"show"]];
+  })
+}
+- (void)viewDidDisappear:(BOOL)animated {
+  [super viewDidDisappear:animated];
+  dispatch_async(dispatch_get_main_queue(), ^{
+
+    [[Mises bridge] enqueueJSCall:@"NativeBridge.windowStatusChanged" args:@[@"hide"]];
+  })
+}
 @end
 
 @implementation ReactAppDelegate
@@ -106,11 +121,15 @@
 }
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 {
-//#if DEBUG
-  return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
-//#else
-// return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
-//#endif
+  base::CommandLine* command_line = base::CommandLine::ForCurrentProcess();
+  const std::string mises_dev_ip =
+      command_line->GetSwitchValueASCII("mises-dev-ip");
+  if (mises_dev_ip.size()) {
+    [[RCTBundleURLProvider sharedSettings] setJsLocation:base::SysUTF8ToNSString(mises_dev_ip.c_str())];
+    return [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+  }
+    
+  return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 }
 @end
 
