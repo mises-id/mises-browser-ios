@@ -109,17 +109,15 @@
     [request setValue:@"Mises Browser iOS" forHTTPHeaderField:@"User-Agent"];
     NSMutableData *body = [NSMutableData data];
 
-    NSString *boundary = @"---------------------------14737809831466499882746641449";
+    NSString *boundary = [NSString stringWithFormat:@"---------------------------%d", arc4random()] ;
     NSString *contentType = [NSString stringWithFormat:@"multipart/form-data; boundary=%@", boundary];
     [request addValue:contentType forHTTPHeaderField:@"Content-Type"];
 
-    float low_bound = 0;
-    float high_bound =5000;
-    float rndValue = (((float)arc4random()/0x100000000)*(high_bound-low_bound)+low_bound);//image1
-    int intRndValue = (int)(rndValue + 0.5);
-   NSString *str_image1 = [@(intRndValue) stringValue];
+    
     [body appendData:[[NSString stringWithFormat:@"--%@\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-    [body appendData:[[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"files\"; filename=\"%@.jpg\"\r\n",str_image1] dataUsingEncoding:NSUTF8StringEncoding]];
+    [body appendData:[@"Content-Disposition: form-data; name=\"file_type\"\r\n\r\nimage\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
+    [body appendData:[[NSString stringWithFormat:@"--%@\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+    [body appendData:[[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"file\";filename=\"%d.jpg\"\r\n",arc4random()] dataUsingEncoding:NSUTF8StringEncoding]];
     [body appendData:[@"Content-Type: application/octet-stream\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
     [body appendData:[NSData dataWithData:imageData]];
     [body appendData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];

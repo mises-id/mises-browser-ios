@@ -27,6 +27,8 @@
 #import "net/base/mac/url_conversions.h"
 #include "url/gurl.h"
 
+#include "ios/third_party/mises/mises_share_service.h"
+
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
 #endif
@@ -304,6 +306,11 @@ void LogHistogramReceivedItem(ShareExtensionItemReceived type) {
     }
     case app_group::MISES_SHARE: {
       LogHistogramReceivedItem(MISES_SHARE_ENTRY);
+      NSString* shareTitle = entryNSTitle;
+      NSString* shareURL = [entryNSURL absoluteString];
+      
+      MisesShareItem * item = [[MisesShareItem alloc] initWithUrl:shareURL title:shareTitle message:@"" image:nil];
+      [[MisesShareService wrapper] share:item];
       break;
     }
   }
