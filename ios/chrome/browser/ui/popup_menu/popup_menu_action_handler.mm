@@ -28,6 +28,7 @@
 #import "ios/chrome/browser/window_activities/window_activity_helpers.h"
 #include "url/gurl.h"
 #import "ios/third_party/mises/mises_utils.h"
+#import "ios/chrome/browser/ui/util/pasteboard_util.h"
 
 #if !defined(__has_feature) || !__has_feature(objc_arc)
 #error "This file requires ARC support."
@@ -101,6 +102,9 @@ using base::UserMetricsAction;
       RecordAction(UserMetricsAction("MobileMenuOpenMises"));
   	  [Mises PopupMetamask:self.baseViewController];
       [self.dispatcher dismissPopupMenuAnimated:NO];
+      break;
+    case PopupMenuActionMisesAccount:
+      StoreTextInPasteboard([[Mises account] misesId]);
       break;
     case PopupMenuActionMisesMyData:
       RecordAction(UserMetricsAction("MobileMenuOpenMisesMyData"));

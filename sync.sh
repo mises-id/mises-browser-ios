@@ -23,6 +23,8 @@ rm -R /Users/baoge/Documents/work/chromium/chromium98/src/out/Debug-iphonesimula
 rm -R /Users/baoge/Documents/work/chromium/chromium98/src/out/Debug-iphonesimulator/ios_clang_arm64_13_0/*.appex
 
 
+cp /Users/baoge/Documents/work/metamask-mobile/ios/main.jsbundle ios/third_party/mises/Bundles
+
 cp -R /Users/baoge/Library/Developer/Xcode/DerivedData/MetaMask-ajaxbftsamxqvrabyxosvqvsgjuq/Build/Products/Debug-iphonesimulator/**/*.a ios/third_party/mises/Sim/Libs
 
 cp -R /Users/baoge/Library/Developer/Xcode/DerivedData/MetaMask-ajaxbftsamxqvrabyxosvqvsgjuq/Build/Products/Debug-iphonesimulator/MetaMask.app/Frameworks/*.framework ios/third_party/mises/Sim/Frameworks

@@ -11,6 +11,8 @@ source_set("cells") {
     "popup_menu_text_item.mm",
     "popup_menu_tools_item.h",
     "popup_menu_tools_item.mm",
+    "popup_menu_account_item.h",
+    "popup_menu_account_item.mm",
   ]
   deps = [
     "//base",

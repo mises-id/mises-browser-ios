@@ -11,6 +11,9 @@
 @interface MisesAccountService: NSObject
 
 
+@property (nonatomic, strong) UIImage *cachedMisesAvatar;
+
+
 - (void) setDelegate:(id<MisesAccountServiceDelegate>)delegate;
 
 
@@ -19,6 +22,8 @@
 - (NSString*) misesToken;
 - (NSString*) misesNickname;
 - (NSString*) misesAvatar;
+
+
 
 - (void) loadFrom:(NSDictionary *) json save:(BOOL)save;
 

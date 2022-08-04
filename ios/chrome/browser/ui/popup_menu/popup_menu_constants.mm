@@ -51,6 +51,7 @@ NSString* const kTextMenuEnterpriseInfo = @"kTextMenuEnterpriseInfo";
 
 
 NSString* const kToolsMenuMisesId = @"kToolsMenuMisesId";
+NSString* const kToolsMenuMisesAccountId = @"kToolsMenuMisesAccountId";
 NSString* const kToolsMenuMisesWalletId = @"kToolsMenuMisesWalletId";
 NSString* const kToolsMenuMisesMyDataId = @"kToolsMenuMisesMyDataId";
 NSString* const kToolsMenuMisesDiscoverId = @"kToolsMenuMisesDiscoverId";

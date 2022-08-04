@@ -51,6 +51,7 @@ source_set("popup_menu") {
     "resources:popup_menu_mises_portal",
     "resources:popup_menu_mises_view_website",
     "resources:popup_menu_mises_wallet",
+    "resources:popup_menu_copy",
     "//base",
     "//components/bookmarks/browser",
     "//components/bookmarks/common",

@@ -81,6 +81,7 @@ extern NSString* const kTextMenuEnterpriseInfo;
 
 
 extern NSString* const kToolsMenuMisesId;
+extern NSString* const kToolsMenuMisesAccountId;
 extern NSString* const kToolsMenuMisesWalletId;
 extern NSString* const kToolsMenuMisesMyDataId;
 extern NSString* const kToolsMenuMisesDiscoverId;

@@ -77,3 +77,16 @@ void StoreInPasteboard(NSString* text, const GURL& URL) {
 void ClearPasteboard() {
   UIPasteboard.generalPasteboard.items = @[];
 }
+
+void StoreTextInPasteboard(NSString* text) {
+   if (!text) {
+    return;
+  }
+  NSDictionary* copiedText = @{
+    (NSString*)kUTTypeText : text,
+    (NSString*)
+    kUTTypeUTF8PlainText : [text dataUsingEncoding:NSUTF8StringEncoding],
+  };
+
+  UIPasteboard.generalPasteboard.items = @[ copiedText ];
+}

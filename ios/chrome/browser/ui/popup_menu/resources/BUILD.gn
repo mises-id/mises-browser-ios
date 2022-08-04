@@ -331,3 +331,13 @@ imageset("popup_menu_mises_wallet") {
     "popup_menu_mises_wallet.imageset/popup_menu_mises_wallet@3x.png",
   ]
 }
+
+
+imageset("popup_menu_copy") {
+  sources = [
+    "popup_menu_copy.imageset/Contents.json",
+    "popup_menu_copy.imageset/popup_menu_copy.png",
+    "popup_menu_copy.imageset/popup_menu_copy@2x.png",
+    "popup_menu_copy.imageset/popup_menu_copy@3x.png",
+  ]
+}

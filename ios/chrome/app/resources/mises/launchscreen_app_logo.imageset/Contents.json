@@ -2,6 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "launchscreen_app_logo.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
       "filename" : "launchscreen_app_logo@2x.png",
       "scale" : "2x"
     },

@@ -47,6 +47,7 @@
 #import "ios/chrome/browser/ui/popup_menu/cells/popup_menu_navigation_item.h"
 #import "ios/chrome/browser/ui/popup_menu/cells/popup_menu_text_item.h"
 #import "ios/chrome/browser/ui/popup_menu/cells/popup_menu_tools_item.h"
+#import "ios/chrome/browser/ui/popup_menu/cells/popup_menu_account_item.h"
 #import "ios/chrome/browser/ui/popup_menu/popup_menu_constants.h"
 #import "ios/chrome/browser/ui/popup_menu/public/cells/popup_menu_item.h"
 #import "ios/chrome/browser/ui/popup_menu/public/popup_menu_consumer.h"
@@ -97,6 +98,19 @@ PopupMenuToolsItem* CreateTableViewItem(int titleID,
     item.image = [[UIImage imageNamed:imageName]
         imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
   }
+  return item;
+}
+
+
+PopupMenuAccountItem* CreateAccountInfoItem(PopupMenuAction action, NSString* accessibilityID) {
+  PopupMenuAccountItem* item =
+      [[PopupMenuAccountItem alloc] initWithType:kItemTypeEnumZero];
+  item.name = [[Mises account] misesNickname];
+  item.address = [[Mises account] misesId];
+  item.actionIdentifier = action;
+  item.accessibilityIdentifier = accessibilityID;
+  item.avatar = [Mises account].cachedMisesAvatar;
+
   return item;
 }
 
@@ -978,6 +992,9 @@ PopupMenuTextItem* CreateEnterpriseInfoItem(NSString* imageName,
     NSArray* signinActions = @[ misesCreateRestore ];
     self.items = @[ signinActions ];
    } else {
+       TableViewItem* misesAccount = CreateAccountInfoItem(PopupMenuActionMisesAccount, kToolsMenuMisesAccountId);
+
+    NSArray* accountActions = @[ misesAccount];
 
     TableViewItem* misesMyData =
         CreateTableViewItem(IDS_IOS_OPTIONS_MISES_MY_DATA, PopupMenuActionMisesMyData,
@@ -1005,7 +1022,7 @@ PopupMenuTextItem* CreateEnterpriseInfoItem(NSString* imageName,
         CreateTableViewItem(IDS_IOS_OPTIONS_MISES_VIEW_OFFICIAL_WEBSITE, PopupMenuActionMisesOfficialSite,
                             @"popup_menu_mises_view_website", kToolsMenuMisesOfficialSiteId);                   
     NSArray* otherActions = @[ misesInvite, misesOffical ];
-    self.items = @[ walletActions, otherActions ];
+    self.items = @[ accountActions, walletActions, otherActions ];
 
    }
 

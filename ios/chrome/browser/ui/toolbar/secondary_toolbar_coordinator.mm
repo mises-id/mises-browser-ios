@@ -166,7 +166,8 @@ const net::NetworkTrafficAnnotationTag kTrafficAnnotation =
                       return;
                     }
                 UIImage* image = [gfximage.ToUIImage() copy];
-                  [strongSelf.viewController updateMisesAvatar:image];
+                [strongSelf.viewController updateMisesAvatar:image];
+                [Mises account].cachedMisesAvatar = image;
             });
 
       image_fetcher::ImageFetcherParams params(kTrafficAnnotation,

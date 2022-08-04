@@ -251,7 +251,7 @@ NSString* const kToolsMenuTextBadgeAccessibilityIdentifier =
 - (UIColor*)contentColor {
   if (self.destructiveAction)
     return [UIColor colorNamed:kRedColor];
-  return [UIColor colorNamed:kBlueColor];
+  return [UIColor colorNamed:kGrey800Color];
 }
 
 - (void)registerForContentSizeUpdates {
