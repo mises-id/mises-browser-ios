@@ -270,12 +270,12 @@ constexpr CGFloat kBottomMargin = 24;
   [regularHeightItems addObject:spacer];
   [compactHeightItems addObject:spacer];
 
-  UIBarButtonItem* dismissButton = [[UIBarButtonItem alloc]
-      initWithBarButtonSystemItem:UIBarButtonSystemItemDone
-                           target:self
-                           action:@selector(didTapDismissBarButton)];
-  [regularHeightItems addObject:dismissButton];
-  [compactHeightItems addObject:dismissButton];
+  // UIBarButtonItem* dismissButton = [[UIBarButtonItem alloc]
+  //     initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+  //                          target:self
+  //                          action:@selector(didTapDismissBarButton)];
+  // [regularHeightItems addObject:dismissButton];
+  // [compactHeightItems addObject:dismissButton];
 
   topToolbar.translatesAutoresizingMaskIntoConstraints = NO;
 

@@ -91,10 +91,11 @@
     if (![self checkError:error]) {
         return;
     };
-    [node serve: @"tcp://0.0.0.0:26657" error: &error];
+    [node serve: @"tcp://127.0.0.1:26657" error: &error];
     if (![self checkError:error]) {
         return;
     };
+    [self retry];
 
 }
 -(BOOL) checkError:(NSError*) error {

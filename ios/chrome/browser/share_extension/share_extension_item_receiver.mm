@@ -244,6 +244,8 @@ void LogHistogramReceivedItem(ShareExtensionItemReceived type) {
       [entry objectForKey:app_group::kShareItemType]);
   NSString* entrySource = base::mac::ObjCCast<NSString>(
       [entry objectForKey:app_group::kShareItemSource]);
+  
+  NSData* entryImageData = base::mac::ObjCCast<NSData>([entry objectForKey:app_group::kShareItemImage]);
 
   if (!entryGURL.is_valid() || !entrySource || !entryDate || !entryType ||
       !entryGURL.SchemeIsHTTPOrHTTPS()) {
@@ -266,6 +268,7 @@ void LogHistogramReceivedItem(ShareExtensionItemReceived type) {
                    [weakSelf processEntryWithType:entryType
                                             title:entryTitle
                                               URL:entryURL
+                                              ImageData:entryImageData
                                        completion:completion];
                  }));
   return YES;
@@ -274,6 +277,7 @@ void LogHistogramReceivedItem(ShareExtensionItemReceived type) {
 - (void)processEntryWithType:(NSNumber*)entryType
                        title:(NSString*)entryNSTitle
                          URL:(NSURL*)entryNSURL
+                         ImageData:(NSData*)entryImageData
                   completion:(ProceduralBlock)completion {
   if (!_readingListModel || !_bookmarkModel) {
     // Models may have been deleted after the file
@@ -308,8 +312,12 @@ void LogHistogramReceivedItem(ShareExtensionItemReceived type) {
       LogHistogramReceivedItem(MISES_SHARE_ENTRY);
       NSString* shareTitle = entryNSTitle;
       NSString* shareURL = [entryNSURL absoluteString];
+      UIImage *image = nil;
+      if (entryImageData) {
+        image = [UIImage imageWithData:entryImageData];
+      }
       
-      MisesShareItem * item = [[MisesShareItem alloc] initWithUrl:shareURL title:shareTitle message:@"" image:nil];
+      MisesShareItem * item = [[MisesShareItem alloc] initWithUrl:shareURL title:shareTitle message:@"" image:image];
       [[MisesShareService wrapper] share:item];
       break;
     }

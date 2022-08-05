@@ -109,6 +109,7 @@ extern NSString* const kShareItemTitle;
 extern NSString* const kShareItemDate;
 extern NSString* const kShareItemCancel;
 extern NSString* const kShareItemType;
+extern NSString* const kShareItemImage;
 
 // The value used by Chrome Share extension in |kShareItemSource|.
 extern NSString* const kShareItemSourceShareExtension;

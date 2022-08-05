@@ -328,6 +328,12 @@ const CGFloat kMediumAlpha = 0.5;
 
   [dict setValue:[NSNumber numberWithBool:cancel]
           forKey:app_group::kShareItemCancel];
+
+  if (actionType == app_group::MISES_SHARE && _image) {
+    NSData *imageData = UIImageJPEGRepresentation(_image, 0.8);
+    [dict setValue:imageData
+          forKey:app_group::kShareItemImage];
+  }
   NSError* error = nil;
   NSData* data = [NSKeyedArchiver archivedDataWithRootObject:dict
                                        requiringSecureCoding:NO
