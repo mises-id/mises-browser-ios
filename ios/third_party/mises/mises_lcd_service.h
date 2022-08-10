@@ -5,6 +5,7 @@
 @interface MisesLCDService: NSObject
 
 - (void) run;
+- (void) check;
 
 + (instancetype)wrapper;
 

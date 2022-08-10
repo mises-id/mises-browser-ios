@@ -12,6 +12,9 @@
 
 
 
+//
+//@interface MisesLCDService: NSObject<LcdMLightNodeDelegator>
+//@end
 @implementation MisesLCDService
 {
     NSThread *_lcdThread;
@@ -22,10 +25,11 @@
     NSString * _chain_id;
     NSString * _trust_nodes;
     NSString * _primary_node;
+    id<LcdMLightNode> _node;
 }
 
 + (instancetype)wrapper
-{  
+{
     static MisesLCDService *sharedInstance = nil;
     @synchronized (self) {
         if (!sharedInstance) {
@@ -37,14 +41,23 @@
 
 - (instancetype)init
 {
-    DLOG(WARNING) << "MisesLCDService init";
     self = [super init];
     if (self) {
          _lcdThread = [[NSThread alloc] initWithTarget:self selector:@selector(lcdThreadEntryPoint:) object:nil];
         [_lcdThread start];
         _retryCounter = 0;
+
+        [NSNotificationCenter.defaultCenter
+        addObserver:self
+            selector:@selector(applicationDidBecomeActive:)
+                name:UIApplicationDidBecomeActiveNotification
+            object:nil];
     }
     return self;
+}
+
+- (void)applicationDidBecomeActive:(NSNotification*)notification {
+  [self check];
 }
 
 
@@ -64,7 +77,6 @@
 }
 
 - (void) runService{
-    DLOG(WARNING) << "MisesLCDService run service";
     if (![self fetchChainParams]) {
         _retryCounter += 1;
         [self retry];
@@ -91,13 +103,18 @@
     if (![self checkError:error]) {
         return;
     };
-    [node serve: @"tcp://127.0.0.1:26657" error: &error];
+    [node serve: @"tcp://127.0.0.1:26657" delegator:id<LcdMLightNodeDelegator>(self) error: &error];
     if (![self checkError:error]) {
         return;
     };
+    
+    _node = node;
+
+}
+-(void) onError {
+    NSLog(@"LCD onError");
     _retryCounter += 1;
     [self retry];
-
 }
 -(BOOL) checkError:(NSError*) error {
     if (error != nil) {
@@ -113,7 +130,7 @@
     NSString * apiURLStr =[NSString stringWithFormat:@"https://api.alb.mises.site/api/v1/mises/chaininfo"];
     NSMutableURLRequest *dataRqst = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:apiURLStr] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.0];
     NSHTTPURLResponse *response =[[NSHTTPURLResponse alloc] init];
-    NSError* error = [[NSError alloc] init] ;
+    NSError* error = nil;
     NSData *responseData = [NSURLConnection sendSynchronousRequest:dataRqst returningResponse:&response error:&error];
     NSString *responseString = [[NSString alloc] initWithBytes:[responseData bytes] length:[responseData length] encoding:NSUTF8StringEncoding];
     NSLog(@"%@",responseString);
@@ -191,7 +208,7 @@
     return YES;
 }
 
-- (void) retry{
+- (void) retryService{
     int retryDelay = 30000;
     if (_retryCounter < 0) {
         retryDelay = 30000;
@@ -200,9 +217,39 @@
     } else {
         retryDelay = 960000;
     }
+    NSLog(@"retryService after delay %d", retryDelay);
     [self performSelector:@selector(runService) withObject:nil afterDelay:retryDelay/1000];
+}
+- (void) retry{
+    [self performSelector:@selector(retryService) onThread:_lcdThread withObject:nil waitUntilDone:NO];
 }
 - (void) run{
     [self performSelector:@selector(runService) onThread:_lcdThread withObject:nil waitUntilDone:NO];
 }
+
+- (void) checkService{
+    if (_node == nil) {
+        return;
+    }
+    NSString * serviceURLStr =[NSString stringWithFormat:@"http://127.0.0.1:26657"];
+    NSMutableURLRequest *dataRqst = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:serviceURLStr] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.0];
+    NSHTTPURLResponse *response =[[NSHTTPURLResponse alloc] init];
+    NSError* error = nil;
+    [NSURLConnection sendSynchronousRequest:dataRqst returningResponse:&response error:&error];
+    
+    if (error) {
+        NSLog(@"checkService fail %@",error);
+        if (_node != nil) {
+            NSError *error = nil;
+            [_node restart: &error];
+        }
+    } else {
+        NSLog(@"checkService ok");
+    }
+}
+
+- (void) check{
+    [self performSelector:@selector(checkService) onThread:_lcdThread withObject:nil waitUntilDone:NO];
+}
 @end
+

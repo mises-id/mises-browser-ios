@@ -302,9 +302,11 @@ def FindProvisioningProfile(bundle_identifier, required):
           'Warning: ignoring expired provisioning profile: %s.\n' %
           provisioning_profile_path)
       continue
+    if "Distri" in provisioning_profile.name:
+      continue
+    sys.stderr.write("check provisioning_profile:%s\n" % provisioning_profile.name)
     if provisioning_profile.ValidToSignBundle(bundle_identifier):
       valid_provisioning_profiles.append(provisioning_profile)
-
   if not valid_provisioning_profiles:
     if required:
       sys.stderr.write(
@@ -325,6 +327,7 @@ def FindProvisioningProfile(bundle_identifier, required):
     sys.stderr.write(
         'Warning: selected provisioning profile will expire soon: %s' %
         selected_provisioning_profile.path)
+  sys.stderr.write("found provisioning_profile:%s\n" % selected_provisioning_profile.name)
   return selected_provisioning_profile
 
 
@@ -572,7 +575,6 @@ class CodeSignBundleAction(Action):
           entitlements = GenerateEntitlements(
               args.entitlements_path, provisioning_profile, bundle.identifier)
           entitlements.WriteTo(temporary_entitlements_file.name)
-      sys.stderr.write("embeding " + bundle.identifier + " with " + provisioning_profile.path )
     CodeSignBundle(bundle.path, args.identity, codesign_extra_args)
 
 

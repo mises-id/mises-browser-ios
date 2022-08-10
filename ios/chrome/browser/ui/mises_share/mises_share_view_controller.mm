@@ -248,16 +248,12 @@ constexpr CGFloat kInputHeight = 300;
                                        style:UIBarButtonItemStylePlain
                                       target:self
                                       action:@selector(didTapHelpButton)];
-  [regularHeightItems addObject:helpButton];
-  [compactHeightItems addObject:helpButton];
+  
 
   helpButton.isAccessibilityElement = YES;
   helpButton.accessibilityLabel =
       l10n_util::GetNSString(IDS_IOS_HELP_ACCESSIBILITY_LABEL);
 
-  // Set the help button as the left button item so it can be used as a
-  // popover anchor.
-  _helpButton = helpButton;
 
   // Add margin with help button.
   UIBarButtonItem* fixedSpacer = [[UIBarButtonItem alloc]
@@ -265,29 +261,43 @@ constexpr CGFloat kInputHeight = 300;
                            target:nil
                            action:nil];
   fixedSpacer.width = 15.0f;
-  [compactHeightItems addObject:fixedSpacer];
+  
 
   UIBarButtonItem* primaryActionBarButton = [[UIBarButtonItem alloc]
       initWithBarButtonSystemItem:UIBarButtonSystemItemAction
                            target:self
                            action:@selector(didTapPrimaryActionButton)];
 
-  // Only shows up in constraint height mode.
-  [compactHeightItems addObject:primaryActionBarButton];
+  
 
   UIBarButtonItem* spacer = [[UIBarButtonItem alloc]
       initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
                            target:nil
                            action:nil];
+
+  UIBarButtonItem* dismissButton = [[UIBarButtonItem alloc]
+      initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
+                           target:self
+                           action:@selector(didTapDismissBarButton)];
+
+  [regularHeightItems addObject:dismissButton];
+  [compactHeightItems addObject:dismissButton];
+
   [regularHeightItems addObject:spacer];
   [compactHeightItems addObject:spacer];
 
-  // UIBarButtonItem* dismissButton = [[UIBarButtonItem alloc]
-  //     initWithBarButtonSystemItem:UIBarButtonSystemItemDone
-  //                          target:self
-  //                          action:@selector(didTapDismissBarButton)];
-  // [regularHeightItems addObject:dismissButton];
-  // [compactHeightItems addObject:dismissButton];
+// Only shows up in constraint height mode.
+  [compactHeightItems addObject:primaryActionBarButton];
+  [compactHeightItems addObject:fixedSpacer];
+
+  [regularHeightItems addObject:helpButton];
+  [compactHeightItems addObject:helpButton];
+
+  // Set the help button as the left button item so it can be used as a
+  // popover anchor.
+  _helpButton = helpButton;
+
+  
 
   topToolbar.translatesAutoresizingMaskIntoConstraints = NO;
 
@@ -381,12 +391,27 @@ constexpr CGFloat kInputHeight = 300;
     input.adjustsFontForContentSizeCategory = YES;
     input.textView.translatesAutoresizingMaskIntoConstraints = NO;
     input.textView.adjustsFontForContentSizeCategory = YES;
+   // [input.textView setReturnKeyType:UIReturnKeyDone];
+    
+    UIBarButtonItem* doneButton = [[UIBarButtonItem alloc]
+        initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+                             target:self
+                             action:@selector(didTapDoneButton)];
+    UIBarButtonItem* spacer = [[UIBarButtonItem alloc]
+        initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                             target:nil
+                             action:nil];
+    UIToolbar* toolbar = [[UIToolbar alloc] init];
+    toolbar.translucent = YES;
+    toolbar.frame = CGRectMake(0, 0, self.view.frame.size.width, 44);
+    toolbar.items = @[spacer, doneButton];
+    
+    input.textView.inputAccessoryView = toolbar;
     input.layer.borderWidth = 0;
     input.layer.cornerRadius = 5;
     [input setBackgroundColor:[UIColor colorNamed:kGrey50Color]];
   return input;
 }
-
 
 - (UIView*)sharedItemView {
 
@@ -478,6 +503,21 @@ constexpr CGFloat kInputHeight = 300;
     titleURLScreenshotConstraint.constant = kGeneratedImagePadding;
 
   return itemView;
+}
+
+
+- (BOOL)textViewShouldEndEditing:(UITextView *)textView{
+    NSLog(@"textViewShouldEndEditing:");
+    return YES;
+}
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    NSLog(@"touchesBegan:withEvent:");
+    [self.view endEditing:YES];
+    [super touchesBegan:touches withEvent:event];
+}
+
+- (void)didTapDoneButton {
+    [self.view endEditing:YES];
 }
 
 - (void)textViewDidChange:(UITextView *)textView {
