@@ -191,6 +191,7 @@
     NSDictionary *linkDict = @{
        @"host" : host,
         @"link" : item.url,
+        @"title" : item.title,
         @"attachment_path" : imageUrl
     };
     NSDictionary *jsonDict = @{

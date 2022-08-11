@@ -19,6 +19,7 @@
 - (instancetype)initWithTitle:(NSString*)title pageURL:(NSURL*)pageURL;
 
 - (void)updateThumbImage:(UIImage*)image;
+- (void)updateTitle:(NSString*)title;
 
 // The action handler for interactions in this View Controller.
 @property(nonatomic, weak) id<ConfirmationAlertActionHandler> actionHandler;
@@ -27,10 +28,10 @@
 @property(nonatomic, readonly) UIImage* content;
 
 // The button for the primary action.
-@property(nonatomic, readonly) UIButton* primaryActionButton;
+//@property(nonatomic, readonly) UIButton* primaryActionButton;
 
 // The help button item in the top left of the view.
-@property(nonatomic, readonly) UIBarButtonItem* helpButton;
+@property(nonatomic, readonly) UIBarButtonItem* shareButton;
 
 @property(nonatomic, readonly) NSString* commentText;
 

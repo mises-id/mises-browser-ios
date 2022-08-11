@@ -24,11 +24,12 @@ namespace {
 
 //const CGFloat kThumbImageSize = 200.0;
 constexpr CGFloat kGeneratedImagePadding = 20;
-constexpr CGFloat kButtonMaxWidth = 327;
+//constexpr CGFloat kButtonMaxWidth = 327;
 constexpr CGFloat kContentMaxWidth = 500;
 constexpr CGFloat kMargin = 24;
-constexpr CGFloat kBottomMargin = 24;
+//constexpr CGFloat kBottomMargin = 24;
 constexpr CGFloat kImageSize = 60;
+constexpr CGFloat kItemHeight = 80;
 constexpr CGFloat kInputHeight = 300;
 
 }  // namespace
@@ -38,6 +39,7 @@ constexpr CGFloat kInputHeight = 300;
 // Container view that will wrap the views making up the content.
 @property(nonatomic, strong) UIStackView* stackView;
 
+@property(nonatomic, strong) UILabel* titleView;
 @property(nonatomic, strong) UIImageView* thumbView;
 @property(nonatomic, strong) MDCBaseTextArea* inputView;
 
@@ -104,9 +106,9 @@ constexpr CGFloat kInputHeight = 300;
   stackView.alignment = UIStackViewAlignmentCenter;
   [scrollView addSubview:stackView];
 
-  UIButton* primaryActionButton = [self createPrimaryActionButton];
-  _primaryActionButton = primaryActionButton;
-  [self.view addSubview:primaryActionButton];
+  // UIButton* primaryActionButton = [self createPrimaryActionButton];
+  // _primaryActionButton = primaryActionButton;
+  // [self.view addSubview:primaryActionButton];
 
   // Toolbar constraints to the top.
   AddSameConstraintsToSides(
@@ -129,18 +131,18 @@ constexpr CGFloat kInputHeight = 300;
       constraintEqualToAnchor:self.view.safeAreaLayoutGuide.widthAnchor];
   stackViewWidth.priority = UILayoutPriorityRequired - 1;
 
-  NSLayoutConstraint* lowPriorityWidthConstraint =
-      [primaryActionButton.widthAnchor
-          constraintEqualToConstant:kButtonMaxWidth];
-  lowPriorityWidthConstraint.priority = UILayoutPriorityDefaultHigh;
+  // NSLayoutConstraint* lowPriorityWidthConstraint =
+  //     [primaryActionButton.widthAnchor
+  //         constraintEqualToConstant:kButtonMaxWidth];
+  // lowPriorityWidthConstraint.priority = UILayoutPriorityDefaultHigh;
 
-  NSLayoutConstraint* scrollViewYCenter = [scrollView.centerYAnchor
-      constraintEqualToAnchor:self.view.safeAreaLayoutGuide.centerYAnchor];
-  scrollViewYCenter.priority = UILayoutPriorityDefaultHigh;
+  // NSLayoutConstraint* scrollViewY = [scrollView.topAnchor
+  //     constraintEqualToAnchor:self.view.safeAreaLayoutGuide.topAnchor];
+  // scrollViewY.priority = UILayoutPriorityDefaultHigh;
 
   [NSLayoutConstraint activateConstraints:@[
     [scrollView.topAnchor
-        constraintGreaterThanOrEqualToAnchor:topToolbar.bottomAnchor],
+        constraintEqualToAnchor:topToolbar.bottomAnchor constant:kMargin],
     [scrollView.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor],
     [scrollView.trailingAnchor
         constraintEqualToAnchor:self.view.trailingAnchor],
@@ -154,29 +156,32 @@ constexpr CGFloat kInputHeight = 300;
      constraintEqualToAnchor:stackView.trailingAnchor constant:-kMargin],
     [self.inputView.heightAnchor
         constraintEqualToConstant:kInputHeight],
+    [itemView.heightAnchor
+        constraintEqualToConstant:kItemHeight],
 
-    scrollViewYCenter,
+   // scrollViewY,
 
     [stackView.widthAnchor
         constraintLessThanOrEqualToConstant:kContentMaxWidth],
     [stackView.centerXAnchor constraintEqualToAnchor:scrollView.centerXAnchor],
 
-    [primaryActionButton.bottomAnchor
-        constraintEqualToAnchor:self.view.safeAreaLayoutGuide.bottomAnchor
-                       constant:-kBottomMargin],
-    [primaryActionButton.leadingAnchor
-        constraintGreaterThanOrEqualToAnchor:scrollView.leadingAnchor],
-    [primaryActionButton.trailingAnchor
-        constraintLessThanOrEqualToAnchor:scrollView.trailingAnchor],
-    [primaryActionButton.centerXAnchor
-        constraintEqualToAnchor:self.view.centerXAnchor],
-    lowPriorityWidthConstraint
+    // [primaryActionButton.bottomAnchor
+    //     constraintEqualToAnchor:self.view.safeAreaLayoutGuide.bottomAnchor
+    //                    constant:-kBottomMargin],
+    // [primaryActionButton.leadingAnchor
+    //     constraintGreaterThanOrEqualToAnchor:scrollView.leadingAnchor],
+    // [primaryActionButton.trailingAnchor
+    //     constraintLessThanOrEqualToAnchor:scrollView.trailingAnchor],
+    // [primaryActionButton.centerXAnchor
+    //     constraintEqualToAnchor:self.view.centerXAnchor],
+    //lowPriorityWidthConstraint
 
   ]];
 
   self.regularHeightScrollViewBottomVerticalConstraint =
       [scrollView.bottomAnchor
-          constraintLessThanOrEqualToAnchor:primaryActionButton.topAnchor
+          constraintLessThanOrEqualToAnchor:self.view.safeAreaLayoutGuide
+                                                .bottomAnchor
                                    constant:-8];
   self.compactHeightScrollViewBottomVerticalConstraint =
       [scrollView.bottomAnchor
@@ -201,7 +206,7 @@ constexpr CGFloat kInputHeight = 300;
   BOOL isVerticalCompact =
       self.traitCollection.verticalSizeClass == UIUserInterfaceSizeClassCompact;
 
-  [self.primaryActionButton setHidden:isVerticalCompact];
+  //[self.primaryActionButton setHidden:isVerticalCompact];
 
   NSLayoutConstraint* oldBottomConstraint;
   NSLayoutConstraint* newBottomConstraint;
@@ -243,16 +248,16 @@ constexpr CGFloat kInputHeight = 300;
 
   NSMutableArray* regularHeightItems = [[NSMutableArray alloc] init];
   NSMutableArray* compactHeightItems = [[NSMutableArray alloc] init];
-  UIBarButtonItem* helpButton =
-      [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"help_icon"]
+  UIBarButtonItem* shareButton =
+      [[UIBarButtonItem alloc] initWithTitle:l10n_util::GetNSString(IDS_IOS_SHARE_BUTTON_LABEL)
                                        style:UIBarButtonItemStylePlain
                                       target:self
-                                      action:@selector(didTapHelpButton)];
+                                      action:@selector(didTapShareButton)];
   
 
-  helpButton.isAccessibilityElement = YES;
-  helpButton.accessibilityLabel =
-      l10n_util::GetNSString(IDS_IOS_HELP_ACCESSIBILITY_LABEL);
+  // shareButton.isAccessibilityElement = YES;
+  // shareButton.accessibilityLabel =
+  //     l10n_util::GetNSString(IDS_IOS_HELP_ACCESSIBILITY_LABEL);
 
 
   // Add margin with help button.
@@ -263,10 +268,10 @@ constexpr CGFloat kInputHeight = 300;
   fixedSpacer.width = 15.0f;
   
 
-  UIBarButtonItem* primaryActionBarButton = [[UIBarButtonItem alloc]
-      initWithBarButtonSystemItem:UIBarButtonSystemItemAction
-                           target:self
-                           action:@selector(didTapPrimaryActionButton)];
+  // UIBarButtonItem* primaryActionBarButton = [[UIBarButtonItem alloc]
+  //     initWithBarButtonSystemItem:UIBarButtonSystemItemAction
+  //                          target:self
+  //                          action:@selector(didTapPrimaryActionButton)];
 
   
 
@@ -287,15 +292,16 @@ constexpr CGFloat kInputHeight = 300;
   [compactHeightItems addObject:spacer];
 
 // Only shows up in constraint height mode.
-  [compactHeightItems addObject:primaryActionBarButton];
+  //[compactHeightItems addObject:primaryActionBarButton];
   [compactHeightItems addObject:fixedSpacer];
 
-  [regularHeightItems addObject:helpButton];
-  [compactHeightItems addObject:helpButton];
+  [regularHeightItems addObject:shareButton];
+  [compactHeightItems addObject:shareButton];
 
   // Set the help button as the left button item so it can be used as a
   // popover anchor.
-  _helpButton = helpButton;
+  //_helpButton = helpButton;
+  _shareButton = shareButton;
 
   
 
@@ -316,19 +322,22 @@ constexpr CGFloat kInputHeight = 300;
 }
 
 // Handles taps on the help button.
-- (void)didTapHelpButton {
-  if ([self.actionHandler
-          respondsToSelector:@selector(confirmationAlertLearnMoreAction)]) {
-    [self.actionHandler confirmationAlertLearnMoreAction];
-  }
+- (void)didTapShareButton {
+  [self.actionHandler confirmationAlertPrimaryAction];
+  _shareButton.enabled = NO;
+  _inputView.enabled = NO;
+  // if ([self.actionHandler
+  //         respondsToSelector:@selector(confirmationAlertLearnMoreAction)]) {
+  //   [self.actionHandler confirmationAlertLearnMoreAction];
+  // }
 }
 
 // Handles taps on the primary action button.
 - (void)didTapPrimaryActionButton {
   [self.actionHandler confirmationAlertPrimaryAction];
-  _primaryActionButton.enabled = NO;
+  //_primaryActionButton.enabled = NO;
 
-  [_primaryActionButton setBackgroundColor:UIColor.lightGrayColor];
+  //[_primaryActionButton setBackgroundColor:UIColor.lightGrayColor];
 }
 
 // Helper to create the image view.
@@ -350,13 +359,7 @@ constexpr CGFloat kInputHeight = 300;
 - (UILabel*)createTitleLabel {
   UILabel* title = [[UILabel alloc] init];
   title.numberOfLines = 1;
-  UIFontDescriptor* descriptor = [UIFontDescriptor
-      preferredFontDescriptorWithTextStyle:UIFontTextStyleTitle3];
-  UIFont* font = [UIFont systemFontOfSize:descriptor.pointSize
-                                   weight:UIFontWeightBold];
-  UIFontMetrics* fontMetrics =
-      [UIFontMetrics metricsForTextStyle:UIFontTextStyleTitle3];
-  title.font = [fontMetrics scaledFontForFont:font];
+  title.font = [UIFont boldSystemFontOfSize:16];
   title.textColor = [UIColor colorNamed:kTextPrimaryColor];
   title.text = self.pageTitle;
   title.textAlignment = NSTextAlignmentLeft;
@@ -368,7 +371,7 @@ constexpr CGFloat kInputHeight = 300;
 // Helper to create the subtitle label.
 - (UILabel*)createSubtitleLabel {
   UILabel* subtitle = [[UILabel alloc] init];
-  subtitle.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
+  subtitle.font = [UIFont systemFontOfSize:12];
   subtitle.numberOfLines = 1;
   subtitle.textColor = [UIColor colorNamed:kTextSecondaryColor];
   subtitle.text = [self.pageURL host];
@@ -422,6 +425,7 @@ constexpr CGFloat kInputHeight = 300;
 
   UIImageView* image = [self createImageView];
   self.thumbView = image;
+    self.titleView = title;
 
   NSLayoutConstraint* imageWidthConstraint =
       [image.widthAnchor constraintEqualToConstant:0];
@@ -550,6 +554,11 @@ constexpr CGFloat kInputHeight = 300;
     [self.view layoutIfNeeded];
 }
 
+- (void)updateTitle:(NSString*)title {
+    [ self.titleView setText:title];
+    [self.stackView invalidateIntrinsicContentSize];
+    [self.view layoutIfNeeded];
+}
 
 
 

@@ -6,6 +6,7 @@
 #import "ios/chrome/browser/ui/mises_share/mises_share_coordinator.h"
 
 
+#import <LinkPresentation/LinkPresentation.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 
 #import "base/mac/foundation_util.h"
@@ -62,11 +63,14 @@ using ItemBlock = void (^)(id idResponse, NSError* error);
 @property(nonatomic, assign) Browser* browser;
 
 
+@property(nonatomic, strong) LPMetadataProvider* lpProvider;
 
 @property(nonatomic, strong)
     ActivityServiceCoordinator* activityServiceCoordinator;
 
 @property(nonatomic, copy) NSString* title;
+
+@property(nonatomic, copy) UIImage* image;
 
 @property(nonatomic, strong)
     PopoverLabelViewController* learnMoreViewController;
@@ -104,6 +108,7 @@ using ItemBlock = void (^)(id idResponse, NSError* error);
                                         animated:YES
                                       completion:nil];
   [self loadThumbImage];
+  [self loadLinkMeta];
   [super start];
 }
 
@@ -115,6 +120,8 @@ using ItemBlock = void (^)(id idResponse, NSError* error);
   [self.activityServiceCoordinator stop];
   self.activityServiceCoordinator = nil;
 
+    
+  [self.lpProvider cancel];
   [super stop];
 }
 
@@ -130,36 +137,36 @@ using ItemBlock = void (^)(id idResponse, NSError* error);
    NSString* shareTitle = self.title;
    NSString* shareURL = [net::NSURLWithGURL(_URL) absoluteString];
   
-  MisesShareItem * item = [[MisesShareItem alloc] initWithUrl:shareURL title:shareTitle message:self.viewController.commentText image:[self.viewController.content copy]];
+  MisesShareItem * item = [[MisesShareItem alloc] initWithUrl:shareURL title:shareTitle message:self.viewController.commentText image:self.image];
 
   [[MisesShareService wrapper] setDelegate:self];
   [[MisesShareService wrapper] share:item];
 }
 
 - (void)confirmationAlertLearnMoreAction {
-  NSString* message =
-      l10n_util::GetNSString(IDS_IOS_MISES_SHARE_LEARN_MORE_MESSAGE);
-  self.learnMoreViewController =
-      [[PopoverLabelViewController alloc] initWithMessage:message];
-
-  self.learnMoreViewController.popoverPresentationController.barButtonItem =
-      self.viewController.helpButton;
-  self.learnMoreViewController.popoverPresentationController
-      .permittedArrowDirections = UIPopoverArrowDirectionUp;
-
-  [self.viewController presentViewController:self.learnMoreViewController
-                                    animated:YES
-                                  completion:nil];
+//  NSString* message =
+//      l10n_util::GetNSString(IDS_IOS_MISES_SHARE_LEARN_MORE_MESSAGE);
+//  self.learnMoreViewController =
+//      [[PopoverLabelViewController alloc] initWithMessage:message];
+//
+//  self.learnMoreViewController.popoverPresentationController.barButtonItem =
+//      self.viewController.helpButton;
+//  self.learnMoreViewController.popoverPresentationController
+//      .permittedArrowDirections = UIPopoverArrowDirectionUp;
+//
+//  [self.viewController presentViewController:self.learnMoreViewController
+//                                    animated:YES
+//                                  completion:nil];
 }
 
 #pragma mark - ActivityServicePositioner
 
 - (UIView*)sourceView {
-  return self.viewController.primaryActionButton;
+  return self.viewController.view;
 }
 
 - (CGRect)sourceRect {
-  return self.viewController.primaryActionButton.bounds;
+  return self.viewController.view.bounds;
 }
 
 #pragma mark - ActivityServicePresentation
@@ -179,15 +186,58 @@ using ItemBlock = void (^)(id idResponse, NSError* error);
                     initWithWebState:web_state];
     CGSize size = CGSizeMake(kScreenShotWidth, kScreenShotHeight);
     UIImage* thumbnail = [thumbnail_generator thumbnailWithSize:size];
+    self.image = thumbnail;
     [self.viewController updateThumbImage:thumbnail];
 
+}
+
+- (void)loadLinkMeta {
+
+  LPMetadataProvider *provider = [[LPMetadataProvider alloc] init];
+  provider.timeout = 10;
+  provider.shouldFetchSubresources = YES;
+  NSURL *url = net::NSURLWithGURL(_URL);
+  [provider startFetchingMetadataForURL:url completionHandler:^(LPLinkMetadata * _Nullable metadata, NSError * _Nullable error) {
+      if (error) {
+          return;
+      }
+      NSString *lpTitle = metadata.title;
+      if (lpTitle) {
+          dispatch_async(dispatch_get_main_queue(), ^{
+              self.title = lpTitle;
+              [self.viewController updateTitle:lpTitle];
+          });
+          
+      }
+      
+      NSItemProvider *thumbProvider = metadata.imageProvider;
+      if (!thumbProvider) {
+          thumbProvider = metadata.iconProvider;
+      }
+
+      if (thumbProvider) {
+        [thumbProvider loadObjectOfClass:UIImage.class completionHandler:^(UIImage* _Nullable image, NSError * _Nullable error) {
+            if (image) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    self.image = image;
+                    [self.viewController updateThumbImage:image];
+                });
+                
+            }
+           
+            
+        }];
+      }
+  }];
+    
+    self.lpProvider = provider;
 }
 
 
 #pragma mark - MisesShareServiceDelegate
 - (void) shareFinish:(BOOL)ok {
 
-  [self.handler hideMisesShare];  
+  [self.handler hideMisesShare];
 }
 
 @end
