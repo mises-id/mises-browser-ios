@@ -409,7 +409,7 @@ constexpr CGFloat kInputHeight = 300;
     toolbar.frame = CGRectMake(0, 0, self.view.frame.size.width, 44);
     toolbar.items = @[spacer, doneButton];
     
-    //input.textView.inputAccessoryView = toolbar;
+    input.textView.inputAccessoryView = toolbar;
     input.layer.borderWidth = 0;
     input.layer.cornerRadius = 5;
     [input setBackgroundColor:[UIColor colorNamed:kGrey50Color]];

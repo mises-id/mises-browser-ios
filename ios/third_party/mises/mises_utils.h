@@ -15,9 +15,8 @@
 
 + (RCTBridge *) bridge;
 
-+ (void) OnNavigationStarted:(NSString*) url;
 
-+ (void) onWebViewActivated:(WKWebView *) wv;
++ (NSUInteger) onWebViewActivated:(WKWebView *) wv;
 
 + (MisesAccountService*) account;
 

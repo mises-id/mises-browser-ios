@@ -76,8 +76,8 @@ void MisesJavaScriptFeature::MisesMessageReceived(
   if (!web_state ) {
     return;
   }
-  [Mises onWebViewActivated:message.webView];
-  [[Mises bridge] enqueueJSCall:@"NativeBridge.postMessage" args:@[message.body]];
+  NSUInteger wvid = [Mises onWebViewActivated:message.webView];
+  [[Mises bridge] enqueueJSCall:@"NativeBridge.postMessage" args:@[message.body, [NSNumber numberWithUnsignedInteger:wvid]]];
 
 //   NSString* method =
 //       [NSString stringWithFormat:@"console.log(\"mises received: %@\", %@)",

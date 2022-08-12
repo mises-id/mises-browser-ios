@@ -55,5 +55,6 @@ source_set("mises_share") {
     "//ios/web/public",
     "//net",
     "//ui/base",
+    "//ui/strings",
   ]
 }

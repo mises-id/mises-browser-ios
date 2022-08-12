@@ -134,7 +134,7 @@
   return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 }
 
-- (void)activate:(WKWebView *) wv
+- (BOOL)activate:(WKWebView *) wv
 {
   [self.webViewArray compact];
     
@@ -143,12 +143,12 @@
   for (NSUInteger i = 0; i < count; i++) {
     __weak WKWebView *weakwv = [allObjects objectAtIndex: i];
     if (weakwv == wv) {
-        return;
+        return NO;
     }
   }
 
   [self.webViewArray  addPointer:(__bridge void *)wv];
-
+    return YES;
 }
 @end
 
@@ -178,14 +178,14 @@
   return [[ReactAppDelegate wrapper] bridge]; 
 }
 
-+ (void) OnNavigationStarted:(NSString*) url {
 
-  [[Mises bridge] enqueueJSCall:@"NativeBridge.loadStarted" args:@[url]];
-
-}
-
-+ (void) onWebViewActivated:(WKWebView *) wv {
-  [[ReactAppDelegate wrapper] activate:wv];
++ (NSUInteger) onWebViewActivated:(WKWebView *) wv {
+    if ([[ReactAppDelegate wrapper] activate:wv]) {
+       
+    };
+    NSUInteger wvid = [wv hash];
+    //[[Mises bridge] enqueueJSCall:@"NativeBridge.activate" args:@[wv.URL.absoluteString, wvid];
+    return wvid;
 }
 
 
@@ -227,7 +227,7 @@ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(popup)
     });
     return nil;
 }
-RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(postMessageFromRN:(NSString *)msg:(NSString *)origin)
+RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(postMessageFromRN:(NSString *) msg orgin:(NSString*)origin webviewID:(NSUInteger)webviewID)
 {
     dispatch_async(dispatch_get_main_queue(), ^{
 
@@ -238,13 +238,12 @@ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(postMessageFromRN:(NSString *)msg:(NSStri
             __weak WKWebView* weakwv = [allObjects objectAtIndex: i];
             if (weakwv) {
                 __strong WKWebView* wv = weakwv;
-                NSURL *nsurl = wv.URL;
-                NSString* wv_origin = [NSString stringWithFormat:
-                                       @"%@://%@",nsurl.scheme, nsurl.host];
-                if ([wv_origin compare:origin options:NSCaseInsensitiveSearch] != NSOrderedSame) {
+//                NSURL *nsurl = wv.URL;
+//                NSString* wv_origin = [NSString stringWithFormat:
+//                                       @"%@://%@",nsurl.scheme, nsurl.host];
+                if (webviewID != 0 && webviewID != [wv hash] ) {
                     continue;
                 }
-                
                 NSString* method = [NSString stringWithFormat:@"(function(){try{window.postMessage( %@ , '%@');} catch (e) {}})()", msg, origin];
                 web::ExecuteJavaScript(wv, method, ^(id value, NSError* error) {
                     if (error) {
