@@ -36,7 +36,19 @@
 
 @end
 
+
+enum MetamaskUIPendingStatus {
+  // No action should be done
+  NONE = 0,
+  POPUP,
+  DISMISS
+};
+
 @interface ReactAppDelegate : UIResponder <RCTBridgeDelegate>
++ (instancetype)wrapper;
++ (UIViewController *)baseViewController;
+- (void)show:(UIViewController*)basevc;
+- (void)dismiss;
 
 @property (nonatomic, strong) MetamaskUIViewController *rootViewController;
 
@@ -45,6 +57,8 @@
 @property (nonatomic, strong) NSPointerArray *webViewArray;
 
 @property(nonatomic, weak) id<BrowserCommands> browserHandler;
+
+@property (atomic) MetamaskUIPendingStatus metamaskPendingStatus;
 
 @end
 
@@ -60,6 +74,12 @@
 - (void)viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
   dispatch_async(dispatch_get_main_queue(), ^{
+      
+      DLOG(WARNING) << "Popup Metamask complete";
+      ReactAppDelegate* delegate = [ReactAppDelegate wrapper];
+      if (delegate.metamaskPendingStatus == DISMISS) {
+          [delegate dismiss];
+      }
 
     [[Mises bridge] enqueueJSCall:@"NativeBridge.windowStatusChanged" args:@[@"show"]];
   });
@@ -67,6 +87,13 @@
 - (void)viewDidDisappear:(BOOL)animated {
   [super viewDidDisappear:animated];
   dispatch_async(dispatch_get_main_queue(), ^{
+      DLOG(WARNING) << "Dismiss Metamask complete";
+      ReactAppDelegate* delegate = [ReactAppDelegate wrapper];
+      if (delegate.metamaskPendingStatus == POPUP) {
+          UIViewController* bvc = [ReactAppDelegate baseViewController];
+          [delegate show:bvc];
+      }
+      
 
     [[Mises bridge] enqueueJSCall:@"NativeBridge.windowStatusChanged" args:@[@"hide"]];
   });
@@ -83,6 +110,17 @@
         }
     return sharedInstance;
     }
+}
+
++ (UIViewController *)baseViewController {
+   UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
+    UIViewController *basevc = keyWindow.rootViewController;
+    if ([basevc respondsToSelector:@selector(childViewControllerForStatusBarStyle)]) {
+        UIViewController* bvc = [basevc childViewControllerForStatusBarStyle];
+        return bvc;
+    }
+    
+    return NULL;
 }
 - (instancetype)init
 {
@@ -102,24 +140,36 @@
     return self;
 }
 - (void)show:(UIViewController*)basevc {
-  if ([self.rootViewController isModal]) {
+  if ([self.rootViewController isModal] || !basevc) {
+      self.metamaskPendingStatus = POPUP;
       return;
   };
-    if ([basevc
-         respondsToSelector:@selector(openSinglePage:)]) {
-        self.browserHandler = static_cast<UIViewController<BrowserCommands>*>(basevc);
-    }
+  self.metamaskPendingStatus = NONE;
+  if ([basevc
+        respondsToSelector:@selector(openSinglePage:)]) {
+      self.browserHandler = static_cast<UIViewController<BrowserCommands>*>(basevc);
+  }
   [basevc presentViewController:self.rootViewController  animated:YES completion:^{
+    
+    
   }];
+}
+-(void) popup {
+    UIViewController* bvc = [ReactAppDelegate baseViewController];
+    [self show:bvc];
 }
 
 
 - (void)dismiss {
   if (![self.rootViewController isModal]) {
+      self.metamaskPendingStatus = DISMISS;
       return;
   };
-    self.browserHandler = nil;
-    [self.rootViewController dismissViewControllerAnimated:YES  completion: nil];
+  self.metamaskPendingStatus = NONE;
+  self.browserHandler = nil;
+  [self.rootViewController dismissViewControllerAnimated:YES  completion: ^{
+   
+  }];
 }
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 {
@@ -168,10 +218,21 @@
     });
      //
 }
-+ (void) PopupMetamask:(UIViewController*)basevc {
++ (void) dismissMetamask {
+  DLOG(WARNING) << "Dismiss Metamask";
+    ReactAppDelegate *delegate = [ReactAppDelegate wrapper];
+    [NSObject cancelPreviousPerformRequestsWithTarget:delegate];
+    [delegate performSelector:@selector(dismiss) withObject:nil afterDelay:0.1];
+}
++ (void) popupMetamask {
     DLOG(WARNING) << "Popup Metamask";
+    
+    ReactAppDelegate *delegate = [ReactAppDelegate wrapper];
+    [NSObject cancelPreviousPerformRequestsWithTarget:delegate];
+    [delegate performSelector:@selector(popup) withObject:nil afterDelay:0.1];
+    
 
-     [[ReactAppDelegate wrapper] show:basevc]; 
+     
 }
 
 + (RCTBridge *) bridge {
@@ -205,7 +266,8 @@ RCT_EXPORT_MODULE()
 RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(dismiss)
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        [[ReactAppDelegate wrapper] dismiss];
+        
+        [Mises dismissMetamask];
         
     });
     return nil;
@@ -214,15 +276,7 @@ RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(dismiss)
 RCT_EXPORT_BLOCKING_SYNCHRONOUS_METHOD(popup)
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-        UIViewController *basevc = keyWindow.rootViewController;
-        if ([basevc respondsToSelector:@selector(childViewControllerForStatusBarStyle)]) {
-            UIViewController* bvc = [basevc childViewControllerForStatusBarStyle];
-            if (bvc) {
-                [Mises PopupMetamask:bvc];
-            }
-           
-        }
+       [Mises popupMetamask];
         
     });
     return nil;

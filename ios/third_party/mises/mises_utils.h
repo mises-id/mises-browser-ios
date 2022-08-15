@@ -11,7 +11,8 @@
 
 @interface Mises: NSObject
 + (void) Init;
-+ (void) PopupMetamask:(UIViewController*) vc;
++ (void) popupMetamask;
++ (void) dismissMetamask;
 
 + (RCTBridge *) bridge;
 
