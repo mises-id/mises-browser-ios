@@ -9,7 +9,7 @@
 <translation id="1015730422737071372">ספק פרטים נוספים</translation>
 <translation id="1019413721762100891">כבוי</translation>
 <translation id="1021110881106174305">כרטיסים מאושרים</translation>
-<translation id="1021753677514347426">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Chromium. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Chromium רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
+<translation id="1021753677514347426">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Mises. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Mises רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
 <translation id="1024111578869940408">תוקפים שמחקים אתרים לפעמים משתמשים בכתובת האינטרנט של האתר המקורי, ועושים בה שינויים שקשה להבחין בהם.</translation>
 <translation id="1028781062521375153">לפרטים</translation>
 <translation id="1030706264415084469"><ph name="URL" /> רוצה לאחסן באופן קבוע כמות גדולה של נתונים במכשיר שלך</translation>
@@ -24,7 +24,7 @@
 <translation id="1050038467049342496">סגירת אפליקציות אחרות</translation>
 <translation id="1055184225775184556">&amp;ביטול הוספה</translation>
 <translation id="1056898198331236512">אזהרה</translation>
-<translation id="1058344460600311577">‏<ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לשחק במשחק Dino Run ב-Chrome</translation>
+<translation id="1058344460600311577">‏<ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לשחק במשחק Dino Run ב-Mises</translation>
 <translation id="1058479211578257048">הכרטיסים נשמרים...</translation>
 <translation id="10614374240317010">פריטים שאף פעם לא נשמרו</translation>
 <translation id="1062160989074299343">Prc10 (Envelope)‎</translation>
@@ -38,7 +38,7 @@
 <translation id="1088860948719068836">הוספת השם שמופיע בכרטיס</translation>
 <translation id="1089439967362294234">שינוי סיסמה</translation>
 <translation id="1096545575934602868">השדה הזה יכול לכלול עד <ph name="MAX_ITEMS_LIMIT" /> רשומות. כל הרשומות הנוספות יימחקו.</translation>
-<translation id="1100782917270858593">‏הלחצן להמשך התהליך, מקישים על Enter כדי להמשיך בתהליך ולהציג את הפעילות הרלוונטית בהיסטוריה ב-Chrome</translation>
+<translation id="1100782917270858593">‏הלחצן להמשך התהליך, מקישים על Enter כדי להמשיך בתהליך ולהציג את הפעילות הרלוונטית בהיסטוריה ב-Mises</translation>
 <translation id="1101672080107056897">פעולת שגיאה</translation>
 <translation id="1103523840287552314">ברצוני לקבל תרגום מ<ph name="LANGUAGE" /> תמיד</translation>
 <translation id="1110994991967754504">צריך לבחור את ההרשאה של <ph name="PERMISSION_NAME" /></translation>
@@ -83,7 +83,7 @@
 <translation id="124116460088058876">שפות נוספות</translation>
 <translation id="1243027604378859286">מחבר:</translation>
 <translation id="1246424317317450637">מודגש</translation>
-<translation id="1248573052514400575">‏<ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, לוחצים על Tab ואז על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Chrome OS</translation>
+<translation id="1248573052514400575">‏<ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, לוחצים על Tab ואז על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Mises OS</translation>
 <translation id="1250759482327835220">‏כדי לשלם מהר יותר בפעם הבאה, אפשר לשמור בחשבון Google את פרטי הכרטיס, השם והכתובת לחיוב.</translation>
 <translation id="1252799212227771492">‏לחצן ליצירה של גיליון, מקישים על Enter כדי ליצור במהירות גיליון אלקטרוני חדש ב-Google Sheets</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (מסונכרנים)</translation>
@@ -95,7 +95,7 @@
     &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">הזנת את הסיסמה באתר שאינו מנוהל על-ידי הארגון שלך. כדי להגן על החשבון, אין לעשות שימוש חוזר בסיסמה באפליקציות ובאתרים אחרים.</translation>
 <translation id="1257553931232494454">רמות מרחק מהתצוגה</translation>
-<translation id="1262388120645841613">‏<ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לנהל את הגדרות Chrome</translation>
+<translation id="1262388120645841613">‏<ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לנהל את הגדרות Mises</translation>
 <translation id="1263231323834454256">רשימת קריאה</translation>
 <translation id="1264309058268477500">חלופי</translation>
 <translation id="1269516672602708785">‏יצירה מהירה של אתר חדש ב-Google Sites</translation>
@@ -103,7 +103,7 @@
 <translation id="1281476433249504884">מערים 1</translation>
 <translation id="1285320974508926690">איני רוצה לקבל תרגום של אתר זה</translation>
 <translation id="1292571435393770077">מגש 16</translation>
-<translation id="1292701964462482250">‏"יש תוכנה במחשב שלך שמונעת מ-Chrome להתחבר באופן מאובטח אל האינטרנט" (מחשבי Windows בלבד)</translation>
+<translation id="1292701964462482250">‏"יש תוכנה במחשב שלך שמונעת מ-Mises להתחבר באופן מאובטח אל האינטרנט" (מחשבי Windows בלבד)</translation>
 <translation id="1294154142200295408">וריאציות של שורת פקודה</translation>
 <translation id="129553762522093515">נסגרו לאחרונה</translation>
 <translation id="129863573139666797">‏<ph name="BEGIN_LINK" />יש לנסות לנקות את קובצי ה-Cookie<ph name="END_LINK" /></translation>
@@ -150,7 +150,7 @@
 <translation id="1384725838384960382">גיליון האימות של פרטי הכניסה לתשלום המאובטח</translation>
 <translation id="1386623374109090026">הערות</translation>
 <translation id="139305205187523129"><ph name="HOST_NAME" /> לא שלח נתונים.</translation>
-<translation id="1403196654932095242">‏<ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להמשיך לחקור ולראות פעילות רלוונטית בהיסטוריה ב-Chrome.</translation>
+<translation id="1403196654932095242">‏<ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להמשיך לחקור ולראות פעילות רלוונטית בהיסטוריה ב-Mises.</translation>
 <translation id="1405567553485452995">ירוק בהיר</translation>
 <translation id="1407135791313364759">פתיחת כל הכרטיסיות</translation>
 <translation id="1408787208417187241">3 סיכות הידוק בחלק העליון</translation>
@@ -200,7 +200,7 @@
 <translation id="154408704832528245">בחירת כתובת למסירה</translation>
 <translation id="1549470594296187301">‏JavaScript צריך להיות מופעל כדי להשתמש בתכונה זו.</translation>
 <translation id="155039086686388498">Engineering-D</translation>
-<translation id="1553358976309200471">‏כדאי לעדכן את Chrome</translation>
+<translation id="1553358976309200471">‏כדאי לעדכן את Mises</translation>
 <translation id="1555130319947370107">כחול</translation>
 <translation id="1559447966090556585">לאפשר קבלת התראות?</translation>
 <translation id="1559528461873125649">אין קובץ או ספרייה בשם זה</translation>
@@ -216,7 +216,7 @@
 <translation id="1588438908519853928">רגיל</translation>
 <translation id="1592005682883173041">גישה לנתונים מקומיים</translation>
 <translation id="1594030484168838125">בחירה</translation>
-<translation id="160851722280695521">‏הפעלת המשחק Dino Run ב-Chrome</translation>
+<translation id="160851722280695521">‏הפעלת המשחק Dino Run ב-Mises</translation>
 <translation id="161042844686301425">ציאן</translation>
 <translation id="1611101756749861742">גליל שני</translation>
 <translation id="1615402009686901181">בהתאם למדיניות מנהל המערכת, צילום המסך מושבת כשמוצג תוכן סודי</translation>
@@ -233,13 +233,13 @@
 <translation id="1642410292376109062">‏לחצן לשינוי הסיסמה ל-Google, מקישים על Enter כדי לשנות את הסיסמה לחשבון Google</translation>
 <translation id="1644574205037202324">היסטוריה</translation>
 <translation id="1645368109819982629">פרוטוקול לא נתמך</translation>
-<translation id="1650602712345345441">‏ניהול הגדרות Chrome</translation>
+<translation id="1650602712345345441">‏ניהול הגדרות Mises</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="1656024727720460136">‏Chrome יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Chrome באמצעות חיבור מאובטח.</translation>
+<translation id="1656024727720460136">‏Mises יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Mises באמצעות חיבור מאובטח.</translation>
 <translation id="1656489000284462475">איסוף</translation>
 <translation id="1658918301167915956">‏מכשירי Bluetooth</translation>
 <translation id="1662550410081243962">שמירה ומילוי של אמצעי תשלום</translation>
-<translation id="1663943134801823270">‏הכרטיסים והכתובות נלקחים מ-Chrome. אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
+<translation id="1663943134801823270">‏הכרטיסים והכתובות נלקחים מ-Mises. אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
 <translation id="1671391448414634642">דפים ב<ph name="SOURCE_LANGUAGE" /> יתורגמו מעכשיו ל<ph name="TARGET_LANGUAGE" />.</translation>
 <translation id="1682696192498422849">הקצה הקצר ראשון</translation>
 <translation id="168693727862418163">אימות ערך המדיניות הזה נכשל בבדיקה מול הסכימה והמערכת תתעלם ממנו.</translation>
@@ -324,11 +324,11 @@
 <translation id="1919345977826869612">מודעות</translation>
 <translation id="1919367280705858090">עזרה לגבי הודעות שגיאה ספציפיות</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{ללא}=1{אתר אחד}two{שני אתרים}many{# אתרים}other{# אתרים}}</translation>
-<translation id="1923390796829649802">‏הלחצן לניהול הגדרות הנגישות, מקישים על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Chrome OS</translation>
+<translation id="1923390796829649802">‏הלחצן לניהול הגדרות הנגישות, מקישים על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Mises OS</translation>
 <translation id="1924727005275031552">חדשה</translation>
-<translation id="1927439593081478069">‏לחצן להרצת בדיקת אבטחה ב-Chrome, לוחצים על Enter כדי להריץ בדיקת אבטחה בהגדרות של Chrome</translation>
+<translation id="1927439593081478069">‏לחצן להרצת בדיקת אבטחה ב-Mises, לוחצים על Enter כדי להריץ בדיקת אבטחה בהגדרות של Mises</translation>
 <translation id="1939175642807587452">האתר יכול לבקש הרשאה לשלוח התראות</translation>
-<translation id="1945968466830820669">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Chromium, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="1945968466830820669">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Mises, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="1947454675006758438">סיכת הידוק בפינה הימנית העליונה</translation>
 <translation id="1956486093533522234">איתור המכשיר, הגנה עליו או מחיקת הנתונים שבו</translation>
 <translation id="1958218078413065209">הניקוד הכי גבוה שלך הוא <ph name="SCORE" />.</translation>
@@ -345,8 +345,8 @@
 <translation id="2001146170449793414">{COUNT,plural, =1{ואפליקציה אחת נוספת}two{ושתי אפליקציות נוספות}many{ו-# אפליקציות נוספות}other{ו-# אפליקציות נוספות}}</translation>
 <translation id="2003709556000175978">צריך לאפס את הסיסמה עכשיו</translation>
 <translation id="2003775180883135320">4 ניקובים בצד שמאל</translation>
-<translation id="201174227998721785">‏ניתן לנהל את ההרשאות והנתונים השמורים בכל האתרים בהגדרות Chrome</translation>
-<translation id="2019607688127825327">‏הלחצן לניהול הגדרות הנגישות, מקישים על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Chrome</translation>
+<translation id="201174227998721785">‏ניתן לנהל את ההרשאות והנתונים השמורים בכל האתרים בהגדרות Mises</translation>
+<translation id="2019607688127825327">‏הלחצן לניהול הגדרות הנגישות, מקישים על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Mises</translation>
 <translation id="2025115093177348061">מציאות רבודה</translation>
 <translation id="2025186561304664664">‏שרת Proxy נקבע למוגדר אוטומטית.</translation>
 <translation id="2025891858974379949">תוכן לא מאובטח</translation>
@@ -357,7 +357,7 @@
 <translation id="2042213636306070719">מגש 7</translation>
 <translation id="204357726431741734">‏כדי להשתמש בסיסמאות השמורות בחשבון Google, עליך להיכנס שוב לחשבון</translation>
 <translation id="2053111141626950936">דפים ב<ph name="LANGUAGE" /> לא יתורגמו.</translation>
-<translation id="2053373601901562871">{NUM_DAYS,plural, =0{‏כשהפקד הזה פועל והסטטוס פעיל, Chrome בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי יום.}=1{‏כשהפקד הזה פועל והסטטוס פעיל, Chrome בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי יום.}two{‏כשהפקד הזה פועל והסטטוס פעיל, Chrome בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי יומיים ({NUM_DAYS}).}many{‏כשהפקד הזה פועל והסטטוס פעיל, Chrome בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי {NUM_DAYS} ימים.}other{‏כשהפקד הזה פועל והסטטוס פעיל, Chrome בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי {NUM_DAYS} ימים.}}</translation>
+<translation id="2053373601901562871">{NUM_DAYS,plural, =0{‏כשהפקד הזה פועל והסטטוס פעיל, Mises בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי יום.}=1{‏כשהפקד הזה פועל והסטטוס פעיל, Mises בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי יום.}two{‏כשהפקד הזה פועל והסטטוס פעיל, Mises בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי יומיים ({NUM_DAYS}).}many{‏כשהפקד הזה פועל והסטטוס פעיל, Mises בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי {NUM_DAYS} ימים.}other{‏כשהפקד הזה פועל והסטטוס פעיל, Mises בודק מהי הקבוצה הגדולה של אנשים, או "הקבוצה בעלת המאפיינים המשותפים", שפעילות הגלישה האחרונה שלך הכי דומה לה. מפרסמים יכולים לבחור מודעות שמתאימות לקבוצה, ופעילות הגלישה שלך נשמרת באופן פרטי במכשיר. הקבוצה מתעדכנת מדי {NUM_DAYS} ימים.}}</translation>
 <translation id="2053553514270667976">מיקוד</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{הצעה אחת}two{שתי הצעות}many{# הצעות}other{# הצעות}}</translation>
 <translation id="2071156619270205202">הכרטיס הזה לא עומד בדרישות לקבלת מספר כרטיס וירטואלי.</translation>
@@ -366,7 +366,7 @@
 <translation id="20817612488360358">‏נקבע שימוש בהגדרות שרת Proxy של מערכת אך בנוסף מצוינת גם תצורה מפורשת של שרת Proxy.</translation>
 <translation id="2082238445998314030">תוצאה <ph name="RESULT_NUMBER" /> מתוך <ph name="TOTAL_RESULTS" /></translation>
 <translation id="2085876078937250610">שמירה…</translation>
-<translation id="2088086323192747268">‏הלחצן 'ניהול הסנכרון', יש להקיש על Enter כדי לקבוע איזה מידע יסונכרן בהגדרות Chrome</translation>
+<translation id="2088086323192747268">‏הלחצן 'ניהול הסנכרון', יש להקיש על Enter כדי לקבוע איזה מידע יסונכרן בהגדרות Mises</translation>
 <translation id="2091887806945687916">צליל</translation>
 <translation id="2094505752054353250">אי התאמה בדומיינים</translation>
 <translation id="2096368010154057602">מחלקה</translation>
@@ -433,7 +433,7 @@
 <translation id="2293443924986248631">‏כשהאפשרות מופעלת, אתרים לא יכולים להשתמש בקובצי cookie כדי לעקוב אחריך באינטרנט. ייתכנו שיבושים בפעולה של תכונות באתרים מסוימים.</translation>
 <translation id="2295290966866883927">‏כתובות URL של דפים שאליהם נכנסת נשלחות אל Google Cloud או צדדים שלישיים לניתוח. לדוגמה, ייתכן שהן ייסרקו כדי לזהות אתרים לא בטוחים.</translation>
 <translation id="2297722699537546652">B5 (Envelope)‎</translation>
-<translation id="2298855485018661510">‏הלחצן 'ניהול קובצי Cookie', יש להקיש על Enter כדי לנהל את ההעדפות לגבי קובצי Cookie בהגדרות Chrome</translation>
+<translation id="2298855485018661510">‏הלחצן 'ניהול קובצי Cookie', יש להקיש על Enter כדי לנהל את ההעדפות לגבי קובצי Cookie בהגדרות Mises</translation>
 <translation id="2300306941146563769">לא הועלה</translation>
 <translation id="2310021320168182093">Chou2 (Envelope)‎</translation>
 <translation id="2316887270356262533">‏פינוי של פחות מ-‎1 MB‎ מהשטח. ייתכן שחלק מהאתרים ייטענו לאט יותר בביקור הבא שלך.</translation>
@@ -456,9 +456,9 @@
 <translation id="2367567093518048410">רמה</translation>
 <translation id="2372464001869762664">‏אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Google. ניתן למצוא את ה-CVC בפרטים של חשבון Plex.</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="2383455408879745299">‏התאמה אישית של כלי הנגישות בהגדרות Chrome</translation>
+<translation id="2383455408879745299">‏התאמה אישית של כלי הנגישות בהגדרות Mises</translation>
 <translation id="2384307209577226199">ברירת מחדל של ארגון</translation>
-<translation id="2385809941344967209">‏עדכון Chrome דרך הגדרות Chrome</translation>
+<translation id="2385809941344967209">‏עדכון Mises דרך הגדרות Mises</translation>
 <translation id="2386255080630008482">אישור השרת נשלל.</translation>
 <translation id="2392959068659972793">הצגת מדיניות ללא ערך מוגדר</translation>
 <translation id="239429038616798445">שיטת המשלוח הזו לא זמינה. עליך לבחור שיטה אחרת.</translation>
@@ -475,7 +475,7 @@
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">בחירת שיטת מסירה</translation>
 <translation id="2465688316154986572">סיכת הידוק</translation>
-<translation id="2465914000209955735">‏ניהול הקבצים שהורדת ב-Chrome</translation>
+<translation id="2465914000209955735">‏ניהול הקבצים שהורדת ב-Mises</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />להפעיל את אבחון הרשת<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">‏סדר מ-1 עד N</translation>
 <translation id="2470767536994572628">המסמך הזה יחזור לתצוגת דף יחיד ולמצב הסיבוב המקורי שלו בזמן עריכת ההערות</translation>
@@ -511,28 +511,28 @@
 <translation id="2556876185419854533">&amp;ביטול עריכה</translation>
 <translation id="2570734079541893434">ניהול ההגדרות</translation>
 <translation id="257674075312929031">קבוצה</translation>
-<translation id="2576880857912732701">‏הלחצן 'ניהול הגדרות האבטחה', יש להקיש על Enter כדי לנהל את הגלישה הבטוחה ועוד בהגדרות Chrome</translation>
+<translation id="2576880857912732701">‏הלחצן 'ניהול הגדרות האבטחה', יש להקיש על Enter כדי לנהל את הגלישה הבטוחה ועוד בהגדרות Mises</translation>
 <translation id="2586657967955657006">לוח</translation>
 <translation id="2587730715158995865">מאת <ph name="ARTICLE_PUBLISHER" />. לקריאת כתבה זו ועוד <ph name="OTHER_ARTICLE_COUNT" /> כתבות נוספות.</translation>
 <translation id="2587841377698384444">‏מזהה Directory API:</translation>
 <translation id="2594318783181750337">תצוגה מהירה באינטרנט:</translation>
 <translation id="2595719060046994702">המכשיר והחשבון לא מנוהלים על-ידי חברה או ארגון אחר.</translation>
-<translation id="2596415276201385844">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Chrome לא יכול לאמת את האישורים האלו.</translation>
+<translation id="2596415276201385844">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Mises לא יכול לאמת את האישורים האלו.</translation>
 <translation id="2597378329261239068">מסמך זה מוגן באמצעות סיסמה. יש להזין סיסמה.</translation>
 <translation id="2609632851001447353">וריאציות</translation>
 <translation id="2610561535971892504">לחיצה להעתקה</translation>
 <translation id="2618023639789766142">C10 (Envelope)‎</translation>
 <translation id="2625385379895617796">השעון שלך מקדים</translation>
 <translation id="262745152991669301">‏האתר יכול לבקש הרשאה להתחבר אל התקני USB</translation>
-<translation id="2629325967560697240">‏כדי ליהנות מאבטחה ברמה הגבוהה ביותר ב-Chrome, יש <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />להפעיל את ההגנה המשופרת<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
+<translation id="2629325967560697240">‏כדי ליהנות מאבטחה ברמה הגבוהה ביותר ב-Mises, יש <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />להפעיל את ההגנה המשופרת<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
 <translation id="2634124572758952069">‏לא ניתן היה למצוא את כתובת ה-IP של השרת של <ph name="HOST_NAME" />.</translation>
 <translation id="2639739919103226564">סטטוס:</translation>
 <translation id="264810637653812429">לא נמצאו מכשירים תואמים.</translation>
 <translation id="2649204054376361687"><ph name="CITY" />, <ph name="COUNTRY" /></translation>
-<translation id="2649259151839507861">‏<ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנקות את נתוני היסטוריית הגלישה, קובצי ה-cookie, המטמון ועוד בהגדרות Chrome</translation>
+<translation id="2649259151839507861">‏<ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנקות את נתוני היסטוריית הגלישה, קובצי ה-cookie, המטמון ועוד בהגדרות Mises</translation>
 <translation id="2650446666397867134">לא ניתן לגשת לקובץ</translation>
 <translation id="2653659639078652383">שליחה</translation>
-<translation id="2659491813326907275">‏התאמה אישית של כלי הנגישות בהגדרות Chrome OS</translation>
+<translation id="2659491813326907275">‏התאמה אישית של כלי הנגישות בהגדרות Mises OS</translation>
 <translation id="2660779039299703961">אירוע</translation>
 <translation id="2664887757054927933">{COUNT,plural, =0{אין}=1{סיסמה אחת (עבור <ph name="DOMAIN_LIST" />)}=2{שתי סיסמאות (עבור <ph name="DOMAIN_LIST" />)}many{# סיסמאות (עבור <ph name="DOMAIN_LIST" />)}other{# סיסמאות (עבור <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="2666092431469916601">למעלה</translation>
@@ -554,13 +554,13 @@
 <translation id="2705137772291741111">העותק השמור (בקובץ השמור) של האתר הזה היה בלתי קריא.</translation>
 <translation id="2709516037105925701">מילוי אוטומטי</translation>
 <translation id="2713444072780614174">לבן</translation>
-<translation id="2715612312510870559">‏<ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנהל את התשלומים ואת פרטי כרטיס האשראי שלך בהגדרות Chrome</translation>
+<translation id="2715612312510870559">‏<ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנהל את התשלומים ואת פרטי כרטיס האשראי שלך בהגדרות Mises</translation>
 <translation id="2721148159707890343">הבקשה בוצעה בהצלחה</translation>
-<translation id="2723669454293168317">‏הרצה של בדיקת אבטחה בהגדרות Chrome</translation>
+<translation id="2723669454293168317">‏הרצה של בדיקת אבטחה בהגדרות Mises</translation>
 <translation id="2726001110728089263">מגש צידי</translation>
 <translation id="2728127805433021124">האישור של השרת נחתם באמצעות אלגוריתם של חתימה חלשה.</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />מפעיל את אבחון הקישוריות<ph name="END_LINK" /></translation>
-<translation id="2737403869486738563">‏כדי להציג פעילות רלוונטית בהיסטוריה ב-Chrome, צריך להמשיך לחקור</translation>
+<translation id="2737403869486738563">‏כדי להציג פעילות רלוונטית בהיסטוריה ב-Mises, צריך להמשיך לחקור</translation>
 <translation id="2738330467931008676">בחירת כתובת לאיסוף</translation>
 <translation id="2740531572673183784">אישור</translation>
 <translation id="2742870351467570537">הסרת הפריטים שנבחרו</translation>
@@ -573,7 +573,7 @@
 <translation id="2792012897584536778">מנהלי מערכת של המכשיר הזה הגדירו אישורי אבטחה שעשויים לאפשר להם לראות את התוכן של אתרים שביקרת בהם.</translation>
 <translation id="2799020568854403057">האתר הבא מכיל יישומים מזיקים</translation>
 <translation id="2799223571221894425">הפעלה מחדש</translation>
-<translation id="2799846101868535739">‏הלחצן 'המשך החקירה', מקישים על Enter כדי להמשיך לחקור ולהציג פעילות רלוונטית בהיסטוריה ב-Chrome</translation>
+<translation id="2799846101868535739">‏הלחצן 'המשך החקירה', מקישים על Enter כדי להמשיך לחקור ולהציג פעילות רלוונטית בהיסטוריה ב-Mises</translation>
 <translation id="2803306138276472711">‏לאחרונה, 'גלישה בטוחה של Google‏' <ph name="BEGIN_LINK" />זיהתה תוכנה זדונית<ph name="END_LINK" /> באתר <ph name="SITE" />. אתרים שבדרך כלל נחשבים לבטוחים נדבקים לעתים בתוכנה זדונית.</translation>
 <translation id="2807052079800581569">‏מיקום תמונה על ציר Y</translation>
 <translation id="2820957248982571256">מתבצעת סריקה…</translation>
@@ -587,7 +587,7 @@
 <translation id="2859806420264540918">באתר הזה מוצגות מודעות מפריעות או מטעות.</translation>
 <translation id="287596039013813457">ידידותי</translation>
 <translation id="2876489322757410363">בחרת לצאת מהמצב האנונימי כדי לשלם באמצעות אפליקציה חיצונית. להמשיך?</translation>
-<translation id="2876949457278336305">‏<ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, לוחצים על Tab ואז על Enter כדי לנהל את הגלישה הבטוחה ועוד בהגדרות Chrome</translation>
+<translation id="2876949457278336305">‏<ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, לוחצים על Tab ואז על Enter כדי לנהל את הגלישה הבטוחה ועוד בהגדרות Mises</translation>
 <translation id="2878197950673342043">קיפול כרזה</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">מיקום חלונות</translation>
@@ -599,7 +599,7 @@
 <translation id="290376772003165898">הדף לא ב<ph name="LANGUAGE" />?</translation>
 <translation id="2909946352844186028">אותר שינוי ברשת.</translation>
 <translation id="2911973620368911614">מזהה משתמש של חשבון עבודה</translation>
-<translation id="2914160345369867329">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Chrome ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. יכול להיות שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Chrome הפסיק את החיבור לפני חילופי הנתונים.</translation>
+<translation id="2914160345369867329">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Mises ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. יכול להיות שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Mises הפסיק את החיבור לפני חילופי הנתונים.</translation>
 <translation id="2915068235268646559">קריסה משעה <ph name="CRASH_TIME" /></translation>
 <translation id="2916038427272391327">סגירת תוכניות אחרות</translation>
 <translation id="2922350208395188000">לא ניתן לבדוק את אישור השרת.</translation>
@@ -612,14 +612,14 @@
 <translation id="2941952326391522266">השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו הוא מ-<ph name="DOMAIN2" />. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="2943895734390379394">זמן העלאה:</translation>
 <translation id="2948083400971632585">‏ניתן להשבית כל שרת proxy המוגדר לחיבור מדף ההגדרות.</translation>
-<translation id="2949183777371959169">‏המערכת התעלמה מהמדיניות כי המכונה לא רשומה בממשק המרכזי לניהול דפדפן Chrome.</translation>
+<translation id="2949183777371959169">‏המערכת התעלמה מהמדיניות כי המכונה לא רשומה בממשק המרכזי לניהול דפדפן Mises.</translation>
 <translation id="2951588413176968965">תיבת הדואר שלי</translation>
 <translation id="2952820037279740115">סגירת כל החלונות האנונימיים</translation>
 <translation id="295526156371527179">אזהרה: המדיניות הזו לא עברה מיזוג כמילון בהתאם למדיניות, מאחר שהיא אינה מילון.</translation>
 <translation id="2955913368246107853">סגירת סרגל החיפוש</translation>
 <translation id="2972581237482394796">&amp;ביצוע חוזר</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, בחירה נוכחית. <ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">‏אם האפשרות תופעל, Chromium יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
+<translation id="2985306909656435243">‏אם האפשרות תופעל, Mises יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
 <translation id="2985398929374701810">עליך להזין כתובת חוקית</translation>
 <translation id="2986368408720340940">שיטת האיסוף הזו אינה זמינה. עליך לבחור שיטה אחרת.</translation>
 <translation id="2987034854559945715">אין תכונות תואמות</translation>
@@ -678,7 +678,7 @@
 <translation id="3194737229810486521"><ph name="URL" /> רוצה לאחסן נתונים במכשיר שלך באופן קבוע</translation>
 <translation id="3195213714973468956"><ph name="PRINTER_NAME" /> בשרת <ph name="SERVER_NAME" /></translation>
 <translation id="3197136577151645743">האתר יכול לבקש הרשאה לשאול מתי את/ה משתמש/ת בפועל במכשיר</translation>
-<translation id="3202497928925179914">‏<ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לקבוע איזה מידע יסונכרן בהגדרות Chrome</translation>
+<translation id="3202497928925179914">‏<ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לקבוע איזה מידע יסונכרן בהגדרות Mises</translation>
 <translation id="320323717674993345">ביטול תשלום</translation>
 <translation id="3207960819495026254">מסומן בסימנייה</translation>
 <translation id="3209034400446768650">כניסה לדף עשויה להיות כרוכה בתשלום</translation>
@@ -700,7 +700,7 @@
 <translation id="3252266817569339921">צרפתית</translation>
 <translation id="3257954757204451555">מהו מקור המידע הזה?</translation>
 <translation id="3259648571731540213">‏<ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי ליצור במהירות אירוע חדש ביומן Google</translation>
-<translation id="3264837738038045344">‏הלחצן לניהול הגדרות Chrome, מקישים על Enter כדי להיכנס להגדרות Chrome</translation>
+<translation id="3264837738038045344">‏הלחצן לניהול הגדרות Mises, מקישים על Enter כדי להיכנס להגדרות Mises</translation>
 <translation id="3266793032086590337">ערך (התנגשות)</translation>
 <translation id="3268451620468152448">כרטיסיות פתוחות</translation>
 <translation id="3270847123878663523">&amp;ביטול של שינוי סדר</translation>
@@ -712,7 +712,7 @@
 <translation id="3287510313208355388">להורדה אחרי התחברות לרשת</translation>
 <translation id="3288238092761586174">ייתכן שיידרשו שלבים נוספים לאימות התשלום שלך על ידי <ph name="URL" /></translation>
 <translation id="3293642807462928945">מידע נוסף על המדיניות <ph name="POLICY_NAME" /></translation>
-<translation id="3295444047715739395">‏הצגה וניהול של הסיסמאות שלך בהגדרות Chrome</translation>
+<translation id="3295444047715739395">‏הצגה וניהול של הסיסמאות שלך בהגדרות Mises</translation>
 <translation id="3303855915957856445">לא נמצאו תוצאות חיפוש</translation>
 <translation id="3304073249511302126">‏סריקת Bluetooth</translation>
 <translation id="3308006649705061278">‏יחידה ארגונית (OU)</translation>
@@ -726,7 +726,7 @@
 <translation id="3345782426586609320">עיניים</translation>
 <translation id="3355823806454867987">‏שינוי הגדרות שרת Proxy...</translation>
 <translation id="3360103848165129075">גיליון פרטי התשלום</translation>
-<translation id="3361596688432910856">‏Chrome <ph name="BEGIN_EMPHASIS" />לא ישמור<ph name="END_EMPHASIS" /> את המידע הבא:
+<translation id="3361596688432910856">‏Mises <ph name="BEGIN_EMPHASIS" />לא ישמור<ph name="END_EMPHASIS" /> את המידע הבא:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />היסטוריית הגלישה שלך
           <ph name="LIST_ITEM" />קובצי Cookie ונתוני אתרים
@@ -740,7 +740,7 @@
       • ליצור מפות תלת ממד של האזור שמסביבך ולעקוב אחרי המיקום של המצלמה.
       • להשתמש במצלמה שלך.</translation>
 <translation id="337363190475750230">ניהול התצורה בוטל</translation>
-<translation id="3375754925484257129">‏הרצה של בדיקת אבטחה ב-Chrome</translation>
+<translation id="3375754925484257129">‏הרצה של בדיקת אבטחה ב-Mises</translation>
 <translation id="3377144306166885718">‏בשרת נעשה שימוש בגרסה מיושנת של TLS.</translation>
 <translation id="3377188786107721145">שגיאה בניתוח המדיניות</translation>
 <translation id="3377736046129930310">נעילת המסך מאפשרת לך לאשר כרטיסים מהר יותר</translation>
@@ -763,7 +763,7 @@
 <translation id="3423742043356668186">צוין על-ידי המערכת</translation>
 <translation id="3427092606871434483">מותר (ברירת מחדל)</translation>
 <translation id="3427342743765426898">&amp;ביצוע מחדש של עריכה</translation>
-<translation id="342781501876943858">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Chromium היא לאפס אותה.</translation>
+<translation id="342781501876943858">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Mises היא לאפס אותה.</translation>
 <translation id="3428151540071562330">‏אחד או יותר ממזהי ה-URI של תבנית השרת DnsOverHttpsTemplates אינם חוקיים ולא ייעשה בהם שימוש.</translation>
 <translation id="3431636764301398940">שמירת כרטיס זה במכשיר הנוכחי</translation>
 <translation id="3432601291244612633">סגירת הדף</translation>
@@ -784,14 +784,14 @@
 <translation id="3468054117417088249">‏<ph name="TAB_SWITCH_SUFFIX" />, פתוחה כרגע, יש להקיש על Tab ולאחר מכן על Enter כדי לעבור לכרטיסייה הפתוחה</translation>
 <translation id="3470563864795286535">‏<ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />, לוחצים על Tab ואז על Enter כדי לסגור את כל החלונות הפרטיים שפתוחים כרגע</translation>
 <translation id="3479552764303398839">לא עכשיו</translation>
-<translation id="3484560055331845446">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Chrome, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="3484560055331845446">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Mises, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="3487845404393360112">מגש 4</translation>
 <translation id="3495081129428749620">חיפוש בדף
 <ph name="PAGE_TITLE" /></translation>
 <translation id="350069200438440499">שם הקובץ:</translation>
 <translation id="3507936815618196901">ליצור מפה בתלת ממד של הסביבה שלך ולעקוב אחר מיקום המצלמה</translation>
 <translation id="3512163584740124171">המערכת מתעלמת מהמדיניות הזו כי יש מדיניות אחרת מאותה קבוצה של הגדרות מדיניות שקיבלה עדיפות גבוהה יותר.</translation>
-<translation id="35172538073169599">‏הלחצן 'ניהול כתובות', יש להקיש על Enter כדי להוסיף ולנהל כתובות בהגדרות Chrome</translation>
+<translation id="35172538073169599">‏הלחצן 'ניהול כתובות', יש להקיש על Enter כדי להוסיף ולנהל כתובות בהגדרות Mises</translation>
 <translation id="3518941727116570328">טיפול באובייקטים מרובים</translation>
 <translation id="3528171143076753409">אישור השרת אינו מהימן.</translation>
 <translation id="3528485271872257980">חום כהה</translation>
@@ -806,7 +806,7 @@
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" /> <ph name="COUNTRY" /></translation>
 <translation id="3575121482199441727">אישור לאתר הזה</translation>
 <translation id="3576616784287504635">דף מוטמע באתר <ph name="SITE" /> אומר</translation>
-<translation id="3581089476000296252">‏כשהדף יהיה מוכן, מערכת Chrome תודיע לך על כך. &lt;a&gt;ביטול&lt;/a&gt;</translation>
+<translation id="3581089476000296252">‏כשהדף יהיה מוכן, מערכת Mises תודיע לך על כך. &lt;a&gt;ביטול&lt;/a&gt;</translation>
 <translation id="3582930987043644930">הוספת שם</translation>
 <translation id="3583757800736429874">&amp;ביצוע מחדש של העברה</translation>
 <translation id="3584299510153766161">שני ניקובים בחלק התחתון</translation>
@@ -821,7 +821,7 @@
 <translation id="3611395257124510155">כרטיס וירטואלי עבור <ph name="CARD_IDENTIFIER" /></translation>
 <translation id="3614103345592970299">גודל 2</translation>
 <translation id="361438452008624280">רשומה ברשימה "<ph name="LANGUAGE_ID" />": שפה לא מוכרת או לא נתמכת.</translation>
-<translation id="3614934205542186002">‏<ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, לוחצים על Tab ואז על Enter כדי להריץ בדיקת אבטחה בהגדרות Chrome</translation>
+<translation id="3614934205542186002">‏<ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, לוחצים על Tab ואז על Enter כדי להריץ בדיקת אבטחה בהגדרות Mises</translation>
 <translation id="3615877443314183785">עליך להזין תאריך תפוגה חוקי</translation>
 <translation id="36224234498066874">ניקוי נתוני גלישה…</translation>
 <translation id="362276910939193118">כל ההיסטוריה</translation>
@@ -831,9 +831,9 @@
 <translation id="3631244953324577188">מידע ביומטרי</translation>
 <translation id="3632503704576938756">שיתוף המסך נמשך</translation>
 <translation id="3632892046558972264">שיתוף המסך מושהה</translation>
-<translation id="3633738897356909127">‏הלחצן 'עדכון Chrome', יש להקיש על Enter כדי לעדכן את דפדפן Chrome בהגדרות Chrome</translation>
+<translation id="3633738897356909127">‏הלחצן 'עדכון Mises', יש להקיש על Enter כדי לעדכן את דפדפן Mises בהגדרות Mises</translation>
 <translation id="3634530185120165534">מגש 5</translation>
-<translation id="3634567936866541746">‏הזנת כרגע את הסיסמה שלך באתר מטעה. כדי להגן על החשבונות שלך, ההמלצה של Chrome היא לבדוק את הסיסמאות השמורות.</translation>
+<translation id="3634567936866541746">‏הזנת כרגע את הסיסמה שלך באתר מטעה. כדי להגן על החשבונות שלך, ההמלצה של Mises היא לבדוק את הסיסמאות השמורות.</translation>
 <translation id="3637662659967048211">‏שמירה בחשבון Google</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">אפליקציה:</translation>
@@ -866,7 +866,7 @@
 <translation id="3736520371357197498">אם הבנת את הסיכונים בנוגע לאבטחה שלך, באפשרותך <ph name="BEGIN_LINK" />להיכנס לאתר לא בטוח זה<ph name="END_LINK" /> לפני הסרת התוכניות המסוכנות.</translation>
 <translation id="3738166223076830879">הדפדפן מנוהל על ידי מנהל המערכת</translation>
 <translation id="3744111561329211289">סנכרון ברקע</translation>
-<translation id="3744899669254331632">‏אי אפשר להיכנס כרגע אל <ph name="SITE" /> מפני שהאתר שלח פרטי כניסה מעורבלים ש-Chromium אינו יכול לעבד. שגיאות רשת והתקפות הן בדרך כלל זמניות, לכן סביר להניח שדף זה יפעל כהלכה בהמשך.</translation>
+<translation id="3744899669254331632">‏אי אפשר להיכנס כרגע אל <ph name="SITE" /> מפני שהאתר שלח פרטי כניסה מעורבלים ש-Mises אינו יכול לעבד. שגיאות רשת והתקפות הן בדרך כלל זמניות, לכן סביר להניח שדף זה יפעל כהלכה בהמשך.</translation>
 <translation id="3745099705178523657">‏אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Google.</translation>
 <translation id="3748148204939282805">תוקפים באתר <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> עלולים להונות אותך כדי לגרום לך לבצע פעולות מסוכנות, כמו התקנת תוכנה או חשיפת מידע אישי (לדוגמה, סיסמאות, מספרי טלפון או כרטיסי אשראי). <ph name="BEGIN_LEARN_MORE_LINK" />מידע נוסף<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3754210790023674521">יציאה ממצב תמונה בתוך תמונה</translation>
@@ -960,7 +960,7 @@
 <translation id="4089152113577680600">מגש 14</translation>
 <translation id="4098354747657067197">זהירות, אתר מטעה</translation>
 <translation id="4099048595830172239">לפי המדיניות של מנהל המערכת, לא מומלץ לשתף את המסך עם <ph name="APPLICATION_TITLE" /> כשמופיע בו תוכן סודי גלוי:</translation>
-<translation id="4099391883283080991">‏<ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להתאים אישית את הגופנים וגודל הטקסט ב-Chrome</translation>
+<translation id="4099391883283080991">‏<ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להתאים אישית את הגופנים וגודל הטקסט ב-Mises</translation>
 <translation id="4101413244023615925">טקסט וגרפיקה</translation>
 <translation id="4103249731201008433">המספר הסידורי של המכשיר אינו חוקי</translation>
 <translation id="4106133539597032659">‏לחצן ליצירת אתר, מקישים על Enter כדי ליצור במהירות אתר חדש ב-Google Sites</translation>
@@ -972,7 +972,7 @@
 <translation id="4117700440116928470">היקף המדיניות אינו נתמך.</translation>
 <translation id="4121428309786185360">בתוקף עד </translation>
 <translation id="4123572138124678573">3 ניקובים בחלק התחתון</translation>
-<translation id="4127575959421463246">‏רוצה למצוא את התכונות הניסיוניות של ChromeOS? אפשר להיכנס אל</translation>
+<translation id="4127575959421463246">‏רוצה למצוא את התכונות הניסיוניות של MisesOS? אפשר להיכנס אל</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{אחד נוסף}two{שניים נוספים}many{# נוספים}other{# נוספים}}</translation>
 <translation id="4130226655945681476">כדאי לבדוק את כבלי הרשת, את המודם ואת הנתב</translation>
 <translation id="4134123981501319574">יצירת מסמך</translation>
@@ -1013,11 +1013,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;שלב שני: פתיחת הדף במצב אנונימי (מחשבים בלבד)&lt;/h4&gt;
     &lt;p&gt;פותחים את הדף שאליו רוצים להיכנס בחלון גלישה בסתר.&lt;/p&gt;
-    &lt;p&gt;אם הדף נפתח, יש בעיה בתוסף של Chrome. כדי לפתור את השגיאה צריך להשבית את התוסף.&lt;/p&gt;
+    &lt;p&gt;אם הדף נפתח, יש בעיה בתוסף של Mises. כדי לפתור את השגיאה צריך להשבית את התוסף.&lt;/p&gt;
     &lt;h4&gt;שלב שלישי: עדכון מערכת ההפעלה&lt;/h4&gt;
     &lt;p&gt;מוודאים שמערכת ההפעלה במכשיר מעודכנת.&lt;/p&gt;
     &lt;h4&gt;שלב רביעי: השבתה זמנית של האנטי-וירוס&lt;/h4&gt;
-    &lt;p&gt;השגיאה זו תוצג אם במחשב מותקנת תוכנת אנטי-וירוס שמספקת "הגנת HTTPS" או "סריקת HTTPS". תוכנת האנטי-וירוס מונעת מ-Chrome לספק אבטחה.&lt;/p&gt;
+    &lt;p&gt;השגיאה זו תוצג אם במחשב מותקנת תוכנת אנטי-וירוס שמספקת "הגנת HTTPS" או "סריקת HTTPS". תוכנת האנטי-וירוס מונעת מ-Mises לספק אבטחה.&lt;/p&gt;
     &lt;p&gt;כדי לפתור את הבעיה, יש לכבות את תוכנת האנטי-וירוס. אם הדף פועל לאחר כיבוי התוכנה, יש לכבות אותה בזמן השימוש באתרים מאובטחים.&lt;/p&gt;
     &lt;p&gt;חשוב להפעיל שוב את האנטי-וירוס בסיום.&lt;/p&gt;
     &lt;h4&gt;שלב חמישי: סיוע נוסף&lt;/h4&gt;
@@ -1058,8 +1058,8 @@
 <translation id="4329871760342656885">שגיאה בניתוח המדיניות: <ph name="ERROR" /></translation>
 <translation id="4331519897422864041">מערים 5</translation>
 <translation id="4331708818696583467">לא מאובטח</translation>
-<translation id="4340575312453649552">‏המודעה הזו צרכה משאבים רבים מדי מהמכשיר שלך, ולכן היא הוסרה על-ידי Chrome.</translation>
-<translation id="4340982228985273705">‏המחשב לא זוהה כמכשיר המנוהל על ידי הארגון, כך שלפי המדיניות מותר להתקין אוטומטית רק תוספים מחנות האינטרנט של Chrome. כתובת האתר לעדכונים מחנות האינטרנט של Chrome היא "<ph name="CWS_UPDATE_URL" />".</translation>
+<translation id="4340575312453649552">‏המודעה הזו צרכה משאבים רבים מדי מהמכשיר שלך, ולכן היא הוסרה על-ידי Mises.</translation>
+<translation id="4340982228985273705">‏המחשב לא זוהה כמכשיר המנוהל על ידי הארגון, כך שלפי המדיניות מותר להתקין אוטומטית רק תוספים מחנות האינטרנט של Mises. כתובת האתר לעדכונים מחנות האינטרנט של Mises היא "<ph name="CWS_UPDATE_URL" />".</translation>
 <translation id="4346197816712207223">כרטיסי אשראי שהסוחר מקבל</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">החיבור אל <ph name="SITE" /> אינו מאובטח</translation>
@@ -1070,7 +1070,7 @@
 <translation id="4356973930735388585">תוקפים באתר הזה עשויים לנסות להתקין במחשב שלך תוכניות מסוכנות שגונבות או מוחקות מידע שלך (לדוגמה: תמונות, סיסמאות, הודעות ופרטי כרטיסי אשראי).</translation>
 <translation id="4358059973562876591">‏לא ניתן להחיל את התבניות שבחרת עקב שגיאה במדיניות DnsOverHttpsMode.</translation>
 <translation id="4358461427845829800">ניהול אמצעי תשלום...</translation>
-<translation id="4359160567981085931">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Chrome. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
+<translation id="4359160567981085931">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Mises. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
 <translation id="4367563149485757821">Number-12 (Envelope)‎</translation>
 <translation id="437040971055499437">התרחשות של אירוע אבטחה</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -1084,7 +1084,7 @@
 <translation id="4408413947728134509">‏קובצי Cookie <ph name="NUM_COOKIES" /></translation>
 <translation id="4414515549596849729">‏נתוני אתר וקובצי cookie</translation>
 <translation id="4415426530740016218">כתובת איסוף</translation>
-<translation id="4424024547088906515">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Chrome. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
+<translation id="4424024547088906515">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Mises. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="443121186588148776">יציאה טורית</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> לא אישר את אישור ההתחברות שלך, או שלא סופק אישור התחברות.</translation>
 <translation id="4432792777822557199">דפים ב<ph name="SOURCE_LANGUAGE" /> יתורגמו ל<ph name="TARGET_LANGUAGE" /> מעכשיו והלאה</translation>
@@ -1104,7 +1104,7 @@
 <translation id="4482953324121162758">האתר הזה לא יתורגם.</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">‏הצפנת סיסמאות מסונכרנות באמצעות חשבון Google</translation>
-<translation id="4492519888999857993">‏התכונות האלה מושבתות כברירת מחדל. הן לא יהיו זמינות בגרסאות עתידיות של Chrome.</translation>
+<translation id="4492519888999857993">‏התכונות האלה מושבתות כברירת מחדל. הן לא יהיו זמינות בגרסאות עתידיות של Mises.</translation>
 <translation id="4493480324863638523">‏כתובת URL לא חוקית. הסכימה של כתובת ה-URL צריכה להיות רגילה, כלומר: http://example.com או https://example.com.</translation>
 <translation id="4500587658229086076">תוכן לא מאובטח</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1115,7 +1115,7 @@
 <translation id="4509074745930862522">‏<ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לתרגם את הדף הזה באמצעות Google Translate</translation>
 <translation id="4510487217173779431">Chou4 (Envelope)‎</translation>
 <translation id="4514308731478712184">השבתת התהליכים</translation>
-<translation id="4515275063822566619">‏הכרטיסים והכתובות לקוחים מ-Chrome ומחשבון Google שלך (<ph name="ACCOUNT_EMAIL" />). אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">‏הכרטיסים והכתובות לקוחים מ-Mises ומחשבון Google שלך (<ph name="ACCOUNT_EMAIL" />). אפשר לנהל אותם ב<ph name="BEGIN_LINK" />הגדרות<ph name="END_LINK" />.</translation>
 <translation id="4517607026994743406">Comm-10 (Envelope)‎</translation>
 <translation id="4521157617044179198"><ph name="WIDTH" /> × <ph name="HEIGHT" /> מ"מ (<ph name="ORIENTATION" />)</translation>
 <translation id="4521916730539354575">המגש השמאלי</translation>
@@ -1128,11 +1128,11 @@
 <translation id="455113658016510503">A9</translation>
 <translation id="4558551763791394412">יש לנסות להשבית את התוספים.</translation>
 <translation id="4559332380232738994">10x11</translation>
-<translation id="4567686777917670400">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. ניהול הפעילות במכשיר הזה אפשרי גם מחוץ ל-Chromium. <ph name="BEGIN_LINK" />למידע נוסף<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. ניהול הפעילות במכשיר הזה אפשרי גם מחוץ ל-Mises. <ph name="BEGIN_LINK" />למידע נוסף<ph name="END_LINK" /></translation>
 <translation id="457875822857220463">משלוח</translation>
 <translation id="4579056131138995126">Personal (Envelope)‎</translation>
 <translation id="4582204425268416675">הסרת הכרטיס</translation>
-<translation id="4587425331216688090">‏האם להסיר את הכתובת מ-Chrome?</translation>
+<translation id="4587425331216688090">‏האם להסיר את הכתובת מ-Mises?</translation>
 <translation id="459089498662672729">אפשרות ההדבקה מ-<ph name="ORIGIN_NAME" /> אל מיקום זה אינה מומלצת לפי המדיניות של מנהל המערכת</translation>
 <translation id="4592951414987517459">החיבור שלך אל <ph name="DOMAIN" /> מוצפן באמצעות חבילת צופן מתקדמת.</translation>
 <translation id="4594403342090139922">&amp;ביטול מחיקה</translation>
@@ -1140,9 +1140,9 @@
 <translation id="4598556348158889687">ניהול אחסון</translation>
 <translation id="4600854749408232102">C6/C5 (Envelope)‎</translation>
 <translation id="4606870351894164739">מרשים</translation>
-<translation id="4607603470419975064">‏לחצן להצגת טיפים של Chrome, מקישים על Enter כדי לקבל מידע על התכונות של Chrome</translation>
-<translation id="4607608436550361748">‏הצגת טיפים לשימוש ב-Chrome</translation>
-<translation id="4627675673814409125">‏לא ניתן להגדיר את המדיניות הזאת ברמה של פרופיל Chrome. המערכת תתעלם מהמדיניות.</translation>
+<translation id="4607603470419975064">‏לחצן להצגת טיפים של Mises, מקישים על Enter כדי לקבל מידע על התכונות של Mises</translation>
+<translation id="4607608436550361748">‏הצגת טיפים לשימוש ב-Mises</translation>
+<translation id="4627675673814409125">‏לא ניתן להגדיר את המדיניות הזאת ברמה של פרופיל Mises. המערכת תתעלם מהמדיניות.</translation>
 <translation id="4628948037717959914">תמונה</translation>
 <translation id="4631649115723685955">הקאשבק מקושר</translation>
 <translation id="4636930964841734540">מידע</translation>
@@ -1172,7 +1172,7 @@
 <translation id="4731638775147756694">האפליקציה נחסמה על ידי מנהל המערכת</translation>
 <translation id="4731967714531604179">Prc2 (Envelope)‎</translation>
 <translation id="4733082559415072992"><ph name="URL" />‏ רוצה להשתמש במיקום המכשיר שלך</translation>
-<translation id="4736825316280949806">‏אתחול ה-Chromium</translation>
+<translation id="4736825316280949806">‏אתחול ה-Mises</translation>
 <translation id="4736934858538408121">כרטיס וירטואלי</translation>
 <translation id="473775607612524610">עדכון</translation>
 <translation id="4738601419177586157"><ph name="TEXT" /> – הצעת חיפוש</translation>
@@ -1184,7 +1184,7 @@
 <translation id="4751476147751820511">חיישני תנועה או אור</translation>
 <translation id="4754461935447132332">אין הרשאה באתרים שאינם מאובטחים</translation>
 <translation id="4756388243121344051">&amp;היסטוריה</translation>
-<translation id="4757993714154412917">‏הזנת כרגע את הסיסמה שלך באתר מטעה. כדי להגן על החשבונות שלך, ההמלצה של Chromium היא לבדוק את הסיסמאות השמורות.</translation>
+<translation id="4757993714154412917">‏הזנת כרגע את הסיסמה שלך באתר מטעה. כדי להגן על החשבונות שלך, ההמלצה של Mises היא לבדוק את הסיסמאות השמורות.</translation>
 <translation id="4758311279753947758">הוספת פרטים ליצירת קשר</translation>
 <translation id="4761104368405085019">להשתמש במיקרופון</translation>
 <translation id="4764776831041365478">ייתכן שדף האינטרנט בכתובת <ph name="URL" /> אינו פעיל זמנית, או שהועבר לכתובת אינטרנט חדשה לצמיתות.</translation>
@@ -1219,7 +1219,7 @@ Del</translation>
         <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">הפעלת האזהרות</translation>
 <translation id="4838327282952368871">חלומי</translation>
-<translation id="4840250757394056958">‏הצגת ההיסטוריה ב-Chrome</translation>
+<translation id="4840250757394056958">‏הצגת ההיסטוריה ב-Mises</translation>
 <translation id="484462545196658690">אוטומטי</translation>
 <translation id="4849865131988503897">בדיקת דיוק</translation>
 <translation id="4850886885716139402">הצגה</translation>
@@ -1268,7 +1268,7 @@ Del</translation>
 <translation id="4995216769782533993">יש לאמת את קוד האבטחה כדי לשתף פרטי כרטיס עם האתר הזה</translation>
 <translation id="4995474875135717171">שונה בתאריך:</translation>
 <translation id="4995749490935861684">‏<ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לנהל את החיפוש באתר ואת מנוע החיפוש שבברירת מחדל</translation>
-<translation id="5002932099480077015">‏אם האפשרות הזו תופעל, Chrome יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
+<translation id="5002932099480077015">‏אם האפשרות הזו תופעל, Mises יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
 <translation id="5011561501798487822">זוהתה השפה</translation>
 <translation id="5015510746216210676">שם המחשב:</translation>
 <translation id="5017554619425969104">טקסט שהעתקת</translation>
@@ -1299,7 +1299,7 @@ Del</translation>
 <translation id="5088142053160410913">הודעה לאופרטור</translation>
 <translation id="5089810972385038852">מדינה</translation>
 <translation id="5093232627742069661">‏קיפול Z</translation>
-<translation id="5094747076828555589">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Chromium. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
+<translation id="5094747076828555589">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. אישור האבטחה שלו לא נחשב כמהימן על ידי Mises. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="5095208057601539847">פרובינציה</translation>
 <translation id="5097099694988056070">‏נתונים סטטיסטיים של המכשיר, כמו ניצול יחידת העיבוד המרכזית (CPU)/זיכרון RAM</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1328,7 +1328,7 @@ Del</translation>
 <translation id="5161506081086828129">מערים 9</translation>
 <translation id="5164798890604758545">מתבצעת הזנת טקסט</translation>
 <translation id="516920405563544094">‏יש להזין את קוד האימות של <ph name="CREDIT_CARD" />. אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Google.</translation>
-<translation id="5169827969064885044">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Chrome, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="5169827969064885044">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Mises, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="5171045022955879922">טקסט או כתובת אתר לחיפוש</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">מכונה</translation>
@@ -1337,7 +1337,7 @@ Del</translation>
 <translation id="51918995459521422"><ph name="ORIGIN" /> רוצה להוריד מספר קבצים</translation>
 <translation id="519422657042045905">ההערה לא זמינה</translation>
 <translation id="5201306358585911203">דף מוטמע בדף הזה אומר</translation>
-<translation id="5204468114771111727">‏Chrome איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. Google Assistant יכולה לשנות את הסיסמה באופן אוטומטי.</translation>
+<translation id="5204468114771111727">‏Mises איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. Google Assistant יכולה לשנות את הסיסמה באופן אוטומטי.</translation>
 <translation id="5205222826937269299">שם (חובה)</translation>
 <translation id="5209518306177824490">‏טביעת אצבע SHA-1</translation>
 <translation id="5209670883520018268">מגש 20</translation>
@@ -1350,7 +1350,7 @@ Del</translation>
 <translation id="5233045608889518621">12x19</translation>
 <translation id="5234764350956374838">סגירה</translation>
 <translation id="5250209940322997802">"יש להתחבר לרשת"</translation>
-<translation id="52517543715119994">‏מידע על התכונות של Chrome</translation>
+<translation id="52517543715119994">‏מידע על התכונות של Mises</translation>
 <translation id="5251803541071282808">ענן</translation>
 <translation id="5252000469029418751">C7 (Envelope)‎</translation>
 <translation id="5254043433801397071">אופטימיזציה של תוכן ההדפסה</translation>
@@ -1369,7 +1369,7 @@ Del</translation>
 <translation id="5287240709317226393">‏הצגת קובצי Cookie</translation>
 <translation id="5287456746628258573">האתר הזה משתמש בהגדרת אבטחה מיושנת, שעלולה לחשוף את המידע שלך (למשל, סיסמאות או מספרים של כרטיס אשראי) כשהוא נשלח לאתר זה.</translation>
 <translation id="5288108484102287882">בעקבות אימות ערכי המדיניות הופיעו אזהרות</translation>
-<translation id="5288808348893593856">‏חיבור האתר מאובטח אלא אם תתקבל הודעה שונה מ-Chrome</translation>
+<translation id="5288808348893593856">‏חיבור האתר מאובטח אלא אם תתקבל הודעה שונה מ-Mises</translation>
 <translation id="5289384342738547352">טיפול במסמכים מרובים</translation>
 <translation id="5299298092464848405">שגיאה בניתוח המדיניות</translation>
 <translation id="5300589172476337783">הצגה</translation>
@@ -1384,13 +1384,13 @@ Del</translation>
 <translation id="5324080437450482387">בחירת פרטי איש קשר</translation>
 <translation id="5329858041417644019">הדפדפן שלך לא מנוהל</translation>
 <translation id="5332219387342487447">שיטת משלוח</translation>
-<translation id="5333022057423422993">‏Chrome איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. כדי לאבטח את החשבונות שלך, מומלץ לבדוק את הסיסמאות השמורות.</translation>
+<translation id="5333022057423422993">‏Mises איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. כדי לאבטח את החשבונות שלך, מומלץ לבדוק את הסיסמאות השמורות.</translation>
 <translation id="5334013548165032829">יומני מערכת מפורטים</translation>
 <translation id="5334145288572353250">לשמור את הכתובת?</translation>
 <translation id="5340250774223869109">האפליקציה חסומה</translation>
 <translation id="534295439873310000">‏מכשירי NFC</translation>
 <translation id="5344579389779391559">ייתכן שהדף הזה ינסה לדרוש ממך תשלום</translation>
-<translation id="5347645913823149105">‏הלחצן להתאמה אישית של הגופנים ב-Chrome, מקישים על Enter כדי להתאים אישית את הגופנים וגודל הטקסט ב-Chrome</translation>
+<translation id="5347645913823149105">‏הלחצן להתאמה אישית של הגופנים ב-Mises, מקישים על Enter כדי להתאים אישית את הגופנים וגודל הטקסט ב-Mises</translation>
 <translation id="5355557959165512791">נכון לעכשיו אי אפשר לבקר באתר <ph name="SITE" /> מאחר שהאישור שלו בוטל. שגיאות רשת ומתקפות הן בדרך כלל זמניות, כך שהדף הזה יחזור כנראה לפעול מאוחר יותר.</translation>
 <translation id="5356837363448394805">הסמקה</translation>
 <translation id="536296301121032821">אחסון הגדרות המדיניות נכשל</translation>
@@ -1437,14 +1437,14 @@ Del</translation>
 <translation id="5523118979700054094">שם מדיניות</translation>
 <translation id="55293785478302737">הידוק קצוות</translation>
 <translation id="553484882784876924">Prc6 (Envelope)‎</translation>
-<translation id="5535133333442455806">‏הלחצן 'ניקוי נתוני גלישה', יש להקיש על Enter כדי לנקות את היסטוריית הגלישה, קובצי ה-cookie, המטמון ועוד בהגדרות Chrome</translation>
+<translation id="5535133333442455806">‏הלחצן 'ניקוי נתוני גלישה', יש להקיש על Enter כדי לנקות את היסטוריית הגלישה, קובצי ה-cookie, המטמון ועוד בהגדרות Mises</translation>
 <translation id="5536214594743852365">הצגת הקטע "<ph name="SECTION" />"</translation>
 <translation id="5539243836947087108">Raft</translation>
 <translation id="5540224163453853">לא ניתן היה למצוא את הפריט המבוקש.</translation>
 <translation id="5541086400771735334">תיבת דואר 7</translation>
 <translation id="5541546772353173584">הוספת כתובת אימייל</translation>
 <translation id="5545756402275714221">מאמרים שעשויים לעניין אותך</translation>
-<translation id="5552137475244467770">‏מערכת Chrome בודקת מדי פעם את הסיסמאות שלך ומשווה אותן לרשימות שהתפרסמו באינטרנט. כשהפעולה הזו מבוצעת, הסיסמאות ושמות המשתמש מוצפנים, כך שאיש לא יוכל לקרוא אותם, כולל Google.</translation>
+<translation id="5552137475244467770">‏מערכת Mises בודקת מדי פעם את הסיסמאות שלך ומשווה אותן לרשימות שהתפרסמו באינטרנט. כשהפעולה הזו מבוצעת, הסיסמאות ושמות המשתמש מוצפנים, כך שאיש לא יוכל לקרוא אותם, כולל Google.</translation>
 <translation id="5556459405103347317">טעינה מחדש</translation>
 <translation id="5560088892362098740">תאריך תפוגה</translation>
 <translation id="55635442646131152">ראשי הפרקים של המסמך</translation>
@@ -1493,7 +1493,7 @@ Del</translation>
 <translation id="571403275720188526">(arm64)</translation>
 <translation id="5720705177508910913">משתמש נוכחי:</translation>
 <translation id="5728056243719941842">C5 (Envelope)‎</translation>
-<translation id="5730040223043577876">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Chrome היא לאפס אותה.</translation>
+<translation id="5730040223043577876">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Mises היא לאפס אותה.</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{‏שמירת הכרטיס בחשבון Google}two{‏שמירת הכרטיסים בחשבון Google}many{‏שמירת הכרטיסים בחשבון Google}other{‏שמירת הכרטיסים בחשבון Google}}</translation>
 <translation id="5745733273847572235">האתר יכול לבקש הרשאת גישה למיקום המכשיר</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{שימוש במספר וירטואלי בשביל הכרטיס הזה}two{בחירת כרטיס}many{בחירת כרטיס}other{בחירת כרטיס}}</translation>
@@ -1508,12 +1508,12 @@ Del</translation>
 <translation id="5784606427469807560">הייתה בעיה באישור הכרטיס. יש לבדוק את החיבור לאינטרנט ולנסות שוב.</translation>
 <translation id="5785756445106461925">כמו כן, דף זה כולל משאבים נוספים שאינם מאובטחים. גורמים אחרים עלולים לראות את המשאבים האלה במהלך העברתם, ותוקף עלול לשנות אותם באופן שישנה את מראה הדף.</translation>
 <translation id="5786044859038896871">האם ברצונך למלא את פרטי הכרטיס שלך?</translation>
-<translation id="578633867165174378">‏Chrome איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. מומלץ לשנות את הסיסמה הזו מיד.</translation>
+<translation id="578633867165174378">‏Mises איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. מומלץ לשנות את הסיסמה הזו מיד.</translation>
 <translation id="5789643057113097023">.</translation>
 <translation id="5803412860119678065">האם ברצונך למלא את פרטי הכרטיס <ph name="CARD_DETAIL" />?</translation>
 <translation id="5804241973901381774">הרשאות</translation>
 <translation id="5810442152076338065">החיבור שלך אל <ph name="DOMAIN" /> מוצפן באמצעות חבילת צופן מיושנת.</translation>
-<translation id="5812947184178430888">‏כאשר אירועי אבטחה מדווחים על ידי Chrome, נתונים רלוונטיים לגבי האירועים האלה נשלחים למנהל המערכת. הנתונים האלה יכולים לכלול את כתובות ה-URL של הדפים שבהם ביקרת ב-Chrome, השמות או המטא-נתונים של הקבצים ואת שם המשתמש שבאמצעותו נכנסת לאפליקציות מבוססות-אינטרנט, למכשיר שלך ול-Chrome.</translation>
+<translation id="5812947184178430888">‏כאשר אירועי אבטחה מדווחים על ידי Mises, נתונים רלוונטיים לגבי האירועים האלה נשלחים למנהל המערכת. הנתונים האלה יכולים לכלול את כתובות ה-URL של הדפים שבהם ביקרת ב-Mises, השמות או המטא-נתונים של הקבצים ואת שם המשתמש שבאמצעותו נכנסת לאפליקציות מבוססות-אינטרנט, למכשיר שלך ול-Mises.</translation>
 <translation id="5813119285467412249">&amp;ביצוע מחדש של הוספה</translation>
 <translation id="5817918615728894473">התאמה</translation>
 <translation id="5824687817967109979">{NUM_CARDS,plural, =1{‏הכרטיס הזה יחויב בזמן התשלום, אבל המספר האמיתי שלו לא ישותף עם האתר הזה. כשכבת הגנה נוספת, המערכת תיצור קוד אימות (CVC) חדש.}two{‏הכרטיס שייבחר יחויב בזמן התשלום, אבל המספר האמיתי שלו לא ישותף עם האתר הזה. כשכבת הגנה נוספת, המערכת תיצור קוד אימות (CVC) חדש.}many{‏הכרטיס שייבחר יחויב בזמן התשלום, אבל המספר האמיתי שלו לא ישותף עם האתר הזה. כשכבת הגנה נוספת, המערכת תיצור קוד אימות (CVC) חדש.}other{‏הכרטיס שייבחר יחויב בזמן התשלום, אבל המספר האמיתי שלו לא ישותף עם האתר הזה. כשכבת הגנה נוספת, המערכת תיצור קוד אימות (CVC) חדש.}}</translation>
@@ -1603,7 +1603,7 @@ Del</translation>
 <translation id="610911394827799129">‏ייתכן שיהיה אפשר לגשת לסוגים אחרים של היסטוריית גלישה בחשבון Google בכתובת <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
 <translation id="6116338172782435947">גישה אל טקסט ותמונות שהועתקו ללוח</translation>
 <translation id="6120179357481664955">‏מזהה UPI שלך זכור לך?</translation>
-<translation id="6124432979022149706">‏מחברים של Chrome Enterprise</translation>
+<translation id="6124432979022149706">‏מחברים של Mises Enterprise</translation>
 <translation id="6127379762771434464">הפריט הוסר</translation>
 <translation id="6146055958333702838">יש לבדוק את הכבלים ולהפעיל מחדש את הנתבים, המודמים ושאר התקני הרשת
 שמשתמשים בהם.</translation>
@@ -1620,35 +1620,35 @@ Del</translation>
 <translation id="619448280891863779">האתר יכול לבקש הרשאה לפתוח ולמקם חלונות במסכים שלך</translation>
 <translation id="6196640612572343990">‏חסימת קובצי Cookie של צד שלישי</translation>
 <translation id="6203231073485539293">בדיקת חיבור האינטרנט</translation>
-<translation id="6218753634732582820">‏האם להסיר מ-Chromium את הכתובת?</translation>
+<translation id="6218753634732582820">‏האם להסיר מ-Mises את הכתובת?</translation>
 <translation id="622039917539443112">קיפול מקביל</translation>
 <translation id="6221345481584921695">‏לאחרונה, 'גלישה בטוחה של Google' ‏<ph name="BEGIN_LINK" />זיהתה תוכנה זדונית<ph name="END_LINK" /> ב-<ph name="SITE" />. אתרים שבדרך כלל נחשבים לבטוחים נדבקים לעתים בתוכנה זדונית. התוכן הזדוני מגיע מ-<ph name="SUBRESOURCE_HOST" />, מפיץ ידוע של תוכנות זדוניות.</translation>
-<translation id="6226163402662242066">‏<ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Chrome</translation>
+<translation id="6226163402662242066">‏<ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להתאים אישית את כלי הנגישות בהגדרות Mises</translation>
 <translation id="6233160458685643793">חיוך</translation>
 <translation id="6234122620015464377">חיתוך אחרי כל מסמך</translation>
 <translation id="6240447795304464094">‏הלוגו של Google Pay</translation>
 <translation id="6241121617266208201">הסתרת ההצעות</translation>
 <translation id="624499991300733384">שירות מחבר הדפסות</translation>
-<translation id="6252613631861574218">‏<ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לנהל קבצים שהורדת ב-Chrome</translation>
+<translation id="6252613631861574218">‏<ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לנהל קבצים שהורדת ב-Mises</translation>
 <translation id="6254436959401408446">אין מספיק זיכרון כדי לפתוח את הדף</translation>
 <translation id="6259156558325130047">&amp;ביצוע מחדש של שינוי סדר</translation>
 <translation id="6263376278284652872">סימניות <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">חזרה לחוף מבטחים</translation>
 <translation id="6265794661083428563">העתקת ערך המדיניות <ph name="POLICY_NAME" /></translation>
 <translation id="6266934640124581640">כחול-ירקרק בהיר</translation>
-<translation id="6272088941196661550">‏חזרה לתהליך כדי להציג את הפעילות הרלוונטית בהיסטוריה ב-Chrome</translation>
+<translation id="6272088941196661550">‏חזרה לתהליך כדי להציג את הפעילות הרלוונטית בהיסטוריה ב-Mises</translation>
 <translation id="6272383483618007430">‏עדכוני Google</translation>
 <translation id="6276112860590028508">דפים מרשימת הקריאה שלך מופיעים כאן</translation>
 <translation id="627746635834430766">‏כדי לשלם מהר יותר בפעם הבאה, אפשר לשמור בחשבון Google את פרטי הכרטיס ואת הכתובת לחיוב.</translation>
 <translation id="6279098320682980337">מספר הכרטיס הווירטואלי לא הוזן? לוחצים על פרטי הכרטיס כדי להעתיק</translation>
 <translation id="6280223929691119688">לא ניתן לבצע מסירה בכתובת זו. עליך לבחור כתובת אחרת.</translation>
 <translation id="6282194474023008486">מיקוד</translation>
-<translation id="6285507000506177184">‏הלחצן לניהול הורדות ב-Chrome, מקישים על Enter לניהול הקבצים שהורדת ב-Chrome</translation>
+<translation id="6285507000506177184">‏הלחצן לניהול הורדות ב-Mises, מקישים על Enter לניהול הקבצים שהורדת ב-Mises</translation>
 <translation id="6289939620939689042">צבע הדף</translation>
 <translation id="6290238015253830360">הצעות של מאמרים עבורך מופיעות כאן</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">CVC:</translation>
-<translation id="6302269476990306341">‏Google Assistant מופסקת ב-Chrome</translation>
+<translation id="6302269476990306341">‏Google Assistant מופסקת ב-Mises</translation>
 <translation id="6305205051461490394">לא ניתן לגשת אל <ph name="URL" />.</translation>
 <translation id="6312113039770857350">דף האינטרנט אינו זמין</translation>
 <translation id="63172326633386613">ניהול ההגדרות בנושא נגישות</translation>
@@ -1662,7 +1662,7 @@ Del</translation>
 <translation id="6340739886198108203">בהתאם למדיניות של מנהל המערכת, לא מומלץ לצלם צילומי מסך או הקלטות כשתוכן סודי גלוי:</translation>
 <translation id="6349101878882523185">התקנת <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{אין}=1{סיסמה אחת (עבור <ph name="DOMAIN_LIST" />, מסונכרנת)}=2{שתי סיסמאות (עבור <ph name="DOMAIN_LIST" />, מסונכרנות)}many{# סיסמאות (עבור <ph name="DOMAIN_LIST" />, מסונכרנות)}other{# סיסמאות (עבור <ph name="DOMAIN_LIST" />, מסונכרנות)}}</translation>
-<translation id="6355392890578844978">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Chromium. <ph name="BEGIN_LINK" />למידע נוסף<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Mises. <ph name="BEGIN_LINK" />למידע נוסף<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">מה זה אומר?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329">‏<ph name="BEGIN_LINK" />לבדוק את שרת ה-Proxy, תצורת ה-DNS המאובטח וחומת האש.<ph name="END_LINK" /></translation>
@@ -1683,7 +1683,7 @@ Del</translation>
 <translation id="6404511346730675251">עריכת סימנייה</translation>
 <translation id="6406765186087300643">C0 (Envelope)‎</translation>
 <translation id="6410264514553301377">יש להזין את תאריך התפוגה ואת קוד האימות של <ph name="CREDIT_CARD" /></translation>
-<translation id="6415778972515849510">‏בעזרת Chromium אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
+<translation id="6415778972515849510">‏בעזרת Mises אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
 <translation id="6423385022588644828">‏כדי לאשר את הכרטיסים שלך מהר יותר, אפשר להשתמש ב-Touch ID מעכשיו והלאה</translation>
 <translation id="6425092077175753609">עיצוב חדשני תלת-ממדי</translation>
 <translation id="6427730057873428458">כנף בקיפול</translation>
@@ -1712,7 +1712,7 @@ Del</translation>
 <translation id="6499038740797743453">לאפס את הסיסמה?</translation>
 <translation id="6502991525169604759">ללא השינויים שלך</translation>
 <translation id="6506959208958864820">מעטפה</translation>
-<translation id="6508722015517270189">‏הפעלה מחדש של Chrome</translation>
+<translation id="6508722015517270189">‏הפעלה מחדש של Mises</translation>
 <translation id="6513005815064132016">האתר יכול לבקש הרשאה לעקוב אחר מיקום המצלמה</translation>
 <translation id="6517596291481585650">אזהרה! המדיניות הזו לא עברה מיזוג בהתאם למדיניות, מאחר שהיא אינה רשימה.</translation>
 <translation id="6518133107902771759">אימות</translation>
@@ -1728,10 +1728,10 @@ Del</translation>
 <translation id="6579630537141957243">‏לחבר התקן MIDI?</translation>
 <translation id="6579990219486187401">ורוד בהיר</translation>
 <translation id="6583674473685352014">B6 (Envelope)‎</translation>
-<translation id="6587182488465657433">‏Chrome איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. כדי לאבטח את החשבונות שלך, מומלץ לשנות אותה מיד ואז לבדוק את הסיסמאות השמורות.</translation>
+<translation id="6587182488465657433">‏Mises איתר את הסיסמה שבה השתמשת עכשיו בפרצה באבטחת מידע. כדי לאבטח את החשבונות שלך, מומלץ לשנות אותה מיד ואז לבדוק את הסיסמאות השמורות.</translation>
 <translation id="6587923378399804057">קישור שהעתקת</translation>
 <translation id="6591833882275308647"><ph name="DEVICE_TYPE" /> זה אינו מנוהל</translation>
-<translation id="6592952801936330159">‏הלחצן 'ניהול ההגדרות לאתרים', יש להקיש על Enter כדי לנהל את ההרשאות והנתונים השמורים בכל האתרים בהגדרות Chrome</translation>
+<translation id="6592952801936330159">‏הלחצן 'ניהול ההגדרות לאתרים', יש להקיש על Enter כדי לנהל את ההרשאות והנתונים השמורים בכל האתרים בהגדרות Mises</translation>
 <translation id="6596325263575161958">אפשרויות הצפנה</translation>
 <translation id="6609880536175561541">Prc7 (Envelope)‎</translation>
 <translation id="6615297766614333076">מערים 2</translation>
@@ -1745,7 +1745,7 @@ Del</translation>
 <translation id="6643016212128521049">ניקוי</translation>
 <translation id="6645291930348198241">‏לקבל גישה לקובצי Cookie ולנתוני אתרים.</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{ללא}=1{‏מאתר אחד (לא תבוצע יציאה מחשבון Google שלך.)}two{‏מ-# אתרים (לא תבוצע יציאה מחשבון Google שלך.)}many{‏מ-# אתרים (לא תבוצע יציאה מחשבון Google שלך.)}other{‏מ-# אתרים (לא תבוצע יציאה מחשבון Google שלך.)}}</translation>
-<translation id="6648459603387803038">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Chrome.</translation>
+<translation id="6648459603387803038">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Mises.</translation>
 <translation id="6648524591329069940">‏גופן Serif</translation>
 <translation id="6651270836885078973">בניהול של:</translation>
 <translation id="6652101503459149953">‏שימוש ב-Windows Hello</translation>
@@ -1755,13 +1755,13 @@ Del</translation>
 <translation id="666259744093848177">‏(x86_64 מתורגם)</translation>
 <translation id="6663846344464066639">ידיים שלובות</translation>
 <translation id="6665553082534466207">3 ניקובים בצד ימין</translation>
-<translation id="6671697161687535275">‏האם להסיר מ-Chromium הצעות לטפסים?</translation>
+<translation id="6671697161687535275">‏האם להסיר מ-Mises הצעות לטפסים?</translation>
 <translation id="6685834062052613830">יש לצאת ולהשלים את ההגדרה</translation>
 <translation id="6687335167692595844">גודל הגופן שהתבקש</translation>
 <translation id="6688743156324860098">עדכון…</translation>
 <translation id="6688775486821967877">הכרטיס הווירטואלי לא זמין כרגע. יש לנסות שוב מאוחר יותר</translation>
 <translation id="6689249931105087298">יחסי עם דחיסת נקודות שחורות</translation>
-<translation id="6689271823431384964">‏מאחר שנכנסת לחשבון, Chrome מציע לשמור את הכרטיסים שלך בחשבון Google. אפשר לשנות את ההתנהגות הזאת בהגדרות. שם בעל הכרטיס מגיע מהחשבון שלך.</translation>
+<translation id="6689271823431384964">‏מאחר שנכנסת לחשבון, Mises מציע לשמור את הכרטיסים שלך בחשבון Google. אפשר לשנות את ההתנהגות הזאת בהגדרות. שם בעל הכרטיס מגיע מהחשבון שלך.</translation>
 <translation id="6694681292321232194">‏<ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לאתר את המכשיר דרך חשבון Google</translation>
 <translation id="6696588630955820014">‏לחצן לשיתוף הכרטיסייה הזו, מקישים על Enter כדי לשתף את הכרטיסייה הזו על ידי שיתוף הקישור, יצירת קוד QR, העברה (cast) ועוד</translation>
 <translation id="6698381487523150993">נוצר:</translation>
@@ -1807,7 +1807,7 @@ Del</translation>
 <translation id="6883221904761970440">גיליון האימות של פרטי הכניסה לתשלום המאובטח סגור</translation>
 <translation id="6884662655240309489">גודל 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" /> <ph name="SHORT_URL" /></translation>
-<translation id="6888584790432772780">‏Chrome יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Chrome באמצעות חיבור לא מאובטח.</translation>
+<translation id="6888584790432772780">‏Mises יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Mises באמצעות חיבור לא מאובטח.</translation>
 <translation id="6890443033788248019">לאשר גישה למיקום?</translation>
 <translation id="6891596781022320156">רמת המדיניות אינה נתמכת.</translation>
 <translation id="6895143722905299846">מספר וירטואלי:</translation>
@@ -1865,7 +1865,7 @@ Del</translation>
 <translation id="7053983685419859001">חסימה</translation>
 <translation id="7058163556978339998"><ph name="BROWSER" /> אימת ש-<ph name="ISSUER" /> הנפיק את האישור של האתר הזה.</translation>
 <translation id="7062635574500127092">כחול-ירקרק</translation>
-<translation id="706295145388601875">‏ניתן להוסיף ולנהל כתובות בהגדרות Chrome</translation>
+<translation id="706295145388601875">‏ניתן להוסיף ולנהל כתובות בהגדרות Mises</translation>
 <translation id="7064851114919012435">פרטים ליצירת קשר</translation>
 <translation id="7068733155164172741">יש להזין קוד בן <ph name="OTP_LENGTH" /> ספרות</translation>
 <translation id="7070090581017165256">מידע על האתר הזה</translation>
@@ -1876,9 +1876,9 @@ Del</translation>
 <translation id="7083258188081898530">מגש 9</translation>
 <translation id="7086090958708083563">ההעלאה התבקשה על ידי המשתמש</translation>
 <translation id="7087282848513945231">מחוז</translation>
-<translation id="7095139009144195559">‏<ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנהל את ההרשאות והנתונים השמורים בכל האתרים בהגדרות Chrome</translation>
+<translation id="7095139009144195559">‏<ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנהל את ההרשאות והנתונים השמורים בכל האתרים בהגדרות Mises</translation>
 <translation id="7096937462164235847">הזהות של האתר הזה לא אומתה.</translation>
-<translation id="7102554173784142865">‏הפעלת המשחק Chrome Dino</translation>
+<translation id="7102554173784142865">‏הפעלת המשחק Mises Dino</translation>
 <translation id="7108338896283013870">הסתרה</translation>
 <translation id="7108634116785509031"><ph name="HOST" /> רוצה להשתמש במצלמה שלך</translation>
 <translation id="7108819624672055576">אושרה על-ידי תוסף</translation>
@@ -1954,12 +1954,12 @@ Del</translation>
 <translation id="7353601530677266744">שורת פקודה </translation>
 <translation id="7359588939039777303">מודעות חסומות.</translation>
 <translation id="7363096869660964304">עם זאת, עדיין אפשר לראות אותך. המעבר למצב אנונימי לא מסתיר את הגלישה שלך מהמעסיק, מספק האינטרנט או מהאתרים שאליהם נכנסת.</translation>
-<translation id="7365596969960773405">‏<ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי להוסיף ולנהל כתובות בהגדרות Chrome</translation>
+<translation id="7365596969960773405">‏<ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי להוסיף ולנהל כתובות בהגדרות Mises</translation>
 <translation id="7365849542400970216">רוצה שהאתר יקבל מידע לגבי השימוש שלך במכשיר?</translation>
 <translation id="7366362069757178916">‏מעבדי handler לתשלומים</translation>
 <translation id="7372973238305370288">תוצאת חיפוש</translation>
 <translation id="7374461526650987610">תוכניות לטיפול בפרוטוקולים</translation>
-<translation id="7374733840632556089">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Chrome. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Chrome רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
+<translation id="7374733840632556089">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Mises. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Mises רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
 <translation id="7375818412732305729">מצורף קובץ</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">פקדי מדיה</translation>
@@ -1980,14 +1980,14 @@ Del</translation>
       &lt;li&gt;בקטע &lt;strong&gt;סוג הפעלה&lt;/strong&gt;, בוחרים &lt;strong&gt;מושבת&lt;/strong&gt;
       &lt;li&gt;בקטע &lt;strong&gt;סטטוס שירות&lt;/strong&gt;, לוחצים על &lt;strong&gt;עצירה&lt;/strong&gt;
       &lt;li&gt;לוחצים על &lt;strong&gt;הפעלה&lt;/strong&gt; ולאחר מכן לוחצים על &lt;strong&gt;אישור&lt;/strong&gt;
-      &lt;li&gt;עוברים אל &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;מרכז העזרה של Chrome&lt;/a&gt; כדי ללמוד כיצד להסיר את התוכנה מהמחשב
+      &lt;li&gt;עוברים אל &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;מרכז העזרה של Mises&lt;/a&gt; כדי ללמוד כיצד להסיר את התוכנה מהמחשב
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">חביב</translation>
 <translation id="7416351320495623771">ניהול סיסמאות…</translation>
 <translation id="7419106976560586862">נתיב פרופיל</translation>
 <translation id="7421067045979951561">‏רכיבי handler של פרוטוקולים</translation>
-<translation id="7426022697669111648">‏הלחצן להצגת ההיסטוריה ב-Chrome, מקישים על Enter כדי להציג את היסטוריית הגלישה ולנהל אותה בהגדרות Chrome</translation>
+<translation id="7426022697669111648">‏הלחצן להצגת ההיסטוריה ב-Mises, מקישים על Enter כדי להציג את היסטוריית הגלישה ולנהל אותה בהגדרות Mises</translation>
 <translation id="7437289804838430631">הוספת פרטים ליצירת קשר</translation>
 <translation id="7440140511386898319">עיון במצב אופליין</translation>
 <translation id="7441627299479586546">נושא המדיניות שגוי</translation>
@@ -2019,16 +2019,16 @@ Del</translation>
 <translation id="7542995811387359312">מילוי אוטומטי של פרטי כרטיס אשראי מושבת כיוון שטופס זה אינו משתמש בחיבור מאובטח.</translation>
 <translation id="7548892272833184391">פתרון שגיאות חיבור</translation>
 <translation id="7549584377607005141">דף אינטרנט זה זקוק לנתונים שהזנת קודם לכן כדי שהוא יוצג כראוי. ניתן לשלוח שוב את הנתונים, אך פעולה זו תגרום לחזרה על כל פעולה שדף זה ביצע בעבר.</translation>
-<translation id="7550637293666041147">‏שם המשתמש במכשיר ושם המשתמש ב-Chrome</translation>
+<translation id="7550637293666041147">‏שם המשתמש במכשיר ושם המשתמש ב-Mises</translation>
 <translation id="755279583747225797">הניסוי הופעל</translation>
 <translation id="7552846755917812628">אולי הטיפים האלו יעזרו לך:</translation>
 <translation id="7554475479213504905">לטעון מחדש ולהציג בכל זאת?</translation>
 <translation id="7554791636758816595">כרטיסייה חדשה</translation>
 <translation id="7559278538486662777">לא ניתן לשנות את גודל החלון של האפליקציה הזו</translation>
-<translation id="7564049878696755256">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Chrome היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="7564049878696755256">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Mises היא לשנות את הסיסמה עכשיו.</translation>
 <translation id="7567204685887185387">השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN" />. ייתכן שאישור האבטחה שלו נופק כהונאה. הסיבה לכך עשויה להיות הגדרה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="7569761772822664555">‏לחצן לניהול מנועי חיפוש, מקישים על Enter כדי לנהל את מנוע החיפוש שמוגדר כברירת מחדל ואת החיפוש באתרים</translation>
-<translation id="7569952961197462199">‏האם להסיר את פרטי כרטיס האשראי מ-Chrome?</translation>
+<translation id="7569952961197462199">‏האם להסיר את פרטי כרטיס האשראי מ-Mises?</translation>
 <translation id="7569983096843329377">שחור</translation>
 <translation id="7575207903026901870">‏הלחצן 'הסרת ההצעה', יש ללחוץ על Enter כדי להסיר את ההצעה הזו</translation>
 <translation id="7578104083680115302">‏ניתן לשלם במהירות באתרים ובאפליקציות בכל המכשירים באמצעות כרטיסים ששמרת ב-Google.</translation>
@@ -2042,13 +2042,13 @@ Del</translation>
 <translation id="7600965453749440009">איני רוצה לקבל תרגום מ<ph name="LANGUAGE" /> בכלל</translation>
 <translation id="7610193165460212391">הערך מחוץ לטווח <ph name="VALUE" />.</translation>
 <translation id="7613889955535752492">תפוגה: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
-<translation id="7614494068621678628">‏<ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי להציג ולנהל סיסמאות בהגדרות Chrome</translation>
-<translation id="7616645509853975347">‏מנהל המערכת הפעיל את Chrome Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
+<translation id="7614494068621678628">‏<ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי להציג ולנהל סיסמאות בהגדרות Mises</translation>
+<translation id="7616645509853975347">‏מנהל המערכת הפעיל את Mises Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
 <translation id="7619838219691048931">גיליון סיום</translation>
 <translation id="7625242817712715120">בהתאם למדיניות של מנהל המערכת, לא מומלץ להדפיס את התוכן הזה</translation>
 <translation id="762844065391966283">פריט מידע אחד בכל פעם</translation>
 <translation id="7633909222644580952">נתוני ביצועים ודוחות קריסה</translation>
-<translation id="7637571805876720304">‏האם להסיר מ-Chromium את כרטיס האשראי?</translation>
+<translation id="7637571805876720304">‏האם להסיר מ-Mises את כרטיס האשראי?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{אין סיסמאות}=1{סיסמה אחת בחשבון (עבור <ph name="DOMAIN_LIST" />)}two{# סיסמאות בחשבון (עבור <ph name="DOMAIN_LIST" />)}many{# סיסמאות בחשבון (עבור <ph name="DOMAIN_LIST" />)}other{# סיסמאות בחשבון (עבור <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">יציאות טוריות</translation>
 <translation id="7639968568612851608">אפור כהה</translation>
@@ -2067,7 +2067,7 @@ Del</translation>
 <translation id="7669907849388166732">{COUNT,plural, =1{הפעולות שננקטו עם נתונים שסומנו כסודיים (פעולה אחת דווחה מאז ההתחברות). <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" />}two{הפעולות שננקטו עם נתונים שסומנו כסודיים (# פעולות דווחו מאז ההתחברות). <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" />}many{הפעולות שננקטו עם נתונים שסומנו כסודיים (# פעולות דווחו מאז ההתחברות). <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" />}other{הפעולות שננקטו עם נתונים שסומנו כסודיים (# פעולות דווחו מאז ההתחברות). <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" />}}</translation>
 <translation id="7673278391011283842">תיבת דואר 6</translation>
 <translation id="7676643023259824263">חיפוש טקסט בלוח, <ph name="TEXT" /></translation>
-<translation id="7679367271685653708">‏הצגה וניהול של היסטוריית הגלישה בהגדרות Chrome</translation>
+<translation id="7679367271685653708">‏הצגה וניהול של היסטוריית הגלישה בהגדרות Mises</translation>
 <translation id="7682287625158474539">משלוח</translation>
 <translation id="7687186412095877299">שימוש באמצעי התשלום ששמרת למילוי טופסי תשלום</translation>
 <translation id="7687305263118037187">זמן קצוב לתפוגה של ניסיון חוזר</translation>
@@ -2087,7 +2087,7 @@ Del</translation>
 <translation id="7740996059027112821">רגילה</translation>
 <translation id="77424286611022110">באתר הזה מוצגות מודעות מפריעות או מטעות. <ph name="LEARN_MORE_LINK_TEXT" /></translation>
 <translation id="774634243536837715">תוכן מסוכן נחסם.</translation>
-<translation id="7751971323486164747">‏התאמה אישית של הגופנים וגודל הטקסט ב-Chrome</translation>
+<translation id="7751971323486164747">‏התאמה אישית של הגופנים וגודל הטקסט ב-Mises</translation>
 <translation id="7752995774971033316">ללא ניהול</translation>
 <translation id="7755624218968747854">הגליל הראשי</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2111,7 +2111,7 @@ Del</translation>
 <translation id="7805571567667010077">מנוהלת על ידי הארגון שלך</translation>
 <translation id="7805768142964895445">סטטוס</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">‏האם להסיר מ-Chrome הצעות בשביל טפסים?</translation>
+<translation id="7813600968533626083">‏האם להסיר מ-Mises הצעות בשביל טפסים?</translation>
 <translation id="781440967107097262">לשתף את הלוח?</translation>
 <translation id="7815407501681723534">נמצאו <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> בנושא '<ph name="SEARCH_STRING" />'</translation>
 <translation id="782125616001965242">הצגת מידע על האתר הזה</translation>
@@ -2142,8 +2142,8 @@ Del</translation>
 <translation id="7942349550061667556">אדום</translation>
 <translation id="7943893128817522649">האתר יכול לבקש הרשאה להוריד מספר קבצים באופן אוטומטי</translation>
 <translation id="7947285636476623132">יש לבדוק את שנת התפוגה ולנסות שוב</translation>
-<translation id="7947813448670013867">‏<ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לקבל מידע על התכונות של Chrome</translation>
-<translation id="7950027195171824198">‏ניתן לנהל את ההעדפות לגבי קובצי Cookie בהגדרות Chrome</translation>
+<translation id="7947813448670013867">‏<ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי לקבל מידע על התכונות של Mises</translation>
+<translation id="7950027195171824198">‏ניתן לנהל את ההעדפות לגבי קובצי Cookie בהגדרות Mises</translation>
 <translation id="7951415247503192394">(32 סיביות)</translation>
 <translation id="7953569069500808819">הידוק קצוות בחלק העליון</translation>
 <translation id="7956713633345437162">סימניות לנייד</translation>
@@ -2157,7 +2157,7 @@ Del</translation>
 <translation id="7977538094055660992">מכשיר פלט</translation>
 <translation id="7977894662897852582">Edp</translation>
 <translation id="798134797138789862">האתר יכול לבקש הרשאה להשתמש בנתונים ובמכשירים של מציאות מדומה</translation>
-<translation id="7984945080620862648">‏לא ניתן לבקר כעת באתר <ph name="SITE" /> מכיוון שהאתר שלח אישורים משובשים ש-Chrome אינו יכול לעבד. שגיאות רשת ותקיפות מתרחשות בדרך כלל לזמן מוגבל, כך שסביר להניח שדף זה יפעל מאוחר יותר.</translation>
+<translation id="7984945080620862648">‏לא ניתן לבקר כעת באתר <ph name="SITE" /> מכיוון שהאתר שלח אישורים משובשים ש-Mises אינו יכול לעבד. שגיאות רשת ותקיפות מתרחשות בדרך כלל לזמן מוגבל, כך שסביר להניח שדף זה יפעל מאוחר יותר.</translation>
 <translation id="79859296434321399">‏כדי להציג תוכן של מציאות רבודה, צריך להתקין את ARCore</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">כריכה</translation>
@@ -2182,7 +2182,7 @@ Del</translation>
 <translation id="8052898407431791827">הועתק ללוח</translation>
 <translation id="8057711352706143257">יש בעיה בהגדרה של "<ph name="SOFTWARE_NAME" />". בדרך כלל, הסרת ההתקנה של "<ph name="SOFTWARE_NAME" />" פותרת את הבעיה. <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">מצטערים, משהו השתבש.</translation>
-<translation id="8067872629359326442">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Chromium. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
+<translation id="8067872629359326442">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Mises. כדי לשנות את הסיסמה ולהודיע ל-Google שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
 <translation id="8070439594494267500">סמל האפליקציה</translation>
 <translation id="8074253406171541171">10x13 (Envelope)‎</translation>
 <translation id="8075736640322370409">‏יצירה מהירה של גיליון אלקטרוני חדש ב-Google Sheets</translation>
@@ -2204,7 +2204,7 @@ Del</translation>
 <translation id="810875025413331850">לא נמצאו מכשירים קרובים.</translation>
 <translation id="8116925261070264013">מושתקים</translation>
 <translation id="8118489163946903409">אמצעי תשלום</translation>
-<translation id="8124639700796374294">‏לחצן להתאמה אישית של Chrome, מקישים על Enter כדי להתאים אישית את המראה של הדפדפן</translation>
+<translation id="8124639700796374294">‏לחצן להתאמה אישית של Mises, מקישים על Enter כדי להתאים אישית את המראה של הדפדפן</translation>
 <translation id="8127301229239896662">‏הייתה בעיה בהתקנה של "<ph name="SOFTWARE_NAME" />" במחשב שלך או ברשת. יש לבקש ממנהל ה-IT לפתור את הבעיה.</translation>
 <translation id="8131740175452115882">אישור</translation>
 <translation id="8148608574971654810">‏גרסת PDF:</translation>
@@ -2212,7 +2212,7 @@ Del</translation>
 <translation id="8150722005171944719">הקובץ הנמצא ב-<ph name="URL" /> לא ניתן לקריאה. ייתכן שהקובץ הוסר או הועבר, או שהרשאות הקובץ מונעות גישה אליו.</translation>
 <translation id="8157295877370077682">יציאה מהאתר</translation>
 <translation id="8163866351304776260">4 ניקובים בצד שמאל</translation>
-<translation id="8175796834047840627">‏Chrome מציע לשמור את הכרטיסים שלך בחשבון Google כי התחברת לחשבון. אפשר לשנות את ההתנהגות הזאת בהגדרות.</translation>
+<translation id="8175796834047840627">‏Mises מציע לשמור את הכרטיסים שלך בחשבון Google כי התחברת לחשבון. אפשר לשנות את ההתנהגות הזאת בהגדרות.</translation>
 <translation id="8176440868214972690">מנהל המערכת של המכשיר הזה שלח מספר פרטים, כמו הגדרות ומדיניות, לאתרים הבאים.</translation>
 <translation id="8184538546369750125">שימוש בברירת המחדל הכללית (אפשר)</translation>
 <translation id="8190193880870196235">מנוהלת על-ידי תוסף</translation>
@@ -2249,7 +2249,7 @@ Del</translation>
 <translation id="8280630997017109758">מגש 11</translation>
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8282947398454257691">ידיעת המזהה הייחודי של המכשיר</translation>
-<translation id="8284769179630993263">‏ניתן לנהל את הגלישה הבטוחה ועוד בהגדרות Chrome</translation>
+<translation id="8284769179630993263">‏ניתן לנהל את הגלישה הבטוחה ועוד בהגדרות Mises</translation>
 <translation id="8286036467436129157">כניסה</translation>
 <translation id="8288807391153049143">הצגת אישור</translation>
 <translation id="8289355894181816810">כדי לברר מה זה אומר, מומלץ לפנות למנהל הרשת.</translation>
@@ -2264,7 +2264,7 @@ Del</translation>
 <translation id="8307888238279532626">את האפליקציות המותקנות ואת תדירות השימוש בהן.</translation>
 <translation id="831997045666694187">ערב</translation>
 <translation id="8321476692217554900">התראות</translation>
-<translation id="8328484624016508118">‏אחרי שסוגרים את כל הכרטיסיות במצב אנונימי, יימחקו בדפדפן Chrome:
+<translation id="8328484624016508118">‏אחרי שסוגרים את כל הכרטיסיות במצב אנונימי, יימחקו בדפדפן Mises:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />פעילות הגלישה מהמכשיר הזה<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />היסטוריית החיפושים שלך מהמכשיר הזה<ph name="END_LIST_ITEM" />
@@ -2289,7 +2289,7 @@ Del</translation>
 <translation id="8381674639488873545">החיובים האלה יכולים להיות חד פעמיים או חוזרים, והם לא תמיד מוצגים בצורה בולטת. <ph name="BEGIN_LINK" />אני רוצה להמשיך בכל זאת<ph name="END_LINK" /></translation>
 <translation id="8390725133630534698">השיתוף מ-<ph name="ORIGIN_NAME" /> אל <ph name="VM_NAME" /> חסום בהתאם למדיניות של מנהל המערכת</translation>
 <translation id="8398790343843005537">אתר את הטלפון שלך</translation>
-<translation id="8405579342203358118">‏ניתן לקבוע איזה מידע יסונכרן בהגדרות Chrome</translation>
+<translation id="8405579342203358118">‏ניתן לקבוע איזה מידע יסונכרן בהגדרות Mises</translation>
 <translation id="8409413588194360210">‏רכיבי handler של תשלומים</translation>
 <translation id="8412145213513410671">קריסות (<ph name="CRASH_COUNT" />)</translation>
 <translation id="8412392972487953978">עליך להזין את אותו משפט-סיסמה פעמיים.</translation>
@@ -2298,7 +2298,7 @@ Del</translation>
 <ph name="DEBUG_INFO" /></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL" /> <ph name="SECOND_LABEL" /> <ph name="THIRD_LABEL" /></translation>
 <translation id="8428213095426709021">הגדרות</translation>
-<translation id="8431194080598727332">‏<ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנהל את ההעדפות לגבי קובצי Cookie בהגדרות Chrome</translation>
+<translation id="8431194080598727332">‏<ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לנהל את ההעדפות לגבי קובצי Cookie בהגדרות Mises</translation>
 <translation id="8433057134996913067">פעולה זו תוציא אותך מהחשבון ברוב האתרים.</translation>
 <translation id="8437238597147034694">&amp;ביטול העברה</translation>
 <translation id="8438476240229491014">יש לזכור הגדרה זו</translation>
@@ -2311,18 +2311,18 @@ Del</translation>
 <translation id="8473863474539038330">כתובות ועוד</translation>
 <translation id="8474910779563686872">הצגת פרטי המפתח</translation>
 <translation id="8479754468255770962">סיכת הידוק בפינה השמאלית התחתונה</translation>
-<translation id="8483780878231876732">‏כדי להשתמש בכרטיסים מחשבון Google, יש להיכנס אל Chrome</translation>
+<translation id="8483780878231876732">‏כדי להשתמש בכרטיסים מחשבון Google, יש להיכנס אל Mises</translation>
 <translation id="8488350697529856933">חלה על</translation>
 <translation id="8490137692873530638">מערים 10</translation>
 <translation id="8493948351860045254">פינוי נפח אחסון</translation>
 <translation id="8498891568109133222">ל-<ph name="HOST_NAME" /> נדרש זמן רב מדי להגיב.</translation>
-<translation id="8503559462189395349">‏סיסמאות Chrome</translation>
+<translation id="8503559462189395349">‏סיסמאות Mises</translation>
 <translation id="8503813439785031346">שם משתמש</translation>
 <translation id="8507227106804027148">שורת פקודה</translation>
 <translation id="8508648098325802031">סמל החיפוש</translation>
 <translation id="8511402995811232419">‏ניהול קובצי Cookie</translation>
-<translation id="8522552481199248698">‏בעזרת Chrome אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
-<translation id="8530813470445476232">‏בהגדרות Chrome, ניתן לנקות את היסטוריית הגלישה, את קובצי ה-cookie, את המטמון ועוד</translation>
+<translation id="8522552481199248698">‏בעזרת Mises אפשר להגן על חשבון Google ולשנות את הסיסמה.</translation>
+<translation id="8530813470445476232">‏בהגדרות Mises, ניתן לנקות את היסטוריית הגלישה, את קובצי ה-cookie, את המטמון ועוד</translation>
 <translation id="8533619373899488139">‏בכתובת &lt;strong&gt;chrome://policy&lt;/strong&gt; מוצגת רשימה של כתובות אתרים שנחסמו ותקנונים אחרים שנאכפים על ידי מנהל המערכת.</translation>
 <translation id="8539500321752640291">לאשר את 2 ההרשאות?</translation>
 <translation id="8541158209346794904">‏מכשיר Bluetooth</translation>
@@ -2335,7 +2335,7 @@ Del</translation>
 <translation id="8558485628462305855">‏כדי להציג תוכן של מציאות רבודה, צריך לעדכן את ARCore</translation>
 <translation id="8559762987265718583">לא ניתן ליצור חיבור פרטי אל <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> מפני שהתאריך והשעה (<ph name="DATE_AND_TIME" />) במכשיר שלך שגויים.</translation>
 <translation id="8564182942834072828">מסמכים נפרדים/עותקים לא מסודרים</translation>
-<translation id="8564985650692024650">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Chromium היא לאפס אותה.</translation>
+<translation id="8564985650692024650">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Mises היא לאפס אותה.</translation>
 <translation id="8574899947864779331">‏שימוש ב-Touch ID כדי לאשר כרטיסים מהר יותר</translation>
 <translation id="8577348305244205642">הכרטיס הווירטואלי לא זמין</translation>
 <translation id="858637041960032120">הוספת מספר טלפון</translation>
@@ -2361,7 +2361,7 @@ Del</translation>
 <translation id="868922510921656628">דפים בכל קבוצה</translation>
 <translation id="869891660844655955">תאריך תפוגה</translation>
 <translation id="8699041776323235191">‏התקן HID</translation>
-<translation id="8699899385443889493">‏לחצן להפעלת המשחק Chrome Dino, מקישים על Enter כדי לשחק במשחק Dino Run ב-Chrome</translation>
+<translation id="8699899385443889493">‏לחצן להפעלת המשחק Mises Dino, מקישים על Enter כדי לשחק במשחק Dino Run ב-Mises</translation>
 <translation id="8703575177326907206">ההתחברות שלך אל <ph name="DOMAIN" /> אינה מוצפנת.</translation>
 <translation id="8705331520020532516">מספר סידורי</translation>
 <translation id="8708134712139312373">‏האתר יכול לבקש הרשאה להתחבר למכשירי Bluetooth</translation>
@@ -2374,10 +2374,10 @@ Del</translation>
 <translation id="8725066075913043281">ניסיון חוזר</translation>
 <translation id="8726549941689275341">גודל דף:</translation>
 <translation id="8730621377337864115">בוצע</translation>
-<translation id="8731544501227493793">‏הלחצן 'ניהול סיסמאות', יש להקיש על Enter כדי להציג ולנהל את הסיסמאות בהגדרות Chrome</translation>
+<translation id="8731544501227493793">‏הלחצן 'ניהול סיסמאות', יש להקיש על Enter כדי להציג ולנהל את הסיסמאות בהגדרות Mises</translation>
 <translation id="8734529307927223492">ה-<ph name="DEVICE_TYPE" /> מנוהל על-ידי <ph name="MANAGER" /></translation>
 <translation id="8737134861345396036">‏<ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לפתוח חלון אנונימי חדש לגלישה פרטית</translation>
-<translation id="8738058698779197622">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Chromium לא יכול לאמת את האישורים האלו.</translation>
+<translation id="8738058698779197622">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Mises לא יכול לאמת את האישורים האלו.</translation>
 <translation id="8740359287975076522">‏לא ניתן היה למצוא את &lt;abbr id="dnsDefinition"&gt;כתובת ה-DNS&lt;/abbr&gt; של <ph name="HOST_NAME" />. מאבחן את הבעיה.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> הוא הקוד שלך בשביל <ph name="ORIGIN" /></translation>
 <translation id="874918643257405732">הוספת הכרטיסייה לסימניות</translation>
@@ -2390,14 +2390,14 @@ Del</translation>
 <translation id="8766943070169463815">גיליון האימות של פרטי הכניסה לתשלום המאובטח פתוח</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;ביצוע מחדש של מחיקה</translation>
-<translation id="8792621596287649091">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Chromium היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="8792621596287649091">‏הגישה שלך לחשבון <ph name="ORG_NAME" /> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Mises היא לשנות את הסיסמה עכשיו.</translation>
 <translation id="8792626944327216835">מיקרופון</translation>
-<translation id="8793655568873652685">‏הדומיין <ph name="ENROLLMENT_DOMAIN" /> הפעיל את Chrome Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
+<translation id="8793655568873652685">‏הדומיין <ph name="ENROLLMENT_DOMAIN" /> הפעיל את Mises Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
 <translation id="8798099450830957504">ברירת מחדל</translation>
 <translation id="8798739476508189189">רוצה למצוא את התכונות הניסיוניות של הדפדפן? אפשר להיכנס אל</translation>
 <translation id="8805819170075074995">‏ערך רשימה "<ph name="LANGUAGE_ID" />": המערכת התעלמה מהערך מאחר שהוא כלול גם במדיניות SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">חיתוך אחרי כל עמוד</translation>
-<translation id="8816395686387277279">‏<ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לעדכן את דפדפן Chrome בהגדרות Chrome</translation>
+<translation id="8816395686387277279">‏<ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter כדי לעדכן את דפדפן Mises בהגדרות Mises</translation>
 <translation id="8820817407110198400">סימניות</translation>
 <translation id="882338992931677877">חריץ ידני</translation>
 <translation id="8834380158646307944">‏הלחצן לסגירת החלונות האנונימיים, לוחצים על Enter כדי לסגור את כל החלונות האנונימיים שפתוחים כרגע</translation>
@@ -2405,7 +2405,7 @@ Del</translation>
 <translation id="884264119367021077">כתובת למשלוח</translation>
 <translation id="884923133447025588">לא נמצא מנגנון ביטול</translation>
 <translation id="885730110891505394">‏שיתוף עם Google</translation>
-<translation id="8858065207712248076">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Chrome היא לאפס אותה.</translation>
+<translation id="8858065207712248076">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> באתרים אחרים, ההמלצה של Mises היא לאפס אותה.</translation>
 <translation id="885906927438988819">‏אם האיות תקין, <ph name="BEGIN_LINK" />יש לנסות להפעיל את אבחון הרשת של Windows<ph name="END_LINK" />.</translation>
 <translation id="8866481888320382733">שגיאה בניתוח הגדרות המדיניות</translation>
 <translation id="8866928039507595380">קיפול</translation>
@@ -2422,7 +2422,7 @@ Del</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">‏הלחצן 'הסרת הצעה', יש ללחוץ על Enter כדי להסיר, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
 <translation id="8912362522468806198">‏חשבון Google</translation>
-<translation id="8913778647360618320">‏הלחצן 'ניהול אמצעי תשלום', יש להקיש על Enter כדי לנהל את התשלומים ואת פרטי כרטיס האשראי שלך בהגדרות Chrome</translation>
+<translation id="8913778647360618320">‏הלחצן 'ניהול אמצעי תשלום', יש להקיש על Enter כדי לנהל את התשלומים ואת פרטי כרטיס האשראי שלך בהגדרות Mises</translation>
 <translation id="8922013791253848639">תמיד לאפשר מודעות באתר הזה</translation>
 <translation id="892588693504540538">ניקוב בפינה הימנית העליונה</translation>
 <translation id="8931333241327730545">‏האם ברצונך לשמור את הכרטיס הזה בחשבון Google שלך?</translation>
@@ -2441,7 +2441,7 @@ Del</translation>
 <translation id="8978053250194585037">‏לאחרונה <ph name="BEGIN_LINK" />זוהה פישינג<ph name="END_LINK" /> באתר <ph name="SITE" /> על-ידי הגלישה הבטוחה של Google. אתרי פישינג מתחזים לאתרים אחרים כדי להונות אותך.</translation>
 <translation id="8983003182662520383">‏אמצעי תשלום וכתובות שנשמרו ב-Google Pay</translation>
 <translation id="8983369100812962543">מעכשיו ניתן לשנות את הגודל של האפליקציה</translation>
-<translation id="8987245424886630962">‏<ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להציג את היסטוריית הגלישה ב-Chrome</translation>
+<translation id="8987245424886630962">‏<ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, מקישים על Tab ואז על Enter כדי להציג את היסטוריית הגלישה ב-Mises</translation>
 <translation id="8987927404178983737">חודש</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
 <translation id="899688752321268742">האתר <ph name="URL" /> מבקש לדעת מתי המכשיר הזה משמש אותך באופן פעיל</translation>
@@ -2480,14 +2480,14 @@ Del</translation>
 <translation id="9089260154716455634">מדיניות לשעות ללא פעילות:</translation>
 <translation id="9095388113577226029">שפות נוספות...</translation>
 <translation id="9101630580131696064">מגש 1</translation>
-<translation id="9103872766612412690">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Chromium ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Chromium הפסיק את החיבור לפני חילופי הנתונים.</translation>
+<translation id="9103872766612412690">‏האתר <ph name="SITE" /> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Mises ניסה הפעם להתחבר ל-<ph name="SITE" />, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE" />, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Mises הפסיק את החיבור לפני חילופי הנתונים.</translation>
 <translation id="9106062320799175032">הוספה של כתובת לחיוב</translation>
 <translation id="9107467864910557787">הדפדפן שלך מנוהל על ידי <ph name="MANAGER" /></translation>
 <translation id="91108059142052966">בהתאם למדיניות מנהל המערכת, שיתוף המסך באמצעות <ph name="APPLICATION_TITLE" /> מושבת כשמוצג תוכן סודי</translation>
 <translation id="9114524666733003316">אישור הכרטיס מתבצע...</translation>
-<translation id="9114581008513152754">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Chrome. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
+<translation id="9114581008513152754">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Mises. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
 <translation id="9117930699067497412">מרענן</translation>
-<translation id="9118692854637641831">‏<ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter להמשך התהליך ולהצגת פעילות רלוונטית בהיסטוריה ב-Chrome</translation>
+<translation id="9118692854637641831">‏<ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, יש להקיש על Tab ואז על Enter להמשך התהליך ולהצגת פעילות רלוונטית בהיסטוריה ב-Mises</translation>
 <translation id="9119042192571987207">הועלה</translation>
 <translation id="9128016270925453879">המדיניות נטענה</translation>
 <translation id="9128870381267983090">התחברות לרשת</translation>
@@ -2498,7 +2498,7 @@ Del</translation>
 <translation id="9148088599418889305">בחירת שיטת משלוח</translation>
 <translation id="9148507642005240123">&amp;ביטול עריכה</translation>
 <translation id="9150045010208374699">להשתמש במצלמה</translation>
-<translation id="9150685862434908345">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Chrome. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
+<translation id="9150685862434908345">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Mises. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">עודכן</translation>
 <translation id="9157595877708044936">ההגדרה מתבצעת...</translation>
 <translation id="9158625974267017556">C6 (Envelope)‎</translation>
@@ -2513,7 +2513,7 @@ Del</translation>
 <translation id="9173995187295789444">‏מתבצע חיפוש של מכשירי Bluetooth...</translation>
 <translation id="917450738466192189">אישור השרת לא חוקי.</translation>
 <translation id="9174917557437862841">‏לחצן החלפת כרטיסיות, צריך להקיש על Enter כדי לעבור לכרטיסייה הזו</translation>
-<translation id="9179703756951298733">‏ניהול התשלומים ופרטי כרטיס האשראי בהגדרות Chrome</translation>
+<translation id="9179703756951298733">‏ניהול התשלומים ופרטי כרטיס האשראי בהגדרות Mises</translation>
 <translation id="9183302530794969518">Google Docs</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME" /> משתמש בפרוטוקול שאינו נתמך.</translation>
 <translation id="9191834167571392248">ניקוב בפינה השמאלית התחתונה</translation>
@@ -2522,13 +2522,13 @@ Del</translation>
 <translation id="920511547311754821">הקוד לא נמצא? <ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE" /></translation>
 <translation id="9207861905230894330">הוספת הפריט נכשלה.</translation>
 <translation id="9213433120051936369">התאמה אישית של המראה</translation>
-<translation id="9215416866750762878">‏יישום כלשהו לא מאפשר ל-Chrome להתחבר באופן מאובטח לאתר זה</translation>
+<translation id="9215416866750762878">‏יישום כלשהו לא מאפשר ל-Mises להתחבר באופן מאובטח לאתר זה</translation>
 <translation id="9219103736887031265">תמונות</translation>
-<translation id="922152298093051471">‏התאמה אישית של Chrome</translation>
+<translation id="922152298093051471">‏התאמה אישית של Mises</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">ניקוי הטופס</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Chromium, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="936602727769022409">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Google. לגלישה בטוחה ב-Mises, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="939736085109172342">תיקייה חדשה</translation>
 <translation id="945522503751344254"> שליחת משוב</translation>
 <translation id="945855313015696284">יש לבדוק את המידע שבהמשך ולמחוק כרטיסים עם שגיאות</translation>

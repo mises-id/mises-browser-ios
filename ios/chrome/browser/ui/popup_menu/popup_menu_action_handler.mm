@@ -100,7 +100,7 @@ using base::UserMetricsAction;
       break;
     case PopupMenuActionMises:
       RecordAction(UserMetricsAction("MobileMenuOpenMises"));
-  	  [Mises PopupMetamask:self.baseViewController];
+  	  [Mises popupMetamask];
       [self.dispatcher dismissPopupMenuAnimated:NO];
       break;
     case PopupMenuActionMisesAccount:
@@ -118,7 +118,7 @@ using base::UserMetricsAction;
       break;
     case PopupMenuActionMisesWallet:
       RecordAction(UserMetricsAction("MobileMenuOpenMisesWallet"));
-      [Mises PopupMetamask:self.baseViewController];
+      [Mises popupMetamask];
       [self.dispatcher dismissPopupMenuAnimated:NO];
       break;
     case PopupMenuActionMisesStakingPortal:

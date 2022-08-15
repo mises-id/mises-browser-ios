@@ -921,7 +921,7 @@ OverflowMenuFooter* CreateOverflowMenuManagedFooter(int nameID,
 - (void)openMises {
   RecordAction(UserMetricsAction("MobileMenuOpenMises"));
   [self.dispatcher dismissPopupMenuAnimated:YES];
-  [Mises PopupMetamask:self.baseViewController];
+  [Mises popupMetamask];
 }
 
 // Dismisses the menu and opens the Report an Issue screen.

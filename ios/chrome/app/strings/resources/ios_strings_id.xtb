@@ -33,7 +33,7 @@ Mesin telusur Anda adalah <ph name="DSE_NAME" />. Lihat petunjuknya untuk mengha
 <translation id="1209206284964581585">Sembunyikan untuk saat ini</translation>
 <translation id="1219674500290482172">Tidak dapat terhubung ke internet.</translation>
 <translation id="122699739164161391">Tutup Semua Tab</translation>
-<translation id="1229222343402087523">Telusuri ${searchPhrase} di Chrome</translation>
+<translation id="1229222343402087523">Telusuri ${searchPhrase} di Mises</translation>
 <translation id="1231733316453485619">Aktifkan sinkronisasi?</translation>
 <translation id="1242044645101871359">Login Lagi</translation>
 <translation id="1254117744268754948">Pilih Folder</translation>
@@ -110,7 +110,7 @@ Mesin telusur Anda adalah <ph name="DSE_NAME" />. Lihat petunjuknya untuk mengha
 <translation id="1930989359703290198">Organisasi mengizinkan Anda login hanya dengan akun tertentu. Akun yang tidak diizinkan akan disembunyikan. <ph name="BEGIN_LINK" />Pelajari Lebih Lanjut<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Ketuk dua kali untuk menyalin.</translation>
 <translation id="1952172573699511566">Situs akan menampilkan teks dalam bahasa pilihan Anda, jika memungkinkan.</translation>
-<translation id="1965935827552890526">Selesaikan yang Anda kerjakan di jendela Chrome lain yang terbuka.</translation>
+<translation id="1965935827552890526">Selesaikan yang Anda kerjakan di jendela Mises lain yang terbuka.</translation>
 <translation id="196896377990863006">Tampilkan Pratinjau Link</translation>
 <translation id="1973912524893600642">Simpan Data</translation>
 <translation id="1974060860693918893">Lanjutan</translation>
@@ -138,7 +138,7 @@ Mesin telusur Anda adalah <ph name="DSE_NAME" />. Lihat petunjuknya untuk mengha
 <translation id="225943865679747347">Kode kesalahan: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Tambahkan Akun</translation>
 <translation id="2268044343513325586">Saring</translation>
-<translation id="2271351792809375263">Gunakan sandi yang Anda simpan ke Chrome di aplikasi lain pada perangkat</translation>
+<translation id="2271351792809375263">Gunakan sandi yang Anda simpan ke Mises di aplikasi lain pada perangkat</translation>
 <translation id="2273327106802955778">Menu lainnya</translation>
 <translation id="2302742851632557585">Ubah Sandi di Situs</translation>
 <translation id="2316709634732130529">Gunakan Sandi yang Disarankan</translation>
@@ -191,12 +191,12 @@ Situs tidak dapat menggunakan cookie untuk melihat aktivitas penjelajahan Anda d
 <translation id="2783054063075604403">Tidak Dapat Membuat Link</translation>
 <translation id="2800683595868705743">Tutup Pengalih Tab</translation>
 <translation id="2815198996063984598">2. Ketuk Aplikasi Browser Default</translation>
-<translation id="2820289420301699633">Administrator dapat mengontrol Chrome dan dapat mengakses datanya</translation>
+<translation id="2820289420301699633">Administrator dapat mengontrol Mises dan dapat mengakses datanya</translation>
 <translation id="2830972654601096923">Kelola Alamat...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Reset Setelan Terjemahan</translation>
 <translation id="2848086008667475748">Jadikan Default di Setelan …</translation>
-<translation id="2858204748079866344">Untuk melindungi privasi Anda, Chrome tidak akan melakukan IsiOtomatis sandi di kolom ini.</translation>
+<translation id="2858204748079866344">Untuk melindungi privasi Anda, Mises tidak akan melakukan IsiOtomatis sandi di kolom ini.</translation>
 <translation id="285960592395650245">Coba Download Lagi</translation>
 <translation id="2870560284913253234">Situs</translation>
 <translation id="2871695793448672541">Sandi Tersembunyi</translation>
@@ -210,7 +210,7 @@ Situs tidak dapat menggunakan cookie untuk melihat aktivitas penjelajahan Anda d
 <translation id="2923448633003185837">Tempel dan Buka</translation>
 <translation id="292639812446257861">Tandai Belum Dibaca</translation>
 <translation id="2932085390869194046">Sarankan Sandi...</translation>
-<translation id="2952581218264071393">1. Buka Setelan Chrome</translation>
+<translation id="2952581218264071393">1. Buka Setelan Mises</translation>
 <translation id="2958718410589002129">Sandi</translation>
 <translation id="2961210776189273067">Gelar</translation>
 <translation id="2964349545761222050">Blokir Cookie Pihak Ketiga</translation>
@@ -257,7 +257,7 @@ Lihat petunjuk mesin telusur untuk menghapus histori penelusuran Anda, jika memu
 <translation id="3335947283844343239">Buka Kembali Tab yang Tertutup</translation>
 <translation id="3371831930909698441">Terjemahan tersedia. Opsi tersedia di dekat bagian bawah layar.</translation>
 <translation id="3393920035788932672">Pop-up Diizinkan</translation>
-<translation id="3399930248910934354">Buka Setelan Chrome</translation>
+<translation id="3399930248910934354">Buka Setelan Mises</translation>
 <translation id="3404744938087714423">Logout akan menonaktifkan sinkronisasi.</translation>
 <translation id="3414451675185661089">2. Ketuk Passwords</translation>
 <translation id="3425644765244388016">Nama Panggilan Kartu</translation>
@@ -283,7 +283,7 @@ Lihat petunjuk mesin telusur untuk menghapus histori penelusuran Anda, jika memu
 <translation id="3551320343578183772">Tutup Tab</translation>
 <translation id="3581564640715911333">Tawarkan penerjemahan halaman ke dalam bahasa lain</translation>
 <translation id="3588820906588687999">Buka Gambar di Tab Baru</translation>
-<translation id="359441731697487922">Anda dapat membuka link di Chrome secara otomatis dengan menjadikan Chrome sebagai Aplikasi Browser Default Anda.
+<translation id="359441731697487922">Anda dapat membuka link di Mises secara otomatis dengan menjadikan Mises sebagai Aplikasi Browser Default Anda.
       
 Ikuti langkah di bawah:</translation>
 <translation id="3603009562372709545">Salin URL Tautan</translation>
@@ -296,7 +296,7 @@ Ikuti langkah di bawah:</translation>
 <translation id="3691593122358196899">Dibookmark ke <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Tawarkan Penyimpanan Sandi</translation>
 <translation id="3709582977625132201">Tandai sebagai Belum Dibaca</translation>
-<translation id="3740397331642243698">Membuka URL yang diinput di Google Chrome dalam mode Samaran.</translation>
+<translation id="3740397331642243698">Membuka URL yang diinput di Mises dalam mode Samaran.</translation>
 <translation id="3762232513783804601">Dibuat untuk iPad Anda</translation>
 <translation id="3771033907050503522">Tab Samaran</translation>
 <translation id="3775743491439407556">Sinkronisasi Tidak Berfungsi</translation>
@@ -309,7 +309,7 @@ Ikuti langkah di bawah:</translation>
 <translation id="3858860766373142691">Nama</translation>
 <translation id="3892144330757387737">Histori Anda akan ditampilkan di sini</translation>
 <translation id="3897092660631435901">Menu</translation>
-<translation id="3913386780052199712">Login ke Chrome</translation>
+<translation id="3913386780052199712">Login ke Mises</translation>
 <translation id="3915450441834151894">Informasi Situs</translation>
 <translation id="3922310737605261887">Telusuri Teks yang Disalin</translation>
 <translation id="3928666092801078803">Gabungkan data saya</translation>
@@ -426,12 +426,12 @@ Untuk mengubah setelan ini, <ph name="BEGIN_LINK" />reset sinkronisasi<ph name="
 <translation id="5062321486222145940">Instal Google Drive</translation>
 <translation id="5083464117946352670">Tidak dapat menentukan ukuran file.</translation>
 <translation id="5090832849094901128">Menghapus sandi ini tidak akan menghapus akun Anda di <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Anda dapat menyimpan halaman untuk dibaca nanti atau saat offline. Chrome akan menanyakan apakah Anda ingin menyimpan halaman panjang.</translation>
+<translation id="5092117651143801290">Anda dapat menyimpan halaman untuk dibaca nanti atau saat offline. Mises akan menanyakan apakah Anda ingin menyimpan halaman panjang.</translation>
 <translation id="5094827893301452931">Tweet selesai.</translation>
 <translation id="5118764316110575523">Nonaktif</translation>
 <translation id="5127805178023152808">Sinkronisasi nonaktif</translation>
 <translation id="5132942445612118989">Sinkronkan sandi, histori, dan lainnya di semua perangkat</translation>
-<translation id="5140288047769711648">Chrome akan mengingat sandi ini untuk Anda. Anda tidak perlu mengingatnya.</translation>
+<translation id="5140288047769711648">Mises akan mengingat sandi ini untuk Anda. Anda tidak perlu mengingatnya.</translation>
 <translation id="5150492518600715772">Kirim ke Perangkat Anda</translation>
 <translation id="5168414296986405587">Dibuat untuk iPadOS</translation>
 <translation id="5173088371991956744">Sinkronisasi Perlu Memverifikasi Diri Anda</translation>
@@ -479,7 +479,7 @@ Handoff juga harus diaktifkan pada bagian General di Settings, dan perangkat And
 <translation id="5659593005791499971">Email</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Versi <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Saat ini menampilkan 1 jendela Chrome}other{Saat ini menampilkan {count} jendela Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Saat ini menampilkan 1 jendela Mises}other{Saat ini menampilkan {count} jendela Mises}}</translation>
 <translation id="5706552126692816153">Aktif 1 Hari yang Lalu</translation>
 <translation id="5711039611392265845">Untuk setelan lainnya yang berkaitan dengan privasi, keamanan, dan pengumpulan data, lihat <ph name="BEGIN_LINK" />Sinkronisasi dan Layanan Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Untuk browsing web secara rahasia, tambahkan tab baru</translation>
@@ -518,7 +518,7 @@ Handoff juga harus diaktifkan pada bagian General di Settings, dan perangkat And
 <translation id="5979837087407522202">Telusuri Sandi</translation>
 <translation id="5982717868370722439">Menambahkan data yang sudah ada ke <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Barusan Dikunjungi</translation>
-<translation id="5988851877894965432">Buka URL di Chrome</translation>
+<translation id="5988851877894965432">Buka URL di Mises</translation>
 <translation id="6012140227487808125">Mengenkripsi…</translation>
 <translation id="6021332621416007159">Buka di...</translation>
 <translation id="6027945736510816438">Mungkin maksud Anda <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ Handoff juga harus diaktifkan pada bagian General di Settings, dan perangkat And
 <translation id="6136914049981179737">Detik lalu</translation>
 <translation id="6144589619057374135">Buka ${url} dalam mode Samaran</translation>
 <translation id="6159839020698489198">opsional</translation>
-<translation id="6177442314419606057">Penelusuran di Chrome</translation>
+<translation id="6177442314419606057">Penelusuran di Mises</translation>
 <translation id="6184086493125982861">Tampilkan Tab</translation>
 <translation id="6187302354554850004">Sinkron terakhir: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Belum dibaca</translation>
@@ -673,7 +673,7 @@ Selama dalam mode Samaran, situs tidak dapat menggunakan cookie untuk melihat ak
 <translation id="7189598951263744875">Bagikan...</translation>
 <translation id="7192050974311852563">Mulai Logging</translation>
 <translation id="7203585745079012652">Ucapkan Jawabannya</translation>
-<translation id="7207383424303353046">Baru: Buka situs di Chrome secara otomatis dengan menjadikan Chrome sebagai Aplikasi Browser Default Anda. <ph name="BEGIN_LINK" />Buka Setelan<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Baru: Buka situs di Mises secara otomatis dengan menjadikan Mises sebagai Aplikasi Browser Default Anda. <ph name="BEGIN_LINK" />Buka Setelan<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Nama Panggilan Kartu Tidak Valid</translation>
 <translation id="722454870747268814">Tab Samaran Baru</translation>
 <translation id="7265758999917665941">Jangan Pernah Untuk Situs Ini</translation>
@@ -699,7 +699,7 @@ Selama dalam mode Samaran, situs tidak dapat menggunakan cookie untuk melihat ak
 <translation id="7454057999980797137">Prov./County</translation>
 <translation id="7456847797759667638">Buka Lokasi...</translation>
 <translation id="7464701184726199289">Tindakan ini akan menghapus data yang disinkronkan dari semua perangkat. Setelan situs yang disimpan tidak akan dihapus dan dapat mencerminkan kebiasaan penjelajahan Anda. <ph name="BEGIN_LINK" />Pelajari lebih lanjut<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3 Pilih Chrome</translation>
+<translation id="746684838091935575">3 Pilih Mises</translation>
 <translation id="7472734401283673885">Nama Perusahaan</translation>
 <translation id="7473891865547856676">Lain Kali</translation>
 <translation id="7481312909269577407">Maju</translation>
@@ -727,13 +727,13 @@ Selama dalam mode Samaran, situs tidak dapat menggunakan cookie untuk melihat ak
 <translation id="7781011649027948662">Terjemahkan Halaman?</translation>
 <translation id="7781069478569868053">Halaman Tab Baru</translation>
 <translation id="7781829728241885113">Kemarin</translation>
-<translation id="778855399387580014">Mulai penelusuran di tab Chrome baru.</translation>
+<translation id="778855399387580014">Mulai penelusuran di tab Mises baru.</translation>
 <translation id="7791543448312431591">Tambahkan</translation>
 <translation id="7839985698273989086">Halaman Offline</translation>
 <translation id="7840771868269352570">Item yang Anda pilih akan dihapus.</translation>
 <translation id="7856733331829174190">Tidak Dapat Mendownload</translation>
 <translation id="7859704718976024901">Histori Browsing</translation>
-<translation id="7887198238286927132">Untuk melindungi privasi Anda, Chrome tidak akan melakukan IsiOtomatis pada kolom ini.</translation>
+<translation id="7887198238286927132">Untuk melindungi privasi Anda, Mises tidak akan melakukan IsiOtomatis pada kolom ini.</translation>
 <translation id="7911190106180361398">Organisasi tidak mengizinkan Anda menyinkronkan semuanya.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Ekspor Sandi...</translation>
@@ -748,14 +748,14 @@ Situs dapat menggunakan cookie untuk melihat aktivitas penjelajahan Anda di berb
 <translation id="7978018860671536736">3. Ketuk AutoFill Passwords</translation>
 <translation id="7982789257301363584">Jaringan</translation>
 <translation id="7993619969781047893">Fitur pada beberapa situs mungkin error</translation>
-<translation id="800361585186029508">Membuka URL yang dimasukkan di Google Chrome.</translation>
+<translation id="800361585186029508">Membuka URL yang dimasukkan di Mises.</translation>
 <translation id="802154636333426148">Download gagal</translation>
 <translation id="8023878949384262191">Luaskan bagian.</translation>
 <translation id="8027581147000338959">Buka di Jendela Baru</translation>
 <translation id="804225253087497565"><ph name="BEGIN_LINK" />Histori penelusuran<ph name="END_LINK" /> dan <ph name="BEGIN_LINK" />bentuk aktivitas lainnya<ph name="END_LINK" /> dapat disimpan di Akun Google Anda saat login. Anda dapat menghapusnya kapan saja.</translation>
 <translation id="804427445359061970">Tab Anda dari perangkat lain akan ditampilkan di sini</translation>
 <translation id="8059533439631660104">Ciutkan bagian.</translation>
-<translation id="8065292699993359127">Buka URL di Chrome dalam mode Samaran</translation>
+<translation id="8065292699993359127">Buka URL di Mises dalam mode Samaran</translation>
 <translation id="806745655614357130">Tetap pisahkan data saya</translation>
 <translation id="8073670137947914548">Download selesai</translation>
 <translation id="8073872304774253879">Jadikan Penelusuran dan Penjelajahan Lebih Baik</translation>
@@ -804,7 +804,7 @@ Situs dapat menggunakan cookie untuk melihat aktivitas penjelajahan Anda di berb
 <translation id="8533670235862049797">Safe Browsing aktif</translation>
 <translation id="8534481786647257214">Kirim Google+ selesai.</translation>
 <translation id="8548878600947630424">Cari di halaman...</translation>
-<translation id="8574235780160508979">Persyaratan Layanan Chrome akan berubah pada 31 Maret. <ph name="BEGIN_LINK" />Harap tinjau<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Persyaratan Layanan Mises akan berubah pada 31 Maret. <ph name="BEGIN_LINK" />Harap tinjau<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Nonaktif</translation>
 <translation id="8590913940444621808">Jangan Tanya</translation>
 <translation id="8591976964826315682">Blokir Cookie Pihak Ketiga dalam Mode Samaran</translation>
@@ -855,7 +855,7 @@ Situs dapat menggunakan cookie untuk melihat aktivitas penjelajahan Anda di berb
 <translation id="9081058212938299310">Perbarui sandi untuk <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 item</translation>
 <translation id="9083838294503912307">Untuk menyinkronkan dan mempersonalisasi berbagai perangkat, aktifkan sinkronisasi.</translation>
-<translation id="9087108903408689779">Sandi yang Disarankan Chrome:</translation>
+<translation id="9087108903408689779">Sandi yang Disarankan Mises:</translation>
 <translation id="9094033019050270033">Perbarui sandi</translation>
 <translation id="9100610230175265781">Frasa sandi diwajibkan</translation>
 <translation id="9107664647686727385">Periksa sandi yang telah dibobol</translation>

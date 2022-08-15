@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">Ezkutatu</translation>
 <translation id="1219674500290482172">Ezin da konektatu Internetera.</translation>
 <translation id="122699739164161391">Itxi fitxa guztiak</translation>
-<translation id="1229222343402087523">Bilatu "${searchPhrase}" Chrome-n</translation>
+<translation id="1229222343402087523">Bilatu "${searchPhrase}" Mises-n</translation>
 <translation id="1231733316453485619">Sinkronizazioa aktibatu nahi duzu?</translation>
 <translation id="1242044645101871359">Hasi saioa berriro</translation>
 <translation id="1254117744268754948">Aukeratu karpeta</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">Erakundeak kontu jakin batzuekin soilik uzten du saioa hasten. Baimenduta ez dauden kontuak ezkutatuta daude. <ph name="BEGIN_LINK" />Lortu informazio gehiago<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Kopiatzeko, sakatu birritan.</translation>
 <translation id="1952172573699511566">Ahal den heinean, webguneek testua hizkuntza hobetsian erakutsiko dute.</translation>
-<translation id="1965935827552890526">Amaitu egiten ari zarena irekita daukazun Chrome-ko beste leihoan.</translation>
+<translation id="1965935827552890526">Amaitu egiten ari zarena irekita daukazun Mises-ko beste leihoan.</translation>
 <translation id="196896377990863006">Erakutsi estekaren aurrebista</translation>
 <translation id="1973912524893600642">Mantendu datuak</translation>
 <translation id="1974060860693918893">Aurreratuak</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">Errore-kodea: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Gehitu kontu bat</translation>
 <translation id="2268044343513325586">Mugatu</translation>
-<translation id="2271351792809375263">Erabili Chrome-n gordetako pasahitzak gailuko beste aplikazio batzuetan</translation>
+<translation id="2271351792809375263">Erabili Mises-n gordetako pasahitzak gailuko beste aplikazio batzuetan</translation>
 <translation id="2273327106802955778">"Gehiago" menua</translation>
 <translation id="2302742851632557585">Aldatu pasahitza webgunean</translation>
 <translation id="2316709634732130529">Erabili iradokitako pasahitza</translation>
@@ -191,12 +191,12 @@ Webguneek ezin dituzte erabili cookieak beste webguneetan egiten dituzun arakatz
 <translation id="2783054063075604403">Ezin da sortu estekarik</translation>
 <translation id="2800683595868705743">Irten fitxa-aldatzailetik</translation>
 <translation id="2815198996063984598">2. Sakatu Arakatzaile lehenetsia</translation>
-<translation id="2820289420301699633">Administratzaileak Chrome kontrolatu, eta bertako datuak atzitu ahal izango ditu</translation>
+<translation id="2820289420301699633">Administratzaileak Mises kontrolatu, eta bertako datuak atzitu ahal izango ditu</translation>
 <translation id="2830972654601096923">Kudeatu helbideak…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Berrezarri Translate ezarpenak</translation>
 <translation id="2848086008667475748">Ezarri aukera lehenetsi gisa Ezarpenak atalean…</translation>
-<translation id="2858204748079866344">Zure pribatutasuna babesteko, Chrome-k ez du automatikoki idatziko pasahitza eremu honetan.</translation>
+<translation id="2858204748079866344">Zure pribatutasuna babesteko, Mises-k ez du automatikoki idatziko pasahitza eremu honetan.</translation>
 <translation id="285960592395650245">Saiatu berriro deskargatzen</translation>
 <translation id="2870560284913253234">Webgunea</translation>
 <translation id="2871695793448672541">Ezkutatutako pasahitza</translation>
@@ -210,7 +210,7 @@ Webguneek ezin dituzte erabili cookieak beste webguneetan egiten dituzun arakatz
 <translation id="2923448633003185837">Itsatsi eta listo</translation>
 <translation id="292639812446257861">Markatu irakurri gabeko gisa</translation>
 <translation id="2932085390869194046">Iradoki pasahitza…</translation>
-<translation id="2952581218264071393">1. Ireki Chrome-ren ezarpenak</translation>
+<translation id="2952581218264071393">1. Ireki Mises-ren ezarpenak</translation>
 <translation id="2958718410589002129">Pasahitzak</translation>
 <translation id="2961210776189273067">Trataera</translation>
 <translation id="2964349545761222050">Blokeatu hirugarrenen cookieak</translation>
@@ -257,7 +257,7 @@ Behar izanez gero, joan bilatzailearen argibideetara bilaketa-historia ezabatzea
 <translation id="3335947283844343239">Ireki aurretik itxitako fitxa</translation>
 <translation id="3371831930909698441">Translate zerbitzua erabilgarri dago. Pantailaren behealdean agertzen dira dauden aukerak.</translation>
 <translation id="3393920035788932672">Leiho gainerakorrak onartzen dira</translation>
-<translation id="3399930248910934354">Ireki Chrome-ren ezarpenak</translation>
+<translation id="3399930248910934354">Ireki Mises-ren ezarpenak</translation>
 <translation id="3404744938087714423">Saioa amaitzean, desaktibatu egiten da sinkronizazioa.</translation>
 <translation id="3414451675185661089">2. Sakatu Passwords (pasahitzak).</translation>
 <translation id="3425644765244388016">Txartelaren goitizena</translation>
@@ -283,7 +283,7 @@ Behar izanez gero, joan bilatzailearen argibideetara bilaketa-historia ezabatzea
 <translation id="3551320343578183772">Itxi fitxa</translation>
 <translation id="3581564640715911333">Eskaini beste hizkuntzetan dauden orriak itzultzea</translation>
 <translation id="3588820906588687999">Ireki irudia beste fitxa batean</translation>
-<translation id="359441731697487922">Estekak automatikoki ireki ditzakezu Chrome-n arakatzaile lehenetsi gisa ezartzen baduzu.
+<translation id="359441731697487922">Estekak automatikoki ireki ditzakezu Mises-n arakatzaile lehenetsi gisa ezartzen baduzu.
       
 Jarraitu beheko urratsei:</translation>
 <translation id="3603009562372709545">Kopiatu estekaren URLa</translation>
@@ -296,7 +296,7 @@ Jarraitu beheko urratsei:</translation>
 <translation id="3691593122358196899"><ph name="FOLDER_TITLE" /> karpetan gehitu da laster-marka</translation>
 <translation id="369349502275246497">Eskaini pasahitzak gordetzeko aukera</translation>
 <translation id="3709582977625132201">Markatu irakurri gabeko gisa</translation>
-<translation id="3740397331642243698">Idatzitako URLak Google Chrome-ren ezkutuko moduan irekitzen ditu.</translation>
+<translation id="3740397331642243698">Idatzitako URLak Mises-ren ezkutuko moduan irekitzen ditu.</translation>
 <translation id="3762232513783804601">Zure iPad-erako garatua</translation>
 <translation id="3771033907050503522">Ezkutuko moduko fitxak</translation>
 <translation id="3775743491439407556">Sinkronizazioa ez dabil</translation>
@@ -309,7 +309,7 @@ Jarraitu beheko urratsei:</translation>
 <translation id="3858860766373142691">Izena</translation>
 <translation id="3892144330757387737">Historia aurkituko duzu hemen</translation>
 <translation id="3897092660631435901">Menua</translation>
-<translation id="3913386780052199712">Chrome-n saioa hasita daukazu</translation>
+<translation id="3913386780052199712">Mises-n saioa hasita daukazu</translation>
 <translation id="3915450441834151894">Webgunearen informazioa</translation>
 <translation id="3922310737605261887">Bilatu kopiatu duzun testua</translation>
 <translation id="3928666092801078803">Bateratu nire datuak</translation>
@@ -426,12 +426,12 @@ Ezarpena aldatzeko, <ph name="BEGIN_LINK" />berrezarri sinkronizazioa<ph name="E
 <translation id="5062321486222145940">Instalatu Google Drive</translation>
 <translation id="5083464117946352670">Ezin da zehaztu fitxategiaren tamaina.</translation>
 <translation id="5090832849094901128">Pasahitza ezabatzen baduzu ere, ez da ezabatuko <ph name="WEBSITE" /> webguneko kontua.</translation>
-<translation id="5092117651143801290">Orriak gorde ditzakezu, geroago edo konexiorik ez daukazunean irakurtzeko. Orri luzeak gorde nahi dituzun galdetuko dizu Chrome-k.</translation>
+<translation id="5092117651143801290">Orriak gorde ditzakezu, geroago edo konexiorik ez daukazunean irakurtzeko. Orri luzeak gorde nahi dituzun galdetuko dizu Mises-k.</translation>
 <translation id="5094827893301452931">Txio egin da.</translation>
 <translation id="5118764316110575523">Desaktibatuta</translation>
 <translation id="5127805178023152808">Sinkronizazioa desaktibatuta dago</translation>
 <translation id="5132942445612118989">Sinkronizatu pasahitzak, historia eta beste gauza asko gailu guztietan</translation>
-<translation id="5140288047769711648">Chrome-k gogoratuko du pasahitza. Ez duzu zuk gogoratu beharko.</translation>
+<translation id="5140288047769711648">Mises-k gogoratuko du pasahitza. Ez duzu zuk gogoratu beharko.</translation>
 <translation id="5150492518600715772">Bidali beste gailu batera</translation>
 <translation id="5168414296986405587">iPadOS-erako sortua</translation>
 <translation id="5173088371991956744">Sinkronizazioak zure nortasuna egiaztatu behar du</translation>
@@ -479,7 +479,7 @@ Ezarpena aldatzeko, <ph name="BEGIN_LINK" />berrezarri sinkronizazioa<ph name="E
 <translation id="5659593005791499971">Helbide elektronikoa</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783"><ph name="PRODUCT_VERSION" /> bertsioa</translation>
-<translation id="5690398455483874150">{count,plural, =1{Chrome-ko leiho bat dago ikusgai}other{Chrome-ko {count} leiho daude ikusgai}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Mises-ko leiho bat dago ikusgai}other{Mises-ko {count} leiho daude ikusgai}}</translation>
 <translation id="5706552126692816153">Aktibo duela 1 egun</translation>
 <translation id="5711039611392265845">Pribatutasunarekin, segurtasunarekin eta datu-bilketarekin lotutako ezarpen gehiago ikusteko, joan <ph name="BEGIN_LINK" />Sinkronizazioa eta Google-ren zerbitzuak<ph name="END_LINK" /> atalera.</translation>
 <translation id="5724941645893276623">Sarea modu pribatuan arakatzeko, gehitu beste fitxa bat</translation>
@@ -518,7 +518,7 @@ Ezarpena aldatzeko, <ph name="BEGIN_LINK" />berrezarri sinkronizazioa<ph name="E
 <translation id="5979837087407522202">Bilatu pasahitzak</translation>
 <translation id="5982717868370722439">Gehitu lehendik dituzun datuak <ph name="USER_EMAIL" /> kontuan.</translation>
 <translation id="5984222099446776634">Bisitatutako azkenak</translation>
-<translation id="5988851877894965432">Ireki URLak Chrome-n</translation>
+<translation id="5988851877894965432">Ireki URLak Mises-n</translation>
 <translation id="6012140227487808125">Enkriptatzen…</translation>
 <translation id="6021332621416007159">Ireki hemen…</translation>
 <translation id="6027945736510816438"><ph name="WEBSITE" /> esan nahi al zenuen?</translation>
@@ -539,7 +539,7 @@ Ezarpena aldatzeko, <ph name="BEGIN_LINK" />berrezarri sinkronizazioa<ph name="E
 <translation id="6136914049981179737">Duela segundo gutxi</translation>
 <translation id="6144589619057374135">Ireki ${url} ezkutuko moduan</translation>
 <translation id="6159839020698489198">aukerakoa</translation>
-<translation id="6177442314419606057">Bilatu Chrome-n</translation>
+<translation id="6177442314419606057">Bilatu Mises-n</translation>
 <translation id="6184086493125982861">Erakutsi fitxak</translation>
 <translation id="6187302354554850004">Azken sinkronizazioa: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Irakurri gabe</translation>
@@ -673,7 +673,7 @@ Ezkutuko moduan zaudenean, webguneek ezin dituzte erabili cookieak beste webgune
 <translation id="7189598951263744875">Partekatu…</translation>
 <translation id="7192050974311852563">Hasi erregistratzen</translation>
 <translation id="7203585745079012652">Erantzun ahots bidez</translation>
-<translation id="7207383424303353046">Berria: ezarri Chrome arakatzaile lehenetsi gisa eta ireki webguneak bertan automatikoki. <ph name="BEGIN_LINK" />Ireki ezarpenak<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Berria: ezarri Mises arakatzaile lehenetsi gisa eta ireki webguneak bertan automatikoki. <ph name="BEGIN_LINK" />Ireki ezarpenak<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Txartelaren goitizenak ez du balio</translation>
 <translation id="722454870747268814">Ezkutuko moduko fitxa berria</translation>
 <translation id="7265758999917665941">Inoiz ez webgune honetan</translation>
@@ -699,7 +699,7 @@ Ezkutuko moduan zaudenean, webguneek ezin dituzte erabili cookieak beste webgune
 <translation id="7454057999980797137">Probintzia</translation>
 <translation id="7456847797759667638">Ireki kokapena…</translation>
 <translation id="7464701184726199289">Gailu guztien datu sinkronizatuak garbituko dira. Ez dira ezabatuko webgunearen gordetako ezarpenak, eta baliteke arakatze-ohiturak islatzea. <ph name="BEGIN_LINK" />Lortu informazio gehiago<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Hautatu Chrome</translation>
+<translation id="746684838091935575">3. Hautatu Mises</translation>
 <translation id="7472734401283673885">Enpresaren izena</translation>
 <translation id="7473891865547856676">Ez, eskerrik asko</translation>
 <translation id="7481312909269577407">Aurrera</translation>
@@ -727,13 +727,13 @@ Ezkutuko moduan zaudenean, webguneek ezin dituzte erabili cookieak beste webgune
 <translation id="7781011649027948662">Orria itzuli nahi duzu?</translation>
 <translation id="7781069478569868053">Fitxa berriaren orria</translation>
 <translation id="7781829728241885113">Atzo</translation>
-<translation id="778855399387580014">Hasi bilaketa Chrome-ren fitxa berri batean.</translation>
+<translation id="778855399387580014">Hasi bilaketa Mises-ren fitxa berri batean.</translation>
 <translation id="7791543448312431591">Gehitu</translation>
 <translation id="7839985698273989086">Konexiorik gabeko orria</translation>
 <translation id="7840771868269352570">Kendu egingo dira hautatutako elementuak.</translation>
 <translation id="7856733331829174190">Ezin izan da deskargatu</translation>
 <translation id="7859704718976024901">Arakatze-historia</translation>
-<translation id="7887198238286927132">Zure pribatutasuna babesteko, Chrome-k ez du automatikoki beteko eremu hau.</translation>
+<translation id="7887198238286927132">Zure pribatutasuna babesteko, Mises-k ez du automatikoki beteko eremu hau.</translation>
 <translation id="7911190106180361398">Erakundeak ez dizu eman baimenik guztia sinkronizatzeko.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Esportatu pasahitzak…</translation>
@@ -748,14 +748,14 @@ Webguneek cookieak erabil ditzakete beste webguneetan egiten dituzun arakatze-ja
 <translation id="7978018860671536736">3. Sakatu AutoFill Passwords (pasahitzak automatikoki betetzeko aukera).</translation>
 <translation id="7982789257301363584">Sarea</translation>
 <translation id="7993619969781047893">Baliteke webgune batzuetako eginbideek ez funtzionatzea</translation>
-<translation id="800361585186029508">Idatzitako URLak Google Chrome-n irekitzen ditu.</translation>
+<translation id="800361585186029508">Idatzitako URLak Mises-n irekitzen ditu.</translation>
 <translation id="802154636333426148">Ezin izan da deskargatu</translation>
 <translation id="8023878949384262191">Hautapena zabaltzen du.</translation>
 <translation id="8027581147000338959">Ireki beste leiho batean</translation>
 <translation id="804225253087497565">Litekeena da <ph name="BEGIN_LINK" />bilaketa-historia<ph name="END_LINK" /> eta <ph name="BEGIN_LINK" />beste jarduera batzuk<ph name="END_LINK" /> Google-ko kontuan gordetzea saioa hasita daukazun bitartean. Nahi duzunean ezaba ditzakezu.</translation>
 <translation id="804427445359061970">Beste gailuetan erabilitako fitxak aurkituko dituzu hemen</translation>
 <translation id="8059533439631660104">Hautapena tolesten du.</translation>
-<translation id="8065292699993359127">Ireki URLak Chrome-ren ezkutuko moduan</translation>
+<translation id="8065292699993359127">Ireki URLak Mises-ren ezkutuko moduan</translation>
 <translation id="806745655614357130">Gorde nire datuak bereizita</translation>
 <translation id="8073670137947914548">Deskargatu da</translation>
 <translation id="8073872304774253879">Hobetu bilaketak eta arakatze-jarduerak</translation>
@@ -804,7 +804,7 @@ Webguneek cookieak erabil ditzakete beste webguneetan egiten dituzun arakatze-ja
 <translation id="8533670235862049797">Arakatze segurua aktibatuta dago</translation>
 <translation id="8534481786647257214">Google+eko mezua argitaratu da.</translation>
 <translation id="8548878600947630424">Bilatu orrian…</translation>
-<translation id="8574235780160508979">Chrome-ren Zerbitzu-baldintzak martxoaren 31n aldatuko dira. <ph name="BEGIN_LINK" />Irakur itzazu<ph name="END_LINK" />.</translation>
+<translation id="8574235780160508979">Mises-ren Zerbitzu-baldintzak martxoaren 31n aldatuko dira. <ph name="BEGIN_LINK" />Irakur itzazu<ph name="END_LINK" />.</translation>
 <translation id="8588404856427128947">Itzalita</translation>
 <translation id="8590913940444621808">Ez galdetu inoiz</translation>
 <translation id="8591976964826315682">Blokeatu hirugarrenen cookieak ezkutuko moduan</translation>
@@ -855,7 +855,7 @@ Webguneek cookieak erabil ditzakete beste webguneetan egiten dituzun arakatze-ja
 <translation id="9081058212938299310"><ph name="USERNAME" /> erabiltzailearen pasahitza eguneratu nahi duzu?</translation>
 <translation id="9083392325882095631">Elementu bat</translation>
 <translation id="9083838294503912307">Gailu guztiak sinkronizatu eta pertsonalizatzeko, aktibatu sinkronizazioa.</translation>
-<translation id="9087108903408689779">Chrome-k iradokitako pasahitza:</translation>
+<translation id="9087108903408689779">Mises-k iradokitako pasahitza:</translation>
 <translation id="9094033019050270033">Aldatu pasahitza</translation>
 <translation id="9100610230175265781">Pasaesaldia behar da</translation>
 <translation id="9107664647686727385">Egiaztatu ea badagoen pasahitzik arriskuan</translation>

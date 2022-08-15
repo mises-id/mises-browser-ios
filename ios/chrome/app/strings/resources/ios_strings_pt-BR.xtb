@@ -33,7 +33,7 @@ Seu mecanismo de pesquisa é o <ph name="DSE_NAME" />. Veja as instruções para
 <translation id="1209206284964581585">Ocultar por enquanto</translation>
 <translation id="1219674500290482172">Não foi possível se conectar à Internet.</translation>
 <translation id="122699739164161391">Fechar todas as guias</translation>
-<translation id="1229222343402087523">Pesquisar "${searchPhrase}" no Chrome</translation>
+<translation id="1229222343402087523">Pesquisar "${searchPhrase}" no Mises</translation>
 <translation id="1231733316453485619">Ativar sincronização?</translation>
 <translation id="1242044645101871359">Fazer login novamente</translation>
 <translation id="1254117744268754948">Escolher pasta</translation>
@@ -110,7 +110,7 @@ Seu mecanismo de pesquisa é o <ph name="DSE_NAME" />. Veja as instruções para
 <translation id="1930989359703290198">Sua organização permite que você faça login apenas com determinadas contas. As contas que não têm permissão para fazer login ficam ocultas. <ph name="BEGIN_LINK" />Saiba mais<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Toque duas vezes para copiar.</translation>
 <translation id="1952172573699511566">Os sites exibirão textos no idioma de sua preferência, quando for possível.</translation>
-<translation id="1965935827552890526">Termine o que você estava fazendo na outra janela aberta no Chrome.</translation>
+<translation id="1965935827552890526">Termine o que você estava fazendo na outra janela aberta no Mises.</translation>
 <translation id="196896377990863006">Mostrar prévia do link</translation>
 <translation id="1973912524893600642">Manter dados</translation>
 <translation id="1974060860693918893">Avançado</translation>
@@ -138,7 +138,7 @@ Seu mecanismo de pesquisa é o <ph name="DSE_NAME" />. Veja as instruções para
 <translation id="225943865679747347">Código de erro: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Adicionar conta</translation>
 <translation id="2268044343513325586">Refinar</translation>
-<translation id="2271351792809375263">Use as senhas que você salvou no Chrome em outros apps no dispositivo</translation>
+<translation id="2271351792809375263">Use as senhas que você salvou no Mises em outros apps no dispositivo</translation>
 <translation id="2273327106802955778">Menu "Mais"</translation>
 <translation id="2302742851632557585">Mudar a senha no site</translation>
 <translation id="2316709634732130529">Usar senha sugerida</translation>
@@ -191,12 +191,12 @@ Eles também não podem usar cookies para ver sua atividade de navegação em di
 <translation id="2783054063075604403">Não foi possível criar o link</translation>
 <translation id="2800683595868705743">Sair do seletor guias</translation>
 <translation id="2815198996063984598">2. Toque em "App do navegador padrão"</translation>
-<translation id="2820289420301699633">Seu administrador pode controlar o Chrome e acessar os dados desse navegador</translation>
+<translation id="2820289420301699633">Seu administrador pode controlar o Mises e acessar os dados desse navegador</translation>
 <translation id="2830972654601096923">Gerenciar endereços…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Redefinir Tradutor</translation>
 <translation id="2848086008667475748">Definir como padrão nas Configurações…</translation>
-<translation id="2858204748079866344">Para proteger sua privacidade, o Chrome não preencherá sua senha automaticamente neste campo.</translation>
+<translation id="2858204748079866344">Para proteger sua privacidade, o Mises não preencherá sua senha automaticamente neste campo.</translation>
 <translation id="285960592395650245">Tentar fazer o download novamente</translation>
 <translation id="2870560284913253234">Site</translation>
 <translation id="2871695793448672541">Senha oculta</translation>
@@ -210,7 +210,7 @@ Eles também não podem usar cookies para ver sua atividade de navegação em di
 <translation id="2923448633003185837">Colar e ir</translation>
 <translation id="292639812446257861">Marcar como não lidas</translation>
 <translation id="2932085390869194046">Sugerir senha…</translation>
-<translation id="2952581218264071393">1. Abrir configurações do Chrome</translation>
+<translation id="2952581218264071393">1. Abrir configurações do Mises</translation>
 <translation id="2958718410589002129">Senhas</translation>
 <translation id="2961210776189273067">Título</translation>
 <translation id="2964349545761222050">Bloquear cookies de terceiros</translation>
@@ -257,7 +257,7 @@ Veja as instruções do seu mecanismo de pesquisa para excluir o histórico de p
 <translation id="3335947283844343239">Reabrir guia fechada</translation>
 <translation id="3371831930909698441">Tradução disponível. Opções disponíveis perto da parte inferior da tela.</translation>
 <translation id="3393920035788932672">Pop-ups permitidos</translation>
-<translation id="3399930248910934354">Abrir configurações do Chrome</translation>
+<translation id="3399930248910934354">Abrir configurações do Mises</translation>
 <translation id="3404744938087714423">Sair da conta desativará a sincronização.</translation>
 <translation id="3414451675185661089">2. Toque em "Senhas"</translation>
 <translation id="3425644765244388016">Apelido do cartão</translation>
@@ -283,7 +283,7 @@ Veja as instruções do seu mecanismo de pesquisa para excluir o histórico de p
 <translation id="3551320343578183772">Fechar guia</translation>
 <translation id="3581564640715911333">Oferecer para traduzir páginas em outros idiomas</translation>
 <translation id="3588820906588687999">Abrir imagem em "Nova guia"</translation>
-<translation id="359441731697487922">Defina o Chrome como seu app padrão de navegador para abrir links automaticamente nele.
+<translation id="359441731697487922">Defina o Mises como seu app padrão de navegador para abrir links automaticamente nele.
       
 Siga estas etapas:</translation>
 <translation id="3603009562372709545">Copiar URL do link</translation>
@@ -296,7 +296,7 @@ Siga estas etapas:</translation>
 <translation id="3691593122358196899">Adicionado como favorito em <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Oferecer para salvar senhas</translation>
 <translation id="3709582977625132201">Marcar como não lido</translation>
-<translation id="3740397331642243698">Abre os URLs inseridos na navegação anônima do Google Chrome.</translation>
+<translation id="3740397331642243698">Abre os URLs inseridos na navegação anônima do Mises.</translation>
 <translation id="3762232513783804601">Criado para o iPad</translation>
 <translation id="3771033907050503522">Guias anônimas</translation>
 <translation id="3775743491439407556">A sincronização não está funcionando</translation>
@@ -309,7 +309,7 @@ Siga estas etapas:</translation>
 <translation id="3858860766373142691">Nome</translation>
 <translation id="3892144330757387737">Você verá seu histórico aqui</translation>
 <translation id="3897092660631435901">Menu</translation>
-<translation id="3913386780052199712">Conta conectada ao Chrome</translation>
+<translation id="3913386780052199712">Conta conectada ao Mises</translation>
 <translation id="3915450441834151894">Informações do site</translation>
 <translation id="3922310737605261887">Pesquisar texto copiado</translation>
 <translation id="3928666092801078803">Integrar meus dados</translation>
@@ -426,12 +426,12 @@ Para alterar essa configuração, <ph name="BEGIN_LINK" />redefina a sincroniza�
 <translation id="5062321486222145940">Instalar o Google Drive</translation>
 <translation id="5083464117946352670">Não é possível saber o tamanho do arquivo.</translation>
 <translation id="5090832849094901128">Remover a senha não excluirá a conta em <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Você pode salvar páginas para ler mais tarde ou off-line. O Chrome perguntará se você quer salvar páginas longas.</translation>
+<translation id="5092117651143801290">Você pode salvar páginas para ler mais tarde ou off-line. O Mises perguntará se você quer salvar páginas longas.</translation>
 <translation id="5094827893301452931">Tweet concluído.</translation>
 <translation id="5118764316110575523">Desativado</translation>
 <translation id="5127805178023152808">Sincronização desativada</translation>
 <translation id="5132942445612118989">Sincronize suas senhas, seu histórico e muito mais em todos os dispositivos</translation>
-<translation id="5140288047769711648">Esta senha ficará salva no Chrome. Você não precisa memorizá-la.</translation>
+<translation id="5140288047769711648">Esta senha ficará salva no Mises. Você não precisa memorizá-la.</translation>
 <translation id="5150492518600715772">Enviar para seu dispositivo</translation>
 <translation id="5168414296986405587">Desenvolvido para iPadOS</translation>
 <translation id="5173088371991956744">A sincronização precisa confirmar sua identidade</translation>
@@ -479,7 +479,7 @@ A "Transição" também deve ser ativada na seção "Geral" das configurações.
 <translation id="5659593005791499971">E-mail</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Versão <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Mostrando agora 1 janela do Chrome}one{Mostrando agora {count} janela do Chrome}other{Mostrando agora {count} janelas do Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Mostrando agora 1 janela do Mises}one{Mostrando agora {count} janela do Mises}other{Mostrando agora {count} janelas do Mises}}</translation>
 <translation id="5706552126692816153">Ativado há um dia</translation>
 <translation id="5711039611392265845">Para ver mais configurações relacionadas à privacidade, segurança e coleta de dados, acesse <ph name="BEGIN_LINK" />Serviços do Google e de sincronização<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Para navegar na Web com privacidade, adicione uma nova guia</translation>
@@ -518,7 +518,7 @@ A "Transição" também deve ser ativada na seção "Geral" das configurações.
 <translation id="5979837087407522202">Pesquisar senhas</translation>
 <translation id="5982717868370722439">Adicionar os dados disponíveis à conta <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Visitados recentemente</translation>
-<translation id="5988851877894965432">Abrir URLs no Chrome</translation>
+<translation id="5988851877894965432">Abrir URLs no Mises</translation>
 <translation id="6012140227487808125">Criptografando…</translation>
 <translation id="6021332621416007159">Abrir no...</translation>
 <translation id="6027945736510816438">Você quis dizer <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ A "Transição" também deve ser ativada na seção "Geral" das configurações.
 <translation id="6136914049981179737">Segundos atrás</translation>
 <translation id="6144589619057374135">Abrir ${url} na navegação anônima</translation>
 <translation id="6159839020698489198">opcional</translation>
-<translation id="6177442314419606057">Pesquisar no Chrome</translation>
+<translation id="6177442314419606057">Pesquisar no Mises</translation>
 <translation id="6184086493125982861">Mostrar guias</translation>
 <translation id="6187302354554850004">Última sincronização: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Não lidas</translation>
@@ -673,7 +673,7 @@ Na navegação anônima, eles não podem usar cookies para ver suas atividades d
 <translation id="7189598951263744875">Compartilhar...</translation>
 <translation id="7192050974311852563">Iniciar registro</translation>
 <translation id="7203585745079012652">Falar as respostas</translation>
-<translation id="7207383424303353046">Novidade: defina o Chrome como seu navegador padrão para abrir sites automaticamente nele. <ph name="BEGIN_LINK" />Abrir Configurações<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Novidade: defina o Mises como seu navegador padrão para abrir sites automaticamente nele. <ph name="BEGIN_LINK" />Abrir Configurações<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Apelido do cartão inválido</translation>
 <translation id="722454870747268814">Nova guia anônima</translation>
 <translation id="7265758999917665941">Nunca para este site</translation>
@@ -699,7 +699,7 @@ Na navegação anônima, eles não podem usar cookies para ver suas atividades d
 <translation id="7454057999980797137">Estado/Prov.</translation>
 <translation id="7456847797759667638">Abrir local...</translation>
 <translation id="7464701184726199289">Isso limpa os dados sincronizados de todos os dispositivos. As configurações salvas em sites não são excluídas e podem refletir seus hábitos de navegação. <ph name="BEGIN_LINK" />Saiba mais<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Selecione o Chrome</translation>
+<translation id="746684838091935575">3. Selecione o Mises</translation>
 <translation id="7472734401283673885">Nome da empresa</translation>
 <translation id="7473891865547856676">Agora não</translation>
 <translation id="7481312909269577407">Avançar</translation>
@@ -727,13 +727,13 @@ Na navegação anônima, eles não podem usar cookies para ver suas atividades d
 <translation id="7781011649027948662">Traduzir página?</translation>
 <translation id="7781069478569868053">Página "Nova guia"</translation>
 <translation id="7781829728241885113">Ontem</translation>
-<translation id="778855399387580014">Inicie uma pesquisa em uma nova guia do Chrome.</translation>
+<translation id="778855399387580014">Inicie uma pesquisa em uma nova guia do Mises.</translation>
 <translation id="7791543448312431591">Adicionar</translation>
 <translation id="7839985698273989086">Página offline</translation>
 <translation id="7840771868269352570">Os itens selec. serão removidos.</translation>
 <translation id="7856733331829174190">Falha no download</translation>
 <translation id="7859704718976024901">Histórico de navegação</translation>
-<translation id="7887198238286927132">Para proteger sua privacidade, o Chrome não preencherá esse campo automaticamente.</translation>
+<translation id="7887198238286927132">Para proteger sua privacidade, o Mises não preencherá esse campo automaticamente.</translation>
 <translation id="7911190106180361398">Sua organização não permite que você sincronize tudo.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Exportar senhas…</translation>
@@ -748,14 +748,14 @@ Eles também podem usar cookies para ver sua atividade de navegação em diferen
 <translation id="7978018860671536736">3. Toque em "Preenchimento automático de senhas"</translation>
 <translation id="7982789257301363584">Rede</translation>
 <translation id="7993619969781047893">Os recursos de alguns sites podem apresentar falhas</translation>
-<translation id="800361585186029508">Abre os URLs fornecidos no Google Chrome.</translation>
+<translation id="800361585186029508">Abre os URLs fornecidos no Mises.</translation>
 <translation id="802154636333426148">Falha no download</translation>
 <translation id="8023878949384262191">Expande a seção.</translation>
 <translation id="8027581147000338959">Abrir em uma nova janela</translation>
 <translation id="804225253087497565">O <ph name="BEGIN_LINK" />histórico de pesquisa<ph name="END_LINK" /> e <ph name="BEGIN_LINK" />outras formas de atividade<ph name="END_LINK" /> podem ser salvos na sua Conta do Google quando ela está conectada. É possível excluí-los a qualquer momento.</translation>
 <translation id="804427445359061970">Você encontrará as guias de outros dispositivos aqui</translation>
 <translation id="8059533439631660104">Recolhe a seção.</translation>
-<translation id="8065292699993359127">Abrir URLs na navegação anônima do Chrome</translation>
+<translation id="8065292699993359127">Abrir URLs na navegação anônima do Mises</translation>
 <translation id="806745655614357130">Manter meus dados separados</translation>
 <translation id="8073670137947914548">Download concluído</translation>
 <translation id="8073872304774253879">Melhorar as pesquisas e a navegação</translation>
@@ -804,7 +804,7 @@ Eles também podem usar cookies para ver sua atividade de navegação em diferen
 <translation id="8533670235862049797">O Navegação segura está ativado</translation>
 <translation id="8534481786647257214">A postagem no Google+ foi concluída.</translation>
 <translation id="8548878600947630424">Encontrar na página...</translation>
-<translation id="8574235780160508979">Os Termos de Serviço do Chrome serão atualizados em 31 de março. <ph name="BEGIN_LINK" />Leia aqui<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Os Termos de Serviço do Mises serão atualizados em 31 de março. <ph name="BEGIN_LINK" />Leia aqui<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Desativada</translation>
 <translation id="8590913940444621808">Nunca perguntar</translation>
 <translation id="8591976964826315682">Bloquear cookies de terceiros na navegação anônima</translation>
@@ -855,7 +855,7 @@ Eles também podem usar cookies para ver sua atividade de navegação em diferen
 <translation id="9081058212938299310">Atualizar senha para <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 item</translation>
 <translation id="9083838294503912307">Para sincronizar e personalizar vários dispositivos, ative a sincronização.</translation>
-<translation id="9087108903408689779">Senha sugerida pelo Chrome:</translation>
+<translation id="9087108903408689779">Senha sugerida pelo Mises:</translation>
 <translation id="9094033019050270033">Atualizar senha</translation>
 <translation id="9100610230175265781">Senha necessária</translation>
 <translation id="9107664647686727385">Verificar senhas comprometidas</translation>

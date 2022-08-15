@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">Itago sa ngayon</translation>
 <translation id="1219674500290482172">Hindi makakonekta sa Internet.</translation>
 <translation id="122699739164161391">Isara ang Lahat ng Tab</translation>
-<translation id="1229222343402087523">Hanapin ang ${searchPhrase} sa Chrome</translation>
+<translation id="1229222343402087523">Hanapin ang ${searchPhrase} sa Mises</translation>
 <translation id="1231733316453485619">I-on ang pag-sync?</translation>
 <translation id="1242044645101871359">Mag-sign In Ulit</translation>
 <translation id="1254117744268754948">Pumili ng Folder</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">Pinapayagan ka lang ng iyong organisasyon na mag-sign in gamit ang ilang partikular na account. Nakatago ang mga account na hindi pinapayagan. <ph name="BEGIN_LINK" />Matuto Pa<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">I-double tap upang kopyahin.</translation>
 <translation id="1952172573699511566">Magpapakita ang mga website ng text sa iyong gustong wika, kung posible.</translation>
-<translation id="1965935827552890526">Tapusin ang ginagawa mo sa iyong iba pang nakabukas na window ng Chrome.</translation>
+<translation id="1965935827552890526">Tapusin ang ginagawa mo sa iyong iba pang nakabukas na window ng Mises.</translation>
 <translation id="196896377990863006">Ipakita ang Preview ng Link</translation>
 <translation id="1973912524893600642">Panatilihin ang Data</translation>
 <translation id="1974060860693918893">Advanced</translation>
@@ -191,12 +191,12 @@ Hindi magagamit ng mga site ang cookies para makita ang iyong aktibidad sa pag-b
 <translation id="2783054063075604403">Hindi Makagawa ng Link</translation>
 <translation id="2800683595868705743">Umalis sa Tagalipat ng Tab</translation>
 <translation id="2815198996063984598">2. I-tap ang Default na Browser App</translation>
-<translation id="2820289420301699633">May kontrol ang iyong administrator sa Chrome at maa-access niya ang data nito</translation>
+<translation id="2820289420301699633">May kontrol ang iyong administrator sa Mises at maa-access niya ang data nito</translation>
 <translation id="2830972654601096923">Pamahalaan ang Mga Address...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">I-reset ang Mga Setting ng Pagsasalin</translation>
 <translation id="2848086008667475748">Gawing Default sa Mga Setting…</translation>
-<translation id="2858204748079866344">Para protektahan ang iyong privacy, hindi io-autofill ng Chrome ang password mo sa field na ito.</translation>
+<translation id="2858204748079866344">Para protektahan ang iyong privacy, hindi io-autofill ng Mises ang password mo sa field na ito.</translation>
 <translation id="285960592395650245">Subukan Muli ang Download</translation>
 <translation id="2870560284913253234">Site</translation>
 <translation id="2871695793448672541">Nakatago, Password</translation>
@@ -210,7 +210,7 @@ Hindi magagamit ng mga site ang cookies para makita ang iyong aktibidad sa pag-b
 <translation id="2923448633003185837">Mag-paste at Umalis</translation>
 <translation id="292639812446257861">Markahan Bilang Hindi pa Nababasa</translation>
 <translation id="2932085390869194046">Magmungkahi ng Password...</translation>
-<translation id="2952581218264071393">1. Buksan ang Mga Setting ng Chrome</translation>
+<translation id="2952581218264071393">1. Buksan ang Mga Setting ng Mises</translation>
 <translation id="2958718410589002129">Mga Password</translation>
 <translation id="2961210776189273067">Pamagat</translation>
 <translation id="2964349545761222050">I-block ang Third-Party Cookies</translation>
@@ -257,7 +257,7 @@ Tingnan ang mga tagubilin ng iyong search engine para sa pag-delete sa history n
 <translation id="3335947283844343239">Muling buksan ang Nakasarang Tab</translation>
 <translation id="3371831930909698441">Available ang pagsasalin. May mga opsyon malapit sa ibaba ng screen.</translation>
 <translation id="3393920035788932672">Pinapayagan ang Mga Pop-up</translation>
-<translation id="3399930248910934354">Buksan ang Mga Setting ng Chrome</translation>
+<translation id="3399930248910934354">Buksan ang Mga Setting ng Mises</translation>
 <translation id="3404744938087714423">Mao-off ang pag-sync kung magsa-sign out.</translation>
 <translation id="3414451675185661089">2. Mag-tap sa Mga Password</translation>
 <translation id="3425644765244388016">Nickname ng Card</translation>
@@ -283,7 +283,7 @@ Tingnan ang mga tagubilin ng iyong search engine para sa pag-delete sa history n
 <translation id="3551320343578183772">Isara ang Tab</translation>
 <translation id="3581564640715911333">Mag-alok na mag-translate ng mga page sa iba pang wika</translation>
 <translation id="3588820906588687999">Buksan ang Larawan sa Bagong Tab</translation>
-<translation id="359441731697487922">Puwede kang awtomatikong magbukas ng mga link sa Chrome sa pamamagitan ng pagtatakda rito bilang iyong Default na Browser App.
+<translation id="359441731697487922">Puwede kang awtomatikong magbukas ng mga link sa Mises sa pamamagitan ng pagtatakda rito bilang iyong Default na Browser App.
       
 Sundin ang mga hakbang sa ibaba:</translation>
 <translation id="3603009562372709545">Kopyahin ang URL ng Link</translation>
@@ -296,7 +296,7 @@ Sundin ang mga hakbang sa ibaba:</translation>
 <translation id="3691593122358196899">Na-bookmark sa <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Mag-alok na Mag-save ng Mga Password</translation>
 <translation id="3709582977625132201">Markahan Bilang Hindi pa Nababasa</translation>
-<translation id="3740397331642243698">Bubuksan sa Incognito ang mga inilagay na URL sa Google Chrome.</translation>
+<translation id="3740397331642243698">Bubuksan sa Incognito ang mga inilagay na URL sa Mises.</translation>
 <translation id="3762232513783804601">Ginawa Para sa Iyong iPad</translation>
 <translation id="3771033907050503522">Mga Tab na Incognito</translation>
 <translation id="3775743491439407556">Hindi Gumagana ang Pag-sync</translation>
@@ -309,7 +309,7 @@ Sundin ang mga hakbang sa ibaba:</translation>
 <translation id="3858860766373142691">Pangalan</translation>
 <translation id="3892144330757387737">Makikita mo rito ang iyong history</translation>
 <translation id="3897092660631435901">Menu</translation>
-<translation id="3913386780052199712">Naka-sign in sa Chrome</translation>
+<translation id="3913386780052199712">Naka-sign in sa Mises</translation>
 <translation id="3915450441834151894">Impormasyon ng Site</translation>
 <translation id="3922310737605261887">Maghanap para sa Kinopyang Text</translation>
 <translation id="3928666092801078803">Pagsamahin ang aking data</translation>
@@ -426,12 +426,12 @@ Para baguhin ang setting na ito, <ph name="BEGIN_LINK" />i-reset ang pag-sync<ph
 <translation id="5062321486222145940">I-install - Google Drive</translation>
 <translation id="5083464117946352670">Hindi matukoy ang file size.</translation>
 <translation id="5090832849094901128">Kapag na-delete ang password na ito, hindi ide-delete ang iyong account sa <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Puwede kang mag-save ng mga page para basahin sa ibang pagkakataon o nang offline. Tatanungin ka ng Chrome kung gusto mong mag-save ng mahahabang page.</translation>
+<translation id="5092117651143801290">Puwede kang mag-save ng mga page para basahin sa ibang pagkakataon o nang offline. Tatanungin ka ng Mises kung gusto mong mag-save ng mahahabang page.</translation>
 <translation id="5094827893301452931">Kumpleto na ang Tweet.</translation>
 <translation id="5118764316110575523">Naka-off</translation>
 <translation id="5127805178023152808">Naka-off ang pag-sync</translation>
 <translation id="5132942445612118989">I-sync ang iyong mga password, history, at higit pa sa lahat ng device</translation>
-<translation id="5140288047769711648">Tatandaan ng Chrome ang password na ito para sa iyo. Hindi mo ito kailangang tandaan.</translation>
+<translation id="5140288047769711648">Tatandaan ng Mises ang password na ito para sa iyo. Hindi mo ito kailangang tandaan.</translation>
 <translation id="5150492518600715772">Ipadala Sa Iyong Device</translation>
 <translation id="5168414296986405587">Binuo para sa iPadOS</translation>
 <translation id="5173088371991956744">Kailangang Ma-verify ng Pag-sync na Ikaw Ito</translation>
@@ -479,7 +479,7 @@ Dapat ding naka-enable ang handoff sa Pangkalahatang seksyon ng Mga Setting, at 
 <translation id="5659593005791499971">Email</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Bersyon <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Nagpapakita ngayon ng 1 window ng Chrome}one{Nagpapakita ngayon ng {count} window ng Chrome}other{Nagpapakita ngayon ng {count} na window ng Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Nagpapakita ngayon ng 1 window ng Mises}one{Nagpapakita ngayon ng {count} window ng Mises}other{Nagpapakita ngayon ng {count} na window ng Mises}}</translation>
 <translation id="5706552126692816153">Aktibo 1 Araw ang Nakalipas</translation>
 <translation id="5711039611392265845">Para sa higit pang setting na nauugnay sa privacy, seguridad, at pagkolekta ng data, tingnan ang <ph name="BEGIN_LINK" />Pag-sync at Mga Serbisyo ng Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Para pribadong mag-browse sa web, magdagdag ng bagong tab</translation>
@@ -518,7 +518,7 @@ Dapat ding naka-enable ang handoff sa Pangkalahatang seksyon ng Mga Setting, at 
 <translation id="5979837087407522202">Maghanap ng Mga Password</translation>
 <translation id="5982717868370722439">Idagdag ang kasalukuyang data sa <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Kamakailang Binisita</translation>
-<translation id="5988851877894965432">Buksan ang mga URL sa Chrome</translation>
+<translation id="5988851877894965432">Buksan ang mga URL sa Mises</translation>
 <translation id="6012140227487808125">Ine-encrypt…</translation>
 <translation id="6021332621416007159">Buksan sa...</translation>
 <translation id="6027945736510816438">Ang ibig mo bang sabihin ay <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ Dapat ding naka-enable ang handoff sa Pangkalahatang seksyon ng Mga Setting, at 
 <translation id="6136914049981179737">Segundo</translation>
 <translation id="6144589619057374135">Buksan ang ${url} sa Incognito</translation>
 <translation id="6159839020698489198">opsyonal</translation>
-<translation id="6177442314419606057">Search in Chrome</translation>
+<translation id="6177442314419606057">Search in Mises</translation>
 <translation id="6184086493125982861">Ipakita ang Mga Tab</translation>
 <translation id="6187302354554850004">Huling na-sync: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Hindi pa nababasa</translation>
@@ -673,7 +673,7 @@ Habang nasa Incognito, hindi magagamit ng mga site ang cookies para makita ang i
 <translation id="7189598951263744875">Ibahagi...</translation>
 <translation id="7192050974311852563">Simulan ang Pag-log</translation>
 <translation id="7203585745079012652">Bigkasin ang Mga Sagot</translation>
-<translation id="7207383424303353046">Bago: Awtomatikong buksan ang mga site sa Chrome sa pamamagitan ng paggawa ritong Default na Browser App mo. <ph name="BEGIN_LINK" />Buksan ang Mga Setting<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Bago: Awtomatikong buksan ang mga site sa Mises sa pamamagitan ng paggawa ritong Default na Browser App mo. <ph name="BEGIN_LINK" />Buksan ang Mga Setting<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Invalid ang Nickname ng Card</translation>
 <translation id="722454870747268814">Bagong Tab na Incognito</translation>
 <translation id="7265758999917665941">Hindi Kailanman Para sa Site na Ito</translation>
@@ -699,7 +699,7 @@ Habang nasa Incognito, hindi magagamit ng mga site ang cookies para makita ang i
 <translation id="7454057999980797137">Estado / County</translation>
 <translation id="7456847797759667638">Buksan ang Lokasyon...</translation>
 <translation id="7464701184726199289">Maki-clear nito ang mga naka-sync na data mula sa lahat ng device. Hindi made-delete ang mga naka-save na setting ng site at maaari nitong ipakita ang iyong mga gawi sa pagba-browse. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Piliin ang Chrome</translation>
+<translation id="746684838091935575">3. Piliin ang Mises</translation>
 <translation id="7472734401283673885">Pangalan ng Kumpanya</translation>
 <translation id="7473891865547856676">Hindi, Salamat</translation>
 <translation id="7481312909269577407">Sumulong</translation>
@@ -727,13 +727,13 @@ Habang nasa Incognito, hindi magagamit ng mga site ang cookies para makita ang i
 <translation id="7781011649027948662">Isalin ang Page?</translation>
 <translation id="7781069478569868053">Page ng Bagong Tab</translation>
 <translation id="7781829728241885113">Kahapon</translation>
-<translation id="778855399387580014">Start a search in a new Chrome tab.</translation>
+<translation id="778855399387580014">Start a search in a new Mises tab.</translation>
 <translation id="7791543448312431591">Idagdag</translation>
 <translation id="7839985698273989086">Offline na Page</translation>
 <translation id="7840771868269352570">Maaalis ang mga pinili mong item.</translation>
 <translation id="7856733331829174190">Hindi Ma-download</translation>
 <translation id="7859704718976024901">History ng Pag-browse</translation>
-<translation id="7887198238286927132">Para protektahan ang iyong privacy, hindi io-autofill ng Chrome ang field na ito.</translation>
+<translation id="7887198238286927132">Para protektahan ang iyong privacy, hindi io-autofill ng Mises ang field na ito.</translation>
 <translation id="7911190106180361398">Hindi ka pinapayagan ng iyong organisasyon na i-sync ang lahat.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">I-export Password...</translation>
@@ -748,14 +748,14 @@ Puwedeng gumamit ng cookies ang mga site para makita ang iyong aktibidad sa pag-
 <translation id="7978018860671536736">3. I-tap ang I-autofill ang Mga Password</translation>
 <translation id="7982789257301363584">Network</translation>
 <translation id="7993619969781047893">Posibleng masira ang mga feature sa ilang site</translation>
-<translation id="800361585186029508">Binubuksan ang mga inilagay na URL sa Google Chrome.</translation>
+<translation id="800361585186029508">Binubuksan ang mga inilagay na URL sa Mises.</translation>
 <translation id="802154636333426148">Hindi na-download</translation>
 <translation id="8023878949384262191">Pinapalawak ang seksyon.</translation>
 <translation id="8027581147000338959">Buksan sa Bagong Window</translation>
 <translation id="804225253087497565">Posibleng ma-save sa iyong Google Account ang <ph name="BEGIN_LINK" />history ng paghahanap<ph name="END_LINK" /> at <ph name="BEGIN_LINK" />iba pang anyo ng aktibidad<ph name="END_LINK" /> kapag naka-sign in ka. Puwede mong i-delete ang mga ito anumang oras.</translation>
 <translation id="804427445359061970">Makikita mo rito ang iyong mga tab mula sa iba pang device</translation>
 <translation id="8059533439631660104">Kino-collapse ang seksyon.</translation>
-<translation id="8065292699993359127">Buksan ang mga URL sa Chrome sa Incognito</translation>
+<translation id="8065292699993359127">Buksan ang mga URL sa Mises sa Incognito</translation>
 <translation id="806745655614357130">Panatilihing hiwalay ang aking data</translation>
 <translation id="8073670137947914548">Tapos na ang pag-download</translation>
 <translation id="8073872304774253879">Mas Pahusayin ang Mga Paghahanap at Pagba-browse</translation>
@@ -804,7 +804,7 @@ Puwedeng gumamit ng cookies ang mga site para makita ang iyong aktibidad sa pag-
 <translation id="8533670235862049797">Naka-on ang Ligtas na Pag-browse</translation>
 <translation id="8534481786647257214">Kumpleto na ang pag-post sa Google+.</translation>
 <translation id="8548878600947630424">Hanapin sa page...</translation>
-<translation id="8574235780160508979">Magbabago ang Mga Tuntunin ng Serbisyo ng Chrome sa Marso 31. <ph name="BEGIN_LINK" />Pakisuri<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Magbabago ang Mga Tuntunin ng Serbisyo ng Mises sa Marso 31. <ph name="BEGIN_LINK" />Pakisuri<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Naka-off</translation>
 <translation id="8590913940444621808">Huwag Magtanong</translation>
 <translation id="8591976964826315682">I-block ang Third-Party na Cookies sa Incognito</translation>
@@ -855,7 +855,7 @@ Puwedeng gumamit ng cookies ang mga site para makita ang iyong aktibidad sa pag-
 <translation id="9081058212938299310">I-update ang password para sa <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 item</translation>
 <translation id="9083838294503912307">Para mag-sync at mag-personalize sa mga device, i-on ang pag-sync.</translation>
-<translation id="9087108903408689779">Iminungkahing Password ng Chrome:</translation>
+<translation id="9087108903408689779">Iminungkahing Password ng Mises:</translation>
 <translation id="9094033019050270033">I-update ang password</translation>
 <translation id="9100610230175265781">Kinakailangan ang passphrase</translation>
 <translation id="9107664647686727385">Tingnan kung may mga nakompromisong password</translation>

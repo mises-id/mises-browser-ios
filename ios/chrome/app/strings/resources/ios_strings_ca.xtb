@@ -33,7 +33,7 @@ El teu motor de cerca és <ph name="DSE_NAME" />. Consulta'n les instruccions pe
 <translation id="1209206284964581585">Amaga per ara</translation>
 <translation id="1219674500290482172">No es pot connectar a Internet.</translation>
 <translation id="122699739164161391">Tanca totes les pestanyes</translation>
-<translation id="1229222343402087523">Cerca ${searchPhrase} a Chrome</translation>
+<translation id="1229222343402087523">Cerca ${searchPhrase} a Mises</translation>
 <translation id="1231733316453485619">Vols activar la sincronització?</translation>
 <translation id="1242044645101871359">Torna a iniciar la sessió</translation>
 <translation id="1254117744268754948">Tria la carpeta</translation>
@@ -110,7 +110,7 @@ El teu motor de cerca és <ph name="DSE_NAME" />. Consulta'n les instruccions pe
 <translation id="1930989359703290198">La teva organització només et permet iniciar la sessió amb determinats comptes. Els comptes no admesos estan amagats. <ph name="BEGIN_LINK" />Més informació<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Feu doble toc per copiar-ho.</translation>
 <translation id="1952172573699511566">Quan sigui possible, els llocs web mostraran el text en el teu idioma preferit.</translation>
-<translation id="1965935827552890526">Acaba el que estaves fent a l'altra finestra de Chrome oberta.</translation>
+<translation id="1965935827552890526">Acaba el que estaves fent a l'altra finestra de Mises oberta.</translation>
 <translation id="196896377990863006">Mostra la previsualització de l'enllaç</translation>
 <translation id="1973912524893600642">Conserva les dades</translation>
 <translation id="1974060860693918893">Configuració avançada</translation>
@@ -138,7 +138,7 @@ El teu motor de cerca és <ph name="DSE_NAME" />. Consulta'n les instruccions pe
 <translation id="225943865679747347">Codi d'error: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Afegeix un compte</translation>
 <translation id="2268044343513325586">Restringeix</translation>
-<translation id="2271351792809375263">Utilitza les contrasenyes que tens desades a Chrome en altres aplicacions del teu dispositiu</translation>
+<translation id="2271351792809375263">Utilitza les contrasenyes que tens desades a Mises en altres aplicacions del teu dispositiu</translation>
 <translation id="2273327106802955778">Més opcions del menú</translation>
 <translation id="2302742851632557585">Canvia la contrasenya al lloc web</translation>
 <translation id="2316709634732130529">Utilitza la contrasenya suggerida</translation>
@@ -191,12 +191,12 @@ Els llocs web no poden fer servir galetes per veure la teva activitat de navegac
 <translation id="2783054063075604403">No es pot crear l'enllaç</translation>
 <translation id="2800683595868705743">Surt del selector de pestanyes</translation>
 <translation id="2815198996063984598">2. Toca Aplicació de navegador predeterminada.</translation>
-<translation id="2820289420301699633">El teu administrador té control sobre Chrome i pot accedir a les dades associades</translation>
+<translation id="2820289420301699633">El teu administrador té control sobre Mises i pot accedir a les dades associades</translation>
 <translation id="2830972654601096923">Gestiona les adreces...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Restableix config. Traductor</translation>
 <translation id="2848086008667475748">Estableix com a predeterminat a Configuració…</translation>
-<translation id="2858204748079866344">Amb la finalitat de protegir la teva privadesa, Chrome no emplenarà automàticament la contrasenya en aquest camp.</translation>
+<translation id="2858204748079866344">Amb la finalitat de protegir la teva privadesa, Mises no emplenarà automàticament la contrasenya en aquest camp.</translation>
 <translation id="285960592395650245">Torna a provar la baixada</translation>
 <translation id="2870560284913253234">Lloc web</translation>
 <translation id="2871695793448672541">Contrasenya amagada</translation>
@@ -210,7 +210,7 @@ Els llocs web no poden fer servir galetes per veure la teva activitat de navegac
 <translation id="2923448633003185837">Enganxa i ves-hi</translation>
 <translation id="292639812446257861">Marca com a no llegit</translation>
 <translation id="2932085390869194046">Suggereix una contrasenya...</translation>
-<translation id="2952581218264071393">1. Obre la configuració de Chrome.</translation>
+<translation id="2952581218264071393">1. Obre la configuració de Mises.</translation>
 <translation id="2958718410589002129">Contrasenyes</translation>
 <translation id="2961210776189273067">Títol</translation>
 <translation id="2964349545761222050">Bloqueja les galetes de tercers</translation>
@@ -257,7 +257,7 @@ Consulta les instruccions del teu motor de cerca per suprimir l'historial de cer
 <translation id="3335947283844343239">Torna a obrir la pestanya tancada</translation>
 <translation id="3371831930909698441">El Traductor està disponible. Tens opcions a la part inferior de la pantalla</translation>
 <translation id="3393920035788932672">Finestres emergents permeses</translation>
-<translation id="3399930248910934354">Obre la configuració de Chrome</translation>
+<translation id="3399930248910934354">Obre la configuració de Mises</translation>
 <translation id="3404744938087714423">Tancar la sessió desactiva la sincronització.</translation>
 <translation id="3414451675185661089">2. Toca Contrasenyes.</translation>
 <translation id="3425644765244388016">Àlies de la targeta</translation>
@@ -283,7 +283,7 @@ Consulta les instruccions del teu motor de cerca per suprimir l'historial de cer
 <translation id="3551320343578183772">Tanca la pestanya</translation>
 <translation id="3581564640715911333">Proposa traduir les pàgines en altres idiomes</translation>
 <translation id="3588820906588687999">Obre la imatge en una pestanya nova</translation>
-<translation id="359441731697487922">Pots obrir enllaços a Chrome automàticament establint-lo com a aplicació de navegador predeterminada.
+<translation id="359441731697487922">Pots obrir enllaços a Mises automàticament establint-lo com a aplicació de navegador predeterminada.
       
 Segueix aquests passos:</translation>
 <translation id="3603009562372709545">Copia l'URL de l'enllaç</translation>
@@ -296,7 +296,7 @@ Segueix aquests passos:</translation>
 <translation id="3691593122358196899">Adreça d'interès afegida a <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Ofereix desar contrasenyes</translation>
 <translation id="3709582977625132201">Marca com a no llegit</translation>
-<translation id="3740397331642243698">Obre els URL introduïts en mode d'incògnit a Google Chrome.</translation>
+<translation id="3740397331642243698">Obre els URL introduïts en mode d'incògnit a Mises.</translation>
 <translation id="3762232513783804601">Creat per a l'iPad</translation>
 <translation id="3771033907050503522">Pestanyes d'incògnit</translation>
 <translation id="3775743491439407556">La sincronització no funciona</translation>
@@ -309,7 +309,7 @@ Segueix aquests passos:</translation>
 <translation id="3858860766373142691">Nom</translation>
 <translation id="3892144330757387737">Trobaràs l'historial aquí</translation>
 <translation id="3897092660631435901">Menú</translation>
-<translation id="3913386780052199712">Sessió iniciada a Chrome</translation>
+<translation id="3913386780052199712">Sessió iniciada a Mises</translation>
 <translation id="3915450441834151894">Informació del lloc web</translation>
 <translation id="3922310737605261887">Cerca el text copiat</translation>
 <translation id="3928666092801078803">Combina les meves dades</translation>
@@ -426,12 +426,12 @@ Per canviar aquesta opció, <ph name="BEGIN_LINK" />restableix la sincronitzaci�
 <translation id="5062321486222145940">Instal. de Google Drive</translation>
 <translation id="5083464117946352670">No es determina mida fitxer.</translation>
 <translation id="5090832849094901128">Encara que suprimeixis aquesta contrasenya, no se suprimirà el teu compte a <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Pots desar pàgines per llegir-les més endavant o sense connexió. Chrome et demanarà si vols desar les pàgines llargues.</translation>
+<translation id="5092117651143801290">Pots desar pàgines per llegir-les més endavant o sense connexió. Mises et demanarà si vols desar les pàgines llargues.</translation>
 <translation id="5094827893301452931">S'ha completat el tuit.</translation>
 <translation id="5118764316110575523">Desactivat</translation>
 <translation id="5127805178023152808">Sincronització desactivada</translation>
 <translation id="5132942445612118989">Sincronitza les contrasenyes, l'historial i altres elements en tots els dispositius</translation>
-<translation id="5140288047769711648">Chrome recordarà aquesta contrasenya. No cal que la memoritzis.</translation>
+<translation id="5140288047769711648">Mises recordarà aquesta contrasenya. No cal que la memoritzis.</translation>
 <translation id="5150492518600715772">Envia al teu dispositiu</translation>
 <translation id="5168414296986405587">Creat per a iPadOS</translation>
 <translation id="5173088371991956744">La sincronització ha de verificar la teva identitat</translation>
@@ -479,7 +479,7 @@ Handoff també ha d'estar activat a la secció General de Configuració, i els v
 <translation id="5659593005791499971">Adreça electrònica</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Versió <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Es mostra 1 finestra de Chrome}other{Es mostren {count} finestres de Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Es mostra 1 finestra de Mises}other{Es mostren {count} finestres de Mises}}</translation>
 <translation id="5706552126692816153">Actiu fa 1 dia</translation>
 <translation id="5711039611392265845">Per trobar més opcions de configuració relacionades amb la privadesa, la seguretat i la recollida de dades, consulta <ph name="BEGIN_LINK" />Sincronització i serveis de Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Per navegar pel web de manera privada, obre una pestanya nova</translation>
@@ -518,7 +518,7 @@ Handoff també ha d'estar activat a la secció General de Configuració, i els v
 <translation id="5979837087407522202">Cerca contrasenyes</translation>
 <translation id="5982717868370722439">Afegeix les dades existents a <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Visitats recentment</translation>
-<translation id="5988851877894965432">Obre els URL a Chrome</translation>
+<translation id="5988851877894965432">Obre els URL a Mises</translation>
 <translation id="6012140227487808125">S'està encriptant…</translation>
 <translation id="6021332621416007159">Obre a...</translation>
 <translation id="6027945736510816438">Volies dir <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ Handoff també ha d'estar activat a la secció General de Configuració, i els v
 <translation id="6136914049981179737">Fa segons</translation>
 <translation id="6144589619057374135">Obre ${url} en mode d'incògnit</translation>
 <translation id="6159839020698489198">opcional</translation>
-<translation id="6177442314419606057">Fes cerques a Chrome</translation>
+<translation id="6177442314419606057">Fes cerques a Mises</translation>
 <translation id="6184086493125982861">Mostra les pestanyes</translation>
 <translation id="6187302354554850004">Última sincronització: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">No llegits</translation>
@@ -673,7 +673,7 @@ En mode d'incògnit, els llocs web no poden fer servir galetes per veure la teva
 <translation id="7189598951263744875">Comparteix...</translation>
 <translation id="7192050974311852563">Inicia el registre</translation>
 <translation id="7203585745079012652">Pronuncia les respostes</translation>
-<translation id="7207383424303353046">Novetat: obre llocs web a Chrome automàticament establint-lo com a aplicació de navegador predeterminada. <ph name="BEGIN_LINK" />Obre Configuració<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Novetat: obre llocs web a Mises automàticament establint-lo com a aplicació de navegador predeterminada. <ph name="BEGIN_LINK" />Obre Configuració<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">L'àlies de la targeta no és vàlid</translation>
 <translation id="722454870747268814">Pestanya d'incògnit nova</translation>
 <translation id="7265758999917665941">Mai per a aquest lloc web</translation>
@@ -699,7 +699,7 @@ En mode d'incògnit, els llocs web no poden fer servir galetes per veure la teva
 <translation id="7454057999980797137">Província</translation>
 <translation id="7456847797759667638">Obre la ubicació...</translation>
 <translation id="7464701184726199289">S'esborraran les dades sincronitzades de tots els dispositius. La configuració desada del lloc no se suprimirà i és possible que reflecteixi els vostres hàbits de navegació. <ph name="BEGIN_LINK" />Més informació<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Selecciona Chrome.</translation>
+<translation id="746684838091935575">3. Selecciona Mises.</translation>
 <translation id="7472734401283673885">Nom de l'empresa</translation>
 <translation id="7473891865547856676">No, gràcies</translation>
 <translation id="7481312909269577407">Endavant</translation>
@@ -727,13 +727,13 @@ En mode d'incògnit, els llocs web no poden fer servir galetes per veure la teva
 <translation id="7781011649027948662">Vols traduir la pàgina?</translation>
 <translation id="7781069478569868053">Pàgina Pestanya nova</translation>
 <translation id="7781829728241885113">Ahir</translation>
-<translation id="778855399387580014">Inicia una cerca en una pestanya nova de Chrome.</translation>
+<translation id="778855399387580014">Inicia una cerca en una pestanya nova de Mises.</translation>
 <translation id="7791543448312431591">Afegeix</translation>
 <translation id="7839985698273989086">Pàgina sense connexió</translation>
 <translation id="7840771868269352570">Els elements seleccionats se suprimiran.</translation>
 <translation id="7856733331829174190">No s'ha pogut baixar</translation>
 <translation id="7859704718976024901">Historial de navegació</translation>
-<translation id="7887198238286927132">Amb la finalitat de protegir la teva privadesa, Chrome no emplenarà aquest camp automàticament.</translation>
+<translation id="7887198238286927132">Amb la finalitat de protegir la teva privadesa, Mises no emplenarà aquest camp automàticament.</translation>
 <translation id="7911190106180361398">La teva organització no et permet sincronitzar-ho tot.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Exporta les contrasenyes</translation>
@@ -748,14 +748,14 @@ Els llocs web poden fer servir galetes per veure la teva activitat de navegació
 <translation id="7978018860671536736">3. Toca Emplenament automàtic de contrasenyes.</translation>
 <translation id="7982789257301363584">Xarxa</translation>
 <translation id="7993619969781047893">Pot ser que les funcions d'alguns llocs web no funcionin</translation>
-<translation id="800361585186029508">Obre els URL introduïts a Google Chrome.</translation>
+<translation id="800361585186029508">Obre els URL introduïts a Google Mises.</translation>
 <translation id="802154636333426148">Error de baixada</translation>
 <translation id="8023878949384262191">Desplega la secció.</translation>
 <translation id="8027581147000338959">Obre en una finestra nova</translation>
 <translation id="804225253087497565">És possible que l'<ph name="BEGIN_LINK" />historial de cerques<ph name="END_LINK" /> i <ph name="BEGIN_LINK" />altres tipus d'activitats<ph name="END_LINK" /> es desin al teu Compte de Google quan tinguis la sessió iniciada. Les pots suprimir en qualsevol moment.</translation>
 <translation id="804427445359061970">Trobaràs les teves pestanyes d'altres dispositius aquí</translation>
 <translation id="8059533439631660104">Replega la secció.</translation>
-<translation id="8065292699993359127">Obre els URL en mode d'incògnit a Chrome</translation>
+<translation id="8065292699993359127">Obre els URL en mode d'incògnit a Mises</translation>
 <translation id="806745655614357130">Mantén les meves dades separades</translation>
 <translation id="8073670137947914548">La baixada ha finalitzat</translation>
 <translation id="8073872304774253879">Millora les cerques i la navegació</translation>
@@ -804,7 +804,7 @@ Els llocs web poden fer servir galetes per veure la teva activitat de navegació
 <translation id="8533670235862049797">La funció Navegació segura està activada</translation>
 <translation id="8534481786647257214">S'ha completat la publicació a Google+.</translation>
 <translation id="8548878600947630424">Cerca a la pàgina...</translation>
-<translation id="8574235780160508979">Les condicions del servei de Chrome canviaran el 31 de març. <ph name="BEGIN_LINK" />Revisa-les<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Les condicions del servei de Mises canviaran el 31 de març. <ph name="BEGIN_LINK" />Revisa-les<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Desactivada</translation>
 <translation id="8590913940444621808">No ho demanis mai</translation>
 <translation id="8591976964826315682">Bloqueja les galetes de tercers en mode d'incògnit</translation>
@@ -855,7 +855,7 @@ Els llocs web poden fer servir galetes per veure la teva activitat de navegació
 <translation id="9081058212938299310">Vols actualitzar la contrasenya per a <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 element</translation>
 <translation id="9083838294503912307">Per sincronitzar i personalitzar el contingut en tots els dispositius, activa la sincronització.</translation>
-<translation id="9087108903408689779">Contrasenya suggerida per Chrome:</translation>
+<translation id="9087108903408689779">Contrasenya suggerida per Mises:</translation>
 <translation id="9094033019050270033">Actualitza la contrasenya</translation>
 <translation id="9100610230175265781">S'ha d'introduir una frase de contrasenya </translation>
 <translation id="9107664647686727385">Comprova que no hi hagi contrasenyes en perill</translation>

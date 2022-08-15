@@ -9,7 +9,7 @@
 <translation id="1015730422737071372">Zadejte další podrobnosti</translation>
 <translation id="1019413721762100891">Vypnuto</translation>
 <translation id="1021110881106174305">Přijímané karty</translation>
-<translation id="1021753677514347426">K tomuto problému dochází kvůli certifikátu, který jste vy nebo někdo jiný nainstalovali do zařízení. O certifikátu je známo, že se používá ke sledování a zachytávání provozu v sítích, a Chromium mu nedůvěřuje. Ačkoliv sledování v některých případech (například ve školní nebo firemní síti) může být legitimní a nemůžete mu zabránit, Chromium se chce ujistit, že o něm víte. Ke sledování může docházet v kterémkoliv prohlížeči nebo aplikaci, které přistupují k webu.</translation>
+<translation id="1021753677514347426">K tomuto problému dochází kvůli certifikátu, který jste vy nebo někdo jiný nainstalovali do zařízení. O certifikátu je známo, že se používá ke sledování a zachytávání provozu v sítích, a Mises mu nedůvěřuje. Ačkoliv sledování v některých případech (například ve školní nebo firemní síti) může být legitimní a nemůžete mu zabránit, Mises se chce ujistit, že o něm víte. Ke sledování může docházet v kterémkoliv prohlížeči nebo aplikaci, které přistupují k webu.</translation>
 <translation id="1024111578869940408">Útočníci někdy weby napodobují provedením snadno přehlédnutelných změn ve webové adrese.</translation>
 <translation id="1028781062521375153">Zobrazit podrobnosti</translation>
 <translation id="1030706264415084469">Stránka <ph name="URL" /> chce v zařízení trvale ukládat velké množství dat</translation>
@@ -83,7 +83,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="124116460088058876">Další jazyky</translation>
 <translation id="1243027604378859286">Autor:</translation>
 <translation id="1246424317317450637">Tučné</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím tabulátoru a poté klávesy Enter si v nastavení Chrome OS můžete přizpůsobit nástroje pro usnadnění přístupu</translation>
+<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím tabulátoru a poté klávesy Enter si v nastavení Mises OS můžete přizpůsobit nástroje pro usnadnění přístupu</translation>
 <translation id="1250759482327835220">Abyste příště mohli zaplatit rychleji, uložte si kartu, jméno a fakturační adresu do účtu Google.</translation>
 <translation id="1252799212227771492">Tlačítko Vytvořit tabulku, stisknutím klávesy Enter rychle vytvoříte novou Tabulku Google</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (synchronizováno)</translation>
@@ -200,7 +200,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="154408704832528245">Vybrat adresu doručení</translation>
 <translation id="1549470594296187301">Chcete-li tuto funkci použít, musí být aktivován JavaScript.</translation>
 <translation id="155039086686388498">Engineering-D</translation>
-<translation id="1553358976309200471">Aktualizovat Chrome</translation>
+<translation id="1553358976309200471">Aktualizovat Mises</translation>
 <translation id="1555130319947370107">Modrá</translation>
 <translation id="1559447966090556585">Zobrazovat oznámení?</translation>
 <translation id="1559528461873125649">Daný soubor nebo adresář neexistuje.</translation>
@@ -235,7 +235,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="1645368109819982629">Nepodporovaný protokol</translation>
 <translation id="1650602712345345441">Spravovat nastavení Chromu</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="1656024727720460136">Chrome tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Chrome načetl přes zabezpečené připojení.</translation>
+<translation id="1656024727720460136">Mises tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Mises načetl přes zabezpečené připojení.</translation>
 <translation id="1656489000284462475">Vyzvednutí</translation>
 <translation id="1658918301167915956">zařízení bluetooth</translation>
 <translation id="1662550410081243962">Ukládat a vyplňovat platební metody</translation>
@@ -320,11 +320,11 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="1919345977826869612">Reklamy</translation>
 <translation id="1919367280705858090">Nápověda ke konkrétní chybové zprávě</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Žádné}=1{1 web}few{# weby}many{# webu}other{# webů}}</translation>
-<translation id="1923390796829649802">Tlačítko správy nastavení přístupnosti. Stisknutím klávesy Enter si v nastavení Chrome OS můžete přizpůsobit nástroje pro usnadnění přístupu</translation>
+<translation id="1923390796829649802">Tlačítko správy nastavení přístupnosti. Stisknutím klávesy Enter si v nastavení Mises OS můžete přizpůsobit nástroje pro usnadnění přístupu</translation>
 <translation id="1924727005275031552">Nová</translation>
 <translation id="1927439593081478069">Tlačítko Spustit bezpečnostní kontrolu Chromu, stisknutím klávesy Enter spustíte bezpečnostní kontrolu v nastavení Chromu</translation>
 <translation id="1939175642807587452">Může žádat o odesílání oznámení</translation>
-<translation id="1945968466830820669">Mohli byste ztratit přístup k účtu organizace nebo by mohlo dojít k odcizení vaší identity. Chromium doporučuje okamžitě změnit heslo.</translation>
+<translation id="1945968466830820669">Mohli byste ztratit přístup k účtu organizace nebo by mohlo dojít k odcizení vaší identity. Mises doporučuje okamžitě změnit heslo.</translation>
 <translation id="1947454675006758438">Sponka vpravo nahoře</translation>
 <translation id="1956486093533522234">Najít, zabezpečit nebo vymazat zařízení</translation>
 <translation id="1958218078413065209">Vaše nejvyšší skóre je <ph name="SCORE" />.</translation>
@@ -353,7 +353,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2042213636306070719">Přihrádka 7</translation>
 <translation id="204357726431741734">Chcete-li používat hesla uložená v účtu Google, přihlaste se</translation>
 <translation id="2053111141626950936">Stránky v jazyce <ph name="LANGUAGE" /> se nebudou překládat.</translation>
-<translation id="2053373601901562871">{NUM_DAYS,plural, =0{Když je tento ovládací prvek zapnutý a stav je aktivní, Chrome určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každý den aktualizuje.}=1{Když je tento ovládací prvek zapnutý a stav je aktivní, Chrome určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každý den aktualizuje.}few{Když je tento ovládací prvek zapnutý a stav je aktivní, Chrome určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každé {NUM_DAYS} dny aktualizuje.}many{Když je tento ovládací prvek zapnutý a stav je aktivní, Chrome určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každých {NUM_DAYS} dne aktualizuje.}other{Když je tento ovládací prvek zapnutý a stav je aktivní, Chrome určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každých {NUM_DAYS} dní aktualizuje.}}</translation>
+<translation id="2053373601901562871">{NUM_DAYS,plural, =0{Když je tento ovládací prvek zapnutý a stav je aktivní, Mises určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každý den aktualizuje.}=1{Když je tento ovládací prvek zapnutý a stav je aktivní, Mises určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každý den aktualizuje.}few{Když je tento ovládací prvek zapnutý a stav je aktivní, Mises určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každé {NUM_DAYS} dny aktualizuje.}many{Když je tento ovládací prvek zapnutý a stav je aktivní, Mises určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každých {NUM_DAYS} dne aktualizuje.}other{Když je tento ovládací prvek zapnutý a stav je aktivní, Mises určuje, které skupině lidí (neboli kohortě) se vaše nedávná aktivita prohlížení nejvíce podobá. Inzerenti mohou vybírat reklamy podle skupin a vaše historie prohlížení zůstává soukromá ve vašem zařízení. Vaše skupina se každých {NUM_DAYS} dní aktualizuje.}}</translation>
 <translation id="2053553514270667976">PSČ</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 návrh}few{# návrhy}many{# návrhu}other{# návrhů}}</translation>
 <translation id="2071156619270205202">Tato karta není pro číslo virtuální karty vhodná.</translation>
@@ -454,7 +454,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2380886658946992094">Legal</translation>
 <translation id="2383455408879745299">Přizpůsobte si v nastavení Chromu nástroje pro usnadnění přístupu</translation>
 <translation id="2384307209577226199">Výchozí podnikové nastavení</translation>
-<translation id="2385809941344967209">Aktualizujte Chrome v nastavení Chromu</translation>
+<translation id="2385809941344967209">Aktualizujte Mises v nastavení Chromu</translation>
 <translation id="2386255080630008482">Certifikát serveru byl zamítnut.</translation>
 <translation id="2392959068659972793">Zobrazit zásady bez nastavených hodnot</translation>
 <translation id="239429038616798445">Tento způsob dopravy není k dispozici. Zkuste použít jiný způsob.</translation>
@@ -513,7 +513,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2587841377698384444">ID rozhraní Directory API:</translation>
 <translation id="2594318783181750337">Rychlé zobrazování z webu:</translation>
 <translation id="2595719060046994702">Toto zařízení a účet nespravuje žádná společnost ani organizace.</translation>
-<translation id="2596415276201385844">Aby bylo možné navázat zabezpečené spojení, hodiny musejí být nastaveny správně. Důvodem je, že certifikáty, pomocí kterých se weby identifikují, platí pouze pro pevně daná období. Jelikož hodiny v zařízení nejsou nastaveny správně, prohlížeč Chrome tyto certifikáty nemůže ověřit.</translation>
+<translation id="2596415276201385844">Aby bylo možné navázat zabezpečené spojení, hodiny musejí být nastaveny správně. Důvodem je, že certifikáty, pomocí kterých se weby identifikují, platí pouze pro pevně daná období. Jelikož hodiny v zařízení nejsou nastaveny správně, prohlížeč Mises tyto certifikáty nemůže ověřit.</translation>
 <translation id="2597378329261239068">Tento dokument je chráněn heslem. Zadejte prosím heslo.</translation>
 <translation id="2609632851001447353">Varianty</translation>
 <translation id="2610561535971892504">Kliknutím zkopírujte</translation>
@@ -528,7 +528,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím klávesy Tab a poté Enter vymažete historii prohlížení, soubory cookie, mezipaměť a další položky v nastavení Chromu</translation>
 <translation id="2650446666397867134">Přístup k souboru byl odepřen.</translation>
 <translation id="2653659639078652383">Odeslat</translation>
-<translation id="2659491813326907275">Přizpůsobte si v nastavení Chrome OS nástroje pro usnadnění přístupu</translation>
+<translation id="2659491813326907275">Přizpůsobte si v nastavení Mises OS nástroje pro usnadnění přístupu</translation>
 <translation id="2660779039299703961">Událost</translation>
 <translation id="2664887757054927933">{COUNT,plural, =0{Žádné}=1{1 heslo (pro <ph name="DOMAIN_LIST" />)}=2{2 hesla (pro <ph name="DOMAIN_LIST" />)}few{# hesla (pro <ph name="DOMAIN_LIST" />)}many{# hesla (pro <ph name="DOMAIN_LIST" />)}other{# hesel (pro <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="2666092431469916601">Nahoru</translation>
@@ -595,7 +595,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="290376772003165898">Stránka není v jazyce <ph name="LANGUAGE" />?</translation>
 <translation id="2909946352844186028">Byla zjištěna změna sítě.</translation>
 <translation id="2911973620368911614">ID uživatele účtování úlohy</translation>
-<translation id="2914160345369867329">Web <ph name="SITE" /> vaše informace běžně chrání šifrováním. Když se prohlížeč Chrome k webu <ph name="SITE" /> pokusil připojit tentokrát, web vrátil neobvyklé a nesprávné identifikační údaje. K tomuto problému může dojít, pokud se za web <ph name="SITE" /> pokouší vydávat nějaký útočník nebo pokud bylo připojení přerušeno přihlašovací obrazovkou sítě Wi-Fi. Vaše informace jsou i nadále v bezpečí, protože prohlížeč Chrome připojení přerušil dříve, než došlo k odeslání jakýchkoliv dat.</translation>
+<translation id="2914160345369867329">Web <ph name="SITE" /> vaše informace běžně chrání šifrováním. Když se prohlížeč Mises k webu <ph name="SITE" /> pokusil připojit tentokrát, web vrátil neobvyklé a nesprávné identifikační údaje. K tomuto problému může dojít, pokud se za web <ph name="SITE" /> pokouší vydávat nějaký útočník nebo pokud bylo připojení přerušeno přihlašovací obrazovkou sítě Wi-Fi. Vaše informace jsou i nadále v bezpečí, protože prohlížeč Mises připojení přerušil dříve, než došlo k odeslání jakýchkoliv dat.</translation>
 <translation id="2915068235268646559">Selhání z: <ph name="CRASH_TIME" /></translation>
 <translation id="2916038427272391327">Zavřete ostatní programy</translation>
 <translation id="2922350208395188000">Certifikát serveru nelze zkontrolovat.</translation>
@@ -608,14 +608,14 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2941952326391522266">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN" />. Jeho bezpečnostní certifikát pochází z domény <ph name="DOMAIN2" />. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
 <translation id="2943895734390379394">Čas nahrání:</translation>
 <translation id="2948083400971632585">Libovolné servery proxy nakonfigurované pro připojení můžete zakázat na stránce Nastavení.</translation>
-<translation id="2949183777371959169">Ignorováno, protože počítač není zaregistrován do Cloudové správy prohlížeče Chrome.</translation>
+<translation id="2949183777371959169">Ignorováno, protože počítač není zaregistrován do Cloudové správy prohlížeče Mises.</translation>
 <translation id="2951588413176968965">Moje schránka</translation>
 <translation id="2952820037279740115">Zavřít všechna anonymní okna</translation>
 <translation id="295526156371527179">Upozornění: Tato zásada nebyla podle zásady sloučena jako slovník, protože se nejedná o slovník.</translation>
 <translation id="2955913368246107853">Zavřít vyhledávací lištu</translation>
 <translation id="2972581237482394796">&amp;Opakovat</translation>
 <translation id="2977665033722899841">Aktuálně je vybrán řádek <ph name="ROW_NAME" />. <ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">Pokud je tato možnost aktivována, prohlížeč Chromium do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
+<translation id="2985306909656435243">Pokud je tato možnost aktivována, prohlížeč Mises do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
 <translation id="2985398929374701810">Zadejte platnou adresu</translation>
 <translation id="2986368408720340940">Tento způsob vyzvednutí není k dispozici. Zkuste použít jiný způsob.</translation>
 <translation id="2987034854559945715">Žádné funkce neodpovídají</translation>
@@ -720,7 +720,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3345782426586609320">Oči</translation>
 <translation id="3355823806454867987">Změna nastavení proxy...</translation>
 <translation id="3360103848165129075">List obslužného nástroje pro platby</translation>
-<translation id="3361596688432910856">Chrome <ph name="BEGIN_EMPHASIS" />nebude ukládat<ph name="END_EMPHASIS" /> následující informace:
+<translation id="3361596688432910856">Mises <ph name="BEGIN_EMPHASIS" />nebude ukládat<ph name="END_EMPHASIS" /> následující informace:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />vaši historii prohlížení,
           <ph name="LIST_ITEM" />soubory cookie a data webů,
@@ -778,7 +778,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" />, aktuálně otevřeno, na otevřenou kartu přejdete tak, že stisknete tabulátor a poté Enter</translation>
 <translation id="3470563864795286535"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím tabulátoru a poté klávesy Enter zavřete všechna aktuálně otevřená anonymní okna</translation>
 <translation id="3479552764303398839">Teď ne</translation>
-<translation id="3484560055331845446">Mohli byste ztratit přístup k účtu Google. Chrome doporučuje okamžitě změnit heslo. Budete vyzváni k přihlášení.</translation>
+<translation id="3484560055331845446">Mohli byste ztratit přístup k účtu Google. Mises doporučuje okamžitě změnit heslo. Budete vyzváni k přihlášení.</translation>
 <translation id="3487845404393360112">Přihrádka 4</translation>
 <translation id="3495081129428749620">Najít na stránce
 <ph name="PAGE_TITLE" /></translation>
@@ -800,7 +800,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" /> <ph name="COUNTRY" /></translation>
 <translation id="3575121482199441727">Povolit pro tento web</translation>
 <translation id="3576616784287504635">Vložená stránka na webu <ph name="SITE" /> říká</translation>
-<translation id="3581089476000296252">Až bude tato stránka připravená, Chrome vás bude informovat. &lt;a&gt;Zrušit&lt;/a&gt;</translation>
+<translation id="3581089476000296252">Až bude tato stránka připravená, Mises vás bude informovat. &lt;a&gt;Zrušit&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Přidejte jméno</translation>
 <translation id="3583757800736429874">&amp;Opakovat přesunutí</translation>
 <translation id="3584299510153766161">Dvě díry dole</translation>
@@ -824,9 +824,9 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3631244953324577188">Biometrické systémy</translation>
 <translation id="3632503704576938756">Sdílení obrazovky bylo obnoveno</translation>
 <translation id="3632892046558972264">Sdílení obrazovky je pozastaveno</translation>
-<translation id="3633738897356909127">Tlačítko Aktualizovat Chrome, stisknutím klávesy Enter aktualizujete Chrome v nastavení Chromu</translation>
+<translation id="3633738897356909127">Tlačítko Aktualizovat Mises, stisknutím klávesy Enter aktualizujete Mises v nastavení Chromu</translation>
 <translation id="3634530185120165534">Přihrádka 5</translation>
-<translation id="3634567936866541746">Právě jste své heslo zadali na klamavém webu. Pokud chcete zabezpečit své účty, Chrome vám doporučuje zkontrolovat uložená hesla.</translation>
+<translation id="3634567936866541746">Právě jste své heslo zadali na klamavém webu. Pokud chcete zabezpečit své účty, Mises vám doporučuje zkontrolovat uložená hesla.</translation>
 <translation id="3637662659967048211">Uložit do účtu Google</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">Aplikace:</translation>
@@ -859,7 +859,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3736520371357197498">Pokud bezpečnostní rizika chápete, můžete <ph name="BEGIN_LINK" />tento nespolehlivý web navštívit<ph name="END_LINK" /> ještě před tím, než budou nebezpečné programy odstraněny.</translation>
 <translation id="3738166223076830879">Váš prohlížeč spravuje administrátor.</translation>
 <translation id="3744111561329211289">Synchronizace na pozadí</translation>
-<translation id="3744899669254331632">Web <ph name="SITE" /> teď nelze navštívit, protože tento web odeslal nesprávné identifikační údaje, které prohlížeč Chromium nedokáže zpracovat. Síťové chyby a útoky jsou obvykle dočasné, tato stránka pravděpodobně později bude fungovat.</translation>
+<translation id="3744899669254331632">Web <ph name="SITE" /> teď nelze navštívit, protože tento web odeslal nesprávné identifikační údaje, které prohlížeč Mises nedokáže zpracovat. Síťové chyby a útoky jsou obvykle dočasné, tato stránka pravděpodobně později bude fungovat.</translation>
 <translation id="3745099705178523657">Po potvrzení budou údaje o kartě z vašeho účtu Google poskytnuty tomuto webu.</translation>
 <translation id="3748148204939282805">Útočníci na webu <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> vás mohou podvodem přimět k nebezpečnému chování, jako je instalace softwaru nebo vyzrazení osobních údajů (například hesel, telefonních čísel nebo platebních karet). <ph name="BEGIN_LEARN_MORE_LINK" />Další informace<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3754210790023674521">Ukončit režim obrazu v obraze</translation>
@@ -964,7 +964,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4117700440116928470">Rozsah zásady není podporován.</translation>
 <translation id="4121428309786185360">Konec platnosti</translation>
 <translation id="4123572138124678573">Tři otvory dole</translation>
-<translation id="4127575959421463246">Hledáte příznaky Chrome OS? Navštívit</translation>
+<translation id="4127575959421463246">Hledáte příznaky Mises OS? Navštívit</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{1 další}few{# další}many{# další}other{# dalších}}</translation>
 <translation id="4130226655945681476">Zkontrolovat síťové kabely, modem a směrovač</translation>
 <translation id="4134123981501319574">Vytvořit dokument</translation>
@@ -1048,8 +1048,8 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4329871760342656885">Chyba analýzy zásad: <ph name="ERROR" /></translation>
 <translation id="4331519897422864041">Stohovač 5</translation>
 <translation id="4331708818696583467">Nezabezpečeno</translation>
-<translation id="4340575312453649552">Tato reklama v zařízení používala příliš mnoho zdrojů, proto ji Chrome odstranil.</translation>
-<translation id="4340982228985273705">Tento počítač nebyl rozpoznán jako spravovaný organizací, proto lze pomocí zásad automaticky instalovat pouze rozšíření hostovaná v Internetovém obchodě Chrome. Adresa URL Internetového obchodu Chrome pro aktualizace je <ph name="CWS_UPDATE_URL" />.</translation>
+<translation id="4340575312453649552">Tato reklama v zařízení používala příliš mnoho zdrojů, proto ji Mises odstranil.</translation>
+<translation id="4340982228985273705">Tento počítač nebyl rozpoznán jako spravovaný organizací, proto lze pomocí zásad automaticky instalovat pouze rozšíření hostovaná v Internetovém obchodě Mises. Adresa URL Internetového obchodu Mises pro aktualizace je <ph name="CWS_UPDATE_URL" />.</translation>
 <translation id="4346197816712207223">Přijímané kreditní karty</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">Připojení k webu <ph name="SITE" /> není zabezpečené</translation>
@@ -1060,7 +1060,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4356973930735388585">Útočníci, kteří se aktuálně nacházejí na tomto webu, se mohou pokusit nainstalovat vám do počítače nebezpečné programy, které mohou ukrást nebo smazat vaše informace (například fotky, hesla, zprávy nebo platební karty).</translation>
 <translation id="4358059973562876591">Zadané šablony kvůli chybě v zásadě DnsOverHttpsMode nelze použít.</translation>
 <translation id="4358461427845829800">Spravovat platební metody...</translation>
-<translation id="4359160567981085931">Právě jste své heslo zadali na klamavém webu. Chrome vám může pomoci. Chcete-li změnit heslo a oznámit Googlu, že váš účet může být ohrožen, klikněte na Ochránit účet.</translation>
+<translation id="4359160567981085931">Právě jste své heslo zadali na klamavém webu. Mises vám může pomoci. Chcete-li změnit heslo a oznámit Googlu, že váš účet může být ohrožen, klikněte na Ochránit účet.</translation>
 <translation id="4367563149485757821">Number-12 (obálka)</translation>
 <translation id="437040971055499437">Událost týkající se zabezpečení</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -1074,7 +1074,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4408413947728134509">Soubory cookie <ph name="NUM_COOKIES" /></translation>
 <translation id="4414515549596849729">soubory cookie a data webu</translation>
 <translation id="4415426530740016218">Adresa vyzvednutí</translation>
-<translation id="4424024547088906515">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN" />. Chrome jeho bezpečnostnímu certifikátu nedůvěřuje. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
+<translation id="4424024547088906515">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN" />. Mises jeho bezpečnostnímu certifikátu nedůvěřuje. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
 <translation id="443121186588148776">Sériový port</translation>
 <translation id="4432688616882109544">Web <ph name="HOST_NAME" /> nepřijal přihlašovací certifikát, případně žádný certifikát nebyl poskytnut.</translation>
 <translation id="4432792777822557199">Stránky v jazyce <ph name="SOURCE_LANGUAGE" /> od teď budou překládány do jazyka <ph name="TARGET_LANGUAGE" /></translation>
@@ -1094,7 +1094,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4482953324121162758">Tento web se nebude překládat.</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">Šifrovat synchronizovaná hesla pomocí účtu Google</translation>
-<translation id="4492519888999857993">Tyto funkce jsou ve výchozím nastavení zakázány. V budoucích verzích prohlížeče Chrome nebudou k dispozici.</translation>
+<translation id="4492519888999857993">Tyto funkce jsou ve výchozím nastavení zakázány. V budoucích verzích prohlížeče Mises nebudou k dispozici.</translation>
 <translation id="4493480324863638523">Neplatná adresa URL. Je třeba použít adresu URL se standardním protokolem, např. http://example.com nebo https://example.com.</translation>
 <translation id="4500587658229086076">nezabezpečený obsah</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1118,7 +1118,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="455113658016510503">A9</translation>
 <translation id="4558551763791394412">Zkuste zakázat rozšíření.</translation>
 <translation id="4559332380232738994">10x11</translation>
-<translation id="4567686777917670400">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Chromium. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Mises. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
 <translation id="457875822857220463">Doručení</translation>
 <translation id="4579056131138995126">Personal (obálka)</translation>
 <translation id="4582204425268416675">Odebrat kartu</translation>
@@ -1132,7 +1132,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4606870351894164739">Působivé</translation>
 <translation id="4607603470419975064">Tlačítko Zobrazit tipy k Chromu, stisknutím klávesy Enter zobrazíte další informace o funkcích Chromu</translation>
 <translation id="4607608436550361748">Zobrazit tipy k Chromu</translation>
-<translation id="4627675673814409125">Tuto zásadu nelze nastavit na úrovni profilu Chrome, bude proto ignorována.</translation>
+<translation id="4627675673814409125">Tuto zásadu nelze nastavit na úrovni profilu Mises, bude proto ignorována.</translation>
 <translation id="4628948037717959914">Fotka</translation>
 <translation id="4631649115723685955">Cashback je propojen</translation>
 <translation id="4636930964841734540">Informace</translation>
@@ -1162,7 +1162,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4731638775147756694">Administrátor aplikaci zablokoval</translation>
 <translation id="4731967714531604179">Prc2 (obálka)</translation>
 <translation id="4733082559415072992">Web <ph name="URL" /> chce použít polohu vašeho zařízení</translation>
-<translation id="4736825316280949806">Restartujte Chromium</translation>
+<translation id="4736825316280949806">Restartujte Mises</translation>
 <translation id="4736934858538408121">Virtuální karta</translation>
 <translation id="473775607612524610">Aktualizovat</translation>
 <translation id="4738601419177586157">Návrh vyhledávacího dotazu <ph name="TEXT" /></translation>
@@ -1174,7 +1174,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4751476147751820511">Senzory pohybu nebo světla</translation>
 <translation id="4754461935447132332">Není povoleno u nezabezpečených webů</translation>
 <translation id="4756388243121344051">Historie</translation>
-<translation id="4757993714154412917">Právě jste své heslo zadali na klamavém webu. Pokud chcete zabezpečit své účty, Chromium vám doporučuje zkontrolovat uložená hesla.</translation>
+<translation id="4757993714154412917">Právě jste své heslo zadali na klamavém webu. Pokud chcete zabezpečit své účty, Mises vám doporučuje zkontrolovat uložená hesla.</translation>
 <translation id="4758311279753947758">Přidat kontaktní údaje</translation>
 <translation id="4761104368405085019">Používat mikrofon</translation>
 <translation id="4764776831041365478">Webové stránky na adrese <ph name="URL" /> jsou možná dočasně nedostupné nebo mohly být přemístěny na novou webovou adresu.</translation>
@@ -1254,7 +1254,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4995216769782533993">Chcete-li s tímto webem sdílet údaje o kartě, zadejte bezpečnostní kód</translation>
 <translation id="4995474875135717171">Změněno:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím klávesy Enter můžete spravovat vyhledávání na webech a svůj výchozí vyhledávač</translation>
-<translation id="5002932099480077015">Pokud je tato možnost aktivována, Chrome do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
+<translation id="5002932099480077015">Pokud je tato možnost aktivována, Mises do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
 <translation id="5011561501798487822">Zjištěný jazyk</translation>
 <translation id="5015510746216210676">Název počítače:</translation>
 <translation id="5017554619425969104">Zkopírovaný text</translation>
@@ -1285,7 +1285,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5088142053160410913">Zpráva operátorovi</translation>
 <translation id="5089810972385038852">Stát/kraj</translation>
 <translation id="5093232627742069661">Přeložení do Z</translation>
-<translation id="5094747076828555589">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN" />. Chromium jeho bezpečnostnímu certifikátu nedůvěřuje. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
+<translation id="5094747076828555589">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN" />. Mises jeho bezpečnostnímu certifikátu nedůvěřuje. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
 <translation id="5095208057601539847">Provincie</translation>
 <translation id="5097099694988056070">Statistiky zařízení, například využití CPU/RAM</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1314,7 +1314,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5161506081086828129">Stohovač 9</translation>
 <translation id="5164798890604758545">Zadání textu</translation>
 <translation id="516920405563544094">Zadejte kód CVC karty <ph name="CREDIT_CARD" />. Po potvrzení budou údaje o kartě z vašeho účtu Google poskytnuty tomuto webu.</translation>
-<translation id="5169827969064885044">Mohli byste ztratit přístup k účtu organizace nebo by mohlo dojít k odcizení vaší identity. Chrome doporučuje okamžitě změnit heslo.</translation>
+<translation id="5169827969064885044">Mohli byste ztratit přístup k účtu organizace nebo by mohlo dojít k odcizení vaší identity. Mises doporučuje okamžitě změnit heslo.</translation>
 <translation id="5171045022955879922">Vyhledávejte či zadejte URL</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Počítač</translation>
@@ -1323,7 +1323,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="51918995459521422"><ph name="ORIGIN" /> se pokouší stáhnout několik souborů</translation>
 <translation id="519422657042045905">Poznámky nejsou k dispozici</translation>
 <translation id="5201306358585911203">Stránka vložená na této stránce říká</translation>
-<translation id="5204468114771111727">Chrome zjistil, že právě použité heslo bylo nalezeno na seznamu hesel uniklých při incidentu porušení zabezpečení údajů. Asistent Google vám heslo může změnit automaticky.</translation>
+<translation id="5204468114771111727">Mises zjistil, že právě použité heslo bylo nalezeno na seznamu hesel uniklých při incidentu porušení zabezpečení údajů. Asistent Google vám heslo může změnit automaticky.</translation>
 <translation id="5205222826937269299">Je nutné zadat jméno</translation>
 <translation id="5209518306177824490">Digitální otisk SHA-1</translation>
 <translation id="5209670883520018268">Přihrádka 20</translation>
@@ -1355,7 +1355,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5287240709317226393">Zobrazit soubory cookie</translation>
 <translation id="5287456746628258573">Tento web používá zastaralou konfiguraci zabezpečení, která vaše informace odesílané na tento web (například hesla nebo čísla kreditních karet) vystavuje riziku odhalení.</translation>
 <translation id="5288108484102287882">Ověření hodnot zásad vygenerovalo upozornění</translation>
-<translation id="5288808348893593856">Pokud vás Chrome neinformuje o opaku, je připojení k webu bezpečné.</translation>
+<translation id="5288808348893593856">Pokud vás Mises neinformuje o opaku, je připojení k webu bezpečné.</translation>
 <translation id="5289384342738547352">Zpracování více dokumentů</translation>
 <translation id="5299298092464848405">Při analýze zásady došlo k chybě</translation>
 <translation id="5300589172476337783">Zobrazit</translation>
@@ -1370,7 +1370,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5324080437450482387">Vybrat kontaktní údaje</translation>
 <translation id="5329858041417644019">Prohlížeč není spravován</translation>
 <translation id="5332219387342487447">Způsob dopravy</translation>
-<translation id="5333022057423422993">Chrome zjistil, že právě použité heslo bylo vyzrazeno při porušení zabezpečení údajů. Pokud svá hesla chcete zabezpečit, doporučujeme vám zkontrolovat uložená hesla.</translation>
+<translation id="5333022057423422993">Mises zjistil, že právě použité heslo bylo vyzrazeno při porušení zabezpečení údajů. Pokud svá hesla chcete zabezpečit, doporučujeme vám zkontrolovat uložená hesla.</translation>
 <translation id="5334013548165032829">Podrobné systémové protokoly</translation>
 <translation id="5334145288572353250">Uložit adresu?</translation>
 <translation id="5340250774223869109">Aplikace je blokována</translation>
@@ -1429,7 +1429,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="5541086400771735334">Schránka 7</translation>
 <translation id="5541546772353173584">Přidání e-mailu</translation>
 <translation id="5545756402275714221">Články pro vás</translation>
-<translation id="5552137475244467770">Chrome vaše hesla pravidelně porovnává se seznamy hesel, která unikla na internet. Vaše hesla a uživatelská jména jsou při tom šifrována, takže je nemůže nikdo zobrazit (ani Google).</translation>
+<translation id="5552137475244467770">Mises vaše hesla pravidelně porovnává se seznamy hesel, která unikla na internet. Vaše hesla a uživatelská jména jsou při tom šifrována, takže je nemůže nikdo zobrazit (ani Google).</translation>
 <translation id="5556459405103347317">Načíst znovu</translation>
 <translation id="5560088892362098740">Datum vypršení platnosti</translation>
 <translation id="55635442646131152">Osnova dokumentu</translation>
@@ -1493,12 +1493,12 @@ Kontaktujte administrátora systému.</translation>
 <translation id="5784606427469807560">Při ověřování vaší karty došlo k problému. Zkontrolujte připojení k internetu a zkuste to znovu.</translation>
 <translation id="5785756445106461925">Tato stránka obsahuje ještě další nezabezpečené zdroje. Tyto zdroje budou během přenosu moci zobrazit jiní uživatelé a případní útočníci je mohou upravit a změnit tak vzhled stránky.</translation>
 <translation id="5786044859038896871">Chcete vyplnit informace o kartě?</translation>
-<translation id="578633867165174378">Chrome zjistil, že právě použité heslo bylo vyzrazeno při porušení zabezpečení údajů. Doporučujeme vám ihned toto heslo změnit.</translation>
+<translation id="578633867165174378">Mises zjistil, že právě použité heslo bylo vyzrazeno při porušení zabezpečení údajů. Doporučujeme vám ihned toto heslo změnit.</translation>
 <translation id="5789643057113097023">,</translation>
 <translation id="5803412860119678065">Chcete vyplnit informace o kartě <ph name="CARD_DETAIL" />?</translation>
 <translation id="5804241973901381774">Oprávnění</translation>
 <translation id="5810442152076338065">Vaše připojení k doméně <ph name="DOMAIN" /> je šifrováno za použití zastaralé šifrovací sady.</translation>
-<translation id="5812947184178430888">Když Chrome nahlásí události týkající se zabezpečení, administrátorovi se odešlou relevantní data o událostech. Mohou být zahrnuty adresy URL stránek, které navštěvujete v Chromu, názvy souborů nebo metadata a uživatelské jméno, pomocí něhož se přihlašujete do webových aplikací, svého zařízení a do Chromu.</translation>
+<translation id="5812947184178430888">Když Mises nahlásí události týkající se zabezpečení, administrátorovi se odešlou relevantní data o událostech. Mohou být zahrnuty adresy URL stránek, které navštěvujete v Chromu, názvy souborů nebo metadata a uživatelské jméno, pomocí něhož se přihlašujete do webových aplikací, svého zařízení a do Chromu.</translation>
 <translation id="5813119285467412249">&amp;Opakovat přidání</translation>
 <translation id="5817918615728894473">Spárovat</translation>
 <translation id="5824687817967109979">{NUM_CARDS,plural, =1{Při placení budou z této karty strženy peníze, ale její skutečné číslo nebude s tímto webem sdíleno. Kvůli většímu zabezpečení bude vygenerován dočasný kód CVC.}few{Při placení budou z vybrané karty strženy peníze, ale její skutečné číslo nebude s tímto webem sdíleno. Kvůli většímu zabezpečení bude vygenerován dočasný kód CVC.}many{Při placení budou z vybrané karty strženy peníze, ale její skutečné číslo nebude s tímto webem sdíleno. Kvůli většímu zabezpečení bude vygenerován dočasný kód CVC.}other{Při placení budou z vybrané karty strženy peníze, ale její skutečné číslo nebude s tímto webem sdíleno. Kvůli většímu zabezpečení bude vygenerován dočasný kód CVC.}}</translation>
@@ -1589,7 +1589,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="610911394827799129">Na stránce <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> mohou být k dispozici další druhy historie prohlížení zaznamenané ve vašem účtu Google.</translation>
 <translation id="6116338172782435947">Přístup k textu a obrázkům zkopírovaným do schránky</translation>
 <translation id="6120179357481664955">Uložit vaše UPI ID?</translation>
-<translation id="6124432979022149706">Konektory Chrome Enterprise</translation>
+<translation id="6124432979022149706">Konektory Mises Enterprise</translation>
 <translation id="6127379762771434464">Položka byla odstraněna</translation>
 <translation id="6146055958333702838">Zkontrolujte všechny kabely a restartujte všechny směrovače, modemy a další síťová zařízení, která používáte.</translation>
 <translation id="614940544461990577">Zkuste:</translation>
@@ -1605,7 +1605,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="619448280891863779">Může žádat o otevírání a umísťování oken na obrazovkách</translation>
 <translation id="6196640612572343990">Blokovat soubory cookie třetích stran</translation>
 <translation id="6203231073485539293">Zkontrolujte připojení k internetu</translation>
-<translation id="6218753634732582820">Odstranit adresu z prohlížeče Chromium?</translation>
+<translation id="6218753634732582820">Odstranit adresu z prohlížeče Mises?</translation>
 <translation id="622039917539443112">Paralelní přeložení</translation>
 <translation id="6221345481584921695">Služba Bezpečné prohlížení Google na webu <ph name="SITE" /> nedávno <ph name="BEGIN_LINK" />zjistila malware<ph name="END_LINK" />. Někdy mohou být malwarem nakaženy i weby, které jsou obvykle bezpečné. Tento škodlivý obsah pochází z webu <ph name="SUBRESOURCE_HOST" />, který je distribucí malwaru známý.</translation>
 <translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím tabulátoru a poté klávesy Enter si v nastavení Chromu můžete přizpůsobit nástroje pro usnadnění přístupu</translation>
@@ -1647,7 +1647,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6340739886198108203">Zásady správce nedoporučují pořizování snímků nebo záznamů obrazovky, když je viditelný důvěrný obsah:</translation>
 <translation id="6349101878882523185">Nainstalovat aplikaci <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{Žádné}=1{1 heslo (pro <ph name="DOMAIN_LIST" />, synchronizováno)}=2{2 hesla (pro <ph name="DOMAIN_LIST" />, synchronizováno)}few{# hesla (pro <ph name="DOMAIN_LIST" />, synchronizováno)}many{# hesla (pro <ph name="DOMAIN_LIST" />, synchronizováno)}other{# hesel (pro <ph name="DOMAIN_LIST" />, synchronizováno)}}</translation>
-<translation id="6355392890578844978">Tento prohlížeč není spravován administrátorem ani jinou organizací. Aktivita na tomto zařízení může být spravována mimo Chromium. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">Tento prohlížeč není spravován administrátorem ani jinou organizací. Aktivita na tomto zařízení může být spravována mimo Mises. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">Nápověda</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />Zkontrolovat proxy server, firewall a konfiguraci zabezpečeného DNS<ph name="END_LINK" /></translation>
@@ -1668,7 +1668,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6404511346730675251">Upravit záložku</translation>
 <translation id="6406765186087300643">C0 (obálka)</translation>
 <translation id="6410264514553301377">Zadejte datum vypršení platnosti a kód CVC karty <ph name="CREDIT_CARD" />.</translation>
-<translation id="6415778972515849510">Chromium vám může pomoci ochránit váš účet Google a změnit heslo.</translation>
+<translation id="6415778972515849510">Mises vám může pomoci ochránit váš účet Google a změnit heslo.</translation>
 <translation id="6423385022588644828">Od teď karty potvrzujte rychleji pomocí technologie Touch ID</translation>
 <translation id="6425092077175753609">Material</translation>
 <translation id="6427730057873428458">Otevírací přeložení</translation>
@@ -1697,7 +1697,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6499038740797743453">Resetovat heslo?</translation>
 <translation id="6502991525169604759">Bez vašich změn</translation>
 <translation id="6506959208958864820">Obálka</translation>
-<translation id="6508722015517270189">Restartujte Chrome</translation>
+<translation id="6508722015517270189">Restartujte Mises</translation>
 <translation id="6513005815064132016">Může žádat o sledování pozice kamery</translation>
 <translation id="6517596291481585650">Upozornění: Tato zásada nebyla podle zásady sloučena jako seznam, protože se nejedná o seznam.</translation>
 <translation id="6518133107902771759">Ověřit</translation>
@@ -1713,7 +1713,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6579630537141957243">Připojit zařízení MIDI?</translation>
 <translation id="6579990219486187401">Světle růžová</translation>
 <translation id="6583674473685352014">B6 (obálka)</translation>
-<translation id="6587182488465657433">Chrome zjistil, že právě použité heslo bylo vyzrazeno při porušení zabezpečení údajů. Pokud chcete ochránit své účty, doporučujeme toto heslo ihned změnit a poté zkontrolovat uložená hesla.</translation>
+<translation id="6587182488465657433">Mises zjistil, že právě použité heslo bylo vyzrazeno při porušení zabezpečení údajů. Pokud chcete ochránit své účty, doporučujeme toto heslo ihned změnit a poté zkontrolovat uložená hesla.</translation>
 <translation id="6587923378399804057">Zkopírovaný odkaz</translation>
 <translation id="6591833882275308647">Vaše zařízení <ph name="DEVICE_TYPE" /> není spravováno</translation>
 <translation id="6592952801936330159">Tlačítko správy nastavení webů, stisknutím klávesy Enter můžete spravovat oprávnění a uložená data webů v nastavení Chromu</translation>
@@ -1730,7 +1730,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6643016212128521049">Vymazat</translation>
 <translation id="6645291930348198241">Získat přístup k souborům cookie a datům webů.</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{Žádné}=1{Z 1 webu (nebudete odhlášeni z účtu Google)}few{Ze # webů (nebudete odhlášeni z účtu Google)}many{Z # webu (nebudete odhlášeni z účtu Google)}other{Z # webů (nebudete odhlášeni z účtu Google)}}</translation>
-<translation id="6648459603387803038">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Chrome.</translation>
+<translation id="6648459603387803038">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Mises.</translation>
 <translation id="6648524591329069940">Patkové písmo</translation>
 <translation id="6651270836885078973">Správce:</translation>
 <translation id="6652101503459149953">Použít Windows Hello</translation>
@@ -1740,13 +1740,13 @@ Kontaktujte administrátora systému.</translation>
 <translation id="666259744093848177">(přeloženo z x86_64)</translation>
 <translation id="6663846344464066639">Sepjaté ruce</translation>
 <translation id="6665553082534466207">Tři díry vpravo</translation>
-<translation id="6671697161687535275">Odstranit návrh položky formuláře z prohlížeče Chromium?</translation>
+<translation id="6671697161687535275">Odstranit návrh položky formuláře z prohlížeče Mises?</translation>
 <translation id="6685834062052613830">Odhlaste se a dokončete nastavení</translation>
 <translation id="6687335167692595844">Požadována velikost písma</translation>
 <translation id="6688743156324860098">Aktualizovat…</translation>
 <translation id="6688775486821967877">Virtuální karta aktuálně není k dispozici. Zkuste to znovu později</translation>
 <translation id="6689249931105087298">Relativní s kompresí černého bodu</translation>
-<translation id="6689271823431384964">Chrome vám nabízí uložení karet do účtu Google, protože jste přihlášeni. Toto chování můžete změnit v Nastavení. Jméno držitele karty pochází z vašeho účtu.</translation>
+<translation id="6689271823431384964">Mises vám nabízí uložení karet do účtu Google, protože jste přihlášeni. Toto chování můžete změnit v Nastavení. Jméno držitele karty pochází z vašeho účtu.</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím tabulátoru a poté klávesy Enter najdete zařízení v účtu Google</translation>
 <translation id="6696588630955820014">Tlačítko sdílení karty. Stisknutím klávesy Enter tuto kartu můžete sdílet pomocí odkazu, QR kódu, odesláním apod.</translation>
 <translation id="6698381487523150993">Vytvořil:</translation>
@@ -1792,7 +1792,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6883221904761970440">List ověření identifikačních údajů pro zabezpečené platby je zavřený</translation>
 <translation id="6884662655240309489">Velikost 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" /> <ph name="SHORT_URL" /></translation>
-<translation id="6888584790432772780">Chrome tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Chrome načetl přes nezabezpečené připojení.</translation>
+<translation id="6888584790432772780">Mises tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Mises načetl přes nezabezpečené připojení.</translation>
 <translation id="6890443033788248019">Povolit přístup k poloze?</translation>
 <translation id="6891596781022320156">Úroveň zásady není podporována.</translation>
 <translation id="6895143722905299846">Virtuální číslo:</translation>
@@ -1943,7 +1943,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7366362069757178916">Obslužné nástroje pro platby</translation>
 <translation id="7372973238305370288">výsledek vyhledávání</translation>
 <translation id="7374461526650987610">Obslužné nástroje protokolů</translation>
-<translation id="7374733840632556089">K tomuto problému dochází kvůli certifikátu, který jste vy nebo někdo jiný nainstalovali do zařízení. O certifikátu je známo, že se používá ke sledování a zachytávání provozu v sítích, a Chrome mu nedůvěřuje. Ačkoliv sledování v některých případech (například ve školní nebo firemní síti) může být legitimní a nemůžete mu zabránit, Chrome se chce ujistit, že o něm víte. Ke sledování může docházet v kterémkoliv prohlížeči nebo aplikaci, které přistupují k webu.</translation>
+<translation id="7374733840632556089">K tomuto problému dochází kvůli certifikátu, který jste vy nebo někdo jiný nainstalovali do zařízení. O certifikátu je známo, že se používá ke sledování a zachytávání provozu v sítích, a Mises mu nedůvěřuje. Ačkoliv sledování v některých případech (například ve školní nebo firemní síti) může být legitimní a nemůžete mu zabránit, Mises se chce ujistit, že o něm víte. Ke sledování může docházet v kterémkoliv prohlížeči nebo aplikaci, které přistupují k webu.</translation>
 <translation id="7375818412732305729">Připojení souboru</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">Ovládání médií</translation>
@@ -1964,7 +1964,7 @@ Kontaktujte administrátora systému.</translation>
       &lt;li&gt;V poli &lt;strong&gt;Typ spouštění&lt;/strong&gt; vyberte &lt;strong&gt;Zakázáno&lt;/strong&gt;.
       &lt;li&gt;Pod položkou &lt;strong&gt;Stav služby&lt;/strong&gt; klikněte na &lt;strong&gt;Zastavit&lt;/strong&gt;.
       &lt;li&gt;Klikněte na &lt;strong&gt;Použít&lt;/strong&gt; a poté na &lt;strong&gt;OK&lt;/strong&gt;.
-      &lt;li&gt;Informace o tom, jak tento software trvale odstranit z počítače, naleznete v &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;centru nápovědy prohlížeče Chrome&lt;/a&gt;.
+      &lt;li&gt;Informace o tom, jak tento software trvale odstranit z počítače, naleznete v &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;centru nápovědy prohlížeče Mises&lt;/a&gt;.
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">Půvabné</translation>
@@ -2027,12 +2027,12 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7610193165460212391">Hodnota <ph name="VALUE" /> je mimo rozsah.</translation>
 <translation id="7613889955535752492">Vypršení platnosti: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
 <translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím klávesy Tab a poté Enter můžete zobrazit a spravovat hesla v nastavení Chromu</translation>
-<translation id="7616645509853975347">Administrátor vám v prohlížeči zapnul konektory Chrome Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
+<translation id="7616645509853975347">Administrátor vám v prohlížeči zapnul konektory Mises Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
 <translation id="7619838219691048931">Koncový list</translation>
 <translation id="7625242817712715120">Zásady administrátora nedoporučují tisk tohoto obsahu</translation>
 <translation id="762844065391966283">Jednotlivě</translation>
 <translation id="7633909222644580952">Údaje o výkonu a přehledy selhání</translation>
-<translation id="7637571805876720304">Odstranit platební kartu z prohlížeče Chromium?</translation>
+<translation id="7637571805876720304">Odstranit platební kartu z prohlížeče Mises?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Žádné}=1{V účtu máte 1 heslo (pro domény <ph name="DOMAIN_LIST" />)}few{V účtu máte # hesla (pro domény <ph name="DOMAIN_LIST" />)}many{V účtu máte # hesla (pro domény <ph name="DOMAIN_LIST" />)}other{V účtu máte # hesel (pro domény <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">Sériové porty</translation>
 <translation id="7639968568612851608">Tmavě šedá</translation>
@@ -2141,7 +2141,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7977538094055660992">Výstupní zařízení</translation>
 <translation id="7977894662897852582">Edp</translation>
 <translation id="798134797138789862">Může žádat o použití zařízení a dat pro virtuální realitu</translation>
-<translation id="7984945080620862648">Web <ph name="SITE" /> teď nemůžete navštívit, protože webové stránky odeslaly zakódované identifikační údaje, které Chrome nedokáže zpracovat. Síťové chyby a útoky jsou obvykle dočasné, tato stránka pravděpodobně později bude fungovat.</translation>
+<translation id="7984945080620862648">Web <ph name="SITE" /> teď nemůžete navštívit, protože webové stránky odeslaly zakódované identifikační údaje, které Mises nedokáže zpracovat. Síťové chyby a útoky jsou obvykle dočasné, tato stránka pravděpodobně později bude fungovat.</translation>
 <translation id="79859296434321399">Chcete-li zobrazit obsah pro rozšířenou realitu, nainstalujte ARCore</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">Vazba</translation>
@@ -2166,7 +2166,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="8052898407431791827">Zkopírováno do schránky</translation>
 <translation id="8057711352706143257">Software <ph name="SOFTWARE_NAME" /> není nakonfigurován správně. Tento problém lze obvykle vyřešit odinstalováním softwaru <ph name="SOFTWARE_NAME" />. <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">Lituji, něco se pokazilo.</translation>
-<translation id="8067872629359326442">Právě jste své heslo zadali na klamavém webu. Chromium vám může pomoci. Chcete-li změnit heslo a oznámit Googlu, že váš účet může být ohrožen, klikněte na Ochránit účet.</translation>
+<translation id="8067872629359326442">Právě jste své heslo zadali na klamavém webu. Mises vám může pomoci. Chcete-li změnit heslo a oznámit Googlu, že váš účet může být ohrožen, klikněte na Ochránit účet.</translation>
 <translation id="8070439594494267500">Ikona aplikace</translation>
 <translation id="8074253406171541171">10x13 (obálka)</translation>
 <translation id="8075736640322370409">Rychle vytvořit novou Tabulku Google</translation>
@@ -2196,7 +2196,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="8150722005171944719">Soubor na adrese <ph name="URL" /> nelze načíst. Možná byl odstraněn, přesunut nebo mohou přístupu bránit oprávnění souboru.</translation>
 <translation id="8157295877370077682">Opustit web</translation>
 <translation id="8163866351304776260">Čtyři díry vlevo</translation>
-<translation id="8175796834047840627">Chrome vám nabízí uložení karet do účtu Google, protože jste přihlášeni. Toto chování můžete změnit v Nastavení.</translation>
+<translation id="8175796834047840627">Mises vám nabízí uložení karet do účtu Google, protože jste přihlášeni. Toto chování můžete změnit v Nastavení.</translation>
 <translation id="8176440868214972690">Administrátor tohoto zařízení odeslal určité informace (například nastavení nebo zásady) následujícím webům.</translation>
 <translation id="8184538546369750125">Použít výchozí globální hodnotu (Povolit)</translation>
 <translation id="8190193880870196235">Spravováno rozšířením</translation>
@@ -2248,7 +2248,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="8307888238279532626">Nainstalované aplikace a četnost jejich používání</translation>
 <translation id="831997045666694187">Večer</translation>
 <translation id="8321476692217554900">oznámení</translation>
-<translation id="8328484624016508118">Po zavření všech anonymních karet smaže Chrome:
+<translation id="8328484624016508118">Po zavření všech anonymních karet smaže Mises:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />aktivitu prohlížení z tohoto zařízení,<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />historii vyhledávání z tohoto zařízení,<ph name="END_LIST_ITEM" />
@@ -2300,12 +2300,12 @@ Další podrobnosti:
 <translation id="8490137692873530638">Stohovač 10</translation>
 <translation id="8493948351860045254">Uvolnit místo</translation>
 <translation id="8498891568109133222">Odpověď webu <ph name="HOST_NAME" /> trvala příliš dlouho.</translation>
-<translation id="8503559462189395349">Hesla Chrome</translation>
+<translation id="8503559462189395349">Hesla Mises</translation>
 <translation id="8503813439785031346">Uživatelské jméno</translation>
 <translation id="8507227106804027148">Příkazový řádek</translation>
 <translation id="8508648098325802031">Ikona Vyhledávání</translation>
 <translation id="8511402995811232419">Spravovat soubory cookie</translation>
-<translation id="8522552481199248698">Chrome vám může pomoci ochránit váš účet Google a změnit heslo.</translation>
+<translation id="8522552481199248698">Mises vám může pomoci ochránit váš účet Google a změnit heslo.</translation>
 <translation id="8530813470445476232">Vymažte historii prohlížení, soubory cookie, mezipaměť a další data v nastavení Chromu</translation>
 <translation id="8533619373899488139">Na stránce &lt;strong&gt;chrome://policy&lt;/strong&gt; naleznete seznam blokovaných adres URL a další zásady vynucené vaším administrátorem systému.</translation>
 <translation id="8539500321752640291">Udělit dvě oprávnění?</translation>
@@ -2362,7 +2362,7 @@ Další podrobnosti:
 <translation id="8731544501227493793">Tlačítko Spravovat hesla, stisknutím klávesy Enter můžete zobrazit a spravovat hesla v nastavení Chromu</translation>
 <translation id="8734529307927223492">Váš <ph name="DEVICE_TYPE" /> spravuje doména <ph name="MANAGER" /></translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím klávesy Tab a poté Enter otevřete nové anonymní okno, abyste mohli prohlížet v soukromí</translation>
-<translation id="8738058698779197622">Aby bylo možné navázat zabezpečené spojení, hodiny musejí být nastaveny správně. Důvodem je, že certifikáty, pomocí kterých se weby identifikují, platí pouze pro pevně daná období. Jelikož hodiny v zařízení nejsou nastaveny správně, prohlížeč Chromium tyto certifikáty nemůže ověřit.</translation>
+<translation id="8738058698779197622">Aby bylo možné navázat zabezpečené spojení, hodiny musejí být nastaveny správně. Důvodem je, že certifikáty, pomocí kterých se weby identifikují, platí pouze pro pevně daná období. Jelikož hodiny v zařízení nejsou nastaveny správně, prohlížeč Mises tyto certifikáty nemůže ověřit.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;Adresu DNS&lt;/abbr&gt; webu <ph name="HOST_NAME" /> nelze najít. Diagnostikování problému…</translation>
 <translation id="8742371904523228557">Váš kód pro <ph name="ORIGIN" /> je <ph name="ONE_TIME_CODE" /></translation>
 <translation id="874918643257405732">Přidat tuto kartu do záložek</translation>
@@ -2377,12 +2377,12 @@ Další podrobnosti:
 <translation id="8790007591277257123">&amp;Opakovat smazání</translation>
 <translation id="8792621596287649091">Mohli byste ztratit přístup k účtu <ph name="ORG_NAME" /> nebo by mohlo dojít k odcizení vaší identity. Doporučujeme vám okamžitě změnit heslo.</translation>
 <translation id="8792626944327216835">mikrofon</translation>
-<translation id="8793655568873652685">Administrátor organizace <ph name="ENROLLMENT_DOMAIN" /> vám v prohlížeči zapnul konektory Chrome Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
+<translation id="8793655568873652685">Administrátor organizace <ph name="ENROLLMENT_DOMAIN" /> vám v prohlížeči zapnul konektory Mises Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
 <translation id="8798099450830957504">Výchozí</translation>
 <translation id="8798739476508189189">Hledáte příznaky prohlížeče? Navštívit</translation>
 <translation id="8805819170075074995">Položka seznamu „<ph name="LANGUAGE_ID" />“: Položka byla ignorována, protože je zahrnuta také v zásadě SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">Oříznutí za každou stránkou</translation>
-<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím klávesy Tab a poté Enter aktualizujete Chrome v nastavení Chromu</translation>
+<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím klávesy Tab a poté Enter aktualizujete Mises v nastavení Chromu</translation>
 <translation id="8820817407110198400">Záložky</translation>
 <translation id="882338992931677877">Ruční slot</translation>
 <translation id="8834380158646307944">Tlačítko zavření anonymních oken. Stisknutím klávesy Enter zavřete všechna aktuálně otevřená anonymní okna</translation>
@@ -2465,12 +2465,12 @@ Další podrobnosti:
 <translation id="9089260154716455634">Zásada Off-Hours:</translation>
 <translation id="9095388113577226029">Další jazyky...</translation>
 <translation id="9101630580131696064">Přihrádka 1</translation>
-<translation id="9103872766612412690">Web <ph name="SITE" /> vaše informace běžně chrání šifrováním. Když se prohlížeč Chromium k webu <ph name="SITE" /> pokusil připojit tentokrát, web vrátil neobvyklé a nesprávné identifikační údaje. K tomuto problému může dojít, pokud se za web <ph name="SITE" /> pokouší vydávat nějaký útočník nebo pokud bylo připojení přerušeno přihlašovací obrazovkou sítě Wi-Fi. Vaše informace jsou i nadále v bezpečí, protože prohlížeč Chromium připojení přerušil dříve, než došlo k odeslání jakýchkoliv dat.</translation>
+<translation id="9103872766612412690">Web <ph name="SITE" /> vaše informace běžně chrání šifrováním. Když se prohlížeč Mises k webu <ph name="SITE" /> pokusil připojit tentokrát, web vrátil neobvyklé a nesprávné identifikační údaje. K tomuto problému může dojít, pokud se za web <ph name="SITE" /> pokouší vydávat nějaký útočník nebo pokud bylo připojení přerušeno přihlašovací obrazovkou sítě Wi-Fi. Vaše informace jsou i nadále v bezpečí, protože prohlížeč Mises připojení přerušil dříve, než došlo k odeslání jakýchkoliv dat.</translation>
 <translation id="9106062320799175032">Přidání fakturační adresy</translation>
 <translation id="9107467864910557787">Prohlížeč je spravován doménou <ph name="MANAGER" /></translation>
 <translation id="91108059142052966">Zásada administrátora zakazuje sdílení obrazovky s aplikací <ph name="APPLICATION_TITLE" />, když je viditelný důvěrný obsah</translation>
 <translation id="9114524666733003316">Ověřování karty...</translation>
-<translation id="9114581008513152754">Tento prohlížeč není spravován administrátorem ani jinou organizací. Aktivita na tomto zařízení může být spravována mimo Chrome. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
+<translation id="9114581008513152754">Tento prohlížeč není spravován administrátorem ani jinou organizací. Aktivita na tomto zařízení může být spravována mimo Mises. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
 <translation id="9117930699067497412">Svěží</translation>
 <translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, stisknutím tabulátoru a poté klávesy Enter obnovíte svou cestu a zobrazíte příslušnou aktivitu v historii Chromu</translation>
 <translation id="9119042192571987207">Nahráno</translation>
@@ -2483,7 +2483,7 @@ Další podrobnosti:
 <translation id="9148088599418889305">Vybrat způsob dopravy</translation>
 <translation id="9148507642005240123">&amp;Vrátit úpravy zpět</translation>
 <translation id="9150045010208374699">Používat fotoaparát</translation>
-<translation id="9150685862434908345">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Chrome. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
+<translation id="9150685862434908345">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Mises. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">Aktualizováno</translation>
 <translation id="9157595877708044936">Nastavování...</translation>
 <translation id="9158625974267017556">C6 (obálka)</translation>
@@ -2509,11 +2509,11 @@ Další podrobnosti:
 <translation id="9213433120051936369">Přizpůsobit vzhled</translation>
 <translation id="9215416866750762878">Nějaká aplikace Chromu brání v bezpečném připojení k tomuto webu.</translation>
 <translation id="9219103736887031265">Obrázky</translation>
-<translation id="922152298093051471">Přizpůsobit Chrome</translation>
+<translation id="922152298093051471">Přizpůsobit Mises</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">VYMAZAT FORMULÁŘ</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">Mohli byste ztratit přístup k účtu Google. Chromium doporučuje okamžitě změnit heslo. Budete vyzváni k přihlášení.</translation>
+<translation id="936602727769022409">Mohli byste ztratit přístup k účtu Google. Mises doporučuje okamžitě změnit heslo. Budete vyzváni k přihlášení.</translation>
 <translation id="939736085109172342">Nová složka</translation>
 <translation id="945522503751344254">Odeslat zpětnou vazbu</translation>
 <translation id="945855313015696284">Zkontrolujte níže uvedené informace a vymažte neplatné karty</translation>

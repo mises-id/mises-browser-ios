@@ -196,7 +196,7 @@ Spletna mesta ne smejo uporabljati piškotkov za ogled dejavnosti brskanja na ra
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Ponastavi nastavitve za prevajanje</translation>
 <translation id="2848086008667475748">Nastavi kot privzeto v nastavitvah …</translation>
-<translation id="2858204748079866344">Chrome zaradi varovanja vaše zasebnosti ne bo samodejno izpolnil polja za vnos gesla.</translation>
+<translation id="2858204748079866344">Mises zaradi varovanja vaše zasebnosti ne bo samodejno izpolnil polja za vnos gesla.</translation>
 <translation id="285960592395650245">Vnovičen poskus prenosa</translation>
 <translation id="2870560284913253234">Spletno mesto</translation>
 <translation id="2871695793448672541">Skrito, geslo</translation>
@@ -210,7 +210,7 @@ Spletna mesta ne smejo uporabljati piškotkov za ogled dejavnosti brskanja na ra
 <translation id="2923448633003185837">Prilepi in nadaljuj</translation>
 <translation id="292639812446257861">Označi kot neprebrano</translation>
 <translation id="2932085390869194046">Predlagaj geslo …</translation>
-<translation id="2952581218264071393">1. Odprite nastavitve brskalnika Chrome.</translation>
+<translation id="2952581218264071393">1. Odprite nastavitve brskalnika Mises.</translation>
 <translation id="2958718410589002129">Gesla</translation>
 <translation id="2961210776189273067">Naslov</translation>
 <translation id="2964349545761222050">Blokiranje piškotkov drugih spletnih mest</translation>
@@ -283,7 +283,7 @@ Oglejte si navodila iskalnika za brisanje zgodovine iskanja, če je na voljo.</t
 <translation id="3551320343578183772">Zapri zavihek</translation>
 <translation id="3581564640715911333">Ponudi prevajanje strani v drugih jezikih</translation>
 <translation id="3588820906588687999">Odpri sliko na novem zavihku</translation>
-<translation id="359441731697487922">Če nastavite Chrome kot privzeto aplikacijo za brskanje, lahko samodejno odpirate povezave v njem.
+<translation id="359441731697487922">Če nastavite Mises kot privzeto aplikacijo za brskanje, lahko samodejno odpirate povezave v njem.
       
 Upoštevajte spodnja navodila:</translation>
 <translation id="3603009562372709545">Kopiraj URL povezave</translation>
@@ -309,7 +309,7 @@ Upoštevajte spodnja navodila:</translation>
 <translation id="3858860766373142691">Ime</translation>
 <translation id="3892144330757387737">Tukaj bo prikazana zgodovina</translation>
 <translation id="3897092660631435901">Meni</translation>
-<translation id="3913386780052199712">Prijavljeni ste v Chrome</translation>
+<translation id="3913386780052199712">Prijavljeni ste v Mises</translation>
 <translation id="3915450441834151894">Podatki o spletnem mestu</translation>
 <translation id="3922310737605261887">Iskanje besedila, ki ste ga kopirali</translation>
 <translation id="3928666092801078803">Združevanje podatkov</translation>
@@ -426,12 +426,12 @@ Podatki so šifrirani z vašim geslom za sinhronizacijo. Vnesite ga, če želite
 <translation id="5062321486222145940">Namesti Google Drive</translation>
 <translation id="5083464117946352670">Velikost datoteke ni mogoče določiti.</translation>
 <translation id="5090832849094901128">Če izbrišete to geslo, ne izbrišete računa na <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Strani lahko shranite, če želite brati pozneje ali brez povezave. Chrome vas bo vprašal, ali želite shraniti dolge strani.</translation>
+<translation id="5092117651143801290">Strani lahko shranite, če želite brati pozneje ali brez povezave. Mises vas bo vprašal, ali želite shraniti dolge strani.</translation>
 <translation id="5094827893301452931">Tvit je dokončan.</translation>
 <translation id="5118764316110575523">Izklopljeno</translation>
 <translation id="5127805178023152808">Sinhroniziranje je izklopljeno</translation>
 <translation id="5132942445612118989">Sinhronizirajte gesla, zgodovino in drugo v vseh napravah</translation>
-<translation id="5140288047769711648">Chrome si bo zapomnil to geslo namesto vas. Ni si vam ga treba zapomniti.</translation>
+<translation id="5140288047769711648">Mises si bo zapomnil to geslo namesto vas. Ni si vam ga treba zapomniti.</translation>
 <translation id="5150492518600715772">Pošlji v napravo</translation>
 <translation id="5168414296986405587">Ustvarjeno za iPadOS</translation>
 <translation id="5173088371991956744">Sinhroniziranje mora potrditi, da ste to vi</translation>
@@ -699,7 +699,7 @@ Ko uporabljate anonimni način, spletna mesta ne smejo uporabljati piškotkov za
 <translation id="7454057999980797137">Regija</translation>
 <translation id="7456847797759667638">Odpri mesto ...</translation>
 <translation id="7464701184726199289">S tem bodo sinhronizirani podatki izbrisani iz vseh naprav. Shranjene nastavitve spletnih mest ne bodo izbrisane in morda odražajo vaše brskalne navade. <ph name="BEGIN_LINK" />Več o tem<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Izberite Chrome.</translation>
+<translation id="746684838091935575">3. Izberite Mises.</translation>
 <translation id="7472734401283673885">Ime podjetja</translation>
 <translation id="7473891865547856676">Ne, hvala</translation>
 <translation id="7481312909269577407">Naprej</translation>
@@ -733,7 +733,7 @@ Ko uporabljate anonimni način, spletna mesta ne smejo uporabljati piškotkov za
 <translation id="7840771868269352570">Izbrani elementi bodo odstranjeni.</translation>
 <translation id="7856733331829174190">Prenos ni uspel</translation>
 <translation id="7859704718976024901">Zgodovina brskanja</translation>
-<translation id="7887198238286927132">Chrome zaradi varovanja vaše zasebnosti ne bo samodejno izpolnil tega polja.</translation>
+<translation id="7887198238286927132">Mises zaradi varovanja vaše zasebnosti ne bo samodejno izpolnil tega polja.</translation>
 <translation id="7911190106180361398">Vaša organizacija vam ne dovoli sinhronizirati vsega.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Izvozi gesla ...</translation>
@@ -804,7 +804,7 @@ Spletna mesta lahko uporabljajo piškotke za ogled dejavnosti brskanja na razli�
 <translation id="8533670235862049797">Varno brskanje je vklopljeno</translation>
 <translation id="8534481786647257214">Objava v Googlu+ je dokončana.</translation>
 <translation id="8548878600947630424">Najdi na strani ...</translation>
-<translation id="8574235780160508979">Pogoji storitve za Chrome se bodo spremenili 31. marca. <ph name="BEGIN_LINK" />Preglejte<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Pogoji storitve za Mises se bodo spremenili 31. marca. <ph name="BEGIN_LINK" />Preglejte<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Izklop</translation>
 <translation id="8590913940444621808">Nikoli ne vprašaj</translation>
 <translation id="8591976964826315682">Blokiraj piškotke drugih mest v anonimnem načinu</translation>
@@ -855,7 +855,7 @@ Spletna mesta lahko uporabljajo piškotke za ogled dejavnosti brskanja na razli�
 <translation id="9081058212938299310">Želite posodobiti geslo za <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 element</translation>
 <translation id="9083838294503912307">Če želite sinhronizirati in prilagajati v vseh napravah, vklopite sinhronizacijo.</translation>
-<translation id="9087108903408689779">Geslo, ki ga predlaga Chrome:</translation>
+<translation id="9087108903408689779">Geslo, ki ga predlaga Mises:</translation>
 <translation id="9094033019050270033">Posodobi geslo</translation>
 <translation id="9100610230175265781">Zahtevano je geslo</translation>
 <translation id="9107664647686727385">Iskanje ogroženih gesel</translation>

@@ -9,7 +9,7 @@
 <translation id="1015730422737071372">Ange ytterligare information</translation>
 <translation id="1019413721762100891">Av</translation>
 <translation id="1021110881106174305">Godkända kort</translation>
-<translation id="1021753677514347426">Det här problemet uppstår på grund av ett certifikat som du eller någon annan har installerat på enheten. Certifikatet är känt för att användas för att övervaka och fånga upp nätverkstrafik och är inte betrott i Chromium. Även om det kan vara berättigat med övervakning i vissa fall, t.ex. i ett skol- eller företagsnätverk, vill vi göra dig medveten om vad som pågår även om du inte kan göra något åt det. Alla webbläsare och appar som använder internet omfattas av övervakningen.</translation>
+<translation id="1021753677514347426">Det här problemet uppstår på grund av ett certifikat som du eller någon annan har installerat på enheten. Certifikatet är känt för att användas för att övervaka och fånga upp nätverkstrafik och är inte betrott i Mises. Även om det kan vara berättigat med övervakning i vissa fall, t.ex. i ett skol- eller företagsnätverk, vill vi göra dig medveten om vad som pågår även om du inte kan göra något åt det. Alla webbläsare och appar som använder internet omfattas av övervakningen.</translation>
 <translation id="1024111578869940408">Ibland försöker hackare efterlikna webbplatser genom att göra svårupptäckta ändringar i webbadressen.</translation>
 <translation id="1028781062521375153">Visa information</translation>
 <translation id="1030706264415084469"><ph name="URL" /> vill lagra stora mängder data permanent på din enhet</translation>
@@ -24,7 +24,7 @@
 <translation id="1050038467049342496">Stäng andra appar</translation>
 <translation id="1055184225775184556">&amp;Ångra Lägg till</translation>
 <translation id="1056898198331236512">Varning</translation>
-<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill spela Dino Run-spelet i Chrome</translation>
+<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill spela Dino Run-spelet i Mises</translation>
 <translation id="1058479211578257048">Sparar kort …</translation>
 <translation id="10614374240317010">Aldrig sparad</translation>
 <translation id="1062160989074299343">Prc10 (kuvert)</translation>
@@ -38,7 +38,7 @@
 <translation id="1088860948719068836">Lägg till namnet på kortet</translation>
 <translation id="1089439967362294234">Ändra lösenordet</translation>
 <translation id="1096545575934602868">Fältet får ha högst <ph name="MAX_ITEMS_LIMIT" /> poster. Alla poster utöver detta antal ignoreras.</translation>
-<translation id="1100782917270858593">Knappen Återuppta sökning: tryck på Retur om du vill återuppta sökningen och se relevant aktivitet i Chrome-historiken</translation>
+<translation id="1100782917270858593">Knappen Återuppta sökning: tryck på Retur om du vill återuppta sökningen och se relevant aktivitet i Mises-historiken</translation>
 <translation id="1101672080107056897">Ett fel uppstod under åtgärden</translation>
 <translation id="1103523840287552314">Översätt alltid <ph name="LANGUAGE" /></translation>
 <translation id="1110994991967754504">Välj behörighet för <ph name="PERMISSION_NAME" /></translation>
@@ -83,7 +83,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="124116460088058876">Fler språk</translation>
 <translation id="1243027604378859286">Författare:</translation>
 <translation id="1246424317317450637">Fet</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill anpassa tillgänglighetsverktygen i inställningarna för Chrome OS</translation>
+<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill anpassa tillgänglighetsverktygen i inställningarna för Mises OS</translation>
 <translation id="1250759482327835220">Spara kortet, faktureringsadressen och ditt namn i Google-kontot så går det snabbare att betala nästa gång.</translation>
 <translation id="1252799212227771492">Knappen Skapa kalkylark: tryck på Retur om du snabbt vill skapa ett nytt Google-kalkylark</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (synkroniserade)</translation>
@@ -95,7 +95,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
     &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">Du har angett ditt lösenord på en webbplats som inte hanteras av organisationen. Skydda kontot genom att inte återanvända lösenordet för andra appar och webbplatser.</translation>
 <translation id="1257553931232494454">zoomnivåer</translation>
-<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hantera inställningarna för Chrome</translation>
+<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hantera inställningarna för Mises</translation>
 <translation id="1263231323834454256">Läslista</translation>
 <translation id="1264309058268477500">Alternativ</translation>
 <translation id="1269516672602708785">Skapa en ny webbplats i Google Sites snabbt</translation>
@@ -103,7 +103,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="1281476433249504884">Utmatningsfack 1</translation>
 <translation id="1285320974508926690">Översätt aldrig den här webbplatsen</translation>
 <translation id="1292571435393770077">Fack 16</translation>
-<translation id="1292701964462482250">Programvara på datorn förhindrar att Chrome ansluter till internet på ett säkert sätt (endast Windows-datorer)</translation>
+<translation id="1292701964462482250">Programvara på datorn förhindrar att Mises ansluter till internet på ett säkert sätt (endast Windows-datorer)</translation>
 <translation id="1294154142200295408">Varianter på kommandoraden</translation>
 <translation id="129553762522093515">Nyligen stängda</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK" />Testa att rensa cookies<ph name="END_LINK" /></translation>
@@ -150,7 +150,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="1384725838384960382">Arbetsblad för autentisering av användaruppgifter för säker betalning</translation>
 <translation id="1386623374109090026">Kommentarer</translation>
 <translation id="139305205187523129"><ph name="HOST_NAME" /> skickade ingen data.</translation>
-<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill återuppta sökningen och se relevant aktivitet i Chrome-historiken</translation>
+<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill återuppta sökningen och se relevant aktivitet i Mises-historiken</translation>
 <translation id="1405567553485452995">Ljusgrön</translation>
 <translation id="1407135791313364759">Öppna alla</translation>
 <translation id="1408787208417187241">Tre häftklamrar högst upp</translation>
@@ -200,7 +200,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="154408704832528245">Välj leveransadress</translation>
 <translation id="1549470594296187301">JavaScript måste aktiveras för att du ska kunna använda den här funktionen.</translation>
 <translation id="155039086686388498">Engineering-D</translation>
-<translation id="1553358976309200471">Uppdatera Chrome</translation>
+<translation id="1553358976309200471">Uppdatera Mises</translation>
 <translation id="1555130319947370107">Blå</translation>
 <translation id="1559447966090556585">Vill du få aviseringar?</translation>
 <translation id="1559528461873125649">Filen eller katalogen finns inte</translation>
@@ -216,7 +216,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="1588438908519853928">Normal</translation>
 <translation id="1592005682883173041">Lokal dataåtkomst</translation>
 <translation id="1594030484168838125">Välj</translation>
-<translation id="160851722280695521">Spela Dino Run-spelet i Chrome</translation>
+<translation id="160851722280695521">Spela Dino Run-spelet i Mises</translation>
 <translation id="161042844686301425">Cyanblå</translation>
 <translation id="1611101756749861742">Andra rullen</translation>
 <translation id="1615402009686901181">Skärmbilder inaktiveras av en administratörspolicy när konfidentiellt innehåll är synligt</translation>
@@ -233,13 +233,13 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="1642410292376109062">Knappen Byt lösenord till Google: tryck på Retur om du vill byta lösenord till Google-kontot</translation>
 <translation id="1644574205037202324">Historik</translation>
 <translation id="1645368109819982629">Det finns inget stöd för protokollet</translation>
-<translation id="1650602712345345441">Hantera Chrome-inställningarna</translation>
+<translation id="1650602712345345441">Hantera Mises-inställningarna</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="1656024727720460136">Chrome har förenklat sidan så att den ska bli lättare att läsa. Chrome hämtade den ursprungliga sidan via en säker anslutning.</translation>
+<translation id="1656024727720460136">Mises har förenklat sidan så att den ska bli lättare att läsa. Mises hämtade den ursprungliga sidan via en säker anslutning.</translation>
 <translation id="1656489000284462475">Upphämtning</translation>
 <translation id="1658918301167915956">Bluetooth-enheter</translation>
 <translation id="1662550410081243962">Spara och fyll i betalningsmetoder</translation>
-<translation id="1663943134801823270">Kort och adresser har hämtats från Chrome. Du hanterar dessa under <ph name="BEGIN_LINK" />Inställningar<ph name="END_LINK" />.</translation>
+<translation id="1663943134801823270">Kort och adresser har hämtats från Mises. Du hanterar dessa under <ph name="BEGIN_LINK" />Inställningar<ph name="END_LINK" />.</translation>
 <translation id="1671391448414634642">Sidor på <ph name="SOURCE_LANGUAGE" /> översätts till <ph name="TARGET_LANGUAGE" /> från och med nu.</translation>
 <translation id="1682696192498422849">Kortsidan först</translation>
 <translation id="168693727862418163">Principen ignoreras eftersom den inte gick att validera mot schemat.</translation>
@@ -324,9 +324,9 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="1919345977826869612">Annonser</translation>
 <translation id="1919367280705858090">Få hjälp med ett specifikt felmeddelande</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Ingen}=1{1 webbplats}other{# webbplatser}}</translation>
-<translation id="1923390796829649802">Knappen Hantera tillgänglighetsinställningar: tryck på Retur om du vill anpassa tillgänglighetsverktygen i inställningarna för Chrome OS</translation>
+<translation id="1923390796829649802">Knappen Hantera tillgänglighetsinställningar: tryck på Retur om du vill anpassa tillgänglighetsverktygen i inställningarna för Mises OS</translation>
 <translation id="1924727005275031552">Ny</translation>
-<translation id="1927439593081478069">Knappen Kör säkerhetskontroll i Chrome: tryck på Retur om du vill köra en säkerhetskontroll i inställningarna för Chrome</translation>
+<translation id="1927439593081478069">Knappen Kör säkerhetskontroll i Mises: tryck på Retur om du vill köra en säkerhetskontroll i inställningarna för Mises</translation>
 <translation id="1939175642807587452">Får begära tillstånd att skicka aviseringar</translation>
 <translation id="1945968466830820669">Du kan förlora åtkomsten till organisationens konto eller bli utsatt för identitetsstöld. Du rekommenderas att ändra lösenordet nu.</translation>
 <translation id="1947454675006758438">Häfta uppe till höger</translation>
@@ -345,8 +345,8 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2001146170449793414">{COUNT,plural, =1{och 1 till}other{och # till}}</translation>
 <translation id="2003709556000175978">Återställ lösenordet nu</translation>
 <translation id="2003775180883135320">Fyra hål högst upp</translation>
-<translation id="201174227998721785">Hantera behörigheter och data som lagras på olika webbplatser i inställningarna för Chrome</translation>
-<translation id="2019607688127825327">Knappen Hantera tillgänglighetsinställningar: tryck på Retur om du vill anpassa tillgänglighetsverktygen i Chrome-inställningarna</translation>
+<translation id="201174227998721785">Hantera behörigheter och data som lagras på olika webbplatser i inställningarna för Mises</translation>
+<translation id="2019607688127825327">Knappen Hantera tillgänglighetsinställningar: tryck på Retur om du vill anpassa tillgänglighetsverktygen i Mises-inställningarna</translation>
 <translation id="2025115093177348061">Förstärkt verklighet</translation>
 <translation id="2025186561304664664">Proxyn är inställd på automatisk konfiguration.</translation>
 <translation id="2025891858974379949">Osäkert innehåll</translation>
@@ -357,7 +357,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2042213636306070719">Fack 7</translation>
 <translation id="204357726431741734">Logga in om du vill använda lösenord som har sparats i Google-kontot</translation>
 <translation id="2053111141626950936">Sidor på <ph name="LANGUAGE" /> översätts inte.</translation>
-<translation id="2053373601901562871">{NUM_DAYS,plural, =0{När den här inställningen är på och statusen är Aktiv fastställer Chrome vilken grupp, eller kohort, som du tillhör utifrån din senaste webbaktivitet. Annonsörer kan välja annonser för denna grupp och din webbhistorik förblir privat på enheten. Grupptillhörigheten uppdateras dagligen.}=1{När den här inställningen är på och statusen är Aktiv fastställer Chrome vilken grupp, eller kohort, som du tillhör utifrån din senaste webbaktivitet. Annonsörer kan välja annonser för denna grupp och din webbhistorik förblir privat på enheten. Grupptillhörigheten uppdateras dagligen.}other{När den här inställningen är på och statusen är Aktiv fastställer Chrome vilken grupp, eller kohort, som du tillhör utifrån din senaste webbaktivitet. Annonsörer kan välja annonser för denna grupp och din webbhistorik förblir privat på enheten. Grupptillhörigheten uppdateras med {NUM_DAYS} dagars mellanrum.}}</translation>
+<translation id="2053373601901562871">{NUM_DAYS,plural, =0{När den här inställningen är på och statusen är Aktiv fastställer Mises vilken grupp, eller kohort, som du tillhör utifrån din senaste webbaktivitet. Annonsörer kan välja annonser för denna grupp och din webbhistorik förblir privat på enheten. Grupptillhörigheten uppdateras dagligen.}=1{När den här inställningen är på och statusen är Aktiv fastställer Mises vilken grupp, eller kohort, som du tillhör utifrån din senaste webbaktivitet. Annonsörer kan välja annonser för denna grupp och din webbhistorik förblir privat på enheten. Grupptillhörigheten uppdateras dagligen.}other{När den här inställningen är på och statusen är Aktiv fastställer Mises vilken grupp, eller kohort, som du tillhör utifrån din senaste webbaktivitet. Annonsörer kan välja annonser för denna grupp och din webbhistorik förblir privat på enheten. Grupptillhörigheten uppdateras med {NUM_DAYS} dagars mellanrum.}}</translation>
 <translation id="2053553514270667976">ZIP</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 förslag}other{# förslag}}</translation>
 <translation id="2071156619270205202">Detta kort uppfyller inte kraven för virtuella kortnummer.</translation>
@@ -366,7 +366,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="20817612488360358">Datorns proxyinställningar är inställda på att användas, men det finns också en explicit proxykonfiguration.</translation>
 <translation id="2082238445998314030">Resultat <ph name="RESULT_NUMBER" /> av <ph name="TOTAL_RESULTS" /></translation>
 <translation id="2085876078937250610">Spara …</translation>
-<translation id="2088086323192747268">Knappen Hantera synkronisering, tryck på Retur om du vill hantera vilken information som synkroniseras i inställningarna för Chrome</translation>
+<translation id="2088086323192747268">Knappen Hantera synkronisering, tryck på Retur om du vill hantera vilken information som synkroniseras i inställningarna för Mises</translation>
 <translation id="2091887806945687916">Ljud</translation>
 <translation id="2094505752054353250">Domänen matchar inte</translation>
 <translation id="2096368010154057602">Departement</translation>
@@ -433,7 +433,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2293443924986248631">När detta har aktiverats kan en webbplats inte använda cookies som spårar dig på webben. Funktioner på vissa webbplatser kan sluta fungera.</translation>
 <translation id="2295290966866883927">Webbadressen till sidor som du besöker skickas till Google Cloud eller tredje part för analys. Till exempel kan de genomsökas i syfte att upptäcka osäkra webbplatser.</translation>
 <translation id="2297722699537546652">B5 (kuvert)</translation>
-<translation id="2298855485018661510">Knappen Hantera cookies, tryck på Retur om du vill hantera cookies i inställningarna för Chrome</translation>
+<translation id="2298855485018661510">Knappen Hantera cookies, tryck på Retur om du vill hantera cookies i inställningarna för Mises</translation>
 <translation id="2300306941146563769">Inte uppladdad</translation>
 <translation id="2310021320168182093">Chou2 (kuvert)</translation>
 <translation id="2316887270356262533">Frigör mindre än 1 MB. Vissa webbplatser kan läsas in långsammare nästa gång du besöker dem.</translation>
@@ -456,9 +456,9 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2367567093518048410">Nivå</translation>
 <translation id="2372464001869762664">När du bekräftar delas kortuppgifter från ditt Google-konto med webbplatsen. Du hittar CVC-koden i Plex-kontouppgifterna.</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="2383455408879745299">Anpassa tillgänglighetsverktygen i Chrome-inställningarna</translation>
+<translation id="2383455408879745299">Anpassa tillgänglighetsverktygen i Mises-inställningarna</translation>
 <translation id="2384307209577226199">Standardinställning i företaget</translation>
-<translation id="2385809941344967209">Uppdatera Chrome via inställningarna för Chrome</translation>
+<translation id="2385809941344967209">Uppdatera Mises via inställningarna för Mises</translation>
 <translation id="2386255080630008482">Servercertifikatet har återkallats.</translation>
 <translation id="2392959068659972793">Visa policyer utan inställt värde</translation>
 <translation id="239429038616798445">Det här fraktalternativet är inte tillgängligt. Testa ett annat alternativ.</translation>
@@ -475,7 +475,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">Välj leveranssätt</translation>
 <translation id="2465688316154986572">Häftning</translation>
-<translation id="2465914000209955735">Hantera filer du har laddat ned i Chrome</translation>
+<translation id="2465914000209955735">Hantera filer du har laddat ned i Mises</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />att köra nätverksdiagnostik<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">1 till N-ordning</translation>
 <translation id="2470767536994572628">När du redigerar kommentarer aktiveras enkelsidig vy och ursprunglig rotation igen för dokumentet</translation>
@@ -511,28 +511,28 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2556876185419854533">&amp;Ånga Redigera</translation>
 <translation id="2570734079541893434">Hantera inställningar</translation>
 <translation id="257674075312929031">Grupp</translation>
-<translation id="2576880857912732701">Knappen Säkerhetsinställningar: tryck på Retur om du vill hantera Säker webbsökning med mera i inställningarna för Chrome</translation>
+<translation id="2576880857912732701">Knappen Säkerhetsinställningar: tryck på Retur om du vill hantera Säker webbsökning med mera i inställningarna för Mises</translation>
 <translation id="2586657967955657006">Urklipp</translation>
 <translation id="2587730715158995865">Från <ph name="ARTICLE_PUBLISHER" />. Läs denna och <ph name="OTHER_ARTICLE_COUNT" /> andra artiklar.</translation>
 <translation id="2587841377698384444">Id för katalog-API:</translation>
 <translation id="2594318783181750337">Snabbvy på webben:</translation>
 <translation id="2595719060046994702">Enheten och kontot hanteras inte av ett företag eller annan organisation.</translation>
-<translation id="2596415276201385844">Om du vill upprätta en säker anslutning måste klockan vara rätt inställd. Det beror på att certifikaten som webbplatserna använder för att identifiera sig endast är giltiga under vissa tidsperioder. Chrome kan inte verifiera certifikaten eftersom klockan på enheten inte stämmer.</translation>
+<translation id="2596415276201385844">Om du vill upprätta en säker anslutning måste klockan vara rätt inställd. Det beror på att certifikaten som webbplatserna använder för att identifiera sig endast är giltiga under vissa tidsperioder. Mises kan inte verifiera certifikaten eftersom klockan på enheten inte stämmer.</translation>
 <translation id="2597378329261239068">Dokumentet är lösenordsskyddat. Ange ett lösenord.</translation>
 <translation id="2609632851001447353">Varianter</translation>
 <translation id="2610561535971892504">Klicka för att kopiera</translation>
 <translation id="2618023639789766142">C10 (kuvert)</translation>
 <translation id="2625385379895617796">Klockan går före</translation>
 <translation id="262745152991669301">Får begära tillstånd att ansluta till USB-enheter</translation>
-<translation id="2629325967560697240"><ph name="BEGIN_ENHANCED_PROTECTION_LINK" />Aktivera Förbättrat skydd<ph name="END_ENHANCED_PROTECTION_LINK" /> för att få Chromes högsta säkerhetsnivå</translation>
+<translation id="2629325967560697240"><ph name="BEGIN_ENHANCED_PROTECTION_LINK" />Aktivera Förbättrat skydd<ph name="END_ENHANCED_PROTECTION_LINK" /> för att få Misess högsta säkerhetsnivå</translation>
 <translation id="2634124572758952069">Det gick inte att hitta IP-adressen till servern på <ph name="HOST_NAME" />.</translation>
 <translation id="2639739919103226564">Status:</translation>
 <translation id="264810637653812429">Inga kompatibla enheter hittades.</translation>
 <translation id="2649204054376361687"><ph name="CITY" />, <ph name="COUNTRY" /></translation>
-<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill rensa webbhistorik, cookies, cacheminne och annat i inställningarna för Chrome</translation>
+<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill rensa webbhistorik, cookies, cacheminne och annat i inställningarna för Mises</translation>
 <translation id="2650446666397867134">Åtkomst till filen nekades</translation>
 <translation id="2653659639078652383">Skicka</translation>
-<translation id="2659491813326907275">Anpassa tillgänglighetsverktygen i inställningarna för Chrome OS</translation>
+<translation id="2659491813326907275">Anpassa tillgänglighetsverktygen i inställningarna för Mises OS</translation>
 <translation id="2660779039299703961">Event</translation>
 <translation id="2664887757054927933">{COUNT,plural, =0{Inga}=1{1 lösenord (för <ph name="DOMAIN_LIST" />)}=2{2 lösenord (för <ph name="DOMAIN_LIST" />)}other{# lösenord (för <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="2666092431469916601">Överst</translation>
@@ -554,13 +554,13 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2705137772291741111">Det gick inte att läsa den sparade (cachelagrade) kopian av webbplatsen.</translation>
 <translation id="2709516037105925701">Autofyll</translation>
 <translation id="2713444072780614174">Vit</translation>
-<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera betalningar och kreditkortsuppgifter i inställningarna för Chrome</translation>
+<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera betalningar och kreditkortsuppgifter i inställningarna för Mises</translation>
 <translation id="2721148159707890343">Begäran genomfördes</translation>
-<translation id="2723669454293168317">Kör en säkerhetskontroll i inställningarna för Chrome</translation>
+<translation id="2723669454293168317">Kör en säkerhetskontroll i inställningarna för Mises</translation>
 <translation id="2726001110728089263">Sidofack</translation>
 <translation id="2728127805433021124">Serverns certifikat är signerat med en svag signaturalgoritm.</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />att köra anslutningsdiagnostik<ph name="END_LINK" /></translation>
-<translation id="2737403869486738563">Återuppta sökningen för att se relevant aktivitet i Chrome-historiken</translation>
+<translation id="2737403869486738563">Återuppta sökningen för att se relevant aktivitet i Mises-historiken</translation>
 <translation id="2738330467931008676">Välj hämtningsadress</translation>
 <translation id="2740531572673183784">OK</translation>
 <translation id="2742870351467570537">Ta bort valda objekt</translation>
@@ -573,7 +573,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2792012897584536778">Den här enhetens administratör har konfigurerat säkerhetscertifikat som kan tillåta den att se innehållet på webbplatser du besöker.</translation>
 <translation id="2799020568854403057">Det finns skadliga appar på webbplatsen du är på väg till</translation>
 <translation id="2799223571221894425">Starta om</translation>
-<translation id="2799846101868535739">Knappen Återuppta sökningen: tryck på Retur om du vill återuppta sökningen och se relevant aktivitet i Chrome-historiken</translation>
+<translation id="2799846101868535739">Knappen Återuppta sökningen: tryck på Retur om du vill återuppta sökningen och se relevant aktivitet i Mises-historiken</translation>
 <translation id="2803306138276472711">Google Säker webbsökning upptäckte nyligen <ph name="BEGIN_LINK" />skadlig programvara<ph name="END_LINK" /> på <ph name="SITE" />. Ibland förekommer det skadlig programvara på webbplatser som vanligtvis är säkra.</translation>
 <translation id="2807052079800581569">Bild Y – position</translation>
 <translation id="2820957248982571256">Söker …</translation>
@@ -587,7 +587,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2859806420264540918">Påträngande eller vilseledande annonser visas på den här webbplatsen.</translation>
 <translation id="287596039013813457">Vänlig</translation>
 <translation id="2876489322757410363">Om du betalar i ett externt program sker inte det i inkognitoläge. Vill du fortsätta?</translation>
-<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hantera Säker webbsökning med mera i inställningarna för Chrome</translation>
+<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hantera Säker webbsökning med mera i inställningarna för Mises</translation>
 <translation id="2878197950673342043">Korsfalsning</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">Fönsterplacering</translation>
@@ -599,7 +599,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="290376772003165898">Är sidan inte på <ph name="LANGUAGE" />?</translation>
 <translation id="2909946352844186028">En nätverksförändring upptäcktes.</translation>
 <translation id="2911973620368911614">Användar-id för jobbkonto</translation>
-<translation id="2914160345369867329"><ph name="SITE" /> använder normalt kryptering (SSL) för att skydda din information. När Chrome försökte ansluta till <ph name="SITE" /> den här gången skickade webbplatsen tillbaka ovanliga och felaktiga uppgifter. Sådant kan hända när en angripare utger sig för att vara <ph name="SITE" /> eller när anslutningen har avbrutits av en wifi-inloggningsskärm. Din information är fortfarande säker eftersom Chrome avbröt anslutningen innan någon data utbyttes.</translation>
+<translation id="2914160345369867329"><ph name="SITE" /> använder normalt kryptering (SSL) för att skydda din information. När Mises försökte ansluta till <ph name="SITE" /> den här gången skickade webbplatsen tillbaka ovanliga och felaktiga uppgifter. Sådant kan hända när en angripare utger sig för att vara <ph name="SITE" /> eller när anslutningen har avbrutits av en wifi-inloggningsskärm. Din information är fortfarande säker eftersom Mises avbröt anslutningen innan någon data utbyttes.</translation>
 <translation id="2915068235268646559">Krasch från <ph name="CRASH_TIME" /></translation>
 <translation id="2916038427272391327">Stäng andra program</translation>
 <translation id="2922350208395188000">Servercertifikatet kan inte kontrolleras.</translation>
@@ -612,14 +612,14 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="2941952326391522266">Servern kunde inte bevisa att den är <ph name="DOMAIN" /> eftersom dess säkerhetscertifikat kommer från <ph name="DOMAIN2" />. Detta kan orsakas av en felaktig konfigurering eller att någon spärrar anslutningen.</translation>
 <translation id="2943895734390379394">Uppladdningstid:</translation>
 <translation id="2948083400971632585">Du kan inaktivera alla proxyservrar som har konfigurerats för en anslutning från sidan Inställningar.</translation>
-<translation id="2949183777371959169">Principen ignoreras eftersom datorn inte är registrerad för Chrome Browser Cloud Management.</translation>
+<translation id="2949183777371959169">Principen ignoreras eftersom datorn inte är registrerad för Mises Browser Cloud Management.</translation>
 <translation id="2951588413176968965">Mitt postfack</translation>
 <translation id="2952820037279740115">Stäng alla inkognitofönster</translation>
 <translation id="295526156371527179">Varning: Den här principen kombinerades inte som en ordbok enligt principen eftersom den inte är en ordbok.</translation>
 <translation id="2955913368246107853">Stäng sökfältet</translation>
 <translation id="2972581237482394796">&amp;Upprepa</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" /> är markerad just nu. <ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">Om alternativet är aktiverat sparar Chromium en kopia av kortet på enheten så att det går snabbare att fylla i formulär.</translation>
+<translation id="2985306909656435243">Om alternativet är aktiverat sparar Mises en kopia av kortet på enheten så att det går snabbare att fylla i formulär.</translation>
 <translation id="2985398929374701810">Ange en giltig adress</translation>
 <translation id="2986368408720340940">Det här alternativet för utlämning är inte tillgängligt. Testa ett annat alternativ.</translation>
 <translation id="2987034854559945715">Det finns inga matchande funktioner</translation>
@@ -678,7 +678,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="3194737229810486521"><ph name="URL" /> vill lagra data permanent på din enhet</translation>
 <translation id="3195213714973468956"><ph name="PRINTER_NAME" /> på <ph name="SERVER_NAME" /></translation>
 <translation id="3197136577151645743">Får begära tillstånd att få veta om du använder den här enheten aktivt</translation>
-<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera vilken information som synkroniseras i inställningarna för Chrome</translation>
+<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera vilken information som synkroniseras i inställningarna för Mises</translation>
 <translation id="320323717674993345">Avbryt betalningen</translation>
 <translation id="3207960819495026254">Bokmärkt</translation>
 <translation id="3209034400446768650">Sidan kan vara avgiftsbelagd</translation>
@@ -700,7 +700,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="3252266817569339921">franska</translation>
 <translation id="3257954757204451555">Vem står bakom informationen?</translation>
 <translation id="3259648571731540213"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du snabbt vill skapa en ny händelse i Google Kalender</translation>
-<translation id="3264837738038045344">Knappen Hantera inställningar för Chrome: tryck på Retur om du vill öppna Chrome-inställningarna</translation>
+<translation id="3264837738038045344">Knappen Hantera inställningar för Mises: tryck på Retur om du vill öppna Mises-inställningarna</translation>
 <translation id="3266793032086590337">Värde (konflikt)</translation>
 <translation id="3268451620468152448">Öppna flikar</translation>
 <translation id="3270847123878663523">&amp;Ångra Ändra ordning</translation>
@@ -712,7 +712,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="3287510313208355388">Ladda ned när du är online</translation>
 <translation id="3288238092761586174"><ph name="URL" /> kan behöva vidta ytterligare steg för att verifiera din betalning</translation>
 <translation id="3293642807462928945">Läs mer om principen <ph name="POLICY_NAME" /></translation>
-<translation id="3295444047715739395">Visa och hantera dina lösenord i inställningarna för Chrome</translation>
+<translation id="3295444047715739395">Visa och hantera dina lösenord i inställningarna för Mises</translation>
 <translation id="3303855915957856445">Inga sökresultat hittades</translation>
 <translation id="3304073249511302126">Bluetooth-sökning</translation>
 <translation id="3308006649705061278">Organisationsenhet (OU)</translation>
@@ -726,7 +726,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="3345782426586609320">Ögon</translation>
 <translation id="3355823806454867987">Ändra proxyinställningar...</translation>
 <translation id="3360103848165129075">Arbetsblad för betalningshantering</translation>
-<translation id="3361596688432910856">Följande information <ph name="BEGIN_EMPHASIS" />sparas inte<ph name="END_EMPHASIS" /> i Chrome:
+<translation id="3361596688432910856">Följande information <ph name="BEGIN_EMPHASIS" />sparas inte<ph name="END_EMPHASIS" /> i Mises:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />webbhistoriken
           <ph name="LIST_ITEM" />cookies och webbplatsdata
@@ -740,7 +740,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
       • skapa en 3D-karta över dina omgivningar och registrera kamerans position
       • använda kameran.</translation>
 <translation id="337363190475750230">Tagen ur bruk</translation>
-<translation id="3375754925484257129">Kör säkerhetskontroll i Chrome</translation>
+<translation id="3375754925484257129">Kör säkerhetskontroll i Mises</translation>
 <translation id="3377144306166885718">En föråldrad version av TLS används på servern.</translation>
 <translation id="3377188786107721145">Fel vid analys av policyn</translation>
 <translation id="3377736046129930310">Verifiera kreditkort snabbare med skärmlås</translation>
@@ -791,7 +791,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="350069200438440499">Filnamn:</translation>
 <translation id="3507936815618196901">Skapa en 3D-karta över dina omgivningar och registrera kamerans position</translation>
 <translation id="3512163584740124171">Den här principen ignoreras eftersom en annan princip i samma principgrupp har högre prioritet.</translation>
-<translation id="35172538073169599">Knappen Hantera adresser, tryck på Retur om du vill lägga till och hantera adresser i inställningarna för Chrome</translation>
+<translation id="35172538073169599">Knappen Hantera adresser, tryck på Retur om du vill lägga till och hantera adresser i inställningarna för Mises</translation>
 <translation id="3518941727116570328">Hantering av flera objekt</translation>
 <translation id="3528171143076753409">Servercertifikatet är inte tillförlitligt.</translation>
 <translation id="3528485271872257980">Mörkbrun</translation>
@@ -821,7 +821,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="3611395257124510155">Virtuellt kort för <ph name="CARD_IDENTIFIER" /></translation>
 <translation id="3614103345592970299">Storlek 2</translation>
 <translation id="361438452008624280">Listposten <ph name="LANGUAGE_ID" />: Språket är okänt eller stöds inte.</translation>
-<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill köra en säkerhetskontroll i inställningarna för Chrome</translation>
+<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill köra en säkerhetskontroll i inställningarna för Mises</translation>
 <translation id="3615877443314183785">Ange ett giltigt utgångsdatum</translation>
 <translation id="36224234498066874">Rensa webbinformation ...</translation>
 <translation id="362276910939193118">Visa fullständig historik</translation>
@@ -831,9 +831,9 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="3631244953324577188">Biometri</translation>
 <translation id="3632503704576938756">Skärmdelningen återupptogs</translation>
 <translation id="3632892046558972264">Skärmdelningen pausades</translation>
-<translation id="3633738897356909127">Knappen Uppdatera Chrome, tryck på retur om du vill uppdatera Chrome i inställningarna för Chrome</translation>
+<translation id="3633738897356909127">Knappen Uppdatera Mises, tryck på retur om du vill uppdatera Mises i inställningarna för Mises</translation>
 <translation id="3634530185120165534">Fack 5</translation>
-<translation id="3634567936866541746">Du angav just ditt lösenord på en bedräglig webbplats. Du rekommenderas att kontrollera dina sparade lösenord i Chrome nu för att skydda dina konton.</translation>
+<translation id="3634567936866541746">Du angav just ditt lösenord på en bedräglig webbplats. Du rekommenderas att kontrollera dina sparade lösenord i Mises nu för att skydda dina konton.</translation>
 <translation id="3637662659967048211">Spara i Google-kontot</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">Program:</translation>
@@ -866,7 +866,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="3736520371357197498">Om du är medveten om säkerhetsriskerna kan du <ph name="BEGIN_LINK" />besöka den här osäkra webbplatsen<ph name="END_LINK" /> innan de skadliga programmen har tagits bort.</translation>
 <translation id="3738166223076830879">Webbläsaren hanteras av administratören.</translation>
 <translation id="3744111561329211289">Synkronisering i bakgrunden</translation>
-<translation id="3744899669254331632">Du kan inte besöka <ph name="SITE" /> just nu eftersom webbplatsen skickade krypterade användaruppgifter som Chromium inte kan bearbeta. Nätverksfel och attacker är ofta tillfälliga, så sidan kommer förmodligen fungera senare.</translation>
+<translation id="3744899669254331632">Du kan inte besöka <ph name="SITE" /> just nu eftersom webbplatsen skickade krypterade användaruppgifter som Mises inte kan bearbeta. Nätverksfel och attacker är ofta tillfälliga, så sidan kommer förmodligen fungera senare.</translation>
 <translation id="3745099705178523657">När du bekräftar delas kortuppgifter från ditt Google-konto med webbplatsen.</translation>
 <translation id="3748148204939282805">Angripare på <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> kan försöka lura dig att göra något riskfyllt, som att installera programvara eller avslöja personliga uppgifter (t.ex. lösenord, telefonnummer eller kreditkortsuppgifter). <ph name="BEGIN_LEARN_MORE_LINK" />Läs mer<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3754210790023674521">Avsluta bild-i-bild-läge</translation>
@@ -960,7 +960,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4089152113577680600">Fack 14</translation>
 <translation id="4098354747657067197">Webbplatsen som öppnas är bedräglig</translation>
 <translation id="4099048595830172239">Enligt administratörspolicyn är det inte rekommenderat att dela skärmen med <ph name="APPLICATION_TITLE" /> när konfidentiellt innehåll är synligt:</translation>
-<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill anpassa teckenstorlekar och teckensnitt i Chrome</translation>
+<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill anpassa teckenstorlekar och teckensnitt i Mises</translation>
 <translation id="4101413244023615925">Text och bild</translation>
 <translation id="4103249731201008433">Enhetens serienummer är ogiltigt</translation>
 <translation id="4106133539597032659">Knappen Skapa webbplats: tryck på Retur om du snabbt vill skapa en ny webbplats i Google Sites</translation>
@@ -972,7 +972,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4117700440116928470">Principens omfattning stöds inte.</translation>
 <translation id="4121428309786185360">Giltig till</translation>
 <translation id="4123572138124678573">Tre hål längst ned</translation>
-<translation id="4127575959421463246">Letar du efter Chrome OS-flaggor? Besök</translation>
+<translation id="4127575959421463246">Letar du efter Mises OS-flaggor? Besök</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{1 till}other{# till}}</translation>
 <translation id="4130226655945681476">Kontrollera nätverkskablar, modem och router</translation>
 <translation id="4134123981501319574">Skapa dokument</translation>
@@ -1015,11 +1015,11 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
     &lt;/ol&gt;
     &lt;h4&gt;Steg 2: Öppna sidan i inkognitoläge (endast datorer)&lt;/h4&gt;
     &lt;p&gt;Öppna sidan du försökte besöka i ett inkognitofönster.&lt;/p&gt;
-    &lt;p&gt;Om sidan öppnas är det ett tillägg i Chrome som inte fungerar som det ska. Åtgärda problemet genom att inaktivera tillägget.&lt;/p&gt;
+    &lt;p&gt;Om sidan öppnas är det ett tillägg i Mises som inte fungerar som det ska. Åtgärda problemet genom att inaktivera tillägget.&lt;/p&gt;
     &lt;h4&gt;Steg 3: Uppdatera operativsystemet&lt;/h4&gt;
     &lt;p&gt;Kontrollera att operativsystemet på enheten är uppdaterat.&lt;/p&gt;
     &lt;h4&gt;Steg 4: Inaktivera antivirusprogrammet tillfälligt&lt;/h4&gt;
-    &lt;p&gt;Felet visas om du har ett antivirusprogram med HTTPS-skydd eller HTTPS-genomsökning. Antivirusprogrammet stör Chromes säkerhetsfunktioner.&lt;/p&gt;
+    &lt;p&gt;Felet visas om du har ett antivirusprogram med HTTPS-skydd eller HTTPS-genomsökning. Antivirusprogrammet stör Misess säkerhetsfunktioner.&lt;/p&gt;
     &lt;p&gt;Testa att stänga av antivirusprogrammet. Om sidan öppnas måste du inaktivera antivirusprogrammet när du använder säkra webbplatser.&lt;/p&gt;
     &lt;p&gt;Glöm inte att aktivera antivirusprogrammet igen efteråt.&lt;/p&gt;
     &lt;h4&gt;Steg 5: Få mer hjälp&lt;/h4&gt;
@@ -1060,8 +1060,8 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4329871760342656885">Fel vid tolkning av princip: <ph name="ERROR" /></translation>
 <translation id="4331519897422864041">Utmatningsfack 5</translation>
 <translation id="4331708818696583467">Inte säker</translation>
-<translation id="4340575312453649552">Den här annonsen använde för många resurser för enheten, så den togs bort i Chrome.</translation>
-<translation id="4340982228985273705">Den här datorn har inte identifierats som företagshanterad, så bara tillägg på Chrome Web Store kan installeras automatiskt med principen. Uppdateringsadressen på Chrome Web Store är <ph name="CWS_UPDATE_URL" />.</translation>
+<translation id="4340575312453649552">Den här annonsen använde för många resurser för enheten, så den togs bort i Mises.</translation>
+<translation id="4340982228985273705">Den här datorn har inte identifierats som företagshanterad, så bara tillägg på Mises Web Store kan installeras automatiskt med principen. Uppdateringsadressen på Mises Web Store är <ph name="CWS_UPDATE_URL" />.</translation>
 <translation id="4346197816712207223">Godkända kreditkort</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">Anslutningen till <ph name="SITE" /> är inte säker</translation>
@@ -1072,7 +1072,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4356973930735388585">Det kan hända att angripare på den här webbplatsen försöker installera skadliga program på datorn som stjäl eller raderar dina uppgifter (t.ex. foton, lösenord, meddelanden och kreditkort).</translation>
 <translation id="4358059973562876591">Det gick inte att tillämpa de angivna mallarna på grund av ett fel i principen DnsOverHttpsMode.</translation>
 <translation id="4358461427845829800">Hantera betalningsmetoder …</translation>
-<translation id="4359160567981085931">Du angav just ditt lösenord på en bedräglig webbplats. Du kan få hjälp i Chrome. Klicka på Skydda kontot för att ändra ditt lösenord och meddela Google om att kontot kan vara utsatt för fara.</translation>
+<translation id="4359160567981085931">Du angav just ditt lösenord på en bedräglig webbplats. Du kan få hjälp i Mises. Klicka på Skydda kontot för att ändra ditt lösenord och meddela Google om att kontot kan vara utsatt för fara.</translation>
 <translation id="4367563149485757821">Number-12 (kuvert)</translation>
 <translation id="437040971055499437">Säkerhetshändelse inträffar</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -1086,7 +1086,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4408413947728134509">Cookies <ph name="NUM_COOKIES" /></translation>
 <translation id="4414515549596849729">cookies och webbplatsdata</translation>
 <translation id="4415426530740016218">Hämtningsadress</translation>
-<translation id="4424024547088906515">Servern kunde inte bevisa att den är <ph name="DOMAIN" /> eftersom Chrome inte litar på dess säkerhetscertifikat. Detta kan orsakas av en felaktig konfigurering eller att någon spärrar anslutningen.</translation>
+<translation id="4424024547088906515">Servern kunde inte bevisa att den är <ph name="DOMAIN" /> eftersom Mises inte litar på dess säkerhetscertifikat. Detta kan orsakas av en felaktig konfigurering eller att någon spärrar anslutningen.</translation>
 <translation id="443121186588148776">Serieport</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> godkände inte inloggningscertifikatet eller så har inget inloggningscertifikat angetts.</translation>
 <translation id="4432792777822557199">Sidor på <ph name="SOURCE_LANGUAGE" /> översätts till <ph name="TARGET_LANGUAGE" /> från och med nu</translation>
@@ -1106,7 +1106,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4482953324121162758">Den här webbplatsen översätts inte.</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">Kryptera synkroniserade lösenord med ditt Google-konto</translation>
-<translation id="4492519888999857993">De här funktionerna är inaktiverade som standard. I kommande versioner av Chrome kommer de inte längre att vara tillgängliga.</translation>
+<translation id="4492519888999857993">De här funktionerna är inaktiverade som standard. I kommande versioner av Mises kommer de inte längre att vara tillgängliga.</translation>
 <translation id="4493480324863638523">Ogiltig webbadress. Måste vara en webbadress med ett standardprotokoll, t.ex. http://example.com eller https://example.com.</translation>
 <translation id="4500587658229086076">osäkert innehåll</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1117,7 +1117,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4509074745930862522"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill översätta den här sidan med Google Översätt</translation>
 <translation id="4510487217173779431">Chou4 (kuvert)</translation>
 <translation id="4514308731478712184">Inaktivera Sökningar</translation>
-<translation id="4515275063822566619">Kort och adresser har hämtats från Chrome och ditt Google-konto (<ph name="ACCOUNT_EMAIL" />). Du hanterar dessa under <ph name="BEGIN_LINK" />Inställningar<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">Kort och adresser har hämtats från Mises och ditt Google-konto (<ph name="ACCOUNT_EMAIL" />). Du hanterar dessa under <ph name="BEGIN_LINK" />Inställningar<ph name="END_LINK" />.</translation>
 <translation id="4517607026994743406">Comm-10 (kuvert)</translation>
 <translation id="4521157617044179198"><ph name="WIDTH" /> × <ph name="HEIGHT" /> mm (<ph name="ORIENTATION" />)</translation>
 <translation id="4521916730539354575">Vänster fack</translation>
@@ -1130,11 +1130,11 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="455113658016510503">A9</translation>
 <translation id="4558551763791394412">Testa att inaktivera tilläggen.</translation>
 <translation id="4559332380232738994">10x11</translation>
-<translation id="4567686777917670400">Administratören kan ändra webbläsarinställningarna på distans. Aktivitet på den här enheten kan hanteras även utanför Chromium. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">Administratören kan ändra webbläsarinställningarna på distans. Aktivitet på den här enheten kan hanteras även utanför Mises. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
 <translation id="457875822857220463">Leverans</translation>
 <translation id="4579056131138995126">Personal (kuvert)</translation>
 <translation id="4582204425268416675">Ta bort kort</translation>
-<translation id="4587425331216688090">Vill du ta bort adressen från Chrome?</translation>
+<translation id="4587425331216688090">Vill du ta bort adressen från Mises?</translation>
 <translation id="459089498662672729">Att klistra in här från <ph name="ORIGIN_NAME" /> rekommenderas inte enligt en administratörsprincip</translation>
 <translation id="4592951414987517459">Anslutningen till <ph name="DOMAIN" /> är krypterad med en modern krypteringssvit.</translation>
 <translation id="4594403342090139922">&amp;Ångra Ta bort</translation>
@@ -1142,9 +1142,9 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4598556348158889687">Lagringshantering</translation>
 <translation id="4600854749408232102">C6/C5 (kuvert)</translation>
 <translation id="4606870351894164739">Effektiv</translation>
-<translation id="4607603470419975064">Knappen Visa tips om Chrome: tryck på Retur om du vill läsa mer om funktioner i Chrome</translation>
-<translation id="4607608436550361748">Visa tips om Chrome</translation>
-<translation id="4627675673814409125">Den här policyn kan inte ställas in på Chrome-profilnivå och kommer att ignoreras.</translation>
+<translation id="4607603470419975064">Knappen Visa tips om Mises: tryck på Retur om du vill läsa mer om funktioner i Mises</translation>
+<translation id="4607608436550361748">Visa tips om Mises</translation>
+<translation id="4627675673814409125">Den här policyn kan inte ställas in på Mises-profilnivå och kommer att ignoreras.</translation>
 <translation id="4628948037717959914">Foto</translation>
 <translation id="4631649115723685955">Cashback länkad</translation>
 <translation id="4636930964841734540">Info</translation>
@@ -1174,7 +1174,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4731638775147756694">Den här appen har blockerats av administratören</translation>
 <translation id="4731967714531604179">Prc2 (kuvert)</translation>
 <translation id="4733082559415072992"><ph name="URL" /> vill använda enhetens plats</translation>
-<translation id="4736825316280949806">Starta om Chromium</translation>
+<translation id="4736825316280949806">Starta om Mises</translation>
 <translation id="4736934858538408121">Virtuellt kort</translation>
 <translation id="473775607612524610">Uppdatera</translation>
 <translation id="4738601419177586157">Sökförslag för <ph name="TEXT" /></translation>
@@ -1186,7 +1186,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4751476147751820511">Rörelse- eller ljussensorer</translation>
 <translation id="4754461935447132332">Tillåts inte för webbplatser som inte är säkra</translation>
 <translation id="4756388243121344051">&amp;Historik</translation>
-<translation id="4757993714154412917">Du angav just ditt lösenord på en bedräglig webbplats. Du rekommenderas att kontrollera dina sparade lösenord i Chromium nu för att skydda dina konton.</translation>
+<translation id="4757993714154412917">Du angav just ditt lösenord på en bedräglig webbplats. Du rekommenderas att kontrollera dina sparade lösenord i Mises nu för att skydda dina konton.</translation>
 <translation id="4758311279753947758">Lägg till kontaktuppgifter</translation>
 <translation id="4761104368405085019">Använd mikrofonen</translation>
 <translation id="4764776831041365478">Webbsidan på <ph name="URL" /> kan ligga nere för tillfället eller kan ha flyttats permanent till en ny webbadress.</translation>
@@ -1217,7 +1217,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
         <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">Aktivera varningar</translation>
 <translation id="4838327282952368871">Drömsk</translation>
-<translation id="4840250757394056958">Visa Chrome-historiken</translation>
+<translation id="4840250757394056958">Visa Mises-historiken</translation>
 <translation id="484462545196658690">Auto</translation>
 <translation id="4849865131988503897">Precisionskontroll</translation>
 <translation id="4850886885716139402">Visa</translation>
@@ -1266,7 +1266,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="4995216769782533993">Ange säkerhetskoden om du vill dela dina kortuppgifter med den här webbplatsen</translation>
 <translation id="4995474875135717171">Ändrades:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hantera webbplatssökning och standardsökmotor.</translation>
-<translation id="5002932099480077015">Om alternativet är aktiverat sparar Chrome en kopia av kortet på enheten så att det går snabbare att fylla i formulär.</translation>
+<translation id="5002932099480077015">Om alternativet är aktiverat sparar Mises en kopia av kortet på enheten så att det går snabbare att fylla i formulär.</translation>
 <translation id="5011561501798487822">upptäckt språk</translation>
 <translation id="5015510746216210676">Datornamn:</translation>
 <translation id="5017554619425969104">Texten som du kopierade</translation>
@@ -1297,7 +1297,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="5088142053160410913">Meddelande till operatören</translation>
 <translation id="5089810972385038852">Stat</translation>
 <translation id="5093232627742069661">Z-falsning</translation>
-<translation id="5094747076828555589">Servern kunde inte bevisa att den är <ph name="DOMAIN" /> eftersom Chromium inte litar på dess säkerhetscertifikat. Detta kan orsakas av en felaktig konfigurering eller att någon spärrar anslutningen.</translation>
+<translation id="5094747076828555589">Servern kunde inte bevisa att den är <ph name="DOMAIN" /> eftersom Mises inte litar på dess säkerhetscertifikat. Detta kan orsakas av en felaktig konfigurering eller att någon spärrar anslutningen.</translation>
 <translation id="5095208057601539847">Provins</translation>
 <translation id="5097099694988056070">Enhetsstatistik, till exempel processor- och RAM-användning</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1335,7 +1335,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="51918995459521422"><ph name="ORIGIN" /> vill ladda ned flera filer</translation>
 <translation id="519422657042045905">Kommentering är inte tillgängligt</translation>
 <translation id="5201306358585911203">På en inbäddad sida på den här sidan står det</translation>
-<translation id="5204468114771111727">Chrome upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Google-assistenten kan byta lösenord åt dig automatiskt.</translation>
+<translation id="5204468114771111727">Mises upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Google-assistenten kan byta lösenord åt dig automatiskt.</translation>
 <translation id="5205222826937269299">Namn måste anges</translation>
 <translation id="5209518306177824490">SHA-1-fingeravtryck</translation>
 <translation id="5209670883520018268">Fack 20</translation>
@@ -1348,7 +1348,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="5233045608889518621">12x19</translation>
 <translation id="5234764350956374838">Stäng</translation>
 <translation id="5250209940322997802">Anslut till ett nätverk</translation>
-<translation id="52517543715119994">Läs mer om funktioner i Chrome</translation>
+<translation id="52517543715119994">Läs mer om funktioner i Mises</translation>
 <translation id="5251803541071282808">Moln</translation>
 <translation id="5252000469029418751">C7 (kuvert)</translation>
 <translation id="5254043433801397071">Optimera utskriftsinnehåll</translation>
@@ -1367,7 +1367,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="5287240709317226393">Visa cookies</translation>
 <translation id="5287456746628258573">Den här webbplatsens säkerhetskonfiguration är inaktuell. Det kan leda till att dina uppgifter (till exempel lösenord eller kreditkortsnummer) exponeras när de skickas till den här webbplatsen.</translation>
 <translation id="5288108484102287882">Valideringen av principvärdena har utlöst varningar</translation>
-<translation id="5288808348893593856">Webbplatsens anslutning är alltid säker så länge det inte visas en varning i Chrome.</translation>
+<translation id="5288808348893593856">Webbplatsens anslutning är alltid säker så länge det inte visas en varning i Mises.</translation>
 <translation id="5289384342738547352">Hantering av flera dokument</translation>
 <translation id="5299298092464848405">Det uppstod ett fel när policyn analyserades</translation>
 <translation id="5300589172476337783">Visa</translation>
@@ -1382,13 +1382,13 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="5324080437450482387">Välj kontaktuppgifter</translation>
 <translation id="5329858041417644019">Din webbläsare är inte hanterad</translation>
 <translation id="5332219387342487447">Fraktmetod</translation>
-<translation id="5333022057423422993">Chrome upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Vi rekommenderar att du kontrollerar dina sparade lösenord för att skydda dina konton.</translation>
+<translation id="5333022057423422993">Mises upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Vi rekommenderar att du kontrollerar dina sparade lösenord för att skydda dina konton.</translation>
 <translation id="5334013548165032829">Detaljerade systemloggar</translation>
 <translation id="5334145288572353250">Vill du spara adressen?</translation>
 <translation id="5340250774223869109">Appen blockeras</translation>
 <translation id="534295439873310000">NFC-enheter</translation>
 <translation id="5344579389779391559">Den här sidan kan försöka debitera dig</translation>
-<translation id="5347645913823149105">Knappen Anpassa teckensnitt i Chrome: tryck på Retur om du vill anpassa teckenstorlekar och teckensnitt i Chrome</translation>
+<translation id="5347645913823149105">Knappen Anpassa teckensnitt i Mises: tryck på Retur om du vill anpassa teckenstorlekar och teckensnitt i Mises</translation>
 <translation id="5355557959165512791">Det går inte att besöka <ph name="SITE" /> just nu eftersom dess certifikat har återkallats. Nätverksfel och attacker är ofta tillfälliga, så sidan kommer förmodligen att fungera senare.</translation>
 <translation id="5356837363448394805">Rodnar</translation>
 <translation id="536296301121032821">Det gick inte att spara policyinställningarna</translation>
@@ -1434,14 +1434,14 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="5523118979700054094">Policynamn</translation>
 <translation id="55293785478302737">Kanthäftning</translation>
 <translation id="553484882784876924">Prc6 (kuvert)</translation>
-<translation id="5535133333442455806">Knappen Rensa webbinformation, tryck på Retur om du vill rensa webbhistorik, cookies, cacheminne och annat i inställningarna för Chrome</translation>
+<translation id="5535133333442455806">Knappen Rensa webbinformation, tryck på Retur om du vill rensa webbhistorik, cookies, cacheminne och annat i inställningarna för Mises</translation>
 <translation id="5536214594743852365">Visa avsnittet <ph name="SECTION" /></translation>
 <translation id="5539243836947087108">Raft</translation>
 <translation id="5540224163453853">Det gick inte att hitta den önskade artikeln.</translation>
 <translation id="5541086400771735334">Postfack 7</translation>
 <translation id="5541546772353173584">Lägg till e-postadress</translation>
 <translation id="5545756402275714221">Artiklar för dig</translation>
-<translation id="5552137475244467770">Chrome kontrollerar regelbundet om dina lösenord finns med på listor som har publicerats online. Under kontrollen krypteras dina lösenord och användarnamn så att varken Google eller någon annan kan läsa dem.</translation>
+<translation id="5552137475244467770">Mises kontrollerar regelbundet om dina lösenord finns med på listor som har publicerats online. Under kontrollen krypteras dina lösenord och användarnamn så att varken Google eller någon annan kan läsa dem.</translation>
 <translation id="5556459405103347317">Hämta igen</translation>
 <translation id="5560088892362098740">Sista giltighetsdatum</translation>
 <translation id="55635442646131152">Dokumentdisposition</translation>
@@ -1505,12 +1505,12 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="5784606427469807560">Det gick inte att bekräfta kortet. Kontrollera internetanslutningen och försök igen.</translation>
 <translation id="5785756445106461925">Den här sidan innehåller emellertid andra resurser som inte är säkra. Andra kan se resurserna när de överförs och hackare kan ändra resurserna så att sidan får ett annat utseende.</translation>
 <translation id="5786044859038896871">Vill du att kortuppgifterna ska fyllas i?</translation>
-<translation id="578633867165174378">Chrome upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Vi rekommenderar att du byter det här lösenordet nu.</translation>
+<translation id="578633867165174378">Mises upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Vi rekommenderar att du byter det här lösenordet nu.</translation>
 <translation id="5789643057113097023">,</translation>
 <translation id="5803412860119678065">Vill du att uppgifterna om <ph name="CARD_DETAIL" /> ska fyllas i?</translation>
 <translation id="5804241973901381774">Behörigheter</translation>
 <translation id="5810442152076338065">Anslutningen till <ph name="DOMAIN" /> är krypterad med en gammal krypteringssvit.</translation>
-<translation id="5812947184178430888">När säkerhetshändelser flaggas av Chrome skickas relevant data om händelserna till administratören. Exempel på sådan data är webbadresser till sidor du besöker i Chrome, filnamn eller metadata och användarnamnet du loggar in med i webbaserade appar, på dina enheter och i Chrome.</translation>
+<translation id="5812947184178430888">När säkerhetshändelser flaggas av Mises skickas relevant data om händelserna till administratören. Exempel på sådan data är webbadresser till sidor du besöker i Mises, filnamn eller metadata och användarnamnet du loggar in med i webbaserade appar, på dina enheter och i Mises.</translation>
 <translation id="5813119285467412249">&amp;Gör om Lägg till</translation>
 <translation id="5817918615728894473">Koppla</translation>
 <translation id="5824687817967109979">{NUM_CARDS,plural, =1{Det här kortet debiteras när du betalar, men kortnumret delas inte med webbplatsen. En tillfällig CVC-kod skapas som en extra säkerhetsåtgärd.}other{Det valda kortet debiteras när du betalar, men kortnumret delas inte med webbplatsen. En tillfällig CVC-kod skapas som en extra säkerhetsåtgärd.}}</translation>
@@ -1600,7 +1600,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="610911394827799129">Det kan finnas andra former av webbhistorik i Google-kontot på <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /></translation>
 <translation id="6116338172782435947">Tillgång till text och bilder som kopierats till Urklipp</translation>
 <translation id="6120179357481664955">Vill du spara UPI-id?</translation>
-<translation id="6124432979022149706">Chrome Enterprise Connectors</translation>
+<translation id="6124432979022149706">Mises Enterprise Connectors</translation>
 <translation id="6127379762771434464">Objektet har tagits bort</translation>
 <translation id="6146055958333702838">Kontrollera kablar och starta om routrar, modem och andra nätverksenheter
     som används.</translation>
@@ -1617,35 +1617,35 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="619448280891863779">Får begära tillstånd att öppna fönster och placera ut dem på skärmen</translation>
 <translation id="6196640612572343990">Blockera cookies från tredje part</translation>
 <translation id="6203231073485539293">Kontrollera internetanslutningen</translation>
-<translation id="6218753634732582820">Vill du ta bort adressen från Chromium?</translation>
+<translation id="6218753634732582820">Vill du ta bort adressen från Mises?</translation>
 <translation id="622039917539443112">Parallellfalsning</translation>
 <translation id="6221345481584921695">Google Säker webbsökning upptäckte nyligen <ph name="BEGIN_LINK" />skadlig programvara<ph name="END_LINK" /> på <ph name="SITE" />. Webbplatser som vanligtvis är säkra utsätts ibland för skadlig programvara. Det skadliga innehållet kommer från <ph name="SUBRESOURCE_HOST" />, som är en känd distributör av skadlig programvara.</translation>
-<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill anpassa tillgänglighetsverktygen i Chrome-inställningarna</translation>
+<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill anpassa tillgänglighetsverktygen i Mises-inställningarna</translation>
 <translation id="6233160458685643793">Flinar</translation>
 <translation id="6234122620015464377">Beskär efter varje dokument</translation>
 <translation id="6240447795304464094">Google Pay-logotyp</translation>
 <translation id="6241121617266208201">Dölj förslag</translation>
 <translation id="624499991300733384">Sammanställningstjänst för utskrift</translation>
-<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hantera filer som laddats ned i Chrome</translation>
+<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hantera filer som laddats ned i Mises</translation>
 <translation id="6254436959401408446">Det finns inte tillräckligt med minne för att öppna den här sidan</translation>
 <translation id="6259156558325130047">&amp;Gör om Ändra ordning</translation>
 <translation id="6263376278284652872">Bokmärken för <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">Tillbaka till säker webbplats</translation>
 <translation id="6265794661083428563">Kopierar värdet från principen för <ph name="POLICY_NAME" /></translation>
 <translation id="6266934640124581640">Ljust blågrön</translation>
-<translation id="6272088941196661550">Återuppta sökningen för att se relevant aktivitet i Chrome-historiken</translation>
+<translation id="6272088941196661550">Återuppta sökningen för att se relevant aktivitet i Mises-historiken</translation>
 <translation id="6272383483618007430">Google Update</translation>
 <translation id="6276112860590028508">Sidor från läslistan visas här</translation>
 <translation id="627746635834430766">Spara kortet och faktureringsadressen i Google-kontot så går det snabbare att betala nästa gång.</translation>
 <translation id="6279098320682980337">Har det virtuella kortnumret inte fyllts i? Klicka på kortuppgifterna om du vill kopiera dem</translation>
 <translation id="6280223929691119688">Det går inte att leverera till den här adressen. Välj en annan adress.</translation>
 <translation id="6282194474023008486">Postnummer</translation>
-<translation id="6285507000506177184">Knappen Hantera nedladdningar i Chrome: tryck på Retur om du vill hantera filer du har laddat ned i Chrome</translation>
+<translation id="6285507000506177184">Knappen Hantera nedladdningar i Mises: tryck på Retur om du vill hantera filer du har laddat ned i Mises</translation>
 <translation id="6289939620939689042">Sidfärg</translation>
 <translation id="6290238015253830360">Rekommenderade artiklar visas här</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">CVC:</translation>
-<translation id="6302269476990306341">Google-assistenten i Chrome stoppas</translation>
+<translation id="6302269476990306341">Google-assistenten i Mises stoppas</translation>
 <translation id="6305205051461490394"><ph name="URL" /> kan inte nås.</translation>
 <translation id="6312113039770857350">Webbsidan är inte tillgänglig</translation>
 <translation id="63172326633386613">Hantera tillgänglighetsinställningar</translation>
@@ -1659,7 +1659,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="6340739886198108203">Enligt administratörspolicyn är det inte rekommenderat att ta skärmbilder eller göra inspelningar när konfidentiellt innehåll är synligt:</translation>
 <translation id="6349101878882523185">Installera <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{Inga}=1{1 lösenord (för <ph name="DOMAIN_LIST" />, synkroniseras)}=2{2 lösenord (för <ph name="DOMAIN_LIST" />, synkroniseras)}other{# lösenord (för <ph name="DOMAIN_LIST" />, synkroniseras)}}</translation>
-<translation id="6355392890578844978">Den här webbläsaren hanteras inte av ett företag eller en organisation. Aktiviteter på den här enheten kan hanteras utanför Chromium. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">Den här webbläsaren hanteras inte av ett företag eller en organisation. Aktiviteter på den här enheten kan hanteras utanför Mises. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">Vad innebär dessa?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />Kontrollerar proxy, brandvägg och säker DNS-konfiguration<ph name="END_LINK" /></translation>
@@ -1709,7 +1709,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="6499038740797743453">Vill du återställa lösenordet?</translation>
 <translation id="6502991525169604759">Utan dina ändringar</translation>
 <translation id="6506959208958864820">Kuvert</translation>
-<translation id="6508722015517270189">Starta om Chrome</translation>
+<translation id="6508722015517270189">Starta om Mises</translation>
 <translation id="6513005815064132016">Får begära tillstånd att registrera kamerans position</translation>
 <translation id="6517596291481585650">Varning: Den här principen kombinerades inte som en lista enligt principens specifikation eftersom den inte är en lista.</translation>
 <translation id="6518133107902771759">Verifiera</translation>
@@ -1725,10 +1725,10 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="6579630537141957243">Vill du ansluta MIDI-enhet?</translation>
 <translation id="6579990219486187401">Ljusrosa</translation>
 <translation id="6583674473685352014">B6 (kuvert)</translation>
-<translation id="6587182488465657433">Chrome upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Vi rekommenderar att du byter det nu och kontrollerar dina sparade lösenord för att skydda dina konton.</translation>
+<translation id="6587182488465657433">Mises upptäckte att lösenordet som du precis använde har läckt ut vid ett dataintrång. Vi rekommenderar att du byter det nu och kontrollerar dina sparade lösenord för att skydda dina konton.</translation>
 <translation id="6587923378399804057">Länk som du har kopierat</translation>
 <translation id="6591833882275308647"><ph name="DEVICE_TYPE" /> hanteras inte</translation>
-<translation id="6592952801936330159">Knappen Hantera webbplatsinställningar, tryck på Retur om du vill hantera behörigheter och data som lagras på olika webbplatser i inställningarna för Chrome</translation>
+<translation id="6592952801936330159">Knappen Hantera webbplatsinställningar, tryck på Retur om du vill hantera behörigheter och data som lagras på olika webbplatser i inställningarna för Mises</translation>
 <translation id="6596325263575161958">Krypteringsalternativ</translation>
 <translation id="6609880536175561541">Prc7 (kuvert)</translation>
 <translation id="6615297766614333076">Utmatningsfack 2</translation>
@@ -1742,7 +1742,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="6643016212128521049">Rensa</translation>
 <translation id="6645291930348198241">få åtkomst till cookies och webbplatsdata.</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{Ingen}=1{Från 1 webbplats (du loggas inte ut från Google-kontot)}other{Från # webbplatser (du loggas inte ut från Google-kontot)}}</translation>
-<translation id="6648459603387803038">Administratören kan ändra webbläsarinställningarna på distans. Aktivitet på den här enheten kan hanteras även utanför Chrome.</translation>
+<translation id="6648459603387803038">Administratören kan ändra webbläsarinställningarna på distans. Aktivitet på den här enheten kan hanteras även utanför Mises.</translation>
 <translation id="6648524591329069940">Serif-teckensnitt</translation>
 <translation id="6651270836885078973">Hanteras av:</translation>
 <translation id="6652101503459149953">Använd Windows Hello</translation>
@@ -1752,13 +1752,13 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="666259744093848177">(x86_64, översatt)</translation>
 <translation id="6663846344464066639">Knäppta händer</translation>
 <translation id="6665553082534466207">Tre hål till höger</translation>
-<translation id="6671697161687535275">Vill du ta bort formulärförslaget från Chromium?</translation>
+<translation id="6671697161687535275">Vill du ta bort formulärförslaget från Mises?</translation>
 <translation id="6685834062052613830">Logga ut och slutför konfigureringen</translation>
 <translation id="6687335167692595844">Teckenstorlek begärd</translation>
 <translation id="6688743156324860098">Uppdatera …</translation>
 <translation id="6688775486821967877">Virtuella kort är inte tillgängliga just nu. Försök igen senare</translation>
 <translation id="6689249931105087298">Relativ med svartpunktskomprimering</translation>
-<translation id="6689271823431384964">Chrome ger möjlighet att spara dina kort i ditt Google-konto eftersom du är inloggad. Du kan ändra detta i inställningarna. Kortinnehavarens namn hämtas från ditt konto.</translation>
+<translation id="6689271823431384964">Mises ger möjlighet att spara dina kort i ditt Google-konto eftersom du är inloggad. Du kan ändra detta i inställningarna. Kortinnehavarens namn hämtas från ditt konto.</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill hitta enheten i Google-kontot</translation>
 <translation id="6696588630955820014">Knappen Dela den här fliken: tryck på Retur om du vill dela den här fliken genom att dela länken, skapa en QR-kod, casta med flera alternativ</translation>
 <translation id="6698381487523150993">Skapad av:</translation>
@@ -1804,7 +1804,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="6883221904761970440">Ett arbetsblad för autentisering av användaruppgifter för säker betalning har stängts</translation>
 <translation id="6884662655240309489">Storlek 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" />, <ph name="SHORT_URL" /></translation>
-<translation id="6888584790432772780">Chrome har förenklat sidan så att den ska bli lättare att läsa. Chrome hämtade den ursprungliga sidan via en osäker anslutning.</translation>
+<translation id="6888584790432772780">Mises har förenklat sidan så att den ska bli lättare att läsa. Mises hämtade den ursprungliga sidan via en osäker anslutning.</translation>
 <translation id="6890443033788248019">Vill du tillåta plats?</translation>
 <translation id="6891596781022320156">Policynivån stöds inte.</translation>
 <translation id="6895143722905299846">Kortnummer:</translation>
@@ -1862,7 +1862,7 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="7053983685419859001">Blockera</translation>
 <translation id="7058163556978339998"><ph name="BROWSER" /> har verifierat att <ph name="ISSUER" /> har utfärdat webbplatsens certifikat.</translation>
 <translation id="7062635574500127092">Blågrön</translation>
-<translation id="706295145388601875">Lägg till och hantera adresser i inställningarna för Chrome</translation>
+<translation id="706295145388601875">Lägg till och hantera adresser i inställningarna för Mises</translation>
 <translation id="7064851114919012435">Kontaktuppgifter</translation>
 <translation id="7068733155164172741">Ange den <ph name="OTP_LENGTH" />-siffriga koden</translation>
 <translation id="7070090581017165256">Om den här webbplatsen</translation>
@@ -1873,9 +1873,9 @@ Annars blockeras detta av integritetsinställningarna. Om du tillåter detta kan
 <translation id="7083258188081898530">Fack 9</translation>
 <translation id="7086090958708083563">Uppladdningsbegäran från användare</translation>
 <translation id="7087282848513945231">Kommun</translation>
-<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera behörigheter och data som lagras på olika webbplatser i inställningarna för Chrome</translation>
+<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera behörigheter och data som lagras på olika webbplatser i inställningarna för Mises</translation>
 <translation id="7096937462164235847">Webbplatsens identitet har inte verifierats.</translation>
-<translation id="7102554173784142865">Spela Chrome Dino-spelet</translation>
+<translation id="7102554173784142865">Spela Mises Dino-spelet</translation>
 <translation id="7108338896283013870">Dölj</translation>
 <translation id="7108634116785509031"><ph name="HOST" /> vill använda kameran</translation>
 <translation id="7108819624672055576">Beviljades av ett tillägg</translation>
@@ -1951,12 +1951,12 @@ Mer information.
 <translation id="7353601530677266744">Kommandorad</translation>
 <translation id="7359588939039777303">Annonser blockeras.</translation>
 <translation id="7363096869660964304">Men du är inte osynlig. Inkognitoläget döljer inte webbhistoriken för din arbetsgivare, internetleverantören eller webbplatserna du besöker.</translation>
-<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill lägga till och hantera adresser i inställningarna för Chrome</translation>
+<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill lägga till och hantera adresser i inställningarna för Mises</translation>
 <translation id="7365849542400970216">Vill du låta webbplatsen veta om du använder enheten aktivt?</translation>
 <translation id="7366362069757178916">Betalningshanterare</translation>
 <translation id="7372973238305370288">sökresultat</translation>
 <translation id="7374461526650987610">Protokollhanterare</translation>
-<translation id="7374733840632556089">Det här problemet uppstår på grund av ett certifikat som du eller någon annan har installerat på enheten. Certifikatet är känt för att användas för att övervaka och fånga upp nätverkstrafik och är inte betrott i Chrome. Även om det kan vara berättigat med övervakning i vissa fall, t.ex. i ett skol- eller företagsnätverk, vill vi göra dig medveten om vad som pågår även om du inte kan göra något åt det. Alla webbläsare och appar som använder internet omfattas av övervakningen.</translation>
+<translation id="7374733840632556089">Det här problemet uppstår på grund av ett certifikat som du eller någon annan har installerat på enheten. Certifikatet är känt för att användas för att övervaka och fånga upp nätverkstrafik och är inte betrott i Mises. Även om det kan vara berättigat med övervakning i vissa fall, t.ex. i ett skol- eller företagsnätverk, vill vi göra dig medveten om vad som pågår även om du inte kan göra något åt det. Alla webbläsare och appar som använder internet omfattas av övervakningen.</translation>
 <translation id="7375818412732305729">Fil bifogas</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">Mediereglage</translation>
@@ -1977,14 +1977,14 @@ Mer information.
       &lt;li&gt;Under &lt;strong&gt;Starttyp&lt;/strong&gt; väljer du &lt;strong&gt;Inaktiverad&lt;/strong&gt;
       &lt;li&gt;Under &lt;strong&gt;Tjänststatus&lt;/strong&gt; klickar du på &lt;strong&gt;Stoppa&lt;/strong&gt;
       &lt;li&gt;Klicka på &lt;strong&gt;Verkställ&lt;/strong&gt; och sedan på &lt;strong&gt;OK&lt;/strong&gt;
-      &lt;li&gt;Besök &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;hjälpcentret för Chrome&lt;/a&gt; om du vill veta mer om hur du tar bort programvaran från datorn permanent
+      &lt;li&gt;Besök &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;hjälpcentret för Mises&lt;/a&gt; om du vill veta mer om hur du tar bort programvaran från datorn permanent
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">Ljuvlig</translation>
 <translation id="7416351320495623771">Hantera lösenord …</translation>
 <translation id="7419106976560586862">Profilsökväg</translation>
 <translation id="7421067045979951561">protokollhanterare</translation>
-<translation id="7426022697669111648">Knappen Visa Chrome-historik: tryck på Retur om du vill se och hantera webbhistoriken i Chrome-inställningarna</translation>
+<translation id="7426022697669111648">Knappen Visa Mises-historik: tryck på Retur om du vill se och hantera webbhistoriken i Mises-inställningarna</translation>
 <translation id="7437289804838430631">Lägg till kontaktuppgifter</translation>
 <translation id="7440140511386898319">Utforska medan du är offline</translation>
 <translation id="7441627299479586546">Felaktigt policyämne</translation>
@@ -2016,7 +2016,7 @@ Mer information.
 <translation id="7542995811387359312">Automatisk ifyllning av kreditkort har inaktiverats eftersom formulärets anslutning inte är säker.</translation>
 <translation id="7548892272833184391">Åtgärda anslutningsproblem</translation>
 <translation id="7549584377607005141">Den här webbsidan kräver uppgifter som du har angett tidigare för att kunna visas korrekt. Du kan skicka uppgifterna igen, men om du gör det upprepas de åtgärder som har utförts av sidan tidigare.</translation>
-<translation id="7550637293666041147">Ditt användarnamn på enheten och användarnamn i Chrome</translation>
+<translation id="7550637293666041147">Ditt användarnamn på enheten och användarnamn i Mises</translation>
 <translation id="755279583747225797">Provperioden är aktiv</translation>
 <translation id="7552846755917812628">Testa följande tips:</translation>
 <translation id="7554475479213504905">Läs in igen och visa ändå</translation>
@@ -2025,7 +2025,7 @@ Mer information.
 <translation id="7564049878696755256">Du kan förlora åtkomsten till kontot på <ph name="ORG_NAME" /> eller bli utsatt för identitetsstöld. Du rekommenderas att ändra lösenordet nu.</translation>
 <translation id="7567204685887185387">Servern kunde inte bevisa att den är <ph name="DOMAIN" /> eftersom dess säkerhetscertifikat kan ha utfärdats utan behörighet. Detta kan orsakas av en felaktig konfigurering eller att någon spärrar anslutningen.</translation>
 <translation id="7569761772822664555">Knappen Hantera sökmotor: tryck på Retur för att hantera standardsökmotor och webbplatssökning</translation>
-<translation id="7569952961197462199">Vill du ta bort kreditkortet från Chrome?</translation>
+<translation id="7569952961197462199">Vill du ta bort kreditkortet från Mises?</translation>
 <translation id="7569983096843329377">Svart</translation>
 <translation id="7575207903026901870">Knappen Ta bort förslag, tryck på retur om du vill ta bort förslaget</translation>
 <translation id="7578104083680115302">Betala snabbt på webbplatser och i appar på olika enheter med kort som du har sparat hos Google.</translation>
@@ -2039,13 +2039,13 @@ Mer information.
 <translation id="7600965453749440009">Översätt aldrig från <ph name="LANGUAGE" /></translation>
 <translation id="7610193165460212391">Värdet är utanför intervallet <ph name="VALUE" />.</translation>
 <translation id="7613889955535752492">Upphör: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
-<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill visa och hantera lösenord i inställningarna för Chrome</translation>
-<translation id="7616645509853975347">Administratören har aktiverat Chrome Enterprise Connectors i din webbläsare. Dessa funktioner har åtkomst till en del av din data.</translation>
+<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill visa och hantera lösenord i inställningarna för Mises</translation>
+<translation id="7616645509853975347">Administratören har aktiverat Mises Enterprise Connectors i din webbläsare. Dessa funktioner har åtkomst till en del av din data.</translation>
 <translation id="7619838219691048931">Sista ark</translation>
 <translation id="7625242817712715120">Enligt administratörspolicyn är det inte rekommenderat att skriva ut detta innehåll</translation>
 <translation id="762844065391966283">Ett objekt i taget</translation>
 <translation id="7633909222644580952">Prestandainformation och kraschrapporter</translation>
-<translation id="7637571805876720304">Vill du ta bort kreditkortet från Chromium?</translation>
+<translation id="7637571805876720304">Vill du ta bort kreditkortet från Mises?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Inga}=1{1 lösenord i kontot (för <ph name="DOMAIN_LIST" />)}other{# lösenord i kontot (för <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">Serieportar</translation>
 <translation id="7639968568612851608">Mörkgrå</translation>
@@ -2064,7 +2064,7 @@ Mer information.
 <translation id="7669907849388166732">{COUNT,plural, =1{Åtgärder som gjorts med data som markerats som konfidentiell (1 åtgärd sedan inloggningen) <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" />}other{Åtgärder som gjorts med data som markerats som konfidentiell (# åtgärder sedan inloggningen) <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" />}}</translation>
 <translation id="7673278391011283842">Postfack 6</translation>
 <translation id="7676643023259824263">Sök efter texten i Urklipp, <ph name="TEXT" /></translation>
-<translation id="7679367271685653708">Öppna och hantera webbhistoriken i Chrome-inställningarna</translation>
+<translation id="7679367271685653708">Öppna och hantera webbhistoriken i Mises-inställningarna</translation>
 <translation id="7682287625158474539">Frakt</translation>
 <translation id="7687186412095877299">Fyller i sparade betalningsmetoder i betalningsformulär</translation>
 <translation id="7687305263118037187">Tidsgränsen för nytt försök överskreds</translation>
@@ -2084,7 +2084,7 @@ Mer information.
 <translation id="7740996059027112821">Standard</translation>
 <translation id="77424286611022110">Påträngande eller vilseledande annonser visas på den här webbplatsen. <ph name="LEARN_MORE_LINK_TEXT" /></translation>
 <translation id="774634243536837715">Farligt innehåll har blockerats.</translation>
-<translation id="7751971323486164747">Anpassa teckenstorlekar och teckensnitt i Chrome</translation>
+<translation id="7751971323486164747">Anpassa teckenstorlekar och teckensnitt i Mises</translation>
 <translation id="7752995774971033316">Hanteras inte</translation>
 <translation id="7755624218968747854">Primär rulle</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2108,7 +2108,7 @@ Mer information.
 <translation id="7805571567667010077">Hanteras av organisationen</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Vill du ta bort formulärförslaget från Chrome?</translation>
+<translation id="7813600968533626083">Vill du ta bort formulärförslaget från Mises?</translation>
 <translation id="781440967107097262">Vill du dela urklipp?</translation>
 <translation id="7815407501681723534">Hittade <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> för <ph name="SEARCH_STRING" /></translation>
 <translation id="782125616001965242">Visa information om den här webbplatsen</translation>
@@ -2139,8 +2139,8 @@ Mer information.
 <translation id="7942349550061667556">Röd</translation>
 <translation id="7943893128817522649">Får begära tillstånd att ladda ned flera filer automatiskt</translation>
 <translation id="7947285636476623132">Kontrollera utgångsår och försök igen</translation>
-<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill läsa mer om funktioner i Chrome</translation>
-<translation id="7950027195171824198">Hantera cookies i inställningarna för Chrome</translation>
+<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill läsa mer om funktioner i Mises</translation>
+<translation id="7950027195171824198">Hantera cookies i inställningarna för Mises</translation>
 <translation id="7951415247503192394">(32 bitar)</translation>
 <translation id="7953569069500808819">Kanthäftning högst upp</translation>
 <translation id="7956713633345437162">Bokmärken i mobilen</translation>
@@ -2154,7 +2154,7 @@ Mer information.
 <translation id="7977538094055660992">Utmatningsenhet</translation>
 <translation id="7977894662897852582">Edp</translation>
 <translation id="798134797138789862">Får begära tillstånd att använda VR-enheter och VR-data</translation>
-<translation id="7984945080620862648">Det går inte att besöka <ph name="SITE" /> just nu på grund av att webbplatsen skickade röriga användaruppgifter som Chrome inte kan behandla. Nätverksfel och attacker är vanligtvis tillfälliga, så sidan fungerar troligen senare.</translation>
+<translation id="7984945080620862648">Det går inte att besöka <ph name="SITE" /> just nu på grund av att webbplatsen skickade röriga användaruppgifter som Mises inte kan behandla. Nätverksfel och attacker är vanligtvis tillfälliga, så sidan fungerar troligen senare.</translation>
 <translation id="79859296434321399">Installera ARCore om du vill visa innehåll med förstärkt verklighet</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">Bind</translation>
@@ -2179,7 +2179,7 @@ Mer information.
 <translation id="8052898407431791827">Kopierat till urklipp</translation>
 <translation id="8057711352706143257"><ph name="SOFTWARE_NAME" /> har inte konfigurerats korrekt. Ofta hjälper det att avinstallera <ph name="SOFTWARE_NAME" />. <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">Något gick tyvärr fel.</translation>
-<translation id="8067872629359326442">Du angav just ditt lösenord på en bedräglig webbplats. Du kan få hjälp i Chromium. Klicka på Skydda kontot för att ändra ditt lösenord och meddela Google om att kontot kan vara utsatt för fara.</translation>
+<translation id="8067872629359326442">Du angav just ditt lösenord på en bedräglig webbplats. Du kan få hjälp i Mises. Klicka på Skydda kontot för att ändra ditt lösenord och meddela Google om att kontot kan vara utsatt för fara.</translation>
 <translation id="8070439594494267500">App-ikon</translation>
 <translation id="8074253406171541171">10x13 (kuvert)</translation>
 <translation id="8075736640322370409">Skapa ett nytt Google-kalkylark snabbt</translation>
@@ -2201,7 +2201,7 @@ Mer information.
 <translation id="810875025413331850">Inga enheter i närheten hittades.</translation>
 <translation id="8116925261070264013">Ljudet avstängt</translation>
 <translation id="8118489163946903409">Betalningsmetod</translation>
-<translation id="8124639700796374294">Knappen Anpassa Chrome: tryck på Retur om du vill anpassa webbläsarens utseende</translation>
+<translation id="8124639700796374294">Knappen Anpassa Mises: tryck på Retur om du vill anpassa webbläsarens utseende</translation>
 <translation id="8127301229239896662"><ph name="SOFTWARE_NAME" /> har inte installerats korrekt på datorn eller nätverket. Be IT-administratören om hjälp med problemet.</translation>
 <translation id="8131740175452115882">Bekräfta</translation>
 <translation id="8148608574971654810">PDF-version:</translation>
@@ -2209,7 +2209,7 @@ Mer information.
 <translation id="8150722005171944719">Det går inte att läsa filen på <ph name="URL" />. Den kan ha tagits bort eller flyttats, eller så krävs behörighet för att få åtkomst till den.</translation>
 <translation id="8157295877370077682">Lämna webbplatsen</translation>
 <translation id="8163866351304776260">Fyra hål till vänster</translation>
-<translation id="8175796834047840627">Du erbjuds av Chrome att spara dina kort i Google-kontot eftersom du är inloggad. Du kan ändra detta i inställningarna.</translation>
+<translation id="8175796834047840627">Du erbjuds av Mises att spara dina kort i Google-kontot eftersom du är inloggad. Du kan ändra detta i inställningarna.</translation>
 <translation id="8176440868214972690">Administratören för enheten har skickat en del information, t.ex. inställningar eller principer, till följande webbplatser.</translation>
 <translation id="8184538546369750125">Använd global standardinställning (Tillåt)</translation>
 <translation id="8190193880870196235">Hanteras av ett tillägg</translation>
@@ -2246,7 +2246,7 @@ Mer information.
 <translation id="8280630997017109758">Fack 11</translation>
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8282947398454257691">Veta din unika enhetsidentifierare</translation>
-<translation id="8284769179630993263">Hantera Säker webbsökning med mera i inställningarna för Chrome</translation>
+<translation id="8284769179630993263">Hantera Säker webbsökning med mera i inställningarna för Mises</translation>
 <translation id="8286036467436129157">Logga in</translation>
 <translation id="8288807391153049143">Visa certifikat</translation>
 <translation id="8289355894181816810">Kontakta din nätverksadministratör om du är osäker på vad det här innebär.</translation>
@@ -2261,7 +2261,7 @@ Mer information.
 <translation id="8307888238279532626">Vilka appar som har installerats och hur ofta de används</translation>
 <translation id="831997045666694187">kvällen</translation>
 <translation id="8321476692217554900">aviseringar</translation>
-<translation id="8328484624016508118">När du har stängt alla inkognitoflikar i Chrome raderas följande:
+<translation id="8328484624016508118">När du har stängt alla inkognitoflikar i Mises raderas följande:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />Din webbaktivitet från den här enheten<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />Din sökhistorik från den här enheten<ph name="END_LIST_ITEM" />
@@ -2286,7 +2286,7 @@ Mer information.
 <translation id="8381674639488873545">Debiteringen kan göras en gång eller återkommande och det behöver inte framgå tydligt att detta händer. <ph name="BEGIN_LINK" />Visa ändå<ph name="END_LINK" /></translation>
 <translation id="8390725133630534698">Möjligheten att dela från <ph name="ORIGIN_NAME" /> till <ph name="VM_NAME" /> har blockerats av administratörspolicyn</translation>
 <translation id="8398790343843005537">Sök efter mobilen</translation>
-<translation id="8405579342203358118">Hantera vilken information som synkroniseras i inställningarna för Chrome</translation>
+<translation id="8405579342203358118">Hantera vilken information som synkroniseras i inställningarna för Mises</translation>
 <translation id="8409413588194360210">betalningshanterare</translation>
 <translation id="8412145213513410671">Krascher (<ph name="CRASH_COUNT" />)</translation>
 <translation id="8412392972487953978">Du måste ange samma lösenfras två gånger.</translation>
@@ -2295,7 +2295,7 @@ Mer information:
 <ph name="DEBUG_INFO" /></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL" /> <ph name="SECOND_LABEL" /> <ph name="THIRD_LABEL" /></translation>
 <translation id="8428213095426709021">Inställningar</translation>
-<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera cookies i inställningarna för Chrome</translation>
+<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill hantera cookies i inställningarna för Mises</translation>
 <translation id="8433057134996913067">Alternativet innebär att du loggas ut från de flesta webbplatser.</translation>
 <translation id="8437238597147034694">&amp;Ångra Flytta</translation>
 <translation id="8438476240229491014">Kom ihåg inställningen</translation>
@@ -2308,18 +2308,18 @@ Mer information:
 <translation id="8473863474539038330">Adresser och annat</translation>
 <translation id="8474910779563686872">Visa information om utvecklare</translation>
 <translation id="8479754468255770962">Häfta nere till vänster</translation>
-<translation id="8483780878231876732">Logga in i Chrome om du vill använda kort i Google-kontot</translation>
+<translation id="8483780878231876732">Logga in i Mises om du vill använda kort i Google-kontot</translation>
 <translation id="8488350697529856933">Gäller för</translation>
 <translation id="8490137692873530638">Utmatningsfack 10</translation>
 <translation id="8493948351860045254">Frigör lagringsutrymme</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> tog för lång tid på sig att svara.</translation>
-<translation id="8503559462189395349">Lösenord i Chrome</translation>
+<translation id="8503559462189395349">Lösenord i Mises</translation>
 <translation id="8503813439785031346">Användarnamn</translation>
 <translation id="8507227106804027148">Kommandorad</translation>
 <translation id="8508648098325802031">Sökikon</translation>
 <translation id="8511402995811232419">Hantera cookies</translation>
 <translation id="8522552481199248698">Du kan skydda Google-kontot genom att byta lösenord.</translation>
-<translation id="8530813470445476232">Rensa webbhistorik, cookies, cache med mera i inställningarna för Chrome</translation>
+<translation id="8530813470445476232">Rensa webbhistorik, cookies, cache med mera i inställningarna för Mises</translation>
 <translation id="8533619373899488139">Besök &lt;strong&gt;chrome://policy&lt;/strong&gt; om du vill visa listan med blockerade webbadresser och andra policyer som angetts av systemadministratören.</translation>
 <translation id="8539500321752640291">Vill du ge två behörigheter?</translation>
 <translation id="8541158209346794904">Bluetooth-enhet</translation>
@@ -2359,7 +2359,7 @@ Mer information:
 <translation id="868922510921656628">Sidor per uppsättning</translation>
 <translation id="869891660844655955">Utgångsdatum</translation>
 <translation id="8699041776323235191">HID-enhet</translation>
-<translation id="8699899385443889493">Knappen Spela Chrome Dino-spelet: tryck på Retur om du vill spela Dino Run i Chrome</translation>
+<translation id="8699899385443889493">Knappen Spela Mises Dino-spelet: tryck på Retur om du vill spela Dino Run i Mises</translation>
 <translation id="8703575177326907206">Din anslutning till <ph name="DOMAIN" /> är inte krypterad.</translation>
 <translation id="8705331520020532516">Serienummer</translation>
 <translation id="8708134712139312373">Får begära tillstånd att ansluta till enheter via Bluetooth</translation>
@@ -2372,10 +2372,10 @@ Mer information:
 <translation id="8725066075913043281">Försök igen</translation>
 <translation id="8726549941689275341">Sidstorlek:</translation>
 <translation id="8730621377337864115">Klart</translation>
-<translation id="8731544501227493793">Knappen Hantera lösenord, tryck på Retur om du vill visa och hantera lösenord i inställningarna för Chrome</translation>
+<translation id="8731544501227493793">Knappen Hantera lösenord, tryck på Retur om du vill visa och hantera lösenord i inställningarna för Mises</translation>
 <translation id="8734529307927223492">Din <ph name="DEVICE_TYPE" /> hanteras av <ph name="MANAGER" /></translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill öppna ett nytt inkognitofönster och surfa privat</translation>
-<translation id="8738058698779197622">Om du vill upprätta en säker anslutning måste klockan vara rätt inställd. Det beror på att certifikaten som webbplatserna använder för att identifiera sig endast är giltiga under vissa tidsperioder. Chromium kan inte verifiera certifikaten eftersom klockan på enheten inte stämmer.</translation>
+<translation id="8738058698779197622">Om du vill upprätta en säker anslutning måste klockan vara rätt inställd. Det beror på att certifikaten som webbplatserna använder för att identifiera sig endast är giltiga under vissa tidsperioder. Mises kan inte verifiera certifikaten eftersom klockan på enheten inte stämmer.</translation>
 <translation id="8740359287975076522">Det gick inte att hitta <ph name="HOST_NAME" />s &lt;abbr id="dnsDefinition"&gt;DNS-adress&lt;/abbr&gt;. Diagnostiserar problemet.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> är din kod för <ph name="ORIGIN" /></translation>
 <translation id="874918643257405732">Bokmärk den här fliken</translation>
@@ -2390,12 +2390,12 @@ Mer information:
 <translation id="8790007591277257123">&amp;Gör om Ta bort</translation>
 <translation id="8792621596287649091">Du kan förlora åtkomsten till kontot på <ph name="ORG_NAME" /> eller bli utsatt för identitetsstöld. Du rekommenderas att ändra lösenordet nu.</translation>
 <translation id="8792626944327216835">mikrofon</translation>
-<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> har aktiverat Chrome Enterprise Connectors i din webbläsare. Dessa funktioner har åtkomst till en del av din data.</translation>
+<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> har aktiverat Mises Enterprise Connectors i din webbläsare. Dessa funktioner har åtkomst till en del av din data.</translation>
 <translation id="8798099450830957504">Standard</translation>
 <translation id="8798739476508189189">Letar du efter webbläsarflaggor? Besök</translation>
 <translation id="8805819170075074995">Listposten <ph name="LANGUAGE_ID" />: Posten ignorerades eftersom den även ingår i principen SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">Beskär efter varje sida</translation>
-<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill uppdatera Chrome i inställningarna för Chrome</translation>
+<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill uppdatera Mises i inställningarna för Mises</translation>
 <translation id="8820817407110198400">Bokmärken</translation>
 <translation id="882338992931677877">Manuell plats</translation>
 <translation id="8834380158646307944">Knappen Stäng inkognitofönster: tryck på Retur om du vill stänga alla inkognitofönster som är öppna för närvarande</translation>
@@ -2420,7 +2420,7 @@ Mer information:
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Knappen Ta bort förslag, tryck på retur om du vill ta bort förslaget, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
 <translation id="8912362522468806198">Google-konto</translation>
-<translation id="8913778647360618320">Knappen Hantera betalningsmetoder, tryck på Retur om du vill hantera betalningar och kreditkortsuppgifter i inställningarna för Chrome</translation>
+<translation id="8913778647360618320">Knappen Hantera betalningsmetoder, tryck på Retur om du vill hantera betalningar och kreditkortsuppgifter i inställningarna för Mises</translation>
 <translation id="8922013791253848639">Tillåt alltid annonser på den här webbplatsen</translation>
 <translation id="892588693504540538">Hål uppe till höger</translation>
 <translation id="8931333241327730545">Vill du spara det här kortet i ditt Google-konto?</translation>
@@ -2439,7 +2439,7 @@ Mer information:
 <translation id="8978053250194585037"><ph name="BEGIN_LINK" />Nätfiske<ph name="END_LINK" /> upptäcktes nyligen av Google Säker webbsökning på <ph name="SITE" />. Webbplatser som används för nätfiske imiterar andra webbplatser i syfte att lura dig.</translation>
 <translation id="8983003182662520383">Betalningsmetoder och adresser som används med Google Pay</translation>
 <translation id="8983369100812962543">Du kan nu ändra storleken på appen</translation>
-<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill öppna webbhistoriken i Chrome</translation>
+<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />: tryck på Tabb och sedan på Retur om du vill öppna webbhistoriken i Mises</translation>
 <translation id="8987927404178983737">Månad</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
 <translation id="899688752321268742"><ph name="URL" /> vill veta när du använder enheten aktivt</translation>
@@ -2478,14 +2478,14 @@ Mer information:
 <translation id="9089260154716455634">Princip för användning utanför arbetstid:</translation>
 <translation id="9095388113577226029">Fler språk …</translation>
 <translation id="9101630580131696064">Fack 1</translation>
-<translation id="9103872766612412690">På <ph name="SITE" /> används normalt kryptering (SSL) för att skydda din information. När Chromium försökte ansluta till <ph name="SITE" /> den här gången skickade webbplatsen tillbaka ovanliga och felaktiga uppgifter. Sådant kan hända när en angripare utger sig för att vara <ph name="SITE" /> eller när anslutningen har avbrutits av en wifi-inloggningsskärm. Din information är fortfarande säker eftersom Chromium avbröt anslutningen innan någon data utbyttes.</translation>
+<translation id="9103872766612412690">På <ph name="SITE" /> används normalt kryptering (SSL) för att skydda din information. När Mises försökte ansluta till <ph name="SITE" /> den här gången skickade webbplatsen tillbaka ovanliga och felaktiga uppgifter. Sådant kan hända när en angripare utger sig för att vara <ph name="SITE" /> eller när anslutningen har avbrutits av en wifi-inloggningsskärm. Din information är fortfarande säker eftersom Mises avbröt anslutningen innan någon data utbyttes.</translation>
 <translation id="9106062320799175032">Lägg till faktureringsadress</translation>
 <translation id="9107467864910557787">Din webbläsare hanteras av <ph name="MANAGER" /></translation>
 <translation id="91108059142052966">Administratören har angett en princip som inaktiverar skärmdelning med <ph name="APPLICATION_TITLE" /> när konfidentiellt innehåll visas på skärmen</translation>
 <translation id="9114524666733003316">Kortet kontrolleras …</translation>
-<translation id="9114581008513152754">Den här webbläsaren hanteras inte av ett företag eller en organisation. Aktiviteter på den här enheten kan hanteras utanför Chrome. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
+<translation id="9114581008513152754">Den här webbläsaren hanteras inte av ett företag eller en organisation. Aktiviteter på den här enheten kan hanteras utanför Mises. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
 <translation id="9117930699067497412">Fräsch</translation>
-<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill återuppta sökningen och se relevant aktivitet i Chrome-historiken</translation>
+<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, tryck på Tabb och sedan på Retur om du vill återuppta sökningen och se relevant aktivitet i Mises-historiken</translation>
 <translation id="9119042192571987207">Uppladdad</translation>
 <translation id="9128016270925453879">Policyer har lästs in</translation>
 <translation id="9128870381267983090">Anslut till ett nätverk</translation>
@@ -2496,7 +2496,7 @@ Mer information:
 <translation id="9148088599418889305">Välj fraktalternativ</translation>
 <translation id="9148507642005240123">&amp;Ångra Redigera</translation>
 <translation id="9150045010208374699">Använd kameran</translation>
-<translation id="9150685862434908345">Administratören kan ändra webbläsarinställningarna på distans. Aktivitet på den här enheten kan hanteras även utanför Chrome. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
+<translation id="9150685862434908345">Administratören kan ändra webbläsarinställningarna på distans. Aktivitet på den här enheten kan hanteras även utanför Mises. <ph name="BEGIN_LINK" />Läs mer<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">Uppdaterat</translation>
 <translation id="9157595877708044936">Konfigurerar...</translation>
 <translation id="9158625974267017556">C6 (kuvert)</translation>
@@ -2511,7 +2511,7 @@ Mer information:
 <translation id="9173995187295789444">Söker efter Bluetooth-enheter …</translation>
 <translation id="917450738466192189">Servercertifikatet är ogiltigt.</translation>
 <translation id="9174917557437862841">Knapp som byter flik. Tryck på Retur om du vill byta till den här fliken</translation>
-<translation id="9179703756951298733">Hantera dina betalnings- och kreditkortsuppgifter i inställningarna för Chrome</translation>
+<translation id="9179703756951298733">Hantera dina betalnings- och kreditkortsuppgifter i inställningarna för Mises</translation>
 <translation id="9183302530794969518">Google Dokument</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME" /> använder ett protokoll som inte stöds.</translation>
 <translation id="9191834167571392248">Hål nere till vänster</translation>
@@ -2520,9 +2520,9 @@ Mer information:
 <translation id="920511547311754821">Kan du inte hitta koden? <ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE" /></translation>
 <translation id="9207861905230894330">Det gick inte att lägga till artikeln.</translation>
 <translation id="9213433120051936369">Anpassa utseendet</translation>
-<translation id="9215416866750762878">Ett program förhindrar att Chrome ansluter till den här webbplatsen på ett säkert sätt</translation>
+<translation id="9215416866750762878">Ett program förhindrar att Mises ansluter till den här webbplatsen på ett säkert sätt</translation>
 <translation id="9219103736887031265">Bilder</translation>
-<translation id="922152298093051471">Anpassa Chrome</translation>
+<translation id="922152298093051471">Anpassa Mises</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">RENSA FORMULÄRET</translation>
 <translation id="936474030629450166">Super-B</translation>

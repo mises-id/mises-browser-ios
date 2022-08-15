@@ -138,7 +138,7 @@ Vaša je tražilica <ph name="DSE_NAME" />. Potražite njezine upute da biste sa
 <translation id="225943865679747347">Kôd pogreške: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Dodaj račun</translation>
 <translation id="2268044343513325586">Pročišćavanje</translation>
-<translation id="2271351792809375263">Zaporke koje ste spremili u Chrome možete koristiti u drugim aplikacijama na uređaju</translation>
+<translation id="2271351792809375263">Zaporke koje ste spremili u Mises možete koristiti u drugim aplikacijama na uređaju</translation>
 <translation id="2273327106802955778">Izbornik Više</translation>
 <translation id="2302742851632557585">Promijenite zaporku na web-lokaciji</translation>
 <translation id="2316709634732130529">Upotrijebite predloženu zaporku</translation>
@@ -196,7 +196,7 @@ Web-lokacije ne mogu upotrebljavati kolačiće za uvid u vašu aktivnost pregled
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Vrati Prevoditelj na zadano</translation>
 <translation id="2848086008667475748">Postavi kao zadano u Postavkama…</translation>
-<translation id="2858204748079866344">Da bi zaštitio vašu privatnost, Chrome neće automatski popuniti zaporku u ovom polju.</translation>
+<translation id="2858204748079866344">Da bi zaštitio vašu privatnost, Mises neće automatski popuniti zaporku u ovom polju.</translation>
 <translation id="285960592395650245">Pokušaj preuzeti ponovo</translation>
 <translation id="2870560284913253234">Web lokacija</translation>
 <translation id="2871695793448672541">Sakriveno, zaporka</translation>
@@ -309,7 +309,7 @@ Slijedite korake u nastavku:</translation>
 <translation id="3858860766373142691">Naziv</translation>
 <translation id="3892144330757387737">Ovdje ćete pronaći svoju povijest</translation>
 <translation id="3897092660631435901">Izbornik</translation>
-<translation id="3913386780052199712">Prijavljeni u Chrome</translation>
+<translation id="3913386780052199712">Prijavljeni u Mises</translation>
 <translation id="3915450441834151894">Informacije o web-lokaciji</translation>
 <translation id="3922310737605261887">Pretraživanje teksta koji ste kopirali</translation>
 <translation id="3928666092801078803">Kombiniranje podataka</translation>
@@ -426,12 +426,12 @@ Da biste promijenili tu postavku, <ph name="BEGIN_LINK" />poništite sinkronizac
 <translation id="5062321486222145940">Instaliraj Google disk</translation>
 <translation id="5083464117946352670">Veličina datoteke nije utvrđena.</translation>
 <translation id="5090832849094901128">Brisanjem zaporke neće se izbrisati vaš račun na <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Stranice možete spremati da biste ih čitali kasnije ili izvanmrežno. Chrome će vas pitati želite li spremiti dugačke stranice.</translation>
+<translation id="5092117651143801290">Stranice možete spremati da biste ih čitali kasnije ili izvanmrežno. Mises će vas pitati želite li spremiti dugačke stranice.</translation>
 <translation id="5094827893301452931">Tweet je dovršen.</translation>
 <translation id="5118764316110575523">Isključeno</translation>
 <translation id="5127805178023152808">Sinkronizacija je isključena</translation>
 <translation id="5132942445612118989">Sinkronizirajte svoje zaporke, povijest i drugo na svim uređajima</translation>
-<translation id="5140288047769711648">Chrome će zapamtiti ovu zaporku umjesto vas. Ne morate je pamtiti.</translation>
+<translation id="5140288047769711648">Mises će zapamtiti ovu zaporku umjesto vas. Ne morate je pamtiti.</translation>
 <translation id="5150492518600715772">Pošalji na svoj uređaj</translation>
 <translation id="5168414296986405587">Razvijeno za iPadOS</translation>
 <translation id="5173088371991956744">Sinkronizacija treba potvrditi da ste to vi</translation>
@@ -699,7 +699,7 @@ Dok ste u anonimnom načinu, web-lokacije ne mogu upotrebljavati kolačiće za u
 <translation id="7454057999980797137">Županija</translation>
 <translation id="7456847797759667638">Otvori lokaciju...</translation>
 <translation id="7464701184726199289">Sinkronizirani podaci izbrisat će se sa svih uređaja. Spremljene postavke web-lokacije neće se izbrisati i mogu odražavati vaše navike prilikom pregledavanja. <ph name="BEGIN_LINK" />Saznajte više<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Odaberite Chrome</translation>
+<translation id="746684838091935575">3. Odaberite Mises</translation>
 <translation id="7472734401283673885">Naziv tvrtke</translation>
 <translation id="7473891865547856676">Ne, hvala</translation>
 <translation id="7481312909269577407">Naprijed</translation>
@@ -733,7 +733,7 @@ Dok ste u anonimnom načinu, web-lokacije ne mogu upotrebljavati kolačiće za u
 <translation id="7840771868269352570">Odabrane će se stavke ukloniti.</translation>
 <translation id="7856733331829174190">Preuzimanje nije moguće</translation>
 <translation id="7859704718976024901">Povijest pregledavanja</translation>
-<translation id="7887198238286927132">Da bi zaštitio vašu privatnost, Chrome neće automatski popuniti ovo polje.</translation>
+<translation id="7887198238286927132">Da bi zaštitio vašu privatnost, Mises neće automatski popuniti ovo polje.</translation>
 <translation id="7911190106180361398">Vaša organizacija ne dopušta da sinkronizirate sve.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Izvoz zaporki...</translation>
@@ -748,7 +748,7 @@ Web-lokacije mogu upotrebljavati kolačiće za uvid u vašu aktivnost pregledava
 <translation id="7978018860671536736">3. Dodirnite Automatsko popunjavanje zaporki</translation>
 <translation id="7982789257301363584">Mreža</translation>
 <translation id="7993619969781047893">Značajke na nekim web-lokacijama mogu prestati funkcionirati</translation>
-<translation id="800361585186029508">Otvara URL-ove unesene u Google Chrome.</translation>
+<translation id="800361585186029508">Otvara URL-ove unesene u Mises.</translation>
 <translation id="802154636333426148">Preuzimanje nije uspjelo</translation>
 <translation id="8023878949384262191">Proširuje odjeljak.</translation>
 <translation id="8027581147000338959">Otvori u novom prozoru</translation>
@@ -855,7 +855,7 @@ Web-lokacije mogu upotrebljavati kolačiće za uvid u vašu aktivnost pregledava
 <translation id="9081058212938299310">Želite li ažurirati zaporku za <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 stavka</translation>
 <translation id="9083838294503912307">Da biste sinkronizirali i prilagodili više uređaja, uključite sinkronizaciju.</translation>
-<translation id="9087108903408689779">Zaporka koju predlaže Chrome:</translation>
+<translation id="9087108903408689779">Zaporka koju predlaže Mises:</translation>
 <translation id="9094033019050270033">Ažuriraj zaporku</translation>
 <translation id="9100610230175265781">Potrebna je zaporka</translation>
 <translation id="9107664647686727385">Traženje ugroženih zaporki</translation>

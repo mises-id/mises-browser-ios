@@ -33,7 +33,7 @@ Jūsu meklētājprogramma ir <ph name="DSE_NAME" />. Skatiet tās norādījumus 
 <translation id="1209206284964581585">Pagaidām slēpt</translation>
 <translation id="1219674500290482172">Nevar izveidot savienojumu ar internetu.</translation>
 <translation id="122699739164161391">Aizvērt visas cilnes</translation>
-<translation id="1229222343402087523">Meklēt “${searchPhrase}” pārlūkprogrammā Chrome</translation>
+<translation id="1229222343402087523">Meklēt “${searchPhrase}” pārlūkprogrammā Mises</translation>
 <translation id="1231733316453485619">Vai ieslēgt sinhronizāciju?</translation>
 <translation id="1242044645101871359">Pierakstieties vēlreiz</translation>
 <translation id="1254117744268754948">Mapes izvēle</translation>
@@ -110,7 +110,7 @@ Jūsu meklētājprogramma ir <ph name="DSE_NAME" />. Skatiet tās norādījumus 
 <translation id="1930989359703290198">Jūsu organizācija ir atļāvusi pierakstīšanos tikai ar noteiktiem kontiem. Konti, kas nav atļauti, ir paslēpti. <ph name="BEGIN_LINK" />Uzziniet vairāk<ph name="END_LINK" />.</translation>
 <translation id="1941314575388338491">Veiciet dubultskārienu, lai kopētu.</translation>
 <translation id="1952172573699511566">Kad vien iespējams, vietnēs tiks rādīts teksts atlasītajā valodā.</translation>
-<translation id="1965935827552890526">Pabeidziet citā atvērtā Chrome logā iesākto darbu.</translation>
+<translation id="1965935827552890526">Pabeidziet citā atvērtā Mises logā iesākto darbu.</translation>
 <translation id="196896377990863006">Rādīt saites priekšskatījumu</translation>
 <translation id="1973912524893600642">Paturēt datus</translation>
 <translation id="1974060860693918893">Papildu</translation>
@@ -138,7 +138,7 @@ Jūsu meklētājprogramma ir <ph name="DSE_NAME" />. Skatiet tās norādījumus 
 <translation id="225943865679747347">Kļūdas kods: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Pievienot kontu</translation>
 <translation id="2268044343513325586">Uzlabot</translation>
-<translation id="2271351792809375263">Izmantojiet pārlūkā Chrome saglabātās paroles citās lietotnēs jūsu ierīcē</translation>
+<translation id="2271351792809375263">Izmantojiet pārlūkā Mises saglabātās paroles citās lietotnēs jūsu ierīcē</translation>
 <translation id="2273327106802955778">Izvēlne Vairāk</translation>
 <translation id="2302742851632557585">Mainīt paroli vietnē</translation>
 <translation id="2316709634732130529">Izmantot ieteikto paroli</translation>
@@ -191,12 +191,12 @@ Vietnes nedrīkst izmantot sīkfailus, lai skatītu jūsu pārlūkošanas darbī
 <translation id="2783054063075604403">Nevar izveidot saiti</translation>
 <translation id="2800683595868705743">Aizvērt ciļņu pārslēdzēju</translation>
 <translation id="2815198996063984598">2. Pieskarieties vienumam Noklusējuma pārlūka lietotne.</translation>
-<translation id="2820289420301699633">Jūsu administrators kontrolē pārlūku Chrome un var piekļūt tā datiem</translation>
+<translation id="2820289420301699633">Jūsu administrators kontrolē pārlūku Mises un var piekļūt tā datiem</translation>
 <translation id="2830972654601096923">Pārvaldīt adreses...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Atiestatīt tulk. iestat.</translation>
 <translation id="2848086008667475748">Padarīt par noklusējumu sadaļā Iestatījumi…</translation>
-<translation id="2858204748079866344">Lai aizsargātu jūsu konfidencialitāti, Chrome neveiks šī lauka automātisko aizpildi ar jūsu paroli.</translation>
+<translation id="2858204748079866344">Lai aizsargātu jūsu konfidencialitāti, Mises neveiks šī lauka automātisko aizpildi ar jūsu paroli.</translation>
 <translation id="285960592395650245">Lejupielādēt vēlreiz</translation>
 <translation id="2870560284913253234">Vietne</translation>
 <translation id="2871695793448672541">Slēpta, parole</translation>
@@ -210,7 +210,7 @@ Vietnes nedrīkst izmantot sīkfailus, lai skatītu jūsu pārlūkošanas darbī
 <translation id="2923448633003185837">Ielīmēt un pāriet</translation>
 <translation id="292639812446257861">Atzīmēt kā nelasītus</translation>
 <translation id="2932085390869194046">Ieteikt paroli...</translation>
-<translation id="2952581218264071393">1. Atveriet pārlūka Chrome iestatījumus.</translation>
+<translation id="2952581218264071393">1. Atveriet pārlūka Mises iestatījumus.</translation>
 <translation id="2958718410589002129">Paroles</translation>
 <translation id="2961210776189273067">Uzruna/amats</translation>
 <translation id="2964349545761222050">Bloķēt trešo pušu sīkfailus</translation>
@@ -257,7 +257,7 @@ Skatiet savas meklētājprogrammas norādījumus par meklēšanas vēstures dzē
 <translation id="3335947283844343239">Vēlreiz atvērt aizvērto cilni</translation>
 <translation id="3371831930909698441">Ir pieejams tulkojums. Opcijas, kas pieejamas ekrāna apakšējā daļā.</translation>
 <translation id="3393920035788932672">Uznir. logi atļauti</translation>
-<translation id="3399930248910934354">Atvērt Chrome iestatījumus</translation>
+<translation id="3399930248910934354">Atvērt Mises iestatījumus</translation>
 <translation id="3404744938087714423">Izrakstoties tiks izslēgta sinhronizācija.</translation>
 <translation id="3414451675185661089">2. Pieskarieties vienumam Paroles</translation>
 <translation id="3425644765244388016">Kredītkartes apzīmējums</translation>
@@ -283,7 +283,7 @@ Skatiet savas meklētājprogrammas norādījumus par meklēšanas vēstures dzē
 <translation id="3551320343578183772">Aizvērt cilni</translation>
 <translation id="3581564640715911333">Piedāvāt tulkot lapas citās valodās</translation>
 <translation id="3588820906588687999">Atvērt attēlu jaunā cilnē</translation>
-<translation id="359441731697487922">Varat automātiski atvērt saites pārlūkā Chrome, iestatot to kā savu noklusējuma pārlūka lietotni.
+<translation id="359441731697487922">Varat automātiski atvērt saites pārlūkā Mises, iestatot to kā savu noklusējuma pārlūka lietotni.
       
 Veiciet tālāk norādītās darbības.</translation>
 <translation id="3603009562372709545">Kopēt saites URL</translation>
@@ -296,7 +296,7 @@ Veiciet tālāk norādītās darbības.</translation>
 <translation id="3691593122358196899">Grāmatzīme saglabāta mapē <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Piedāvāt saglabāt paroles</translation>
 <translation id="3709582977625132201">Atzīmēt kā nelasītu</translation>
-<translation id="3740397331642243698">Atver ievadītos vietrāžus URL inkognito režīmā pārlūkā Chrome.</translation>
+<translation id="3740397331642243698">Atver ievadītos vietrāžus URL inkognito režīmā pārlūkā Mises.</translation>
 <translation id="3762232513783804601">Izstrādāts jūsu iPad planšetdatoram</translation>
 <translation id="3771033907050503522">Inkognito režīma cilnes</translation>
 <translation id="3775743491439407556">Sinhronizācija nedarbojas</translation>
@@ -309,7 +309,7 @@ Veiciet tālāk norādītās darbības.</translation>
 <translation id="3858860766373142691">Nosaukums</translation>
 <translation id="3892144330757387737">Šeit varēsiet skatīt savu vēsturi</translation>
 <translation id="3897092660631435901">Izvēlne</translation>
-<translation id="3913386780052199712">Pierakstījies pārlūkā Chrome</translation>
+<translation id="3913386780052199712">Pierakstījies pārlūkā Mises</translation>
 <translation id="3915450441834151894">Vietnes informācija</translation>
 <translation id="3922310737605261887">Meklēt kopēto tekstu</translation>
 <translation id="3928666092801078803">Datu apvienošana</translation>
@@ -416,7 +416,7 @@ Lai mainītu šo iestatījumu, <ph name="BEGIN_LINK" />atiestatiet sinhronizāci
 <translation id="4941089862236492464">Diemžēl, kopīgojot jūsu vienumu, radās problēma.</translation>
 <translation id="4944543191714094452">Atrast lapā…</translation>
 <translation id="4945756290001680296">Piekļūt paroles iestatījumiem</translation>
-<translation id="4979397965658815378">Pierakstieties Google kontā, lai izmantotu savas grāmatzīmes, paroles, vēsturi un citus Chrome datus visās jūsu ierīcēs.</translation>
+<translation id="4979397965658815378">Pierakstieties Google kontā, lai izmantotu savas grāmatzīmes, paroles, vēsturi un citus Mises datus visās jūsu ierīcēs.</translation>
 <translation id="5005498671520578047">Paroles kopēšana</translation>
 <translation id="5017828934289857214">Atgādināt vēlāk</translation>
 <translation id="5037676449506322593">Atlasīt visu</translation>
@@ -426,12 +426,12 @@ Lai mainītu šo iestatījumu, <ph name="BEGIN_LINK" />atiestatiet sinhronizāci
 <translation id="5062321486222145940">Instalēt Google disku</translation>
 <translation id="5083464117946352670">Nevar noteikt faila lielumu.</translation>
 <translation id="5090832849094901128">Izdzēšot šo paroli, netiks dzēsts jūsu konts vietnē <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Varat saglabāt lapas lasīšanai vēlāk vai bezsaistē. Pārlūkā Chrome tiks vaicāts, vai vēlaties saglabāt apjomīgas lapas.</translation>
+<translation id="5092117651143801290">Varat saglabāt lapas lasīšanai vēlāk vai bezsaistē. Pārlūkā Mises tiks vaicāts, vai vēlaties saglabāt apjomīgas lapas.</translation>
 <translation id="5094827893301452931">Twitter ziņa izveidota.</translation>
 <translation id="5118764316110575523">Izslēgts</translation>
 <translation id="5127805178023152808">Sinhronizācija izslēgta</translation>
 <translation id="5132942445612118989">Sinhronizējiet paroles, vēsturi un citu saturu visās ierīcēs</translation>
-<translation id="5140288047769711648">Chrome iegaumēs šo paroli. Jums tā nav jāatceras.</translation>
+<translation id="5140288047769711648">Mises iegaumēs šo paroli. Jums tā nav jāatceras.</translation>
 <translation id="5150492518600715772">Nosūtīt uz jūsu ierīci</translation>
 <translation id="5168414296986405587">Izstrādāts operētājsistēmai iPadOS</translation>
 <translation id="5173088371991956744">Sinhronizēšanai nepieciešams apstiprināt jūsu identitāti</translation>
@@ -479,7 +479,7 @@ Funkcija Handoff ir jāiespējo arī iestatījumu sadaļā General (Vispārīgi)
 <translation id="5659593005791499971">E-pasts</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Versija <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Tagad tiek rādīts 1 Chrome logs}zero{Tagad tiek rādīti {count} Chrome logi}one{Tagad tiek rādīts {count} Chrome logs}other{Tagad tiek rādīti {count} Chrome logi}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Tagad tiek rādīts 1 Mises logs}zero{Tagad tiek rādīti {count} Mises logi}one{Tagad tiek rādīts {count} Mises logs}other{Tagad tiek rādīti {count} Mises logi}}</translation>
 <translation id="5706552126692816153">Aktīva pirms 1 dienas</translation>
 <translation id="5711039611392265845">Papildu iestatījumus, kas attiecas uz konfidencialitāti, drošību un datu apkopošanu, skatiet lapā <ph name="BEGIN_LINK" />Sinhronizēšana un Google pakalpojumi<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Lai pārlūkotu tīmekli privāti, pievienojiet jaunu cilni</translation>
@@ -518,7 +518,7 @@ Funkcija Handoff ir jāiespējo arī iestatījumu sadaļā General (Vispārīgi)
 <translation id="5979837087407522202">Meklēt paroles</translation>
 <translation id="5982717868370722439">Pievienot esošos datus kontam <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Nesen apmeklētie</translation>
-<translation id="5988851877894965432">Atvērt vietrāžus URL pārlūkā Chrome</translation>
+<translation id="5988851877894965432">Atvērt vietrāžus URL pārlūkā Mises</translation>
 <translation id="6012140227487808125">Notiek šifrēšana…</translation>
 <translation id="6021332621416007159">Atvērt...</translation>
 <translation id="6027945736510816438">Vai domājāt <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ Funkcija Handoff ir jāiespējo arī iestatījumu sadaļā General (Vispārīgi)
 <translation id="6136914049981179737">Pirms sek.</translation>
 <translation id="6144589619057374135">Atvērt vietni ${url} inkognito režīmā</translation>
 <translation id="6159839020698489198">neobligāts</translation>
-<translation id="6177442314419606057">Meklēšana pārlūkā Chrome</translation>
+<translation id="6177442314419606057">Meklēšana pārlūkā Mises</translation>
 <translation id="6184086493125982861">Rādīt cilnes</translation>
 <translation id="6187302354554850004">Pēdējoreiz sinhr.: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Nelasīts</translation>
@@ -673,7 +673,7 @@ Inkognito režīmā vietnes nedrīkst izmantot sīkfailus, lai skatītu jūsu p�
 <translation id="7189598951263744875">Kopīgot...</translation>
 <translation id="7192050974311852563">Sākt reģistrēšanu</translation>
 <translation id="7203585745079012652">Izrunāt atbildes skaļi</translation>
-<translation id="7207383424303353046">Jaunums: automātiski atveriet vietnes pārlūkā Chrome, iestatot to kā savu noklusējuma pārlūka lietotni. <ph name="BEGIN_LINK" />Atvērt iestatījumus<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Jaunums: automātiski atveriet vietnes pārlūkā Mises, iestatot to kā savu noklusējuma pārlūka lietotni. <ph name="BEGIN_LINK" />Atvērt iestatījumus<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Nederīgs kredītkartes apzīmējums</translation>
 <translation id="722454870747268814">Jauna inkognito cilne</translation>
 <translation id="7265758999917665941">Nekad šai vietnei</translation>
@@ -699,7 +699,7 @@ Inkognito režīmā vietnes nedrīkst izmantot sīkfailus, lai skatītu jūsu p�
 <translation id="7454057999980797137">Štats/valsts</translation>
 <translation id="7456847797759667638">Atvērt atrašanās vietu...</translation>
 <translation id="7464701184726199289">Tādējādi visās ierīcēs tiek notīrīti sinhronizētie dati. Saglabātie vietņu iestatījumi netiks dzēsti, un tie var atspoguļot jūsu pārlūkošanas ieradumus. <ph name="BEGIN_LINK" />Uzziniet vairāk<ph name="END_LINK" />.</translation>
-<translation id="746684838091935575">3. Atlasiet Chrome.</translation>
+<translation id="746684838091935575">3. Atlasiet Mises.</translation>
 <translation id="7472734401283673885">Uzņ. nosaukums</translation>
 <translation id="7473891865547856676">Nē, paldies!</translation>
 <translation id="7481312909269577407">Pārsūtīt</translation>
@@ -727,13 +727,13 @@ Inkognito režīmā vietnes nedrīkst izmantot sīkfailus, lai skatītu jūsu p�
 <translation id="7781011649027948662">Vai tulkot lapu?</translation>
 <translation id="7781069478569868053">Jaunas cilnes lapa</translation>
 <translation id="7781829728241885113">Vakar</translation>
-<translation id="778855399387580014">Meklējiet jaunā Chrome cilnē.</translation>
+<translation id="778855399387580014">Meklējiet jaunā Mises cilnē.</translation>
 <translation id="7791543448312431591">Pievienot</translation>
 <translation id="7839985698273989086">Bezsaistes lapa</translation>
 <translation id="7840771868269352570">Jūsu atlasītie vienumi tiks noņemti.</translation>
 <translation id="7856733331829174190">Lejupielāde neizdevās</translation>
 <translation id="7859704718976024901">Pārlūkošanas vēsture</translation>
-<translation id="7887198238286927132">Lai aizsargātu jūsu konfidencialitāti, Chrome neveiks šī lauka automātisko aizpildi.</translation>
+<translation id="7887198238286927132">Lai aizsargātu jūsu konfidencialitāti, Mises neveiks šī lauka automātisko aizpildi.</translation>
 <translation id="7911190106180361398">Jūsu organizācija neatļauj jums sinhronizēt visu.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Eksportēt paroles...</translation>
@@ -748,14 +748,14 @@ Vietnes drīkst izmantot sīkfailus, lai skatītu jūsu pārlūkošanas darbība
 <translation id="7978018860671536736">3. Pieskarieties vienumam AutoFill Passwords (Paroļu automātiskā aizpilde)</translation>
 <translation id="7982789257301363584">Tīkls</translation>
 <translation id="7993619969781047893">Noteiktās vietnēs funkcijas var nedarboties</translation>
-<translation id="800361585186029508">Ievadītie vietrāži URL tiek atvērti pārlūkā Google Chrome.</translation>
+<translation id="800361585186029508">Ievadītie vietrāži URL tiek atvērti pārlūkā Google Mises.</translation>
 <translation id="802154636333426148">Lejupielāde neizdevās</translation>
 <translation id="8023878949384262191">Izvērš sadaļu.</translation>
 <translation id="8027581147000338959">Atvērt jaunā logā</translation>
 <translation id="804225253087497565">Kad esat pierakstījies, jūsu Google kontā var saglabāt <ph name="BEGIN_LINK" />meklēšanas vēsturi<ph name="END_LINK" /> un <ph name="BEGIN_LINK" />citu veidu darbības<ph name="END_LINK" />. Jebkurā laikā varat tās izdzēst.</translation>
 <translation id="804427445359061970">Šeit varēsiet skatīt cilnes no citām ierīcēm</translation>
 <translation id="8059533439631660104">Sakļauj sadaļu.</translation>
-<translation id="8065292699993359127">Vietrāžu URL atvēršana inkognito režīmā pārlūkā Chrome</translation>
+<translation id="8065292699993359127">Vietrāžu URL atvēršana inkognito režīmā pārlūkā Mises</translation>
 <translation id="806745655614357130">Glabāt datus atsevišķi</translation>
 <translation id="8073670137947914548">Lejupielāde ir pabeigta</translation>
 <translation id="8073872304774253879">Uzlabot meklēšanu un pārlūkošanu</translation>
@@ -804,7 +804,7 @@ Vietnes drīkst izmantot sīkfailus, lai skatītu jūsu pārlūkošanas darbība
 <translation id="8533670235862049797">Ir ieslēgta droša pārlūkošana</translation>
 <translation id="8534481786647257214">Google+ ziņa izveidota.</translation>
 <translation id="8548878600947630424">Atrast lapā...</translation>
-<translation id="8574235780160508979">31. martā tiks mainīti Chrome pakalpojumu sniegšanas noteikumi. <ph name="BEGIN_LINK" />Lūdzu, pārskatiet tos<ph name="END_LINK" />.</translation>
+<translation id="8574235780160508979">31. martā tiks mainīti Mises pakalpojumu sniegšanas noteikumi. <ph name="BEGIN_LINK" />Lūdzu, pārskatiet tos<ph name="END_LINK" />.</translation>
 <translation id="8588404856427128947">Izslēgts</translation>
 <translation id="8590913940444621808">Vairs nejautāt</translation>
 <translation id="8591976964826315682">Inkognito režīmā bloķēt trešo pušu sīkfailus</translation>
@@ -855,7 +855,7 @@ Vietnes drīkst izmantot sīkfailus, lai skatītu jūsu pārlūkošanas darbība
 <translation id="9081058212938299310">Vai atjaunināt lietotājvārda <ph name="USERNAME" /> paroli?</translation>
 <translation id="9083392325882095631">1 vienums</translation>
 <translation id="9083838294503912307">Lai sinhronizētu un personalizētu saturu dažādās ierīcēs, ieslēdziet sinhronizāciju.</translation>
-<translation id="9087108903408689779">Chrome ieteiktā parole:</translation>
+<translation id="9087108903408689779">Mises ieteiktā parole:</translation>
 <translation id="9094033019050270033">Atjaunināt paroli</translation>
 <translation id="9100610230175265781">Jāievada ieejas frāze.</translation>
 <translation id="9107664647686727385">Uzlauztu paroļu pārbaude</translation>

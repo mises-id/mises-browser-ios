@@ -33,7 +33,7 @@ O teu motor de busca é <ph name="DSE_NAME" />. En caso aplicable, consulta as s
 <translation id="1209206284964581585">Ocultar por agora</translation>
 <translation id="1219674500290482172">Non se puido conectar a Internet.</translation>
 <translation id="122699739164161391">Pechar todas as pestanas</translation>
-<translation id="1229222343402087523">Busca "${searchPhrase}" en Chrome</translation>
+<translation id="1229222343402087523">Busca "${searchPhrase}" en Mises</translation>
 <translation id="1231733316453485619">Queres activar a sincronización?</translation>
 <translation id="1242044645101871359">Inicia sesión de novo</translation>
 <translation id="1254117744268754948">Seleccionar cartafol</translation>
@@ -110,7 +110,7 @@ O teu motor de busca é <ph name="DSE_NAME" />. En caso aplicable, consulta as s
 <translation id="1930989359703290198">A túa organización só che permite iniciar sesión con certas contas. As contas que non están permitidas atópanse ocultas. <ph name="BEGIN_LINK" />Máis información<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Toca dúas veces para copiar.</translation>
 <translation id="1952172573699511566">Os sitios web mostrarán o texto no teu idioma preferido, sempre que sexa posible.</translation>
-<translation id="1965935827552890526">Acaba o que estabas facendo na outra ventá de Chrome que tiñas aberta.</translation>
+<translation id="1965935827552890526">Acaba o que estabas facendo na outra ventá de Mises que tiñas aberta.</translation>
 <translation id="196896377990863006">Mostrar vista previa da ligazón</translation>
 <translation id="1973912524893600642">Conservar datos</translation>
 <translation id="1974060860693918893">Configuración avanzada</translation>
@@ -138,7 +138,7 @@ O teu motor de busca é <ph name="DSE_NAME" />. En caso aplicable, consulta as s
 <translation id="225943865679747347">Código de erro: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Engadir conta</translation>
 <translation id="2268044343513325586">Refina</translation>
-<translation id="2271351792809375263">Utiliza os contrasinais que tes gardados en Chrome noutras aplicacións do teu dispositivo</translation>
+<translation id="2271351792809375263">Utiliza os contrasinais que tes gardados en Mises noutras aplicacións do teu dispositivo</translation>
 <translation id="2273327106802955778">Menú Máis</translation>
 <translation id="2302742851632557585">Cambiar contrasinal no sitio web</translation>
 <translation id="2316709634732130529">Utilizar contrasinal suxerido</translation>
@@ -191,12 +191,12 @@ Tampouco poden utilizalas para ver a túa actividade de navegación en distintos
 <translation id="2783054063075604403">Non se puido crear a ligazón</translation>
 <translation id="2800683595868705743">Saír do selector de pestanas</translation>
 <translation id="2815198996063984598">2. Toca Aplicación de navegador predeterminada</translation>
-<translation id="2820289420301699633">O teu administrador controla Chrome e pode acceder aos datos asociados</translation>
+<translation id="2820289420301699633">O teu administrador controla Mises e pode acceder aos datos asociados</translation>
 <translation id="2830972654601096923">Xestionar enderezos…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Rest conf trad</translation>
 <translation id="2848086008667475748">Definir como aplicación predeterminada na configuración</translation>
-<translation id="2858204748079866344">Para protexer a túa privacidade, Chrome non autocompletará o teu contrasinal neste campo.</translation>
+<translation id="2858204748079866344">Para protexer a túa privacidade, Mises non autocompletará o teu contrasinal neste campo.</translation>
 <translation id="285960592395650245">Reintentar a descarga</translation>
 <translation id="2870560284913253234">Sitio</translation>
 <translation id="2871695793448672541">Contrasinal oculto</translation>
@@ -210,7 +210,7 @@ Tampouco poden utilizalas para ver a túa actividade de navegación en distintos
 <translation id="2923448633003185837">Pegar e acceder</translation>
 <translation id="292639812446257861">Marcar como non lidos</translation>
 <translation id="2932085390869194046">Suxerir contrasinal…</translation>
-<translation id="2952581218264071393">1. Abre a configuración de Chrome</translation>
+<translation id="2952581218264071393">1. Abre a configuración de Mises</translation>
 <translation id="2958718410589002129">Contrasinais</translation>
 <translation id="2961210776189273067">Tratamento</translation>
 <translation id="2964349545761222050">Bloquear cookies de terceiros</translation>
@@ -257,7 +257,7 @@ En caso aplicable, consulta as instrucións do teu motor de busca para eliminar 
 <translation id="3335947283844343239">Abrir de novo a pestana pechada</translation>
 <translation id="3371831930909698441">A tradución está dispoñible. Hai opcións dispoñibles na parte inferior da pantalla.</translation>
 <translation id="3393920035788932672">Ventás emerxentes permitidas</translation>
-<translation id="3399930248910934354">Abrir configuración de Chrome</translation>
+<translation id="3399930248910934354">Abrir configuración de Mises</translation>
 <translation id="3404744938087714423">Se pechas a sesión, desactivarase a sincronización</translation>
 <translation id="3414451675185661089">2. Toca Passwords (Contrasinais)</translation>
 <translation id="3425644765244388016">Alcume da tarxeta</translation>
@@ -283,7 +283,7 @@ En caso aplicable, consulta as instrucións do teu motor de busca para eliminar 
 <translation id="3551320343578183772">Pechar pestana</translation>
 <translation id="3581564640715911333">Ofrece a tradución de páxinas noutros idiomas</translation>
 <translation id="3588820906588687999">Abrir imaxe nunha pestana nova</translation>
-<translation id="359441731697487922">Podes abrir ligazóns en Chrome automaticamente configurándoo como o teu navegador predeterminado.
+<translation id="359441731697487922">Podes abrir ligazóns en Mises automaticamente configurándoo como o teu navegador predeterminado.
 
 Sigue os pasos indicados a continuación:</translation>
 <translation id="3603009562372709545">Copiar URL da ligazón</translation>
@@ -296,7 +296,7 @@ Sigue os pasos indicados a continuación:</translation>
 <translation id="3691593122358196899">Marcador engadido a <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Ofrecer posibilidade de gardar contrasinais</translation>
 <translation id="3709582977625132201">Marcar como non lido</translation>
-<translation id="3740397331642243698">Abre os URL escritos en Google Chrome no modo de incógnito.</translation>
+<translation id="3740397331642243698">Abre os URL escritos en Google Mises no modo de incógnito.</translation>
 <translation id="3762232513783804601">Deseñado para iPad</translation>
 <translation id="3771033907050503522">Pestanas de incógnito</translation>
 <translation id="3775743491439407556">A sincronización non funciona</translation>
@@ -309,7 +309,7 @@ Sigue os pasos indicados a continuación:</translation>
 <translation id="3858860766373142691">Nome</translation>
 <translation id="3892144330757387737">Aquí atoparás o teu historial</translation>
 <translation id="3897092660631435901">Menú</translation>
-<translation id="3913386780052199712">Sesión iniciada en Chrome</translation>
+<translation id="3913386780052199712">Sesión iniciada en Mises</translation>
 <translation id="3915450441834151894">Información sobre o sitio</translation>
 <translation id="3922310737605261887">Buscar texto copiado</translation>
 <translation id="3928666092801078803">Combinar os meus datos</translation>
@@ -426,12 +426,12 @@ Para cambiar esta opción de configuración, deberás <ph name="BEGIN_LINK" />re
 <translation id="5062321486222145940">Instalar Google Drive</translation>
 <translation id="5083464117946352670">Imposible determinar tamaño.</translation>
 <translation id="5090832849094901128">Ao eliminar este contrasinal non se eliminará a túa conta de <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Podes gardar páxinas para lelas máis tarde ou sen conexión. Chrome preguntarache se queres gardar páxinas longas.</translation>
+<translation id="5092117651143801290">Podes gardar páxinas para lelas máis tarde ou sen conexión. Mises preguntarache se queres gardar páxinas longas.</translation>
 <translation id="5094827893301452931">Completouse o chío.</translation>
 <translation id="5118764316110575523">Non</translation>
 <translation id="5127805178023152808">A sincronización está desactivada</translation>
 <translation id="5132942445612118989">Sincroniza os teus contrasinais, o historial e moito máis en todos os dispositivos</translation>
-<translation id="5140288047769711648">Chrome lembrará este contrasinal por ti. Non é necesario que o recordes.</translation>
+<translation id="5140288047769711648">Mises lembrará este contrasinal por ti. Non é necesario que o recordes.</translation>
 <translation id="5150492518600715772">Enviar ao teu dispositivo</translation>
 <translation id="5168414296986405587">Creado para iPadOS</translation>
 <translation id="5173088371991956744">A sincronización necesita verificar a túa identidade</translation>
@@ -479,7 +479,7 @@ Handoff tamén debe estar activado na sección Xeral da configuración e os teus
 <translation id="5659593005791499971">Correo electrónico</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Versión <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Mostrando 1 ventá de Chrome}other{Mostrando {count} ventás de Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Mostrando 1 ventá de Mises}other{Mostrando {count} ventás de Mises}}</translation>
 <translation id="5706552126692816153">Dispositivo activo hai 1 día</translation>
 <translation id="5711039611392265845">Para ver máis opcións de configuración relacionadas coa privacidade, a seguranza e a recompilación de datos, consulta <ph name="BEGIN_LINK" />Sincronización e servizos de Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Para navegar pola Web de forma privada, engade unha nova pestana</translation>
@@ -518,7 +518,7 @@ Handoff tamén debe estar activado na sección Xeral da configuración e os teus
 <translation id="5979837087407522202">Buscar contrasinais</translation>
 <translation id="5982717868370722439">Engade os datos existentes a <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Visitados recentemente</translation>
-<translation id="5988851877894965432">Abrir URL en Chrome</translation>
+<translation id="5988851877894965432">Abrir URL en Mises</translation>
 <translation id="6012140227487808125">Encriptando...</translation>
 <translation id="6021332621416007159">Abrir en...</translation>
 <translation id="6027945736510816438">Querías dicir "<ph name="WEBSITE" />"?</translation>
@@ -539,7 +539,7 @@ Handoff tamén debe estar activado na sección Xeral da configuración e os teus
 <translation id="6136914049981179737">Seg. antes</translation>
 <translation id="6144589619057374135">Abre ${url} no modo de incógnito</translation>
 <translation id="6159839020698489198">opcional</translation>
-<translation id="6177442314419606057">Busca en Chrome</translation>
+<translation id="6177442314419606057">Busca en Mises</translation>
 <translation id="6184086493125982861">Amosar pestanas</translation>
 <translation id="6187302354554850004">Última sincronización: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Mensaxes non lidas</translation>
@@ -673,7 +673,7 @@ Co modo de incógnito activado, non poden utilizalas para ver a túa actividade 
 <translation id="7189598951263744875">Compartir...</translation>
 <translation id="7192050974311852563">Iniciar rexistro</translation>
 <translation id="7203585745079012652">Dicir as respostas</translation>
-<translation id="7207383424303353046">Novidade: Abre sitios en Chrome automaticamente configurándoo como o teu navegador predeterminado. <ph name="BEGIN_LINK" />Abrir Configuración<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Novidade: Abre sitios en Mises automaticamente configurándoo como o teu navegador predeterminado. <ph name="BEGIN_LINK" />Abrir Configuración<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">O alcume da tarxeta non é válido</translation>
 <translation id="722454870747268814">Nova pestana do modo de incógnito</translation>
 <translation id="7265758999917665941">Nunca neste sitio</translation>
@@ -699,7 +699,7 @@ Co modo de incógnito activado, non poden utilizalas para ver a túa actividade 
 <translation id="7454057999980797137">Estado/provin.</translation>
 <translation id="7456847797759667638">Abrir localización...</translation>
 <translation id="7464701184726199289">Esta acción borra os datos sincronizados de todos os dispositivos. As opcións de configuración dos sitios gardados non se eliminarán e quizais se reflictan os teus hábitos de navegación. <ph name="BEGIN_LINK" />Máis información<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Selecciona Chrome</translation>
+<translation id="746684838091935575">3. Selecciona Mises</translation>
 <translation id="7472734401283673885">Nome da empresa</translation>
 <translation id="7473891865547856676">Non, grazas</translation>
 <translation id="7481312909269577407">Adiante</translation>
@@ -727,13 +727,13 @@ Co modo de incógnito activado, non poden utilizalas para ver a túa actividade 
 <translation id="7781011649027948662">Traducir esta páxina?</translation>
 <translation id="7781069478569868053">Páxina Nova pestana</translation>
 <translation id="7781829728241885113">Onte</translation>
-<translation id="778855399387580014">Inicia unha busca nunha nova pestana de Chrome.</translation>
+<translation id="778855399387580014">Inicia unha busca nunha nova pestana de Mises.</translation>
 <translation id="7791543448312431591">Engadir</translation>
 <translation id="7839985698273989086">Páxina sen conexión</translation>
 <translation id="7840771868269352570">Quitaranse os elementos seleccionados.</translation>
 <translation id="7856733331829174190">Non se puido descargar o ficheiro</translation>
 <translation id="7859704718976024901">Historial de navegación</translation>
-<translation id="7887198238286927132">Para protexer a túa privacidade, Chrome non autocompletará este campo.</translation>
+<translation id="7887198238286927132">Para protexer a túa privacidade, Mises non autocompletará este campo.</translation>
 <translation id="7911190106180361398">A túa organización non che permite sincronizalo todo.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Exportar contrasinais...</translation>
@@ -748,14 +748,14 @@ Tamén poden utilizalas para ver a túa actividade de navegación en varios siti
 <translation id="7978018860671536736">3. Toca AutoFill Passwords (Autocompletar contrasinais)</translation>
 <translation id="7982789257301363584">Rede</translation>
 <translation id="7993619969781047893">As funcións dalgúns sitios poden deixar de funcionar</translation>
-<translation id="800361585186029508">Abre os URL introducidos en Google Chrome.</translation>
+<translation id="800361585186029508">Abre os URL introducidos en Mises.</translation>
 <translation id="802154636333426148">Produciuse un erro na descarga</translation>
 <translation id="8023878949384262191">Amplía a sección.</translation>
 <translation id="8027581147000338959">Abrir nunha ventá nova</translation>
 <translation id="804225253087497565">Cando teñas a sesión iniciada, é posible que se garden na túa Conta de Google o <ph name="BEGIN_LINK" />historial de busca<ph name="END_LINK" /> e <ph name="BEGIN_LINK" />outros datos da túa actividade<ph name="END_LINK" />. Podes eliminalos en calquera momento.</translation>
 <translation id="804427445359061970">Aquí atoparás as túas pestanas doutros dispositivos</translation>
 <translation id="8059533439631660104">Contrae a sección.</translation>
-<translation id="8065292699993359127">Abrir URL en Chrome no modo de incógnito</translation>
+<translation id="8065292699993359127">Abrir URL en Mises no modo de incógnito</translation>
 <translation id="806745655614357130">Conservar os meus datos por separado</translation>
 <translation id="8073670137947914548">A descarga finalizou</translation>
 <translation id="8073872304774253879">Mellorar as buscas e a navegación</translation>
@@ -804,7 +804,7 @@ Tamén poden utilizalas para ver a túa actividade de navegación en varios siti
 <translation id="8533670235862049797">A opción Navegación segura está activada</translation>
 <translation id="8534481786647257214">Completouse a publicación en Google+.</translation>
 <translation id="8548878600947630424">Buscar na páxina...</translation>
-<translation id="8574235780160508979">As Condicións de servizo de Chrome cambiarán o 31 de marzo. <ph name="BEGIN_LINK" />Revísaas<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">As Condicións de servizo de Mises cambiarán o 31 de marzo. <ph name="BEGIN_LINK" />Revísaas<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Desactivada</translation>
 <translation id="8590913940444621808">Non preguntar nunca</translation>
 <translation id="8591976964826315682">Bloquear cookies de terceiros no modo de incógnito</translation>
@@ -855,7 +855,7 @@ Tamén poden utilizalas para ver a túa actividade de navegación en varios siti
 <translation id="9081058212938299310">Queres actualizar o contrasinal do usuario <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">Un elemento</translation>
 <translation id="9083838294503912307">Para sincronizar e personalizar todos os teus dispositivos, activa a sincronización.</translation>
-<translation id="9087108903408689779">Contrasinal suxerido por Chrome:</translation>
+<translation id="9087108903408689779">Contrasinal suxerido por Mises:</translation>
 <translation id="9094033019050270033">Actualizar contrasinal</translation>
 <translation id="9100610230175265781">Contrasinal obrigatorio</translation>
 <translation id="9107664647686727385">Comproba se hai contrasinais vulnerados</translation>

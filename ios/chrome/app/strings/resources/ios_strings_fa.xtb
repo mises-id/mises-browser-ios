@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">فعلاً پنهان شود</translation>
 <translation id="1219674500290482172">اتصال به اینترنت امکان‌پذیر نیست.</translation>
 <translation id="122699739164161391">بستن همه برگه‌ها</translation>
-<translation id="1229222343402087523">‏جستجوی ${searchPhrase} در Chrome</translation>
+<translation id="1229222343402087523">‏جستجوی ${searchPhrase} در Mises</translation>
 <translation id="1231733316453485619">همگام‌سازی روشن شود؟</translation>
 <translation id="1242044645101871359">دوباره به سیستم وارد شوید</translation>
 <translation id="1254117744268754948">انتخاب پوشه</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">سازمانتان فقط ورود به سیستم با حساب‌های خاصی را مجاز کرده است. حساب‌هایی که مجاز نیستند پنهان می‌شوند. <ph name="BEGIN_LINK" />بیشتر بدانید<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">برای کپی کردن دو ضربه سریع بزنید.</translation>
 <translation id="1952172573699511566">درصورت امکان، وب‌سایت‌ها نوشتار را به زبان ترجیحی شما نمایش می‌دهند.</translation>
-<translation id="1965935827552890526">‏کاری را که در پنجره باز Chrome دیگر انجام می‌دادید تمام کنید.</translation>
+<translation id="1965935827552890526">‏کاری را که در پنجره باز Mises دیگر انجام می‌دادید تمام کنید.</translation>
 <translation id="196896377990863006">نمایش پیش‌نمایش پیوند</translation>
 <translation id="1973912524893600642">نگه داشتن داده‌ها</translation>
 <translation id="1974060860693918893">پیشرفته</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">کد خطا: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">افزودن حساب</translation>
 <translation id="2268044343513325586">فیلتر</translation>
-<translation id="2271351792809375263">‏از گذرواژه‌های ذخیره‌شده در Chrome در دیگر برنامه‌های دستگاهتان استفاده کنید</translation>
+<translation id="2271351792809375263">‏از گذرواژه‌های ذخیره‌شده در Mises در دیگر برنامه‌های دستگاهتان استفاده کنید</translation>
 <translation id="2273327106802955778">منوی بیشتر</translation>
 <translation id="2302742851632557585">گذرواژه را در وب‌سایت تغییر دهید</translation>
 <translation id="2316709634732130529">استفاده از گذرواژه پیشنهادی</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">پیوند ایجاد نمی‌شود</translation>
 <translation id="2800683595868705743">از تعویض‌کننده برگه خارج شوید</translation>
 <translation id="2815198996063984598">۲. روی برنامه مرور پیش‌فرض ضربه بزنید</translation>
-<translation id="2820289420301699633">‏سرپرستتان Chrome را کنترل می‌کند و می‌تواند به داده‌های آن دسترسی داشته باشد</translation>
+<translation id="2820289420301699633">‏سرپرستتان Mises را کنترل می‌کند و می‌تواند به داده‌های آن دسترسی داشته باشد</translation>
 <translation id="2830972654601096923">مدیریت نشانی‌ها…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />، <ph name="STATE" />، <ph name="URL" /></translation>
 <translation id="2843803966603263712">‏بازنشانی تنظیم «ترجمه Google»</translation>
 <translation id="2848086008667475748">تبدیل به برنامه پیش‌فرض در «تنظیمات»…</translation>
-<translation id="2858204748079866344">‏برای محافظت از حریم‌خصوصی‌تان، Chrome از ویژگی تکمیل خودکار برای وارد کردن گذرواژه‌تان در این فیلد استفاده نخواهد کرد.</translation>
+<translation id="2858204748079866344">‏برای محافظت از حریم‌خصوصی‌تان، Mises از ویژگی تکمیل خودکار برای وارد کردن گذرواژه‌تان در این فیلد استفاده نخواهد کرد.</translation>
 <translation id="285960592395650245">تلاش مجدد برای بارگیری</translation>
 <translation id="2870560284913253234">سایت</translation>
 <translation id="2871695793448672541">گذرواژه پنهان</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">جای‌گذاری و رفتن</translation>
 <translation id="292639812446257861">علامت‌گذاری به‌‌عنوان خوانده‌نشده</translation>
 <translation id="2932085390869194046">پیشنهاد گذرواژه…</translation>
-<translation id="2952581218264071393">‏۱. «تنظیمات Chrome» را باز کنید</translation>
+<translation id="2952581218264071393">‏۱. «تنظیمات Mises» را باز کنید</translation>
 <translation id="2958718410589002129">گذرواژه‌ها</translation>
 <translation id="2961210776189273067">عنوان</translation>
 <translation id="2964349545761222050">مسدود کردن کوکی‌های شخص ثالث</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">باز کردن مجدد برگه بسته شده</translation>
 <translation id="3371831930909698441">‏«ترجمه Google» دردسترس است. گزینه‌ها در نزدیک پایین صفحه نمایش در دسترس هستند.</translation>
 <translation id="3393920035788932672">پنجره‌های بازشو مجاز است</translation>
-<translation id="3399930248910934354">‏باز کردن «تنظیمات Chrome»</translation>
+<translation id="3399930248910934354">‏باز کردن «تنظیمات Mises»</translation>
 <translation id="3404744938087714423">با خروج از سیستم، همگام‌سازی خاموش می‌شود.</translation>
 <translation id="3414451675185661089">‏۲. روی Passwords (گذرواژه‌ها) ضربه بزنید</translation>
 <translation id="3425644765244388016">نام مستعار کارت</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">بستن برگه</translation>
 <translation id="3581564640715911333">پیشنهاد ترجمه صفحات نوشته‌شده به زبان‌های دیگر</translation>
 <translation id="3588820906588687999">باز کردن تصویر در برگه جدید</translation>
-<translation id="359441731697487922">‏با تنظیم Chrome به‌عنوان برنامه مرورگر پیش‌فرض می‌توانید پیوندها را به‌طور خودکار در آن باز کنید.
+<translation id="359441731697487922">‏با تنظیم Mises به‌عنوان برنامه مرورگر پیش‌فرض می‌توانید پیوندها را به‌طور خودکار در آن باز کنید.
       
 مراحل زیر را دنبال کنید:</translation>
 <translation id="3603009562372709545">‏کپی URL پیوند</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899">نشانک به <ph name="FOLDER_TITLE" /> اضافه شد</translation>
 <translation id="369349502275246497">پیشنهاد ذخیره شدن گذرواژه‌ها</translation>
 <translation id="3709582977625132201">علامت‌گذاری به‌عنوان خوانده‌نشده</translation>
-<translation id="3740397331642243698">‏نشانی‌های واردشده را در Google Chrome در حالت «ناشناس» باز می‌کند.</translation>
+<translation id="3740397331642243698">‏نشانی‌های واردشده را در Mises در حالت «ناشناس» باز می‌کند.</translation>
 <translation id="3762232513783804601">‏ساخته‌شده برای iPad شما</translation>
 <translation id="3771033907050503522">برگه‌های ناشناس</translation>
 <translation id="3775743491439407556">همگام‌سازی کار نمی‌کند</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">نام</translation>
 <translation id="3892144330757387737">سابقه را اینجا خواهید دید</translation>
 <translation id="3897092660631435901">منو</translation>
-<translation id="3913386780052199712">‏به Chrome وارد شد</translation>
+<translation id="3913386780052199712">‏به Mises وارد شد</translation>
 <translation id="3915450441834151894">اطلاعات سایت</translation>
 <translation id="3922310737605261887">جستجوی نوشتار کپی‌شده</translation>
 <translation id="3928666092801078803">ادغام کردن داده‌های من</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">‏نصب Google Drive</translation>
 <translation id="5083464117946352670">تعیین اندازه فایل ممکن نیست.</translation>
 <translation id="5090832849094901128">حذف این گذرواژه باعث حذف شدن حساب شما در <ph name="WEBSITE" /> نمی‌شود.</translation>
-<translation id="5092117651143801290">‏می‌توانید صفحه‌ها را برای خواندن در فرصتی دیگر یا در حالت آفلاین ذخیره کنید. Chrome از شما می‌پرسد آیا می‌خواهید صفحات طولانی را ذخیره کنید.</translation>
+<translation id="5092117651143801290">‏می‌توانید صفحه‌ها را برای خواندن در فرصتی دیگر یا در حالت آفلاین ذخیره کنید. Mises از شما می‌پرسد آیا می‌خواهید صفحات طولانی را ذخیره کنید.</translation>
 <translation id="5094827893301452931">‏Tweet انجام شد.</translation>
 <translation id="5118764316110575523">خاموش</translation>
 <translation id="5127805178023152808">همگام‌سازی خاموش است</translation>
 <translation id="5132942445612118989">همگام‌سازی گذرواژه‌ها، سابقه و موارد دیگر در همه دستگاه‌ها</translation>
-<translation id="5140288047769711648">‏Chrome به‌جای شما گذرواژه‌تان را به‌خاطر می‌سپارد. لازم نیست آن را به‌خاطر بسپارید.</translation>
+<translation id="5140288047769711648">‏Mises به‌جای شما گذرواژه‌تان را به‌خاطر می‌سپارد. لازم نیست آن را به‌خاطر بسپارید.</translation>
 <translation id="5150492518600715772">ارسال به دستگاه شما</translation>
 <translation id="5168414296986405587">‏ساخته‌شده برای iPadOS</translation>
 <translation id="5173088371991956744">همگام‌سازی باید هویتتان را تأیید کند</translation>
@@ -479,7 +479,7 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="5659593005791499971">ایمیل</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">نسخه <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{‏درحال نمایش ۱ پنجره Chrome}one{‏درحال نمایش {count} پنجره Chrome}other{‏درحال نمایش {count} پنجره Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{‏درحال نمایش ۱ پنجره Mises}one{‏درحال نمایش {count} پنجره Mises}other{‏درحال نمایش {count} پنجره Mises}}</translation>
 <translation id="5706552126692816153">آخرین فعالیت: ۱ روز قبل</translation>
 <translation id="5711039611392265845">‏برای تنظیمات بیشتری که با حریم‌خصوصی، امنیت و جمع‌آوری داده مرتبط هستند، <ph name="BEGIN_LINK" />همگام‌سازی و سرویس‌های Google<ph name="END_LINK" /> را ببینید.</translation>
 <translation id="5724941645893276623">برای مرور خصوصی وب، برگه جدیدی اضافه کنید</translation>
@@ -518,7 +518,7 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="5979837087407522202">جستجوی گذرواژه‌ها</translation>
 <translation id="5982717868370722439">افزودن داده‌های موجود به <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">به‌تازگی بازدیدشده</translation>
-<translation id="5988851877894965432">‏باز کردن نشانی‌های وب در Chrome</translation>
+<translation id="5988851877894965432">‏باز کردن نشانی‌های وب در Mises</translation>
 <translation id="6012140227487808125">در حال رمزگذاری…</translation>
 <translation id="6021332621416007159">بازکردن در...</translation>
 <translation id="6027945736510816438">منظورتان <ph name="WEBSITE" /> بود؟</translation>
@@ -539,7 +539,7 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="6136914049981179737">ثانیه‌هایی قبل</translation>
 <translation id="6144589619057374135">‏باز کردن ${url} در حالت ناشناس</translation>
 <translation id="6159839020698489198">اختیاری</translation>
-<translation id="6177442314419606057">‏جستجو در Chrome</translation>
+<translation id="6177442314419606057">‏جستجو در Mises</translation>
 <translation id="6184086493125982861">نمایش برگه‌ها</translation>
 <translation id="6187302354554850004">آخرین همگام‌سازی: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">خوانده‌نشده</translation>
@@ -673,7 +673,7 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="7189598951263744875">در حال اشتراک‌گذاری...</translation>
 <translation id="7192050974311852563">شروع گزارش‌گیری</translation>
 <translation id="7203585745079012652">پاسخ گفتاری</translation>
-<translation id="7207383424303353046">‏جدید: Chrome را به‌عنوان برنامه مرورگر پیش‌فرض تنظیم کنید تا سایت‌ها به‌طور خودکار در آن باز شوند. <ph name="BEGIN_LINK" />باز کردن تنظیمات<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">‏جدید: Mises را به‌عنوان برنامه مرورگر پیش‌فرض تنظیم کنید تا سایت‌ها به‌طور خودکار در آن باز شوند. <ph name="BEGIN_LINK" />باز کردن تنظیمات<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">نام مستعار کارت نامعتبر است</translation>
 <translation id="722454870747268814">برگه ناشناس جدید</translation>
 <translation id="7265758999917665941">هرگز برای این سایت</translation>
@@ -699,7 +699,7 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="7454057999980797137">ایالت / استان</translation>
 <translation id="7456847797759667638">باز کردن مکان...</translation>
 <translation id="7464701184726199289">با این کار داده‌های همگام‌سازی‌شده در همه دستگاه‌ها پاک می‌شوند. تنظیمات ذخیره‌شده سایت حذف نمی‌شوند و احتمالاً عادات مرور شما را نشان می‌دهند. <ph name="BEGIN_LINK" />بیشتر بدانید<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">‏۳. Chrome را انتخاب کنید</translation>
+<translation id="746684838091935575">‏۳. Mises را انتخاب کنید</translation>
 <translation id="7472734401283673885">نام شرکت</translation>
 <translation id="7473891865547856676">نه متشکرم</translation>
 <translation id="7481312909269577407">ارسال کردن</translation>
@@ -727,13 +727,13 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="7781011649027948662">صفحه ترجمه شود؟</translation>
 <translation id="7781069478569868053">صفحه برگه جدید</translation>
 <translation id="7781829728241885113">دیروز</translation>
-<translation id="778855399387580014">‏جستجویی در برگه Chrome جدیدی شروع کنید.</translation>
+<translation id="778855399387580014">‏جستجویی در برگه Mises جدیدی شروع کنید.</translation>
 <translation id="7791543448312431591">افزودن</translation>
 <translation id="7839985698273989086">صفحه آفلاین</translation>
 <translation id="7840771868269352570">موارد انتخاب‌شده برداشته خواهد شد.</translation>
 <translation id="7856733331829174190">بارگیری نشد</translation>
 <translation id="7859704718976024901">سابقه مرور</translation>
-<translation id="7887198238286927132">‏برای محافظت از حریم‌خصوصی‌تان، Chrome از ویژگی تکمیل خودکار برای این فیلد استفاده نخواهد کرد.</translation>
+<translation id="7887198238286927132">‏برای محافظت از حریم‌خصوصی‌تان، Mises از ویژگی تکمیل خودکار برای این فیلد استفاده نخواهد کرد.</translation>
 <translation id="7911190106180361398">سازمانتان به شما اجازه نمی‌دهد همه چیز را همگام‌سازی کنید.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">صادر کردن گذرواژه‌ها…</translation>
@@ -748,14 +748,14 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="7978018860671536736">‏۳. روی AutoFill Passwords (تکمیل خودکار گذرواژه‌ها) ضربه بزنید</translation>
 <translation id="7982789257301363584">شبکه</translation>
 <translation id="7993619969781047893">ویژگی‌های بعضی از سایت‌ها ممکن است درست کار نکنند</translation>
-<translation id="800361585186029508">‏نشانی‌های وب وارد‌شده در Google Chrome را باز می‌کند.</translation>
+<translation id="800361585186029508">‏نشانی‌های وب وارد‌شده در Mises را باز می‌کند.</translation>
 <translation id="802154636333426148">بارگیری نشد</translation>
 <translation id="8023878949384262191">بخش را بزرگ می‌کند.</translation>
 <translation id="8027581147000338959">باز کردن در پنجرهٔ جدید</translation>
 <translation id="804225253087497565">‏وقتی به سیستم وارد شده باشید، ممکن است <ph name="BEGIN_LINK" />سابقه جستجو<ph name="END_LINK" /> و <ph name="BEGIN_LINK" />انواع دیگر فعالیت<ph name="END_LINK" /> در «حساب Google» شما ذخیره شوند. هر زمان خواستید می‌توانید آن‌ها را حذف کنید.</translation>
 <translation id="804427445359061970">برگه‌های مربوط به دستگاه‌های دیگر را اینجا خواهید دید</translation>
 <translation id="8059533439631660104">بخش را کوچک می‌کند.</translation>
-<translation id="8065292699993359127">‏باز کردن نشانی‌های وب در Chrome در حالت «ناشناس»</translation>
+<translation id="8065292699993359127">‏باز کردن نشانی‌های وب در Mises در حالت «ناشناس»</translation>
 <translation id="806745655614357130">داده‌های من مجزا باشد</translation>
 <translation id="8073670137947914548">بارگیری به پایان رسید</translation>
 <translation id="8073872304774253879">بهبود جستجوها و مرور</translation>
@@ -804,7 +804,7 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="8533670235862049797">«مرور ایمن» روشن است</translation>
 <translation id="8534481786647257214">‏پست +Google ارسال شد.</translation>
 <translation id="8548878600947630424">یافتن در صفحه…</translation>
-<translation id="8574235780160508979">‏«شرایط خدمات» Chrome، ‏۳۱ مارس تغییر می‌کند. <ph name="BEGIN_LINK" />لطفاً بازبینی کنید<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">‏«شرایط خدمات» Mises، ‏۳۱ مارس تغییر می‌کند. <ph name="BEGIN_LINK" />لطفاً بازبینی کنید<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">خاموش</translation>
 <translation id="8590913940444621808">هرگز سؤال نشود</translation>
 <translation id="8591976964826315682">مسدود کردن کوکی‌های شخص ثالث در «حالت ناشناس»</translation>
@@ -855,7 +855,7 @@ Handoff باید در بخش عمومی تنظیمات نیز فعال شود و
 <translation id="9081058212938299310">گذرواژه <ph name="USERNAME" /> به‌روزرسانی شود؟</translation>
 <translation id="9083392325882095631">۱ مورد</translation>
 <translation id="9083838294503912307">برای همگام‌سازی و شخصی‌سازی در همه دستگاه‌ها، همگام‌سازی را روشن کنید.</translation>
-<translation id="9087108903408689779">‏گذرواژه پیشنهادی Chrome:</translation>
+<translation id="9087108903408689779">‏گذرواژه پیشنهادی Mises:</translation>
 <translation id="9094033019050270033">به‌روزرسانی گذرواژه</translation>
 <translation id="9100610230175265781">گذرعبارت لازم است</translation>
 <translation id="9107664647686727385">بررسی برای وجود گذرواژه‌های لورفته</translation>

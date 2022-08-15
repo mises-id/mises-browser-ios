@@ -9,7 +9,7 @@
 <translation id="1015730422737071372">ລະບຸລາຍລະອຽດເພີ່ມເຕີມ</translation>
 <translation id="1019413721762100891">ປິດ</translation>
 <translation id="1021110881106174305">ບັດທີ່ຍອມຮັບແລ້ວ</translation>
-<translation id="1021753677514347426">ບັນຫານີ້ເກີດຂຶ້ນເນື່ອງຈາກໃບຮັບຮອງທີ່ທ່ານ ຫຼື ຄົນອື່ນຕິດຕັ້ງໃນອຸປະກອນຂອງທ່ານ. ເປັນທີ່ຮູ້ກັນວ່າໃບຮັບຮອງນີ້ຖືກໃຊ້ເພື່ອຕິດຕາມ ແລະ ສະກັດກັ້ນເຄືອຂ່າຍ ແລະ Chromium ບໍ່ເຊື່ອຖືໃບຮັບຮອງນີ້. ເຖິງແມ່ນວ່າຈະມີບາງກໍລະນີທີ່ການຕິດຕາມອາດຈະຖືກກົດໝາຍ ເຊັ່ນ: ໃນເຄືອຂ່າຍຂອງໂຮງຮຽນ ຫຼື ບໍລິສັດ, ແຕ່ Chromium ກໍຍັງຕ້ອງການໃຫ້ແນ່ໃຈວ່າທ່ານຮັບຮູ້ວ່າມີການຕິດຕາມເບິ່ງ ເຖິງແມ່ນວ່າທ່ານບໍ່ສາມາດຢຸດມັນໄດ້ກໍຕາມ. ການຕິດຕາມອາດຈະເກີດຂຶ້ນໃນໂປຣແກຣມທ່ອງເວັບ ຫຼື ແອັບພລິເຄຊັນໃດໆກໍຕາມທີ່ເຂົ້າເຖິງເວັບໄຊໄດ້.</translation>
+<translation id="1021753677514347426">ບັນຫານີ້ເກີດຂຶ້ນເນື່ອງຈາກໃບຮັບຮອງທີ່ທ່ານ ຫຼື ຄົນອື່ນຕິດຕັ້ງໃນອຸປະກອນຂອງທ່ານ. ເປັນທີ່ຮູ້ກັນວ່າໃບຮັບຮອງນີ້ຖືກໃຊ້ເພື່ອຕິດຕາມ ແລະ ສະກັດກັ້ນເຄືອຂ່າຍ ແລະ Mises ບໍ່ເຊື່ອຖືໃບຮັບຮອງນີ້. ເຖິງແມ່ນວ່າຈະມີບາງກໍລະນີທີ່ການຕິດຕາມອາດຈະຖືກກົດໝາຍ ເຊັ່ນ: ໃນເຄືອຂ່າຍຂອງໂຮງຮຽນ ຫຼື ບໍລິສັດ, ແຕ່ Mises ກໍຍັງຕ້ອງການໃຫ້ແນ່ໃຈວ່າທ່ານຮັບຮູ້ວ່າມີການຕິດຕາມເບິ່ງ ເຖິງແມ່ນວ່າທ່ານບໍ່ສາມາດຢຸດມັນໄດ້ກໍຕາມ. ການຕິດຕາມອາດຈະເກີດຂຶ້ນໃນໂປຣແກຣມທ່ອງເວັບ ຫຼື ແອັບພລິເຄຊັນໃດໆກໍຕາມທີ່ເຂົ້າເຖິງເວັບໄຊໄດ້.</translation>
 <translation id="1024111578869940408">ບາງຄັ້ງຜູ້ໂຈມຕີປອມເປັນເວັບໄຊຕ່າງໆໂດຍການເຮັດການປ່ຽນແປງທີ່ເບິ່ງເຫັນໄດ້ຍາກຕໍ່ກັບທີ່ຢູ່ເວັບໄຊ.</translation>
 <translation id="1028781062521375153">ເບິ່ງລາຍລະອຽດ</translation>
 <translation id="1030706264415084469"><ph name="URL" /> ຕ້ອງການເກັບຂໍ້ມູນຂະໜາດໃຫຍ່ໄວ້ໃນອຸປະກອນຂອງທ່ານຢ່າງຖາວອນ</translation>
@@ -24,7 +24,7 @@
 <translation id="1050038467049342496">ປິດແອັບອື່ນ</translation>
 <translation id="1055184225775184556">ປ່ຽນ​ຄືນຄໍາສັ່ງເພີ່ມ</translation>
 <translation id="1056898198331236512">ຄໍາເຕືອນ</translation>
-<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອຫຼິ້ນເກມ Dino Run ໃນ Chrome</translation>
+<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອຫຼິ້ນເກມ Dino Run ໃນ Mises</translation>
 <translation id="1058479211578257048">ກຳລັງບັດທຶກບັດໄວ້...</translation>
 <translation id="10614374240317010">ຢ່າ​ບັນທຶກ</translation>
 <translation id="1062160989074299343">Prc10 (ຊອງຈົດໝາຍ)</translation>
@@ -38,7 +38,7 @@
 <translation id="1088860948719068836">ເພີ່ມຊື່ໃນບັດ</translation>
 <translation id="1089439967362294234">ປ່ຽນລະຫັດຜ່ານ</translation>
 <translation id="1096545575934602868">ຊ່ອງຂໍ້ມູນນີ້ບໍ່ຄວນມີຫຼາຍກວ່າ <ph name="MAX_ITEMS_LIMIT" /> ລາຍການ. ລາຍການເພີ່ມເຕີມທັງໝົດຈະຖືກປະຖິ້ມ.</translation>
-<translation id="1100782917270858593">ປຸ່ມສືບຕໍ່ບັນທຶກຂອງທ່ານ, ກົດ Enter ເພື່ອສືບຕໍ່ບັນທຶກຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Chrome ຂອງທ່ານ</translation>
+<translation id="1100782917270858593">ປຸ່ມສືບຕໍ່ບັນທຶກຂອງທ່ານ, ກົດ Enter ເພື່ອສືບຕໍ່ບັນທຶກຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Mises ຂອງທ່ານ</translation>
 <translation id="1101672080107056897">ການດຳເນີນການຜິດພາດ</translation>
 <translation id="1103523840287552314">ແປ <ph name="LANGUAGE" /> ຢູ່ສະເໝີ</translation>
 <translation id="1110994991967754504">ເລືອກການອະນຸຍາດສຳລັບ <ph name="PERMISSION_NAME" /></translation>
@@ -83,7 +83,7 @@
 <translation id="124116460088058876">ພາສາເພີ່ມເຕີມ</translation>
 <translation id="1243027604378859286">ຜູ້ຂຽນ:</translation>
 <translation id="1246424317317450637">ໂຕເຂັ້ມ</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ແລ້ວກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome OS ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
+<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ແລ້ວກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Mises OS ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
 <translation id="1250759482327835220">ເພື່ອຈ່າຍໄດ້ໄວກວ່າໃນຄັ້ງຕໍ່ໄປ, ກະລຸນາບັນທຶກບັດ ແລະ ທີ່ຢູ່ຮຽກເກັບເງິນຂອງທ່ານໄວ້ໃນບັນຊີ Google ຂອງທ່ານ.</translation>
 <translation id="1252799212227771492">ປຸ່ມສ້າງຊີດໃໝ່, ກົດ Enter ເພື່ອສ້າງ Google Sheet ໃໝ່ໄດ້ຢ່າງວ່ອງໄວ</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (ຊິ້ງຂໍ້ມູນແລ້ວ)</translation>
@@ -95,7 +95,7 @@
     &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">ທ່ານໄດ້ປ້ອນລະຫັດຜ່ານຂອງທ່ານໃນເວັບໄຊທີ່ບໍ່ຖືກຈັດການໂດຍອົງການຈັດຕັ້ງຂອງທ່ານ. ເພື່ອປົກປ້ອງບັນຊີຂອງທ່ານ, ກະລຸນາຢ່ານຳລະຫັດຜ່ານຂອງທ່ານມາໃຊ້ໃໝ່ຢູ່ໃນແອັບ ແລະ ເວັບໄຊອື່ນ.</translation>
 <translation id="1257553931232494454">ລະດັບການຊູມ</translation>
-<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການຕັ້ງຄ່າ Chrome ຂອງທ່ານ</translation>
+<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການຕັ້ງຄ່າ Mises ຂອງທ່ານ</translation>
 <translation id="1263231323834454256">ລາຍການທີ່ຈະອ່ານ</translation>
 <translation id="1264309058268477500">ສຳຮອງ</translation>
 <translation id="1269516672602708785">ສ້າງເວັບໄຊໃໝ່ໃນ Google Sites ໄດ້ຢ່າງວ່ອງໄວ</translation>
@@ -103,7 +103,7 @@
 <translation id="1281476433249504884">ສະແຕັກເກີ້ 1</translation>
 <translation id="1285320974508926690">ຢ່າແປເວັບ​ໄຊ​ທ໌ນີ້</translation>
 <translation id="1292571435393770077">ຖາດ 16</translation>
-<translation id="1292701964462482250">"ຊອບແວຢູ່ໃນຄອມພິວເຕີຂອງທ່ານກຳລັງປ້ອງກັນບໍ່ໃຫ້ Chrome ເຊື່ອມຕໍ່ກັບເວັບໄຊໄດ້ຢ່າງປອດໄພ" (ຄອມພິວເຕີ Windows ເທົ່ານັ້ນ)</translation>
+<translation id="1292701964462482250">"ຊອບແວຢູ່ໃນຄອມພິວເຕີຂອງທ່ານກຳລັງປ້ອງກັນບໍ່ໃຫ້ Mises ເຊື່ອມຕໍ່ກັບເວັບໄຊໄດ້ຢ່າງປອດໄພ" (ຄອມພິວເຕີ Windows ເທົ່ານັ້ນ)</translation>
 <translation id="1294154142200295408">ການປ່ຽນແປງແຖວຄຳສັ່ງ</translation>
 <translation id="129553762522093515">ປິດ​ບໍ່​ດົນ​ມາ​ນີ້</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK" />ລອງລຶບລ້າງຄຸກກີ້ຂອງທ່ານ<ph name="END_LINK" /></translation>
@@ -150,7 +150,7 @@
 <translation id="1384725838384960382">ຊີດການພິສູດຢືນຢັນຂໍ້ມູນການເຂົ້າສູ່ລະບົບການຈ່າຍເງິນແບບປອດໄພ</translation>
 <translation id="1386623374109090026">ການອະທິບາຍຄວາມເຫັນ</translation>
 <translation id="139305205187523129"><ph name="HOST_NAME" /> ບໍ່ໄດ້ສົ່ງຂໍ້ມູນໃດໆ.</translation>
-<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab, ຈາກນັ້ນກົດ Enter ເພື່ອສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Chrome ຂອງທ່ານ</translation>
+<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab, ຈາກນັ້ນກົດ Enter ເພື່ອສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Mises ຂອງທ່ານ</translation>
 <translation id="1405567553485452995">ສີຂຽວຈາງ</translation>
 <translation id="1407135791313364759">ເປີດ​ທັງ​ຫມົດ</translation>
 <translation id="1408787208417187241">ໜີບກະຫຼັບເຟີຢູ່ເທິງສຸດສາມເທື່ອ</translation>
@@ -200,7 +200,7 @@
 <translation id="154408704832528245">ເລືອກທີ່ຢູ່ອຸປະກອນ</translation>
 <translation id="1549470594296187301">ຕ້ອງເປີດໃຊ້ງານ JavaScript ເພື່ອໃຊ້ຄຸນສົມບັດໃຊ້ງານນີ້.</translation>
 <translation id="155039086686388498">Engineering-D</translation>
-<translation id="1553358976309200471">ອັບ​ເດດ Chrome</translation>
+<translation id="1553358976309200471">ອັບ​ເດດ Mises</translation>
 <translation id="1555130319947370107">ສີ​ຟ້າ</translation>
 <translation id="1559447966090556585">ຮັບການແຈ້ງເຕືອນບໍ?</translation>
 <translation id="1559528461873125649">ບໍ່ມີໄຟລ໌ ຫຼືໄດເຣັກຕໍຣີດັ່ງກ່າວ</translation>
@@ -216,7 +216,7 @@
 <translation id="1588438908519853928">ປົກ​ກະ​ຕິ</translation>
 <translation id="1592005682883173041">ການເຂົ້າເຖິງຂໍ້ມູນພາຍໃນເຄື່ອງ</translation>
 <translation id="1594030484168838125">ເລືອກ</translation>
-<translation id="160851722280695521">ຫຼິ້ນເກມ Dino Run ໃນ Chrome</translation>
+<translation id="160851722280695521">ຫຼິ້ນເກມ Dino Run ໃນ Mises</translation>
 <translation id="161042844686301425">ສີຟ້າຂຽວ</translation>
 <translation id="1611101756749861742">ມ້ວນທີສອງ</translation>
 <translation id="1615402009686901181">ນະໂຍບາຍຂອງຜູ້ເບິ່ງແຍງລະບົບປິດການນຳໃຊ້ການຖ່າຍຮູບໜ້າຈໍໄວ້ເມື່ອສະແດງເນື້ອຫາທີ່ເປັນຄວາມລັບຢູ່</translation>
@@ -233,13 +233,13 @@
 <translation id="1642410292376109062">ປຸ່ມປ່ຽນລະຫັດຜ່ານ Google, ກົດ Enter ເພື່ອປ່ຽນລະຫັດຜ່ານບັນຊີ Google ຂອງທ່ານ</translation>
 <translation id="1644574205037202324">ປະຫວັດ</translation>
 <translation id="1645368109819982629">ໂປຣໂຕຄໍທີ່ບໍ່ຮອງຮັບ</translation>
-<translation id="1650602712345345441">ຈັດການການຕັ້ງຄ່າ Chrome ຂອງທ່ານ</translation>
+<translation id="1650602712345345441">ຈັດການການຕັ້ງຄ່າ Mises ຂອງທ່ານ</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="1656024727720460136">Chrome ໄດ້ເຮັດໃຫ້ໜ້ານີ້ອ່ານໄດ້ງ່າຍຂຶ້ນ. Chrome ກູ້ຄືນໜ້າຕົ້ນສະບັບຜ່ານການເຊື່ອມຕໍ່ທີ່ປອດໄພ.</translation>
+<translation id="1656024727720460136">Mises ໄດ້ເຮັດໃຫ້ໜ້ານີ້ອ່ານໄດ້ງ່າຍຂຶ້ນ. Mises ກູ້ຄືນໜ້າຕົ້ນສະບັບຜ່ານການເຊື່ອມຕໍ່ທີ່ປອດໄພ.</translation>
 <translation id="1656489000284462475">ບ່ອນຮັບເຄື່ອງ</translation>
 <translation id="1658918301167915956">ອຸປະກອນ Bluetooth</translation>
 <translation id="1662550410081243962">ບັນທຶກ ແລະ ປະກອບຂໍ້ມູນວິທີການຈ່າຍເງິນ</translation>
-<translation id="1663943134801823270">ບັດ ແລະ ທີ່ຢູ່ມາຈາກ Chrome. ທ່ານສາມາດຈັດການພວກມັນໄດ້ໃນ <ph name="BEGIN_LINK" />ການຕັ້ງຄ່າ<ph name="END_LINK" />.</translation>
+<translation id="1663943134801823270">ບັດ ແລະ ທີ່ຢູ່ມາຈາກ Mises. ທ່ານສາມາດຈັດການພວກມັນໄດ້ໃນ <ph name="BEGIN_LINK" />ການຕັ້ງຄ່າ<ph name="END_LINK" />.</translation>
 <translation id="1671391448414634642">ລະບົບຈະແປໜ້າ <ph name="SOURCE_LANGUAGE" /> ເປັນ <ph name="TARGET_LANGUAGE" /> ແຕ່ຕອນນີ້ເປັນຕົ້ນໄປ.</translation>
 <translation id="1682696192498422849">ດ້ານຂອບສັ້ນກ່ອນ</translation>
 <translation id="168693727862418163">ກວດຮັບຮອງຄ່ານະໂຍບາຍນີ້ທຽບກັບຮູບແບບຂອງມັນບໍ່ສຳເລັດ ແລະ ຈະຖືກລະເລີຍ.</translation>
@@ -324,9 +324,9 @@
 <translation id="1919345977826869612">ໂຄສະນາ</translation>
 <translation id="1919367280705858090">ຂໍຄວາມຊ່ວຍເຫຼືອເລື່ອງຂໍ້ຄວາມສະແດງຂໍ້ຜິດພາດສະເພາະ</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{ບໍ່ມີ}=1{1 ເວັບໄຊ}other{# ເວັບໄຊ}}</translation>
-<translation id="1923390796829649802">ປຸ່ມຈັດການການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ, ກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome OS ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
+<translation id="1923390796829649802">ປຸ່ມຈັດການການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ, ກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Mises OS ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
 <translation id="1924727005275031552">ໃໝ່</translation>
-<translation id="1927439593081478069">ເປີດໃຊ້ກວດສອບຄວາມປອດໄພ Chrome, ກົດ Enter ເພື່ອເປີດໃຊ້ການກວດສອບຄວາມປອດໄພໃນ Chrome</translation>
+<translation id="1927439593081478069">ເປີດໃຊ້ກວດສອບຄວາມປອດໄພ Mises, ກົດ Enter ເພື່ອເປີດໃຊ້ການກວດສອບຄວາມປອດໄພໃນ Mises</translation>
 <translation id="1939175642807587452">ສາມາດຂໍສົ່ງການແຈ້ງເຕືອນ</translation>
 <translation id="1945968466830820669">ທ່ານອາດຈະສູນເສຍການເຂົ້າເຖິງບັນຊີຂອງອົງການຂອງທ່ານ ຫຼື ປະສົບກັບການລັກໃຊ້ຕົວຕົນ.</translation>
 <translation id="1947454675006758438">ໜີບກະຫຼັບເຟີຢູ່ເທິງສຸດເບື້ອງຂວາ</translation>
@@ -345,8 +345,8 @@
 <translation id="2001146170449793414">{COUNT,plural, =1{ແລະ ອີກ 1 ອັນ}other{ແລະ ອີກ # ອັນ}}</translation>
 <translation id="2003709556000175978">ຣີເຊັດລະຫັດຜ່ານຂອງທ່ານຕອນນີ້</translation>
 <translation id="2003775180883135320">ເຈາະຮູຢູ່ເທິງສຸດສີ່ຮູ</translation>
-<translation id="201174227998721785">ຈັດການການອະນຸຍາດ ແລະ ຂໍ້ມູນທີ່ຈັດເກັບໄວ້ໃນເວັບໄຊຕ່າງໆໃນການຕັ້ງຄ່າ Chrome</translation>
-<translation id="2019607688127825327">ປຸ່ມຈັດການການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ, ກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
+<translation id="201174227998721785">ຈັດການການອະນຸຍາດ ແລະ ຂໍ້ມູນທີ່ຈັດເກັບໄວ້ໃນເວັບໄຊຕ່າງໆໃນການຕັ້ງຄ່າ Mises</translation>
+<translation id="2019607688127825327">ປຸ່ມຈັດການການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ, ກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Mises ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
 <translation id="2025115093177348061">ອາກິວເມັນ ຣີອາລິຕີ</translation>
 <translation id="2025186561304664664">ພຣັອກຊີຖືກຕັ້ງເປັນປັບຕັ້ງຄ່າອັດຕະໂນມັດ.</translation>
 <translation id="2025891858974379949">ເນື້ອຫາທີ່ບໍ່ປອດໄພ</translation>
@@ -357,7 +357,7 @@
 <translation id="2042213636306070719">ຖາດ 7</translation>
 <translation id="204357726431741734">ເຂົ້າສູ່ລະບົບເພື່ອໃຊ້ລະຫັດຜ່ານທີ່ບັນທຶກໄວ້ໃນບັນຊີ Google ຂອງທ່ານ</translation>
 <translation id="2053111141626950936">ລະບົບຈະບໍ່ແປໜ້າເປັນ <ph name="LANGUAGE" />.</translation>
-<translation id="2053373601901562871">{NUM_DAYS,plural, =0{ເມື່ອເປີດການຄວບຄຸມນີ້ ແລະ ສະຖານະເປັນແບບເປີດໃຊ້ຢູ່, Chrome ຈະກຳນົດວ່າກຸ່ມຄົນຂະໜາດໃຫຍ່ກຸ່ມໃດ ຫຼື "ກຸ່ມປະຊາກອນຕາມຮຸ່ນ" ໃດທີ່ຄ້າຍກັບການເຄື່ອນໄຫວການທ່ອງເວັບຫຼ້າສຸດຂອງທ່ານ. ຜູ້ລົງໂຄສະນາສາມາດເລືອກໂຄສະນາສຳລັບກຸ່ມໄດ້ ແລະ ການເຄື່ອນໄຫວການທ່ອງເວັບຂອງທ່ານຈະຖືກຈັດເກັບໄວ້ເປັນສ່ວນຕົວຢູ່ອຸປະກອນຂອງທ່ານ. ກຸ່ມຂອງທ່ານມີການອັບເດດທຸກມື້.}=1{ເມື່ອເປີດການຄວບຄຸມນີ້ ແລະ ສະຖານະເປັນແບບເປີດໃຊ້ຢູ່, Chrome ຈະກຳນົດວ່າກຸ່ມຄົນຂະໜາດໃຫຍ່ກຸ່ມໃດ ຫຼື "ກຸ່ມປະຊາກອນຕາມຮຸ່ນ" ໃດທີ່ຄ້າຍກັບການເຄື່ອນໄຫວການທ່ອງເວັບຫຼ້າສຸດຂອງທ່ານ. ຜູ້ລົງໂຄສະນາສາມາດເລືອກໂຄສະນາສຳລັບກຸ່ມໄດ້ ແລະ ການເຄື່ອນໄຫວການທ່ອງເວັບຂອງທ່ານຈະຖືກຈັດເກັບໄວ້ເປັນສ່ວນຕົວຢູ່ອຸປະກອນຂອງທ່ານ. ກຸ່ມຂອງທ່ານມີການອັບເດດທຸກມື້.}other{ເມື່ອເປີດການຄວບຄຸມນີ້ ແລະ ສະຖານະເປັນແບບເປີດໃຊ້ຢູ່, Chrome ຈະກຳນົດວ່າກຸ່ມຄົນຂະໜາດໃຫຍ່ກຸ່ມໃດ ຫຼື "ກຸ່ມປະຊາກອນຕາມຮຸ່ນ" ໃດທີ່ຄ້າຍກັບການເຄື່ອນໄຫວການທ່ອງເວັບຫຼ້າສຸດຂອງທ່ານ. ຜູ້ລົງໂຄສະນາສາມາດເລືອກໂຄສະນາສຳລັບກຸ່ມໄດ້ ແລະ ການເຄື່ອນໄຫວການທ່ອງເວັບຂອງທ່ານຈະຖືກຈັດເກັບໄວ້ເປັນສ່ວນຕົວຢູ່ອຸປະກອນຂອງທ່ານ. ກຸ່ມຂອງທ່ານມີການອັບເດດທຸກ {NUM_DAYS} ມື້.}}</translation>
+<translation id="2053373601901562871">{NUM_DAYS,plural, =0{ເມື່ອເປີດການຄວບຄຸມນີ້ ແລະ ສະຖານະເປັນແບບເປີດໃຊ້ຢູ່, Mises ຈະກຳນົດວ່າກຸ່ມຄົນຂະໜາດໃຫຍ່ກຸ່ມໃດ ຫຼື "ກຸ່ມປະຊາກອນຕາມຮຸ່ນ" ໃດທີ່ຄ້າຍກັບການເຄື່ອນໄຫວການທ່ອງເວັບຫຼ້າສຸດຂອງທ່ານ. ຜູ້ລົງໂຄສະນາສາມາດເລືອກໂຄສະນາສຳລັບກຸ່ມໄດ້ ແລະ ການເຄື່ອນໄຫວການທ່ອງເວັບຂອງທ່ານຈະຖືກຈັດເກັບໄວ້ເປັນສ່ວນຕົວຢູ່ອຸປະກອນຂອງທ່ານ. ກຸ່ມຂອງທ່ານມີການອັບເດດທຸກມື້.}=1{ເມື່ອເປີດການຄວບຄຸມນີ້ ແລະ ສະຖານະເປັນແບບເປີດໃຊ້ຢູ່, Mises ຈະກຳນົດວ່າກຸ່ມຄົນຂະໜາດໃຫຍ່ກຸ່ມໃດ ຫຼື "ກຸ່ມປະຊາກອນຕາມຮຸ່ນ" ໃດທີ່ຄ້າຍກັບການເຄື່ອນໄຫວການທ່ອງເວັບຫຼ້າສຸດຂອງທ່ານ. ຜູ້ລົງໂຄສະນາສາມາດເລືອກໂຄສະນາສຳລັບກຸ່ມໄດ້ ແລະ ການເຄື່ອນໄຫວການທ່ອງເວັບຂອງທ່ານຈະຖືກຈັດເກັບໄວ້ເປັນສ່ວນຕົວຢູ່ອຸປະກອນຂອງທ່ານ. ກຸ່ມຂອງທ່ານມີການອັບເດດທຸກມື້.}other{ເມື່ອເປີດການຄວບຄຸມນີ້ ແລະ ສະຖານະເປັນແບບເປີດໃຊ້ຢູ່, Mises ຈະກຳນົດວ່າກຸ່ມຄົນຂະໜາດໃຫຍ່ກຸ່ມໃດ ຫຼື "ກຸ່ມປະຊາກອນຕາມຮຸ່ນ" ໃດທີ່ຄ້າຍກັບການເຄື່ອນໄຫວການທ່ອງເວັບຫຼ້າສຸດຂອງທ່ານ. ຜູ້ລົງໂຄສະນາສາມາດເລືອກໂຄສະນາສຳລັບກຸ່ມໄດ້ ແລະ ການເຄື່ອນໄຫວການທ່ອງເວັບຂອງທ່ານຈະຖືກຈັດເກັບໄວ້ເປັນສ່ວນຕົວຢູ່ອຸປະກອນຂອງທ່ານ. ກຸ່ມຂອງທ່ານມີການອັບເດດທຸກ {NUM_DAYS} ມື້.}}</translation>
 <translation id="2053553514270667976">ລະ​ຫັດ​ຊິບ</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 ຄຳ​ແນະນຳ}other{# ຄຳ​ແນະນຳ}}</translation>
 <translation id="2071156619270205202">ບັດນີ້ບໍ່ມີສິດໃຊ້ໝາຍເລກບັດສະເໝືອນ.</translation>
@@ -366,7 +366,7 @@
 <translation id="20817612488360358">ການຕັ້ງຄ່າພຣັອກຊີລະບົບຖືກຕັ້ງໃຫ້ຖືກນໍາໃຊ້ ແຕ່ການປັບຕັ້ງຄ່າພຣັອກຊີທີ່ຈະແຈ້ງໄດ້ຖືກລະບຸ​ແຈ້ງນໍາອີກ.</translation>
 <translation id="2082238445998314030">ຜົນຮັບ <ph name="RESULT_NUMBER" /> ຈາກ <ph name="TOTAL_RESULTS" /></translation>
 <translation id="2085876078937250610">ບັນທຶກ…</translation>
-<translation id="2088086323192747268">ຈັດການປຸ່ມຊິ້ງຂໍ້ມູນ, ກົດ Enter ເພື່ອຈັດການວ່າຂໍ້ມູນໃດທີ່ທ່ານຈະຊິ້ງຂໍ້ມູນໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2088086323192747268">ຈັດການປຸ່ມຊິ້ງຂໍ້ມູນ, ກົດ Enter ເພື່ອຈັດການວ່າຂໍ້ມູນໃດທີ່ທ່ານຈະຊິ້ງຂໍ້ມູນໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="2091887806945687916">ສຽງ</translation>
 <translation id="2094505752054353250">ໂດເມນບໍ່ເຂົ້າຄູ່ກັນ</translation>
 <translation id="2096368010154057602">ພະແນກ</translation>
@@ -433,7 +433,7 @@
 <translation id="2293443924986248631">ເມື່ອເປີດຢູ່, ເວັບໄຊຈະບໍ່ສາມາດໃຊ້ຄຸກກີ້ທີ່ຕິດຕາມທ່ານໃນທົ່ວເວັບໄຊ. ຄຸນສົມບັດໃນບາງເວັບໄຊອາດຈະໃຊ້ບໍ່ໄດ້.</translation>
 <translation id="2295290966866883927">URL ຂອງໜ້າທີ່ທ່ານເຂົ້າເບິ່ງຈະຖືກສົ່ງໃຫ້ Google Cloud ຫຼື ພາກສ່ວນທີສາມເພື່ອວິເຄາະ. ຕົວຢ່າງ: ພວກມັນອາດຈະຖືກສະແກນເພື່ອກວດຫາເວັບໄຊທີ່ບໍ່ປອດໄພ.</translation>
 <translation id="2297722699537546652">B5 (ຊອງຈົດໝາຍ)</translation>
-<translation id="2298855485018661510">ຈັດການປຸ່ມຄຸກກີ້, ກົດ Enter ເພື່ອຈັດການການຕັ້ງຄ່າຄຸກກີ້ຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2298855485018661510">ຈັດການປຸ່ມຄຸກກີ້, ກົດ Enter ເພື່ອຈັດການການຕັ້ງຄ່າຄຸກກີ້ຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="2300306941146563769">ອັບໂຫຼດບໍ່ໄດ້</translation>
 <translation id="2310021320168182093">Chou2 (ຊອງຈົດໝາຍ)</translation>
 <translation id="2316887270356262533">ຂະຫຍາຍພື້ນທີ່ຫວ່າງໄດ້ໜ້ອຍກວ່າ 1 MB. ບາງເວັບໄຊອາດຈະໂຫຼດຊ້າກວ່າໃນການເຂົ້າເບິ່ງຄັ້ງຕໍ່ໄປຂອງທ່ານ.</translation>
@@ -456,9 +456,9 @@
 <translation id="2367567093518048410">ລະ​ດັບ</translation>
 <translation id="2372464001869762664">ຫຼັງຈາກທີ່ທ່ານຢືນຢັນ, ລະບົບຈະແບ່ງປັນລາຍລະອຽດບັດຈາກບັນຊີ Google ຂອງທ່ານກັບເວັບໄຊນີ້. ຊອກຫາ CVC ໃນລາຍລະອຽດບັນຊີ Plex ຂອງທ່ານ.</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="2383455408879745299">ປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
+<translation id="2383455408879745299">ປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Mises ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
 <translation id="2384307209577226199">ຄ່າເລີ່ມຕົ້ນ​ວິ​ສາ​ຫະ​ກິດ</translation>
-<translation id="2385809941344967209">ອັບເດດ Chrome ຈາກການຕັ້ງຄ່າ Chrome ຂອງທ່ານ</translation>
+<translation id="2385809941344967209">ອັບເດດ Mises ຈາກການຕັ້ງຄ່າ Mises ຂອງທ່ານ</translation>
 <translation id="2386255080630008482">ໃບຢັ້ງຢືນຂອງເຊີບເວີຖືກຖອນຄືນແລ້ວ.</translation>
 <translation id="2392959068659972793">ສະແດງນະ​ໂຍ​ບາຍໂດຍບໍ່ມີຄ່າຕັ້ງໄວ້​</translation>
 <translation id="239429038616798445">ວິທີການຈັດສົ່ງນີ້ບໍ່ສາມາດໃຊ້ໄດ້. ລອງວິທີອື່ນ.</translation>
@@ -475,7 +475,7 @@
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">ເລືອກວິທີການຈັດສົ່ງ</translation>
 <translation id="2465688316154986572">ກະຫຼັບເຟີ</translation>
-<translation id="2465914000209955735">ຈັດການໄຟລ໌ທີ່ທ່ານດາວໂຫຼດໄວ້ໃນ Chrome</translation>
+<translation id="2465914000209955735">ຈັດການໄຟລ໌ທີ່ທ່ານດາວໂຫຼດໄວ້ໃນ Mises</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />ກຳລັງເປີດໃຊ້ Network Diagnostics<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">ລຳດັບ 1 ເຖິງ N</translation>
 <translation id="2470767536994572628">ເມື່ອທ່ານແກ້ໄຂຄຳອະທິບາຍຄວາມເຫັນດ ເອກະສານນີ້ຈະກັບໄປເປັນມຸມມອງແບບໜ້າດຽວ ແລະ ກັບໄປໃຊ້ການໝຸນແບບເດີມຂອງມັນ</translation>
@@ -511,28 +511,28 @@
 <translation id="2556876185419854533">ປ່ຽນ​ກັບ​ຄືນຄໍາສັ່ງແກ້ໄຂ</translation>
 <translation id="2570734079541893434">ຈັດການການຕັ້ງຄ່າ</translation>
 <translation id="257674075312929031">ກຸ່ມ</translation>
-<translation id="2576880857912732701">ຈັດການປຸ່ມການຕັ້ງຄ່າຄວາມປອດໄພ, ກົດ Enter ເພື່ອຈັດການ Safe Browsing ຂອງທ່ານ ແລະ ອື່ນໆໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2576880857912732701">ຈັດການປຸ່ມການຕັ້ງຄ່າຄວາມປອດໄພ, ກົດ Enter ເພື່ອຈັດການ Safe Browsing ຂອງທ່ານ ແລະ ອື່ນໆໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="2586657967955657006">ຄລິບບອດ</translation>
 <translation id="2587730715158995865">ຈາກ <ph name="ARTICLE_PUBLISHER" />. ອ່ານຂ່າວນີ້ ແລະ ອີກ <ph name="OTHER_ARTICLE_COUNT" /> ຂ່າວອື່ນ.</translation>
 <translation id="2587841377698384444">ລະ​ຫັດ API ຂອງໄດເຣັກທໍຣີ:</translation>
 <translation id="2594318783181750337">ມຸມມອງເວັບແບບດ່ວນ:</translation>
 <translation id="2595719060046994702">ອຸປະກອນ ແລະ ບັນຊີນີ້ບໍ່ຖືກຈັດການໂດຍບໍລິສັດ ຫຼື ອົງການຈັດຕັ້ງອື່ນ.</translation>
-<translation id="2596415276201385844">To establish a secure connection, your clock needs to be set correctly. This is because the certificates that websites use to identify themselves are only valid for specific periods of time. Since your device's clock is incorrect, Chrome cannot verify these certificates.</translation>
+<translation id="2596415276201385844">To establish a secure connection, your clock needs to be set correctly. This is because the certificates that websites use to identify themselves are only valid for specific periods of time. Since your device's clock is incorrect, Mises cannot verify these certificates.</translation>
 <translation id="2597378329261239068">ເອກະສານນີ້ມີລະຫັດຜ່ານປ້ອງກັນໄວ້. ກະລຸນາໃສ່ລະຫັດຜ່ານ.</translation>
 <translation id="2609632851001447353">ການ​ປ່ຽນ​ແປງ</translation>
 <translation id="2610561535971892504">ຄລິກເພື່ອສຳເນົາ</translation>
 <translation id="2618023639789766142">C10 (ຊອງຈົດໝາຍ)</translation>
 <translation id="2625385379895617796">ໂມງ​ຂອ​ງ​ທ່ານ​ໄວ</translation>
 <translation id="262745152991669301">ສາມາດຂໍເຊື່ອມຕໍ່ຫາອຸປະກອນ USB ໄດ້</translation>
-<translation id="2629325967560697240">ເພື່ອຮັບຄວາມປອດໄພລະດັບສູງສຸດຂອງ Chrome, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />ກະລຸນາເປີດການປົກປ້ອງທີ່ປັບປຸງດີຂຶ້ນແລ້ວ<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
+<translation id="2629325967560697240">ເພື່ອຮັບຄວາມປອດໄພລະດັບສູງສຸດຂອງ Mises, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />ກະລຸນາເປີດການປົກປ້ອງທີ່ປັບປຸງດີຂຶ້ນແລ້ວ<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
 <translation id="2634124572758952069">ບໍ່ສາມາດຊອກເຫັນທີ່ຢູ່ IP ເຊີບເວີຂອງ <ph name="HOST_NAME" />.</translation>
 <translation id="2639739919103226564">ສະ​ຖາ​ນະ​</translation>
 <translation id="264810637653812429">ບໍ່ພົບອຸປະກອນທີ່ເຂົ້າກັນໄດ້.</translation>
 <translation id="2649204054376361687"><ph name="CITY" />, <ph name="COUNTRY" /></translation>
-<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນກົດ Enter ເພື່ອລຶບປະຫວັດການທ່ອງເວັບຂອງທ່ານ, ຄຸກກີ້, ແຄສ ແລະ ອື່ນໆອີກໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນກົດ Enter ເພື່ອລຶບປະຫວັດການທ່ອງເວັບຂອງທ່ານ, ຄຸກກີ້, ແຄສ ແລະ ອື່ນໆອີກໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="2650446666397867134">ການ​ເຂົ້າ​ຫາໄຟລ​໌​ຖືກ​ປະ​ຕິ​ເສດ</translation>
 <translation id="2653659639078652383">ສົ່ງ</translation>
-<translation id="2659491813326907275">ປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome OS ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
+<translation id="2659491813326907275">ປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃນການຕັ້ງຄ່າ Mises OS ໃຫ້ເປັນແບບສ່ວນຕົວ</translation>
 <translation id="2660779039299703961">ເຫດ​ການ</translation>
 <translation id="2664887757054927933">{COUNT,plural, =0{ບໍ່ມີ}=1{1 ລະຫັດຜ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />)}=2{2 ລະຫັດຜ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />)}other{# ລະຫັດຜ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="2666092431469916601">ດ້ານເທິງ</translation>
@@ -554,13 +554,13 @@
 <translation id="2705137772291741111">ສຳເນົາທີ່ບັນທຶກໄວ້ຂອງເວັບໄຊນີ້ບໍ່ສາມາດອ່ານໄດ້.</translation>
 <translation id="2709516037105925701">ຕື່ມອັດຕະໂນມັດ</translation>
 <translation id="2713444072780614174">ສີ​ຂາວ</translation>
-<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການຈ່າຍເງິນ ແລະ ຂໍ້ມູນບັດເຄຣດິດຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການຈ່າຍເງິນ ແລະ ຂໍ້ມູນບັດເຄຣດິດຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="2721148159707890343">ການ​ຮ້ອງ​ຂໍ​ສໍາ​ເລັດ</translation>
-<translation id="2723669454293168317">ເປີດໃຊ້ການກວດສອບຄວາມປອດໄພໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2723669454293168317">ເປີດໃຊ້ການກວດສອບຄວາມປອດໄພໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="2726001110728089263">ຖາດຂ້າງ</translation>
 <translation id="2728127805433021124">ໃບຢັ້ງຢືນຂອງເຊີບເວີໄດ້ຮັບການລົງລາຍເຊັນດ້ວຍການໃຊ້ຂັ້ນຕອນການລົງລາຍເຊັນອ່ອນແອ</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />ກຳລັງເປີດໃຊ້ Connectivity Diagnostics<ph name="END_LINK" /></translation>
-<translation id="2737403869486738563">ສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານເພື່ອເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Chrome ຂອງທ່ານ</translation>
+<translation id="2737403869486738563">ສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານເພື່ອເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Mises ຂອງທ່ານ</translation>
 <translation id="2738330467931008676">ເລືອກທີ່ຢູ່ບ່ອນຮັບເຄື່ອງ</translation>
 <translation id="2740531572673183784">ຕົກລົງ</translation>
 <translation id="2742870351467570537">ເອົາ​ລາ​​ຍ​ການ​ທີ່​ເລືອກອອກ</translation>
@@ -573,7 +573,7 @@
 <translation id="2792012897584536778">ຜູ້ເບິ່ງແຍງລະບົບຂອງອຸປະກອນນີ້ໄດ້ຕັ້ງຄ່າໃບຮັບຮອງຄວາມປອດໄພທີ່ອາດຈະອະນຸຍາດໃຫ້ເຂົາເຈົ້າເຫັນເນື້ອຫາເວັບໄຊທີ່ທ່ານເຂົ້າເບິ່ງ.</translation>
 <translation id="2799020568854403057">ເວັບໄຊທີ່ຈະເຂົ້າປະກອບມີແອັບອັນຕະລາຍ</translation>
 <translation id="2799223571221894425">ເລີ່ມເປີດໃຊ້ໃໝ່</translation>
-<translation id="2799846101868535739">ປຸ່ມສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານ, ກົດ Enter ເພື່ອສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Chrome ຂອງທ່ານ</translation>
+<translation id="2799846101868535739">ປຸ່ມສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານ, ກົດ Enter ເພື່ອສືບຕໍ່ການຄົ້ນຄວ້າຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Mises ຂອງທ່ານ</translation>
 <translation id="2803306138276472711">ເມື່ອບໍ່ດົນມານີ້ Google Safe Browsing <ph name="BEGIN_LINK" />ໄດ້ກວດພົບມາລແວ<ph name="END_LINK" /> ຢູ່ເທິງ <ph name="SITE" />. ເວັບໄຊທ໌ທີ່ປົກກະຕິມີຄວາມປອດໄພບາງຄັ້ງຈະຕິດມາລແວ.</translation>
 <translation id="2807052079800581569">ຕຳແໜ່ງຮູບພາບຕາມແກນ Y</translation>
 <translation id="2820957248982571256">ກຳລັງສະແກນ…</translation>
@@ -587,7 +587,7 @@
 <translation id="2859806420264540918">ເວັບໄຊນີ້ສະແດງໂຄສະນາທີ່ລົບກວນ ຫຼື ຫຼອກລວງ.</translation>
 <translation id="287596039013813457">ເປັນມິດ</translation>
 <translation id="2876489322757410363">ກຳລັງອອກຈາກໂໝດບໍ່ເປີດເຜີຍຕົວຕົນເພື່ອຈ່າຍຜ່ານແອັບພລິເຄຊັນພາຍນອກ ສືບຕໍ່ບໍ?</translation>
-<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການ Safe Browsing ຂອງທ່ານ ແລະ ອື່ນໆໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການ Safe Browsing ຂອງທ່ານ ແລະ ອື່ນໆໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="2878197950673342043">ພັບແບບໂປສເຕີ</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">ຕຳແໜ່ງໜ້າຈໍ</translation>
@@ -599,7 +599,7 @@
 <translation id="290376772003165898">ໜ້າບໍ່ຢູ່ໃນ <ph name="LANGUAGE" /> ບໍ?</translation>
 <translation id="2909946352844186028">ກວດພົບການ​ປ່ຽນ​ແປງ​ເຄືອ​ຂ່າຍ​ແລ້ວ.</translation>
 <translation id="2911973620368911614">ID ຜູ້ໃຊ້ບັນຊີວຽກ</translation>
-<translation id="2914160345369867329">ປົກກະຕິ <ph name="SITE" /> ໃຊ້ການເຂົ້າລະຫັດເພື່ອປົກປ້ອງຂໍ້ມູນຂອງທ່ານ. ເມື່ອ Chrome ພະຍາຍາມເຊື່ອມຕໍ່ຫາ <ph name="SITE" /> ເວລານີ້, ເວັບໄຊສົ່ງຂໍ້ມູນການເຂົ້າສູ່ລະບົບທີ່ຜິດປົກກະຕິ ແລະ ບໍ່ຖືກຕ້ອງກັບມາ. ​ນີ້​ອາດ​ຈະເກີດ​ຂຶ້ນ​ເມື່ອຜູ້ໂຈມຕີພະຍາຍາມປອມຕົວເປັນ <ph name="SITE" /> ຫຼື ໜ້າຈໍເຂົ້າສູ່ລະບົບ Wi-Fi ຂັດຂວາງການເຊື່ອມຕໍ່. ຂໍ້ມູນຂອງທ່ານຍັງຄົງປອດໄພຢູ່ເນື່ອງຈາກ Chrome ຢຸດການເຊື່ອມຕໍ່ກ່ອນທີ່ຈະມີການແລກປ່ຽນຂໍ້ມູນໃດໆເກີດຂຶ້ນ.</translation>
+<translation id="2914160345369867329">ປົກກະຕິ <ph name="SITE" /> ໃຊ້ການເຂົ້າລະຫັດເພື່ອປົກປ້ອງຂໍ້ມູນຂອງທ່ານ. ເມື່ອ Mises ພະຍາຍາມເຊື່ອມຕໍ່ຫາ <ph name="SITE" /> ເວລານີ້, ເວັບໄຊສົ່ງຂໍ້ມູນການເຂົ້າສູ່ລະບົບທີ່ຜິດປົກກະຕິ ແລະ ບໍ່ຖືກຕ້ອງກັບມາ. ​ນີ້​ອາດ​ຈະເກີດ​ຂຶ້ນ​ເມື່ອຜູ້ໂຈມຕີພະຍາຍາມປອມຕົວເປັນ <ph name="SITE" /> ຫຼື ໜ້າຈໍເຂົ້າສູ່ລະບົບ Wi-Fi ຂັດຂວາງການເຊື່ອມຕໍ່. ຂໍ້ມູນຂອງທ່ານຍັງຄົງປອດໄພຢູ່ເນື່ອງຈາກ Mises ຢຸດການເຊື່ອມຕໍ່ກ່ອນທີ່ຈະມີການແລກປ່ຽນຂໍ້ມູນໃດໆເກີດຂຶ້ນ.</translation>
 <translation id="2915068235268646559">ການຂັດຂ້ອງເມື່ອ <ph name="CRASH_TIME" /></translation>
 <translation id="2916038427272391327">ປິດໂປຣແກຣມອື່ນ</translation>
 <translation id="2922350208395188000">ບໍ່ສາມາດກວດກາໃບຢັ້ງຢືນຂອງເຊີບເວີໄດ້.</translation>
@@ -612,14 +612,14 @@
 <translation id="2941952326391522266">ເຊີບເວີນີ້ບໍ່ສາມາດພິສູດໄດ້ວ່າ ມັນແມ່ນ <ph name="DOMAIN" />; ໃບຢັ້ງຢືນຄວາມປອດໄພຂອງມັນມາຈາກ <ph name="DOMAIN2" />. ອັນນີ້ອາດຈະເຮັດໃຫ້ເກີດມີການປັບຕັ້ງຄ່າຜິດ ຫຼືຜູ້ໂຈມຕີອາດຈະດັກເອົາການເຊື່ອມຕໍ່ຂອງທ່ານ.</translation>
 <translation id="2943895734390379394">ເວລາອັບໂຫຼດ:</translation>
 <translation id="2948083400971632585">ທ່ານສາມາດປິດໃຊ້ງານພຣັອກຊີໃດໜຶ່ງທີ່ໄດ້ປັບຕັ້ງຄ່າສໍາລັບການເຊື່ອມຕໍ່ຈາກໜ້າການຕັ້ງຄ່າ.</translation>
-<translation id="2949183777371959169">ບໍ່ສົນໃຈແລ້ວເນື່ອງຈາກເຄື່ອງບໍ່ໄດ້ລົງທະບຽນກັບ Chrome Browser Cloud Management.</translation>
+<translation id="2949183777371959169">ບໍ່ສົນໃຈແລ້ວເນື່ອງຈາກເຄື່ອງບໍ່ໄດ້ລົງທະບຽນກັບ Mises Browser Cloud Management.</translation>
 <translation id="2951588413176968965">ກ່ອງເມວຂອງຂ້ອຍ</translation>
 <translation id="2952820037279740115">ປິດໜ້າ​ຈໍ​ທີ່ບໍ່ເປີດເຜີຍຕົວຕົນທັງໝົດ</translation>
 <translation id="295526156371527179">ຄຳເຕືອນ: ນະໂຍບາຍນີ້ບໍ່ຖືກຮວມເຂົ້າກັນເປັນພົດຈະນານຸກົມຕາມທີ່ລະບຸໄວ້ໂດຍນະໂຍບາຍ ເພາະວ່າມັນບໍ່ແມ່ນພົດຈະນານຸກົມ.</translation>
 <translation id="2955913368246107853">ປິດຊອກຫາແຖບ</translation>
 <translation id="2972581237482394796">ເຮັດຄືນ</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, ເລືອກແລ້ວໃນປັດຈຸບັນ. <ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">ຖ້າເປີດໃຊ້, Chromium ຈະບັນທຶກຂໍ້ມູນສຳເນົາບັດຂອງທ່ານໄວ້ໃນອຸປະກອນນີ້ເພື່ອໃຫ້ສາມາດຕື່ມຂໍ້ມູນແບບຟອມໄດ້ໄວຂຶ້ນ.</translation>
+<translation id="2985306909656435243">ຖ້າເປີດໃຊ້, Mises ຈະບັນທຶກຂໍ້ມູນສຳເນົາບັດຂອງທ່ານໄວ້ໃນອຸປະກອນນີ້ເພື່ອໃຫ້ສາມາດຕື່ມຂໍ້ມູນແບບຟອມໄດ້ໄວຂຶ້ນ.</translation>
 <translation id="2985398929374701810">ປ້ອນທີ່ຢູ່ທີ່ຖືກຕ້ອງ</translation>
 <translation id="2986368408720340940">ວິທີການຮັບເຄື່ອງນີ້ບໍ່ສາມາດໃຊ້ໄດ້. ລອງວິທີອື່ນ.</translation>
 <translation id="2987034854559945715">ບໍ່ມີຄຸນສົມບັດທີ່ກົງກັນ</translation>
@@ -678,7 +678,7 @@
 <translation id="3194737229810486521"><ph name="URL" /> ຕ້ອງການເກັບຂໍ້ມູນໄວ້ໃນອຸປະກອນຂອງທ່ານຢ່າງຖາວອນ</translation>
 <translation id="3195213714973468956"><ph name="PRINTER_NAME" /> ໃນ <ph name="SERVER_NAME" /></translation>
 <translation id="3197136577151645743">ສາມາດຂໍຂໍ້ມູນວ່າທ່ານກຳລັງໃຊ້ອຸປະກອນນີ້ຢ່າງຕໍ່ເນື່ອງຕອນໃດ</translation>
-<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການວ່າຂໍ້ມູນໃດທີ່ທ່ານຈະຊິ້ງຂໍ້ມູນໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການວ່າຂໍ້ມູນໃດທີ່ທ່ານຈະຊິ້ງຂໍ້ມູນໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="320323717674993345">ຍົກເລີກການຈ່າຍເງິນ</translation>
 <translation id="3207960819495026254">ໃສ່ບຸກ​ມາກ​໌​ແລ້ວ</translation>
 <translation id="3209034400446768650">ໜ້າອາດຈະຮຽກເກັບເງິນ</translation>
@@ -700,7 +700,7 @@
 <translation id="3252266817569339921">ພາສາຝຣັ່ງ</translation>
 <translation id="3257954757204451555">ໃຜຢູ່ເບື້ອງຫຼັງຂໍ້ມູນນີ້?</translation>
 <translation id="3259648571731540213"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອສ້າງນັດໝາຍໃໝ່ໃນ Google ປະຕິທິນໄດ້ຢ່າງວ່ອງໄວ</translation>
-<translation id="3264837738038045344">ປຸ່ມຈັດການການຕັ້ງຄ່າ Chrome, ກົດ Enter ເພື່ອເຂົ້າການຕັ້ງຄ່າ Chrome ຂອງທ່ານ</translation>
+<translation id="3264837738038045344">ປຸ່ມຈັດການການຕັ້ງຄ່າ Mises, ກົດ Enter ເພື່ອເຂົ້າການຕັ້ງຄ່າ Mises ຂອງທ່ານ</translation>
 <translation id="3266793032086590337">ຄ່າ (ຂັດແຍ່ງ)</translation>
 <translation id="3268451620468152448">ເປີດ​ແຖບ</translation>
 <translation id="3270847123878663523">ປ່ຽນ​ກັບ​ຄືນຄໍາສັ່ງຈັດລໍາດັບຄືນ</translation>
@@ -712,7 +712,7 @@
 <translation id="3287510313208355388">ດາວໂຫຼດເມື່ອອອນລາຍ</translation>
 <translation id="3288238092761586174"><ph name="URL" /> ອາດຕ້ອງເຮັດຂັ້ນຕອນເພີ່ມເຕີມເພື່ອຢັ້ງຢືນການຈ່າຍເງິນຂອງທ່ານ</translation>
 <translation id="3293642807462928945">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບນະໂຍບາຍ <ph name="POLICY_NAME" /></translation>
-<translation id="3295444047715739395">ເບິ່ງ ແລະ ຈັດການລະຫັດຜ່ານຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="3295444047715739395">ເບິ່ງ ແລະ ຈັດການລະຫັດຜ່ານຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="3303855915957856445">ບໍ່ພົບຜົນການຊອກຫາໃດໆ</translation>
 <translation id="3304073249511302126">ການສະແກນ Bluetooth</translation>
 <translation id="3308006649705061278">ໜ່ວຍງານການຈັດຕັ້ງ (OU)</translation>
@@ -726,7 +726,7 @@
 <translation id="3345782426586609320">​ຕາ</translation>
 <translation id="3355823806454867987">ປ່ຽນການຕັ້ງຄ່າພຣັອກຊີ...</translation>
 <translation id="3360103848165129075">ແຜ່ນວຽກຂອງເຄື່ອງຈັດການການຊຳລະເງິນ</translation>
-<translation id="3361596688432910856">Chrome <ph name="BEGIN_EMPHASIS" />ຈະບໍ່ບັນທຶກ<ph name="END_EMPHASIS" /> ຂໍ້ມູນຕໍ່ໄປນີ້:
+<translation id="3361596688432910856">Mises <ph name="BEGIN_EMPHASIS" />ຈະບໍ່ບັນທຶກ<ph name="END_EMPHASIS" /> ຂໍ້ມູນຕໍ່ໄປນີ້:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />ປະຫວັດການທ່ອງເວັບຂອງທ່ານ
           <ph name="LIST_ITEM" />ຄຸກກີ້ ແລະ ຂໍ້ມູນເວັບໄຊ
@@ -740,7 +740,7 @@
       • ສ້າງແຜນທີ່ 3D ຂອງສິ່ງອ້ອມຂ້າງທ່ານ ແລະ ຕິດຕາມຕຳແໜ່ງກ້ອງ
       • ໃຊ້ກ້ອງຂອງທ່ານ</translation>
 <translation id="337363190475750230">ຖອນການຈັດໃຫ້ແລ້ວ</translation>
-<translation id="3375754925484257129">ເປີດໃຊ້ການກວດສອບຄວາມປອດໄພ Chrome</translation>
+<translation id="3375754925484257129">ເປີດໃຊ້ການກວດສອບຄວາມປອດໄພ Mises</translation>
 <translation id="3377144306166885718">ເຊີບເວີໃຊ້ TLS ເວີຊັນເກົ່າ.</translation>
 <translation id="3377188786107721145">ຄວາມ​ຜິດ​ພາດກະຈາຍນະ​ໂຍ​ບາຍ</translation>
 <translation id="3377736046129930310">ໃຊ້ລັອກໜ້າຈໍເພື່ອຢືນຢັນບັດໄດ້ໄວຂຶ້ນ</translation>
@@ -763,7 +763,7 @@
 <translation id="3423742043356668186">ລະບຸລະບົບແລ້ວ</translation>
 <translation id="3427092606871434483">ອະນຸຍາດ (ຄ່າເລີ່ມຕົ້ນ)</translation>
 <translation id="3427342743765426898">ເຮັດຄືນຄໍາສັ່ງແກ້ໄຂ</translation>
-<translation id="342781501876943858">Chromium ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
+<translation id="342781501876943858">Mises ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
 <translation id="3428151540071562330">ໜຶ່ງ ຫຼື ຫຼາຍ URI ຂອງແມ່ແບບເຊີບເວີ DnsOverHttpsTemplates ບໍ່ຖືກຕ້ອງ ແລະ ຈະບໍ່ຖືກນຳໃຊ້.</translation>
 <translation id="3431636764301398940">ບັນທຶກບັດນີ້ໃສ່ອຸປະກອນນີ້</translation>
 <translation id="3432601291244612633">ປິດໜ້າ</translation>
@@ -784,14 +784,14 @@
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" />, ເປີດຢູ່ໃນຂະນະນີ້, ກະລຸນາກົດແຖບ ແລ້ວກົດ Enter ເພື່ອປ່ຽນເປັນແຖບທີ່ເປີດຢູ່</translation>
 <translation id="3470563864795286535"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອປິດໜ້າ​ຈໍ​ທີ່ບໍ່ເປີດເຜີຍຕົວຕົນທັງໝົດທີ່ກຳລັງເປີດຢູ່ຕອນນີ້</translation>
 <translation id="3479552764303398839">ບໍ່ແມ່ນດຽວນີ້</translation>
-<translation id="3484560055331845446">ທ່ານສາມາດສູນເສຍສິດເຂົ້າເຖິງບັນຊີ Google ຂອງທ່ານໄດ້. Chrome ແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຕອນນີ້ເລີຍ. ທ່ານຈະຖືກຮ້ອງຂໍໃຫ້ເຂົ້າສູ່ລະບົບ.</translation>
+<translation id="3484560055331845446">ທ່ານສາມາດສູນເສຍສິດເຂົ້າເຖິງບັນຊີ Google ຂອງທ່ານໄດ້. Mises ແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຕອນນີ້ເລີຍ. ທ່ານຈະຖືກຮ້ອງຂໍໃຫ້ເຂົ້າສູ່ລະບົບ.</translation>
 <translation id="3487845404393360112">ຖາດ 4</translation>
 <translation id="3495081129428749620">ຊອກຫາໃນໜ້າ
     <ph name="PAGE_TITLE" /></translation>
 <translation id="350069200438440499">ຊື່ໄຟລ໌:</translation>
 <translation id="3507936815618196901">ສ້າງແຜນທີ່ 3 ມິຕິຂອງສິ່ງທີ່ຢູ່ອ້ອມຂ້າງຕົວທ່ານ ຫຼື ຕິດຕາມຕຳແໜ່ງກ້ອງ</translation>
 <translation id="3512163584740124171">ລະບົບລະເລີຍນະໂຍບາຍນີ້ເພາະວ່ານະໂຍບາຍອື່ນຈາກກຸ່ມນະໂຍບາຍດຽວກັນມີບຸລິມະສິດສູງກວ່າ.</translation>
-<translation id="35172538073169599">ຈັດການປຸ່ມທີ່ຢູ່, ກົດ Enter ເພື່ອເພີ່ມ ແລະ ຈັດການທີ່ຢູ່ໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="35172538073169599">ຈັດການປຸ່ມທີ່ຢູ່, ກົດ Enter ເພື່ອເພີ່ມ ແລະ ຈັດການທີ່ຢູ່ໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="3518941727116570328">ການຈັດການວັດຖຸຫຼາຍລາຍການ</translation>
 <translation id="3528171143076753409">ໃບຢັ້ງຢືນຂອງເຊີບເວີບໍ່ເຊື່ອຖືໄດ້.</translation>
 <translation id="3528485271872257980">ສີ​ນ້ຳ​ຕານ​ເຂັ້ມ</translation>
@@ -806,7 +806,7 @@
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" /> <ph name="COUNTRY" /></translation>
 <translation id="3575121482199441727">ອະນຸຍາດສຳລັບເວັບໄຊນີ້</translation>
 <translation id="3576616784287504635">ໜ້າຝັງຕິດຢູ່ທີ່ <ph name="SITE" /> ບອກວ່າ</translation>
-<translation id="3581089476000296252">Chrome ຈະແຈ້ງໃຫ້ທ່ານຮູ້ເມື່ອໜ້ານີ້ພ້ອມແລ້ວ. &lt;a&gt;ຍົກເລີກ&lt;/a&gt;</translation>
+<translation id="3581089476000296252">Mises ຈະແຈ້ງໃຫ້ທ່ານຮູ້ເມື່ອໜ້ານີ້ພ້ອມແລ້ວ. &lt;a&gt;ຍົກເລີກ&lt;/a&gt;</translation>
 <translation id="3582930987043644930">ເພີ່ມ​ຊື່</translation>
 <translation id="3583757800736429874">ເຮັດຄືນຄໍາສັ່ງຍ້າຍ</translation>
 <translation id="3584299510153766161">ເຈາະຮູຢູ່ລຸ່ມສຸດສອງຮູ</translation>
@@ -821,7 +821,7 @@
 <translation id="3611395257124510155">ບັດສະເໝືອນສຳລັບ <ph name="CARD_IDENTIFIER" /></translation>
 <translation id="3614103345592970299">ຂະໜາດ 2</translation>
 <translation id="361438452008624280">ລະບຸລາຍການ "<ph name="LANGUAGE_ID" />": ພາສາທີ່ບໍ່ຮູ້ຈັກ ຫຼື ບໍ່ຮອງຮັບ.</translation>
-<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພືີ່ອເປີດໃຊ້ການກວດສອບຄວາມປອດໄພໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພືີ່ອເປີດໃຊ້ການກວດສອບຄວາມປອດໄພໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="3615877443314183785">ປ້ອນວັນທີໝົດອາຍຸທີ່ຖືກຕ້ອງ</translation>
 <translation id="36224234498066874">ລຶບລ້າງຂໍ້ມູນການທ່ອງເວັບ...</translation>
 <translation id="362276910939193118">ສະ​ແດງ​ປະຫວັດທັງໝົດ</translation>
@@ -831,9 +831,9 @@
 <translation id="3631244953324577188">ຂໍ້ມູນຊີວະມິຕິ</translation>
 <translation id="3632503704576938756">ສືບຕໍ່ການແບ່ງປັນໜ້າຈໍແລ້ວ</translation>
 <translation id="3632892046558972264">ຢຸດການແບ່ງປັນໜ້າຈໍຊົ່ວຄາວແລ້ວ</translation>
-<translation id="3633738897356909127">ປຸ່ມອັບເດດ Chrome, ກົດ Enter ເພື່ອອັບເດດ Chrome ຈາກການຕັ້ງຄ່າ Chrome ຂອງທ່ານ</translation>
+<translation id="3633738897356909127">ປຸ່ມອັບເດດ Mises, ກົດ Enter ເພື່ອອັບເດດ Mises ຈາກການຕັ້ງຄ່າ Mises ຂອງທ່ານ</translation>
 <translation id="3634530185120165534">ຖາດ 5</translation>
-<translation id="3634567936866541746">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, Chrome ແນະນຳໃຫ້ກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
+<translation id="3634567936866541746">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, Mises ແນະນຳໃຫ້ກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
 <translation id="3637662659967048211">ບັນທຶກໄປໃສ່ບັນຊີ Google</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">ແອັບພລິເຄຊັນ:</translation>
@@ -866,7 +866,7 @@
 <translation id="3736520371357197498">ຖ້າທ່ານເຂົ້າໃຈຄວາມສ່ຽງຕໍ່ຄວາມປອດໄພຂອງທ່ານ, ທ່ານອາດຈະ <ph name="BEGIN_LINK" />ເຂົ້າເບິ່ງເວັບໄຊທ໌ທີ່ບໍ່ປອດໄພນີ້<ph name="END_LINK" /> ກ່ອນໂປຣແກຼມທີ່ເປັນອັນຕະລາຍຈະຖືກເອົາອອກໄປ.</translation>
 <translation id="3738166223076830879">ໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຖືກຈັດການໂດຍຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ.</translation>
 <translation id="3744111561329211289">ການຊິ້ງຂໍ້ມູນໃນພື້ນຫຼັງ</translation>
-<translation id="3744899669254331632">ທ່ານ​ບໍ່​ສາ​ມາດ​ເຂົ້າ​ເບິ່ງ <ph name="SITE" /> ໄດ້​ດຽວ​ນີ້ ເພາະ​ວ່າ​ເວັບ​ໄຊ​ທ໌​ສົ່ງ​​ໃບຢັ້ງ​ຢືນທີ່​ຖືກ​ລົບ​ກວນ​ທີ່ Chromium ບໍ່​ສາ​ມາດ​ດຳ​ເນີນ​ການ​ໄດ້​ແລ້ວ. ປົກ​ກະ​ຕິນັ້ນ ຄວາມ​ຜິດ​ພາດ ແລະ​ການ​ໂຈມ​ຕີ​ເຄືອ​ຂ່າຍ​ຈະ​ມີ​ຊົ່ວ​ຄາວ, ດັ່ງ​ນັ້ນ ໜ້າ​ນີ້​ອາດ​ຈະ​ເຮັດ​ວຽກ​ໄດ້​ພາຍ​ຫຼັງ.</translation>
+<translation id="3744899669254331632">ທ່ານ​ບໍ່​ສາ​ມາດ​ເຂົ້າ​ເບິ່ງ <ph name="SITE" /> ໄດ້​ດຽວ​ນີ້ ເພາະ​ວ່າ​ເວັບ​ໄຊ​ທ໌​ສົ່ງ​​ໃບຢັ້ງ​ຢືນທີ່​ຖືກ​ລົບ​ກວນ​ທີ່ Mises ບໍ່​ສາ​ມາດ​ດຳ​ເນີນ​ການ​ໄດ້​ແລ້ວ. ປົກ​ກະ​ຕິນັ້ນ ຄວາມ​ຜິດ​ພາດ ແລະ​ການ​ໂຈມ​ຕີ​ເຄືອ​ຂ່າຍ​ຈະ​ມີ​ຊົ່ວ​ຄາວ, ດັ່ງ​ນັ້ນ ໜ້າ​ນີ້​ອາດ​ຈະ​ເຮັດ​ວຽກ​ໄດ້​ພາຍ​ຫຼັງ.</translation>
 <translation id="3745099705178523657">ຫຼັງຈາກທີ່ທ່ານຢືນຢັນ, ລະບົບຈະແບ່ງປັນລາຍລະອຽດບັດຈາກບັນຊີ Google ຂອງທ່ານກັບເວັບໄຊນີ້.</translation>
 <translation id="3748148204939282805">ຜູ້ໂຈມຕີໃນ <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> ອາດຈະຫຼອກໃຫ້ທ່ານເຮັດບາງຢ່າງທີ່ອັນຕະລາຍ ເຊັ່ນວ່າ ຕິດຕັ້ງຊອບແວ ຫຼື ເປີດເຜີຍຂໍ້ມູນສ່ວນຕົວຂອງທ່ານ (ຕົວຢ່າງ: ລະຫັດຜ່ານ, ເບີໂທລະສັບ ຫຼື ບັດເຄຣດິດ). <ph name="BEGIN_LEARN_MORE_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3754210790023674521">ອອກຈາກໂໝດສະແດງຜົນຊ້ອນກັນ</translation>
@@ -960,7 +960,7 @@
 <translation id="4089152113577680600">ຖາດ 14</translation>
 <translation id="4098354747657067197">ເວັບ​ໄຊ​ທ໌​ຫຼອກ​ລວງ​ຢູ່​ຂ້າງ​ໜ້າ</translation>
 <translation id="4099048595830172239">ນະໂຍບາຍຜູ້ເບິ່ງແຍງລະບົບບໍ່ແນະນຳໃຫ້ແບ່ງປັນໜ້າຈໍຂອງທ່ານກັບ <ph name="APPLICATION_TITLE" /> ເມື່ອປາກົດມີເນື້ອຫາທີ່ເປັນຄວາມລັບ:</translation>
-<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອປັບແຕ່ງຂະໜາດຟອນ ແລະ ແບບອັກສອນໃນ Chrome</translation>
+<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອປັບແຕ່ງຂະໜາດຟອນ ແລະ ແບບອັກສອນໃນ Mises</translation>
 <translation id="4101413244023615925">ຂໍ້ຄວາມ ແລະ ກຣາຟິກ</translation>
 <translation id="4103249731201008433">ເລກລໍາດັບອຸປະກອນໃຊ້ບໍ່ໄດ້</translation>
 <translation id="4106133539597032659">ປຸ່ມສ້າງເວັບໄຊ, ກົດ Enter ເພື່ອສ້າງເວັບໄຊໃໝ່ໃນ Google Sites ໄດ້ຢ່າງວ່ອງໄວ</translation>
@@ -972,7 +972,7 @@
 <translation id="4117700440116928470">ຂອບເຂດນະໂຍບາຍບໍ່ຖືກຮອງຮັບ.</translation>
 <translation id="4121428309786185360">ໝົດອາຍຸ</translation>
 <translation id="4123572138124678573">ເຈາະຮູຢູ່ລຸ່ມສຸດສາມຮູ</translation>
-<translation id="4127575959421463246">ກຳລັງຊອກຫາປັກທຸງ ChromeOS ບໍ? ເຂົ້າເບິ່ງ</translation>
+<translation id="4127575959421463246">ກຳລັງຊອກຫາປັກທຸງ MisesOS ບໍ? ເຂົ້າເບິ່ງ</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{1 ລາຍການອື່ນ}other{# ລາຍການອື່ນ}}</translation>
 <translation id="4130226655945681476">ກຳລັງກວດເບິ່ງສາຍເຊື່ອມຕໍ່ເຄືອຂ່າຍ, ໂມເດັມ ແລະ ເຣົາເຕີ</translation>
 <translation id="4134123981501319574">ສ້າງເອກະສານ</translation>
@@ -1015,11 +1015,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;ຂັ້ນຕອນ 2: ເປີດໜ້າດັ່ງດ່າວໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ (ຄອມພິວເຕີເທົ່ານັ້ນ)&lt;/h4&gt;
     &lt;p&gt;ເປີດໜ້າທີ່ທ່ານເຄີຍເຂົ້າເບິ່ງໃນໜ້າຈໍທີ່ບໍ່ເປີດເຜີຍຕົວຕົນ.&lt;/p&gt;
-    &lt;p&gt;ຖ້າໜ້ານັ້ນເປີດຂຶ້ນມາ, ສ່ວນຂະຫຍາຍ Chrome ກຳລັງໃຊ້ບໍ່ໄດ້ຢ່າງຖືກຕ້ອງ. ເພື່ອແກ້ໄຂຂໍ້ຜິດພາດ, ກະລຸນາປິດສ່ວນຂະຫຍາຍນັ້ນ.&lt;/p&gt;
+    &lt;p&gt;ຖ້າໜ້ານັ້ນເປີດຂຶ້ນມາ, ສ່ວນຂະຫຍາຍ Mises ກຳລັງໃຊ້ບໍ່ໄດ້ຢ່າງຖືກຕ້ອງ. ເພື່ອແກ້ໄຂຂໍ້ຜິດພາດ, ກະລຸນາປິດສ່ວນຂະຫຍາຍນັ້ນ.&lt;/p&gt;
     &lt;h4&gt;ຂັ້ນຕອນ 3: ອັບເດດລະບົບປະຕິບັດການຂອງທ່ານ&lt;/h4&gt;
     &lt;p&gt;ກວດໃຫ້ແນ່ໃຈວ່າອຸປະກອນຂອງທ່ານໃໝ່ຫຼ້າສຸດແລ້ວ.&lt;/p&gt;
     &lt;h4&gt;ຂັ້ນຕອນ 4: ປິດໂປຣແກຣມປ້ອງກັນໄວຣັສຂອງທ່ານໄວ້ຊົ່ວຄາວ&lt;/h4&gt;
-    &lt;p&gt;ທ່ານຈະເຫັນຂໍ້ຜິດພາດນີ້ ຖ້າທ່ານມີຊອບແວປ້ອງກັນໄວຣັສທີ່ໃຫ້ "ການປົກປ້ອງ HTTPS" ຫຼື "ການສະແກນ HTTPS". ໂປຣແກຣມປ້ອງກັນໄວຣັສກຳລັງຂັດຂວາງ Chrome ຈາກການໃຫ້ຄວາມປອດໄພ.&lt;/p&gt;
+    &lt;p&gt;ທ່ານຈະເຫັນຂໍ້ຜິດພາດນີ້ ຖ້າທ່ານມີຊອບແວປ້ອງກັນໄວຣັສທີ່ໃຫ້ "ການປົກປ້ອງ HTTPS" ຫຼື "ການສະແກນ HTTPS". ໂປຣແກຣມປ້ອງກັນໄວຣັສກຳລັງຂັດຂວາງ Mises ຈາກການໃຫ້ຄວາມປອດໄພ.&lt;/p&gt;
     &lt;p&gt;ເພື່ອແກ້ໄຂບັນຫາ, ກະລຸນາປິດຊອບແວປ້ອງກັນໄວຣັສຂອງທ່ານ. ຖ້າໜ້ານັ້ນໃຊ້ໄດ້ຫຼັງຈາກປິດຊອບແວແລ້ວ, ກະລຸນາປິດຊອບແວນີ້ເມື່ອທ່ານໃຊ້ເວັບໄຊທີ່ປອດໄພ.&lt;/p&gt;
     &lt;p&gt;ຈື່ວ່າຕ້ອງເປີດໂປຣແກຣມປ້ອງກັນໄວຣັສຂອງທ່ານຄືນໃໝ່ເມື່ອທ່ານສຳເລັດແລ້ວ.&lt;/p&gt;
     &lt;h4&gt;ຂັ້ນຕອນ 5: ການຂໍຄວາມຊ່ວຍເຫຼືອເພີ່ມເຕີມ&lt;/h4&gt;
@@ -1060,8 +1060,8 @@
 <translation id="4329871760342656885">ຂໍ້ຜິດພາດໃນການແຍກວິເຄາະນະໂຍບາຍ: <ph name="ERROR" /></translation>
 <translation id="4331519897422864041">ສະແຕັກເກີ້ 5</translation>
 <translation id="4331708818696583467">ບໍ່ປອດໄພ</translation>
-<translation id="4340575312453649552">ໂຄສະນານີ້ໃຊ້ຊັບພະຍາກອນຫຼາຍເກີນໄປສຳລັບອຸປະກອນຂອງທ່ານ, ສະນັ້ນ Chrome ໄດ້ລຶບມັນອອກແລ້ວ.</translation>
-<translation id="4340982228985273705">ບໍ່ມີການກວດເຫັນວ່າຄອມພິວເຕີນີ້ເປັນຄອມພິວເຕີທີ່ຈັດການໂດຍອົງກອນ. ສະນັ້ນ, ນະໂຍບາຍສາມາດຕິດຕັ້ງໄດ້ແຕ່ສ່ວນຂະຫຍາຍທີ່ມີໂຮສໃນ Chrome Webstore ໂດຍອັດຕະໂນມັດເທົ່ານັ້ນ. URL ການອັບເດດ Chrome Webstore ແມ່ນ "<ph name="CWS_UPDATE_URL" />".</translation>
+<translation id="4340575312453649552">ໂຄສະນານີ້ໃຊ້ຊັບພະຍາກອນຫຼາຍເກີນໄປສຳລັບອຸປະກອນຂອງທ່ານ, ສະນັ້ນ Mises ໄດ້ລຶບມັນອອກແລ້ວ.</translation>
+<translation id="4340982228985273705">ບໍ່ມີການກວດເຫັນວ່າຄອມພິວເຕີນີ້ເປັນຄອມພິວເຕີທີ່ຈັດການໂດຍອົງກອນ. ສະນັ້ນ, ນະໂຍບາຍສາມາດຕິດຕັ້ງໄດ້ແຕ່ສ່ວນຂະຫຍາຍທີ່ມີໂຮສໃນ Mises Webstore ໂດຍອັດຕະໂນມັດເທົ່ານັ້ນ. URL ການອັບເດດ Mises Webstore ແມ່ນ "<ph name="CWS_UPDATE_URL" />".</translation>
 <translation id="4346197816712207223">ບັດເຄຣດິດທີ່ຍອມຮັບ</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">ການເຊື່ອມຕໍ່ຫາ <ph name="SITE" /> ນັ້ນບໍ່ປອດໄພ</translation>
@@ -1072,7 +1072,7 @@
 <translation id="4356973930735388585">ຜູ້ໂຈມຕີຢູ່ໃນເວັບໄຊນີ້ອາດຈະພະຍາຍາມຕິດຕັ້ງໂປຣແກຣມອັນຕະລາຍຢູ່ໃນຄອມພິວເຕີຂອງທ່ານທີ່ລັກເອົາ ຫຼື ລຶບຂໍ້ມູນຂອງທ່ານຖິ້ມ (ຕົວຢ່າງ: ຮູບພາບ, ລະຫັດຜ່ານ, ຂໍ້ຄວາມ ແລະ ບັດເຄຣດິດ).</translation>
 <translation id="4358059973562876591">ແມ່ແບບທີ່ທ່ານລະບຸອາດຈະນຳໃຊ້ບໍ່ໄດ້ຍ້ອນມີຂໍ້ຜິດພາດກັບນະໂຍບາຍ DnsOverHttpsMode.</translation>
 <translation id="4358461427845829800">ຈັດການວິທີການຈ່າຍເງິນ...</translation>
-<translation id="4359160567981085931">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. Chrome ສາມາດຊ່ວຍໄດ້. ເພື່ອປ່ຽນລະຫັດຜ່ານຂອງທ່ານ ແລະ ແຈ້ງບອກ Google ວ່າບັນຊີຂອງທ່ານອາດຈະມີຄວາມສ່ຽງ, ກະລຸນາຄລິກປົກປ້ອງບັນຊີ.</translation>
+<translation id="4359160567981085931">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. Mises ສາມາດຊ່ວຍໄດ້. ເພື່ອປ່ຽນລະຫັດຜ່ານຂອງທ່ານ ແລະ ແຈ້ງບອກ Google ວ່າບັນຊີຂອງທ່ານອາດຈະມີຄວາມສ່ຽງ, ກະລຸນາຄລິກປົກປ້ອງບັນຊີ.</translation>
 <translation id="4367563149485757821">Number-12 (ຊອງຈົດໝາຍ)</translation>
 <translation id="437040971055499437">ມີເຫດການຄວາມປອດໄພເກີດຂຶ້ນ</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -1086,7 +1086,7 @@
 <translation id="4408413947728134509">ຄຸກກີ້ <ph name="NUM_COOKIES" /></translation>
 <translation id="4414515549596849729">ຄຸກກີ້ ແລະ ຂໍ້ມູນເວັບໄຊ</translation>
 <translation id="4415426530740016218">ທີ່ຢູ່ບ່ອນຮັບເຄື່ອງ</translation>
-<translation id="4424024547088906515">ເຊີບເວີນີ້ບໍ່ສາມາດພິສູດໄດ້ວ່າ ມັນແມ່ນ <ph name="DOMAIN" />; ໃບຢັ້ງຢືນຄວາມປອດໄພຂອງມັນບໍ່ໄດ້ຮັບການເຊື່ອໝັ້ນຈາກ Chrome. ອັນນີ້ອາດຈະເຮັດໃຫ້ເກີດມີການປັບຕັ້ງຄ່າຜິດ ຫຼືຜູ້ໂຈມຕີອາດຈະດັກເອົາການເຊື່ອມຕໍ່ຂອງທ່ານ.</translation>
+<translation id="4424024547088906515">ເຊີບເວີນີ້ບໍ່ສາມາດພິສູດໄດ້ວ່າ ມັນແມ່ນ <ph name="DOMAIN" />; ໃບຢັ້ງຢືນຄວາມປອດໄພຂອງມັນບໍ່ໄດ້ຮັບການເຊື່ອໝັ້ນຈາກ Mises. ອັນນີ້ອາດຈະເຮັດໃຫ້ເກີດມີການປັບຕັ້ງຄ່າຜິດ ຫຼືຜູ້ໂຈມຕີອາດຈະດັກເອົາການເຊື່ອມຕໍ່ຂອງທ່ານ.</translation>
 <translation id="443121186588148776">ຜອດອະນຸກຳ</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> ບໍ່ຍອມຮັບໃບຮັບຮອງການເຂົ້າສູ່ລະບົບຂອງທ່ານ ຫຼື ຍັງບໍ່ມີການໃຫ້ໃບຮັບຮອງເທື່ອ.</translation>
 <translation id="4432792777822557199">ໜ້າຕ່າງໆຢູ່ໃນ <ph name="SOURCE_LANGUAGE" /> ຈະຖືກແປເປັນ <ph name="TARGET_LANGUAGE" /> ຈາກນີ້ເປັນຕົ້ນໄປ</translation>
@@ -1106,7 +1106,7 @@
 <translation id="4482953324121162758">ລະບົບຈະບໍ່ແປເວັບໄຊນີ້.</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">ເຂົ້າລະຫັດລະຫັດຜ່ານທີ່ຊິ້ງຂໍ້ມູນໄວ້ດ້ວຍບັນຊີ Google ຂອງທ່ານ</translation>
-<translation id="4492519888999857993">ຄຸນສົມບັດນີ້ຖືກປິດນຳໃຊ້ຕາມຄ່າເລີ່ມຕົ້ນ. ພວກມັນຈະບໍ່ມີໃຫ້ນຳໃຊ້ໃນເວີຊັນອະນາຄົດຂອງ Chrome.</translation>
+<translation id="4492519888999857993">ຄຸນສົມບັດນີ້ຖືກປິດນຳໃຊ້ຕາມຄ່າເລີ່ມຕົ້ນ. ພວກມັນຈະບໍ່ມີໃຫ້ນຳໃຊ້ໃນເວີຊັນອະນາຄົດຂອງ Mises.</translation>
 <translation id="4493480324863638523">URL ໃຊ້ບໍ່ໄດ້. ຕ້ອງແມ່ນ URL ທີ່ມີຮູບແບບມາດຕະຖານ ເຊັ່ນ: http://example.com ຫຼື https://example.com.</translation>
 <translation id="4500587658229086076">ເນື້ອຫາທີ່ບໍ່ປອດໄພ</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1117,7 +1117,7 @@
 <translation id="4509074745930862522"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນກົດ Enter ເພື່ອແປໜ້ານີ້ດ້ວຍ Google ແປພາສາ</translation>
 <translation id="4510487217173779431">Chou4 (ຊອງຈົດໝາຍ)</translation>
 <translation id="4514308731478712184">ປິດບັນທຶກ</translation>
-<translation id="4515275063822566619">ບັດ ແລະ ທີ່ຢູ່ມາຈາກ Chrome ແລະ ບັນຊີ Google ຂອງທ່ານ (<ph name="ACCOUNT_EMAIL" />). ທ່ານສາມາດຈັດການພວກມັນໄດ້ໃນ <ph name="BEGIN_LINK" />ການຕັ້ງຄ່າ<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">ບັດ ແລະ ທີ່ຢູ່ມາຈາກ Mises ແລະ ບັນຊີ Google ຂອງທ່ານ (<ph name="ACCOUNT_EMAIL" />). ທ່ານສາມາດຈັດການພວກມັນໄດ້ໃນ <ph name="BEGIN_LINK" />ການຕັ້ງຄ່າ<ph name="END_LINK" />.</translation>
 <translation id="4517607026994743406">Comm-10 (ຊອງຈົດໝາຍ)</translation>
 <translation id="4521157617044179198"><ph name="WIDTH" /> × <ph name="HEIGHT" /> ມມ (<ph name="ORIENTATION" />)</translation>
 <translation id="4521916730539354575">ຖາດຊ້າຍ</translation>
@@ -1130,11 +1130,11 @@
 <translation id="455113658016510503">A9</translation>
 <translation id="4558551763791394412">ລອງປິດໃຊ້ສ່ວນຂະຫຍາຍຂອງທ່ານ.</translation>
 <translation id="4559332380232738994">10x11</translation>
-<translation id="4567686777917670400">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດປ່ຽນການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຈາກທາງໄກໄດ້. ການເຄື່ອນໄຫວຢູ່ອຸປະກອນນີ້ອາດຖືກຈັດການຢູ່ນອກ Chromium ໄດ້ເຊັ່ນກັນ. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດປ່ຽນການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຈາກທາງໄກໄດ້. ການເຄື່ອນໄຫວຢູ່ອຸປະກອນນີ້ອາດຖືກຈັດການຢູ່ນອກ Mises ໄດ້ເຊັ່ນກັນ. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
 <translation id="457875822857220463">ການຈັດສົ່ງ</translation>
 <translation id="4579056131138995126">Personal (ຊອງຈົດໝາຍ)</translation>
 <translation id="4582204425268416675">ລຶບບັດອອກ</translation>
-<translation id="4587425331216688090">ເອົາ​ທີ່​ຢູ່​ອອກ​ໄປ​ຈາກ Chrome ບໍ?</translation>
+<translation id="4587425331216688090">ເອົາ​ທີ່​ຢູ່​ອອກ​ໄປ​ຈາກ Mises ບໍ?</translation>
 <translation id="459089498662672729">ນະໂຍບາຍຂອງຜູ້ເບິ່ງແຍງລະບົບບໍ່ແນະນຳໃຫ້ວາງຈາກ <ph name="ORIGIN_NAME" /> ໃສ່ສະຖານທີ່ນີ້</translation>
 <translation id="4592951414987517459">ການ​ເຊື່ອມ​ຕໍ່​ຂອງ​ທ່ານ​ກັບ <ph name="DOMAIN" /> ຖືກ​ເຂົ້າ​ລະ​ຫັດ​ດ້ວຍ​ການ​ໃສ່​ຊຸດ​ລະ​ຫັດ​ລັບ​ທັນ​ສະ​ໄໝ.</translation>
 <translation id="4594403342090139922">ປ່ຽນ​ກັບ​ຄືນຄໍາສັ່ງລຶບ</translation>
@@ -1142,9 +1142,9 @@
 <translation id="4598556348158889687">ການຈັດການບ່ອນເກັບຂໍ້ມູນ</translation>
 <translation id="4600854749408232102">C6/C5 (ຊອງຈົດໝາຍ)</translation>
 <translation id="4606870351894164739">ມີຜົນກະທົບ</translation>
-<translation id="4607603470419975064">ປຸ່ມເບິ່ງເຄັດລັບ Chrome, ກົດ Enter ເພື່ອສຶກສາເພີ່ມເຕີມກ່ຽວກັບຄຸນສົມບັດ Chrome</translation>
-<translation id="4607608436550361748">ເບິ່ງເຄັດລັບ Chrome</translation>
-<translation id="4627675673814409125">ບໍ່ສາມາດຕັ້ງນະໂຍບາຍນີ້ຢູ່ລະດັບໂປຣໄຟລ໌ Chrome ໄດ້ ແລະ ລະບົບຈະບໍ່ສົນໃຈ.</translation>
+<translation id="4607603470419975064">ປຸ່ມເບິ່ງເຄັດລັບ Mises, ກົດ Enter ເພື່ອສຶກສາເພີ່ມເຕີມກ່ຽວກັບຄຸນສົມບັດ Mises</translation>
+<translation id="4607608436550361748">ເບິ່ງເຄັດລັບ Mises</translation>
+<translation id="4627675673814409125">ບໍ່ສາມາດຕັ້ງນະໂຍບາຍນີ້ຢູ່ລະດັບໂປຣໄຟລ໌ Mises ໄດ້ ແລະ ລະບົບຈະບໍ່ສົນໃຈ.</translation>
 <translation id="4628948037717959914">ຮູບຖ່າຍ</translation>
 <translation id="4631649115723685955">ເຊື່ອມໂຍງເງິນຄືນແລ້ວ</translation>
 <translation id="4636930964841734540">ຂໍ້​ມູນ</translation>
@@ -1174,7 +1174,7 @@
 <translation id="4731638775147756694">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານໄດ້ບລັອກແອັບພລິເຄຊັນນີ້ໄວ້ແລ້ວ</translation>
 <translation id="4731967714531604179">Prc2 (ຊອງຈົດໝາຍ)</translation>
 <translation id="4733082559415072992"><ph name="URL" /> ຕ້ອງການໃຊ້ສະຖານທີ່ຂອງອຸປະກອນຂອງທ່ານ</translation>
-<translation id="4736825316280949806">ປິດເປີດ Chromium ຄືນໃໝ່</translation>
+<translation id="4736825316280949806">ປິດເປີດ Mises ຄືນໃໝ່</translation>
 <translation id="4736934858538408121">ບັດສະເໝືອນ</translation>
 <translation id="473775607612524610">ອັບເດດ</translation>
 <translation id="4738601419177586157">ການແນະນຳການຊອກຫາ <ph name="TEXT" /></translation>
@@ -1186,7 +1186,7 @@
 <translation id="4751476147751820511">ເຊັນເຊີກວດຈັບການເຄື່ອນໄຫວ ຫຼື ແສງ</translation>
 <translation id="4754461935447132332">ບໍ່ອະນຸຍາດສຳລັບເວັບໄຊທີ່ບໍ່ປອດໄພ</translation>
 <translation id="4756388243121344051">ປະຫວັດ</translation>
-<translation id="4757993714154412917">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, Chromium ແນະນຳໃຫ້ກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
+<translation id="4757993714154412917">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, Mises ແນະນຳໃຫ້ກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
 <translation id="4758311279753947758">ເພີ່ມຂໍ້ມູນຕິດຕໍ່</translation>
 <translation id="4761104368405085019">ໃຊ້ໄມໂຄຣໂຟນຂອງທ່ານ</translation>
 <translation id="4764776831041365478">ໜ້າເວັບຢູ່ທີ່ <ph name="URL" /> ອາດຈະໃຊ້ບໍ່ໄດ້ຊົ່ວຄາວ ຫຼືມັນອາດຈະໄດ້ຍ້າຍອອກໄປໃສ່ທີ່ຢູ່ເວັບໃໝ່ຖາວອນແລ້ວ.</translation>
@@ -1217,7 +1217,7 @@
         <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">ເປີດໃຊ້ຄຳເຕືອນ</translation>
 <translation id="4838327282952368871">ຊວນຝັນ</translation>
-<translation id="4840250757394056958">ເບິ່ງປະຫວັດ Chrome ຂອງທ່ານ</translation>
+<translation id="4840250757394056958">ເບິ່ງປະຫວັດ Mises ຂອງທ່ານ</translation>
 <translation id="484462545196658690">ອັດຕະໂນມັດ</translation>
 <translation id="4849865131988503897">ກວດສອບຄວາມຖືກຕ້ອງ</translation>
 <translation id="4850886885716139402">ເບິ່ງ</translation>
@@ -1266,7 +1266,7 @@
 <translation id="4995216769782533993">ຢືນຢັນລະຫັດຄວາມປອດໄພເພື່ອແບ່ງປັນລາຍລະອຽດບັດກັບເວັບໄຊນີ້</translation>
 <translation id="4995474875135717171">ແກ້ໄຂເມື່ອ:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການຊອກຫາເວັບໄຊ ແລະ ໂປຣແກຣມຊອກຫາເລີ່ມຕົ້ນຂອງທ່ານ</translation>
-<translation id="5002932099480077015">ຖ້າ​ໝາຍ​ຕິກ​ເອົາ​ແລ້ວ, Chrome ຈະ​ຮັກ​ສາ​ສຳ​ເນົາ​ຂອງ​ບັດ​ຂອງ​ທ່ານ​ຢູ່​ເທິງ​ອຸ​ປະ​ກອນ​ນີ້ ເພື່ອ​ການ​ປະ​ກອບ​ແບບ​ຟອມ​ໃຫ້​ໄວ​ຂຶ້ນ.</translation>
+<translation id="5002932099480077015">ຖ້າ​ໝາຍ​ຕິກ​ເອົາ​ແລ້ວ, Mises ຈະ​ຮັກ​ສາ​ສຳ​ເນົາ​ຂອງ​ບັດ​ຂອງ​ທ່ານ​ຢູ່​ເທິງ​ອຸ​ປະ​ກອນ​ນີ້ ເພື່ອ​ການ​ປະ​ກອບ​ແບບ​ຟອມ​ໃຫ້​ໄວ​ຂຶ້ນ.</translation>
 <translation id="5011561501798487822">ພາສາທີ່ກວດພົບ</translation>
 <translation id="5015510746216210676">ຊື່ເຄື່ອງ:</translation>
 <translation id="5017554619425969104">ຂໍ້ຄວາມທີ່ທ່ານສຳເນົາ</translation>
@@ -1297,7 +1297,7 @@
 <translation id="5088142053160410913">ຂໍ້ຄວາມເຖິງຜູ້ໃຫ້ບໍລິການ</translation>
 <translation id="5089810972385038852">ລັດ</translation>
 <translation id="5093232627742069661">ພັບແບບຕົວ Z</translation>
-<translation id="5094747076828555589">ເຊີບເວີນີ້ບໍ່ສາມາດພິສູດໄດ້ວ່າ ມັນແມ່ນ <ph name="DOMAIN" />; ໃບຢັ້ງຢືນຄວາມປອດໄພຂອງມັນບໍ່ໄດ້ຮັບການເຊື່ອໝັ້ນຈາກ Chromium. ອັນນີ້ອາດຈະເຮັດໃຫ້ເກີດມີການປັບຕັ້ງຄ່າຜິດ ຫຼືຜູ້ໂຈມຕີອາດຈະດັກເອົາການເຊື່ອມຕໍ່ຂອງທ່ານ.</translation>
+<translation id="5094747076828555589">ເຊີບເວີນີ້ບໍ່ສາມາດພິສູດໄດ້ວ່າ ມັນແມ່ນ <ph name="DOMAIN" />; ໃບຢັ້ງຢືນຄວາມປອດໄພຂອງມັນບໍ່ໄດ້ຮັບການເຊື່ອໝັ້ນຈາກ Mises. ອັນນີ້ອາດຈະເຮັດໃຫ້ເກີດມີການປັບຕັ້ງຄ່າຜິດ ຫຼືຜູ້ໂຈມຕີອາດຈະດັກເອົາການເຊື່ອມຕໍ່ຂອງທ່ານ.</translation>
 <translation id="5095208057601539847">ແຂວງ</translation>
 <translation id="5097099694988056070">ສະຖິຕິອຸປະກອນ ເຊັ່ນ: ການໃຊ້ CPU/RAM</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1326,7 +1326,7 @@
 <translation id="5161506081086828129">ສະແຕັກເກີ້ 9</translation>
 <translation id="5164798890604758545">ມີການປ້ອນຂໍ້ຄວາມ</translation>
 <translation id="516920405563544094">ປ້ອນ CVC ສຳລັບ <ph name="CREDIT_CARD" />. ຫຼັງຈາກທີ່ທ່ານຢືນຢັນ, ລະບົບຈະແບ່ງປັນລາຍລະອຽດບັດຈາກບັນຊີ Google ຂອງທ່ານກັບເວັບໄຊນີ້.</translation>
-<translation id="5169827969064885044">ທ່ານອາດຈະສູນເສຍການເຂົ້າເຖິງບັນຊີຂອງອົງການຂອງທ່ານ ຫຼື ປະສົບກັບການລັກໃຊ້ຕົວຕົນ. Chrome ແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
+<translation id="5169827969064885044">ທ່ານອາດຈະສູນເສຍການເຂົ້າເຖິງບັນຊີຂອງອົງການຂອງທ່ານ ຫຼື ປະສົບກັບການລັກໃຊ້ຕົວຕົນ. Mises ແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
 <translation id="5171045022955879922">ຊອກຫາ ຫຼື ພິມ URL</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">ເຄື່ອງຈັກ</translation>
@@ -1335,7 +1335,7 @@
 <translation id="51918995459521422"><ph name="ORIGIN" /> ຕ້ອງການດາວໂຫຼດຫຼາຍໄຟລ໌</translation>
 <translation id="519422657042045905">ຄຳອະທິບາຍປະກອບບໍ່ສາມາດໃຊ້ໄດ້</translation>
 <translation id="5201306358585911203">ໜ້າຝັງຕິດໃນໜ້ານີ້ບອກວ່າ</translation>
-<translation id="5204468114771111727">Chrome ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ຜູ້ຊ່ວຍ Google ຂອງທ່ານສາມາດປ່ຽນລະຫັດຜ່ານຂອງທ່ານໄດ້ໂດຍອັດຕະໂນມັດ.</translation>
+<translation id="5204468114771111727">Mises ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ຜູ້ຊ່ວຍ Google ຂອງທ່ານສາມາດປ່ຽນລະຫັດຜ່ານຂອງທ່ານໄດ້ໂດຍອັດຕະໂນມັດ.</translation>
 <translation id="5205222826937269299">ຈຳເປັນຕ້ອງມີຊື່</translation>
 <translation id="5209518306177824490">ລາາຍນີ້ວມື SHA-1</translation>
 <translation id="5209670883520018268">ຖາດ 20</translation>
@@ -1348,7 +1348,7 @@
 <translation id="5233045608889518621">12x19</translation>
 <translation id="5234764350956374838">ປ່ອຍໄປ</translation>
 <translation id="5250209940322997802">"ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ"</translation>
-<translation id="52517543715119994">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບຄຸນສົມບັດ Chrome</translation>
+<translation id="52517543715119994">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບຄຸນສົມບັດ Mises</translation>
 <translation id="5251803541071282808">ຄ​ລາວ</translation>
 <translation id="5252000469029418751">C7 (ຊອງຈົດໝາຍ)</translation>
 <translation id="5254043433801397071">ເພີ່ມປະສິດທິພາບເນື້ອຫາທີ່ພິມ</translation>
@@ -1367,7 +1367,7 @@
 <translation id="5287240709317226393">ສະແດງຄຸກກີ້</translation>
 <translation id="5287456746628258573">ເວັບໄຊນີ້ໃຊ້ການກຳນົດຄ່າຄວາມປອດໄພທີ່ເກົ່າແລ້ວ, ເຊິ່ງອາດຈະເຮັດໃຫ້ຂໍ້ມູນຂອງທ່ານມີຄວາມສ່ຽງ (ຕົວຢ່າງ: ລະຫັດຜ່ານ ຫຼື ເລກບັດເຄຣດິດ) ເມື່ອມັນຖືກສົ່ງໃຫ້ເວັບໄຊນີ້.</translation>
 <translation id="5288108484102287882">ການກວດຮັບຮອງຄ່ານະໂຍບາຍໄດ້ເກີດຄຳເຕືອນ</translation>
-<translation id="5288808348893593856">ການເຊື່ອມຕໍ່ຂອງເວັບໄຊນີ້ແມ່ນປອດໄພເວັ້ນເສຍແຕ່ Chrome ຈະບອກທ່ານວ່າບໍ່ແມ່ນ.</translation>
+<translation id="5288808348893593856">ການເຊື່ອມຕໍ່ຂອງເວັບໄຊນີ້ແມ່ນປອດໄພເວັ້ນເສຍແຕ່ Mises ຈະບອກທ່ານວ່າບໍ່ແມ່ນ.</translation>
 <translation id="5289384342738547352">ການຈັດການເອກະສານຫຼາຍລາຍການ</translation>
 <translation id="5299298092464848405">ນະໂຍບາຍການກະຈາຍຜິດພາດ</translation>
 <translation id="5300589172476337783">ສະ​ແດງ​</translation>
@@ -1382,13 +1382,13 @@
 <translation id="5324080437450482387">ເລືອກຂໍ້ມູນຕິດຕໍ່</translation>
 <translation id="5329858041417644019">ບໍ່ຮອງຮັບໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ</translation>
 <translation id="5332219387342487447">ວິທີການຈັດສົ່ງ</translation>
-<translation id="5333022057423422993">Chrome ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, ພວກເຮົາແນະນຳໃຫ້ທ່ານກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
+<translation id="5333022057423422993">Mises ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, ພວກເຮົາແນະນຳໃຫ້ທ່ານກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
 <translation id="5334013548165032829">ບັນທຶກລະບົບລະອຽດ</translation>
 <translation id="5334145288572353250">ບັນທຶກທີ່ຢູ່ບໍ?</translation>
 <translation id="5340250774223869109">ແອັບພລິເຄຊັນຖືກບລັອກໄວ້</translation>
 <translation id="534295439873310000">ອຸປະກອນ NFC</translation>
 <translation id="5344579389779391559">ໜ້ານີ້ອາດຈະພະຍາຍາມຮຽກເກັບເງິນນຳທ່ານ</translation>
-<translation id="5347645913823149105">ປຸ່ມປັບແຕ່ງຟອນໃນ Chrome, ກົດ Enter ເພື່ອປັບແຕ່ງຂະໜາດຟອນ ແລະ ແບບອັກສອນໃນ Chrome</translation>
+<translation id="5347645913823149105">ປຸ່ມປັບແຕ່ງຟອນໃນ Mises, ກົດ Enter ເພື່ອປັບແຕ່ງຂະໜາດຟອນ ແລະ ແບບອັກສອນໃນ Mises</translation>
 <translation id="5355557959165512791">ທ່ານບໍ່ສາມາດເຂົ້າເບິ່ງ <ph name="SITE" /> ໄດ້ໃນຂະນະນີ້ ເພາະວ່າໃບຢັ້ງຢືນຂອງມັນໄດ້ຖືກຖອນຄືນແລ້ວ. ໂດຍປົກກະຕິແລ້ວ ຂໍ້ຜິດພາດ ແລະ ການໂຈມຕີທາງເຄືອຂ່າຍແມ່ນຊົ່ວຄາວເທົ່ານັ້ນ, ສະນັ້ນ ໜ້ານີ້ອາດຈະໃຊ້ໄດ້ໃນພາຍຫຼັງ.</translation>
 <translation id="5356837363448394805">ໜ້າແດງ</translation>
 <translation id="536296301121032821">ເກັບຮັກສາການຕັ້ງຄ່ານະໂຍບາຍບໍ່ສໍາເລັດ</translation>
@@ -1434,14 +1434,14 @@
 <translation id="5523118979700054094">ຊື່​ນະ​ໂຍ​ບາຍ</translation>
 <translation id="55293785478302737">ຫຍິບຂອບ</translation>
 <translation id="553484882784876924">Prc6 (ຊອງຈົດໝາຍ)</translation>
-<translation id="5535133333442455806">ປຸ່ມລຶບຂໍ້ມູນການທ່ອງເວັບ, ກົດ Enter ເພື່ອລຶບປະຫວັດການທ່ອງເວັບຂອງທ່ານ, ຄຸກກີ້, ແຄສ ແລະ ອື່ນໆອີກໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="5535133333442455806">ປຸ່ມລຶບຂໍ້ມູນການທ່ອງເວັບ, ກົດ Enter ເພື່ອລຶບປະຫວັດການທ່ອງເວັບຂອງທ່ານ, ຄຸກກີ້, ແຄສ ແລະ ອື່ນໆອີກໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="5536214594743852365">ສະແດງຂໍ້ "<ph name="SECTION" />"</translation>
 <translation id="5539243836947087108">Raft</translation>
 <translation id="5540224163453853">ບໍ່ສາມາດຊອກຫາບົດຄວາມທີ່ຂໍໄດ້.</translation>
 <translation id="5541086400771735334">ກ່ອງຈົດໝາຍ 7</translation>
 <translation id="5541546772353173584">ເພີ່ມອີເມວ</translation>
 <translation id="5545756402275714221">ບົດຄວາມສຳລັບທ່ານ</translation>
-<translation id="5552137475244467770">Chrome ກວດລະຫັດຜ່ານຂອງທ່ານເປັນໄລຍະໂດຍທຽບກັບລາຍການທີ່ມີການເຜີຍແຜ່ທາງອອນລາຍ. ໃນເວລາເຮັດສິ່ງນີ້, ພວກເຮົາເຂົ້າລະຫັດຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານຂອງທ່ານໄວ້ ເພື່ອບໍ່ໃຫ້ຜູ້ໃດ ຮວມທັງ Google ສາມາດອ່ານພວກມັນໄດ້.</translation>
+<translation id="5552137475244467770">Mises ກວດລະຫັດຜ່ານຂອງທ່ານເປັນໄລຍະໂດຍທຽບກັບລາຍການທີ່ມີການເຜີຍແຜ່ທາງອອນລາຍ. ໃນເວລາເຮັດສິ່ງນີ້, ພວກເຮົາເຂົ້າລະຫັດຊື່ຜູ້ໃຊ້ ແລະ ລະຫັດຜ່ານຂອງທ່ານໄວ້ ເພື່ອບໍ່ໃຫ້ຜູ້ໃດ ຮວມທັງ Google ສາມາດອ່ານພວກມັນໄດ້.</translation>
 <translation id="5556459405103347317">ໂຫຼດຄືນໃໝ່</translation>
 <translation id="5560088892362098740">ວັນທີໝົດອາຍຸ</translation>
 <translation id="55635442646131152">ໂຄງຮ່າງເອກະສານ</translation>
@@ -1490,7 +1490,7 @@
 <translation id="571403275720188526">(arm64)</translation>
 <translation id="5720705177508910913">ຜູ້​ໃຊ້​ປະ​ຈຸ​ບັນ</translation>
 <translation id="5728056243719941842">C5 (ຊອງຈົດໝາຍ)</translation>
-<translation id="5730040223043577876">Chrome ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
+<translation id="5730040223043577876">Mises ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{ບັນທຶກບັດໄວ້ໃນບັນຊີ Google ຂອງທ່ານ}other{ບັນທຶກບັດໄວ້ໃນບັນຊີ Google ຂອງທ່ານ}}</translation>
 <translation id="5745733273847572235">ສາມາດຂໍສະຖານທີ່ຂອງທ່ານ</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{ໃຊ້ໝາຍເລກສະເໝືອນຈິງສຳລັບບັດນີ້}other{ເລືອກບັດ}}</translation>
@@ -1505,12 +1505,12 @@
 <translation id="5784606427469807560">ມີບັນຫາໃນການຢືນຢັນບັດຂອງທ່ານ. ກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານ ແລະ ລອງໃໝ່ອີກ.</translation>
 <translation id="5785756445106461925">ນອກ​ຈາກນັ້ນ, ໜ້ານີ້ມີຂໍ້ມູນອື່ນທີ່ບໍ່ປອດໄພນໍາ. ຜູ້ອື່ນສາມາດເບິ່ງຂໍ້ມູນນີ້ໄດ້ໃນຂະນະທີ່ສົ່ງໄປ ແລະຜູ້ໂຈມຕີສາມາດດັດແປງໄດ້ ເພື່ອປ່ຽນໜ້າ​ຕາຂອງໜ້າ.</translation>
 <translation id="5786044859038896871">ທ່ານຕ້ອງການຕື່ມຂໍ້ມູນບັດຂອງທ່ານບໍ?</translation>
-<translation id="578633867165174378">Chrome ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ພວກເຮົາແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານດຽວນີ້.</translation>
+<translation id="578633867165174378">Mises ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ພວກເຮົາແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານດຽວນີ້.</translation>
 <translation id="5789643057113097023">.</translation>
 <translation id="5803412860119678065">ທ່ານຕ້ອງການຕື່ມຂໍ້ມູນ <ph name="CARD_DETAIL" /> ຂອງທ່ານບໍ?</translation>
 <translation id="5804241973901381774">ການ​ອະ​ນຸ​ຍາດ</translation>
 <translation id="5810442152076338065">ການ​ເຊື່ອມ​ຕໍ່​ຂອງ​ທ່ານ​ກັບ <ph name="DOMAIN" /> ຖືກ​ເຂົ້າ​ລະ​ຫັດ​ດ້ວຍ​ການ​ໃສ່​ຊຸດ​ລະ​ຫັດ​ລັບ​ຫຼ້າ​ສະ​ໄໝ.</translation>
-<translation id="5812947184178430888">ເມື່ອມີການໝາຍທຸງເຫດການຄວາມປອດໄພໂດຍ Chrome, ຂໍ້ມູນກ່ຽວຂ້ອງທີ່ກ່ຽວກັບເຫດການນັ້ນຈະຖືກສົ່ງໃຫ້ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ. ນີ້ອາດຮວມມີ URL ຂອງໜ້າທີ່ທ່ານເຂົ້າເບິ່ງໃນ Chrome, ຊື່ ຫຼື ເມຕາເດຕາຂອງໄຟລ໌ ແລະ ຊື່ຜູ້ໃຊ້ທີ່ທ່ານໃຊ້ເພື່ອເຂົ້າສູ່ລະບົບຫາແອັບພລິເຄຊັນອ້າງອີງເວັບ, ອຸປະກອນຂອງທ່ານ ແລະ Chrome.</translation>
+<translation id="5812947184178430888">ເມື່ອມີການໝາຍທຸງເຫດການຄວາມປອດໄພໂດຍ Mises, ຂໍ້ມູນກ່ຽວຂ້ອງທີ່ກ່ຽວກັບເຫດການນັ້ນຈະຖືກສົ່ງໃຫ້ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານ. ນີ້ອາດຮວມມີ URL ຂອງໜ້າທີ່ທ່ານເຂົ້າເບິ່ງໃນ Mises, ຊື່ ຫຼື ເມຕາເດຕາຂອງໄຟລ໌ ແລະ ຊື່ຜູ້ໃຊ້ທີ່ທ່ານໃຊ້ເພື່ອເຂົ້າສູ່ລະບົບຫາແອັບພລິເຄຊັນອ້າງອີງເວັບ, ອຸປະກອນຂອງທ່ານ ແລະ Mises.</translation>
 <translation id="5813119285467412249">​ເຮັດ​ຄືນ​ຄຳ​ສັ່ງ​ເພີ່ມ</translation>
 <translation id="5817918615728894473">ຈັບ​ຄູ່</translation>
 <translation id="5824687817967109979">{NUM_CARDS,plural, =1{ລະບົບຈະຮຽກເກັບເງິນນຳບັດນີ້ໃນເວລາທີ່ທ່ານຈ່າຍ, ແຕ່ຈະບໍ່ແບ່ງປັນໝາຍເລກຈິງຂອງບັດກັບເວັບໄຊນີ້. ລະບົບຈະສ້າງ CVC ຊົ່ວຄາວຂຶ້ນມາເພື່ອຄວາມປອດໄພເພີ່ມເຕີມ.}other{ລະບົບຈະຮຽກເກັບເງິນນຳບັດທີ່ທ່ານເລືອກໃນເວລາທີ່ທ່ານຈ່າຍ, ແຕ່ຈະບໍ່ແບ່ງປັນໝາຍເລກຈິງຂອງບັດກັບເວັບໄຊນີ້. ລະບົບຈະສ້າງ CVC ຊົ່ວຄາວຂຶ້ນມາເພື່ອຄວາມປອດໄພເພີ່ມເຕີມ.}}</translation>
@@ -1600,7 +1600,7 @@
 <translation id="610911394827799129">ບັນຊີ Google ຂອງທ່ານອາດຈະມີປະຫວັດການທ່ອງເວັບຮູບແບບອື່ນຢູ່ <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
 <translation id="6116338172782435947">ເຫັນຂໍ້ຄວາມ ແລະ ຮູບພາບທີ່ສຳເນົາໄວ້ໃນຄລິບບອດ</translation>
 <translation id="6120179357481664955">ຈື່ UPI ID ຂອງທ່ານໄວ້ບໍ?</translation>
-<translation id="6124432979022149706">ເຄື່ອງມືເຊື່ອມຕໍ່ Chrome Enterprise</translation>
+<translation id="6124432979022149706">ເຄື່ອງມືເຊື່ອມຕໍ່ Mises Enterprise</translation>
 <translation id="6127379762771434464">ລຶບລາຍການອອກແລ້ວ</translation>
 <translation id="6146055958333702838">ກວດເບິ່ງສາຍໄຟ ແລະປິດເປີດເຣົາເຕີ, ໂມເດັມ, ຫຼືອຸປະກອນເຄືອຂ່າຍ
     ທີ່ທ່ານອາດກຳລັງໃຊ້ຢູ່ຄືນໃໝ່.</translation>
@@ -1617,35 +1617,35 @@
 <translation id="619448280891863779">ສາມາດຈໍເປີດ ແລະ ວາງໜ້າຈໍຕ່າງໆຢູ່ໜ້າຈໍຂອງທ່ານໄດ້</translation>
 <translation id="6196640612572343990">ບລັອກຄຸກກີ້ພາກສ່ວນທີສາມ</translation>
 <translation id="6203231073485539293">ກວດເບິ່ງການເຊື່ອມຕໍ່ອິນເຕີເນັດຂອງທ່ານ.</translation>
-<translation id="6218753634732582820">ເອົາ​ທີ່​ຢູ່​ອອກ​​ຈາກ Chromium ບໍ?</translation>
+<translation id="6218753634732582820">ເອົາ​ທີ່​ຢູ່​ອອກ​​ຈາກ Mises ບໍ?</translation>
 <translation id="622039917539443112">ພັບແບບຂະໜານ</translation>
 <translation id="6221345481584921695">ເມື່ອບໍ່ດົນມານີ້ Google Safe Browsing <ph name="BEGIN_LINK" />ໄດ້ກວດພົບມາລແວ<ph name="END_LINK" /> ຢູ່ເທິງ <ph name="SITE" />. ເວັບໄຊທ໌ທີ່ປົກກະຕິແລ້ວນັ້ນມີຄວາມປອດໄພແມ່ນບາງຄັ້ງຈະຕິດມາລແວ. ເນື້ອໃນທີ່ປອງຮ້າຍມາຈາກ <ph name="SUBRESOURCE_HOST" />, ຜູ້ຈໍາໜ່າຍມາລແວທີ່ຮູ້ຈັກ.</translation>
-<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ແລ້ວກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃຫ້ເປັນແບບສ່ວນຕົວໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ແລ້ວກົດ Enter ເພື່ອປັບແຕ່ງເຄື່ອງມືການຊ່ວຍເຂົ້າເຖິງຂອງທ່ານໃຫ້ເປັນແບບສ່ວນຕົວໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="6233160458685643793">ຍິ້ມເຫັນແຂ້ວ</translation>
 <translation id="6234122620015464377">ຕັດອອກຫຼັງຈາກເອກະສານແຕ່ລະອັນ</translation>
 <translation id="6240447795304464094">ໂລໂກ້ Google Pay</translation>
 <translation id="6241121617266208201">ເຊື່ອງການແນະນຳ</translation>
 <translation id="624499991300733384">ການບໍລິການອົງປະກອບການພິມ</translation>
-<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການໄຟລ໌ທີ່ທ່ານດາວໂຫຼດໄວ້ໃນ Chrome</translation>
+<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການໄຟລ໌ທີ່ທ່ານດາວໂຫຼດໄວ້ໃນ Mises</translation>
 <translation id="6254436959401408446">ບໍ່ມີຄວາມຈຳພຽງພໍເພື່ອເປີດໜ້ານີ້</translation>
 <translation id="6259156558325130047">ເຮັດຄືນຄໍາສັ່ງຈັດລໍາດັບຄືນ</translation>
 <translation id="6263376278284652872">ບຸກມາກສ໌ <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">ກັບ​ຄືນ​ສູ່ຄາມປອດ​ໄພ</translation>
 <translation id="6265794661083428563">ສຳເນົາຄ່ານະໂຍບາຍ <ph name="POLICY_NAME" /> ໄວ້</translation>
 <translation id="6266934640124581640">ສີ​ຂຽວ​ອົມ​ຟ້າ​ຈາງ</translation>
-<translation id="6272088941196661550">ສືບຕໍ່ບັນທຶກຂອງທ່ານເພື່ອເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Chrome ຂອງທ່ານ</translation>
+<translation id="6272088941196661550">ສືບຕໍ່ບັນທຶກຂອງທ່ານເພື່ອເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Mises ຂອງທ່ານ</translation>
 <translation id="6272383483618007430">Google Update</translation>
 <translation id="6276112860590028508">ໜ້າຈາກລາຍການທີ່ຈະອ່ານຂອງທ່ານປາກົດຢູ່ບ່ອນນີ້</translation>
 <translation id="627746635834430766">ເພື່ອຈ່າຍໄດ້ໄວກວ່າໃນຄັ້ງຕໍ່ໄປ, ກະລຸນາບັນທຶກບັດ ແລະ ທີ່ຢູ່ຮຽກເກັບເງິນຂອງທ່ານໄວ້ໃນບັນຊີ Google ຂອງທ່ານ.</translation>
 <translation id="6279098320682980337">ບໍ່ໄດ້ໃສ່ໝາຍເລກບັດສະເໝືອນບໍ? ກະລຸນາຄລິກລາຍລະອຽດບັດເພື່ອສຳເນົາ</translation>
 <translation id="6280223929691119688">ບໍ່ສາມາດສົ່ງຫາທີ່ຢູ່ນີ້ໄດ້. ກະລຸນາເລືອກທີ່ຢູ່ອື່ນ.</translation>
 <translation id="6282194474023008486">ລະຫັດໄປສະນີ</translation>
-<translation id="6285507000506177184">ປຸ່ມຈັດການການດາວໂຫຼດໃນ Chrome, ກົດ Enter ເພື່ອຈັດການໄຟລ໌ທີ່ທ່ານດາວໂຫຼດມາແລ້ວໃນ Chrome</translation>
+<translation id="6285507000506177184">ປຸ່ມຈັດການການດາວໂຫຼດໃນ Mises, ກົດ Enter ເພື່ອຈັດການໄຟລ໌ທີ່ທ່ານດາວໂຫຼດມາແລ້ວໃນ Mises</translation>
 <translation id="6289939620939689042">ສີໜ້າເຈ້ຍ</translation>
 <translation id="6290238015253830360">ບົດຄວາມທີ່ແນະນຳຂອງທ່ານຈະປາກົດຢູ່ບ່ອນນີ້</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">CVC:</translation>
-<translation id="6302269476990306341">ກຳລັງຢຸດຜູ້ຊ່ວຍ Google ໃນ Chrome</translation>
+<translation id="6302269476990306341">ກຳລັງຢຸດຜູ້ຊ່ວຍ Google ໃນ Mises</translation>
 <translation id="6305205051461490394"><ph name="URL" /> ບໍ່ສາມາດເຂົ້າເຖິງໄດ້</translation>
 <translation id="6312113039770857350">ບໍ່​ມີ​ໜ້າ​ເວັບ​ຢູ່</translation>
 <translation id="63172326633386613">ຈັດການການຕັ້ງຄ່າການຊ່ວຍເຂົ້າເຖິງ</translation>
@@ -1659,7 +1659,7 @@
 <translation id="6340739886198108203">ນະໂຍບາຍຜູ້ເບິ່ງແຍງລະບົບບໍ່ແນະນຳໃຫ້ຖ່າຍຮູບ ຫຼື ບັນທຶກໜ້າຈໍໃນເວລາປາກົດມີເນື້ອຫາທີ່ເປັນຄວາມລັບ:</translation>
 <translation id="6349101878882523185">ຕິດຕັ້ງ <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{ບໍ່ມີ}=1{1 ລະຫັດຜ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />, ຊິ້ງຂໍ້ມູນແລ້ວ)}=2{2 ລະຫັດຜ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />, ຊິ້ງຂໍ້ມູນແລ້ວ)}other{# ລະຫັດຜ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />, ຊິ້ງຂໍ້ມູນແລ້ວ)}}</translation>
-<translation id="6355392890578844978">ໂປຣແກຣມທ່ອງເວັບນີ້ບໍ່ໄດ້ຖືກຈັດການໂດຍບໍລິສັດ ຫຼື ອົງການອື່ນ. ການເຄື່ອນໄຫວຢູ່ອຸປະກອນນີ້ອາດຖືກຈັດການຢູ່ນອກ Chromium ໄດ້. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">ໂປຣແກຣມທ່ອງເວັບນີ້ບໍ່ໄດ້ຖືກຈັດການໂດຍບໍລິສັດ ຫຼື ອົງການອື່ນ. ການເຄື່ອນໄຫວຢູ່ອຸປະກອນນີ້ອາດຖືກຈັດການຢູ່ນອກ Mises ໄດ້. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">ສິ່ງ​ທີ່​ເຫຼົ່າ​ນີ້​ຫມາຍ​ຄວາມ​ວ່າ​ແນວໃດ?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />ກຳລັງກວດເບິ່ງການຕັ້ງຄ່າພຣັອກຊີ, ໄຟລ໌ວໍ ແລະ DNS ທີ່ປອດໄພ<ph name="END_LINK" /></translation>
@@ -1680,7 +1680,7 @@
 <translation id="6404511346730675251">ແກ້​ໄຂບຸກມາກສ໌</translation>
 <translation id="6406765186087300643">C0 (ຊອງຈົດໝາຍ)</translation>
 <translation id="6410264514553301377">ປ້ອນວັນທີໝົດອາຍຸ ແລະ CVC ສຳລັບ <ph name="CREDIT_CARD" /></translation>
-<translation id="6415778972515849510">Chromium ສາມາດຊ່ວຍທ່ານປົກປ້ອງບັນຊີ Google ຂອງທ່ານ ແລະ ປ່ຽນລະຫັດຜ່າຂອງທ່ານໄດ້.</translation>
+<translation id="6415778972515849510">Mises ສາມາດຊ່ວຍທ່ານປົກປ້ອງບັນຊີ Google ຂອງທ່ານ ແລະ ປ່ຽນລະຫັດຜ່າຂອງທ່ານໄດ້.</translation>
 <translation id="6423385022588644828">ຢືນຢັນບັດຂອງທ່ານໄດ້ໄວຂຶ້ນໂດຍໃຊ້ Touch ID ຈາກນີ້ໄປ</translation>
 <translation id="6425092077175753609">ເນື້ອ​ໃນ</translation>
 <translation id="6427730057873428458">ພັບທົບ</translation>
@@ -1709,7 +1709,7 @@
 <translation id="6499038740797743453">ຣີເຊັດລະຫັດຜ່ານບໍ?</translation>
 <translation id="6502991525169604759">ໂດຍບໍ່ມີການປ່ຽນແປງຂອງທ່ານ</translation>
 <translation id="6506959208958864820">ຊອງຈົດໝາຍ</translation>
-<translation id="6508722015517270189">ປິດເປີດ Chrome ຄືນໃໝ່</translation>
+<translation id="6508722015517270189">ປິດເປີດ Mises ຄືນໃໝ່</translation>
 <translation id="6513005815064132016">ສາມາດຂໍຕິດຕາມຕຳແໜ່ງກ້ອງຖ່າຍຮູບຂອງທ່ານ</translation>
 <translation id="6517596291481585650">ຄຳເຕືອນ: ນະໂຍບາຍນີ້ບໍ່ຖືກຮວມເຂົ້າກັນເປັນລາຍການຕາມທີ່ລະບຸໄວ້ໂດຍນະໂຍບາຍ ເພາະວ່າມັນບໍ່ແມ່ນລາຍການ.</translation>
 <translation id="6518133107902771759">ກວດສອບ</translation>
@@ -1725,10 +1725,10 @@
 <translation id="6579630537141957243">ເຊື່ອມຕໍ່ອຸປະກອນ MIDI ບໍ?</translation>
 <translation id="6579990219486187401">ສີບົວອ່ອນ</translation>
 <translation id="6583674473685352014">B6 (ຊອງຈົດໝາຍ)</translation>
-<translation id="6587182488465657433">Chrome ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, ພວກເຮົາແນະນຳໃຫ້ປ່ຽນມັນດຽວນີ້ ແລ້ວຈາກນັ້ນກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
+<translation id="6587182488465657433">Mises ພົບລະຫັດຜ່ານທີ່ທ່ານຫາກໍໃຊ້ໄປນັ້ນໃນການຮົ່ວໄຫຼຂໍ້ມູນ. ເພື່ອຮັກສາຄວາມປອດໄພບັນຊີຂອງທ່ານ, ພວກເຮົາແນະນຳໃຫ້ປ່ຽນມັນດຽວນີ້ ແລ້ວຈາກນັ້ນກວດສອບລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄວ້.</translation>
 <translation id="6587923378399804057">ລິ້ງທີ່ທ່ານສຳເນົາ</translation>
 <translation id="6591833882275308647">ບໍ່ມີການຈັດການ <ph name="DEVICE_TYPE" /> ຂອງທ່ານ</translation>
-<translation id="6592952801936330159">ຈັດການປຸ່ມການຕັ້ງຄ່າເວັບໄຊ, ກົດ Enter ເພື່ອຈັດການການອະນຸຍາດ ແລະ ຂໍ້ມູນທີ່ຈັດເກັບໄວ້ໃນເວັບໄຊຕ່າງໆໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="6592952801936330159">ຈັດການປຸ່ມການຕັ້ງຄ່າເວັບໄຊ, ກົດ Enter ເພື່ອຈັດການການອະນຸຍາດ ແລະ ຂໍ້ມູນທີ່ຈັດເກັບໄວ້ໃນເວັບໄຊຕ່າງໆໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="6596325263575161958">ທາງເລືອກການໃສ່ລະຫັດ</translation>
 <translation id="6609880536175561541">Prc7 (ຊອງຈົດໝາຍ)</translation>
 <translation id="6615297766614333076">ສະແຕັກເກີ້ 2</translation>
@@ -1742,7 +1742,7 @@
 <translation id="6643016212128521049">ລຶບ</translation>
 <translation id="6645291930348198241">ເຂົ້າເຖິງຄຸກກີ້ ແລະ ຂໍ້ມູນເວັບໄຊ.</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{ບໍ່ມີ}=1{ຈາກ 1 ເວັບໄຊ (ທ່ານຈະບໍ່ຖືກນຳອອກຈາກລະບົບບັນຊີ Google ຂອງທ່ານ)}other{ຈາກ # ເວັບໄຊ (ທ່ານຈະບໍ່ຖືກນຳອອກຈາກລະບົບບັນຊີ Google ຂອງທ່ານ)}}</translation>
-<translation id="6648459603387803038">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດປ່ຽນການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຈາກທາງໄກໄດ້. ການເຄື່ອນໄຫວໃນອຸປະກອນນີ້ອາດຈະຖືກຈັດການຢູ່ນອກ Chrome ໄດ້ເຊັ່ນກັນ.</translation>
+<translation id="6648459603387803038">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດປ່ຽນການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຈາກທາງໄກໄດ້. ການເຄື່ອນໄຫວໃນອຸປະກອນນີ້ອາດຈະຖືກຈັດການຢູ່ນອກ Mises ໄດ້ເຊັ່ນກັນ.</translation>
 <translation id="6648524591329069940">ຟອນ Serif</translation>
 <translation id="6651270836885078973">ຈັດການໂດຍ:</translation>
 <translation id="6652101503459149953">ໃຊ້ Windows Hello</translation>
@@ -1752,13 +1752,13 @@
 <translation id="666259744093848177">(x86_64 ແປແລ້ວ)</translation>
 <translation id="6663846344464066639">ເອົາມືແນບກັນ</translation>
 <translation id="6665553082534466207">ເຈາະຮູຢູ່ເບື້ອງຂວາສາມຮູ</translation>
-<translation id="6671697161687535275">ເອົາ​ການ​ແນະ​ນຳ​ແບບ​ຟອມ​ອອກ​​ຈາກ Chromium ບໍ?</translation>
+<translation id="6671697161687535275">ເອົາ​ການ​ແນະ​ນຳ​ແບບ​ຟອມ​ອອກ​​ຈາກ Mises ບໍ?</translation>
 <translation id="6685834062052613830">ອອກຈາກລະບົບ ແລະ ສຳເລັດການຕັ້ງຄ່າ</translation>
 <translation id="6687335167692595844">ຂໍຂະໜາດຟອນແລ້ວ</translation>
 <translation id="6688743156324860098">ອັບເດດ…</translation>
 <translation id="6688775486821967877">ບໍ່ສາມາດໃຊ້ບັດສະເໝືອນໄດ້ໃນຕອນນີ້, ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ</translation>
 <translation id="6689249931105087298">ສຳພັນກັບການບີບຈຸດສີດຳ</translation>
-<translation id="6689271823431384964">Chrome ກຳລັງສະເໜີບັນທຶກບັດຂອງທ່ານໄວ້ໃນບັນຊີ Google ຂອງທ່ານ ເພາະວ່າທ່ານເຂົ້າສູ່ລະບົບຢູ່. ທ່ານສາມາດປ່ຽນພຶດຕິກຳນີ້ໄດ້ໃນການຕັ້ງຄ່າ. ຊື່ຜູ້ຖືບັດມາຈາກບັນຊີຂອງທ່ານ.</translation>
+<translation id="6689271823431384964">Mises ກຳລັງສະເໜີບັນທຶກບັດຂອງທ່ານໄວ້ໃນບັນຊີ Google ຂອງທ່ານ ເພາະວ່າທ່ານເຂົ້າສູ່ລະບົບຢູ່. ທ່ານສາມາດປ່ຽນພຶດຕິກຳນີ້ໄດ້ໃນການຕັ້ງຄ່າ. ຊື່ຜູ້ຖືບັດມາຈາກບັນຊີຂອງທ່ານ.</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຊອກຫາອຸປະກອນຂອງທ່ານໃນບັນຊີ Google</translation>
 <translation id="6696588630955820014">ປຸ່ມແບ່ງປັນແຖບນີ້, ກົດ Enter ເພື່ອແບ່ງປັນແຖບນີ້ໂດຍການແບ່ງປັນລິ້ງ, ການສ້າງລະຫັດ QR, ການສົ່ງສັນຍານ ແລະ ອື່ນໆ</translation>
 <translation id="6698381487523150993">ສ້າງຂຶ້ນແລ້ວ:</translation>
@@ -1804,7 +1804,7 @@
 <translation id="6883221904761970440">ປິດຊີດການພິສູດຢືນຢັນຂໍ້ມູນການເຂົ້າສູ່ລະບົບການຈ່າຍເງິນແບບປອດໄພແລ້ວ</translation>
 <translation id="6884662655240309489">ຂະໜາດ 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" /> <ph name="SHORT_URL" /></translation>
-<translation id="6888584790432772780">Chrome ໄດ້ເຮັດໃຫ້ໜ້ານີ້ອ່ານໄດ້ງ່າຍຂຶ້ນ. Chrome ກູ້ຄືນໜ້າຕົ້ນສະບັບຜ່ານການເຊື່ອມຕໍ່ທີ່ບໍ່ປອດໄພ.</translation>
+<translation id="6888584790432772780">Mises ໄດ້ເຮັດໃຫ້ໜ້ານີ້ອ່ານໄດ້ງ່າຍຂຶ້ນ. Mises ກູ້ຄືນໜ້າຕົ້ນສະບັບຜ່ານການເຊື່ອມຕໍ່ທີ່ບໍ່ປອດໄພ.</translation>
 <translation id="6890443033788248019">ອະນຸຍາດສະຖານທີ່ບໍ?</translation>
 <translation id="6891596781022320156">ລະດັບນະໂຍບາຍບໍ່ຖືກຮອງຮັບ.</translation>
 <translation id="6895143722905299846">ໝາຍເລກສະເໝືອນ:</translation>
@@ -1862,7 +1862,7 @@
 <translation id="7053983685419859001">ບລັອກ</translation>
 <translation id="7058163556978339998"><ph name="BROWSER" /> ໄດ້ຢັ້ງຢືນວ່າ <ph name="ISSUER" /> ໄດ້ອອກໃບຮັບຮອງຂອງເວັບໄຊນີ້ແລ້ວ.</translation>
 <translation id="7062635574500127092">ສີຂຽວຫົວເປັດ</translation>
-<translation id="706295145388601875">ເພີ່ມ ແລະ ຈັດການທີ່ຢູ່ໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="706295145388601875">ເພີ່ມ ແລະ ຈັດການທີ່ຢູ່ໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="7064851114919012435">ຂໍ້​ມູນ​ຕິດ​ຕໍ່</translation>
 <translation id="7068733155164172741">ລະບຸລະຫັດ <ph name="OTP_LENGTH" /> ຕົວເລກ</translation>
 <translation id="7070090581017165256">ກ່ຽວກັບເວັບໄຊນີ້</translation>
@@ -1873,9 +1873,9 @@
 <translation id="7083258188081898530">ຖາດ 9</translation>
 <translation id="7086090958708083563">ການອັບໂຫຼດທີ່ຂໍໂດຍຜູ້ໃຊ້</translation>
 <translation id="7087282848513945231">ເຂດປົກຄອງ</translation>
-<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການອະນຸຍາດ ແລະ ຂໍ້ມູນທີ່ຈັດເກັບໄວ້ໃນເວັບໄຊຕ່າງໆໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການອະນຸຍາດ ແລະ ຂໍ້ມູນທີ່ຈັດເກັບໄວ້ໃນເວັບໄຊຕ່າງໆໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="7096937462164235847">ບໍ່ໄດ້ຢັ້ງຢືນຕົວຕົນຂອງເວັບໄຊນີ້ເທື່ອ.</translation>
-<translation id="7102554173784142865">ຫຼິ້ນເກມ Chrome Dino</translation>
+<translation id="7102554173784142865">ຫຼິ້ນເກມ Mises Dino</translation>
 <translation id="7108338896283013870">ເຊື່ອງ</translation>
 <translation id="7108634116785509031"><ph name="HOST" /> ຕ້ອງການໃຊ້ກ້ອງຖ່າຍຮູບຂອງທ່ານ</translation>
 <translation id="7108819624672055576">ອະນຸຍາດໂດຍສ່ວນຂະຫຍາຍ</translation>
@@ -1951,12 +1951,12 @@
 <translation id="7353601530677266744">ແຖວຄໍາສັ່ງ</translation>
 <translation id="7359588939039777303">ບລັອກໂຄສະນາໄວ້ແລ້ວ.</translation>
 <translation id="7363096869660964304">ແນວໃດກໍຕາມ, ທ່ານຈະບໍ່ຫາຍໄປໃສ. ການໃຊ້ໂໝດບໍ່ເປີດເຜີຍຕົວຕົນຈະບໍ່ເຊື່ອງການທ່ອງເວັບຂອງທ່ານຈາກນາຍຈ້າງ, ຜູ້ໃຫ້ບໍລິການອິນເຕີເນັດ ຫຼື ເວັບໄຊທີ່ທ່ານເຂົ້າເບິ່ງ.</translation>
-<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອເພີ່ມ ແລະ ຈັດການທີ່ຢູ່ໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອເພີ່ມ ແລະ ຈັດການທີ່ຢູ່ໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="7365849542400970216">ຮູ້ຈັກການນຳໃຊ້ອຸປະກອນຂອງທ່ານບໍ?</translation>
 <translation id="7366362069757178916">ຕົວຈັດການການຈ່າຍເງິນ</translation>
 <translation id="7372973238305370288">ຜົນ​ການຄົ້ນ​ຫາ</translation>
 <translation id="7374461526650987610">ເຄື່ອງຈັດການໂປຣໂຕໂຄລ</translation>
-<translation id="7374733840632556089">ບັນຫານີ້ເກີດຂຶ້ນເນື່ອງຈາກໃບຮັບຮອງທີ່ທ່ານ ຫຼື ຄົນອື່ນຕິດຕັ້ງໃນອຸປະກອນຂອງທ່ານ. ເປັນທີ່ຮູ້ກັນວ່າໃບຮັບຮອງນີ້ຖືກໃຊ້ເພື່ອຕິດຕາມ ແລະ ສະກັດກັ້ນເຄືອຂ່າຍ ແລະ Chrome ບໍ່ເຊື່ອຖືໃບຮັບຮອງນີ້. ເຖິງແມ່ນວ່າຈະມີບາງກໍລະນີທີ່ການຕິດຕາມອາດຈະຖືກກົດໝາຍ ເຊັ່ນ: ໃນເຄືອຂ່າຍຂອງໂຮງຮຽນ ຫຼື ບໍລິສັດ, ແຕ່ Chrome ກໍຍັງຕ້ອງການໃຫ້ແນ່ໃຈວ່າທ່ານຮັບຮູ້ວ່າມີການຕິດຕາມເບິ່ງ ເຖິງແມ່ນວ່າທ່ານບໍ່ສາມາດຢຸດມັນໄດ້ກໍຕາມ. ການຕິດຕາມອາດຈະເກີດຂຶ້ນໃນໂປຣແກຣມທ່ອງເວັບ ຫຼື ແອັບພລິເຄຊັນໃດໆກໍຕາມທີ່ເຂົ້າເຖິງເວັບໄຊໄດ້.</translation>
+<translation id="7374733840632556089">ບັນຫານີ້ເກີດຂຶ້ນເນື່ອງຈາກໃບຮັບຮອງທີ່ທ່ານ ຫຼື ຄົນອື່ນຕິດຕັ້ງໃນອຸປະກອນຂອງທ່ານ. ເປັນທີ່ຮູ້ກັນວ່າໃບຮັບຮອງນີ້ຖືກໃຊ້ເພື່ອຕິດຕາມ ແລະ ສະກັດກັ້ນເຄືອຂ່າຍ ແລະ Mises ບໍ່ເຊື່ອຖືໃບຮັບຮອງນີ້. ເຖິງແມ່ນວ່າຈະມີບາງກໍລະນີທີ່ການຕິດຕາມອາດຈະຖືກກົດໝາຍ ເຊັ່ນ: ໃນເຄືອຂ່າຍຂອງໂຮງຮຽນ ຫຼື ບໍລິສັດ, ແຕ່ Mises ກໍຍັງຕ້ອງການໃຫ້ແນ່ໃຈວ່າທ່ານຮັບຮູ້ວ່າມີການຕິດຕາມເບິ່ງ ເຖິງແມ່ນວ່າທ່ານບໍ່ສາມາດຢຸດມັນໄດ້ກໍຕາມ. ການຕິດຕາມອາດຈະເກີດຂຶ້ນໃນໂປຣແກຣມທ່ອງເວັບ ຫຼື ແອັບພລິເຄຊັນໃດໆກໍຕາມທີ່ເຂົ້າເຖິງເວັບໄຊໄດ້.</translation>
 <translation id="7375818412732305729">ແນບໄຟລ໌ແລ້ວ</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">ການຄວບຄຸມສື່</translation>
@@ -1977,14 +1977,14 @@
       &lt;li&gt;ຢູ່ກ້ອງ &lt;strong&gt;ປະເພດການເລີ່ມຕົ້ນ&lt;/strong&gt;, ເລືອກ &lt;strong&gt;ປິດນຳໃຊ້ແລ້ວ&lt;/strong&gt;
       &lt;li&gt;ຢູ່ກ້ອງ &lt;strong&gt;ສະຖານະການບໍລິການ&lt;/strong&gt;, ຄລິກ &lt;strong&gt;ຢຸດ&lt;/strong&gt;
       &lt;li&gt;ຄລິກ &lt;strong&gt;ນຳໃຊ້&lt;/strong&gt;, ແລ້ວຄລິກ &lt;strong&gt;ຕົກລົງ&lt;/strong&gt;
-      &lt;li&gt;ເຂົ້າເບິ່ງ &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;ສູນຊ່ວຍເຫຼືອ Chrome&lt;/a&gt; ເພື່ອຮຽນຮູ້ວິທີລຶບຊອບແວອອກຈາກຄອມພິວເຕີຂອງທ່ານຢ່າງຖາວອນ
+      &lt;li&gt;ເຂົ້າເບິ່ງ &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;ສູນຊ່ວຍເຫຼືອ Mises&lt;/a&gt; ເພື່ອຮຽນຮູ້ວິທີລຶບຊອບແວອອກຈາກຄອມພິວເຕີຂອງທ່ານຢ່າງຖາວອນ
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">ໜ້າຮັກ</translation>
 <translation id="7416351320495623771">ຈັດການລະຫັດຜ່ານ...</translation>
 <translation id="7419106976560586862">ຊ່ອງທາງໂປຣໄຟລ໌</translation>
 <translation id="7421067045979951561">ຕົວຈັດການໂປຣໂຕຄໍ</translation>
-<translation id="7426022697669111648">ປຸ່ມເບິ່ງປະຫວັດ Chrome ຂອງທ່ານ, ກົດ Enter ເພື່ອເບິ່ງ ແລະ ຈັດການປະຫວັດການທ່ອງເວັບຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="7426022697669111648">ປຸ່ມເບິ່ງປະຫວັດ Mises ຂອງທ່ານ, ກົດ Enter ເພື່ອເບິ່ງ ແລະ ຈັດການປະຫວັດການທ່ອງເວັບຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="7437289804838430631">ເພີ່ມຂໍ້ມູນຕິດຕໍ່</translation>
 <translation id="7440140511386898319">ສຳຫຼວດໃນເວລາອອບລາຍ</translation>
 <translation id="7441627299479586546">ຫົວຂໍ້ນະະໂຍບາຍບໍ່ຖືກຕ້ອງ</translation>
@@ -2016,16 +2016,16 @@
 <translation id="7542995811387359312">ການຕື່ມໃສ່ບັດເຄຣດິດອັດຕະໂນມັດປິດໃຊ້ງານ ເພາະວ່າແບບຟອມນີ້ບໍ່ໃຊ້ການເຊື່ອມຕໍ່ທີ່ປອດໄພ.</translation>
 <translation id="7548892272833184391">ແກ້ໄຂຂໍ້ຜິດພາດຂອງການເຊື່ອມຕໍ່</translation>
 <translation id="7549584377607005141">ເວັບໄຊທ໌ນີ້ຕ້ອງການຂໍ້ມູນທີ່ທ່ານປ້ອນແຕ່ຫົວທີ ເພື່ອໃຫ້ສະແດງຂຶ້ນຢ່າງຖືກຕ້ອງ. ທ່ານສາມາດສົ່ງຂໍ້ມູນນີ້ໄດ້ອີກ, ແຕ່ໂດຍການເຮັດແນວນັ້ນ ທ່ານອາດຈະເຮັດການກະທໍາໃດໜຶ່ງຊໍ້າຄືນໜ້ານີ້ທີ່ໄດ້ເຮັດຜ່ານມາແລ້ວ.</translation>
-<translation id="7550637293666041147">ຊື່ຜູ້ໃຊ້ອຸປະກອນ ແລະ ຊື່ຜູ້ໃຊ້ Chrome ຂອງທ່ານ</translation>
+<translation id="7550637293666041147">ຊື່ຜູ້ໃຊ້ອຸປະກອນ ແລະ ຊື່ຜູ້ໃຊ້ Mises ຂອງທ່ານ</translation>
 <translation id="755279583747225797">ເປີດໃຊ້ການທົດລອງໃຊ້ຢູ່</translation>
 <translation id="7552846755917812628">ລອງຄຳແນະນຳຕໍ່ໄປນີ້:</translation>
 <translation id="7554475479213504905">ໂຫຼດໃໝ່ ແລະ ຢືນຢັນສະແດງ</translation>
 <translation id="7554791636758816595">ແຖບ​ໃຫມ່</translation>
 <translation id="7559278538486662777">ບໍ່ສາມາດປັບຂະໜາດແອັບນີ້ໄດ້.</translation>
-<translation id="7564049878696755256">ທ່ານສາມາດສູນເສຍການເຂົ້າເຖິງບັນຊີ <ph name="ORG_NAME" /> ຂອງທ່ານ ຫຼື ປະສົບກັບການຖືກລັກໃຊ້ຕົວຕົນ. Chrome ຂໍແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
+<translation id="7564049878696755256">ທ່ານສາມາດສູນເສຍການເຂົ້າເຖິງບັນຊີ <ph name="ORG_NAME" /> ຂອງທ່ານ ຫຼື ປະສົບກັບການຖືກລັກໃຊ້ຕົວຕົນ. Mises ຂໍແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
 <translation id="7567204685887185387">ເຊີບເວີນີ້ບໍ່ສາມາດພິສູດໄດ້ວ່າ ມັນແມ່ນ <ph name="DOMAIN" />; ໃບຢັ້ງຢືນຄວາມປອດໄພຂອງມັນອາດຈະໄດ້ຮັບການອອກໃຫ້ແບບຫຼອກລວງ. ອັນນີ້ອາດຈະເຮັດໃຫ້ເກີດມີການປັບຕັ້ງຄ່າຜິດ ຫຼືຜູ້ໂຈມຕີອາດຈະດັກເອົາການເຊື່ອມຕໍ່ຂອງທ່ານ.</translation>
 <translation id="7569761772822664555">ປຸ່ມຈັດການໂປຣແກຣມຊອກຫາ, ກົດ Enter ເພື່ອຈັດການໂປຣແກຣມຊອກຫາ ແລະ ການຊອກຫາເວັບໄຊເລີ່ມຕົ້ນຂອງທ່ານ</translation>
-<translation id="7569952961197462199">ເອົາ​ບັດ​ເຄ​ຣ​ດິດ​ອອກ​ໄປ​ຈາກ Chrome ບໍ?</translation>
+<translation id="7569952961197462199">ເອົາ​ບັດ​ເຄ​ຣ​ດິດ​ອອກ​ໄປ​ຈາກ Mises ບໍ?</translation>
 <translation id="7569983096843329377">ສີ​ດໍາ</translation>
 <translation id="7575207903026901870">ລຶບປຸ່ມການແນະນຳອອກ, ກົດ Enter ເພື່ອລຶບການແນະນຳນີ້ອອກ</translation>
 <translation id="7578104083680115302">ຈ່າຍຢ່າງວ່ອງໄວຢູ່ໃນເວັບໄຊ ແລະແອັບຯໃນທຸກອຸປະກອນທີ່ໃຊ້ບັດທີ່ທ່ານບັນທຶກນຳ Google.</translation>
@@ -2039,13 +2039,13 @@
 <translation id="7600965453749440009">ຢ່າແປ <ph name="LANGUAGE" /></translation>
 <translation id="7610193165460212391">ຄ່າຢູ່ນອກເຂດ <ph name="VALUE" /> .</translation>
 <translation id="7613889955535752492">ໝົດອາຍຸ: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
-<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນກົດ Enter ເພື່ອເບິ່ງ ແລະ ຈັດການລະຫັດຜ່ານຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
-<translation id="7616645509853975347">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານໄດ້ເປີດ Chrome Enterprise Connectors ໃນໂປຣແກຣມທ່ອງເວັບຂອງທ່ານແລ້ວ. ເຄື່ອງມືເຊື່ອມຕໍ່ເຫຼົ່ານີ້ມີສິດເຂົ້າເຖິງບາງຂໍ້ມູນຂອງທ່ານໄດ້.</translation>
+<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນກົດ Enter ເພື່ອເບິ່ງ ແລະ ຈັດການລະຫັດຜ່ານຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
+<translation id="7616645509853975347">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານໄດ້ເປີດ Mises Enterprise Connectors ໃນໂປຣແກຣມທ່ອງເວັບຂອງທ່ານແລ້ວ. ເຄື່ອງມືເຊື່ອມຕໍ່ເຫຼົ່ານີ້ມີສິດເຂົ້າເຖິງບາງຂໍ້ມູນຂອງທ່ານໄດ້.</translation>
 <translation id="7619838219691048931">ແຜ່ນວຽກສຸດທ້າຍ</translation>
 <translation id="7625242817712715120">ນະໂຍບາຍຜູ້ເບິ່ງແຍງລະບົບບໍ່ແນະນຳໃຫ້ພິມເນື້ອຫານີ້</translation>
 <translation id="762844065391966283">ເທື່ອລະລາຍການ</translation>
 <translation id="7633909222644580952">ລາຍງານຂໍ້ມູນປະສິດທິພາບ ແລະ ການຂັດຂ້ອງ</translation>
-<translation id="7637571805876720304">ເອົາ​ບັດ​ເຄ​ຣ​ດິດ​ອອກ​​ຈາກ Chromium ບໍ?</translation>
+<translation id="7637571805876720304">ເອົາ​ບັດ​ເຄ​ຣ​ດິດ​ອອກ​​ຈາກ Mises ບໍ?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{ບໍ່ມີ}=1{ລະຫັດຜ່ານ 1 ລາຍການໃນບັນຊີຂອງທ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />)}other{ລະຫັດຜ່ານ # ລາຍການໃນບັນຊີຂອງທ່ານ (ສຳລັບ <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">ຜອດອະນຸກຳ</translation>
 <translation id="7639968568612851608">ສີເທົາເຂັ້ມ</translation>
@@ -2064,7 +2064,7 @@
 <translation id="7669907849388166732">{COUNT,plural, =1{ຄຳສັ່ງທີ່ໃຊ້ກັບຂໍ້ມູນແມ່ນຖືກໝາຍທຸງວ່າເປັນຄວາມລັບ (1 ຄຳສັ່ງຕັ້ງແຕ່ເຂົ້າສູ່ລະບົບມາ). <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" />}other{ຄຳສັ່ງທີ່ໃຊ້ກັບຂໍ້ມູນແມ່ນຖືກໝາຍທຸງວ່າເປັນຄວາມລັບ (# ຄຳສັ່ງຕັ້ງແຕ່ເຂົ້າສູ່ລະບົບມາ). <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" />}}</translation>
 <translation id="7673278391011283842">ກ່ອງຈົດໝາຍ 6</translation>
 <translation id="7676643023259824263">ຊອກຫາຂໍ້ຄວາມໃນຄລິບບອດ, <ph name="TEXT" /></translation>
-<translation id="7679367271685653708">ເບິ່ງ ແລະ ຈັດການປະຫວັດການທ່ອງເວັບຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="7679367271685653708">ເບິ່ງ ແລະ ຈັດການປະຫວັດການທ່ອງເວັບຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="7682287625158474539">ການຈັດສົ່ງ</translation>
 <translation id="7687186412095877299">ປະກອບຂໍ້ມູນແບບຟອມການຈ່າຍເງິນດ້ວຍວິທີການຈ່າຍເງິນທີ່ບັນທຶກໄວ້ຂອງທ່ານ</translation>
 <translation id="7687305263118037187">ການລອງໃໝ່ໝົດເວລາ</translation>
@@ -2084,7 +2084,7 @@
 <translation id="7740996059027112821">ມາດ​ຕະ​ຖານ</translation>
 <translation id="77424286611022110">ເວັບໄຊນີ້ສະແດງໂຄສະນາທີ່ບຸກຮຸກ ຫຼື ເຮັດໃຫ້ເຂົ້າໃຈຜິດ. <ph name="LEARN_MORE_LINK_TEXT" /></translation>
 <translation id="774634243536837715">ບລັອກເນື້ອຫາອັນຕະລາຍແລ້ວ.</translation>
-<translation id="7751971323486164747">ປັບແຕ່ງຟອນ ແລະ ແບບອັກສອນໃນ Chrome</translation>
+<translation id="7751971323486164747">ປັບແຕ່ງຟອນ ແລະ ແບບອັກສອນໃນ Mises</translation>
 <translation id="7752995774971033316">ບໍ່ໄດ້ຈັດການ</translation>
 <translation id="7755624218968747854">ມ້ວນຫຼັກ</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2108,7 +2108,7 @@
 <translation id="7805571567667010077">ຈັດການໂດຍອົງການຂອງທ່ານ</translation>
 <translation id="7805768142964895445">ສະ​ຖາ​ນະ​</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">ເອົາ​ການ​ແນະ​ນຳ​ແບບ​ຟອມ​ອອກ​ໄປ​ຈາກ Chrome ບໍ?</translation>
+<translation id="7813600968533626083">ເອົາ​ການ​ແນະ​ນຳ​ແບບ​ຟອມ​ອອກ​ໄປ​ຈາກ Mises ບໍ?</translation>
 <translation id="781440967107097262">ແບ່ງປັນຄລິບບອດບໍ?</translation>
 <translation id="7815407501681723534">ພົບ <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> ສຳລັບ '<ph name="SEARCH_STRING" />'</translation>
 <translation id="782125616001965242">ສະແດງຂໍ້ມູນກ່ຽວກັບເວັບໄຊນີ້</translation>
@@ -2139,8 +2139,8 @@
 <translation id="7942349550061667556">ສີ​ແດງ</translation>
 <translation id="7943893128817522649">ສາມາດຂໍດາວໂຫຼດຫຼາຍໄຟລ໌ໂດຍອັດຕະໂນມັດໄດ້</translation>
 <translation id="7947285636476623132">ກວດເບິ່ງປີໝົດອາຍຸຂອງທ່ານ ແລະ ລອງອີກຄັ້ງ</translation>
-<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອສຶກສາກ່ຽວກັບຄຸນສົມບັດ Chrome</translation>
-<translation id="7950027195171824198">ຈັດການການຕັ້ງຄ່າຄຸກກີ້ຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອສຶກສາກ່ຽວກັບຄຸນສົມບັດ Mises</translation>
+<translation id="7950027195171824198">ຈັດການການຕັ້ງຄ່າຄຸກກີ້ຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="7951415247503192394">(32-ບິດ)</translation>
 <translation id="7953569069500808819">ຫຍິບຂອບເທິງສຸດ</translation>
 <translation id="7956713633345437162">ບຸກມາກສ໌ມື​ຖື</translation>
@@ -2154,7 +2154,7 @@
 <translation id="7977538094055660992">ອຸປະກອນເຈ້ຍອອກ</translation>
 <translation id="7977894662897852582">Edp</translation>
 <translation id="798134797138789862">ສາມາດຂໍໃຊ້ອຸປະກອນເວີຊົວ ຣິອາລິຕີ ແລະ ຂໍ້ມູນ</translation>
-<translation id="7984945080620862648">ທ່ານບໍ່ສາມາດເຂົ້າເບິ່ງ <ph name="SITE" /> ໄດ້ດຽວນີ້ ເພາະວ່າເວັບໄຊທ໌ໄດ້ສົ່ງການຢັ້ງຢືນລົບກວນທີ່ Chrome ບໍ່ສາມາດປະມວນຜົນໄດ້. ໂດຍປົກກະຕິນັ້ນ ຄວາມຂັດຂ້ອງຂອງເຄືອຂ່າຍ ແລະການໂຈມຕີເຄືອຂ່າຍຈະຊົ່ວຄາວເທົ່ານັ້ນ, ດັ່ງນັ້ນ ໜ້ານີ້ອາດຈະກັບມາໃຊ້ງານໄດ້ໃນພາຍຫຼັງ.</translation>
+<translation id="7984945080620862648">ທ່ານບໍ່ສາມາດເຂົ້າເບິ່ງ <ph name="SITE" /> ໄດ້ດຽວນີ້ ເພາະວ່າເວັບໄຊທ໌ໄດ້ສົ່ງການຢັ້ງຢືນລົບກວນທີ່ Mises ບໍ່ສາມາດປະມວນຜົນໄດ້. ໂດຍປົກກະຕິນັ້ນ ຄວາມຂັດຂ້ອງຂອງເຄືອຂ່າຍ ແລະການໂຈມຕີເຄືອຂ່າຍຈະຊົ່ວຄາວເທົ່ານັ້ນ, ດັ່ງນັ້ນ ໜ້ານີ້ອາດຈະກັບມາໃຊ້ງານໄດ້ໃນພາຍຫຼັງ.</translation>
 <translation id="79859296434321399">ເພື່ອເບິ່ງເນື້ອຫາອາກິວເມັນ ຣີອາລິຕີ, ກະລຸນາຕິດຕັ້ງ ARCore ກ່ອນ</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">ຫບິບເຫຼັ້ມ</translation>
@@ -2179,7 +2179,7 @@
 <translation id="8052898407431791827">ສຳເນົາໃສ່ຄລິບບອດແລ້ວ</translation>
 <translation id="8057711352706143257">"<ph name="SOFTWARE_NAME" />" ບໍ່ຖືກກຳນົດຄ່າຢ່າງຖືກຕ້ອງ. ໂດຍປົກກະຕິແລ້ວການຖອນຕິດຕັ້ງ "<ph name="SOFTWARE_NAME" />" ຈະແກ້ໄຂບັນຫາໄດ້. <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">ຂໍອະໄພ, ມີບາງຢ່າງຜິດພາດ.</translation>
-<translation id="8067872629359326442">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. Chromium ສາມາດຊ່ວຍໄດ້. ເພື່ອປ່ຽນລະຫັດຜ່ານຂອງທ່ານ ແລະ ແຈ້ງບອກ Google ວ່າບັນຊີຂອງທ່ານອາດຈະມີຄວາມສ່ຽງ, ກະລຸນາຄລິກປົກປ້ອງບັນຊີ.</translation>
+<translation id="8067872629359326442">ທ່ານຫາກໍປ້ອນລະຫັດຜ່ານຂອງທ່ານໃສ່ເວັບໄຊຫຼອກລວງ. Mises ສາມາດຊ່ວຍໄດ້. ເພື່ອປ່ຽນລະຫັດຜ່ານຂອງທ່ານ ແລະ ແຈ້ງບອກ Google ວ່າບັນຊີຂອງທ່ານອາດຈະມີຄວາມສ່ຽງ, ກະລຸນາຄລິກປົກປ້ອງບັນຊີ.</translation>
 <translation id="8070439594494267500">ໄອຄອນແອັບ</translation>
 <translation id="8074253406171541171">10x13 (ຊອງຈົດໝາຍ)</translation>
 <translation id="8075736640322370409">ສ້າງ Google Sheet ໃໝ່ໄດ້ຢ່າງວ່ອງໄວ</translation>
@@ -2201,7 +2201,7 @@
 <translation id="810875025413331850">ບໍ່ພົບອຸປະກອນທີ່ຢູ່ໃກ້ຄຽງ.</translation>
 <translation id="8116925261070264013">ປິດສຽງແລ້ວ</translation>
 <translation id="8118489163946903409">ວິທີການຈ່າຍເງິນ</translation>
-<translation id="8124639700796374294">ປຸ່ມປັບແຕ່ງ Chrome, ກົດ Enter ເພື່ອປັບແຕ່ງໜ້າຕາໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ</translation>
+<translation id="8124639700796374294">ປຸ່ມປັບແຕ່ງ Mises, ກົດ Enter ເພື່ອປັບແຕ່ງໜ້າຕາໂປຣແກຣມທ່ອງເວັບຂອງທ່ານ</translation>
 <translation id="8127301229239896662">"<ph name="SOFTWARE_NAME" />" ບໍ່ໄດ້ຖືກຕິດຕັ້ງຢ່າງຖືກຕ້ອງໃນຄອມພິວເຕີ ຫຼື ເຄືອຂ່າຍຂອງທ່ານ. ກະລຸນາຮ້ອງຂໍໃຫ້ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານແກ້ໄຂບັນຫານີ້.</translation>
 <translation id="8131740175452115882">ຢືນ​ຢັນ</translation>
 <translation id="8148608574971654810">ເວີຊັນ PDF:</translation>
@@ -2209,7 +2209,7 @@
 <translation id="8150722005171944719">ໄຟລ໌ຢູ່ທີ່ <ph name="URL" /> ບໍ່ສາມາດອ່ານໄດ້. ມັນອາດຈະຖືກເອົາອອກໄປ, ຍ້າຍໜີ,​ຫຼື ການອະນຸຍາດໄຟລ໌ອາດຈະກໍາລັງ​ປ້ອງ​ກັນການການເຂົ້າຫາ.</translation>
 <translation id="8157295877370077682">ອອກຈາກເວັບໄຊ</translation>
 <translation id="8163866351304776260">ເຈາະຮູຢູ່ເບື້ອງຍ້າຍສີ່ຮູ</translation>
-<translation id="8175796834047840627">Chrome ກຳລັງສະເໜີບັນທຶກບັດຂອງທ່ານໄວ້ໃນບັນຊີ Google ຂອງທ່ານ ເພາະວ່າທ່ານເຂົ້າສູ່ລະບົບຢູ່. ທ່ານສາມາດປ່ຽນລັກສະນະການນໍາໃຊ້ນີ້ໄດ້ໃນການຕັ້ງຄ່າ.</translation>
+<translation id="8175796834047840627">Mises ກຳລັງສະເໜີບັນທຶກບັດຂອງທ່ານໄວ້ໃນບັນຊີ Google ຂອງທ່ານ ເພາະວ່າທ່ານເຂົ້າສູ່ລະບົບຢູ່. ທ່ານສາມາດປ່ຽນລັກສະນະການນໍາໃຊ້ນີ້ໄດ້ໃນການຕັ້ງຄ່າ.</translation>
 <translation id="8176440868214972690">ຜູ້ເບິ່ງແຍງລະບົບຂອງອຸປະກອນນີ້ໄດ້ສົ່ງຂໍ້ມູນຈຳນວນໜຶ່ງໄປໃຫ້ເວັບໄຊຕໍ່ໄປນີ້ແລ້ວ ເຊັ່ນ: ການຕັ້ງຄ່າ ຫຼື ນະໂຍບາຍ.</translation>
 <translation id="8184538546369750125">ໃຊ້ຄ່າມາດຕະຖານທົ່ວ​ໂລກ (ອະນຸຍາດ​)</translation>
 <translation id="8190193880870196235">ຈັດການໂດຍສ່ວນຂະຫຍາຍ</translation>
@@ -2246,7 +2246,7 @@
 <translation id="8280630997017109758">ຖາດ 11</translation>
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8282947398454257691">ຮູ້​ຈັກ​ຕົວ​ລະ​ບຸ​ອຸ​ປະ​ກອນ​ສະ​ເພາະ​ຂອງ​ທ່ານ</translation>
-<translation id="8284769179630993263">ຈັດການ Safe Browsing ຂອງທ່ານ ແລະ ອື່ນໆໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="8284769179630993263">ຈັດການ Safe Browsing ຂອງທ່ານ ແລະ ອື່ນໆໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="8286036467436129157">ເຂົ້າສູ່ລະບົບ</translation>
 <translation id="8288807391153049143">ສະແດງໃບຮອງຮັບ</translation>
 <translation id="8289355894181816810">ຕິດຕໍ່ຫາຜູ້ຄວບຄຸມເຄືອຂ່າຍຂອງທ່ານ ຖ້າທ່ານບໍ່ແນ່ໃຈວ່າ ອັນນີ້ໝາຍຄວາມວ່າຫຍັງ.</translation>
@@ -2261,7 +2261,7 @@
 <translation id="8307888238279532626">ແອັບທີ່ຕິດຕັ້ງ ແລະ ມີການນຳໃຊ້ພວກມັນເລື້ອຍໆສໍ່າໃດ</translation>
 <translation id="831997045666694187">ຕອນແລງ</translation>
 <translation id="8321476692217554900">ການແຈ້ງເຕືອນ</translation>
-<translation id="8328484624016508118">ຫຼັງຈາກການປິດແຖບ​ບໍ່ເປີດເຜີຍຕົວຕົນທັງໝົດແລ້ວ, Chrome ຈະລຶບລ້າງ:
+<translation id="8328484624016508118">ຫຼັງຈາກການປິດແຖບ​ບໍ່ເປີດເຜີຍຕົວຕົນທັງໝົດແລ້ວ, Mises ຈະລຶບລ້າງ:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />ການເຄື່ອນໄຫວການທ່ອງເວັບຂອງທ່ານຈາກອຸປະກອນນີ້<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />ປະ​ຫວັດ​ການ​ຊອກຫາຂອງທ່ານຈາກອຸປະກອນນີ້<ph name="END_LIST_ITEM" />
@@ -2286,7 +2286,7 @@
 <translation id="8381674639488873545">ການຮຽກເກັບເງິນເຫຼົ່ານີ້ອາດຈະເກັບຄັ້ງດຽວ ຫຼື ເປັນປະຈຳຫຼາຍຄັ້ງ ແລະ ອາດຈະບໍ່ເຫັນໄດ້ຈະແຈ້ງ. <ph name="BEGIN_LINK" />ຢືນຢັນໃຫ້ສະແດງ<ph name="END_LINK" /></translation>
 <translation id="8390725133630534698">ນະໂຍບາຍຂອງຜູ້ເບິ່ງແຍງລະບົບໄດ້ບລັອກການແບ່ງປັນຈາກ <ph name="ORIGIN_NAME" /> ກັບ <ph name="VM_NAME" /> ໄວ້ແລ້ວ</translation>
 <translation id="8398790343843005537">ຊອກຫາໂທລະສັບຂອງທ່ານ</translation>
-<translation id="8405579342203358118">ຈັດການວ່າຂໍ້ມູນໃດທີ່ທ່ານຈະຊິ້ງຂໍ້ມູນໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="8405579342203358118">ຈັດການວ່າຂໍ້ມູນໃດທີ່ທ່ານຈະຊິ້ງຂໍ້ມູນໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="8409413588194360210">ຕົວຈັດການການຈ່າຍເງິນ</translation>
 <translation id="8412145213513410671">ການຂັດຂ້ອງ (<ph name="CRASH_COUNT" />)</translation>
 <translation id="8412392972487953978">ທ່ານຕ້ອງປ້ອນລະຫັດຜ່ານອັນດຽວກັນສອງຄັ້ງ.</translation>
@@ -2295,7 +2295,7 @@
 <ph name="DEBUG_INFO" /></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL" /> <ph name="SECOND_LABEL" /> <ph name="THIRD_LABEL" /></translation>
 <translation id="8428213095426709021">ການ​ຕັ້ງຄ່າ</translation>
-<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການຕັ້ງຄ່າຄຸກກີ້ຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab ຈາກນັ້ນກົດ Enter ເພື່ອຈັດການການຕັ້ງຄ່າຄຸກກີ້ຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="8433057134996913067">ນີ້ຈະນຳທ່ານອອກຈາກລະບົບເວັບໄຊສ່ວນໃຫຍ່.</translation>
 <translation id="8437238597147034694">ປ່ຽນກັບຄືນຄໍາສັ່ງຍ້າຍ</translation>
 <translation id="8438476240229491014">ຈື່ການຕັ້ງຄ່ານີ້ໄວ້</translation>
@@ -2308,18 +2308,18 @@
 <translation id="8473863474539038330">ທີ່ຢູ່ ແລະ ອື່ນໆອີກ</translation>
 <translation id="8474910779563686872">ສະແດງລາຍລະອຽດຂອງນັກພັດທະນາ</translation>
 <translation id="8479754468255770962">ໜີບກະຫຼັບເຟີຢູ່ລຸ່ມສຸດເບື້ອງຊ້າຍ</translation>
-<translation id="8483780878231876732">ເພື່ອໃຊ້ບັດຕ່າງໆຈາກບັນຊີ Google ຂອງທ່ານ, ໃຫ້ເຂົ້າສູ່ລະບົບ Chrome</translation>
+<translation id="8483780878231876732">ເພື່ອໃຊ້ບັດຕ່າງໆຈາກບັນຊີ Google ຂອງທ່ານ, ໃຫ້ເຂົ້າສູ່ລະບົບ Mises</translation>
 <translation id="8488350697529856933">ນໍາໃຊ້ກັບ</translation>
 <translation id="8490137692873530638">ສະແຕັກເກີ້ 10</translation>
 <translation id="8493948351860045254">ຂະຫຍາຍພື້ນທີ່ຫວ່າງ</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> ໃຊ້ເວລາດົນເກີນໄປໃນການຕອບສະໜອງ.</translation>
-<translation id="8503559462189395349">ລະຫັດຜ່ານຂອງ Chrome</translation>
+<translation id="8503559462189395349">ລະຫັດຜ່ານຂອງ Mises</translation>
 <translation id="8503813439785031346">ຊື່​ຜູ້​ໃຊ້</translation>
 <translation id="8507227106804027148">ແຖວຄໍາສັ່ງ</translation>
 <translation id="8508648098325802031">ໄອຄອນຊອກຫາ</translation>
 <translation id="8511402995811232419">ຈັດການຄຸກກີ້</translation>
-<translation id="8522552481199248698">Chrome ສາມາດຊ່ວຍທ່ານປົກປ້ອງບັນຊີ Google ຂອງທ່ານ ແລະ ປ່ຽນລະຫັດຜ່ານຂອງທ່ານໄດ້.</translation>
-<translation id="8530813470445476232">ລຶບລ້າງປະຫວັດການທ່ອງເວັບ, ຄຸກກີ້, ແຄສ ແລະ ອື່ນໆອີກໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="8522552481199248698">Mises ສາມາດຊ່ວຍທ່ານປົກປ້ອງບັນຊີ Google ຂອງທ່ານ ແລະ ປ່ຽນລະຫັດຜ່ານຂອງທ່ານໄດ້.</translation>
+<translation id="8530813470445476232">ລຶບລ້າງປະຫວັດການທ່ອງເວັບ, ຄຸກກີ້, ແຄສ ແລະ ອື່ນໆອີກໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="8533619373899488139">ເຂົ້າຫາ &lt;strong&gt;chrome://policy&lt;/strong&gt; ເພື່ອເບິ່ງລາຍຊື່ຂອງ URL ທີ່ຖືກບລັອກໄວ້ ແລະ ນະໂຍບາຍອື່ນທີ່ຜູ້ຄວບຄຸມລະບົບຂອງທ່ານບັງຄັບໃຊ້.</translation>
 <translation id="8539500321752640291">ອະນຸຍາດ 2 ຢ່າງບໍ?</translation>
 <translation id="8541158209346794904">ອຸປະກອນ Bluetooth</translation>
@@ -2332,7 +2332,7 @@
 <translation id="8558485628462305855">ເພື່ອເບິ່ງເນື້ອຫາອາກິວເມັນ ຣີອາລິຕີ, ກະລຸນາອັບເດດ ARCore</translation>
 <translation id="8559762987265718583">ບໍ່​ສາ​ມາດ​ຕັ້ງ​ການ​ເຊື່ອມ​ຕໍ່​ສ່ວນ​ຕົວ​ກັບ <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> ໄດ້ ເພາະ​ວ່າ​ວັນ​ທີ ແລະ​ເວ​ລາ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ (<ph name="DATE_AND_TIME" />) ບໍ່​ຖືກ​ຕ້ອງ.</translation>
 <translation id="8564182942834072828">ເອກະສານແຍກກັນ/ບໍ່ໄດ້ຈັດຊຸດສຳເນົາ</translation>
-<translation id="8564985650692024650">Chromium ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານ <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> ຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
+<translation id="8564985650692024650">Mises ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານ <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> ຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
 <translation id="8574899947864779331">ໃຊ້ Touch ID ເພື່ອຢືນຢັນບັດໄດ້ໄວຂຶ້ນ</translation>
 <translation id="8577348305244205642">ບໍ່ສາມາດໃຊ້ບັດສະເໝືອນໄດ້</translation>
 <translation id="858637041960032120">ເພີ່ມ​ເບີໂທລະ​ສັບ</translation>
@@ -2358,7 +2358,7 @@
 <translation id="868922510921656628">ໜ້າຕໍ່ຊຸດ</translation>
 <translation id="869891660844655955">ວັນ​ຫມົດ​ອາ​ຍຸ</translation>
 <translation id="8699041776323235191">ອຸປະກອນ HID</translation>
-<translation id="8699899385443889493">ປຸ່ມຫຼິ້ນເກມ Chrome Dino, ກົດ Enter ເພື່ອຫຼິ້ນເກມ Dino Run ໃນ Chrome</translation>
+<translation id="8699899385443889493">ປຸ່ມຫຼິ້ນເກມ Mises Dino, ກົດ Enter ເພື່ອຫຼິ້ນເກມ Dino Run ໃນ Mises</translation>
 <translation id="8703575177326907206">ການເຊື່ອມຕໍ່ຂອງທ່ານກັບ <ph name="DOMAIN" /> ບໍ່ໄດ້ຖືກໃສ່ລະຫັດໄວ້.</translation>
 <translation id="8705331520020532516">ເລກລໍາດັບ</translation>
 <translation id="8708134712139312373">ສາມາດຂໍເຊື່ອມຕໍ່ຫາອຸປະກອນ Bluetooth</translation>
@@ -2371,10 +2371,10 @@
 <translation id="8725066075913043281">ລອງໃໝ່ອີກ</translation>
 <translation id="8726549941689275341">ຂະຫນາດຫນ້າ:</translation>
 <translation id="8730621377337864115">ສໍາເລັດ</translation>
-<translation id="8731544501227493793">ປຸ່ມຈັດການລະຫັດຜ່ານ, ກົດ Enter ເພື່ອເບິ່ງ ແລະ ຈັດການລະຫັດຜ່ານຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="8731544501227493793">ປຸ່ມຈັດການລະຫັດຜ່ານ, ກົດ Enter ເພື່ອເບິ່ງ ແລະ ຈັດການລະຫັດຜ່ານຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="8734529307927223492"><ph name="DEVICE_TYPE" /> ຂອງທ່ານຖືກຈັດການໂດຍ <ph name="MANAGER" /></translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນ Enter ເພື່ອເປີດໜ້າຈໍທີ່ບໍ່ເປີດເຜີຍຕົວຕົນໃໝ່ເພື່ອຊອຫາແບບເປັນສ່ວນຕົວ</translation>
-<translation id="8738058698779197622">ເພື່ອ​ຕັ້ງ​ການ​ເຊື່ອມ​ຕໍ່​ທີ່​ປອດ​ໄພ, ຈຳ​ເປັນ​ຕ້ອງ​ໄດ້​ຕັ້ງ​ໂມງ​ຂອງ​ທ່ານ​ໃຫ້​ຖືກ​ຕ້ອງ. ອັນ​ນີ້​ເພາະ​ວ່າ​ໃບ​ຢັ້ງ​ຢືນ​ທີ່​ເວັບ​ໄຊ​ທ໌​ໃຊ້​ລະ​ບຸ​ຕົວ​ມັນ​ເອງ​ແມ່ນ​ຈະ​ໃຊ້​ໄດ້​ເປັນ​ໄລ​ຍະ​ເວ​ລາ​ສະ​ເພາະ​ເທົ່າ​ນັ້ນ. ເນື່ອງ​ຈາກ​ໂມງ​ຂອງ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ​ບໍ່​ຖືກ​ຕ້ອງ, Chromium ບໍ່​ສາ​ມາດກວດ​ສອບ​ໃບ​ຢັ້ງ​ຢືນ​ເຫຼົ່າ​ນີ້​ໄດ້.</translation>
+<translation id="8738058698779197622">ເພື່ອ​ຕັ້ງ​ການ​ເຊື່ອມ​ຕໍ່​ທີ່​ປອດ​ໄພ, ຈຳ​ເປັນ​ຕ້ອງ​ໄດ້​ຕັ້ງ​ໂມງ​ຂອງ​ທ່ານ​ໃຫ້​ຖືກ​ຕ້ອງ. ອັນ​ນີ້​ເພາະ​ວ່າ​ໃບ​ຢັ້ງ​ຢືນ​ທີ່​ເວັບ​ໄຊ​ທ໌​ໃຊ້​ລະ​ບຸ​ຕົວ​ມັນ​ເອງ​ແມ່ນ​ຈະ​ໃຊ້​ໄດ້​ເປັນ​ໄລ​ຍະ​ເວ​ລາ​ສະ​ເພາະ​ເທົ່າ​ນັ້ນ. ເນື່ອງ​ຈາກ​ໂມງ​ຂອງ​ອຸ​ປະ​ກອນ​ຂອງ​ທ່ານ​ບໍ່​ຖືກ​ຕ້ອງ, Mises ບໍ່​ສາ​ມາດກວດ​ສອບ​ໃບ​ຢັ້ງ​ຢືນ​ເຫຼົ່າ​ນີ້​ໄດ້.</translation>
 <translation id="8740359287975076522">ບໍ່ສາມາດຊອກພົບ &lt;abbr id="dnsDefinition"&gt;ທີ່ຢູ່ DNS&lt;/abbr&gt; ຂອງ <ph name="HOST_NAME" /> ໄດ້. ກຳລັງວິເຄາະບັນຫາຢູ່.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> ແມ່ນລະຫັດສຳລັບ <ph name="ORIGIN" /> ຂອງທ່ານ</translation>
 <translation id="874918643257405732">ບຸກມາກແຖບນີ້</translation>
@@ -2387,14 +2387,14 @@
 <translation id="8766943070169463815">ເປີດຊີດການພິສູດຢືນຢັນຂໍ້ມູນການເຂົ້າສູ່ລະບົບການຈ່າຍເງິນແບບປອດໄພແລ້ວ</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">ເຮັດຄືນຄໍາສັ່ງລຶບ</translation>
-<translation id="8792621596287649091">ທ່ານສາມາດສູນເສຍການເຂົ້າເຖິງບັນຊີ <ph name="ORG_NAME" /> ຂອງທ່ານ ຫຼື ປະສົບກັບການຖືກລັກໃຊ້ຕົວຕົນ. Chromium ຂໍແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
+<translation id="8792621596287649091">ທ່ານສາມາດສູນເສຍການເຂົ້າເຖິງບັນຊີ <ph name="ORG_NAME" /> ຂອງທ່ານ ຫຼື ປະສົບກັບການຖືກລັກໃຊ້ຕົວຕົນ. Mises ຂໍແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຂອງທ່ານດຽວນີ້.</translation>
 <translation id="8792626944327216835">ໄມໂຄຣໂຟນ</translation>
-<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> ໄດ້ເປີດ Chrome Enterprise Connectors ໃນໂປຣແກຣມທ່ອງເວັບຂອງທ່ານແລ້ວ. ເຄື່ອງມືເຊື່ອມຕໍ່ເຫຼົ່ານີ້ມີສິດເຂົ້າເຖິງບາງຂໍ້ມູນຂອງທ່ານໄດ້.</translation>
+<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> ໄດ້ເປີດ Mises Enterprise Connectors ໃນໂປຣແກຣມທ່ອງເວັບຂອງທ່ານແລ້ວ. ເຄື່ອງມືເຊື່ອມຕໍ່ເຫຼົ່ານີ້ມີສິດເຂົ້າເຖິງບາງຂໍ້ມູນຂອງທ່ານໄດ້.</translation>
 <translation id="8798099450830957504">ຄ່າ​ມາດຕະຖານ</translation>
 <translation id="8798739476508189189">ກຳລັງຊອກຫາປັກທຸງໂປຣແກຣມທ່ອງເວັບບໍ? ເຂົ້າເບິ່ງ</translation>
 <translation id="8805819170075074995">ບອກລາຍການ "<ph name="LANGUAGE_ID" />": ລາຍການຖືກລະເລີຍ ເພາະວ່າມັນຮວມມີຢູ່ໃນນະໂຍບາຍ SpellcheckLanguage ນຳ.</translation>
 <translation id="8807160976559152894">ຕັດອອກຫຼັງຈາກແຕ່ລະໜ້າ</translation>
-<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນ Enter ເພື່ອອັບເດດ Chrome ຈາກການຕັ້ງຄ່າ Chrome ຂອງທ່ານ</translation>
+<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດແຖບ ຈາກນັ້ນ Enter ເພື່ອອັບເດດ Mises ຈາກການຕັ້ງຄ່າ Mises ຂອງທ່ານ</translation>
 <translation id="8820817407110198400">ບຸກມາກ</translation>
 <translation id="882338992931677877">ຊ່ອງກຳນົດເອງ</translation>
 <translation id="8834380158646307944">ປຸ່ມປິດໜ້າ​ຈໍ​ທີ່ບໍ່ເປີດເຜີຍຕົວຕົນ, ກົດ Enter ເພື່ອປິດໜ້າ​ຈໍ​ທີ່ບໍ່ເປີດເຜີຍຕົວຕົນທັງໝົດທີ່ກຳລັງເປີດຢູ່ຕອນນີ້</translation>
@@ -2402,7 +2402,7 @@
 <translation id="884264119367021077">ທີ່​ຢູ່​ຈັດສົ່ງ</translation>
 <translation id="884923133447025588">ບໍ່ພົບກົນໄກການຖອນຄືນ.</translation>
 <translation id="885730110891505394">ການແບ່ງປັນກັບ Google</translation>
-<translation id="8858065207712248076">Chrome ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານ <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> ຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
+<translation id="8858065207712248076">Mises ແນະນຳໃຫ້ຣີເຊັດລະຫັດຜ່ານ <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> ຂອງທ່ານ ຖ້າທ່ານນຳມັນມາໃຊ້ໃໝ່ໃນເວັບໄຊອື່ນ.</translation>
 <translation id="885906927438988819">ຖ້າການສະກົດຄຳຖືກຕ້ອງ, <ph name="BEGIN_LINK" />ລອງເປີດໃຊ້ Windows Network Diagnostics<ph name="END_LINK" />.</translation>
 <translation id="8866481888320382733">ການຕັ້ງຄ່ານະໂຍບາຍການກະຈາຍຜິດພາດ</translation>
 <translation id="8866928039507595380">ພັບ</translation>
@@ -2419,7 +2419,7 @@
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">ລຶບປຸ່ມການແນະນຳອອກ, ກົດ Enter ເພື່ອລຶບອອກ, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
 <translation id="8912362522468806198">ບັນຊີ Google</translation>
-<translation id="8913778647360618320">ປຸ່ມຈັດການວິທີການຈ່າຍເງິນ, ກົດ Enter ເພື່ອຈັດການການຈ່າຍເງິນ ແລະ ຂໍ້ມູນບັດເຄຣດິດໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="8913778647360618320">ປຸ່ມຈັດການວິທີການຈ່າຍເງິນ, ກົດ Enter ເພື່ອຈັດການການຈ່າຍເງິນ ແລະ ຂໍ້ມູນບັດເຄຣດິດໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="8922013791253848639">ອະນຸຍາດໂຄສະນາໃນເວັບໄຊນີ້ທຸກເທື່ອ</translation>
 <translation id="892588693504540538">ເຈາະຮູເທິງສຸດເບື້ອງຊ້າຍ</translation>
 <translation id="8931333241327730545">ທ່ານຕ້ອງການບັນທຶກບັດນີ້ໃສ່ບັນຊີ Google ຂອງທ່ານບໍ?</translation>
@@ -2438,7 +2438,7 @@
 <translation id="8978053250194585037">ເມື່ອບໍ່ດົນມານີ້ Google Safe Browsing <ph name="BEGIN_LINK" />ກວດພົບການຫຼອກເອົາຂໍ້ມູນ<ph name="END_LINK" /> ໃນ <ph name="SITE" />. ເວັບໄຊທີ່ຫຼອກເອົາຂໍ້ມູນປອມເປັນເວັບໄຊອື່ນເພື່ອຫຼອກທ່ານ.</translation>
 <translation id="8983003182662520383">ວິທີການຈ່າຍເງິນ ແລະ ທີ່ຢູ່ທີ່ໃຊ້ Google Pay</translation>
 <translation id="8983369100812962543">ຕອນນີ້ທ່ານສາມາດປັບຂະໜາດແອັບໄດ້ແລ້ວ</translation>
-<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອເບິ່ງປະຫວັດການທ່ອງເວັບຂອງທ່ານໃນ Chrome</translation>
+<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ tab ຈາກນັ້ນກົດ Enter ເພື່ອເບິ່ງປະຫວັດການທ່ອງເວັບຂອງທ່ານໃນ Mises</translation>
 <translation id="8987927404178983737">ເດືອນ</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
 <translation id="899688752321268742"><ph name="URL" /> ຕ້ອງການຮູ້ເມື່ອທ່ານກຳລັງໃຊ້ອຸປະກອນນີ້ຢູ່</translation>
@@ -2477,14 +2477,14 @@
 <translation id="9089260154716455634">ນະໂຍບາຍຊ່ວງບໍ່ຄ່ອຍໄດ້ນຳໃຊ້:</translation>
 <translation id="9095388113577226029">ພາສາເພີ່ມເຕີມ...</translation>
 <translation id="9101630580131696064">ຖາດ 1</translation>
-<translation id="9103872766612412690">ໂດຍປົກກະຕິ <ph name="SITE" /> ໃຊ້ການເຂົ້າລະຫັດເພື່ອປົກປ້ອງຂໍ້ມູນຂອງທ່ານ. ເມື່ອ Chromium ພະຍາຍາມເຊື່ອມຕໍ່ກັບ <ph name="SITE" /> ໃນເທື່ອນີ້, ເວັບໄຊໄດ້ມີການສົ່ງຂໍ້ມູນປະຈຳຕົວທີ່ຜິດປົກກະຕິ ແລະບໍ່ຖືກຕ້ອງກັບຄືນ. ນີ້ອາດຈະເກີດຂຶ້ນເມື່ອຜູ້ໂຈມຕີພະຍາຍາມປອມເປັນ <ph name="SITE" /> ຫຼື ໜ້າຈໍການເຂົ້າສູ່ລະບົບ Wi-Fi ໄດ້ຂັດຈັງຫວະການເຊື່ອມຕໍ່. ຂໍ້ມູນຂອງທ່ານຍັງປອດໄພຢູ່ເພາະວ່າ Chromium ໄດ້ຢຸດການເຊື່ອມຕໍ່ກ່ອນທີ່ຈະມີການແລກປ່ຽນຂໍ້ມູນ.</translation>
+<translation id="9103872766612412690">ໂດຍປົກກະຕິ <ph name="SITE" /> ໃຊ້ການເຂົ້າລະຫັດເພື່ອປົກປ້ອງຂໍ້ມູນຂອງທ່ານ. ເມື່ອ Mises ພະຍາຍາມເຊື່ອມຕໍ່ກັບ <ph name="SITE" /> ໃນເທື່ອນີ້, ເວັບໄຊໄດ້ມີການສົ່ງຂໍ້ມູນປະຈຳຕົວທີ່ຜິດປົກກະຕິ ແລະບໍ່ຖືກຕ້ອງກັບຄືນ. ນີ້ອາດຈະເກີດຂຶ້ນເມື່ອຜູ້ໂຈມຕີພະຍາຍາມປອມເປັນ <ph name="SITE" /> ຫຼື ໜ້າຈໍການເຂົ້າສູ່ລະບົບ Wi-Fi ໄດ້ຂັດຈັງຫວະການເຊື່ອມຕໍ່. ຂໍ້ມູນຂອງທ່ານຍັງປອດໄພຢູ່ເພາະວ່າ Mises ໄດ້ຢຸດການເຊື່ອມຕໍ່ກ່ອນທີ່ຈະມີການແລກປ່ຽນຂໍ້ມູນ.</translation>
 <translation id="9106062320799175032">ເພີ່ມທີ່ຢູ່ການຮຽກເກັບເງິນ</translation>
 <translation id="9107467864910557787">ໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຖືກຈັດໂດຍ <ph name="MANAGER" /></translation>
 <translation id="91108059142052966">ນະໂຍບາຍຂອງຜູ້ເບິ່ງແຍງລະບົບປິດການນຳໃຊ້ການແບ່ງປັນໜ້າຈໍກັບ <ph name="APPLICATION_TITLE" /> ເມື່ອມີເນື້ອຫາສະແດງຢູ່</translation>
 <translation id="9114524666733003316">ກຳລັງຢືນຢັນບັດ...</translation>
-<translation id="9114581008513152754">ໂປຣແກຣມທ່ອງເວັບນີ້ບໍ່ໄດ້ຖືກຈັດການໂດຍບໍລິສັດ ຫຼື ອົງການຈັດຕັ້ງອື່ນ. ການເຄື່ອນໄຫວໃນອຸປະກອນນີ້ອາດຈະຖືກຈັດການຢູ່ນອກ Chrome ໄດ້. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
+<translation id="9114581008513152754">ໂປຣແກຣມທ່ອງເວັບນີ້ບໍ່ໄດ້ຖືກຈັດການໂດຍບໍລິສັດ ຫຼື ອົງການຈັດຕັ້ງອື່ນ. ການເຄື່ອນໄຫວໃນອຸປະກອນນີ້ອາດຈະຖືກຈັດການຢູ່ນອກ Mises ໄດ້. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
 <translation id="9117930699067497412">ສົດໃໝ່</translation>
-<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab, ຈາກນັ້ນກົດ Enter ເພື່ອສືບຕໍ່ການສຳຫຼວດຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Chrome ຂອງທ່ານ</translation>
+<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, ກົດ Tab, ຈາກນັ້ນກົດ Enter ເພື່ອສືບຕໍ່ການສຳຫຼວດຂອງທ່ານ ແລະ ເບິ່ງການເຄື່ອນໄຫວທີ່ກ່ຽວຂ້ອງໃນປະຫວັດ Mises ຂອງທ່ານ</translation>
 <translation id="9119042192571987207">ອັບໂຫລດແລ້ວ</translation>
 <translation id="9128016270925453879">ໂຫຼດນະໂຍບາຍແລ້ວ</translation>
 <translation id="9128870381267983090">ເຊື່ອມ​ຕໍ່ກັບ​ເຄືອ​ຂ່າຍ</translation>
@@ -2495,7 +2495,7 @@
 <translation id="9148088599418889305">ເລືອກວິທີການຈັດສົ່ງ</translation>
 <translation id="9148507642005240123">ປ່ຽນ​ກັບ​ຄືນຄໍາສັ່ງແກ້ໄຂ</translation>
 <translation id="9150045010208374699">ໃຊ້​ກ້ອງ​ຖ່າຍ​ຮູບ​ຂອງ​ທ່ານ</translation>
-<translation id="9150685862434908345">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດປ່ຽນການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຈາກທາງໄກໄດ້. ການເຄື່ອນໄຫວໃນອຸປະກອນນີ້ອາດຈະຖືກຈັດການຢູ່ນອກ Chrome ໄດ້ເຊັ່ນກັນ. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
+<translation id="9150685862434908345">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດປ່ຽນການຕັ້ງຄ່າໂປຣແກຣມທ່ອງເວັບຂອງທ່ານຈາກທາງໄກໄດ້. ການເຄື່ອນໄຫວໃນອຸປະກອນນີ້ອາດຈະຖືກຈັດການຢູ່ນອກ Mises ໄດ້ເຊັ່ນກັນ. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">ອັບເດດແລ້ວ</translation>
 <translation id="9157595877708044936">ກໍາລັງ​ຕັ້ງ...</translation>
 <translation id="9158625974267017556">C6 (ຊອງຈົດໝາຍ)</translation>
@@ -2510,7 +2510,7 @@
 <translation id="9173995187295789444">ກຳລັງສະແກນຫາອຸປະກອນ Bluetooth...</translation>
 <translation id="917450738466192189">ໃບຢັ້ງຢືນຂອງເຊີບເວີໃຊ້ບໍ່ໄດ້.</translation>
 <translation id="9174917557437862841">ແຕະປຸ່ມສະຫຼັບ, ກົດ Enter ເພື່ອປ່ຽນເປັນແຖບນີ້</translation>
-<translation id="9179703756951298733">ຈັດການການຈ່າຍເງິນ ແລະ ຂໍ້ມູນບັດເຄຣດິດຂອງທ່ານໃນການຕັ້ງຄ່າ Chrome</translation>
+<translation id="9179703756951298733">ຈັດການການຈ່າຍເງິນ ແລະ ຂໍ້ມູນບັດເຄຣດິດຂອງທ່ານໃນການຕັ້ງຄ່າ Mises</translation>
 <translation id="9183302530794969518">Google Docs</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME" /> ໃຊ້ໂປຣໂຕຄໍທີ່ບໍ່ຖືກຮອງຮັບ.</translation>
 <translation id="9191834167571392248">ເຈາະຮູຢູ່ລຸ່ມສຸດເບື້ອງຊ້າຍ</translation>
@@ -2519,13 +2519,13 @@
 <translation id="920511547311754821">ບໍ່ພົບລະຫັດຂອງທ່ານບໍ? <ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE" /></translation>
 <translation id="9207861905230894330">ເພີ່ມບົດຄວາມບໍ່ສໍາເລັດ.</translation>
 <translation id="9213433120051936369">ປັບແຕ່ງຮູບຮ່າງລັກສະນະ</translation>
-<translation id="9215416866750762878">ແອັບພລິເຄຊັນໃດໜຶ່ງກຳລັງຢຸດ Chrome ຈາກການເຊື່ອມຕໍ່ກັບເວັບໄຊນີ້ຢ່າງປອດໄພ</translation>
+<translation id="9215416866750762878">ແອັບພລິເຄຊັນໃດໜຶ່ງກຳລັງຢຸດ Mises ຈາກການເຊື່ອມຕໍ່ກັບເວັບໄຊນີ້ຢ່າງປອດໄພ</translation>
 <translation id="9219103736887031265">ຮູບ</translation>
-<translation id="922152298093051471">ປັບແຕ່ງ Chrome</translation>
+<translation id="922152298093051471">ປັບແຕ່ງ Mises</translation>
 <translation id="933712198907837967">ບັດ Diners Club</translation>
 <translation id="935608979562296692">ລຶບແບບຟອມ</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">ທ່ານອາດສູນເສຍສິດເຂົ້າເຖິງບັນຊີ Google ຂອງທ່ານໄດ້. Chromium ແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຕອນນີ້ເລີຍ. ທ່ານຈະຖືກຮ້ອງຂໍໃຫ້ເຂົ້າສູ່ລະບົບ.</translation>
+<translation id="936602727769022409">ທ່ານອາດສູນເສຍສິດເຂົ້າເຖິງບັນຊີ Google ຂອງທ່ານໄດ້. Mises ແນະນຳໃຫ້ປ່ຽນລະຫັດຜ່ານຕອນນີ້ເລີຍ. ທ່ານຈະຖືກຮ້ອງຂໍໃຫ້ເຂົ້າສູ່ລະບົບ.</translation>
 <translation id="939736085109172342">ໂຟລເດີ​ໃຫມ່</translation>
 <translation id="945522503751344254">ສົ່ງ​ຄໍາ​ຄິດ​​ເຫັນ</translation>
 <translation id="945855313015696284">ກວດເບິ່ງຂໍ້ມູນຂ້າງລຸ່ມ ແລະ ລຶບບັດທີ່ໃຊ້ບໍ່ໄດ້ຕ່າງໆ</translation>

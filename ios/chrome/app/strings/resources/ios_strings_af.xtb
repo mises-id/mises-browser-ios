@@ -33,7 +33,7 @@ Jou soekenjin is <ph name="DSE_NAME" />. Sien hul instruksies om jou soekgeskied
 <translation id="1209206284964581585">Versteek vir eers</translation>
 <translation id="1219674500290482172">Kon nie aan die internet koppel nie.</translation>
 <translation id="122699739164161391">Maak alle oortjies toe</translation>
-<translation id="1229222343402087523">Soek ${searchPhrase} in Chrome</translation>
+<translation id="1229222343402087523">Soek ${searchPhrase} in Mises</translation>
 <translation id="1231733316453485619">Skakel sinkronisering aan?</translation>
 <translation id="1242044645101871359">Meld weer aan</translation>
 <translation id="1254117744268754948">Kies vouer</translation>
@@ -110,7 +110,7 @@ Jou soekenjin is <ph name="DSE_NAME" />. Sien hul instruksies om jou soekgeskied
 <translation id="1930989359703290198">Jou organisasie laat jou toe om net met sekere rekeninge aan te meld. Rekeninge wat nie toegelaat word nie, word versteek. <ph name="BEGIN_LINK" />Kom meer te wete<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Dubbeltik om te kopieer.</translation>
 <translation id="1952172573699511566">Webwerwe sal, indien moontlik, teks in jou voorkeurtaal vertoon.</translation>
-<translation id="1965935827552890526">Voltooi wat jy besig was om in jou ander oop Chrome-venster te doen.</translation>
+<translation id="1965935827552890526">Voltooi wat jy besig was om in jou ander oop Mises-venster te doen.</translation>
 <translation id="196896377990863006">Wys skakelvoorskou</translation>
 <translation id="1973912524893600642">Hou data</translation>
 <translation id="1974060860693918893">Gevorderd</translation>
@@ -138,7 +138,7 @@ Jou soekenjin is <ph name="DSE_NAME" />. Sien hul instruksies om jou soekgeskied
 <translation id="225943865679747347">Foutkode: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Voeg rekening by</translation>
 <translation id="2268044343513325586">Verfyn</translation>
-<translation id="2271351792809375263">Gebruik die wagwoorde wat jy in Chrome gestoor het in ander programme op jou toestel</translation>
+<translation id="2271351792809375263">Gebruik die wagwoorde wat jy in Mises gestoor het in ander programme op jou toestel</translation>
 <translation id="2273327106802955778">Meer-kieslys</translation>
 <translation id="2302742851632557585">Verander wagwoord op webwerf</translation>
 <translation id="2316709634732130529">Gebruik voorgestelde wagwoord</translation>
@@ -191,12 +191,12 @@ Werwe kan nie webkoekies gebruik om jou blaai-aktiwiteit op verskillende werwe t
 <translation id="2783054063075604403">Kan nie skakel skep nie</translation>
 <translation id="2800683595868705743">Verlaat oortjiewisselaar</translation>
 <translation id="2815198996063984598">2. Tik op Verstekblaaierprogram.</translation>
-<translation id="2820289420301699633">Jou administrateur het beheer oor Chrome en kan toegang tot sy data kry</translation>
+<translation id="2820289420301699633">Jou administrateur het beheer oor Mises en kan toegang tot sy data kry</translation>
 <translation id="2830972654601096923">Bestuur adresse …</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Stel Translate-instellings terug</translation>
 <translation id="2848086008667475748">Maak dit verstek in Instellings …</translation>
-<translation id="2858204748079866344">Om jou privaatheid te beskerm, sal Chrome nie outomaties jou wagwoord in hierdie veld invul nie.</translation>
+<translation id="2858204748079866344">Om jou privaatheid te beskerm, sal Mises nie outomaties jou wagwoord in hierdie veld invul nie.</translation>
 <translation id="285960592395650245">Herprobeer aflaai</translation>
 <translation id="2870560284913253234">Werf</translation>
 <translation id="2871695793448672541">Versteekte wagwoord</translation>
@@ -210,7 +210,7 @@ Werwe kan nie webkoekies gebruik om jou blaai-aktiwiteit op verskillende werwe t
 <translation id="2923448633003185837">Plak en gaan</translation>
 <translation id="292639812446257861">Merk as ongelees</translation>
 <translation id="2932085390869194046">Stel wagwoord voor …</translation>
-<translation id="2952581218264071393">1. Maak Chrome-instellings oop</translation>
+<translation id="2952581218264071393">1. Maak Mises-instellings oop</translation>
 <translation id="2958718410589002129">Wagwoorde</translation>
 <translation id="2961210776189273067">Titel</translation>
 <translation id="2964349545761222050">Blokkeer derdepartywebkoekies</translation>
@@ -257,7 +257,7 @@ Sien jou soekenjin se instruksies om jou soekgeskiedenis uit te vee, indien nodi
 <translation id="3335947283844343239">Maak toegemaakte oortjie weer oop</translation>
 <translation id="3371831930909698441">Vertaal is beskikbaar. Opsies is naby die onderkant van die skerm beskikbaar.</translation>
 <translation id="3393920035788932672">Opspringers word toegelaat</translation>
-<translation id="3399930248910934354">Maak Chrome-instellings oop</translation>
+<translation id="3399930248910934354">Maak Mises-instellings oop</translation>
 <translation id="3404744938087714423">Afmelding skakel sinkronisering af.</translation>
 <translation id="3414451675185661089">2. Tik op Passwords</translation>
 <translation id="3425644765244388016">Kaartbynaam</translation>
@@ -283,7 +283,7 @@ Sien jou soekenjin se instruksies om jou soekgeskiedenis uit te vee, indien nodi
 <translation id="3551320343578183772">Maak oortjie toe</translation>
 <translation id="3581564640715911333">Aanbieding om bladsye in ander tale te vertaal</translation>
 <translation id="3588820906588687999">Maak prent in nuwe oortjie oop</translation>
-<translation id="359441731697487922">Jy kan skakels outomaties in Chrome oopmaak deur dit jou verstekblaaierprogram te maak.
+<translation id="359441731697487922">Jy kan skakels outomaties in Mises oopmaak deur dit jou verstekblaaierprogram te maak.
       
 Volg die stappe hieronder:</translation>
 <translation id="3603009562372709545">Kopieer skakel se URL</translation>
@@ -296,7 +296,7 @@ Volg die stappe hieronder:</translation>
 <translation id="3691593122358196899">Geboekmerk in <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Bied aan om wagwoorde te stoor</translation>
 <translation id="3709582977625132201">Merk as ongelees</translation>
-<translation id="3740397331642243698">Maak die URL'e wat by Google Chrome ingevoer word in Incognitomodus oop.</translation>
+<translation id="3740397331642243698">Maak die URL'e wat by Mises ingevoer word in Incognitomodus oop.</translation>
 <translation id="3762232513783804601">Gebou vir jou iPad</translation>
 <translation id="3771033907050503522">Incognito-oortjies</translation>
 <translation id="3775743491439407556">Sinkronisering werk nie</translation>
@@ -309,7 +309,7 @@ Volg die stappe hieronder:</translation>
 <translation id="3858860766373142691">Naam</translation>
 <translation id="3892144330757387737">Jy sal jou geskiedenis hier kry</translation>
 <translation id="3897092660631435901">Kieslys</translation>
-<translation id="3913386780052199712">Aangemeld by Chrome</translation>
+<translation id="3913386780052199712">Aangemeld by Mises</translation>
 <translation id="3915450441834151894">Werfinligting</translation>
 <translation id="3922310737605261887">Soek vir gekopieerde teks</translation>
 <translation id="3928666092801078803">Kombineer my data</translation>
@@ -426,12 +426,12 @@ Jou data is met jou sinkroniseringwagfrase geënkripteer. Voer dit in om te begi
 <translation id="5062321486222145940">Installeer Google Drive</translation>
 <translation id="5083464117946352670">Kan nie lêergrootte bepaal nie.</translation>
 <translation id="5090832849094901128">As hierdie wagwoord uitgevee word, sal jou rekening op <ph name="WEBSITE" /> nie uitgevee word nie.</translation>
-<translation id="5092117651143801290">Jy kan bladsye stoor om later of vanlyn te lees. Chrome sal vra of jy lang bladsye wil stoor.</translation>
+<translation id="5092117651143801290">Jy kan bladsye stoor om later of vanlyn te lees. Mises sal vra of jy lang bladsye wil stoor.</translation>
 <translation id="5094827893301452931">Twiet is voltooi.</translation>
 <translation id="5118764316110575523">Af</translation>
 <translation id="5127805178023152808">Sinkronisering is af</translation>
 <translation id="5132942445612118989">Sinkroniseer jou wagwoorde, geskiedenis en meer op alle toestelle</translation>
-<translation id="5140288047769711648">Chrome sal hierdie wagwoord vir jou onthou. Jy hoef dit nie te onthou nie.</translation>
+<translation id="5140288047769711648">Mises sal hierdie wagwoord vir jou onthou. Jy hoef dit nie te onthou nie.</translation>
 <translation id="5150492518600715772">Stuur na jou toestel toe</translation>
 <translation id="5168414296986405587">Gebou vir iPadOS</translation>
 <translation id="5173088371991956744">Sinkronisering moet verifieer dat dit jy is</translation>
@@ -479,7 +479,7 @@ Oorgee moet ook in die Algemene afdeling van Instellings geaktiveer word, en jou
 <translation id="5659593005791499971">E-pos</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Weergawe <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Wys nou in 1 Chrome-venster}other{Wys nou in {count} Chrome-vensters}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Wys nou in 1 Mises-venster}other{Wys nou in {count} Mises-vensters}}</translation>
 <translation id="5706552126692816153">1 dag gelede aktief</translation>
 <translation id="5711039611392265845">Raadpleeg <ph name="BEGIN_LINK" />Sinkronisering- en Google-dienste<ph name="END_LINK" /> vir meer instellings wat verband hou met privaatheid, sekuriteit en data-insameling.</translation>
 <translation id="5724941645893276623">Voeg 'n nuwe oortjie by om privaat deur die web te blaai</translation>
@@ -518,7 +518,7 @@ Oorgee moet ook in die Algemene afdeling van Instellings geaktiveer word, en jou
 <translation id="5979837087407522202">Soek wagwoorde</translation>
 <translation id="5982717868370722439">Voeg bestaande data by <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Onlangs besoek</translation>
-<translation id="5988851877894965432">Maak URL'e oop in Chrome</translation>
+<translation id="5988851877894965432">Maak URL'e oop in Mises</translation>
 <translation id="6012140227487808125">Enkripteer tans …</translation>
 <translation id="6021332621416007159">Maak oop in …</translation>
 <translation id="6027945736510816438">Het jy bedoel <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ Oorgee moet ook in die Algemene afdeling van Instellings geaktiveer word, en jou
 <translation id="6136914049981179737">Sekondes gelede</translation>
 <translation id="6144589619057374135">Maak ${url} in Incognitomodus oop</translation>
 <translation id="6159839020698489198">opsioneel</translation>
-<translation id="6177442314419606057">Soek in Chrome</translation>
+<translation id="6177442314419606057">Soek in Mises</translation>
 <translation id="6184086493125982861">Wys oortjies</translation>
 <translation id="6187302354554850004">Laas gesinkroniseer: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Nie gelees nie</translation>
@@ -673,7 +673,7 @@ Terwyl jy in Incognito is, kan werwe nie webkoekies gebruik om jou blaai-aktiwit
 <translation id="7189598951263744875">Deel …</translation>
 <translation id="7192050974311852563">Begin aanteken</translation>
 <translation id="7203585745079012652">Praat antwoorde terug</translation>
-<translation id="7207383424303353046">Nuut: Maak werwe outomaties in Chrome oop deur dit jou verstekblaaierprogram te maak. <ph name="BEGIN_LINK" />Maak instellings oop<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Nuut: Maak werwe outomaties in Mises oop deur dit jou verstekblaaierprogram te maak. <ph name="BEGIN_LINK" />Maak instellings oop<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Ongeldige kaartbynaam</translation>
 <translation id="722454870747268814">Nuwe incognito-oortjie</translation>
 <translation id="7265758999917665941">Nooit vir hierdie werf nie</translation>
@@ -699,7 +699,7 @@ Terwyl jy in Incognito is, kan werwe nie webkoekies gebruik om jou blaai-aktiwit
 <translation id="7454057999980797137">Staat / Distrik</translation>
 <translation id="7456847797759667638">Maak ligging oop …</translation>
 <translation id="7464701184726199289">Dit vee gesinkroniseerde data op alle toestelle uit. Gestoorde werfinstellings sal nie uitgevee word nie en sal dalk jou blaaigewoontes weerspieël. <ph name="BEGIN_LINK" />Kom meer te wete<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Kies Chrome</translation>
+<translation id="746684838091935575">3. Kies Mises</translation>
 <translation id="7472734401283673885">Maatskappynaam</translation>
 <translation id="7473891865547856676">Nee, dankie</translation>
 <translation id="7481312909269577407">Vorentoe</translation>
@@ -727,13 +727,13 @@ Terwyl jy in Incognito is, kan werwe nie webkoekies gebruik om jou blaai-aktiwit
 <translation id="7781011649027948662">Vertaal bladsy?</translation>
 <translation id="7781069478569868053">Nuwe oortjie-bladsy</translation>
 <translation id="7781829728241885113">Gister</translation>
-<translation id="778855399387580014">Begin 'n soektog in 'n nuwe Chrome-oortjie.</translation>
+<translation id="778855399387580014">Begin 'n soektog in 'n nuwe Mises-oortjie.</translation>
 <translation id="7791543448312431591">Voeg by</translation>
 <translation id="7839985698273989086">Vanlyn bladsy</translation>
 <translation id="7840771868269352570">Die items wat jy gekies het, sal verwyder word.</translation>
 <translation id="7856733331829174190">Kon nie aflaai nie</translation>
 <translation id="7859704718976024901">Blaaigeskiedenis</translation>
-<translation id="7887198238286927132">Om jou privaatheid te beskerm, sal Chrome nie hierdie veld outomaties invul nie.</translation>
+<translation id="7887198238286927132">Om jou privaatheid te beskerm, sal Mises nie hierdie veld outomaties invul nie.</translation>
 <translation id="7911190106180361398">Jou organisasie laat jou nie toe om alles te sinkroniseer nie.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Voer wagwoorde uit …</translation>
@@ -748,14 +748,14 @@ Werwe kan webkoekies gebruik om jou blaai-aktiwiteit op verskillende werwe te si
 <translation id="7978018860671536736">3. Tik op AutoFill Passwords</translation>
 <translation id="7982789257301363584">Netwerk</translation>
 <translation id="7993619969781047893">Kenmerke op sommige werwe kan breek</translation>
-<translation id="800361585186029508">Maak die URL'e wat ingevoer is in Google Chrome oop.</translation>
+<translation id="800361585186029508">Maak die URL'e wat ingevoer is in Mises oop.</translation>
 <translation id="802154636333426148">Kon nie aflaai nie</translation>
 <translation id="8023878949384262191">Vou hierdie afdeling uit.</translation>
 <translation id="8027581147000338959">Maak in nuwe venster oop</translation>
 <translation id="804225253087497565"><ph name="BEGIN_LINK" />Soekgeskiedenis<ph name="END_LINK" /> en <ph name="BEGIN_LINK" />ander soorte aktiwiteit<ph name="END_LINK" /> sal dalk in jou Google-rekening gestoor word wanneer jy aangemeld is. Jy kan hulle enige tyd uitvee.</translation>
 <translation id="804427445359061970">Jy sal jou oortjies van ander toestelle af hier sien</translation>
 <translation id="8059533439631660104">Vou die afdeling in.</translation>
-<translation id="8065292699993359127">Maak URL'e in Chrome in Incognitomodus oop</translation>
+<translation id="8065292699993359127">Maak URL'e in Mises in Incognitomodus oop</translation>
 <translation id="806745655614357130">Hou my data apart</translation>
 <translation id="8073670137947914548">Aflaai is klaar</translation>
 <translation id="8073872304774253879">Maak soektogte en blaai-ervaring beter</translation>
@@ -804,7 +804,7 @@ Werwe kan webkoekies gebruik om jou blaai-aktiwiteit op verskillende werwe te si
 <translation id="8533670235862049797">Veiligblaai is aan</translation>
 <translation id="8534481786647257214">Google+-plasing is voltooi.</translation>
 <translation id="8548878600947630424">Vind in bladsy …</translation>
-<translation id="8574235780160508979">Chrome se diensbepalings verander op 31 Maart. <ph name="BEGIN_LINK" />Lees asseblief<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Mises se diensbepalings verander op 31 Maart. <ph name="BEGIN_LINK" />Lees asseblief<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Af</translation>
 <translation id="8590913940444621808">Moet nooit vra nie</translation>
 <translation id="8591976964826315682">Blokkeer derdepartywebkoekies in incognito</translation>
@@ -855,7 +855,7 @@ Werwe kan webkoekies gebruik om jou blaai-aktiwiteit op verskillende werwe te si
 <translation id="9081058212938299310">Dateer wagwoord op vir <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 item</translation>
 <translation id="9083838294503912307">Skakel sinkronisering aan om oor toestelle heen te sinkroniseer en personaliseer.</translation>
-<translation id="9087108903408689779">Chrome se voorgestelde wagwoord:</translation>
+<translation id="9087108903408689779">Mises se voorgestelde wagwoord:</translation>
 <translation id="9094033019050270033">Dateer wagwoord op</translation>
 <translation id="9100610230175265781">Wagwoordfrase word vereis</translation>
 <translation id="9107664647686727385">Gaan na vir gekompromitteerde wagwoorde</translation>

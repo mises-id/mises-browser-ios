@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">आतासाठी लपवा</translation>
 <translation id="1219674500290482172">इंटरनेटशी कनेक्ट करण्यात अक्षम.</translation>
 <translation id="122699739164161391">सर्व टॅब बंद करा</translation>
-<translation id="1229222343402087523">Chrome मध्ये ${searchPhrase} शोधा</translation>
+<translation id="1229222343402087523">Mises मध्ये ${searchPhrase} शोधा</translation>
 <translation id="1231733316453485619">सिंक सुरू करायचे का?</translation>
 <translation id="1242044645101871359">पुन्हा साइन इन करा</translation>
 <translation id="1254117744268754948">फोल्डर निवडा</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">तुमची संस्था तुम्हाला फक्त ठरावीक खाती वापरून साइन इन करण्याची अनुमती देते. अनुमती नसलेली खाती लपवली जातात. <ph name="BEGIN_LINK" />अधिक जाणून घ्या<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">कॉपी करण्‍यासाठी दोनदा टॅप करा.</translation>
 <translation id="1952172573699511566">वेबसाइट शक्य असताना तुमच्या प्राधान्य असलेल्‍या भाषेमध्ये मजकूर दाखवेल.</translation>
-<translation id="1965935827552890526">तुम्ही इतर उघड्या Chrome विंडोमध्ये काय करत होतात ते पूर्ण करा.</translation>
+<translation id="1965935827552890526">तुम्ही इतर उघड्या Mises विंडोमध्ये काय करत होतात ते पूर्ण करा.</translation>
 <translation id="196896377990863006">लिंक पूर्वावलोकन दाखवा</translation>
 <translation id="1973912524893600642">स्टोअर करायचा असलेला डेटा</translation>
 <translation id="1974060860693918893">प्रगत</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">एरर कोड: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">खाते जोडा</translation>
 <translation id="2268044343513325586">सुधारित करा</translation>
-<translation id="2271351792809375263">तुम्ही Chrome मध्ये सेव्‍ह केलेले पासवर्ड तुमच्‍या डिव्हाइसवरील इतर ॲप्‍समध्ये वापरा</translation>
+<translation id="2271351792809375263">तुम्ही Mises मध्ये सेव्‍ह केलेले पासवर्ड तुमच्‍या डिव्हाइसवरील इतर ॲप्‍समध्ये वापरा</translation>
 <translation id="2273327106802955778">अधिक मेनू</translation>
 <translation id="2302742851632557585">वेबसाइट वर पासवर्ड बदला</translation>
 <translation id="2316709634732130529">सुचवलेला पासवर्ड वापरा</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">लिंक तयार करता आली नाही</translation>
 <translation id="2800683595868705743">टॅब स्विचर सोडा</translation>
 <translation id="2815198996063984598">२. डीफॉल्ट ब्राउझर अ‍ॅप वर टॅप करा</translation>
-<translation id="2820289420301699633">तुमच्या अ‍ॅडमिनिस्ट्रेटरचे Chrome वर नियंत्रण आहे आणि तो त्याचा डेटा अ‍ॅक्सेस करू शकतो</translation>
+<translation id="2820289420301699633">तुमच्या अ‍ॅडमिनिस्ट्रेटरचे Mises वर नियंत्रण आहे आणि तो त्याचा डेटा अ‍ॅक्सेस करू शकतो</translation>
 <translation id="2830972654601096923">पत्ते व्यवस्थापित करा...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">भाषांतर सेटिंग्‍ज रीसेट करा</translation>
 <translation id="2848086008667475748">सेटिंग्ज मध्ये डीफॉल्ट बनवा…</translation>
-<translation id="2858204748079866344">तुमच्या गोपनीयतेचे संरक्षण करण्‍यासाठी, Chrome या भागामध्ये तुमचा पासवर्ड ऑटोफिल करणार नाही.</translation>
+<translation id="2858204748079866344">तुमच्या गोपनीयतेचे संरक्षण करण्‍यासाठी, Mises या भागामध्ये तुमचा पासवर्ड ऑटोफिल करणार नाही.</translation>
 <translation id="285960592395650245">पुन्हा डाउनलोड करण्याचा प्रयत्न करा</translation>
 <translation id="2870560284913253234">साइट</translation>
 <translation id="2871695793448672541">लपलेला, पासवर्ड</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">पेस्ट करा आणि जा</translation>
 <translation id="292639812446257861">न वाचलेले चिन्हांकित करा</translation>
 <translation id="2932085390869194046">पासवर्ड सुचवा...</translation>
-<translation id="2952581218264071393">१. Chrome सेटिंग्ज उघडा</translation>
+<translation id="2952581218264071393">१. Mises सेटिंग्ज उघडा</translation>
 <translation id="2958718410589002129">पासवर्ड</translation>
 <translation id="2961210776189273067">शीर्षक</translation>
 <translation id="2964349545761222050">तृतीय पक्ष कुकी ब्लॉक करा</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">बंद केलेले टॅब पुन्हा उघडा</translation>
 <translation id="3371831930909698441">भाषांतर उपलब्ध आहे. स्क्रीनच्या खाली पर्याय उपलब्ध आहेत.</translation>
 <translation id="3393920035788932672">पॉप-अपला अनुमती</translation>
-<translation id="3399930248910934354">Chrome सेटिंग्ज उघडा</translation>
+<translation id="3399930248910934354">Mises सेटिंग्ज उघडा</translation>
 <translation id="3404744938087714423">साइन आउट केल्यामुळे सिंक करणे बंद होईल.</translation>
 <translation id="3414451675185661089">२. पासवर्ड वर टॅप करा</translation>
 <translation id="3425644765244388016">कार्डाचे टोपणनाव</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">टॅब बंद करा</translation>
 <translation id="3581564640715911333">पेजचे अन्य भाषांमध्ये भाषांतर उपलब्ध करा</translation>
 <translation id="3588820906588687999">नवीन टॅबमध्ये इमेज उघडा</translation>
-<translation id="359441731697487922">तुम्ही Chrome ला तुमचे डीफॉल्ट ब्राउझर अ‍ॅप सेट करून त्यामध्ये आपोआप लिंक उघडू शकता.
+<translation id="359441731697487922">तुम्ही Mises ला तुमचे डीफॉल्ट ब्राउझर अ‍ॅप सेट करून त्यामध्ये आपोआप लिंक उघडू शकता.
       
 खालील पायऱ्या फॉलो करा:</translation>
 <translation id="3603009562372709545">लिंक URL कॉपी करा</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899"><ph name="FOLDER_TITLE" /> मध्ये बुकमार्क केले</translation>
 <translation id="369349502275246497">पासवर्ड सेव्ह करायचे आहेत का हे विचारा</translation>
 <translation id="3709582977625132201">न वाचलेले म्हणून मार्क करा</translation>
-<translation id="3740397331642243698">इनपुट केलेल्या URL ना Google Chrome मध्ये गुप्त मोड मध्ये उघडते.</translation>
+<translation id="3740397331642243698">इनपुट केलेल्या URL ना Mises मध्ये गुप्त मोड मध्ये उघडते.</translation>
 <translation id="3762232513783804601">तुमच्या iPad साठी तयार केलेले</translation>
 <translation id="3771033907050503522">गुप्त टॅब</translation>
 <translation id="3775743491439407556">सिंक काम करत नाही</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">नाव</translation>
 <translation id="3892144330757387737">तुमचा इतिहास तुम्हाला येथे सापडेल</translation>
 <translation id="3897092660631435901">मेनू</translation>
-<translation id="3913386780052199712">Chrome मध्ये साइन इन केले</translation>
+<translation id="3913386780052199712">Mises मध्ये साइन इन केले</translation>
 <translation id="3915450441834151894">साइट माहिती</translation>
 <translation id="3922310737605261887">कॉपी केलेला मजकूर शोधा</translation>
 <translation id="3928666092801078803">माझा डेटा एकत्र करा</translation>
@@ -427,12 +427,12 @@
 <translation id="5062321486222145940">Google ड्राइव्ह इंस्टॉल करा</translation>
 <translation id="5083464117946352670">फाईल आकार निर्धारित करू शकत नाही.</translation>
 <translation id="5090832849094901128">हा पासवर्ड हटवल्यामुळे तुमचे <ph name="WEBSITE" /> वरील खाते हटवले जाणार नाही.</translation>
-<translation id="5092117651143801290">तुम्‍ही नंतर किंवा ऑफलाइन वाचण्यासाठी पेज सेव्‍ह करू शकता. तुम्हाला मोठी पेज सेव्ह करायची आहेत का असे Chrome विचारेल.</translation>
+<translation id="5092117651143801290">तुम्‍ही नंतर किंवा ऑफलाइन वाचण्यासाठी पेज सेव्‍ह करू शकता. तुम्हाला मोठी पेज सेव्ह करायची आहेत का असे Mises विचारेल.</translation>
 <translation id="5094827893301452931">Tweet पूर्ण केले.</translation>
 <translation id="5118764316110575523">बंद</translation>
 <translation id="5127805178023152808">सिंक बंद आहे</translation>
 <translation id="5132942445612118989">सर्व डिव्हाइसवर तुमचे पासवर्ड, इतिहास आणि बरेच काही सिंक करा</translation>
-<translation id="5140288047769711648">Chrome तुमच्यासाठी हा पासवर्ड लक्षात ठेवेल. तुम्हाला तो लक्षात ठेवण्याची गरज नाही.</translation>
+<translation id="5140288047769711648">Mises तुमच्यासाठी हा पासवर्ड लक्षात ठेवेल. तुम्हाला तो लक्षात ठेवण्याची गरज नाही.</translation>
 <translation id="5150492518600715772">तुमच्या डिव्हाइसवर पाठवा</translation>
 <translation id="5168414296986405587">iPadOS साठी बिल्ड केले आहे</translation>
 <translation id="5173088371991956744">सिंकला हे तुम्हीच आहात याची पडताळणी करायची आहे</translation>
@@ -480,7 +480,7 @@
 <translation id="5659593005791499971">ई-मेल</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">आवृत्ती <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{आता एक Chrome विंडो दाखवत आहे}other{आता {count} Chrome विंडो दाखवत आहे}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{आता एक Mises विंडो दाखवत आहे}other{आता {count} Mises विंडो दाखवत आहे}}</translation>
 <translation id="5706552126692816153">एका दिवसापूर्वी ॲक्टिव्ह होते</translation>
 <translation id="5711039611392265845">गोपनीयता, सुरक्षितता आणि डेटा संग्रहाशी संबंधित अधिक सेटिंग्जसाठी, <ph name="BEGIN_LINK" />सिंक आणि Google सेवा<ph name="END_LINK" /> पहा.</translation>
 <translation id="5724941645893276623">वेब खाजगीरीत्‍या ब्राउझ करण्यासाठी नवीन टॅब जोडा</translation>
@@ -519,7 +519,7 @@
 <translation id="5979837087407522202">पासवर्ड शोधा</translation>
 <translation id="5982717868370722439">विद्यमान डेटा <ph name="USER_EMAIL" /> मध्ये जोडा.</translation>
 <translation id="5984222099446776634">अलीकडे भेट दिलेले</translation>
-<translation id="5988851877894965432">Chrome URL उघडा</translation>
+<translation id="5988851877894965432">Mises URL उघडा</translation>
 <translation id="6012140227487808125">कूटबद्ध करीत आहे...</translation>
 <translation id="6021332621416007159">यामध्ये उघडा...</translation>
 <translation id="6027945736510816438">तुम्हाला <ph name="WEBSITE" /> म्हणायचे आहे का?</translation>
@@ -540,7 +540,7 @@
 <translation id="6136914049981179737">सेकंदांपूर्वी</translation>
 <translation id="6144589619057374135">${url} गुप्त मोडमध्ये उघडा</translation>
 <translation id="6159839020698489198">पर्यायी</translation>
-<translation id="6177442314419606057">Chrome मध्ये शोधा</translation>
+<translation id="6177442314419606057">Mises मध्ये शोधा</translation>
 <translation id="6184086493125982861">टॅब दर्शवा</translation>
 <translation id="6187302354554850004">अखेरचे संंकालित: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">न वाचलेले</translation>
@@ -675,7 +675,7 @@
 <translation id="7189598951263744875">सामयिक करा...</translation>
 <translation id="7192050974311852563">लॉग इन करणे सुरू करा</translation>
 <translation id="7203585745079012652">उत्तरे वाचून सांगा</translation>
-<translation id="7207383424303353046">नवीन: Chrome ला तुमचे डीफॉल्ट ब्राउझर अ‍ॅप सेट करून त्यामध्ये आपोआप साइट उघडा. <ph name="BEGIN_LINK" />सेटिंग्ज उघडा<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">नवीन: Mises ला तुमचे डीफॉल्ट ब्राउझर अ‍ॅप सेट करून त्यामध्ये आपोआप साइट उघडा. <ph name="BEGIN_LINK" />सेटिंग्ज उघडा<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">कार्डाचे चुकीचे टोपणनाव</translation>
 <translation id="722454870747268814">नवीन गुप्त टॅब</translation>
 <translation id="7265758999917665941">या साइटसाठी कधीही नाही</translation>
@@ -701,7 +701,7 @@
 <translation id="7454057999980797137">राज्य / विभाग</translation>
 <translation id="7456847797759667638">स्थान उघडा...</translation>
 <translation id="7464701184726199289">हे सर्व डिव्हाइसेसवरून संकालित केलेला डेटा साफ करेल. सेव्ह केलेल्या साइट सेटिंग्ज हटविल्या जाणार नाहीत आणि कदाचित आपल्या ब्राउझिंग सवयी दर्शवेल. <ph name="BEGIN_LINK" />अधिक जाणून घ्या<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">३. Chrome निवडा</translation>
+<translation id="746684838091935575">३. Mises निवडा</translation>
 <translation id="7472734401283673885">कंपनीचे नाव</translation>
 <translation id="7473891865547856676">नाही, नको</translation>
 <translation id="7481312909269577407">पुढील</translation>
@@ -729,13 +729,13 @@
 <translation id="7781011649027948662">पेजचे भाषांतर करायचे?</translation>
 <translation id="7781069478569868053">नवीन टॅब पृष्‍ठ</translation>
 <translation id="7781829728241885113">काल</translation>
-<translation id="778855399387580014">एका नवीन Chrome टॅबमध्ये शोध सुरू करा.</translation>
+<translation id="778855399387580014">एका नवीन Mises टॅबमध्ये शोध सुरू करा.</translation>
 <translation id="7791543448312431591">जोडा</translation>
 <translation id="7839985698273989086">ऑफलाइन पेज</translation>
 <translation id="7840771868269352570">तुम्ही निवडलेले आयटम काढून टाकले जातील.</translation>
 <translation id="7856733331829174190">डाउनलोड करता आले नाही</translation>
 <translation id="7859704718976024901">ब्राउझिंग इतिहास</translation>
-<translation id="7887198238286927132">तुमच्या गोपनीयतेचे संरक्षण करण्‍यासाठी, Chrome हा भाग ऑटोफिल करणार नाही.</translation>
+<translation id="7887198238286927132">तुमच्या गोपनीयतेचे संरक्षण करण्‍यासाठी, Mises हा भाग ऑटोफिल करणार नाही.</translation>
 <translation id="7911190106180361398">तुमची संस्था तुम्हाला सर्व गोष्टी सिंक करण्याची परवानगी देत नाही.</translation>
 <translation id="7938254975914653459">फेसटाइम</translation>
 <translation id="7939128259257418052">पासवर्ड एक्सपोर्ट करा...</translation>
@@ -750,14 +750,14 @@
 <translation id="7978018860671536736">३. AutoFill पासवर्ड वर टॅप करा</translation>
 <translation id="7982789257301363584">नेटवर्क</translation>
 <translation id="7993619969781047893">काही साइटवरील वैशिष्ट्यांमध्ये खंड पडू शकतो</translation>
-<translation id="800361585186029508">Google Chrome मध्ये इनपुट केलेल्या URL उघडते.</translation>
+<translation id="800361585186029508">Mises मध्ये इनपुट केलेल्या URL उघडते.</translation>
 <translation id="802154636333426148">डाउनलोड अयशस्वी झाले</translation>
 <translation id="8023878949384262191">विभाग विस्तृत करते.</translation>
 <translation id="8027581147000338959">नवीन विंडोमध्ये उघडा</translation>
 <translation id="804225253087497565">तुम्ही साइन इन केलेले असते तेव्हा, तुमच्या Google खाते मध्ये <ph name="BEGIN_LINK" />शोध इतिहास<ph name="END_LINK" /> आणि <ph name="BEGIN_LINK" />इतर प्रकारची ॲक्टिव्हिटी<ph name="END_LINK" /> सेव्ह केली जाऊ शकते. तुम्ही ती कधीही हटवू शकता.</translation>
 <translation id="804427445359061970">तुमच्या इतर डिव्हाइसमधील टॅब तुम्हाला येथे सापडतील</translation>
 <translation id="8059533439631660104">विभाग संकुचित करा.</translation>
-<translation id="8065292699993359127">URL ना Chrome मध्ये गुप्त मोड मध्ये उघडा</translation>
+<translation id="8065292699993359127">URL ना Mises मध्ये गुप्त मोड मध्ये उघडा</translation>
 <translation id="806745655614357130">माझा डेटा स्वतंत्र ठेवा</translation>
 <translation id="8073670137947914548">डाउनलोड पूर्ण झाले</translation>
 <translation id="8073872304774253879">शोध आणि ब्राउझ करणे उत्तम बनवा</translation>
@@ -806,7 +806,7 @@
 <translation id="8533670235862049797">सुरक्षित ब्राउझिंग सुरू आहे</translation>
 <translation id="8534481786647257214">Google+ पोस्ट पूर्ण केले.</translation>
 <translation id="8548878600947630424">पृष्ठामध्ये शोधा...</translation>
-<translation id="8574235780160508979">Chrome च्या सेवा अटी ३१ मार्च रोजी बदलणार आहेत. <ph name="BEGIN_LINK" />कृपया पुनरावलोकन करा<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Mises च्या सेवा अटी ३१ मार्च रोजी बदलणार आहेत. <ph name="BEGIN_LINK" />कृपया पुनरावलोकन करा<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">बंद करा</translation>
 <translation id="8590913940444621808">कधीही विचारू नका</translation>
 <translation id="8591976964826315682">तृतीय पक्ष कुकी गुप्त मोडमध्ये ब्लॉक करा</translation>
@@ -857,7 +857,7 @@
 <translation id="9081058212938299310"><ph name="USERNAME" /> साठी पासवर्ड अपडेट करायचा?</translation>
 <translation id="9083392325882095631">1 आयटम</translation>
 <translation id="9083838294503912307">सर्व डिव्हाइसवर सिंक आणि पर्सनलाइझ करण्यासाठी, सिंक सुरू करा.</translation>
-<translation id="9087108903408689779">Chrome ने सुचवलेला पासवर्ड:</translation>
+<translation id="9087108903408689779">Mises ने सुचवलेला पासवर्ड:</translation>
 <translation id="9094033019050270033">पासवर्ड अपडेट करा</translation>
 <translation id="9100610230175265781">सांकेतिक पासफ्रेझ आवश्यक</translation>
 <translation id="9107664647686727385">धोक्यात असलेले पासवर्ड तपासा</translation>

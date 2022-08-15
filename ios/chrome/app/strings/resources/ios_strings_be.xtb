@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">Схаваць гэты раз</translation>
 <translation id="1219674500290482172">Не ўдалося падключыцца да інтэрнэту.</translation>
 <translation id="122699739164161391">Закрыць усе ўкладкі</translation>
-<translation id="1229222343402087523">Шукаць у Chrome: ${searchPhrase}</translation>
+<translation id="1229222343402087523">Шукаць у Mises: ${searchPhrase}</translation>
 <translation id="1231733316453485619">Уключыць сінхранізацыю?</translation>
 <translation id="1242044645101871359">Увайдзіце яшчэ раз</translation>
 <translation id="1254117744268754948">Выбраць папку</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">Палітыка вашай арганізацыі дазваляе ўваходзіць у сістэмы, выкарыстоўваючы толькі пэўныя ўліковыя запісы. Уліковыя запісы, выкарыстоўваць якія не дазволена, не паказваюцца. <ph name="BEGIN_LINK" />Даведацца больш<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Каб скапіраваць, націсніце двойчы.</translation>
 <translation id="1952172573699511566">Тэкст на вэб-сайтах будзе паказвацца на мове, выбранай вамі ў якасці прыярытэтнай, калі гэта магчыма.</translation>
-<translation id="1965935827552890526">Скончыце тое, што вы пачалі рабіць у іншым адкрытым акне Chrome.</translation>
+<translation id="1965935827552890526">Скончыце тое, што вы пачалі рабіць у іншым адкрытым акне Mises.</translation>
 <translation id="196896377990863006">Паказаць перадпрагляд спасылкі</translation>
 <translation id="1973912524893600642">Захаваць даныя</translation>
 <translation id="1974060860693918893">Пашыраныя налады</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">Код памылкі: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Дадаць уліковы запіс</translation>
 <translation id="2268044343513325586">Удакладніць</translation>
-<translation id="2271351792809375263">Выкарыстайце паролі, якія вы захавалі ў Chrome у іншых праграмах на прыладзе</translation>
+<translation id="2271351792809375263">Выкарыстайце паролі, якія вы захавалі ў Mises у іншых праграмах на прыладзе</translation>
 <translation id="2273327106802955778">Меню "Дадаткова"</translation>
 <translation id="2302742851632557585">Змяніць пароль на вэб-сайце</translation>
 <translation id="2316709634732130529">Выкарыстаць прапанаваны пароль</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">Не ўдалося стварыць спасылку</translation>
 <translation id="2800683595868705743">Выйсці з пераключальніка ўкладак</translation>
 <translation id="2815198996063984598">2. Націсніце "Стандартны браўзер".</translation>
-<translation id="2820289420301699633">Ваш адміністратар можа кіраваць браўзерам Chrome і мае доступ да даных у ім</translation>
+<translation id="2820289420301699633">Ваш адміністратар можа кіраваць браўзерам Mises і мае доступ да даных у ім</translation>
 <translation id="2830972654601096923">Кіраваць адрасамі...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Скін. нал. перакл.</translation>
 <translation id="2848086008667475748">Зрабіць браўзер стандартным у Наладах…</translation>
-<translation id="2858204748079866344">У мэтах аховы вашай прыватнасці Chrome не будзе выкарыстоўваць аўтазапаўненне ў полі пароля.</translation>
+<translation id="2858204748079866344">У мэтах аховы вашай прыватнасці Mises не будзе выкарыстоўваць аўтазапаўненне ў полі пароля.</translation>
 <translation id="285960592395650245">Паўтарыць спампоўванне</translation>
 <translation id="2870560284913253234">Сайт</translation>
 <translation id="2871695793448672541">Схаваны, пароль</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">Уставіць і перайсці</translation>
 <translation id="292639812446257861">Пазначыць як непрачытаныя</translation>
 <translation id="2932085390869194046">Прапанаваць пароль...</translation>
-<translation id="2952581218264071393">1. Адкрыйце налады Chrome.</translation>
+<translation id="2952581218264071393">1. Адкрыйце налады Mises.</translation>
 <translation id="2958718410589002129">Паролі</translation>
 <translation id="2961210776189273067">Форма звароту</translation>
 <translation id="2964349545761222050">Блакіраваць староннія файлы cookie</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">Паўторна адкрыць закрытыя ўкладкі</translation>
 <translation id="3371831930909698441">Пераклад гатовы. Параметры знаходзяцца ў ніжняй частцы экрана.</translation>
 <translation id="3393920035788932672">Усплывальныя вокны дазволены</translation>
-<translation id="3399930248910934354">Адкрыць налады Chrome</translation>
+<translation id="3399930248910934354">Адкрыць налады Mises</translation>
 <translation id="3404744938087714423">Калі выйсці з уліковага запісу, сінхранізацыя будзе выключана.</translation>
 <translation id="3414451675185661089">2. Націсніце "Паролі".</translation>
 <translation id="3425644765244388016">Псеўданім карткі</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">Закрыць укладку</translation>
 <translation id="3581564640715911333">Прапаноўваць перакладаць старонкі на іншых мовах</translation>
 <translation id="3588820906588687999">Адкрыць відарыс у новай укладцы</translation>
-<translation id="359441731697487922">Спасылкі будуць аўтаматычна адкрывацца ў Chrome, калі вы зробіце яго стандартным браўзерам.
+<translation id="359441731697487922">Спасылкі будуць аўтаматычна адкрывацца ў Mises, калі вы зробіце яго стандартным браўзерам.
       
 Выканайце наступныя дзеянні:</translation>
 <translation id="3603009562372709545">Скапіраваць URL-адрас спасылкі</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899">Закладка дададзена ў папку "<ph name="FOLDER_TITLE" />"</translation>
 <translation id="369349502275246497">Паказваць прапанову захаваць паролі</translation>
 <translation id="3709582977625132201">Пазначыць як непрачытанае</translation>
-<translation id="3740397331642243698">Адкрывае ўведзеныя URL-адрасы ў Google Chrome у рэжыме інкогніта.</translation>
+<translation id="3740397331642243698">Адкрывае ўведзеныя URL-адрасы ў Mises у рэжыме інкогніта.</translation>
 <translation id="3762232513783804601">Распрацавана для iPad</translation>
 <translation id="3771033907050503522">Укладкі інкогніта</translation>
 <translation id="3775743491439407556">Сінхранізацыя не працуе</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">Назва</translation>
 <translation id="3892144330757387737">Ваша гісторыя знаходзіцца тут</translation>
 <translation id="3897092660631435901">Меню</translation>
-<translation id="3913386780052199712">Уваход у Chrome выкананы</translation>
+<translation id="3913386780052199712">Уваход у Mises выкананы</translation>
 <translation id="3915450441834151894">Звесткі пра сайт</translation>
 <translation id="3922310737605261887">Шукаць скапіраваны тэкст</translation>
 <translation id="3928666092801078803">Аб'яднаць мае даныя</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">Усталяваць Google Дыск</translation>
 <translation id="5083464117946352670">Не ўдалося вызначыць памер файла.</translation>
 <translation id="5090832849094901128">Пры выдаленні гэтага пароля ўліковы запіс на сайце <ph name="WEBSITE" /> не выдаліцца.</translation>
-<translation id="5092117651143801290">Захоўвайце старонкі, каб вяртацца да іх пазней або чытаць іх без падключэння да інтэрнэту. Перш чым захоўваць доўгія старонкі, Chrome будзе адпраўляць вам запыт.</translation>
+<translation id="5092117651143801290">Захоўвайце старонкі, каб вяртацца да іх пазней або чытаць іх без падключэння да інтэрнэту. Перш чым захоўваць доўгія старонкі, Mises будзе адпраўляць вам запыт.</translation>
 <translation id="5094827893301452931">Твіт апублікаваны.</translation>
 <translation id="5118764316110575523">Выключана</translation>
 <translation id="5127805178023152808">Сінхранізацыя выключана</translation>
 <translation id="5132942445612118989">Сінхранізуйце паролі, гісторыю і іншыя даныя на ўсіх прыладах</translation>
-<translation id="5140288047769711648">Chrome запомніць гэты пароль для вас – вам не абавязкова яго помніць.</translation>
+<translation id="5140288047769711648">Mises запомніць гэты пароль для вас – вам не абавязкова яго помніць.</translation>
 <translation id="5150492518600715772">Адправіць на прыладу</translation>
 <translation id="5168414296986405587">Браўзер, створаны для iPadOS</translation>
 <translation id="5173088371991956744">Для сінхранізацыі неабходна спраўдзіць вашу асобу</translation>
@@ -479,7 +479,7 @@
 <translation id="5659593005791499971">Адрас электроннай пошты</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Версія <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Зараз паказваецца 1 акно Chrome}one{Зараз паказваецца {count} акно Chrome}few{Зараз паказваецца {count} акны Chrome}many{Зараз паказваецца {count} акон Chrome}other{Зараз паказваецца {count} акна Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Зараз паказваецца 1 акно Mises}one{Зараз паказваецца {count} акно Mises}few{Зараз паказваецца {count} акны Mises}many{Зараз паказваецца {count} акон Mises}other{Зараз паказваецца {count} акна Mises}}</translation>
 <translation id="5706552126692816153">Апошнія дзеянні: дзень таму</translation>
 <translation id="5711039611392265845">Дадатковыя налады прыватнасці, бяспекі і збору даных глядзіце ў раздзеле <ph name="BEGIN_LINK" />Сінхранізацыя і сэрвісы Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Дадайце новую ўкладку, каб праглядаць змесціва ў інтэрнэце ў прыватным рэжыме.</translation>
@@ -518,7 +518,7 @@
 <translation id="5979837087407522202">Пошук пароляў</translation>
 <translation id="5982717868370722439">Дадаць існуючыя даныя ва ўліковы запіс <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Нядаўна наведаныя</translation>
-<translation id="5988851877894965432">Адкрыць URL-адрасы ў Chrome</translation>
+<translation id="5988851877894965432">Адкрыць URL-адрасы ў Mises</translation>
 <translation id="6012140227487808125">Ідзе шыфраванне…</translation>
 <translation id="6021332621416007159">Адкрыць у праграме...</translation>
 <translation id="6027945736510816438">Ці мелі вы на ўвазе <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@
 <translation id="6136914049981179737">с таму</translation>
 <translation id="6144589619057374135">Адкрыць ${url} у рэжыме інкогніта</translation>
 <translation id="6159839020698489198">неабавязкова</translation>
-<translation id="6177442314419606057">Шукаць у Chrome</translation>
+<translation id="6177442314419606057">Шукаць у Mises</translation>
 <translation id="6184086493125982861">Паказваць укладкі</translation>
 <translation id="6187302354554850004">Апошняя сінхранізацыя: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Непрачытанае</translation>
@@ -673,7 +673,7 @@
 <translation id="7189598951263744875">Абагуліць...</translation>
 <translation id="7192050974311852563">Пачаць вядзенне журнала</translation>
 <translation id="7203585745079012652">Агучваць атрыманыя адказы</translation>
-<translation id="7207383424303353046">Навінка. Зрабіце Chrome стандартным браўзерам, каб сайты адкрываліся ў ім аўтаматычна. <ph name="BEGIN_LINK" />Адкрыць Налады<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Навінка. Зрабіце Mises стандартным браўзерам, каб сайты адкрываліся ў ім аўтаматычна. <ph name="BEGIN_LINK" />Адкрыць Налады<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Несапраўдны псеўданім карткі</translation>
 <translation id="722454870747268814">Новая ўкладка ў рэжыме інкогніта</translation>
 <translation id="7265758999917665941">Ніколі для гэтага сайта</translation>
@@ -699,7 +699,7 @@
 <translation id="7454057999980797137">Штат/акруга</translation>
 <translation id="7456847797759667638">Адкрыць размяшчэнне...</translation>
 <translation id="7464701184726199289">Выдаляе сінхранізаваныя даныя з усіх прылад. Захаваныя налады сайтаў не будуць выдалены і могуць змяшчаць вашу гісторыю праглядаў. <ph name="BEGIN_LINK" />Даведацца больш<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Выберыце Chrome.</translation>
+<translation id="746684838091935575">3. Выберыце Mises.</translation>
 <translation id="7472734401283673885">Назва кампаніі</translation>
 <translation id="7473891865547856676">Не, дзякуй</translation>
 <translation id="7481312909269577407">Далей</translation>
@@ -727,13 +727,13 @@
 <translation id="7781011649027948662">Перакласці старонку?</translation>
 <translation id="7781069478569868053">Старонка новай укладкі</translation>
 <translation id="7781829728241885113">Учора</translation>
-<translation id="778855399387580014">Пачаць пошук у новай укладцы Chrome.</translation>
+<translation id="778855399387580014">Пачаць пошук у новай укладцы Mises.</translation>
 <translation id="7791543448312431591">Дадаць</translation>
 <translation id="7839985698273989086">Пазасеткавая старонка</translation>
 <translation id="7840771868269352570">Выбраныя элементы будуць выдалены.</translation>
 <translation id="7856733331829174190">Не ўдалося спампаваць</translation>
 <translation id="7859704718976024901">Гісторыя прагляду сайтаў</translation>
-<translation id="7887198238286927132">У мэтах аховы вашай прыватнасці Chrome не будзе выкарыстоўваць аўтазапаўненне ў гэтым полі.</translation>
+<translation id="7887198238286927132">У мэтах аховы вашай прыватнасці Mises не будзе выкарыстоўваць аўтазапаўненне ў гэтым полі.</translation>
 <translation id="7911190106180361398">Ваша арганізацыя не дазваляе сінхранізаваць усё.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Экспарт пароляў...</translation>
@@ -748,14 +748,14 @@
 <translation id="7978018860671536736">3. Націсніце "Аўтазапаўненне пароляў"</translation>
 <translation id="7982789257301363584">Сетка</translation>
 <translation id="7993619969781047893">Функцыі на некаторых сайтах могуць перастаць працаваць</translation>
-<translation id="800361585186029508">Адкрывае ўведзеныя URL-адрасы ў Google Chrome.</translation>
+<translation id="800361585186029508">Адкрывае ўведзеныя URL-адрасы ў Mises.</translation>
 <translation id="802154636333426148">Збой спампоўкі</translation>
 <translation id="8023878949384262191">Разгортвае раздзел.</translation>
 <translation id="8027581147000338959">Адкрыць у новым акне</translation>
 <translation id="804225253087497565"><ph name="BEGIN_LINK" />Гісторыя пошуку<ph name="END_LINK" /> і <ph name="BEGIN_LINK" />іншыя дзеянні<ph name="END_LINK" /> могуць захоўвацца ва Уліковым запісе Google, у які вы ўвайшлі. Іх можна выдаліць у любы час.</translation>
 <translation id="804427445359061970">Вашы ўкладкі з іншых прылад знаходзяцца тут</translation>
 <translation id="8059533439631660104">Згортвае раздзел.</translation>
-<translation id="8065292699993359127">Адкрыць URL-адрасы ў Chrome у рэжыме інкогніта</translation>
+<translation id="8065292699993359127">Адкрыць URL-адрасы ў Mises у рэжыме інкогніта</translation>
 <translation id="806745655614357130">Захоўваць мае даныя асобна</translation>
 <translation id="8073670137947914548">Спампоўванне завершана</translation>
 <translation id="8073872304774253879">Паскорыць пошук і прагляд</translation>
@@ -804,7 +804,7 @@
 <translation id="8533670235862049797">"Бяспечны прагляд" уключаны</translation>
 <translation id="8534481786647257214">Публікацыя ў Google+ выканана.</translation>
 <translation id="8548878600947630424">Знайсці на старонцы...</translation>
-<translation id="8574235780160508979">Умовы выкарыстання Chrome зменяцца 31 сакавіка. <ph name="BEGIN_LINK" />Азнаёмцеся з імі<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Умовы выкарыстання Mises зменяцца 31 сакавіка. <ph name="BEGIN_LINK" />Азнаёмцеся з імі<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Выключаны</translation>
 <translation id="8590913940444621808">Ніколі не пытацца</translation>
 <translation id="8591976964826315682">Блакіраваць староннія файлы cookie у рэжыме інкогніта</translation>
@@ -855,7 +855,7 @@
 <translation id="9081058212938299310">Змяніць пароль для карыстальніка <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 элемент</translation>
 <translation id="9083838294503912307">Уключыце сінхранізацыю, каб сінхранізаваць некалькі прылад і персаналізаваць іх.</translation>
-<translation id="9087108903408689779">Прапанаваны браўзерам Chrome пароль:</translation>
+<translation id="9087108903408689779">Прапанаваны браўзерам Mises пароль:</translation>
 <translation id="9094033019050270033">Абнавіць пароль</translation>
 <translation id="9100610230175265781">Патрабуецца фраза-пароль</translation>
 <translation id="9107664647686727385">Праверка наяўнасці раскрытых пароляў</translation>

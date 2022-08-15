@@ -33,7 +33,7 @@ Sie haben <ph name="DSE_NAME" /> als Suchmaschine festgelegt. Informationen zum 
 <translation id="1209206284964581585">Vorerst ausblenden</translation>
 <translation id="1219674500290482172">Internetverbindung kann nicht hergestellt werden.</translation>
 <translation id="122699739164161391">Alle Tabs schließen</translation>
-<translation id="1229222343402087523">In Chrome nach ${searchPhrase} suchen</translation>
+<translation id="1229222343402087523">In Mises nach ${searchPhrase} suchen</translation>
 <translation id="1231733316453485619">Synchronisierung aktivieren?</translation>
 <translation id="1242044645101871359">Noch einmal anmelden</translation>
 <translation id="1254117744268754948">Ordner wählen</translation>
@@ -110,7 +110,7 @@ Sie haben <ph name="DSE_NAME" /> als Suchmaschine festgelegt. Informationen zum 
 <translation id="1930989359703290198">Ihre Organisation lässt die Anmeldung nur mit bestimmten Konten zu. Unzulässige Konten sind ausgeblendet. <ph name="BEGIN_LINK" />Weitere Informationen<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Tippen Sie zum Kopieren hier doppelt.</translation>
 <translation id="1952172573699511566">Sofern dies möglich ist, wird Text auf Websites in Ihrer bevorzugten Sprache angezeigt.</translation>
-<translation id="1965935827552890526">Sie können zu Ihrem offenem Chrome-Fenster zurückkehren, um Ihre vorherige Aktion abzuschließen.</translation>
+<translation id="1965935827552890526">Sie können zu Ihrem offenem Mises-Fenster zurückkehren, um Ihre vorherige Aktion abzuschließen.</translation>
 <translation id="196896377990863006">Link-Vorschau einblenden</translation>
 <translation id="1973912524893600642">Daten behalten</translation>
 <translation id="1974060860693918893">Erweitert</translation>
@@ -138,7 +138,7 @@ Sie haben <ph name="DSE_NAME" /> als Suchmaschine festgelegt. Informationen zum 
 <translation id="225943865679747347">Fehlercode: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Konto hinzufügen</translation>
 <translation id="2268044343513325586">Verfeinern</translation>
-<translation id="2271351792809375263">Sie können in Chrome gespeicherte Passwörter in anderen Apps auf Ihrem Gerät nutzen</translation>
+<translation id="2271351792809375263">Sie können in Mises gespeicherte Passwörter in anderen Apps auf Ihrem Gerät nutzen</translation>
 <translation id="2273327106802955778">Menü "Mehr"</translation>
 <translation id="2302742851632557585">Passwort auf der Website ändern</translation>
 <translation id="2316709634732130529">Vorgeschlagenes Passwort verwenden</translation>
@@ -191,12 +191,12 @@ Websites können Cookies nicht verwenden, um Ihre Browseraktivitäten auf andere
 <translation id="2783054063075604403">Der Link kann nicht erstellt werden</translation>
 <translation id="2800683595868705743">Tab-Wechsler beenden</translation>
 <translation id="2815198996063984598">2. Tippen Sie auf "Standard-Browser-App"</translation>
-<translation id="2820289420301699633">Ihr Administrator hat die Kontrolle über Chrome und Zugriff auf die Daten</translation>
+<translation id="2820289420301699633">Ihr Administrator hat die Kontrolle über Mises und Zugriff auf die Daten</translation>
 <translation id="2830972654601096923">Adressen verwalten…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Übersetzungseinstellungen zurücksetzen</translation>
 <translation id="2848086008667475748">In den Einstellungen als Standardbrowser festlegen…</translation>
-<translation id="2858204748079866344">Um Ihre Daten zu schützen, füllt Chrome dieses Feld nicht automatisch mit Ihrem Passwort aus.</translation>
+<translation id="2858204748079866344">Um Ihre Daten zu schützen, füllt Mises dieses Feld nicht automatisch mit Ihrem Passwort aus.</translation>
 <translation id="285960592395650245">Download wiederholen</translation>
 <translation id="2870560284913253234">Website</translation>
 <translation id="2871695793448672541">Ausgeblendetes Passwort</translation>
@@ -210,7 +210,7 @@ Websites können Cookies nicht verwenden, um Ihre Browseraktivitäten auf andere
 <translation id="2923448633003185837">Einfügen und los</translation>
 <translation id="292639812446257861">Als ungelesen markieren</translation>
 <translation id="2932085390869194046">Passwort vorschlagen…</translation>
-<translation id="2952581218264071393">1. Öffnen Sie die Chrome-Einstellungen</translation>
+<translation id="2952581218264071393">1. Öffnen Sie die Mises-Einstellungen</translation>
 <translation id="2958718410589002129">Passwörter</translation>
 <translation id="2961210776189273067">Anrede</translation>
 <translation id="2964349545761222050">Drittanbieter-Cookies blockieren</translation>
@@ -257,7 +257,7 @@ Informationen zum Löschen Ihres Suchverlaufs finden Sie in der Anleitung Ihrer 
 <translation id="3335947283844343239">Geschlossenen Tab wieder öffnen</translation>
 <translation id="3371831930909698441">Übersetzer ist verfügbar. Optionen sind unten auf dem Bildschirm verfügbar.</translation>
 <translation id="3393920035788932672">Pop-ups erlaubt</translation>
-<translation id="3399930248910934354">Chrome-Einstellungen öffnen</translation>
+<translation id="3399930248910934354">Mises-Einstellungen öffnen</translation>
 <translation id="3404744938087714423">Durch die Abmeldung wird die Synchronisierung deaktiviert.</translation>
 <translation id="3414451675185661089">2. Tippen Sie auf „Passwörter“</translation>
 <translation id="3425644765244388016">Kartenalias</translation>
@@ -283,7 +283,7 @@ Informationen zum Löschen Ihres Suchverlaufs finden Sie in der Anleitung Ihrer 
 <translation id="3551320343578183772">Tab schließen</translation>
 <translation id="3581564640715911333">Übersetzung für Seiten in andere Sprachen anbieten</translation>
 <translation id="3588820906588687999">Bild in neuem Tab öffnen</translation>
-<translation id="359441731697487922">Links werden automatisch in Chrome geöffnet, wenn Sie es als Standard-Browser-App festlegen.
+<translation id="359441731697487922">Links werden automatisch in Mises geöffnet, wenn Sie es als Standard-Browser-App festlegen.
       
 Gehen Sie so vor:</translation>
 <translation id="3603009562372709545">Link-URL kopieren</translation>
@@ -296,7 +296,7 @@ Gehen Sie so vor:</translation>
 <translation id="3691593122358196899">Als Lesezeichen in "<ph name="FOLDER_TITLE" />" gespeichert</translation>
 <translation id="369349502275246497">Speichern von Passwörtern anbieten</translation>
 <translation id="3709582977625132201">Als ungelesen markieren</translation>
-<translation id="3740397331642243698">Öffnet die eingegebenen URLs in Google Chrome im Inkognitomodus.</translation>
+<translation id="3740397331642243698">Öffnet die eingegebenen URLs in Mises im Inkognitomodus.</translation>
 <translation id="3762232513783804601">Für Ihr iPad entwickelt</translation>
 <translation id="3771033907050503522">Inkognito-Tabs</translation>
 <translation id="3775743491439407556">Synchronisierung funktioniert nicht</translation>
@@ -309,7 +309,7 @@ Gehen Sie so vor:</translation>
 <translation id="3858860766373142691">Name</translation>
 <translation id="3892144330757387737">Hier wird Ihr Verlauf angezeigt</translation>
 <translation id="3897092660631435901">Menü</translation>
-<translation id="3913386780052199712">In Chrome angemeldet</translation>
+<translation id="3913386780052199712">In Mises angemeldet</translation>
 <translation id="3915450441834151894">Websiteinformationen</translation>
 <translation id="3922310737605261887">Nach kopiertem Text suchen</translation>
 <translation id="3928666092801078803">Daten zusammenführen</translation>
@@ -431,7 +431,7 @@ Wenn Sie diese Einstellung ändern möchten, <ph name="BEGIN_LINK" />setzen Sie 
 <translation id="5118764316110575523">Aus</translation>
 <translation id="5127805178023152808">Synchronisierung ist deaktiviert</translation>
 <translation id="5132942445612118989">Passwörter, Verlauf und mehr auf allen Geräten synchronisieren</translation>
-<translation id="5140288047769711648">Chrome speichert dieses Passwort für Sie. Sie müssen es sich nicht merken.</translation>
+<translation id="5140288047769711648">Mises speichert dieses Passwort für Sie. Sie müssen es sich nicht merken.</translation>
 <translation id="5150492518600715772">An mein Gerät senden</translation>
 <translation id="5168414296986405587">Entwickelt für iPadOS</translation>
 <translation id="5173088371991956744">Zur Synchronisierung muss Ihre Identität bestätigt werden</translation>
@@ -479,7 +479,7 @@ Handoff muss auch im Abschnitt "Allgemein" Ihrer Einstellungen aktiviert sein un
 <translation id="5659593005791499971">E-Mail</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Version <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Aktuell angezeigt: 1 Chrome-Fenster}other{Aktuell angezeigt: {count} Chrome-Fenster}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Aktuell angezeigt: 1 Mises-Fenster}other{Aktuell angezeigt: {count} Mises-Fenster}}</translation>
 <translation id="5706552126692816153">Vor 1 Tag aktiv</translation>
 <translation id="5711039611392265845">Weitere Einstellungen in Verbindung mit Datenschutz, Sicherheit und der Erhebung von Daten finden Sie unter <ph name="BEGIN_LINK" />Synchronisierung und Google-Dienste<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Fügen Sie einen neuen Tab hinzu, um privat im Web zu surfen</translation>
@@ -518,7 +518,7 @@ Handoff muss auch im Abschnitt "Allgemein" Ihrer Einstellungen aktiviert sein un
 <translation id="5979837087407522202">Passwörter suchen</translation>
 <translation id="5982717868370722439">Vorhandene Daten zu <ph name="USER_EMAIL" /> hinzufügen</translation>
 <translation id="5984222099446776634">Kürzlich besucht</translation>
-<translation id="5988851877894965432">URLs in Chrome öffnen</translation>
+<translation id="5988851877894965432">URLs in Mises öffnen</translation>
 <translation id="6012140227487808125">Wird verschlüsselt…</translation>
 <translation id="6021332621416007159">Öffnen in...</translation>
 <translation id="6027945736510816438">Meinten Sie <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ Handoff muss auch im Abschnitt "Allgemein" Ihrer Einstellungen aktiviert sein un
 <translation id="6136914049981179737">Gerade eben</translation>
 <translation id="6144589619057374135">${url} im Inkognitomodus öffnen</translation>
 <translation id="6159839020698489198">optional</translation>
-<translation id="6177442314419606057">Suche in Chrome</translation>
+<translation id="6177442314419606057">Suche in Mises</translation>
 <translation id="6184086493125982861">Tabs anzeigen</translation>
 <translation id="6187302354554850004">Letzte Synchr.: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Ungelesen</translation>
@@ -673,7 +673,7 @@ Wenn der Inkognitomodus aktiviert ist, können Websites keine Cookies verwenden,
 <translation id="7189598951263744875">Teilen...</translation>
 <translation id="7192050974311852563">Protokollierung starten</translation>
 <translation id="7203585745079012652">Gesprochene Antworten</translation>
-<translation id="7207383424303353046">Neu: Websites werden automatisch in Chrome geöffnet, wenn Sie es als Standard-Browser-App festlegen. <ph name="BEGIN_LINK" />Zu den Einstellungen<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Neu: Websites werden automatisch in Mises geöffnet, wenn Sie es als Standard-Browser-App festlegen. <ph name="BEGIN_LINK" />Zu den Einstellungen<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Ungültiger Kartenalias</translation>
 <translation id="722454870747268814">Neuer Inkognito-Tab</translation>
 <translation id="7265758999917665941">Für diese Website niemals</translation>
@@ -699,7 +699,7 @@ Wenn der Inkognitomodus aktiviert ist, können Websites keine Cookies verwenden,
 <translation id="7454057999980797137">Bundesl./Landkr.</translation>
 <translation id="7456847797759667638">Adresse öffnen...</translation>
 <translation id="7464701184726199289">Dadurch werden synchronisierte Daten von allen Geräten gelöscht. Gespeicherte Website-Einstellungen werden nicht gelöscht und können möglicherweise Ihre Surfgewohnheiten wiedergeben. <ph name="BEGIN_LINK" />Weitere Informationen<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Wählen Sie Chrome aus</translation>
+<translation id="746684838091935575">3. Wählen Sie Mises aus</translation>
 <translation id="7472734401283673885">Unternehmensname</translation>
 <translation id="7473891865547856676">Nein danke</translation>
 <translation id="7481312909269577407">Vorwärts</translation>
@@ -727,13 +727,13 @@ Wenn der Inkognitomodus aktiviert ist, können Websites keine Cookies verwenden,
 <translation id="7781011649027948662">Seite übersetzen?</translation>
 <translation id="7781069478569868053">"Neuer Tab"-Seite</translation>
 <translation id="7781829728241885113">Gestern</translation>
-<translation id="778855399387580014">Eine Suche in einem neuen Chrome-Tab starten.</translation>
+<translation id="778855399387580014">Eine Suche in einem neuen Mises-Tab starten.</translation>
 <translation id="7791543448312431591">Hinzufügen</translation>
 <translation id="7839985698273989086">Offlineseite</translation>
 <translation id="7840771868269352570">Die ausgewählten Elemente werden entfernt.</translation>
 <translation id="7856733331829174190">Fehler beim Download</translation>
 <translation id="7859704718976024901">Browserverlauf</translation>
-<translation id="7887198238286927132">Um Ihre Daten zu schützen, füllt Chrome dieses Feld nicht automatisch aus.</translation>
+<translation id="7887198238286927132">Um Ihre Daten zu schützen, füllt Mises dieses Feld nicht automatisch aus.</translation>
 <translation id="7911190106180361398">Ihre Organisation lässt nicht zu, dass Sie alles synchronisieren.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Passwörter exportieren…</translation>
@@ -748,14 +748,14 @@ Websites können Cookies verwenden, um Ihre Browseraktivitäten auf anderen Webs
 <translation id="7978018860671536736">3. Tippen Sie auf „Passwörter automatisch ausfüllen“</translation>
 <translation id="7982789257301363584">Netzwerk</translation>
 <translation id="7993619969781047893">Funktionen auf manchen Websites funktionieren möglicherweise nicht mehr</translation>
-<translation id="800361585186029508">Öffnet die eingegebenen URLs in Google Chrome.</translation>
+<translation id="800361585186029508">Öffnet die eingegebenen URLs in Mises.</translation>
 <translation id="802154636333426148">Downloadfehler</translation>
 <translation id="8023878949384262191">Maximiert den Abschnitt</translation>
 <translation id="8027581147000338959">In neuem Fenster öffnen</translation>
 <translation id="804225253087497565">Der <ph name="BEGIN_LINK" />Suchverlauf<ph name="END_LINK" /> und <ph name="BEGIN_LINK" />andere Arten von Aktivitäten<ph name="END_LINK" /> können in Ihrem Google-Konto gespeichert werden, wenn Sie angemeldet sind. Sie können sie jederzeit löschen.</translation>
 <translation id="804427445359061970">Hier werden Ihre Tabs von anderen Geräten angezeigt</translation>
 <translation id="8059533439631660104">Abschnitt minimieren</translation>
-<translation id="8065292699993359127">URLs in Chrome im Inkognitomodus öffnen</translation>
+<translation id="8065292699993359127">URLs in Mises im Inkognitomodus öffnen</translation>
 <translation id="806745655614357130">Daten getrennt halten</translation>
 <translation id="8073670137947914548">Download abgeschlossen</translation>
 <translation id="8073872304774253879">Suchanfragen und das Surfen verbessern</translation>
@@ -804,7 +804,7 @@ Websites können Cookies verwenden, um Ihre Browseraktivitäten auf anderen Webs
 <translation id="8533670235862049797">Safe Browsing ist aktiviert</translation>
 <translation id="8534481786647257214">Google+ Beitrag gepostet</translation>
 <translation id="8548878600947630424">Auf Seite suchen...</translation>
-<translation id="8574235780160508979">Die Nutzungsbedingungen von Chrome ändern sich am 31. März. <ph name="BEGIN_LINK" />Bitte lesen Sie sich die neue Fassung durch.<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Die Nutzungsbedingungen von Mises ändern sich am 31. März. <ph name="BEGIN_LINK" />Bitte lesen Sie sich die neue Fassung durch.<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Aus</translation>
 <translation id="8590913940444621808">Nie fragen</translation>
 <translation id="8591976964826315682">Cookies von Drittanbietern im Inkognitomodus blockieren</translation>
@@ -855,7 +855,7 @@ Websites können Cookies verwenden, um Ihre Browseraktivitäten auf anderen Webs
 <translation id="9081058212938299310">Passwort für <ph name="USERNAME" /> aktualisieren?</translation>
 <translation id="9083392325882095631">1 Element</translation>
 <translation id="9083838294503912307">Aktivieren Sie die Synchronisierung, um geräteübergreifend zu synchronisieren und zu personalisieren.</translation>
-<translation id="9087108903408689779">Von Chrome vorgeschlagenes Passwort:</translation>
+<translation id="9087108903408689779">Von Mises vorgeschlagenes Passwort:</translation>
 <translation id="9094033019050270033">Passwort aktualisieren</translation>
 <translation id="9100610230175265781">Passphrase erforderlich</translation>
 <translation id="9107664647686727385">Auf gehackte Passwörter prüfen</translation>

@@ -33,7 +33,7 @@ Votre moteur de recherche est <ph name="DSE_NAME" />. Lisez les instructions pou
 <translation id="1209206284964581585">Masquer pour le moment</translation>
 <translation id="1219674500290482172">Impossible de se connecter à Internet.</translation>
 <translation id="122699739164161391">Fermer tous les onglets</translation>
-<translation id="1229222343402087523">Rechercher ${searchPhrase} dans Chrome</translation>
+<translation id="1229222343402087523">Rechercher ${searchPhrase} dans Mises</translation>
 <translation id="1231733316453485619">Activer la synchronisation ?</translation>
 <translation id="1242044645101871359">Se reconnecter</translation>
 <translation id="1254117744268754948">Sélectionner un dossier</translation>
@@ -110,7 +110,7 @@ Votre moteur de recherche est <ph name="DSE_NAME" />. Lisez les instructions pou
 <translation id="1930989359703290198">Votre organisation ne vous autorise à vous connecter qu'avec certains comptes. Ceux qui ne sont pas autorisés sont masqués. <ph name="BEGIN_LINK" />En savoir plus<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Appuyez deux fois pour copier.</translation>
 <translation id="1952172573699511566">Les sites Web s'afficheront dans votre langue préférée lorsque ce sera possible.</translation>
-<translation id="1965935827552890526">Terminez ce que vous étiez en train de faire dans l'autre fenêtre Chrome ouverte.</translation>
+<translation id="1965935827552890526">Terminez ce que vous étiez en train de faire dans l'autre fenêtre Mises ouverte.</translation>
 <translation id="196896377990863006">Afficher l'aperçu du lien</translation>
 <translation id="1973912524893600642">Conserver les données</translation>
 <translation id="1974060860693918893">Paramètres avancés</translation>
@@ -138,7 +138,7 @@ Votre moteur de recherche est <ph name="DSE_NAME" />. Lisez les instructions pou
 <translation id="225943865679747347">Code d'erreur : <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Ajouter un compte</translation>
 <translation id="2268044343513325586">Affiner</translation>
-<translation id="2271351792809375263">Utilisez les mots de passe enregistrés dans Chrome dans d'autres applis sur votre appareil</translation>
+<translation id="2271351792809375263">Utilisez les mots de passe enregistrés dans Mises dans d'autres applis sur votre appareil</translation>
 <translation id="2273327106802955778">Menu Plus</translation>
 <translation id="2302742851632557585">Changer de mot de passe sur le site Web</translation>
 <translation id="2316709634732130529">Utiliser le mot de passe suggéré</translation>
@@ -191,12 +191,12 @@ Ils ne peuvent pas non plus en utiliser pour voir votre activité de navigation 
 <translation id="2783054063075604403">Impossible de créer le lien</translation>
 <translation id="2800683595868705743">Quitter le sélecteur d'onglets</translation>
 <translation id="2815198996063984598">2. Appuyez sur "Navigateur par défaut"</translation>
-<translation id="2820289420301699633">Votre administrateur contrôle Chrome et peut accéder à ses données</translation>
+<translation id="2820289420301699633">Votre administrateur contrôle Mises et peut accéder à ses données</translation>
 <translation id="2830972654601096923">Gérer les adresses…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Réinitialiser paramètres Traduction</translation>
 <translation id="2848086008667475748">Configurer par défaut dans les réglages…</translation>
-<translation id="2858204748079866344">Pour protéger votre vie privée, Chrome ne renseigne pas automatiquement le champ du mot de passe.</translation>
+<translation id="2858204748079866344">Pour protéger votre vie privée, Mises ne renseigne pas automatiquement le champ du mot de passe.</translation>
 <translation id="285960592395650245">Relancer téléchargement</translation>
 <translation id="2870560284913253234">Site</translation>
 <translation id="2871695793448672541">Masqué, Mot de passe</translation>
@@ -210,7 +210,7 @@ Ils ne peuvent pas non plus en utiliser pour voir votre activité de navigation 
 <translation id="2923448633003185837">Coller et rechercher</translation>
 <translation id="292639812446257861">Marquer comme non lues</translation>
 <translation id="2932085390869194046">Suggérer un mot de passe…</translation>
-<translation id="2952581218264071393">1. Accédez aux paramètres de Chrome</translation>
+<translation id="2952581218264071393">1. Accédez aux paramètres de Mises</translation>
 <translation id="2958718410589002129">Mots de passe</translation>
 <translation id="2961210776189273067">Civilité</translation>
 <translation id="2964349545761222050">Bloquer les cookies tiers</translation>
@@ -257,7 +257,7 @@ Lisez les instructions du moteur de recherche pour supprimer l'historique de vos
 <translation id="3335947283844343239">Rouvrir l'onglet fermé</translation>
 <translation id="3371831930909698441">La traduction est disponible. Options disponibles au bas de l'écran.</translation>
 <translation id="3393920035788932672">Pop-up autorisés</translation>
-<translation id="3399930248910934354">Accéder aux paramètres de Chrome</translation>
+<translation id="3399930248910934354">Accéder aux paramètres de Mises</translation>
 <translation id="3404744938087714423">Si vous vous déconnectez, la synchronisation sera désactivée.</translation>
 <translation id="3414451675185661089">2. Appuyez sur "Mots de passe"</translation>
 <translation id="3425644765244388016">Pseudo associé à la carte</translation>
@@ -283,7 +283,7 @@ Lisez les instructions du moteur de recherche pour supprimer l'historique de vos
 <translation id="3551320343578183772">Fermer l'onglet</translation>
 <translation id="3581564640715911333">Proposer de traduire les pages dans d'autres langues</translation>
 <translation id="3588820906588687999">Ouvrir l'image dans un nouvel onglet</translation>
-<translation id="359441731697487922">Vous pouvez définir Chrome comme votre navigateur par défaut pour y ouvrir des liens automatiquement.
+<translation id="359441731697487922">Vous pouvez définir Mises comme votre navigateur par défaut pour y ouvrir des liens automatiquement.
       
 Suivez les étapes ci-dessous :</translation>
 <translation id="3603009562372709545">Copier l'URL du lien</translation>
@@ -296,7 +296,7 @@ Suivez les étapes ci-dessous :</translation>
 <translation id="3691593122358196899">Ajouté aux favoris dans "<ph name="FOLDER_TITLE" />"</translation>
 <translation id="369349502275246497">Proposer d'enregistrer les mots de passe</translation>
 <translation id="3709582977625132201">Marquer comme non lu</translation>
-<translation id="3740397331642243698">Ouvre les URL saisies dans Google Chrome en mode navigation privée.</translation>
+<translation id="3740397331642243698">Ouvre les URL saisies dans Google Mises en mode navigation privée.</translation>
 <translation id="3762232513783804601">Conçu pour votre iPad</translation>
 <translation id="3771033907050503522">Ongl. navig. priv.</translation>
 <translation id="3775743491439407556">La synchronisation ne fonctionne pas</translation>
@@ -309,7 +309,7 @@ Suivez les étapes ci-dessous :</translation>
 <translation id="3858860766373142691">Nom</translation>
 <translation id="3892144330757387737">Votre historique s'affichera ici</translation>
 <translation id="3897092660631435901">Menu</translation>
-<translation id="3913386780052199712">Connecté à Google Chrome</translation>
+<translation id="3913386780052199712">Connecté à Google Mises</translation>
 <translation id="3915450441834151894">Informations sur le site</translation>
 <translation id="3922310737605261887">Rechercher le texte copié</translation>
 <translation id="3928666092801078803">Combiner mes données</translation>
@@ -426,12 +426,12 @@ Pour modifier ce paramètre, <ph name="BEGIN_LINK" />réinitialisez la synchroni
 <translation id="5062321486222145940">Installer Google Drive</translation>
 <translation id="5083464117946352670">Impos. déterm. taille fichier.</translation>
 <translation id="5090832849094901128">La suppression de ce mot de passe n'entraînera pas celle de votre compte sur <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Vous pouvez enregistrer des pages pour les lire plus tard ou hors connexion. Chrome vous demandera si vous voulez enregistrer les longues pages.</translation>
+<translation id="5092117651143801290">Vous pouvez enregistrer des pages pour les lire plus tard ou hors connexion. Mises vous demandera si vous voulez enregistrer les longues pages.</translation>
 <translation id="5094827893301452931">Tweet publié.</translation>
 <translation id="5118764316110575523">Désactivé</translation>
 <translation id="5127805178023152808">La synchronisation est désactivée.</translation>
 <translation id="5132942445612118989">Synchroniser vos mots de passe, votre historique et plus encore sur tous les appareils</translation>
-<translation id="5140288047769711648">Chrome mémorisera ce mot de passe pour vous. Vous n'avez donc pas besoin de le retenir.</translation>
+<translation id="5140288047769711648">Mises mémorisera ce mot de passe pour vous. Vous n'avez donc pas besoin de le retenir.</translation>
 <translation id="5150492518600715772">Envoyer sur votre appareil</translation>
 <translation id="5168414296986405587">Conçu pour iPadOS</translation>
 <translation id="5173088371991956744">La synchronisation doit confirmer votre identité</translation>
@@ -479,7 +479,7 @@ Handoff doit également être activé dans la section "Général" des paramètre
 <translation id="5659593005791499971">E-mail</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Version <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{1 fenêtre Chrome actuellement affichée}one{{count} fenêtre Chrome actuellement affichée}other{{count} fenêtres Chrome actuellement affichées}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{1 fenêtre Mises actuellement affichée}one{{count} fenêtre Mises actuellement affichée}other{{count} fenêtres Mises actuellement affichées}}</translation>
 <translation id="5706552126692816153">Actif il y a 1 jour</translation>
 <translation id="5711039611392265845">Pour accéder à d'autres paramètres liés à la confidentialité, à la sécurité et à la collecte de données, consultez la section <ph name="BEGIN_LINK" />Services Google/Synchronisation<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Pour naviguer sur le Web en mode privé, ajoutez un onglet</translation>
@@ -518,7 +518,7 @@ Handoff doit également être activé dans la section "Général" des paramètre
 <translation id="5979837087407522202">Rechercher des mots de passe</translation>
 <translation id="5982717868370722439">Ajoutez les données existantes au compte <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Consultations récentes</translation>
-<translation id="5988851877894965432">Ouvrir les URL dans Chrome</translation>
+<translation id="5988851877894965432">Ouvrir les URL dans Mises</translation>
 <translation id="6012140227487808125">Chiffrement…</translation>
 <translation id="6021332621416007159">Ouvrir dans…</translation>
 <translation id="6027945736510816438">Vous vouliez dire <ph name="WEBSITE" /> ?</translation>
@@ -539,7 +539,7 @@ Handoff doit également être activé dans la section "Général" des paramètre
 <translation id="6136914049981179737">À l'instant.</translation>
 <translation id="6144589619057374135">Ouvrir ${url} en mode navigation privée</translation>
 <translation id="6159839020698489198">facultatif</translation>
-<translation id="6177442314419606057">Effectuer une recherche dans Chrome</translation>
+<translation id="6177442314419606057">Effectuer une recherche dans Mises</translation>
 <translation id="6184086493125982861">Afficher les onglets</translation>
 <translation id="6187302354554850004">Dernière synchro : <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Non lus</translation>
@@ -673,7 +673,7 @@ Lorsque vous êtes en navigation privée, ils ne peuvent pas utiliser de cookies
 <translation id="7189598951263744875">Partager…</translation>
 <translation id="7192050974311852563">Démarrer la journalisation</translation>
 <translation id="7203585745079012652">Énoncer les réponses</translation>
-<translation id="7207383424303353046">Nouveau : Ouvrez automatiquement les sites dans Chrome en le définissant comme appli de navigation par défaut. <ph name="BEGIN_LINK" />Accéder aux paramètres<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Nouveau : Ouvrez automatiquement les sites dans Mises en le définissant comme appli de navigation par défaut. <ph name="BEGIN_LINK" />Accéder aux paramètres<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Pseudo incorrect associé à la carte</translation>
 <translation id="722454870747268814">Nouvel onglet de navigation privée 
 </translation>
@@ -700,7 +700,7 @@ Lorsque vous êtes en navigation privée, ils ne peuvent pas utiliser de cookies
 <translation id="7454057999980797137">État/Comté</translation>
 <translation id="7456847797759667638">Ouvrir une adresse</translation>
 <translation id="7464701184726199289">Les données synchronisées seront effacées de tous les appareils. Les paramètres de site enregistrés ne seront pas supprimés et peuvent donner des indications sur vos habitudes de navigation. <ph name="BEGIN_LINK" />En savoir plus<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Sélectionnez Chrome</translation>
+<translation id="746684838091935575">3. Sélectionnez Mises</translation>
 <translation id="7472734401283673885">Nom de la société</translation>
 <translation id="7473891865547856676">Non, merci</translation>
 <translation id="7481312909269577407">Avancer</translation>
@@ -728,13 +728,13 @@ Lorsque vous êtes en navigation privée, ils ne peuvent pas utiliser de cookies
 <translation id="7781011649027948662">Traduire la page ?</translation>
 <translation id="7781069478569868053">Page Nouvel onglet</translation>
 <translation id="7781829728241885113">Hier</translation>
-<translation id="778855399387580014">Lancer une recherche dans un nouvel onglet Chrome.</translation>
+<translation id="778855399387580014">Lancer une recherche dans un nouvel onglet Mises.</translation>
 <translation id="7791543448312431591">Ajouter</translation>
 <translation id="7839985698273989086">Page hors connexion</translation>
 <translation id="7840771868269352570">Les éléments sélectionnés seront supprimés.</translation>
 <translation id="7856733331829174190">Téléchargement impossible</translation>
 <translation id="7859704718976024901">Historique de navigation</translation>
-<translation id="7887198238286927132">Pour protéger votre vie privée, Chrome ne renseigne pas automatiquement de champ.</translation>
+<translation id="7887198238286927132">Pour protéger votre vie privée, Mises ne renseigne pas automatiquement de champ.</translation>
 <translation id="7911190106180361398">Votre organisation ne vous permet pas de tout synchroniser.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Export mots de passe…</translation>
@@ -749,14 +749,14 @@ Ils peuvent également s'en servir pour voir votre activité de navigation sur l
 <translation id="7978018860671536736">3. Appuyez sur "Saisir automatiquement les mots de passe"</translation>
 <translation id="7982789257301363584">Réseau</translation>
 <translation id="7993619969781047893">Des fonctionnalités sur certains sites risquent de ne pas fonctionner</translation>
-<translation id="800361585186029508">Ouvre les URL saisies dans Google Chrome.</translation>
+<translation id="800361585186029508">Ouvre les URL saisies dans Google Mises.</translation>
 <translation id="802154636333426148">Échec du téléchargement</translation>
 <translation id="8023878949384262191">Développe la section.</translation>
 <translation id="8027581147000338959">Ouvrir dans une nouvelle fenêtre</translation>
 <translation id="804225253087497565">L'<ph name="BEGIN_LINK" />historique des recherches<ph name="END_LINK" /> et d'<ph name="BEGIN_LINK" />autres formes d'activité<ph name="END_LINK" /> peuvent être enregistrés dans votre compte Google lorsque vous êtes connecté. Vous pouvez les supprimer à tout moment.</translation>
 <translation id="804427445359061970">Les onglets ouverts sur d'autres appareils s'afficheront ici</translation>
 <translation id="8059533439631660104">Réduit la section.</translation>
-<translation id="8065292699993359127">Ouvrir les URL dans Chrome en mode navigation privée</translation>
+<translation id="8065292699993359127">Ouvrir les URL dans Mises en mode navigation privée</translation>
 <translation id="806745655614357130">Conserver mes données à part</translation>
 <translation id="8073670137947914548">Téléchargement terminé</translation>
 <translation id="8073872304774253879">Améliorer les recherches et la navigation</translation>
@@ -805,7 +805,7 @@ Ils peuvent également s'en servir pour voir votre activité de navigation sur l
 <translation id="8533670235862049797">Navigation sécurisée activée</translation>
 <translation id="8534481786647257214">Post Google+ publié.</translation>
 <translation id="8548878600947630424">Rechercher sur la page…</translation>
-<translation id="8574235780160508979">Les conditions d'utilisation de Chrome vont changer le 31 mars. <ph name="BEGIN_LINK" />Veuillez consulter les modifications<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Les conditions d'utilisation de Mises vont changer le 31 mars. <ph name="BEGIN_LINK" />Veuillez consulter les modifications<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Éteinte</translation>
 <translation id="8590913940444621808">Ne jamais demander</translation>
 <translation id="8591976964826315682">Bloquer les cookies tiers en mode navigation privée</translation>
@@ -856,7 +856,7 @@ Ils peuvent également s'en servir pour voir votre activité de navigation sur l
 <translation id="9081058212938299310">Changer le mot de passe pour <ph name="USERNAME" /> ?</translation>
 <translation id="9083392325882095631">1 élément</translation>
 <translation id="9083838294503912307">Activez la synchronisation pour accéder à vos données et les personnaliser sur tous vos appareils.</translation>
-<translation id="9087108903408689779">Mot de passe suggéré par Chrome :</translation>
+<translation id="9087108903408689779">Mot de passe suggéré par Mises :</translation>
 <translation id="9094033019050270033">Modifier le mot de passe</translation>
 <translation id="9100610230175265781">Veuillez saisir la phrase secrète.</translation>
 <translation id="9107664647686727385">Pour vérifier la présence de mots de passe compromis</translation>

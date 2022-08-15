@@ -33,7 +33,7 @@ Twoja wyszukiwarka to <ph name="DSE_NAME" />. Zapoznaj się z jej instrukcjami,
 <translation id="1209206284964581585">Na razie ukryj</translation>
 <translation id="1219674500290482172">Nie można połączyć się z internetem.</translation>
 <translation id="122699739164161391">Zamknij wszystkie karty</translation>
-<translation id="1229222343402087523">Wyszukaj ${searchPhrase} w Chrome</translation>
+<translation id="1229222343402087523">Wyszukaj ${searchPhrase} w Mises</translation>
 <translation id="1231733316453485619">Włączyć synchronizację?</translation>
 <translation id="1242044645101871359">Zaloguj się ponownie</translation>
 <translation id="1254117744268754948">Wybierz folder</translation>
@@ -110,7 +110,7 @@ Twoja wyszukiwarka to <ph name="DSE_NAME" />. Zapoznaj się z jej instrukcjami,
 <translation id="1930989359703290198">Twoja organizacja pozwala logować się tylko na określone konta. Niedozwolone konta zostały ukryte. <ph name="BEGIN_LINK" />Więcej informacji<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Kliknij dwukrotnie, by skopiować.</translation>
 <translation id="1952172573699511566">Gdy będzie to możliwe, tekst na stronach internetowych będzie się wyświetlać w Twoim preferowanym języku.</translation>
-<translation id="1965935827552890526">Dokończ czynności rozpoczęte w innym otwartym oknie Chrome.</translation>
+<translation id="1965935827552890526">Dokończ czynności rozpoczęte w innym otwartym oknie Mises.</translation>
 <translation id="196896377990863006">Pokaż podgląd linku</translation>
 <translation id="1973912524893600642">Zachowaj dane</translation>
 <translation id="1974060860693918893">Zaawansowane</translation>
@@ -138,7 +138,7 @@ Twoja wyszukiwarka to <ph name="DSE_NAME" />. Zapoznaj się z jej instrukcjami,
 <translation id="225943865679747347">Kod błędu: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Dodaj konto</translation>
 <translation id="2268044343513325586">Zawęź</translation>
-<translation id="2271351792809375263">Korzystaj z haseł zapisanych w Chrome w innych aplikacjach na urządzeniu</translation>
+<translation id="2271351792809375263">Korzystaj z haseł zapisanych w Mises w innych aplikacjach na urządzeniu</translation>
 <translation id="2273327106802955778">Menu Więcej</translation>
 <translation id="2302742851632557585">Zmień hasło na stronie</translation>
 <translation id="2316709634732130529">Użyj proponowanego hasła</translation>
@@ -191,12 +191,12 @@ Witryny nie mogą używać plików cookie do śledzenia Twojej aktywności zwią
 <translation id="2783054063075604403">Nie udało się utworzyć linku</translation>
 <translation id="2800683595868705743">Zamknij przełącznik kart</translation>
 <translation id="2815198996063984598">2. Kliknij opcję Domyślna przeglądarka.</translation>
-<translation id="2820289420301699633">Twój administrator ma kontrolę nad Chrome i dostęp do danych w Chrome</translation>
+<translation id="2820289420301699633">Twój administrator ma kontrolę nad Mises i dostęp do danych w Mises</translation>
 <translation id="2830972654601096923">Zarządzaj adresami...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Zresetuj ustawienia tłumaczenia</translation>
 <translation id="2848086008667475748">Określ jako domyślną w ustawieniach…</translation>
-<translation id="2858204748079866344">Aby chronić Twoją prywatność, Chrome nie będzie autouzupełniać hasła w tym polu.</translation>
+<translation id="2858204748079866344">Aby chronić Twoją prywatność, Mises nie będzie autouzupełniać hasła w tym polu.</translation>
 <translation id="285960592395650245">Ponów pobieranie</translation>
 <translation id="2870560284913253234">Witryna</translation>
 <translation id="2871695793448672541">Ukryte, hasło</translation>
@@ -210,7 +210,7 @@ Witryny nie mogą używać plików cookie do śledzenia Twojej aktywności zwią
 <translation id="2923448633003185837">Wklej i otwórz</translation>
 <translation id="292639812446257861">Oznacz jako nieprzeczytane</translation>
 <translation id="2932085390869194046">Zaproponuj hasło...</translation>
-<translation id="2952581218264071393">1. Otwórz ustawienia Chrome.</translation>
+<translation id="2952581218264071393">1. Otwórz ustawienia Mises.</translation>
 <translation id="2958718410589002129">Hasła</translation>
 <translation id="2961210776189273067">Tytuł</translation>
 <translation id="2964349545761222050">Blokowanie plików cookie innych firm</translation>
@@ -257,7 +257,7 @@ Jeśli chcesz usunąć historię wyszukiwania, zapoznaj się z instrukcjami wys
 <translation id="3335947283844343239">Otwórz ponownie zamkniętą kartę</translation>
 <translation id="3371831930909698441">Dostępne jest tłumaczenie. Opcje znajdują się u dołu ekranu.</translation>
 <translation id="3393920035788932672">Pop-upy akceptowane</translation>
-<translation id="3399930248910934354">Otwórz ustawienia Chrome</translation>
+<translation id="3399930248910934354">Otwórz ustawienia Mises</translation>
 <translation id="3404744938087714423">Wylogowanie spowoduje wyłączenie synchronizacji.</translation>
 <translation id="3414451675185661089">2. Kliknij Hasła.</translation>
 <translation id="3425644765244388016">Nazwa karty</translation>
@@ -283,7 +283,7 @@ Jeśli chcesz usunąć historię wyszukiwania, zapoznaj się z instrukcjami wys
 <translation id="3551320343578183772">Zamknij kartę</translation>
 <translation id="3581564640715911333">Proponuj tłumaczenie stron w innych językach</translation>
 <translation id="3588820906588687999">Otwórz grafikę w nowej karcie</translation>
-<translation id="359441731697487922">Ustaw Chrome jako przeglądarkę domyślną, by linki otwierały się w niej automatycznie. Wykonaj te czynności:</translation>
+<translation id="359441731697487922">Ustaw Mises jako przeglądarkę domyślną, by linki otwierały się w niej automatycznie. Wykonaj te czynności:</translation>
 <translation id="3603009562372709545">Kopiuj URL linku</translation>
 <translation id="3607167657931203000">Autouzupełnianie</translation>
 <translation id="3609785682760573515">Synchronizuję...</translation>
@@ -294,7 +294,7 @@ Jeśli chcesz usunąć historię wyszukiwania, zapoznaj się z instrukcjami wys
 <translation id="3691593122358196899">Utworzono zakładkę w folderze <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Proponuj zapisywanie haseł</translation>
 <translation id="3709582977625132201">Oznacz jako nieprzeczytane</translation>
-<translation id="3740397331642243698">Otwiera wpisane adresy URL w Google Chrome w trybie incognito.</translation>
+<translation id="3740397331642243698">Otwiera wpisane adresy URL w Mises w trybie incognito.</translation>
 <translation id="3762232513783804601">Dla Twojego iPada</translation>
 <translation id="3771033907050503522">Karty incognito</translation>
 <translation id="3775743491439407556">Synchronizacja nie działa</translation>
@@ -307,7 +307,7 @@ Jeśli chcesz usunąć historię wyszukiwania, zapoznaj się z instrukcjami wys
 <translation id="3858860766373142691">Nazwa</translation>
 <translation id="3892144330757387737">Tu znajdziesz swoją historię</translation>
 <translation id="3897092660631435901">Menu</translation>
-<translation id="3913386780052199712">Zalogowany w Chrome</translation>
+<translation id="3913386780052199712">Zalogowany w Mises</translation>
 <translation id="3915450441834151894">Informacje o witrynie</translation>
 <translation id="3922310737605261887">Wyszukaj skopiowany tekst</translation>
 <translation id="3928666092801078803">Połącz moje dane</translation>
@@ -424,12 +424,12 @@ Aby zmienić to ustawienie, <ph name="BEGIN_LINK" />zresetuj synchronizację<ph 
 <translation id="5062321486222145940">Zainstaluj Dysk Google</translation>
 <translation id="5083464117946352670">Nie można ustalić rozmiaru pliku.</translation>
 <translation id="5090832849094901128">Usunięcie tego hasła nie spowoduje usunięcia Twojego konta w serwisie <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Możesz zapisywać strony do przeczytania później lub offline. Chrome zapyta, czy chcesz zapisać długie strony.</translation>
+<translation id="5092117651143801290">Możesz zapisywać strony do przeczytania później lub offline. Mises zapyta, czy chcesz zapisać długie strony.</translation>
 <translation id="5094827893301452931">Tweet opublikowany.</translation>
 <translation id="5118764316110575523">Wyłączono</translation>
 <translation id="5127805178023152808">Synchronizacja jest wyłączona</translation>
 <translation id="5132942445612118989">Synchronizuj swoje hasła, historię i inne dane na wszystkich swoich urządzeniach</translation>
-<translation id="5140288047769711648">Chrome będzie pamiętać to hasło za Ciebie. Nie musisz go zapamiętywać.</translation>
+<translation id="5140288047769711648">Mises będzie pamiętać to hasło za Ciebie. Nie musisz go zapamiętywać.</translation>
 <translation id="5150492518600715772">Wyślij na swoje urządzenie</translation>
 <translation id="5168414296986405587">Stworzona dla iPadOS</translation>
 <translation id="5173088371991956744">Synchronizacja musi potwierdzić Twoją tożsamość</translation>
@@ -477,7 +477,7 @@ Funkcja Handoff musi być też włączona w sekcji Ogólne w Ustawieniach, a urz
 <translation id="5659593005791499971">E-mail</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Wersja <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Pokazuję 1 okno Chrome}few{Pokazuję {count} okna Chrome}many{Pokazuję {count} okien Chrome}other{Pokazuję {count} okna Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Pokazuję 1 okno Mises}few{Pokazuję {count} okna Mises}many{Pokazuję {count} okien Mises}other{Pokazuję {count} okna Mises}}</translation>
 <translation id="5706552126692816153">Aktywność 1 dzień temu</translation>
 <translation id="5711039611392265845">Więcej ustawień związanych z prywatnością, bezpieczeństwem i zbieraniem danych znajdziesz w sekcji <ph name="BEGIN_LINK" />Synchronizacja i usługi Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Aby przeglądać strony internetowe prywatnie, dodaj nową kartę</translation>
@@ -516,7 +516,7 @@ Funkcja Handoff musi być też włączona w sekcji Ogólne w Ustawieniach, a urz
 <translation id="5979837087407522202">Szukaj haseł</translation>
 <translation id="5982717868370722439">Dodaj istniejące dane do konta <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Ostatnio odwiedzone</translation>
-<translation id="5988851877894965432">Otwórz adresy URL w Chrome</translation>
+<translation id="5988851877894965432">Otwórz adresy URL w Mises</translation>
 <translation id="6012140227487808125">Szyfruję…</translation>
 <translation id="6021332621416007159">Otwórz w...</translation>
 <translation id="6027945736510816438">Czy chodziło Ci o <ph name="WEBSITE" />?</translation>
@@ -537,7 +537,7 @@ Funkcja Handoff musi być też włączona w sekcji Ogólne w Ustawieniach, a urz
 <translation id="6136914049981179737">Przed chwilą</translation>
 <translation id="6144589619057374135">Otwórz ${url} w trybie incognito</translation>
 <translation id="6159839020698489198">opcjonalnie</translation>
-<translation id="6177442314419606057">Szukaj w Chrome</translation>
+<translation id="6177442314419606057">Szukaj w Mises</translation>
 <translation id="6184086493125982861">Pokaż karty</translation>
 <translation id="6187302354554850004">Ostatnia synchronizacja: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Nieprzeczytane</translation>
@@ -671,7 +671,7 @@ W trybie incognito witryny nie mogą używać plików cookie do śledzenia Twoj
 <translation id="7189598951263744875">Udostępnij...</translation>
 <translation id="7192050974311852563">Uruchom rejestrowanie</translation>
 <translation id="7203585745079012652">Odczytuj odpowiedzi</translation>
-<translation id="7207383424303353046">Nowość: ustaw Chrome jako przeglądarkę domyślną, by strony otwierały się w niej automatycznie. <ph name="BEGIN_LINK" />Otwórz ustawienia<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Nowość: ustaw Mises jako przeglądarkę domyślną, by strony otwierały się w niej automatycznie. <ph name="BEGIN_LINK" />Otwórz ustawienia<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Nieprawidłowa nazwa karty</translation>
 <translation id="722454870747268814">Nowa karta incognito</translation>
 <translation id="7265758999917665941">Nigdy dla tej witryny</translation>
@@ -697,7 +697,7 @@ W trybie incognito witryny nie mogą używać plików cookie do śledzenia Twoj
 <translation id="7454057999980797137">Stan/region</translation>
 <translation id="7456847797759667638">Otwórz lokalizację...</translation>
 <translation id="7464701184726199289">Spowoduje to usunięcie zsynchronizowanych danych ze wszystkich urządzeń. Zapisane ustawienia witryn nie zostaną usunięte i mogą zawierać informacje o Twoim korzystaniu z przeglądarki. <ph name="BEGIN_LINK" />Więcej informacji<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Wybierz Chrome.</translation>
+<translation id="746684838091935575">3. Wybierz Mises.</translation>
 <translation id="7472734401283673885">Nazwa firmy</translation>
 <translation id="7473891865547856676">Nie, dziękuję</translation>
 <translation id="7481312909269577407">Dalej</translation>
@@ -725,13 +725,13 @@ W trybie incognito witryny nie mogą używać plików cookie do śledzenia Twoj
 <translation id="7781011649027948662">Przetłumaczyć stronę?</translation>
 <translation id="7781069478569868053">Strona Nowa karta</translation>
 <translation id="7781829728241885113">Wczoraj</translation>
-<translation id="778855399387580014">Rozpocznij wyszukiwanie na nowej karcie Chrome.</translation>
+<translation id="778855399387580014">Rozpocznij wyszukiwanie na nowej karcie Mises.</translation>
 <translation id="7791543448312431591">Dodaj</translation>
 <translation id="7839985698273989086">Strona offline</translation>
 <translation id="7840771868269352570">Wybrane elementy zostaną usunięte.</translation>
 <translation id="7856733331829174190">Nie udało się pobrać pliku</translation>
 <translation id="7859704718976024901">Historia przeglądania</translation>
-<translation id="7887198238286927132">Aby chronić Twoją prywatność, Chrome nie będzie automatycznie wypełniać tego pola.</translation>
+<translation id="7887198238286927132">Aby chronić Twoją prywatność, Mises nie będzie automatycznie wypełniać tego pola.</translation>
 <translation id="7911190106180361398">Twoja organizacja nie pozwala Ci synchronizować wszystkich danych.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Eksportuj hasła…</translation>
@@ -746,14 +746,14 @@ Witryny mogą używać plików cookie do śledzenia Twojej aktywności związane
 <translation id="7978018860671536736">3. Kliknij Automatyczne wypełnianie haseł.</translation>
 <translation id="7982789257301363584">Sieć</translation>
 <translation id="7993619969781047893">Funkcje niektórych stron mogą nie działać prawidłowo</translation>
-<translation id="800361585186029508">Otwiera wpisane adresy URL w Google Chrome.</translation>
+<translation id="800361585186029508">Otwiera wpisane adresy URL w Mises.</translation>
 <translation id="802154636333426148">Nie udało się pobrać</translation>
 <translation id="8023878949384262191">Rozwija sekcję.</translation>
 <translation id="8027581147000338959">Otwórz w nowym oknie</translation>
 <translation id="804225253087497565"><ph name="BEGIN_LINK" />Historia wyszukiwania<ph name="END_LINK" /> i <ph name="BEGIN_LINK" />inne formy aktywności<ph name="END_LINK" /> mogą być zapisywane na Twoim koncie Google, gdy się zalogujesz. W każdej chwili możesz je usunąć.</translation>
 <translation id="804427445359061970">Znajdziesz tu swoje karty z innych urządzeń</translation>
 <translation id="8059533439631660104">Zwija sekcję.</translation>
-<translation id="8065292699993359127">Otwórz adresy URL w Chrome w trybie incognito</translation>
+<translation id="8065292699993359127">Otwórz adresy URL w Mises w trybie incognito</translation>
 <translation id="806745655614357130">Przechowuj dane oddzielnie</translation>
 <translation id="8073670137947914548">Pobieranie zakończone</translation>
 <translation id="8073872304774253879">Ulepsz wyszukiwanie i przeglądanie</translation>
@@ -802,7 +802,7 @@ Witryny mogą używać plików cookie do śledzenia Twojej aktywności związane
 <translation id="8533670235862049797">Bezpieczne przeglądanie jest włączone</translation>
 <translation id="8534481786647257214">Post w Google+ opublikowany.</translation>
 <translation id="8548878600947630424">Znajdź na stronie...</translation>
-<translation id="8574235780160508979">31 marca zmienią się Warunki korzystania z Chrome. <ph name="BEGIN_LINK" />Zapoznaj się z nimi<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">31 marca zmienią się Warunki korzystania z Mises. <ph name="BEGIN_LINK" />Zapoznaj się z nimi<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Wyłączono</translation>
 <translation id="8590913940444621808">Nigdy nie pytaj</translation>
 <translation id="8591976964826315682">Blokuj pliki cookie innych firm w trybie incognito</translation>
@@ -853,7 +853,7 @@ Witryny mogą używać plików cookie do śledzenia Twojej aktywności związane
 <translation id="9081058212938299310">Zaktualizować hasło dla <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">Jeden element</translation>
 <translation id="9083838294503912307">Aby synchronizować i personalizować wszystkie swoje urządzenia, włącz synchronizację.</translation>
-<translation id="9087108903408689779">Hasło proponowane przez Chrome:</translation>
+<translation id="9087108903408689779">Hasło proponowane przez Mises:</translation>
 <translation id="9094033019050270033">Aktualizuj hasło</translation>
 <translation id="9100610230175265781">Wymagane jest hasło</translation>
 <translation id="9107664647686727385">Sprawdź, czy nie przejęto haseł</translation>

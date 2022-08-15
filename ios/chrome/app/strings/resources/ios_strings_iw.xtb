@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">להסתיר בינתיים</translation>
 <translation id="1219674500290482172">לא ניתן להתחבר לאינטרנט.</translation>
 <translation id="122699739164161391">סגירת כל הכרטיסיות</translation>
-<translation id="1229222343402087523">‏חיפוש ${searchPhrase} ב-Chrome</translation>
+<translation id="1229222343402087523">‏חיפוש ${searchPhrase} ב-Mises</translation>
 <translation id="1231733316453485619">להפעיל סנכרון?</translation>
 <translation id="1242044645101871359">כניסה חוזרת</translation>
 <translation id="1254117744268754948">בחירת תיקייה</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">הארגון מאפשר לך להיכנס לדפדפן רק באמצעות חשבונות מסוימים. החשבונות שאינם מותרים מוסתרים. <ph name="BEGIN_LINK" />מידע נוסף<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">כדי להעתיק, לוחצים פעמיים.</translation>
 <translation id="1952172573699511566">אתרים יציגו טקסט בשפה המועדפת שלך, כשזה אפשרי.</translation>
-<translation id="1965935827552890526">‏יש לסיים את הפעילות בחלון Chrome הפתוח הנוסף.</translation>
+<translation id="1965935827552890526">‏יש לסיים את הפעילות בחלון Mises הפתוח הנוסף.</translation>
 <translation id="196896377990863006">הצגת התצוגה המקדימה של הקישור</translation>
 <translation id="1973912524893600642">שמירת הנתונים</translation>
 <translation id="1974060860693918893">מתקדם</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">קוד שגיאה: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">חשבון חדש</translation>
 <translation id="2268044343513325586">צמצום</translation>
-<translation id="2271351792809375263">‏יש להשתמש בסיסמאות ששמרת ב-Chrome לאפליקציות אחרות במכשיר</translation>
+<translation id="2271351792809375263">‏יש להשתמש בסיסמאות ששמרת ב-Mises לאפליקציות אחרות במכשיר</translation>
 <translation id="2273327106802955778">התפריט 'עוד'</translation>
 <translation id="2302742851632557585">שינוי הסיסמה באתר</translation>
 <translation id="2316709634732130529">שימוש בסיסמה המוצעת</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">לא ניתן ליצור את הקישור</translation>
 <translation id="2800683595868705743">‏יציאה מ-Tab Switcher</translation>
 <translation id="2815198996063984598">2. מקישים על אפליקציית הדפדפן שמוגדרת כברירת מחדל</translation>
-<translation id="2820289420301699633">‏למנהל המערכת שלך יש שליטה על Chrome וגישה לנתונים שלו</translation>
+<translation id="2820289420301699633">‏למנהל המערכת שלך יש שליטה על Mises וגישה לנתונים שלו</translation>
 <translation id="2830972654601096923">ניהול כתובות...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">‏איפוס ההגדרות של Google Translate</translation>
 <translation id="2848086008667475748">להגדרה כברירת מחדל ב'הגדרות'…</translation>
-<translation id="2858204748079866344">‏כדי לשמור על הפרטיות שלך, מערכת Chrome לא ממלאת באופן אוטומטי את הסיסמה שלך בשדה הזה.</translation>
+<translation id="2858204748079866344">‏כדי לשמור על הפרטיות שלך, מערכת Mises לא ממלאת באופן אוטומטי את הסיסמה שלך בשדה הזה.</translation>
 <translation id="285960592395650245">יש לנסות להוריד שוב</translation>
 <translation id="2870560284913253234">אתר</translation>
 <translation id="2871695793448672541">נסתר, סיסמה</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">הדבקה וחיפוש</translation>
 <translation id="292639812446257861">סימון כ'לא נקרא'</translation>
 <translation id="2932085390869194046">הצעת סיסמה...</translation>
-<translation id="2952581218264071393">‏1. פותחים את ההגדרות של Chrome</translation>
+<translation id="2952581218264071393">‏1. פותחים את ההגדרות של Mises</translation>
 <translation id="2958718410589002129">סיסמאות</translation>
 <translation id="2961210776189273067">תואר</translation>
 <translation id="2964349545761222050">‏חסימה של קובצי cookie מצדדים שלישיים</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">פתיחה מחדש כרטיסייה שנסגרה</translation>
 <translation id="3371831930909698441">‏Translate זמין. האפשרויות מוצגות בחלק התחתון של המסך.</translation>
 <translation id="3393920035788932672">חלונות קופצים מותרים</translation>
-<translation id="3399930248910934354">‏פתיחת ההגדרות של Chrome</translation>
+<translation id="3399930248910934354">‏פתיחת ההגדרות של Mises</translation>
 <translation id="3404744938087714423">היציאה תשבית את הסנכרון.</translation>
 <translation id="3414451675185661089">2. מקישים על 'סיסמאות'</translation>
 <translation id="3425644765244388016">כינוי הכרטיס</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">סגירת כרטיסייה</translation>
 <translation id="3581564640715911333">הצעה לתרגם דפים בשפות אחרות</translation>
 <translation id="3588820906588687999">פתיחת התמונה בכרטיסייה חדשה</translation>
-<translation id="359441731697487922">‏אם Chrome יוגדר כאפליקציית הדפדפן בברירת מחדל, קישורים ייפתחו בו באופן אוטומטי.
+<translation id="359441731697487922">‏אם Mises יוגדר כאפליקציית הדפדפן בברירת מחדל, קישורים ייפתחו בו באופן אוטומטי.
       
 עליך לפעול לפי השלבים הבאים:</translation>
 <translation id="3603009562372709545">‏העתקת URL של קישור</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899">התווסף לסימניות ב-<ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">הצגת הצעות לשמירת הסיסמאות</translation>
 <translation id="3709582977625132201">סימון כפריט שלא נקרא</translation>
-<translation id="3740397331642243698">‏פתיחת כתובות ה-URL שהוזנו ב-Google Chrome במצב אנונימי.</translation>
+<translation id="3740397331642243698">‏פתיחת כתובות ה-URL שהוזנו ב-Mises במצב אנונימי.</translation>
 <translation id="3762232513783804601">‏מותאם ל-iPad שלך</translation>
 <translation id="3771033907050503522">כרטיסיות אנונימיות</translation>
 <translation id="3775743491439407556">הסנכרון לא פועל</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">שם</translation>
 <translation id="3892144330757387737">ההיסטוריה זמינה כאן</translation>
 <translation id="3897092660631435901">תפריט</translation>
-<translation id="3913386780052199712">‏נכנסת ל-Chrome</translation>
+<translation id="3913386780052199712">‏נכנסת ל-Mises</translation>
 <translation id="3915450441834151894">פרטי אתר</translation>
 <translation id="3922310737605261887">חיפוש טקסט שהועתק</translation>
 <translation id="3928666092801078803">שילוב הנתונים שלי</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">‏התקנת Google Drive</translation>
 <translation id="5083464117946352670">גודל הקובץ אינו ידוע.</translation>
 <translation id="5090832849094901128">מחיקת הסיסמה הזו לא תגרום למחיקת החשבון שלך באתר <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">‏יש לך אפשרות לשמור דפים לקריאה במועד מאוחר יותר או במצב אופליין. כשמגיעים ב-Chrome לדפים ארוכים, מופיעה שאלה ‒ האם לשמור אותם?</translation>
+<translation id="5092117651143801290">‏יש לך אפשרות לשמור דפים לקריאה במועד מאוחר יותר או במצב אופליין. כשמגיעים ב-Mises לדפים ארוכים, מופיעה שאלה ‒ האם לשמור אותם?</translation>
 <translation id="5094827893301452931">הציוץ בוצע.</translation>
 <translation id="5118764316110575523">כבויה</translation>
 <translation id="5127805178023152808">סנכרון כבוי</translation>
 <translation id="5132942445612118989">סנכרון הסיסמאות, ההיסטוריה ונתונים נוספים בכל המכשירים</translation>
-<translation id="5140288047769711648">‏Chrome ישמור את הסיסמה הזאת בשבילך. אין צורך לזכור אותה.</translation>
+<translation id="5140288047769711648">‏Mises ישמור את הסיסמה הזאת בשבילך. אין צורך לזכור אותה.</translation>
 <translation id="5150492518600715772">שליחה למכשיר שלך</translation>
 <translation id="5168414296986405587">‏מותאם ל-iPadOS</translation>
 <translation id="5173088371991956744">כדי לסנכרן צריך לאמת את הזהות שלך</translation>
@@ -479,7 +479,7 @@
 <translation id="5659593005791499971">אימייל</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">גרסה <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{‏כרגע מוצג חלון Chrome אחד}two{‏כרגע מוצגים {count} חלונות Chrome}many{‏כרגע מוצגים {count} חלונות Chrome}other{‏כרגע מוצגים {count} חלונות Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{‏כרגע מוצג חלון Mises אחד}two{‏כרגע מוצגים {count} חלונות Mises}many{‏כרגע מוצגים {count} חלונות Mises}other{‏כרגע מוצגים {count} חלונות Mises}}</translation>
 <translation id="5706552126692816153">פעילות אחרונה: לפני יום אחד</translation>
 <translation id="5711039611392265845">‏אפשר למצוא הגדרות נוספות בנושא פרטיות, אבטחה ואיסוף נתונים בדף <ph name="BEGIN_LINK" />סנכרון ושירותי Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">כדי לגלוש באינטרנט בפרטיות צריך להוסיף כרטיסייה חדשה</translation>
@@ -518,7 +518,7 @@
 <translation id="5979837087407522202">חיפוש בסיסמאות</translation>
 <translation id="5982717868370722439">הוספת נתונים קיימים אל <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">ביקרת לאחרונה</translation>
-<translation id="5988851877894965432">‏פתיחת כתובות URL ב-Chrome</translation>
+<translation id="5988851877894965432">‏פתיחת כתובות URL ב-Mises</translation>
 <translation id="6012140227487808125">ההצפנה מתבצעת…</translation>
 <translation id="6021332621416007159">פתיחה ב...</translation>
 <translation id="6027945736510816438">האם התכוונת לאתר <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@
 <translation id="6136914049981179737">שניות</translation>
 <translation id="6144589619057374135">‏פתיחת ${urls} במצב אנונימי</translation>
 <translation id="6159839020698489198">אופציונלי</translation>
-<translation id="6177442314419606057">‏חיפוש ב-Chrome</translation>
+<translation id="6177442314419606057">‏חיפוש ב-Mises</translation>
 <translation id="6184086493125982861">הצגת כרטיסיות</translation>
 <translation id="6187302354554850004">סונכרן לאחרונה: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">פריטים שלא נקראו</translation>
@@ -673,7 +673,7 @@
 <translation id="7189598951263744875">שיתוף...</translation>
 <translation id="7192050974311852563">התחלת רישום ביומן</translation>
 <translation id="7203585745079012652">משוב לתשובות על-ידי דיבור</translation>
-<translation id="7207383424303353046">‏חדש: אם Chrome יוגדר כאפליקציית הדפדפן בברירת מחדל, אתרים ייפתחו בו באופן אוטומטי. <ph name="BEGIN_LINK" />לפתיחת ההגדרות<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">‏חדש: אם Mises יוגדר כאפליקציית הדפדפן בברירת מחדל, אתרים ייפתחו בו באופן אוטומטי. <ph name="BEGIN_LINK" />לפתיחת ההגדרות<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">כינוי הכרטיס לא חוקי</translation>
 <translation id="722454870747268814">כרטיסייה חדשה לגלישה בסתר</translation>
 <translation id="7265758999917665941">אף פעם עבור אתר זה</translation>
@@ -699,7 +699,7 @@
 <translation id="7454057999980797137">מדינה / ארץ</translation>
 <translation id="7456847797759667638">פתיחת מיקום...</translation>
 <translation id="7464701184726199289">פעולה זו מוחקת נתונים מסונכרנים מכל המכשירים. הגדרות אתרים שנשמרו לא יימחקו ועשויות לשקף את הרגלי הגלישה שלך. <ph name="BEGIN_LINK" />למידע נוסף<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">‏3. בוחרים באפשרות Chrome.</translation>
+<translation id="746684838091935575">‏3. בוחרים באפשרות Mises.</translation>
 <translation id="7472734401283673885">שם החברה</translation>
 <translation id="7473891865547856676">לא, תודה</translation>
 <translation id="7481312909269577407">קדימה</translation>
@@ -727,13 +727,13 @@
 <translation id="7781011649027948662">לתרגם את הדף?</translation>
 <translation id="7781069478569868053">דף 'כרטיסייה חדשה'</translation>
 <translation id="7781829728241885113">אתמול</translation>
-<translation id="778855399387580014">‏חיפוש בכרטיסיית Chrome חדשה.</translation>
+<translation id="778855399387580014">‏חיפוש בכרטיסיית Mises חדשה.</translation>
 <translation id="7791543448312431591">הוספה</translation>
 <translation id="7839985698273989086">הדף לא מחובר לאינטרנט</translation>
 <translation id="7840771868269352570">הפריטים שבחרת יוסרו.</translation>
 <translation id="7856733331829174190">ההורדה נכשלה</translation>
 <translation id="7859704718976024901">היסטוריית הגלישה</translation>
-<translation id="7887198238286927132">‏כדי לשמור על הפרטיות שלך, מערכת Chrome לא ממלאת את השדה הזה באופן אוטומטי.</translation>
+<translation id="7887198238286927132">‏כדי לשמור על הפרטיות שלך, מערכת Mises לא ממלאת את השדה הזה באופן אוטומטי.</translation>
 <translation id="7911190106180361398">בהתאם למדיניות הארגון שלך, אין לך אפשרות לסנכרן הכול.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">ייצוא סיסמאות...</translation>
@@ -748,14 +748,14 @@
 <translation id="7978018860671536736">3. מקישים על 'מילוי אוטומטי של סיסמאות'</translation>
 <translation id="7982789257301363584">רשת</translation>
 <translation id="7993619969781047893">ייתכן שהתכונות של חלק מהאתרים לא יפעלו כראוי</translation>
-<translation id="800361585186029508">‏פתיחת כתובות ה-URL שהוזנו ב-Google Chrome.</translation>
+<translation id="800361585186029508">‏פתיחת כתובות ה-URL שהוזנו ב-Mises.</translation>
 <translation id="802154636333426148">ההורדה נכשלה</translation>
 <translation id="8023878949384262191">מרחיב את הקטע.</translation>
 <translation id="8027581147000338959">פתיחה בחלון חדש</translation>
 <translation id="804225253087497565">‏<ph name="BEGIN_LINK" />היסטוריית החיפושים<ph name="END_LINK" /> ו<ph name="BEGIN_LINK" />סוגי פעילות אחרים<ph name="END_LINK" /> יכולים להישמר בחשבון Google אחרי שנכנסים. אפשר למחוק אותם בכל שלב.</translation>
 <translation id="804427445359061970">כאן יופיעו הכרטיסיות שפתוחות במכשירים אחרים</translation>
 <translation id="8059533439631660104">מכווץ את הקטע.</translation>
-<translation id="8065292699993359127">‏פתיחת כתובות URL ב-Chrome במצב אנונימי</translation>
+<translation id="8065292699993359127">‏פתיחת כתובות URL ב-Mises במצב אנונימי</translation>
 <translation id="806745655614357130">שמירת הנתונים שלי בנפרד</translation>
 <translation id="8073670137947914548">ההורדה הסתיימה</translation>
 <translation id="8073872304774253879">שיפור החיפושים והגלישה</translation>
@@ -804,7 +804,7 @@
 <translation id="8533670235862049797">הגלישה הבטוחה מופעלת</translation>
 <translation id="8534481786647257214">‏הפרסום ב-‏Google+‎ בוצע.</translation>
 <translation id="8548878600947630424">חיפוש בדף...</translation>
-<translation id="8574235780160508979">‏התנאים וההגבלות של Chrome ישתנו ב-31 במרץ. <ph name="BEGIN_LINK" />יש לקרוא אותם<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">‏התנאים וההגבלות של Mises ישתנו ב-31 במרץ. <ph name="BEGIN_LINK" />יש לקרוא אותם<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">כבוי</translation>
 <translation id="8590913940444621808">אל תשאלו יותר</translation>
 <translation id="8591976964826315682">‏חסימת קובצי cookie של צד שלישי במצב אנונימי</translation>
@@ -855,7 +855,7 @@
 <translation id="9081058212938299310">לעדכן את הסיסמה של <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">פריט אחד</translation>
 <translation id="9083838294503912307">כדי לסנכרן ולהתאים אישית את החוויה במכשירים שונים, צריך להפעיל את הסנכרון.</translation>
-<translation id="9087108903408689779">‏הצעה לסיסמה מ-Chrome:</translation>
+<translation id="9087108903408689779">‏הצעה לסיסמה מ-Mises:</translation>
 <translation id="9094033019050270033">עדכון סיסמה</translation>
 <translation id="9100610230175265781">יש להזין ביטוי סיסמה</translation>
 <translation id="9107664647686727385">בדיקה לאיתור סיסמאות שנחשפו</translation>

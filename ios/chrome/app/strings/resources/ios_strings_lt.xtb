@@ -33,7 +33,7 @@ Jūsų paieškos variklis yra „<ph name="DSE_NAME" />“. Peržiūrėkite jo i
 <translation id="1209206284964581585">Slėpti dabar</translation>
 <translation id="1219674500290482172">Nepavyksta prisijungti prie interneto.</translation>
 <translation id="122699739164161391">Uždaryti visus skirtukus</translation>
-<translation id="1229222343402087523">Ieškoti pagal užklausą „${searchPhrase}“ naršyklėje „Chrome“</translation>
+<translation id="1229222343402087523">Ieškoti pagal užklausą „${searchPhrase}“ naršyklėje „Mises“</translation>
 <translation id="1231733316453485619">Įjungti sinchronizavimą?</translation>
 <translation id="1242044645101871359">Prisijungimas dar kartą</translation>
 <translation id="1254117744268754948">Pasirinkti aplanką</translation>
@@ -110,7 +110,7 @@ Jūsų paieškos variklis yra „<ph name="DSE_NAME" />“. Peržiūrėkite jo i
 <translation id="1930989359703290198">Organizacijoje leidžiama prisijungti tik naudojant tam tikras paskyras. Neleidžiamos paskyros yra paslėptos. <ph name="BEGIN_LINK" />Sužinokite daugiau<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Dukart palieskite, kad nukopijuotumėte.</translation>
 <translation id="1952172573699511566">Kai bus įmanoma, svetainėje tekstas bus rodomas pasirinkta kalba.</translation>
-<translation id="1965935827552890526">Pabaikite tai, ką darėte, kitame atidarytame „Chrome“ lange.</translation>
+<translation id="1965935827552890526">Pabaikite tai, ką darėte, kitame atidarytame „Mises“ lange.</translation>
 <translation id="196896377990863006">Rodyti nuorodos peržiūrą</translation>
 <translation id="1973912524893600642">Palikti duomenis</translation>
 <translation id="1974060860693918893">Išplėstiniai</translation>
@@ -138,7 +138,7 @@ Jūsų paieškos variklis yra „<ph name="DSE_NAME" />“. Peržiūrėkite jo i
 <translation id="225943865679747347">Klaidos kodas: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Pridėti paskyrą</translation>
 <translation id="2268044343513325586">Patikslinti</translation>
-<translation id="2271351792809375263">Naudokite naršyklėje „Chrome“ išsaugotus slaptažodžius kitose įrenginio programose</translation>
+<translation id="2271351792809375263">Naudokite naršyklėje „Mises“ išsaugotus slaptažodžius kitose įrenginio programose</translation>
 <translation id="2273327106802955778">Daugiau meniu</translation>
 <translation id="2302742851632557585">Pakeisti slaptažodį svetainėje</translation>
 <translation id="2316709634732130529">Naudoti siūl. slapt.</translation>
@@ -191,12 +191,12 @@ Svetainės negali naudoti slapukų, kad sužinotų apie naršymo veiklą skirtin
 <translation id="2783054063075604403">Nepavyko sukurti nuorodos</translation>
 <translation id="2800683595868705743">Išjungti skirtukų perjungiklį</translation>
 <translation id="2815198996063984598">2. Palieskite „Numatytoji naršyklės programa“</translation>
-<translation id="2820289420301699633">Jūsų administratorius valdo naršyklę „Chrome“ ir gali pasiekti jos duomenis</translation>
+<translation id="2820289420301699633">Jūsų administratorius valdo naršyklę „Mises“ ir gali pasiekti jos duomenis</translation>
 <translation id="2830972654601096923">Tvarkyti adresus...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Nust. Vert. nust. iš n.</translation>
 <translation id="2848086008667475748">Nustatyti kaip numatytąją nustatymuose…</translation>
-<translation id="2858204748079866344">Siekiant apsaugoti jūsų privatumą, „Chrome“ šio lauko automatiškai nepildys jūsų slaptažodžiu.</translation>
+<translation id="2858204748079866344">Siekiant apsaugoti jūsų privatumą, „Mises“ šio lauko automatiškai nepildys jūsų slaptažodžiu.</translation>
 <translation id="285960592395650245">Bandyti atsis. iš naujo</translation>
 <translation id="2870560284913253234">Svetainė</translation>
 <translation id="2871695793448672541">Paslėptas slaptažodis</translation>
@@ -210,7 +210,7 @@ Svetainės negali naudoti slapukų, kad sužinotų apie naršymo veiklą skirtin
 <translation id="2923448633003185837">Įklijuoti ir eiti</translation>
 <translation id="292639812446257861">Pažymėti kaip neskaitytus</translation>
 <translation id="2932085390869194046">Siūlyti slaptažodį...</translation>
-<translation id="2952581218264071393">1. Atidarykite „Chrome“ nustatymus</translation>
+<translation id="2952581218264071393">1. Atidarykite „Mises“ nustatymus</translation>
 <translation id="2958718410589002129">Slaptažodžiai</translation>
 <translation id="2961210776189273067">Kreipinys / titulas</translation>
 <translation id="2964349545761222050">Trečiosios šalies slapukų blokavimas</translation>
@@ -257,7 +257,7 @@ Peržiūrėkite paieškos variklio instrukcijas, kaip ištrinti paieškos istori
 <translation id="3335947283844343239">Iš naujo atidarykite uždarytą skirtuką</translation>
 <translation id="3371831930909698441">Pasiekiamas vertimas. Parinktys pasiekiamos netoli ekrano apačios.</translation>
 <translation id="3393920035788932672">Iššok. l. leidžiami</translation>
-<translation id="3399930248910934354">Atidarykite „Chrome“ nustatymus</translation>
+<translation id="3399930248910934354">Atidarykite „Mises“ nustatymus</translation>
 <translation id="3404744938087714423">Atsijungus sinchronizavimas bus išjungtas.</translation>
 <translation id="3414451675185661089">2. Palieskite „Passwords“</translation>
 <translation id="3425644765244388016">Kortelės slapyvardis</translation>
@@ -283,7 +283,7 @@ Peržiūrėkite paieškos variklio instrukcijas, kaip ištrinti paieškos istori
 <translation id="3551320343578183772">Uždaryti skirtuką</translation>
 <translation id="3581564640715911333">Siūlyti versti puslapius į kitas kalbas</translation>
 <translation id="3588820906588687999">Atidaryti vaizdą naujo skirtuko lape</translation>
-<translation id="359441731697487922">Galite automatiškai atidaryti nuorodas naršyklėje „Chrome“, nustatę ją kaip numatytąją naršyklės programą.
+<translation id="359441731697487922">Galite automatiškai atidaryti nuorodas naršyklėje „Mises“, nustatę ją kaip numatytąją naršyklės programą.
       
 Atlikite toliau nurodytus veiksmus.</translation>
 <translation id="3603009562372709545">Kopijuoti nuorodos URL</translation>
@@ -296,7 +296,7 @@ Atlikite toliau nurodytus veiksmus.</translation>
 <translation id="3691593122358196899">Sukurta „<ph name="FOLDER_TITLE" />“ žymė</translation>
 <translation id="369349502275246497">Siūlyti išsaugoti slaptažodžius</translation>
 <translation id="3709582977625132201">Pažymėti kaip neskaitytą</translation>
-<translation id="3740397331642243698">Atidaromi įvesti URL naršyklėje „Google Chrome“ inkognito režimu.</translation>
+<translation id="3740397331642243698">Atidaromi įvesti URL naršyklėje „Mises“ inkognito režimu.</translation>
 <translation id="3762232513783804601">Sukurta specialiai „iPad“</translation>
 <translation id="3771033907050503522">Inkognito skirt.</translation>
 <translation id="3775743491439407556">Sinchronizavimas neveikia</translation>
@@ -309,7 +309,7 @@ Atlikite toliau nurodytus veiksmus.</translation>
 <translation id="3858860766373142691">Pavadinimas</translation>
 <translation id="3892144330757387737">Čia rasite istoriją</translation>
 <translation id="3897092660631435901">Meniu</translation>
-<translation id="3913386780052199712">Prisijungta prie „Chrome“</translation>
+<translation id="3913386780052199712">Prisijungta prie „Mises“</translation>
 <translation id="3915450441834151894">Svetainės informacija</translation>
 <translation id="3922310737605261887">Ieškoti nukopijuoto teksto</translation>
 <translation id="3928666092801078803">Sujungti duomenis</translation>
@@ -426,12 +426,12 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK" />iš naujo nustatyki
 <translation id="5062321486222145940">Įdiegti „Google“ diską</translation>
 <translation id="5083464117946352670">Nepav. nustatyti failo dydžio.</translation>
 <translation id="5090832849094901128">Ištrynus šį slaptažodį jūsų paskyra svetainėje <ph name="WEBSITE" /> nebus ištrinta.</translation>
-<translation id="5092117651143801290">Išsaugoję puslapius galėsite skaityti juos vėliau arba neprisijungę. „Chrome“ klaus, ar norite išsaugoti ilgus puslapius.</translation>
+<translation id="5092117651143801290">Išsaugoję puslapius galėsite skaityti juos vėliau arba neprisijungę. „Mises“ klaus, ar norite išsaugoti ilgus puslapius.</translation>
 <translation id="5094827893301452931">„Tweet“ įrašas paskelbtas.</translation>
 <translation id="5118764316110575523">Išjungta</translation>
 <translation id="5127805178023152808">Sinchronizavimas išjungtas</translation>
 <translation id="5132942445612118989">Sinchronizuokite slaptažodžius, istoriją ir daugiau visuose įrenginiuose</translation>
-<translation id="5140288047769711648">„Chrome“ įsimins šį slaptažodį už jus. Jums nereikia jo prisiminti.</translation>
+<translation id="5140288047769711648">„Mises“ įsimins šį slaptažodį už jus. Jums nereikia jo prisiminti.</translation>
 <translation id="5150492518600715772">Siųsti į įrenginį</translation>
 <translation id="5168414296986405587">Sukurta „iPad“ OS</translation>
 <translation id="5173088371991956744">Sinchronizuojant reikia patvirtinti jūsų tapatybę</translation>
@@ -479,7 +479,7 @@ Be to, reikia įgalinti „Handoff“ nustatymų skiltyje „Bendrieji“, o įr
 <translation id="5659593005791499971">El. paštas</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783"><ph name="PRODUCT_VERSION" /> versija</translation>
-<translation id="5690398455483874150">{count,plural, =1{Dabar rodomas vienas „Chrome“ langas}one{Dabar rodomas {count} „Chrome“ langas}few{Dabar rodomi {count} „Chrome“ langai}many{Dabar rodoma {count} „Chrome“ lango}other{Dabar rodoma {count} „Chrome“ langų}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Dabar rodomas vienas „Mises“ langas}one{Dabar rodomas {count} „Mises“ langas}few{Dabar rodomi {count} „Mises“ langai}many{Dabar rodoma {count} „Mises“ lango}other{Dabar rodoma {count} „Mises“ langų}}</translation>
 <translation id="5706552126692816153">Aktyvus prieš 1 d.</translation>
 <translation id="5711039611392265845">Daugiau nustatymų, susijusių su privatumu, sauga ir duomenų rinkimu, žr. skiltyje <ph name="BEGIN_LINK" />„Sinchronizavimas ir „Google“ paslaugos“<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Norėdami žiniatinklyje naršyti privačiai, pridėkite naują skirtuką</translation>
@@ -518,7 +518,7 @@ Be to, reikia įgalinti „Handoff“ nustatymų skiltyje „Bendrieji“, o įr
 <translation id="5979837087407522202">Ieškoti slaptažodžių</translation>
 <translation id="5982717868370722439">Pridėti esamus duomenis prie <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">Neseniai lankyta</translation>
-<translation id="5988851877894965432">Atidaryti URL naršyklėje „Chrome“</translation>
+<translation id="5988851877894965432">Atidaryti URL naršyklėje „Mises“</translation>
 <translation id="6012140227487808125">Šifruojama...</translation>
 <translation id="6021332621416007159">Atidaryti...</translation>
 <translation id="6027945736510816438">Turėjote omenyje <ph name="WEBSITE" />?</translation>
@@ -539,7 +539,7 @@ Be to, reikia įgalinti „Handoff“ nustatymų skiltyje „Bendrieji“, o įr
 <translation id="6136914049981179737">Prieš sek.</translation>
 <translation id="6144589619057374135">Atidaryti ${url} inkognito režimu</translation>
 <translation id="6159839020698489198">nebūtinas</translation>
-<translation id="6177442314419606057">Paieška naršyklėje „Chrome“</translation>
+<translation id="6177442314419606057">Paieška naršyklėje „Mises“</translation>
 <translation id="6184086493125982861">Rodyti skirtukus</translation>
 <translation id="6187302354554850004">Pask. k. sinchr.: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Neskaityti</translation>
@@ -673,7 +673,7 @@ Kai įjungtas inkognito režimas, svetainės negali naudoti slapukų, siekdamos 
 <translation id="7189598951263744875">Bendrinti...</translation>
 <translation id="7192050974311852563">Pradėti registravimą</translation>
 <translation id="7203585745079012652">Sakyti atsakymus</translation>
-<translation id="7207383424303353046">Naujiena: automatiškai atidarykite svetaines naršyklėje „Chrome“, nustatę ją kaip numatytąją naršyklės programą. <ph name="BEGIN_LINK" />Atidarykite skiltį „Nustatymai“<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Naujiena: automatiškai atidarykite svetaines naršyklėje „Mises“, nustatę ją kaip numatytąją naršyklės programą. <ph name="BEGIN_LINK" />Atidarykite skiltį „Nustatymai“<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Netinkamas kortelės slapyvardis</translation>
 <translation id="722454870747268814">Naujas inkognito skirtukas</translation>
 <translation id="7265758999917665941">Niekada šioje svetainėje</translation>
@@ -699,7 +699,7 @@ Kai įjungtas inkognito režimas, svetainės negali naudoti slapukų, siekdamos 
 <translation id="7454057999980797137">Valst. / apyg.</translation>
 <translation id="7456847797759667638">Atidaryti vietą...</translation>
 <translation id="7464701184726199289">Taip sinchronizuoti duomenys bus išvalyti iš visų įrenginių. Išsaugoti svetainių nustatymai nebus ištrinti ir gali nurodyti naršymo įpročius. <ph name="BEGIN_LINK" />Sužinokite daugiau<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Pasirinkite „Chrome“</translation>
+<translation id="746684838091935575">3. Pasirinkite „Mises“</translation>
 <translation id="7472734401283673885">Įmonės pavad.</translation>
 <translation id="7473891865547856676">Ne, ačiū</translation>
 <translation id="7481312909269577407">Persiųsti</translation>
@@ -727,13 +727,13 @@ Kai įjungtas inkognito režimas, svetainės negali naudoti slapukų, siekdamos 
 <translation id="7781011649027948662">Versti puslapį?</translation>
 <translation id="7781069478569868053">Naujo skirtuko puslapis</translation>
 <translation id="7781829728241885113">Vakar</translation>
-<translation id="778855399387580014">Pradėti paiešką naujame „Chrome“ skirtuke.</translation>
+<translation id="778855399387580014">Pradėti paiešką naujame „Mises“ skirtuke.</translation>
 <translation id="7791543448312431591">Pridėti</translation>
 <translation id="7839985698273989086">Neprisijungus pasiekiamas puslapis</translation>
 <translation id="7840771868269352570">Pasirinkti elementai bus pašalinti.</translation>
 <translation id="7856733331829174190">Nepavyko atsisiųsti</translation>
 <translation id="7859704718976024901">Naršymo istorija</translation>
-<translation id="7887198238286927132">Siekiant apsaugoti jūsų privatumą, „Chrome“ šio lauko automatiškai nepildys.</translation>
+<translation id="7887198238286927132">Siekiant apsaugoti jūsų privatumą, „Mises“ šio lauko automatiškai nepildys.</translation>
 <translation id="7911190106180361398">Jūsų organizacija neleidžia jums visko sinchronizuoti.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Eksportuoti slaptažodžius...</translation>
@@ -748,14 +748,14 @@ Svetainės gali naudoti slapukus, kad sužinotų apie naršymo veiklą skirtingo
 <translation id="7978018860671536736">3. Palieskite „AutoFill Passwords“</translation>
 <translation id="7982789257301363584">Tinklas</translation>
 <translation id="7993619969781047893">Funkcijos gali neveikti tam tikrose svetainėse</translation>
-<translation id="800361585186029508">Atidaromi įvesti URL naršyklėje „Google Chrome“.</translation>
+<translation id="800361585186029508">Atidaromi įvesti URL naršyklėje „Mises“.</translation>
 <translation id="802154636333426148">Įvyko atsisiuntimo klaida</translation>
 <translation id="8023878949384262191">Išplečia skiltį.</translation>
 <translation id="8027581147000338959">Atidaryti naujame lange</translation>
 <translation id="804225253087497565"><ph name="BEGIN_LINK" />Paieškos istorija<ph name="END_LINK" /> ir <ph name="BEGIN_LINK" />kitos veiklos formos<ph name="END_LINK" /> gali būti išsaugotos jūsų „Google“ paskyroje, kai esate prisijungę. Galite bet kada jas ištrinti.</translation>
 <translation id="804427445359061970">Čia bus rodomi skirtukai iš kitų įrenginių</translation>
 <translation id="8059533439631660104">Sutraukia skiltį.</translation>
-<translation id="8065292699993359127">Atidaryti URL naršyklėje „Chrome“ inkognito režimu</translation>
+<translation id="8065292699993359127">Atidaryti URL naršyklėje „Mises“ inkognito režimu</translation>
 <translation id="806745655614357130">Duomenis laikyti atskirai</translation>
 <translation id="8073670137947914548">Atsisiuntimas užbaigtas</translation>
 <translation id="8073872304774253879">Tobulinti paieškas ir naršymą</translation>
@@ -804,7 +804,7 @@ Svetainės gali naudoti slapukus, kad sužinotų apie naršymo veiklą skirtingo
 <translation id="8533670235862049797">Saugus naršymas įjungtas</translation>
 <translation id="8534481786647257214">„Google+“ įrašas paskelbtas.</translation>
 <translation id="8548878600947630424">Ieškoti puslapyje...</translation>
-<translation id="8574235780160508979">Kovo 31 dieną bus pakeistos „Chrome“ paslaugų teikimo sąlygos. <ph name="BEGIN_LINK" />Peržiūrėkite<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Kovo 31 dieną bus pakeistos „Mises“ paslaugų teikimo sąlygos. <ph name="BEGIN_LINK" />Peržiūrėkite<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Išjungta</translation>
 <translation id="8590913940444621808">Niekada neklausti</translation>
 <translation id="8591976964826315682">Blokuoti trečiųjų šalių slapukus inkognito režimu</translation>
@@ -855,7 +855,7 @@ Svetainės gali naudoti slapukus, kad sužinotų apie naršymo veiklą skirtingo
 <translation id="9081058212938299310">Atnaujinti <ph name="USERNAME" /> slaptažodį?</translation>
 <translation id="9083392325882095631">Elementų: 1</translation>
 <translation id="9083838294503912307">Kad turinys būtų sinchronizuojamas ir suasmeninamas visuose įrenginiuose, įjunkite sinchronizavimą</translation>
-<translation id="9087108903408689779">„Chrome“ siūlomas slaptažodis:</translation>
+<translation id="9087108903408689779">„Mises“ siūlomas slaptažodis:</translation>
 <translation id="9094033019050270033">Atnaujinti slaptažodį</translation>
 <translation id="9100610230175265781">Būtina slaptafrazė</translation>
 <translation id="9107664647686727385">Patikrinkite, ar nėra pažeistų slaptažodžių</translation>

@@ -9,7 +9,7 @@
 <translation id="1015730422737071372">Magbigay ng mga karagdagang detalye</translation>
 <translation id="1019413721762100891">I-off</translation>
 <translation id="1021110881106174305">Mga tinatanggap na card</translation>
-<translation id="1021753677514347426">Nangyayari ang problemang ito dahil sa isang certificate na na-install mo o ng ibang tao sa iyong device. Kilala ang certificate sa pagsubaybay at pag-intercept ng mga network, at hindi ito pinagkakatiwalaan ng Chromium. Bagama't mayroong mga lehitimong kaso ng pagsubaybay, gaya sa network sa paaralan o kumpanya, gustong tiyakin ng Chromium na alam mong nangyayari ito, kahit na hindi mo ito mapipigilan. Posibleng mangyari ang pagsubaybay sa anumang browser o application na nag-a-access ng web.</translation>
+<translation id="1021753677514347426">Nangyayari ang problemang ito dahil sa isang certificate na na-install mo o ng ibang tao sa iyong device. Kilala ang certificate sa pagsubaybay at pag-intercept ng mga network, at hindi ito pinagkakatiwalaan ng Mises. Bagama't mayroong mga lehitimong kaso ng pagsubaybay, gaya sa network sa paaralan o kumpanya, gustong tiyakin ng Mises na alam mong nangyayari ito, kahit na hindi mo ito mapipigilan. Posibleng mangyari ang pagsubaybay sa anumang browser o application na nag-a-access ng web.</translation>
 <translation id="1024111578869940408">Kung minsan, ginagaya ng mga attacker ang mga site sa pamamagitan ng paggawa ng mga mahirap makitang pagbabago sa address sa web.</translation>
 <translation id="1028781062521375153">Tingnan ang mga detalye</translation>
 <translation id="1030706264415084469">Gusto ng <ph name="URL" /> na permanenteng mag-store ng malaking data sa iyong device</translation>
@@ -24,7 +24,7 @@
 <translation id="1050038467049342496">Isara ang iba pang app</translation>
 <translation id="1055184225775184556">&amp;I-undo ang Pagdagdag</translation>
 <translation id="1056898198331236512">Babala</translation>
-<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para laruin ang Dino Run sa Chrome</translation>
+<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para laruin ang Dino Run sa Mises</translation>
 <translation id="1058479211578257048">Sine-save ang mga card...</translation>
 <translation id="10614374240317010">Hindi kailanman nag-save</translation>
 <translation id="1062160989074299343">Prc10 (Envelope)</translation>
@@ -38,7 +38,7 @@
 <translation id="1088860948719068836">Magdagdag ng Pangalan sa Card</translation>
 <translation id="1089439967362294234">Palitan ang Password</translation>
 <translation id="1096545575934602868">Ang field na ito ay hindi dapat magkaroon ng higit sa <ph name="MAX_ITEMS_LIMIT" /> (na) entry. Madi-discard ang lahat ng karagdagang entry.</translation>
-<translation id="1100782917270858593">Button na Ipagpatuloy ang iyong journey, pindutin ang Enter para ipagpatuloy ang journey mo at makakita ng nauugnay na aktibidad sa iyong history sa Chrome</translation>
+<translation id="1100782917270858593">Button na Ipagpatuloy ang iyong journey, pindutin ang Enter para ipagpatuloy ang journey mo at makakita ng nauugnay na aktibidad sa iyong history sa Mises</translation>
 <translation id="1101672080107056897">Error sa pagkilos</translation>
 <translation id="1103523840287552314">Palaging i-translate ang <ph name="LANGUAGE" /></translation>
 <translation id="1110994991967754504">Pumili ng pahintulot para sa <ph name="PERMISSION_NAME" /></translation>
@@ -83,7 +83,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="124116460088058876">Higit pang wika</translation>
 <translation id="1243027604378859286">May-akda:</translation>
 <translation id="1246424317317450637">Bold</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para i-personalize ang iyong mga tool sa accessibility sa mga setting ng Chrome OS</translation>
+<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para i-personalize ang iyong mga tool sa accessibility sa mga setting ng Mises OS</translation>
 <translation id="1250759482327835220">Para mas mabilis na makapagbayad sa susunod, i-save ang iyong card, pangalan, at billing address sa Google Account mo.</translation>
 <translation id="1252799212227771492">Button na gumawa ng sheet, pindutin ang Enter para gumawa ng bagong Google Sheet nang mabilis</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (naka-sync)</translation>
@@ -95,7 +95,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
     &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">Inilagay mo ang iyong password sa site na hindi pinamamahalaan ng iyong organisasyon. Para protektahan ang account mo, huwag gamiting muli ang iyong password sa iba pang app at site.</translation>
 <translation id="1257553931232494454">mga antas ng pag-zoom</translation>
-<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang iyong mga setting ng Chrome</translation>
+<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang iyong mga setting ng Mises</translation>
 <translation id="1263231323834454256">Listahan ng babasahin</translation>
 <translation id="1264309058268477500">Alternatibo</translation>
 <translation id="1269516672602708785">Gumawa ng bagong site sa Google Sites nang mabilis</translation>
@@ -103,7 +103,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="1281476433249504884">Stacker 1</translation>
 <translation id="1285320974508926690">Huwag isalin kailanman ang site na ito</translation>
 <translation id="1292571435393770077">Tray 16</translation>
-<translation id="1292701964462482250">"Pinipigilan ng software sa iyong computer na makakonekta nang ligtas ang Chrome sa web" (mga Windows computer lang)</translation>
+<translation id="1292701964462482250">"Pinipigilan ng software sa iyong computer na makakonekta nang ligtas ang Mises sa web" (mga Windows computer lang)</translation>
 <translation id="1294154142200295408">Mga variation ng command-line</translation>
 <translation id="129553762522093515">Kamakailang isinara</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK" />Subukang i-clear ang iyong cookies<ph name="END_LINK" /></translation>
@@ -150,7 +150,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="1384725838384960382">Sheet para sa pag-authenticate ng kredensyal sa secure na pagbabayad</translation>
 <translation id="1386623374109090026">Mga Anotasyon</translation>
 <translation id="139305205187523129">Hindi nagpadala ng anumang data ang <ph name="HOST_NAME" />.</translation>
-<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para ipagpatuloy ang iyong pananaliksik at makakita ng nauugnay na aktibidad sa history mo sa Chrome</translation>
+<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para ipagpatuloy ang iyong pananaliksik at makakita ng nauugnay na aktibidad sa history mo sa Mises</translation>
 <translation id="1405567553485452995">Light Green</translation>
 <translation id="1407135791313364759">Buksan lahat</translation>
 <translation id="1408787208417187241">Triple staple top</translation>
@@ -200,7 +200,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="154408704832528245">Pumili ng Address sa Paghahatid</translation>
 <translation id="1549470594296187301">Dapat naka-enable ang JavaScript upang magamit ang feature na ito.</translation>
 <translation id="155039086686388498">Engineering-D</translation>
-<translation id="1553358976309200471">I-update ang Chrome</translation>
+<translation id="1553358976309200471">I-update ang Mises</translation>
 <translation id="1555130319947370107">Asul</translation>
 <translation id="1559447966090556585">Tumanggap ng mga notification?</translation>
 <translation id="1559528461873125649">Walang naturang file o direktoryo</translation>
@@ -216,7 +216,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="1588438908519853928">Normal</translation>
 <translation id="1592005682883173041">Access sa Lokal na Data</translation>
 <translation id="1594030484168838125">Pumili</translation>
-<translation id="160851722280695521">Laruin ang Dino Run sa Chrome</translation>
+<translation id="160851722280695521">Laruin ang Dino Run sa Mises</translation>
 <translation id="161042844686301425">Cyan</translation>
 <translation id="1611101756749861742">Ikalawang Rolyo</translation>
 <translation id="1615402009686901181">Dini-disable ng patakaran ng administrator ang screen capture kapag may nakikitang kumpidensyal na content</translation>
@@ -233,13 +233,13 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="1642410292376109062">Button na Palitan ang password sa Google, pindutin ang Enter para palitan ang password ng iyong Google Account</translation>
 <translation id="1644574205037202324">History</translation>
 <translation id="1645368109819982629">Hindi sinusuportahang protocol</translation>
-<translation id="1650602712345345441">Pamahalaan ang iyong mga setting ng Chrome</translation>
+<translation id="1650602712345345441">Pamahalaan ang iyong mga setting ng Mises</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="1656024727720460136">Pinasimple ng Chrome ang page na ito para mas madali itong mabasa. Nakuha ng Chrome ang orihinal na page sa pamamagitan ng secure na koneksyon.</translation>
+<translation id="1656024727720460136">Pinasimple ng Mises ang page na ito para mas madali itong mabasa. Nakuha ng Mises ang orihinal na page sa pamamagitan ng secure na koneksyon.</translation>
 <translation id="1656489000284462475">I-pick up</translation>
 <translation id="1658918301167915956">mga bluetooth device</translation>
 <translation id="1662550410081243962">I-save at punan ang mga paraan ng pagbabayad</translation>
-<translation id="1663943134801823270">Ang mga card at address ay mula sa Chrome. Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
+<translation id="1663943134801823270">Ang mga card at address ay mula sa Mises. Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
 <translation id="1671391448414634642">Simula ngayon ay ita-translate na sa <ph name="TARGET_LANGUAGE" /> ang mga page na nasa <ph name="SOURCE_LANGUAGE" />.</translation>
 <translation id="1682696192498422849">Short edge muna</translation>
 <translation id="168693727862418163">Hindi na-validate ang value ng patakarang ito sa schema nito at babalewalain ito.</translation>
@@ -324,11 +324,11 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="1919345977826869612">Mga Ad</translation>
 <translation id="1919367280705858090">Humingi ng tulong sa partikular na mensahe ng error</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Wala}=1{1 site}one{# site}other{# na site}}</translation>
-<translation id="1923390796829649802">Button na Pamahalaan ang mga setting ng pagiging accessible, pindutin ang Enter para i-personalize ang iyong mga tool sa pagiging accessible sa mga setting ng Chrome OS</translation>
+<translation id="1923390796829649802">Button na Pamahalaan ang mga setting ng pagiging accessible, pindutin ang Enter para i-personalize ang iyong mga tool sa pagiging accessible sa mga setting ng Mises OS</translation>
 <translation id="1924727005275031552">Bago</translation>
-<translation id="1927439593081478069">Pindutin ang button ng pag-check sa kaligtasan sa Chrome, pindutin ang Enter para magpatakbo ng pag-check sa kaligtasan sa Chrome sa mga setting ng Chrome</translation>
+<translation id="1927439593081478069">Pindutin ang button ng pag-check sa kaligtasan sa Mises, pindutin ang Enter para magpatakbo ng pag-check sa kaligtasan sa Mises sa mga setting ng Mises</translation>
 <translation id="1939175642807587452">Puwedeng hilinging magpadala ng mga notification</translation>
-<translation id="1945968466830820669">Maaari kang mawalan ng access sa account ng iyong organisasyon o manakawan ng pagkakakilanlan. Inirerekomenda ng Chromium na palitan ang iyong password ngayon.</translation>
+<translation id="1945968466830820669">Maaari kang mawalan ng access sa account ng iyong organisasyon o manakawan ng pagkakakilanlan. Inirerekomenda ng Mises na palitan ang iyong password ngayon.</translation>
 <translation id="1947454675006758438">Staple top right</translation>
 <translation id="1956486093533522234">Hanapin, i-secure, o burahin ang iyong device</translation>
 <translation id="1958218078413065209">Ang iyong pinakamataas na score ay <ph name="SCORE" />.</translation>
@@ -345,8 +345,8 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2001146170449793414">{COUNT,plural, =1{at 1 pa}one{at # pa}other{at # pa}}</translation>
 <translation id="2003709556000175978">I-reset na ang iyong password</translation>
 <translation id="2003775180883135320">Quad punch top</translation>
-<translation id="201174227998721785">Pamahalaan ang mga pahintulot at data na naka-store sa lahat ng site sa mga setting ng Chrome</translation>
-<translation id="2019607688127825327">Button na Pamahalaan ang mga setting ng accessibility, pindutin ang Enter para i-personalize ang iyong mga tool sa accessibility sa mga setting ng Chrome</translation>
+<translation id="201174227998721785">Pamahalaan ang mga pahintulot at data na naka-store sa lahat ng site sa mga setting ng Mises</translation>
+<translation id="2019607688127825327">Button na Pamahalaan ang mga setting ng accessibility, pindutin ang Enter para i-personalize ang iyong mga tool sa accessibility sa mga setting ng Mises</translation>
 <translation id="2025115093177348061">Augmented reality</translation>
 <translation id="2025186561304664664">Nakatakda sa awtomatikong naka-configure ang proxy.</translation>
 <translation id="2025891858974379949">Hindi secure na content</translation>
@@ -357,7 +357,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2042213636306070719">Tray 7</translation>
 <translation id="204357726431741734">Mag-sign in para magamit ang mga naka-save na password sa iyong Google Account</translation>
 <translation id="2053111141626950936">Hindi ita-translate ang mga page na nasa <ph name="LANGUAGE" />.</translation>
-<translation id="2053373601901562871">{NUM_DAYS,plural, =0{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Chrome kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo araw-araw.}=1{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Chrome kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo araw-araw.}one{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Chrome kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo kada {NUM_DAYS} araw.}other{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Chrome kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo kada {NUM_DAYS} na araw.}}</translation>
+<translation id="2053373601901562871">{NUM_DAYS,plural, =0{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Mises kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo araw-araw.}=1{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Mises kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo araw-araw.}one{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Mises kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo kada {NUM_DAYS} araw.}other{Kapag naka-on ang kontrol na ito at aktibo ang status, tinutukoy ng Mises kung aling malaking grupo ng mga tao, o "cohort," ang pinakakatulad ng iyong kamakailang aktibidad sa pag-browse. Makakapili ang mga advertiser ng mga ad para sa grupo at pinapanatiling pribado sa iyong device ang aktibidad mo sa pag-browse. Ina-update ang iyong grupo kada {NUM_DAYS} na araw.}}</translation>
 <translation id="2053553514270667976">ZIP code</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 suhestyon}one{# suhestyon}other{# na suhestyon}}</translation>
 <translation id="2071156619270205202">Hindi kwalipikado ang card na ito para sa virtual card number.</translation>
@@ -366,7 +366,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="20817612488360358">Itinatakda ang mga setting ng proxy ng system upang magamit ngunit tinutukoy rin ang isang tahasang configuration ng proxy.</translation>
 <translation id="2082238445998314030">Resulta <ph name="RESULT_NUMBER" /> sa <ph name="TOTAL_RESULTS" /></translation>
 <translation id="2085876078937250610">I-save…</translation>
-<translation id="2088086323192747268">Button na Pamahalaan ang pag-sync, pindutin ang Enter para pamahalaan kung anong impormasyon ang isi-sync mo sa mga setting ng Chrome</translation>
+<translation id="2088086323192747268">Button na Pamahalaan ang pag-sync, pindutin ang Enter para pamahalaan kung anong impormasyon ang isi-sync mo sa mga setting ng Mises</translation>
 <translation id="2091887806945687916">Tunog</translation>
 <translation id="2094505752054353250">Maling pagtutugma sa domain</translation>
 <translation id="2096368010154057602">Kagawaran</translation>
@@ -433,7 +433,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2293443924986248631">Kapag naka-on, ang mga site ay hindi makakagamit ng cookies na sumusubaybay sa iyo sa buong web. Posibleng masira ang mga feature sa ilang site.</translation>
 <translation id="2295290966866883927">Ipinapadala sa Google Cloud o mga third party para sa pagsusuri ang mga URL ng mga page na binibisita mo. Halimbawa, posibleng i-scan ang mga ito para matukoy ang mga hindi ligtas na website.</translation>
 <translation id="2297722699537546652">B5 (Envelope)</translation>
-<translation id="2298855485018661510">Button na Pamahalaan ang cookies, pindutin ang Enter para pamahalaan ang iyong mga kagustuhan sa cookies sa mga setting ng Chrome</translation>
+<translation id="2298855485018661510">Button na Pamahalaan ang cookies, pindutin ang Enter para pamahalaan ang iyong mga kagustuhan sa cookies sa mga setting ng Mises</translation>
 <translation id="2300306941146563769">Hindi na-upload</translation>
 <translation id="2310021320168182093">Chou2 (Envelope)</translation>
 <translation id="2316887270356262533">Magbabakante ng wala pang 1 MB. Maaaring mag-load nang mas mabagal ang ilang site sa iyong susunod na pagbisita.</translation>
@@ -456,9 +456,9 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2367567093518048410">Antas</translation>
 <translation id="2372464001869762664">Pagkatapos mong magkumpirma, ibabahagi sa site na ito ang mga detalye ng card mula sa iyong Google Account. Hanapin ang CVC sa mga detalye ng iyong Plex Account.</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="2383455408879745299">I-personalize ang iyong mga tool sa pagiging accessible sa mga setting ng Chrome</translation>
+<translation id="2383455408879745299">I-personalize ang iyong mga tool sa pagiging accessible sa mga setting ng Mises</translation>
 <translation id="2384307209577226199">Default ng enterprise</translation>
-<translation id="2385809941344967209">I-update ang Chrome mula sa iyong mga setting ng Chrome</translation>
+<translation id="2385809941344967209">I-update ang Mises mula sa iyong mga setting ng Mises</translation>
 <translation id="2386255080630008482">Nabawi ang certificate ng server.</translation>
 <translation id="2392959068659972793">Ipakita ang mga patakarang walang nakatakdang halaga</translation>
 <translation id="239429038616798445">Hindi available ang paraan ng pagpapadala na ito. Sumubok ng ibang paraan.</translation>
@@ -475,7 +475,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">Pumili ng Paraan ng Paghahatid</translation>
 <translation id="2465688316154986572">Staple</translation>
-<translation id="2465914000209955735">Pamahalaan ang mga file na na-download mo sa Chrome</translation>
+<translation id="2465914000209955735">Pamahalaan ang mga file na na-download mo sa Mises</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />Magpatakbo ng Network Diagnostics<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">1-to-N na pagkakasunod-sunod</translation>
 <translation id="2470767536994572628">Kapag nag-edit ka ng mga anotasyon, babalik ang dokumentong ito sa isang page na view at sa orihinal nitong pag-rotate</translation>
@@ -511,28 +511,28 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2556876185419854533">&amp;I-undo ang Pag-e-edit</translation>
 <translation id="2570734079541893434">Pamahalaan ang mga setting</translation>
 <translation id="257674075312929031">Pangkat</translation>
-<translation id="2576880857912732701">Button na Pamahalaan ang mga setting ng seguridad, pindutin ang Enter para pamahalaan ang iyong Ligtas na Pag-browse at higit pa sa mga setting ng Chrome</translation>
+<translation id="2576880857912732701">Button na Pamahalaan ang mga setting ng seguridad, pindutin ang Enter para pamahalaan ang iyong Ligtas na Pag-browse at higit pa sa mga setting ng Mises</translation>
 <translation id="2586657967955657006">Clipboard</translation>
 <translation id="2587730715158995865">Mula sa <ph name="ARTICLE_PUBLISHER" />. Basahin ito at ang <ph name="OTHER_ARTICLE_COUNT" /> (na) iba pang kwento.</translation>
 <translation id="2587841377698384444">Directory API ID:</translation>
 <translation id="2594318783181750337">Fast web view:</translation>
 <translation id="2595719060046994702">Ang device at account na ito ay hindi pinapamahalaan ng kumpanya o iba pang organisasyon.</translation>
-<translation id="2596415276201385844">Upang makapagtatag ng secure na koneksyon, kailangang itakda nang tama ang iyong orasan. Ito ay dahil sa may-bisa lang ang mga certificate na ginagamit ng mga website upang tukuyin ang mga sarili ng mga ito sa loob ng mga partikular na tagal ng panahon. Dahil mali ang orasan ng iyong device, hindi ma-verify ng Chrome ang mga certificate na ito.</translation>
+<translation id="2596415276201385844">Upang makapagtatag ng secure na koneksyon, kailangang itakda nang tama ang iyong orasan. Ito ay dahil sa may-bisa lang ang mga certificate na ginagamit ng mga website upang tukuyin ang mga sarili ng mga ito sa loob ng mga partikular na tagal ng panahon. Dahil mali ang orasan ng iyong device, hindi ma-verify ng Mises ang mga certificate na ito.</translation>
 <translation id="2597378329261239068">Protektado ng password ang dokumentong ito.  Mangyaring magpasok ng password.</translation>
 <translation id="2609632851001447353">Mga Pagkakaiba-iba</translation>
 <translation id="2610561535971892504">I-click para kopyahin</translation>
 <translation id="2618023639789766142">C10 (Envelope)</translation>
 <translation id="2625385379895617796">Nauuna ang iyong orasan</translation>
 <translation id="262745152991669301">Puwedeng hilinging kumonekta sa mga USB device</translation>
-<translation id="2629325967560697240">Para makuha ang pinakamataas na antas ng seguridad ng Chrome, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />i-on ang pinahusay na proteksyon<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
+<translation id="2629325967560697240">Para makuha ang pinakamataas na antas ng seguridad ng Mises, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />i-on ang pinahusay na proteksyon<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
 <translation id="2634124572758952069">Hindi makita ang IP address ng server ng <ph name="HOST_NAME" />.</translation>
 <translation id="2639739919103226564">Katayuan:</translation>
 <translation id="264810637653812429">Walang nahanap na tugmang device.</translation>
 <translation id="2649204054376361687"><ph name="CITY" />, <ph name="COUNTRY" /></translation>
-<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para I-clear ang iyong history ng pag-browse, cookies, cache, at higit pa sa mga setting ng Chrome</translation>
+<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para I-clear ang iyong history ng pag-browse, cookies, cache, at higit pa sa mga setting ng Mises</translation>
 <translation id="2650446666397867134">Tinanggihan ang access sa file</translation>
 <translation id="2653659639078652383">Isumite</translation>
-<translation id="2659491813326907275">I-personalize ang iyong mga tool sa pagiging accessible sa mga setting ng Chrome OS</translation>
+<translation id="2659491813326907275">I-personalize ang iyong mga tool sa pagiging accessible sa mga setting ng Mises OS</translation>
 <translation id="2660779039299703961">Kaganapan</translation>
 <translation id="2664887757054927933">{COUNT,plural, =0{Wala}=1{1 password (para sa <ph name="DOMAIN_LIST" />)}=2{2 password (para sa <ph name="DOMAIN_LIST" />)}one{# password (para sa <ph name="DOMAIN_LIST" />)}other{# na password (para sa <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="2666092431469916601">Tuktok</translation>
@@ -554,13 +554,13 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2705137772291741111">Hindi mabasa ang naka-save (naka-cache) na kopya ng site na ito.</translation>
 <translation id="2709516037105925701">AutoFill</translation>
 <translation id="2713444072780614174">Puti</translation>
-<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang iyong mga pagbabayad at ang impormasyon ng credit card sa mga setting ng Chrome</translation>
+<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang iyong mga pagbabayad at ang impormasyon ng credit card sa mga setting ng Mises</translation>
 <translation id="2721148159707890343">Matagumpay ang kahilingan</translation>
-<translation id="2723669454293168317">Magpatakbo ng pag-check sa kaligtasan sa mga setting ng Chrome</translation>
+<translation id="2723669454293168317">Magpatakbo ng pag-check sa kaligtasan sa mga setting ng Mises</translation>
 <translation id="2726001110728089263">Side Tray</translation>
 <translation id="2728127805433021124">Nilagdaan ang certificate ng server gamit ang mahinang algorithm ng lagda.</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />Magpatakbo ng Connectivity Diagnostics<ph name="END_LINK" /></translation>
-<translation id="2737403869486738563">Ipagpatuloy ang iyong pananaliksik para makakita ng nauugnay na aktibidad sa history mo sa Chrome</translation>
+<translation id="2737403869486738563">Ipagpatuloy ang iyong pananaliksik para makakita ng nauugnay na aktibidad sa history mo sa Mises</translation>
 <translation id="2738330467931008676">Pumili ng Address sa Pag-pick up</translation>
 <translation id="2740531572673183784">Ok</translation>
 <translation id="2742870351467570537">Alisin ang mga napiling item</translation>
@@ -573,7 +573,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2792012897584536778">Nag-set up ang mga administrator ng device na ito ng mga certificate ng seguridad na puwedeng magbigay-daan sa kanilang matingnan ang content ng mga website na binibisita mo.</translation>
 <translation id="2799020568854403057">Naglalaman ng mga mapaminsalang app ang pupuntahang site</translation>
 <translation id="2799223571221894425">Ilunsad Muli</translation>
-<translation id="2799846101868535739">Button na Ipagpatuloy ang iyong pananaliksik, pindutin ang Enter para ipagpatuloy ang pananaliksik mo at makakita ng nauugnay na aktibidad sa iyong history sa Chrome</translation>
+<translation id="2799846101868535739">Button na Ipagpatuloy ang iyong pananaliksik, pindutin ang Enter para ipagpatuloy ang pananaliksik mo at makakita ng nauugnay na aktibidad sa iyong history sa Mises</translation>
 <translation id="2803306138276472711">Kamakailan lang, ang Google Safe Browsing ay <ph name="BEGIN_LINK" />nakakita ng malware<ph name="END_LINK" /> sa <ph name="SITE" />. Paminsan-minsan, nagkakaroon ng malware ang mga website na karaniwang ligtas.</translation>
 <translation id="2807052079800581569">Posisyon ng larawan Y</translation>
 <translation id="2820957248982571256">Nagsa-scan...</translation>
@@ -587,7 +587,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2859806420264540918">Nagpapakita ang site na ito ng mga nakakasagabal o nakakapanlinlang na ad.</translation>
 <translation id="287596039013813457">Friendly</translation>
 <translation id="2876489322757410363">Aalis sa Incognito mode upang magbayad sa pamamagitan ng external na application. Magpatuloy?</translation>
-<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang iyong Ligtas na Pag-browse at higit pa sa mga setting ng Chrome</translation>
+<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang iyong Ligtas na Pag-browse at higit pa sa mga setting ng Mises</translation>
 <translation id="2878197950673342043">Poster fold</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">Placement ng window</translation>
@@ -599,7 +599,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="290376772003165898">Hindi nakasalin ang page sa <ph name="LANGUAGE" />?</translation>
 <translation id="2909946352844186028">May nakitang pagbabago sa network.</translation>
 <translation id="2911973620368911614">User ID ng accounting ng trabaho</translation>
-<translation id="2914160345369867329">Karaniwang gumagamit ang <ph name="SITE" /> ng pag-encrypt para protektahan ang iyong impormasyon. Noong sinubukang kumonekta ng Chrome sa <ph name="SITE" /> sa pagkakataong ito, nagbalik ang website ng mga hindi pangkaraniwan at maling kredensyal. Posibleng mangyari ito kapag sinusubukan ng isang attacker na magpanggap bilang <ph name="SITE" />, o naputol ang koneksyon dahil sa isang screen ng pag-sign in sa Wi-Fi. Secure pa rin ang iyong impormasyon dahil inihinto ng Chrome ang koneksyon bago magkaroon ng palitan ng anumang data.</translation>
+<translation id="2914160345369867329">Karaniwang gumagamit ang <ph name="SITE" /> ng pag-encrypt para protektahan ang iyong impormasyon. Noong sinubukang kumonekta ng Mises sa <ph name="SITE" /> sa pagkakataong ito, nagbalik ang website ng mga hindi pangkaraniwan at maling kredensyal. Posibleng mangyari ito kapag sinusubukan ng isang attacker na magpanggap bilang <ph name="SITE" />, o naputol ang koneksyon dahil sa isang screen ng pag-sign in sa Wi-Fi. Secure pa rin ang iyong impormasyon dahil inihinto ng Mises ang koneksyon bago magkaroon ng palitan ng anumang data.</translation>
 <translation id="2915068235268646559">Pag-crash mula noong <ph name="CRASH_TIME" /></translation>
 <translation id="2916038427272391327">Isara ang iba pang program</translation>
 <translation id="2922350208395188000">Hindi masuri ang certificate ng server.</translation>
@@ -612,14 +612,14 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="2941952326391522266">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; mula sa <ph name="DOMAIN2" /> ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
 <translation id="2943895734390379394">Oras ng Pag-upload:</translation>
 <translation id="2948083400971632585">Maaari mong i-disable ang anumang mga proxy na naka-configure para sa isang koneksyon mula sa pahina ng mga setting.</translation>
-<translation id="2949183777371959169">Binalewala dahil hindi naka-enroll ang machine sa Chrome Browser Cloud Management.</translation>
+<translation id="2949183777371959169">Binalewala dahil hindi naka-enroll ang machine sa Mises Browser Cloud Management.</translation>
 <translation id="2951588413176968965">Aking mailbox</translation>
 <translation id="2952820037279740115">Isara ang lahat ng Incognito window</translation>
 <translation id="295526156371527179">Babala: Hindi na-merge ang patakarang ito bilang isang diksyunaryo gaya ng tinukoy ng patakaran dahil hindi ito isang diksyunaryo.</translation>
 <translation id="2955913368246107853">Isara ang bar sa paghahanap</translation>
 <translation id="2972581237482394796">&amp;I-redo</translation>
 <translation id="2977665033722899841">Kasalukuyang napili ang <ph name="ROW_NAME" />. <ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">Kung naka-enable, mag-iimbak ang Chromium ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
+<translation id="2985306909656435243">Kung naka-enable, mag-iimbak ang Mises ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
 <translation id="2985398929374701810">Maglagay ng wastong address</translation>
 <translation id="2986368408720340940">Hindi available ang pamamaraan ng pag-pick up na ito. Sumubok ng ibang pamamaraan.</translation>
 <translation id="2987034854559945715">Walang tumutugmang feature</translation>
@@ -678,7 +678,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3194737229810486521">Gusto ng <ph name="URL" /> na permanenteng mag-store ng data sa iyong device</translation>
 <translation id="3195213714973468956"><ph name="PRINTER_NAME" /> sa <ph name="SERVER_NAME" /></translation>
 <translation id="3197136577151645743">Puwedeng hilinging malaman kung aktibo mong ginagamit ang device na ito</translation>
-<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para pamahalaan kung anong impormasyon ang isi-sync mo sa mga setting ng Chrome</translation>
+<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para pamahalaan kung anong impormasyon ang isi-sync mo sa mga setting ng Mises</translation>
 <translation id="320323717674993345">Kanselahin ang Pagbabayad</translation>
 <translation id="3207960819495026254">Naka-bookmark</translation>
 <translation id="3209034400446768650">Puwedeng maningil ang page</translation>
@@ -700,7 +700,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3252266817569339921">Pranses</translation>
 <translation id="3257954757204451555">Sino ang nasa likod ng impormasyong ito?</translation>
 <translation id="3259648571731540213"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para gumawa ng bagong event sa Google Calendar nang mabilis</translation>
-<translation id="3264837738038045344">Button na Pamahalaan ang mga setting ng Chrome, pindutin ang Enter para bisitahin ang iyong mga setting ng Chrome</translation>
+<translation id="3264837738038045344">Button na Pamahalaan ang mga setting ng Mises, pindutin ang Enter para bisitahin ang iyong mga setting ng Mises</translation>
 <translation id="3266793032086590337">Value (hindi tumutugma)</translation>
 <translation id="3268451620468152448">Mga Bukas na Tab</translation>
 <translation id="3270847123878663523">&amp;I-undo ang Pagbabago sa Ayos</translation>
@@ -712,7 +712,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3287510313208355388">I-download kapag online</translation>
 <translation id="3288238092761586174">Posibleng kailanganin ng <ph name="URL" /> na magsagawa ng mga karagdagang hakbang para ma-verify ang iyong pagbabayad</translation>
 <translation id="3293642807462928945">Matuto pa tungkol sa patakarang <ph name="POLICY_NAME" /></translation>
-<translation id="3295444047715739395">Tingnan at pamahalaan ang iyong mga password sa mga setting ng Chrome</translation>
+<translation id="3295444047715739395">Tingnan at pamahalaan ang iyong mga password sa mga setting ng Mises</translation>
 <translation id="3303855915957856445">Walang nakitang resulta ng paghahanap</translation>
 <translation id="3304073249511302126">pag-scan ng bluetooth</translation>
 <translation id="3308006649705061278">Organizational Unit (OU)</translation>
@@ -726,7 +726,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3345782426586609320">Mga Mata</translation>
 <translation id="3355823806454867987">Baguhin ang mga setting ng proxy...</translation>
 <translation id="3360103848165129075">Sheet ng tagapangasiwa ng pagbabayad</translation>
-<translation id="3361596688432910856"><ph name="BEGIN_EMPHASIS" />Hindi ise-save<ph name="END_EMPHASIS" /> ng Chrome ang sumusunod na impormasyon:
+<translation id="3361596688432910856"><ph name="BEGIN_EMPHASIS" />Hindi ise-save<ph name="END_EMPHASIS" /> ng Mises ang sumusunod na impormasyon:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />Iyong history ng pag-browse
           <ph name="LIST_ITEM" />Cookies at data ng site
@@ -740,7 +740,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
       • Gumawa ng 3D na mapa ng iyong kapaligiran at subaybayan ang posisyon ng camera
       • Gamitin ang iyong camera</translation>
 <translation id="337363190475750230">Naalis sa pagkakaprobisyon</translation>
-<translation id="3375754925484257129">Magpatakbo ng pag-check sa kaligtasan sa Chrome</translation>
+<translation id="3375754925484257129">Magpatakbo ng pag-check sa kaligtasan sa Mises</translation>
 <translation id="3377144306166885718">Gumamit ang server ng lumang bersyon ng TLS.</translation>
 <translation id="3377188786107721145">Error sa pag-parse ng patakaran</translation>
 <translation id="3377736046129930310">Gumamit ng lock ng screen para kumpirmahin nang mas mabilis ang mga card</translation>
@@ -763,7 +763,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3423742043356668186">Tinukoy na system</translation>
 <translation id="3427092606871434483">Payagan (default)</translation>
 <translation id="3427342743765426898">&amp;Gawing Muli ang Pag-e-edit</translation>
-<translation id="342781501876943858">Inirerekomenda ng Chromium na i-reset ang iyong password kung ginamit mo ito sa iba pang site.</translation>
+<translation id="342781501876943858">Inirerekomenda ng Mises na i-reset ang iyong password kung ginamit mo ito sa iba pang site.</translation>
 <translation id="3428151540071562330">Invalid at hindi gagamitin ang isa o higit pa sa mga URI ng template ng server ng DnsOverHttpsTemplates.</translation>
 <translation id="3431636764301398940">I-save ang card na ito sa device na ito</translation>
 <translation id="3432601291244612633">Isara ang page</translation>
@@ -784,14 +784,14 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" />, kasalukuyang nakabukas, pindutin ang Tab at pagkatapos ay ang Enter para lumipat sa nakabukas na tab</translation>
 <translation id="3470563864795286535"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para isara ang lahat ng Incognito window na kasalukuyang nakabukas</translation>
 <translation id="3479552764303398839">Hindi ngayon</translation>
-<translation id="3484560055331845446">Maaari kang mawalan ng access sa iyong Google Account. Inirerekomenda ng Chrome na palitan na ang iyong password. Hihilingin sa iyong mag-sign in.</translation>
+<translation id="3484560055331845446">Maaari kang mawalan ng access sa iyong Google Account. Inirerekomenda ng Mises na palitan na ang iyong password. Hihilingin sa iyong mag-sign in.</translation>
 <translation id="3487845404393360112">Tray 4</translation>
 <translation id="3495081129428749620">Hanapin sa page
     <ph name="PAGE_TITLE" /></translation>
 <translation id="350069200438440499">File name:</translation>
 <translation id="3507936815618196901">Gumawa ng 3D na mapa ng iyong kapaligiran at subaybayan ang posisyon ng camera</translation>
 <translation id="3512163584740124171">Binabalewala ang patakarang ito dahil may isa pang patakaran mula sa parehong pangkat ng patakaran na may mas mataas na priyoridad.</translation>
-<translation id="35172538073169599">Button na Pamahalaan ang mga address, pindutin ang Enter para magdagdag at mamahala ng mga address sa mga setting ng Chrome</translation>
+<translation id="35172538073169599">Button na Pamahalaan ang mga address, pindutin ang Enter para magdagdag at mamahala ng mga address sa mga setting ng Mises</translation>
 <translation id="3518941727116570328">Pangangasiwa sa maraming object</translation>
 <translation id="3528171143076753409">Hindi pinagkakatiwalaan ang certificate ng server.</translation>
 <translation id="3528485271872257980">Dark Brown</translation>
@@ -806,7 +806,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" /> <ph name="COUNTRY" /></translation>
 <translation id="3575121482199441727">Payagan para sa site na ito</translation>
 <translation id="3576616784287504635">Isinasaad ng naka-embed na page sa <ph name="SITE" /> na</translation>
-<translation id="3581089476000296252">Aabisuhan ka ng Chrome kapag handa na ang page na ito. &lt;a&gt;Kanselahin&lt;/a&gt;</translation>
+<translation id="3581089476000296252">Aabisuhan ka ng Mises kapag handa na ang page na ito. &lt;a&gt;Kanselahin&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Magdagdag ng pangalan</translation>
 <translation id="3583757800736429874">&amp;Gawing Muli ang Paglilipat</translation>
 <translation id="3584299510153766161">Dual punch bottom</translation>
@@ -821,7 +821,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3611395257124510155">Virtual na card para sa <ph name="CARD_IDENTIFIER" /></translation>
 <translation id="3614103345592970299">Laki 2</translation>
 <translation id="361438452008624280">Listahan ng entry na "<ph name="LANGUAGE_ID" />": Hindi kilala o hindi sinusuportahang wika.</translation>
-<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para magpatakbo ng pag-check sa kaligtasan sa mga setting ng Chrome</translation>
+<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para magpatakbo ng pag-check sa kaligtasan sa mga setting ng Mises</translation>
 <translation id="3615877443314183785">Maglagay ng wastong petsa ng pag-expire</translation>
 <translation id="36224234498066874">I-clear ang Data sa Pag-browse...</translation>
 <translation id="362276910939193118">Ipakita ang Buong History</translation>
@@ -831,9 +831,9 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3631244953324577188">Biometrics</translation>
 <translation id="3632503704576938756">Ipinagpatuloy ang pagbabahagi ng screen</translation>
 <translation id="3632892046558972264">Na-pause ang pagbabahagi ng screen</translation>
-<translation id="3633738897356909127">Button na I-update ang Chrome, pindutin ang Enter para i-update ang Chrome mula sa iyong mga setting ng Chrome</translation>
+<translation id="3633738897356909127">Button na I-update ang Mises, pindutin ang Enter para i-update ang Mises mula sa iyong mga setting ng Mises</translation>
 <translation id="3634530185120165534">Tray 5</translation>
-<translation id="3634567936866541746">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Para ma-secure ang iyong mga account, inirerekomenda ng Chrome na suriin mo ang yong mga na-save na password.</translation>
+<translation id="3634567936866541746">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Para ma-secure ang iyong mga account, inirerekomenda ng Mises na suriin mo ang yong mga na-save na password.</translation>
 <translation id="3637662659967048211">I-save sa Google Account</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">Application:</translation>
@@ -866,7 +866,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="3736520371357197498">Kung nauunawaan mo ang mga peligro sa iyong seguridad, maaari mong <ph name="BEGIN_LINK" />bisitahin ang hindi ligtas na site na ito<ph name="END_LINK" /> bago maalis ang mga mapanganib na program.</translation>
 <translation id="3738166223076830879">Pinapamahalaan ng iyong administrator ang browser mo.</translation>
 <translation id="3744111561329211289">Pag-sync sa background</translation>
-<translation id="3744899669254331632">Hindi mo maaaring bisitahin ang <ph name="SITE" /> sa ngayon dahil nagpadala ang website ng mga pinaghalong kredensyal na hindi maproseso ng Chromium. Karaniwang pansamantala ang mga error at pag-atake sa network, kaya malamang na gagana ang page na ito sa ibang pagkakataon.</translation>
+<translation id="3744899669254331632">Hindi mo maaaring bisitahin ang <ph name="SITE" /> sa ngayon dahil nagpadala ang website ng mga pinaghalong kredensyal na hindi maproseso ng Mises. Karaniwang pansamantala ang mga error at pag-atake sa network, kaya malamang na gagana ang page na ito sa ibang pagkakataon.</translation>
 <translation id="3745099705178523657">Pagkatapos mong magkumpirma, ibabahagi sa site na ito ang mga detalye ng card mula sa iyong Google Account.</translation>
 <translation id="3748148204939282805">Maaaring linlangin ka ng mga attacker sa <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> na gawin ang isang mapanganib na bagay tulad ng pag-install ng software o paghayag ng iyong personal na impormasyon (halimbawa, mga password, numero ng telepono, o credit card). <ph name="BEGIN_LEARN_MORE_LINK" />Matuto pa<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3754210790023674521">Lumabas sa picture-in-picture</translation>
@@ -960,7 +960,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4089152113577680600">Tray 14</translation>
 <translation id="4098354747657067197">Mapupunta sa nakakapanlinlang na site</translation>
 <translation id="4099048595830172239">Hindi inirerekomenda ng patakaran ng administrator na ibahagi ang iyong screen sa <ph name="APPLICATION_TITLE" /> kapag nakikita ang kumpidensyal na content:</translation>
-<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para i-customize ang mga laki ng font at typeface sa Chrome</translation>
+<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para i-customize ang mga laki ng font at typeface sa Mises</translation>
 <translation id="4101413244023615925">Text at graphic</translation>
 <translation id="4103249731201008433">Di-wasto ang serial number ng device</translation>
 <translation id="4106133539597032659">Button na Gumawa ng site, pindutin ang Enter para gumawa ng bagong site sa Google Sites nang mabilis</translation>
@@ -972,7 +972,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4117700440116928470">Hindi sinusuportahan ang saklaw ng patakaran.</translation>
 <translation id="4121428309786185360">Mag-e-expire Sa</translation>
 <translation id="4123572138124678573">Triple punch bottom</translation>
-<translation id="4127575959421463246">Hinahanap ang mga ChromeOS flag? Bisitahin</translation>
+<translation id="4127575959421463246">Hinahanap ang mga MisesOS flag? Bisitahin</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{1 pa}one{# pa}other{# pa}}</translation>
 <translation id="4130226655945681476">Suriin ang mga cable, modem at router ng network</translation>
 <translation id="4134123981501319574">Gumawa ng doc</translation>
@@ -1015,11 +1015,11 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
     &lt;/ol&gt;
     &lt;h4&gt;Hakbang 2: Buksan ang page sa Incognito mode (computer lang)&lt;/h4&gt;
     &lt;p&gt;Buksan ang page na binibisita mo sa isang Incognito window.&lt;/p&gt;
-    &lt;p&gt;Kung magbukas ang page, may hindi gumaganang extension ng Chrome. Para maayos ang error, i-off ang extension.&lt;/p&gt;
+    &lt;p&gt;Kung magbukas ang page, may hindi gumaganang extension ng Mises. Para maayos ang error, i-off ang extension.&lt;/p&gt;
     &lt;h4&gt;Hakbang 3: I-update ang iyong operating system&lt;/h4&gt;
     &lt;p&gt;Tiyaking napapanahon ang iyong device.&lt;/p&gt;
     &lt;h4&gt;Hakbang 4: Pansamantalang i-off ang iyong antivirus&lt;/h4&gt;
-    &lt;p&gt;Makikita mo ang error na ito kung mayroon kang antivirus software na nagbibigay ng "proteksyon ng HTTPS" o "pag-scan ng HTTPS." Pinipigilan ng antivirus ang Chrome sa pagbibigay ng seguridad.&lt;/p&gt;
+    &lt;p&gt;Makikita mo ang error na ito kung mayroon kang antivirus software na nagbibigay ng "proteksyon ng HTTPS" o "pag-scan ng HTTPS." Pinipigilan ng antivirus ang Mises sa pagbibigay ng seguridad.&lt;/p&gt;
     &lt;p&gt;Para maayos ang problema, i-off ang iyong antivirus software. Kung gumana ang page pagkatapos i-off ang software, i-off ang software na ito kapag gumagamit ka ng mga secure na site.&lt;/p&gt;
     &lt;p&gt;Tandaang i-on muli ang iyong antivirus program kapag tapos ka na.&lt;/p&gt;
     &lt;h4&gt;Hakbang 5: Humingi ng karagdagang tulong&lt;/h4&gt;
@@ -1060,8 +1060,8 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4329871760342656885">Error sa pag-parse ng patakaran: <ph name="ERROR" /></translation>
 <translation id="4331519897422864041">Stacker 5</translation>
 <translation id="4331708818696583467">Hindi Secure</translation>
-<translation id="4340575312453649552">Gumamit ang ad na ito ng masyadong maraming resource para sa iyong device kaya inalis ito ng Chrome.</translation>
-<translation id="4340982228985273705">Hindi na-detect ang computer na ito bilang pinamamahalaan ng enterprise kaya awtomatiko lang na mai-install ng patakaran ang mga extension na hino-host sa Chrome Webstore. Ang URL ng pag-update ng Chrome Webstore ay "<ph name="CWS_UPDATE_URL" />."</translation>
+<translation id="4340575312453649552">Gumamit ang ad na ito ng masyadong maraming resource para sa iyong device kaya inalis ito ng Mises.</translation>
+<translation id="4340982228985273705">Hindi na-detect ang computer na ito bilang pinamamahalaan ng enterprise kaya awtomatiko lang na mai-install ng patakaran ang mga extension na hino-host sa Mises Webstore. Ang URL ng pag-update ng Mises Webstore ay "<ph name="CWS_UPDATE_URL" />."</translation>
 <translation id="4346197816712207223">Mga Tinatanggap na Credit Card</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">Hindi secure ang koneksyon sa <ph name="SITE" /></translation>
@@ -1072,7 +1072,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4356973930735388585">Maaaring subukan ng mga attacker sa site na ito na mag-install ng mga mapanganib na program sa iyong computer na magnanakaw o magde-delete ng impormasyon mo (halimbawa, mga larawan, password, mensahe at credit card).</translation>
 <translation id="4358059973562876591">Posibleng hindi mailapat ang mga template na tinukoy mo dahil sa error sa patakarang DnsOverHttpsMode.</translation>
 <translation id="4358461427845829800">Pamahalaan ang mga paraan ng pagbabayad...</translation>
-<translation id="4359160567981085931">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Makakatulong ang Chrome. Para palitan ang iyong password at abisuhan ang Google na posibleng nasa panganib ang iyong account, i-click ang Protektahan ang Account.</translation>
+<translation id="4359160567981085931">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Makakatulong ang Mises. Para palitan ang iyong password at abisuhan ang Google na posibleng nasa panganib ang iyong account, i-click ang Protektahan ang Account.</translation>
 <translation id="4367563149485757821">Number-12 (Envelope)</translation>
 <translation id="437040971055499437">Nagkaroon ng event tungkol sa seguridad</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -1086,7 +1086,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4408413947728134509">Cookies <ph name="NUM_COOKIES" /></translation>
 <translation id="4414515549596849729">cookies at data ng site</translation>
 <translation id="4415426530740016218">Address sa Pag-pick up</translation>
-<translation id="4424024547088906515">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; hindi pinagkakatiwalaan ng Chrome ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
+<translation id="4424024547088906515">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; hindi pinagkakatiwalaan ng Mises ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
 <translation id="443121186588148776">Serial port</translation>
 <translation id="4432688616882109544">Hindi tinanggap ng <ph name="HOST_NAME" /> ang iyong certificate sa pag-log in o maaaring walang ibinigay.</translation>
 <translation id="4432792777822557199">Simula ngayon ay isasalin na sa <ph name="TARGET_LANGUAGE" /> ang mga page na nasa <ph name="SOURCE_LANGUAGE" /></translation>
@@ -1106,7 +1106,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4482953324121162758">Hindi ita-translate ang site na ito.</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">I-encrypt ang mga naka-sync na password gamit ang iyong Google Account</translation>
-<translation id="4492519888999857993">Naka-disable bilang default ang mga feature na ito. Hindi magiging available ang mga ito sa mga bersyon ng Chrome sa hinaharap.</translation>
+<translation id="4492519888999857993">Naka-disable bilang default ang mga feature na ito. Hindi magiging available ang mga ito sa mga bersyon ng Mises sa hinaharap.</translation>
 <translation id="4493480324863638523">Di-wastong URL. Dapat ay isang URL na may karaniwang scheme, hal. http://example.com o https://example.com.</translation>
 <translation id="4500587658229086076">hindi secure na content</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1117,7 +1117,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4509074745930862522"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para isalin ang page na ito gamit ang Google Translate</translation>
 <translation id="4510487217173779431">Chou4 (Envelope)</translation>
 <translation id="4514308731478712184">I-off ang Mga Journey</translation>
-<translation id="4515275063822566619">Ang mga card at address ay mula sa Chrome at sa iyong Google Account (<ph name="ACCOUNT_EMAIL" />). Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">Ang mga card at address ay mula sa Mises at sa iyong Google Account (<ph name="ACCOUNT_EMAIL" />). Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
 <translation id="4517607026994743406">Comm-10 (Envelope)</translation>
 <translation id="4521157617044179198"><ph name="WIDTH" /> × <ph name="HEIGHT" /> mm (<ph name="ORIENTATION" />)</translation>
 <translation id="4521916730539354575">Kaliwang Tray</translation>
@@ -1130,11 +1130,11 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="455113658016510503">A9</translation>
 <translation id="4558551763791394412">Subukang i-disable ang iyong mga extension.</translation>
 <translation id="4559332380232738994">10x11</translation>
-<translation id="4567686777917670400">Puwedeng baguhin ng iyong administrator ang setup ng browser mo sa remote na paraan. Puwede ring pamahalaan sa labas ng Chromium ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">Puwedeng baguhin ng iyong administrator ang setup ng browser mo sa remote na paraan. Puwede ring pamahalaan sa labas ng Mises ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
 <translation id="457875822857220463">Paghahatid</translation>
 <translation id="4579056131138995126">Personal (Envelope)</translation>
 <translation id="4582204425268416675">Alisin ang card</translation>
-<translation id="4587425331216688090">Alisin ang address sa Chrome?</translation>
+<translation id="4587425331216688090">Alisin ang address sa Mises?</translation>
 <translation id="459089498662672729">Hindi inirerekomenda ng patakaran ng administrator ang pag-paste mula sa <ph name="ORIGIN_NAME" /> papunta sa lokasyong ito</translation>
 <translation id="4592951414987517459">Naka-encrypt ang iyong koneksyon sa <ph name="DOMAIN" /> gamit ang isang makabagong cipher suite.</translation>
 <translation id="4594403342090139922">&amp;I-undo ang Pagtanggal</translation>
@@ -1142,9 +1142,9 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4598556348158889687">Pamamahala sa storage</translation>
 <translation id="4600854749408232102">C6/C5 (Envelope)</translation>
 <translation id="4606870351894164739">Nakakamangha</translation>
-<translation id="4607603470419975064">Button na Tingnan ang mga tip sa Chrome, pindutin ang Enter para matuto pa tungkol sa mga feature ng Chrome</translation>
-<translation id="4607608436550361748">Tingnan ang mga tip sa Chrome</translation>
-<translation id="4627675673814409125">Hindi maitatakda ang patakarang ito sa antas ng profile ng Chrome at babalewalain ito.</translation>
+<translation id="4607603470419975064">Button na Tingnan ang mga tip sa Mises, pindutin ang Enter para matuto pa tungkol sa mga feature ng Mises</translation>
+<translation id="4607608436550361748">Tingnan ang mga tip sa Mises</translation>
+<translation id="4627675673814409125">Hindi maitatakda ang patakarang ito sa antas ng profile ng Mises at babalewalain ito.</translation>
 <translation id="4628948037717959914">Larawan</translation>
 <translation id="4631649115723685955">May naka-link na cashback</translation>
 <translation id="4636930964841734540">Impormasyon</translation>
@@ -1174,7 +1174,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4731638775147756694">Na-block ng iyong administrator ang application na ito</translation>
 <translation id="4731967714531604179">Prc2 (Envelope)</translation>
 <translation id="4733082559415072992">Gustong gamitin ng <ph name="URL" /> ang lokasyon ng iyong device</translation>
-<translation id="4736825316280949806">I-restart ang Chromium</translation>
+<translation id="4736825316280949806">I-restart ang Mises</translation>
 <translation id="4736934858538408121">Virtual na card</translation>
 <translation id="473775607612524610">I-update</translation>
 <translation id="4738601419177586157">Suhestyon sa paghahanap para sa <ph name="TEXT" /></translation>
@@ -1186,7 +1186,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4751476147751820511">Mga motion o light sensor</translation>
 <translation id="4754461935447132332">Hindi pinapayagan para sa mga hindi secure na site</translation>
 <translation id="4756388243121344051">&amp;History</translation>
-<translation id="4757993714154412917">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Para ma-secure ang iyong mga account, inirerekomenda ng Chromium na suriin mo ang iyong mga na-save na password.</translation>
+<translation id="4757993714154412917">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Para ma-secure ang iyong mga account, inirerekomenda ng Mises na suriin mo ang iyong mga na-save na password.</translation>
 <translation id="4758311279753947758">Magdagdag ng impormasyon sa pakikipag-ugnayan</translation>
 <translation id="4761104368405085019">Gamitin ang iyong mikropono</translation>
 <translation id="4764776831041365478">Ang webpage sa <ph name="URL" /> ay maaaring pansamantalang hindi gumagana o maaaring permanente itong inilipat sa isang bagong web address.</translation>
@@ -1217,7 +1217,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
         <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">I-on ang mga babala</translation>
 <translation id="4838327282952368871">Dreamy</translation>
-<translation id="4840250757394056958">Tingnan ang iyong history sa Chrome</translation>
+<translation id="4840250757394056958">Tingnan ang iyong history sa Mises</translation>
 <translation id="484462545196658690">Auto</translation>
 <translation id="4849865131988503897">Pagsusuri sa katumpakan</translation>
 <translation id="4850886885716139402">View</translation>
@@ -1266,7 +1266,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="4995216769782533993">Kumpirmahin ang panseguridad na code para ibahagi ang mga detalye ng iyong card sa site na ito</translation>
 <translation id="4995474875135717171">Binago noong:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para pamahalaan ang paghahanap sa site at ang iyong default na search engine</translation>
-<translation id="5002932099480077015">Kung naka-enable, mag-iimbak ang Chrome ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
+<translation id="5002932099480077015">Kung naka-enable, mag-iimbak ang Mises ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
 <translation id="5011561501798487822">Na-detect na Wika</translation>
 <translation id="5015510746216210676">Pangalan ng Machine:</translation>
 <translation id="5017554619425969104">Text na kinopya mo</translation>
@@ -1297,7 +1297,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="5088142053160410913">Mensahe sa operator</translation>
 <translation id="5089810972385038852">Estado</translation>
 <translation id="5093232627742069661">Z-fold</translation>
-<translation id="5094747076828555589">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; hindi pinagkakatiwalaan ng Chromium ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
+<translation id="5094747076828555589">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; hindi pinagkakatiwalaan ng Mises ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
 <translation id="5095208057601539847">Lalawigan</translation>
 <translation id="5097099694988056070">Mga istatistika ng device gaya ng paggamit ng CPU/RAM</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1326,7 +1326,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="5161506081086828129">Stacker 9</translation>
 <translation id="5164798890604758545">Naglagay ng text</translation>
 <translation id="516920405563544094">Ilagay ang CVC para sa <ph name="CREDIT_CARD" />. Pagkatapos mong magkumpirma, ibabahagi sa site na ito ang mga detalye ng card mula sa iyong Google Account.</translation>
-<translation id="5169827969064885044">Maaari kang mawalan ng access sa account ng iyong organisasyon o manakawan ng pagkakakilanlan. Inirerekomenda ng Chrome na palitan ang iyong password ngayon.</translation>
+<translation id="5169827969064885044">Maaari kang mawalan ng access sa account ng iyong organisasyon o manakawan ng pagkakakilanlan. Inirerekomenda ng Mises na palitan ang iyong password ngayon.</translation>
 <translation id="5171045022955879922">Hanapin o i-type ang URL</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Computer</translation>
@@ -1335,7 +1335,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="51918995459521422">Gustong mag-download ng <ph name="ORIGIN" /> ng maraming file</translation>
 <translation id="519422657042045905">Hindi available ang anotasyon</translation>
 <translation id="5201306358585911203">Isinasaad ng naka-embed na page sa page na ito na</translation>
-<translation id="5204468114771111727">Nalaman ng Chrome na lumalabag sa data ang password na kakagamit mo lang. Puwedeng awtomatikong palitan ng iyong Google Assistant ang password mo.</translation>
+<translation id="5204468114771111727">Nalaman ng Mises na lumalabag sa data ang password na kakagamit mo lang. Puwedeng awtomatikong palitan ng iyong Google Assistant ang password mo.</translation>
 <translation id="5205222826937269299">Kailangan ng pangalan</translation>
 <translation id="5209518306177824490">SHA-1 Fingerprint</translation>
 <translation id="5209670883520018268">Tray 20</translation>
@@ -1348,7 +1348,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="5233045608889518621">12x19</translation>
 <translation id="5234764350956374838">Huwag pansinin</translation>
 <translation id="5250209940322997802">"Kumonekta sa network"</translation>
-<translation id="52517543715119994">Alamin ang tungkol sa mga feature ng Chrome</translation>
+<translation id="52517543715119994">Alamin ang tungkol sa mga feature ng Mises</translation>
 <translation id="5251803541071282808">Cloud</translation>
 <translation id="5252000469029418751">C7 (Envelope)</translation>
 <translation id="5254043433801397071">I-optimize ang content ng print</translation>
@@ -1367,7 +1367,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="5287240709317226393">Ipakita ang cookies</translation>
 <translation id="5287456746628258573">Gumagamit ang site na ito ng lumang configuration sa seguridad, na posibleng maglantad ng iyong impormasyon (halimbawa, mga password o numero ng credit card) kapag ipinadala ito sa site na ito.</translation>
 <translation id="5288108484102287882">Na-validate ang mga value ng patakaran at nagkaroon ng mga babala</translation>
-<translation id="5288808348893593856">Secure ang koneksyon ng site maliban na lang kung sabihin sa iyo ng Chrome na hindi.</translation>
+<translation id="5288808348893593856">Secure ang koneksyon ng site maliban na lang kung sabihin sa iyo ng Mises na hindi.</translation>
 <translation id="5289384342738547352">Pangangasiwa sa maraming dokumento</translation>
 <translation id="5299298092464848405">Error sa pag-parse ng patakaran</translation>
 <translation id="5300589172476337783">Ipakita</translation>
@@ -1382,13 +1382,13 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="5324080437450482387">Pumili ng Impormasyon sa Pakikipag-ugnayan</translation>
 <translation id="5329858041417644019">Hindi pinapamahalaan ang iyong browser</translation>
 <translation id="5332219387342487447">Paraan ng Pagpapadala</translation>
-<translation id="5333022057423422993">Nakita ng Chrome sa isang paglabag sa data ang password na kakagamit mo lang. Para i-secure ang iyong mga account, inirerekomenda naming suriin ang mga naka-save na password mo.</translation>
+<translation id="5333022057423422993">Nakita ng Mises sa isang paglabag sa data ang password na kakagamit mo lang. Para i-secure ang iyong mga account, inirerekomenda naming suriin ang mga naka-save na password mo.</translation>
 <translation id="5334013548165032829">Mga detalyadong log ng system</translation>
 <translation id="5334145288572353250">I-save ang Address?</translation>
 <translation id="5340250774223869109">Naka-block ang application</translation>
 <translation id="534295439873310000">Mga NFC device</translation>
 <translation id="5344579389779391559">Maaari kang singilin ng pera ng page na ito</translation>
-<translation id="5347645913823149105">Button na I-customize ang mga font sa Chrome, pindutin ang Enter para i-customize ang mga laki ng font at typeface sa Chrome</translation>
+<translation id="5347645913823149105">Button na I-customize ang mga font sa Mises, pindutin ang Enter para i-customize ang mga laki ng font at typeface sa Mises</translation>
 <translation id="5355557959165512791">Hindi mo maaaring bisitahin ang <ph name="SITE" /> sa ngayon dahil binawi na ang certificate nito. Karaniwang pansamantala lang ang mga error at pag-atake sa network, kaya malamang na gagana ang page na ito sa ibang pagkakataon.</translation>
 <translation id="5356837363448394805">Namumula</translation>
 <translation id="536296301121032821">Nabigo i-load ang mga setting ng patakaran sa store</translation>
@@ -1434,14 +1434,14 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="5523118979700054094">Pangalan ng patakaran</translation>
 <translation id="55293785478302737">Edge stitch</translation>
 <translation id="553484882784876924">Prc6 (Envelope)</translation>
-<translation id="5535133333442455806">Button na I-clear ang data mula sa pag-browse, pindutin ang Enter para i-clear ang iyong history ng pag-browse, cookies, cache, at higit pa sa mga setting ng Chrome</translation>
+<translation id="5535133333442455806">Button na I-clear ang data mula sa pag-browse, pindutin ang Enter para i-clear ang iyong history ng pag-browse, cookies, cache, at higit pa sa mga setting ng Mises</translation>
 <translation id="5536214594743852365">Ipakita ang seksyong "<ph name="SECTION" />"</translation>
 <translation id="5539243836947087108">Raft</translation>
 <translation id="5540224163453853">Hindi mahanap ang hiniling na artikulo.</translation>
 <translation id="5541086400771735334">Mailbox 7</translation>
 <translation id="5541546772353173584">Magdagdag ng Email</translation>
 <translation id="5545756402275714221">Mga Artikulo para sa Iyo</translation>
-<translation id="5552137475244467770">Pana-panahong sinusuri ng Chrome ang iyong mga password sa mga listahang na-publish online. Kapag ginagawa ito, naka-encrypt ang iyong mga password at username, para hindi mabasa ng sinuman ang mga ito, kabilang ang Google.</translation>
+<translation id="5552137475244467770">Pana-panahong sinusuri ng Mises ang iyong mga password sa mga listahang na-publish online. Kapag ginagawa ito, naka-encrypt ang iyong mga password at username, para hindi mabasa ng sinuman ang mga ito, kabilang ang Google.</translation>
 <translation id="5556459405103347317">I-reload</translation>
 <translation id="5560088892362098740">Petsa ng Pag-expire</translation>
 <translation id="55635442646131152">Balangkas ng dokumento</translation>
@@ -1490,7 +1490,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="571403275720188526">(arm64)</translation>
 <translation id="5720705177508910913">Kasalukuyang user</translation>
 <translation id="5728056243719941842">C5 (Envelope)</translation>
-<translation id="5730040223043577876">Inirerekomenda ng Chrome na i-reset ang iyong password kung ginamit mo ito sa iba pang site.</translation>
+<translation id="5730040223043577876">Inirerekomenda ng Mises na i-reset ang iyong password kung ginamit mo ito sa iba pang site.</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{I-save ang card sa iyong Google Account}one{I-save ang mga card sa iyong Google Account}other{I-save ang mga card sa iyong Google Account}}</translation>
 <translation id="5745733273847572235">Puwedeng hingin ang iyong lokasyon</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{Gumamit ng virtual na numero para sa card na ito}one{Pumili ng card}other{Pumili ng card}}</translation>
@@ -1505,12 +1505,12 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="5784606427469807560">Nagkaroon ng problema sa pagkumpirma ng iyong card. Suriin ang koneksyon sa internet at subukang muli.</translation>
 <translation id="5785756445106461925">Bukod pa rito, ang page na ito ay may iba pang mga mapagkukunang hindi secure. Makikita ng iba ang mga mapagkukunang ito habang ipinadadala, at maaaring baguhin ng isang umaatake upang baguhin ang hitsura ng page.</translation>
 <translation id="5786044859038896871">Gusto mo bang ilagay ang impormasyon ng iyong card?</translation>
-<translation id="578633867165174378">Nakita ng Chrome sa isang paglabag sa data ang password na kakagamit mo lang. Inirerekomenda naming palitan na ngayon ang password na ito.</translation>
+<translation id="578633867165174378">Nakita ng Mises sa isang paglabag sa data ang password na kakagamit mo lang. Inirerekomenda naming palitan na ngayon ang password na ito.</translation>
 <translation id="5789643057113097023">.</translation>
 <translation id="5803412860119678065">Gusto mo bang ilagay ang iyong <ph name="CARD_DETAIL" />?</translation>
 <translation id="5804241973901381774">Mga Pahintulot</translation>
 <translation id="5810442152076338065">Naka-encrypt ang iyong koneksyon sa <ph name="DOMAIN" /> gamit ang isang hindi na ginagamit na cipher suite.</translation>
-<translation id="5812947184178430888">Kapag na-flag ng Chrome ang mga event tungkol sa seguridad, ipapadala sa iyong administrator ang nauugnay na data tungkol sa mga event. Puwedeng kabilang dito ang mga URL ng mga page na binibisita mo sa Chrome, mga pangalan ng file o metadata, at ang username na iyong ginagamit para mag-sign in sa mga web based na application, sa device mo at sa Chrome.</translation>
+<translation id="5812947184178430888">Kapag na-flag ng Mises ang mga event tungkol sa seguridad, ipapadala sa iyong administrator ang nauugnay na data tungkol sa mga event. Puwedeng kabilang dito ang mga URL ng mga page na binibisita mo sa Mises, mga pangalan ng file o metadata, at ang username na iyong ginagamit para mag-sign in sa mga web based na application, sa device mo at sa Mises.</translation>
 <translation id="5813119285467412249">&amp;Gawing Muli ang Pagdagdag</translation>
 <translation id="5817918615728894473">Ipares</translation>
 <translation id="5824687817967109979">{NUM_CARDS,plural, =1{Sisingilin ang card na ito kapag nagbayad ka, pero hindi ibabahagi sa site na ito ang totoong numero nito. Para sa karagdagang seguridad, bubuo ng pansamantalang CVC.}one{Sisingilin ang card na iyong pipiliin kapag nagbayad ka, pero hindi ibabahagi sa site na ito ang totoong numero nito. Para sa karagdagang seguridad, bubuo ng pansamantalang CVC.}other{Sisingilin ang card na iyong pipiliin kapag nagbayad ka, pero hindi ibabahagi sa site na ito ang totoong numero nito. Para sa karagdagang seguridad, bubuo ng pansamantalang CVC.}}</translation>
@@ -1600,7 +1600,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="610911394827799129">Maaaring may iba pang anyo ng history ng pag-browse ang iyong Google Account sa <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /></translation>
 <translation id="6116338172782435947">Tingnan ang text at mga larawang kinopya sa clipboard</translation>
 <translation id="6120179357481664955">Natatandaan mo ang iyong UPI ID?</translation>
-<translation id="6124432979022149706">Mga Chrome Enterprise Connector</translation>
+<translation id="6124432979022149706">Mga Mises Enterprise Connector</translation>
 <translation id="6127379762771434464">Inalis ang item</translation>
 <translation id="6146055958333702838">Tingnan ang anumang mga kable at i-reboot ang anumang mga router, modem o iba
     pang mga network device na maaaring ginagamit mo.</translation>
@@ -1617,35 +1617,35 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="619448280891863779">Puwedeng hilinging magbukas at maglagay ng mga window sa iyong mga screen</translation>
 <translation id="6196640612572343990">I-block ang mga third-party na cookie</translation>
 <translation id="6203231073485539293">Suriin ang iyong koneksyon sa Internet</translation>
-<translation id="6218753634732582820">Gusto mo bang alisin ang address sa Chromium?</translation>
+<translation id="6218753634732582820">Gusto mo bang alisin ang address sa Mises?</translation>
 <translation id="622039917539443112">Parallel fold</translation>
 <translation id="6221345481584921695">Kamakailan lang, ang Google Safe Browsing ay <ph name="BEGIN_LINK" />nakakita ng malware<ph name="END_LINK" /> sa <ph name="SITE" />. Paminsan-minsan, nagkakaroon ng malware ang mga website na karaniwang ligtas. Ang nakakahamak na content ay galing sa <ph name="SUBRESOURCE_HOST" />, isang kilalang nagkakalat ng malware.</translation>
-<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para i-personalize ang iyong mga tool sa accessibility sa mga setting ng Chrome</translation>
+<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para i-personalize ang iyong mga tool sa accessibility sa mga setting ng Mises</translation>
 <translation id="6233160458685643793">Nakangisi</translation>
 <translation id="6234122620015464377">Paikliin pagkatapos ng bawat dokumento</translation>
 <translation id="6240447795304464094">Logo ng Google Pay</translation>
 <translation id="6241121617266208201">Itago ang mga suhestyon</translation>
 <translation id="624499991300733384">Serbisyo ng Print Compositor</translation>
-<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang mga file na na-download mo sa Chrome</translation>
+<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang Tab at pagkatapos ay ang Enter para pamahalaan ang mga file na na-download mo sa Mises</translation>
 <translation id="6254436959401408446">Hindi sapat ang memory upang mabuksan ang page na ito</translation>
 <translation id="6259156558325130047">&amp;Gawing Muli ang Pagbabago sa Ayos</translation>
 <translation id="6263376278284652872">Mga bookmark ng <ph name="DOMAIN" /></translation>
 <translation id="6264485186158353794">Bumalik sa safety</translation>
 <translation id="6265794661083428563">Kopyahin ang value ng patakarang <ph name="POLICY_NAME" /></translation>
 <translation id="6266934640124581640">Light Teal</translation>
-<translation id="6272088941196661550">Ipagpatuloy ang iyong journey para makakita ng nauugnay na aktibidad sa history mo sa Chrome</translation>
+<translation id="6272088941196661550">Ipagpatuloy ang iyong journey para makakita ng nauugnay na aktibidad sa history mo sa Mises</translation>
 <translation id="6272383483618007430">Google Update</translation>
 <translation id="6276112860590028508">Lalabas dito ang mga page mula sa iyong listahan ng babasahin</translation>
 <translation id="627746635834430766">Para mas mabilis na makapagbayad sa susunod, i-save ang iyong card at billing address sa Google Account mo.</translation>
 <translation id="6279098320682980337">Hindi napunan ang numero ng virtual na card? I-click ang mga detalye ng card para kopyahin</translation>
 <translation id="6280223929691119688">Hindi maaaring maghatid sa address na ito. Pumili ng ibang address.</translation>
 <translation id="6282194474023008486">Postal code</translation>
-<translation id="6285507000506177184">Button na Pamahalaan ang mga download sa Chrome, pindutin ang Enter para pamahalaan ang mga file na na-download mo sa Chrome</translation>
+<translation id="6285507000506177184">Button na Pamahalaan ang mga download sa Mises, pindutin ang Enter para pamahalaan ang mga file na na-download mo sa Mises</translation>
 <translation id="6289939620939689042">Kulay ng Page</translation>
 <translation id="6290238015253830360">Lalabas dito ang mga iminungkahi mong artikulo</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">CVC:</translation>
-<translation id="6302269476990306341">Ihinihinto ang Google Assistant sa Chrome</translation>
+<translation id="6302269476990306341">Ihinihinto ang Google Assistant sa Mises</translation>
 <translation id="6305205051461490394">Hindi makakonekta sa <ph name="URL" />.</translation>
 <translation id="6312113039770857350">Hindi available ang webpage</translation>
 <translation id="63172326633386613">Pamahalaan ang mga setting ng pagiging accessible</translation>
@@ -1659,7 +1659,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="6340739886198108203">Hindi inirerekomenda ng patakaran ng administrator ang pagkuha ng mga screenshot o recording kapag may nakikitang kumpidensyal na content:</translation>
 <translation id="6349101878882523185">I-install ang <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{Wala}=1{1 password (para sa <ph name="DOMAIN_LIST" />, naka-sync)}=2{2 password (para sa <ph name="DOMAIN_LIST" />, naka-sync)}one{# password (para sa <ph name="DOMAIN_LIST" />, naka-sync)}other{# na password (para sa <ph name="DOMAIN_LIST" />, naka-sync)}}</translation>
-<translation id="6355392890578844978">Hindi pinapamahalaan ng kumpanya o iba pang organisasyon ang browser na ito. Posibleng pinapamahalaan sa labas ng Chromium ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">Hindi pinapamahalaan ng kumpanya o iba pang organisasyon ang browser na ito. Posibleng pinapamahalaan sa labas ng Mises ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">Ano ang ibig sabihin ng mga ito?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />Suriin ang configuration ng proxy, firewall, at Secure na DNS<ph name="END_LINK" /></translation>
@@ -1680,7 +1680,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="6404511346730675251">I-edit ang bookmark</translation>
 <translation id="6406765186087300643">C0 (Envelope)</translation>
 <translation id="6410264514553301377">Ilagay ang petsa ng pag-expire at CVC para sa <ph name="CREDIT_CARD" /></translation>
-<translation id="6415778972515849510">Makakatulong sa iyo ang Chromium na protektahan ang iyong Google Account at palitan ang password mo.</translation>
+<translation id="6415778972515849510">Makakatulong sa iyo ang Mises na protektahan ang iyong Google Account at palitan ang password mo.</translation>
 <translation id="6423385022588644828">Kumpirmahin nang mas mabilis ang iyong mga card gamit ang Touch ID mula ngayon</translation>
 <translation id="6425092077175753609">Material</translation>
 <translation id="6427730057873428458">Gate fold</translation>
@@ -1709,7 +1709,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="6499038740797743453">I-reset ang password?</translation>
 <translation id="6502991525169604759">Hindi kasama ang iyong mga pagbabago</translation>
 <translation id="6506959208958864820">Sobre</translation>
-<translation id="6508722015517270189">I-restart ang Chrome</translation>
+<translation id="6508722015517270189">I-restart ang Mises</translation>
 <translation id="6513005815064132016">Puwede ring hilinging i-track ang posisyon ng iyong camera</translation>
 <translation id="6517596291481585650">Babala: Hindi na-merge ang patakarang ito bilang listahan gaya ng tinukoy ng patakaran dahil hindi ito isang listahan.</translation>
 <translation id="6518133107902771759">I-verify</translation>
@@ -1725,10 +1725,10 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="6579630537141957243">Magkonekta ng MIDI device?</translation>
 <translation id="6579990219486187401">Light Pink</translation>
 <translation id="6583674473685352014">B6 (Envelope)</translation>
-<translation id="6587182488465657433">Nakita ng Chrome sa isang paglabag sa data ang password na kakagamit mo lang. Para i-secure ang iyong mga account, inirerekomenda naming palitan ito ngayon at pagkatapos ay suriin ang mga naka-save na password mo.</translation>
+<translation id="6587182488465657433">Nakita ng Mises sa isang paglabag sa data ang password na kakagamit mo lang. Para i-secure ang iyong mga account, inirerekomenda naming palitan ito ngayon at pagkatapos ay suriin ang mga naka-save na password mo.</translation>
 <translation id="6587923378399804057">Link na kinopya mo</translation>
 <translation id="6591833882275308647">Hindi pinapamahalaan ang iyong <ph name="DEVICE_TYPE" /></translation>
-<translation id="6592952801936330159">Button na Pamahalaan ang mga setting ng site, pindutin ang Enter para pamahalaan ang mga pahintulot at data na naka-store sa lahat ng site sa mga setting ng Chrome</translation>
+<translation id="6592952801936330159">Button na Pamahalaan ang mga setting ng site, pindutin ang Enter para pamahalaan ang mga pahintulot at data na naka-store sa lahat ng site sa mga setting ng Mises</translation>
 <translation id="6596325263575161958">Mga pagpipilian sa pag-encrypt</translation>
 <translation id="6609880536175561541">Prc7 (Envelope)</translation>
 <translation id="6615297766614333076">Stacker 2</translation>
@@ -1742,7 +1742,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="6643016212128521049">I-clear</translation>
 <translation id="6645291930348198241">I-access ang cookies at data ng site.</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{Wala}=1{Mula sa 1 site (hindi ka masa-sign out sa iyong Google Account)}one{Mula sa # site (hindi ka masa-sign out sa iyong Google Account)}other{Mula sa # na site (hindi ka masa-sign out sa iyong Google Account)}}</translation>
-<translation id="6648459603387803038">Puwedeng baguhin ng iyong administrator ang setup ng browser mo sa remote na paraan. Puwede ring pamahalaan sa labas ng Chrome ang aktibidad sa device na ito.</translation>
+<translation id="6648459603387803038">Puwedeng baguhin ng iyong administrator ang setup ng browser mo sa remote na paraan. Puwede ring pamahalaan sa labas ng Mises ang aktibidad sa device na ito.</translation>
 <translation id="6648524591329069940">Serif Font</translation>
 <translation id="6651270836885078973">Pinapamahalaan ng:</translation>
 <translation id="6652101503459149953">Gamitin ang Windows Hello</translation>
@@ -1752,13 +1752,13 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="666259744093848177">(na-translate sa x86_64)</translation>
 <translation id="6663846344464066639">Nakahalukipkip</translation>
 <translation id="6665553082534466207">Triple punch right</translation>
-<translation id="6671697161687535275">Gusto mo bang alisin ang form para sa suhestyon sa Chromium?</translation>
+<translation id="6671697161687535275">Gusto mo bang alisin ang form para sa suhestyon sa Mises?</translation>
 <translation id="6685834062052613830">Mag-sign out at kumpletuhin ang setup</translation>
 <translation id="6687335167692595844">Hiniling na laki ng font</translation>
 <translation id="6688743156324860098">I-update…</translation>
 <translation id="6688775486821967877">Hindi available sa ngayon ang virtual card, pakisubukan ulit sa ibang pagkakataon</translation>
 <translation id="6689249931105087298">Kaugnay sa black point compression</translation>
-<translation id="6689271823431384964">Nag-aalok ang Chrome na i-save ang iyong mga card sa Google Account mo dahil naka-sign in ka. Puwede mong baguhin ang gawing ito sa mga setting. Mula sa iyong account ang pangalan ng cardholder.</translation>
+<translation id="6689271823431384964">Nag-aalok ang Mises na i-save ang iyong mga card sa Google Account mo dahil naka-sign in ka. Puwede mong baguhin ang gawing ito sa mga setting. Mula sa iyong account ang pangalan ng cardholder.</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang Tab at pagkatapos ay ang Enter para Hanapin ang iyong device sa Google Account</translation>
 <translation id="6696588630955820014">Button na Ibahagi ang tab na ito, pindutin ang Enter para ibahagi ang tab na ito sa pamamagitan ng pagbabahagi sa link, paggawa ng QR code, pag-cast, at higit pa</translation>
 <translation id="6698381487523150993">Nalikha:</translation>
@@ -1804,7 +1804,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="6883221904761970440">Isinara ang sheet para sa pag-authenticate ng kredensyal sa secure na pagbabayad</translation>
 <translation id="6884662655240309489">Laki 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" /> <ph name="SHORT_URL" /></translation>
-<translation id="6888584790432772780">Pinasimple ng Chrome ang page na ito para mas madali itong mabasa. Nakuha ng Chrome ang orihinal na page sa pamamagitan ng hindi secure na koneksyon.</translation>
+<translation id="6888584790432772780">Pinasimple ng Mises ang page na ito para mas madali itong mabasa. Nakuha ng Mises ang orihinal na page sa pamamagitan ng hindi secure na koneksyon.</translation>
 <translation id="6890443033788248019">Payagan ang lokasyon?</translation>
 <translation id="6891596781022320156">Hindi sinusuportahan ang antas ng patakaran.</translation>
 <translation id="6895143722905299846">Virtual na numero:</translation>
@@ -1862,7 +1862,7 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="7053983685419859001">I-block</translation>
 <translation id="7058163556978339998">Na-verify ng <ph name="BROWSER" /> na ang <ph name="ISSUER" /> ang nag-isyu ng certificate na ito ng website.</translation>
 <translation id="7062635574500127092">Teal</translation>
-<translation id="706295145388601875">Magdagdag at mamahala ng mga address sa mga setting ng Chrome</translation>
+<translation id="706295145388601875">Magdagdag at mamahala ng mga address sa mga setting ng Mises</translation>
 <translation id="7064851114919012435">Impormasyon sa pakikipag-ugnayan</translation>
 <translation id="7068733155164172741">Ilagay ang <ph name="OTP_LENGTH" /> (na) digit na code</translation>
 <translation id="7070090581017165256">Tungkol sa site na ito</translation>
@@ -1873,9 +1873,9 @@ Kung ayaw mo, iba-block ito ng iyong mga setting ng privacy. Papayagan nito ang 
 <translation id="7083258188081898530">Tray 9</translation>
 <translation id="7086090958708083563">Hiniling ng user ang pag-upload</translation>
 <translation id="7087282848513945231">Lalawigan</translation>
-<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para pamahalaan ang mga pahintulot at data na naka-store sa lahat ng site sa mga setting ng Chrome</translation>
+<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para pamahalaan ang mga pahintulot at data na naka-store sa lahat ng site sa mga setting ng Mises</translation>
 <translation id="7096937462164235847">Hindi na-verify ang pagkakakilanlan ng website na ito.</translation>
-<translation id="7102554173784142865">Laruin ang Chrome Dino</translation>
+<translation id="7102554173784142865">Laruin ang Mises Dino</translation>
 <translation id="7108338896283013870">Itago</translation>
 <translation id="7108634116785509031">Gustong gamitin ng <ph name="HOST" /> ang iyong camera</translation>
 <translation id="7108819624672055576">Pinayagan ng isang extension</translation>
@@ -1951,12 +1951,12 @@ Mga karagdagang detalye:
 <translation id="7353601530677266744">Command Line</translation>
 <translation id="7359588939039777303">Na-block ang mga ad.</translation>
 <translation id="7363096869660964304">Gayunpaman, hindi ka invisible. Kahit mag-Incognito ka, hindi matatago ang iyong pagba-browse mula sa iyong employer, sa iyong internet service provider o sa mga website na binibisita mo.</translation>
-<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para magdagdag at mamahala ng mga address sa mga setting ng Chrome</translation>
+<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para magdagdag at mamahala ng mga address sa mga setting ng Mises</translation>
 <translation id="7365849542400970216">Alam mo ba ang iyong paggamit ng device?</translation>
 <translation id="7366362069757178916">Mga tagapangasiwa ng pagbabayad</translation>
 <translation id="7372973238305370288">resulta ng paghahanap</translation>
 <translation id="7374461526650987610">Mga tagapangasiwa ng protocol</translation>
-<translation id="7374733840632556089">Nangyayari ang problemang ito dahil sa isang certificate na na-install mo o ng ibang tao sa iyong device. Kilala ang certificate sa pagsubaybay at pag-intercept ng mga network, at hindi ito pinagkakatiwalaan ng Chrome. Bagama't mayroong mga lehitimong kaso ng pagsubaybay, gaya sa network sa paaralan o kumpanya, gustong tiyakin ng Chrome na alam mong nangyayari ito, kahit na hindi mo ito mapipigilan. Posibleng mangyari ang pagsubaybay sa anumang browser o application na nag-a-access ng web.</translation>
+<translation id="7374733840632556089">Nangyayari ang problemang ito dahil sa isang certificate na na-install mo o ng ibang tao sa iyong device. Kilala ang certificate sa pagsubaybay at pag-intercept ng mga network, at hindi ito pinagkakatiwalaan ng Mises. Bagama't mayroong mga lehitimong kaso ng pagsubaybay, gaya sa network sa paaralan o kumpanya, gustong tiyakin ng Mises na alam mong nangyayari ito, kahit na hindi mo ito mapipigilan. Posibleng mangyari ang pagsubaybay sa anumang browser o application na nag-a-access ng web.</translation>
 <translation id="7375818412732305729">Nag-attach ng file</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">Mga Kontrol ng Media</translation>
@@ -1977,14 +1977,14 @@ Mga karagdagang detalye:
     &lt;li&gt;Sa ilalim ng &lt;strong&gt;Startup type&lt;/strong&gt;, piliin ang &lt;strong&gt;Disabled&lt;/strong&gt;
     &lt;li&gt;Sa ilalim ng &lt;strong&gt;Service status&lt;/strong&gt;, i-click ang &lt;strong&gt;Stop&lt;/strong&gt;
     &lt;li&gt;I-click ang &lt;strong&gt;Apply&lt;/strong&gt;, pagkatapos ay i-click ang &lt;strong&gt;OK&lt;/strong&gt;
-    &lt;li&gt;Bisitahin ang &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;help center ng Chrome&lt;/a&gt; para matutunan kung paano permanenteng alisin ang software sa iyong computer
+    &lt;li&gt;Bisitahin ang &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;help center ng Mises&lt;/a&gt; para matutunan kung paano permanenteng alisin ang software sa iyong computer
     &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">Maganda</translation>
 <translation id="7416351320495623771">Pamahalaan ang Mga Password...</translation>
 <translation id="7419106976560586862">Path ng Profile</translation>
 <translation id="7421067045979951561">mga tagapangasiwa ng protocol</translation>
-<translation id="7426022697669111648">Button na Tingnan ang iyong history sa Chrome, pindutin ang Enter para tingnan at pamahalaan ang history ng pag-browse mo sa mga setting ng Chrome</translation>
+<translation id="7426022697669111648">Button na Tingnan ang iyong history sa Mises, pindutin ang Enter para tingnan at pamahalaan ang history ng pag-browse mo sa mga setting ng Mises</translation>
 <translation id="7437289804838430631">Magdagdag ng Impormasyon ng Contact</translation>
 <translation id="7440140511386898319">Mag-explore habang offline</translation>
 <translation id="7441627299479586546">Maling paksa ng patakaran</translation>
@@ -2016,16 +2016,16 @@ Mga karagdagang detalye:
 <translation id="7542995811387359312">Hindi pinagana ang awtomatikong pagpuno ng credit card dahil ang form na ito ay hindi gumagamit ng secure na koneksyon.</translation>
 <translation id="7548892272833184391">Ayusin ang mga error sa koneksyon</translation>
 <translation id="7549584377607005141">Kinakailangan ng webpage na ito ng data na inilagay mo dati upang maipakita nang maayos. Maipapadala mong muli ang data na ito, ngunit kapag ginawa mo iyon, mauulit ang anumang pagkilos na isinagawa dati ng pahinang ito.</translation>
-<translation id="7550637293666041147">Username ng iyong device at username sa Chrome</translation>
+<translation id="7550637293666041147">Username ng iyong device at username sa Mises</translation>
 <translation id="755279583747225797">Aktibo ang trial</translation>
 <translation id="7552846755917812628">Subukan ang mga sumusunod na tip:</translation>
 <translation id="7554475479213504905">I-reload at ipakita pa rin</translation>
 <translation id="7554791636758816595">Bagong Tab</translation>
 <translation id="7559278538486662777">Hindi puwedeng i-resize ang app na ito.</translation>
-<translation id="7564049878696755256">Maaari kang mawalan ng access sa iyong account sa <ph name="ORG_NAME" /> o manakawan ng pagkakakilanlan. Inirerekomenda ng Chrome na palitan ang iyong password ngayon.</translation>
+<translation id="7564049878696755256">Maaari kang mawalan ng access sa iyong account sa <ph name="ORG_NAME" /> o manakawan ng pagkakakilanlan. Inirerekomenda ng Mises na palitan ang iyong password ngayon.</translation>
 <translation id="7567204685887185387">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; maaaring mapanlokong ibinigay ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
 <translation id="7569761772822664555">Button na pamahalaan ang mga search engine, pindutin ang Enter para pamahalaan ang iyong default na search engine at site search</translation>
-<translation id="7569952961197462199">Alisin ang credit card sa Chrome?</translation>
+<translation id="7569952961197462199">Alisin ang credit card sa Mises?</translation>
 <translation id="7569983096843329377">Itim</translation>
 <translation id="7575207903026901870">Button na Alisin ang Suhestyon, pindutin ang Enter para alisin ang suhestyong ito</translation>
 <translation id="7578104083680115302">Magbayad nang mabilis sa mga site at app sa iba't ibang device gamit ang mga card na na-save mo sa Google.</translation>
@@ -2039,13 +2039,13 @@ Mga karagdagang detalye:
 <translation id="7600965453749440009">Huwag isalin kailanman ang <ph name="LANGUAGE" /></translation>
 <translation id="7610193165460212391">Wala sa sakop ang halaga <ph name="VALUE" />.</translation>
 <translation id="7613889955535752492">Exp: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
-<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para tingnan at pamahalaan ang mga password mo sa mga setting ng Chrome</translation>
-<translation id="7616645509853975347">Na-on ng iyong administrator ang Chrome Enterprise Connectors sa browser mo. May access ang mga connector na ito sa ilan sa iyong data.</translation>
+<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para tingnan at pamahalaan ang mga password mo sa mga setting ng Mises</translation>
+<translation id="7616645509853975347">Na-on ng iyong administrator ang Mises Enterprise Connectors sa browser mo. May access ang mga connector na ito sa ilan sa iyong data.</translation>
 <translation id="7619838219691048931">Dulong sheet</translation>
 <translation id="7625242817712715120">Hindi inirerekomenda ng patakaran ng administrator ang pag-print sa content na ito</translation>
 <translation id="762844065391966283">Paisa-isa</translation>
 <translation id="7633909222644580952">Date ng performance at mga ulat ng pag-crash</translation>
-<translation id="7637571805876720304">Gusto mo bang alisin ang credit card sa Chromium?</translation>
+<translation id="7637571805876720304">Gusto mo bang alisin ang credit card sa Mises?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Wala}=1{1 password sa iyong account (para sa <ph name="DOMAIN_LIST" />)}one{# password sa iyong account (para sa <ph name="DOMAIN_LIST" />)}other{# na password sa iyong account (para sa <ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="7638605456503525968">Mga serial port</translation>
 <translation id="7639968568612851608">Dark Grey</translation>
@@ -2064,7 +2064,7 @@ Mga karagdagang detalye:
 <translation id="7669907849388166732">{COUNT,plural, =1{Mga pagkilos na ginawa sa data na na-flag bilang kumpidensyal (1 pagkilos mula noong nag-log in). <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" />}one{Mga pagkilos na ginawa sa data na na-flag bilang kumpidensyal (# pagkilos mula noong nag-log in). <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" />}other{Mga pagkilos na ginawa sa data na na-flag bilang kumpidensyal (# na pagkilos mula noong nag-log in). <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" />}}</translation>
 <translation id="7673278391011283842">Mailbox 6</translation>
 <translation id="7676643023259824263">Hanapin ang text sa clipboard, na <ph name="TEXT" /></translation>
-<translation id="7679367271685653708">Tingnan at pamahalaan ang iyong history ng pag-browse sa mga setting ng Chrome</translation>
+<translation id="7679367271685653708">Tingnan at pamahalaan ang iyong history ng pag-browse sa mga setting ng Mises</translation>
 <translation id="7682287625158474539">Pagpapadala</translation>
 <translation id="7687186412095877299">Pinupunan ang mga form sa pagbabayad ng iyong mga naka-save na paraan ng pagbabayad</translation>
 <translation id="7687305263118037187">Pag-time out ng pag-retry</translation>
@@ -2084,7 +2084,7 @@ Mga karagdagang detalye:
 <translation id="7740996059027112821">Karaniwan</translation>
 <translation id="77424286611022110">Nagpapakita ang site na ito ng mga nakakasagabal o nakakapanlinlang na ad. <ph name="LEARN_MORE_LINK_TEXT" /></translation>
 <translation id="774634243536837715">Na-block ang mapanganib na content.</translation>
-<translation id="7751971323486164747">I-customize ang mga laki ng font at typeface sa Chrome</translation>
+<translation id="7751971323486164747">I-customize ang mga laki ng font at typeface sa Mises</translation>
 <translation id="7752995774971033316">Hindi pinamamahalaan</translation>
 <translation id="7755624218968747854">Pangunahing Rolyo</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2108,7 +2108,7 @@ Mga karagdagang detalye:
 <translation id="7805571567667010077">Pinamamahalaan ng iyong organisasyon</translation>
 <translation id="7805768142964895445">Katayuan</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Alisin ang suhestyon sa Chrome?</translation>
+<translation id="7813600968533626083">Alisin ang suhestyon sa Mises?</translation>
 <translation id="781440967107097262">Ibahagi ang clipboard?</translation>
 <translation id="7815407501681723534">Nakakita ng <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> para sa '<ph name="SEARCH_STRING" />'</translation>
 <translation id="782125616001965242">Magpakita ng impormasyon tungkol sa site na ito</translation>
@@ -2139,8 +2139,8 @@ Mga karagdagang detalye:
 <translation id="7942349550061667556">Pula</translation>
 <translation id="7943893128817522649">Puwedeng hilinging awtomatikong mag-download ng maraming file</translation>
 <translation id="7947285636476623132">Tingnan ang iyong taon ng pag-expire at subukang muli</translation>
-<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para matuto pa tungkol sa mga feature ng Chrome</translation>
-<translation id="7950027195171824198">Pamahalaan ang iyong mga kagustuhan sa cookie sa mga setting ng Chrome</translation>
+<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para matuto pa tungkol sa mga feature ng Mises</translation>
+<translation id="7950027195171824198">Pamahalaan ang iyong mga kagustuhan sa cookie sa mga setting ng Mises</translation>
 <translation id="7951415247503192394">(32-bit)</translation>
 <translation id="7953569069500808819">Edge stitch top</translation>
 <translation id="7956713633345437162">Mga bookmark sa mobile</translation>
@@ -2154,7 +2154,7 @@ Mga karagdagang detalye:
 <translation id="7977538094055660992">Output device</translation>
 <translation id="7977894662897852582">Edp</translation>
 <translation id="798134797138789862">Puwedeng hilinging gumamit ng mga virtual reality device at data</translation>
-<translation id="7984945080620862648">Hindi mo maaaring bisitahin ang <ph name="SITE" /> sa ngayon dahil nagpadala ang website ng mga gulu-gulong kredensyal na hindi maproseso ng Chrome. Kadalasang pansamantala lang ang mga error at atake sa network, kaya malamang na gagana ang page na ito sa ibang pagkakataon.</translation>
+<translation id="7984945080620862648">Hindi mo maaaring bisitahin ang <ph name="SITE" /> sa ngayon dahil nagpadala ang website ng mga gulu-gulong kredensyal na hindi maproseso ng Mises. Kadalasang pansamantala lang ang mga error at atake sa network, kaya malamang na gagana ang page na ito sa ibang pagkakataon.</translation>
 <translation id="79859296434321399">Para matingnan ang augmented reality na content, i-install ang ARCore</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">Bind</translation>
@@ -2179,7 +2179,7 @@ Mga karagdagang detalye:
 <translation id="8052898407431791827">Kinopya sa clipboard</translation>
 <translation id="8057711352706143257">Hindi maayos na naka-configure ang "<ph name="SOFTWARE_NAME" />." Kadalasang naaayos ang problema kapag in-uninstall ang "<ph name="SOFTWARE_NAME" />." <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">Paumanhin, nagkaproblema.</translation>
-<translation id="8067872629359326442">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Makakatulong ang Chromium. Para palitan ang iyong password at abisuhan ang Google na posibleng nasa panganib ang iyong account, i-click ang Protektahan ang Account.</translation>
+<translation id="8067872629359326442">Kakalagay mo lang ng iyong password sa isang mapanlinang na site. Makakatulong ang Mises. Para palitan ang iyong password at abisuhan ang Google na posibleng nasa panganib ang iyong account, i-click ang Protektahan ang Account.</translation>
 <translation id="8070439594494267500">Icon ng app</translation>
 <translation id="8074253406171541171">10x13 (Envelope)</translation>
 <translation id="8075736640322370409">Gumawa ng bagong Google Sheet nang mabilis</translation>
@@ -2201,7 +2201,7 @@ Mga karagdagang detalye:
 <translation id="810875025413331850">Walang nakitang device na nasa malapit.</translation>
 <translation id="8116925261070264013">Naka-mute</translation>
 <translation id="8118489163946903409">Paraan ng pagbabayad</translation>
-<translation id="8124639700796374294">Button na I-customize ang Chrome, pindutin ang Enter para i-customize ang hitsura ng iyong browser</translation>
+<translation id="8124639700796374294">Button na I-customize ang Mises, pindutin ang Enter para i-customize ang hitsura ng iyong browser</translation>
 <translation id="8127301229239896662">Hindi na-install nang maayos ang "<ph name="SOFTWARE_NAME" />" sa iyong computer o network. Magtanong sa IT administrator mo upang malutas ang isyung ito.</translation>
 <translation id="8131740175452115882">Kumpirmahin</translation>
 <translation id="8148608574971654810">Bersyon ng PDF:</translation>
@@ -2209,7 +2209,7 @@ Mga karagdagang detalye:
 <translation id="8150722005171944719">Hindi nababasa ang file sa <ph name="URL" />. Maaaring ito ay naalis, nalipat, o maaaring pinipigilan ng mga pagpapahintulot ng file ang access.</translation>
 <translation id="8157295877370077682">Umalis sa site</translation>
 <translation id="8163866351304776260">Quad punch left</translation>
-<translation id="8175796834047840627">Nag-aalok ang Chrome na i-save ang iyong mga card sa Google Account mo dahil naka-sign in ka. Maaari mong baguhin ang gawing ito sa mga setting.</translation>
+<translation id="8175796834047840627">Nag-aalok ang Mises na i-save ang iyong mga card sa Google Account mo dahil naka-sign in ka. Maaari mong baguhin ang gawing ito sa mga setting.</translation>
 <translation id="8176440868214972690">Nagpadala ang administrator ng device na ito ng ilang impormasyon sa mga sumusunod na website, tulad ng mga setting o patakaran.</translation>
 <translation id="8184538546369750125">Gamitin ang pangkalahatang default (Payagan)</translation>
 <translation id="8190193880870196235">Pinamamahalaan ng isang extension</translation>
@@ -2246,7 +2246,7 @@ Mga karagdagang detalye:
 <translation id="8280630997017109758">Tray 11</translation>
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8282947398454257691">Alamin ang natatanging identifier ng iyong device</translation>
-<translation id="8284769179630993263">Pamahalaan ang iyong Ligtas na Pag-browse at higit pa sa mga setting ng Chrome</translation>
+<translation id="8284769179630993263">Pamahalaan ang iyong Ligtas na Pag-browse at higit pa sa mga setting ng Mises</translation>
 <translation id="8286036467436129157">Mag-sign In</translation>
 <translation id="8288807391153049143">Ipakita ang certificate</translation>
 <translation id="8289355894181816810">Makipag-ugnay sa administrator ng iyong network kung hindi ka sigurado kung ano ang ibig sabihin nito.</translation>
@@ -2261,7 +2261,7 @@ Mga karagdagang detalye:
 <translation id="8307888238279532626">Mga naka-install na app at kung gaano kadalas gamitin ang mga ito</translation>
 <translation id="831997045666694187">Gabi</translation>
 <translation id="8321476692217554900">mga notification</translation>
-<translation id="8328484624016508118">Pagkatapos isara ang lahat ng tab na Incognito, kini-clear ng Chrome ang:
+<translation id="8328484624016508118">Pagkatapos isara ang lahat ng tab na Incognito, kini-clear ng Mises ang:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />Iyong aktibidad sa pag-browse sa device na ito<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />Iyong history ng paghahanap sa device na ito<ph name="END_LIST_ITEM" />
@@ -2286,7 +2286,7 @@ Mga karagdagang detalye:
 <translation id="8381674639488873545">Ang mga singil na ito ay maaaring isang beses o umuulit, at maaaring hindi mapansin. <ph name="BEGIN_LINK" />Ipakita pa rin<ph name="END_LINK" /></translation>
 <translation id="8390725133630534698">Na-block ng patakaran ng administrator ang pagbabahagi sa <ph name="VM_NAME" /> mula sa <ph name="ORIGIN_NAME" /></translation>
 <translation id="8398790343843005537">Hanapin ang iyong telepono</translation>
-<translation id="8405579342203358118">Pamahalaan kung anong impormasyon ang isi-sync mo sa mga setting ng Chrome</translation>
+<translation id="8405579342203358118">Pamahalaan kung anong impormasyon ang isi-sync mo sa mga setting ng Mises</translation>
 <translation id="8409413588194360210">mga tagapangasiwa ng pagbabayad</translation>
 <translation id="8412145213513410671">Mga Pag-crash (<ph name="CRASH_COUNT" />)</translation>
 <translation id="8412392972487953978">Dapat mong ilagay ang parehong passphrase nang dalawang beses.</translation>
@@ -2295,7 +2295,7 @@ Mga karagdagang detalye:
 <ph name="DEBUG_INFO" /></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL" /> <ph name="SECOND_LABEL" /> <ph name="THIRD_LABEL" /></translation>
 <translation id="8428213095426709021">Mga Setting</translation>
-<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para pamahalaan ang iyong mga kagustuhan sa cookie sa mga setting ng Chrome</translation>
+<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab pagkatapos ay ang Enter para pamahalaan ang iyong mga kagustuhan sa cookie sa mga setting ng Mises</translation>
 <translation id="8433057134996913067">Masa-sign out ka sa karamihan ng mga website.</translation>
 <translation id="8437238597147034694">&amp;I-undo ang paglilipat</translation>
 <translation id="8438476240229491014">Tandaan ang setting na ito</translation>
@@ -2308,18 +2308,18 @@ Mga karagdagang detalye:
 <translation id="8473863474539038330">Mga address at higit pa</translation>
 <translation id="8474910779563686872">Ipakita ang mga detalye ng developer</translation>
 <translation id="8479754468255770962">Staple bottom left</translation>
-<translation id="8483780878231876732">Upang gumamit ng mga card mula sa iyong Google Account, mag-sign in sa Chrome</translation>
+<translation id="8483780878231876732">Upang gumamit ng mga card mula sa iyong Google Account, mag-sign in sa Mises</translation>
 <translation id="8488350697529856933">Nalalapat sa</translation>
 <translation id="8490137692873530638">Stacker 10</translation>
 <translation id="8493948351860045254">Magbakante ng espasyo</translation>
 <translation id="8498891568109133222">Masyadong matagal bago nakatugon ang <ph name="HOST_NAME" />.</translation>
-<translation id="8503559462189395349">Mga Password sa Chrome</translation>
+<translation id="8503559462189395349">Mga Password sa Mises</translation>
 <translation id="8503813439785031346">Username</translation>
 <translation id="8507227106804027148">Command line</translation>
 <translation id="8508648098325802031">Icon ng paghahanap</translation>
 <translation id="8511402995811232419">Pamahalaan ang cookies</translation>
-<translation id="8522552481199248698">Matutulungan ka ng Chrome na protektahan ang iyong Google Account at palitan ang password mo.</translation>
-<translation id="8530813470445476232">I-clear ang iyong history ng pag-browse, cookies, cache, at higit pa sa mga setting ng Chrome</translation>
+<translation id="8522552481199248698">Matutulungan ka ng Mises na protektahan ang iyong Google Account at palitan ang password mo.</translation>
+<translation id="8530813470445476232">I-clear ang iyong history ng pag-browse, cookies, cache, at higit pa sa mga setting ng Mises</translation>
 <translation id="8533619373899488139">Bisitahin ang &lt;strong&gt;chrome://policy&lt;/strong&gt; para makita ang listahan ng mga naka-block na URL at ang iba pang patakarang ipinapatupad ng iyong system administrator.</translation>
 <translation id="8539500321752640291">Payagan ang 2 pahintulot?</translation>
 <translation id="8541158209346794904">Bluetooth device</translation>
@@ -2332,7 +2332,7 @@ Mga karagdagang detalye:
 <translation id="8558485628462305855">Para matingnan ang augmented reality na content, i-update ang ARCore</translation>
 <translation id="8559762987265718583">Hindi makapagtatag ng pribadong koneksyon sa <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> dahil mali ang petsa at oras ng iyong device (<ph name="DATE_AND_TIME" />).</translation>
 <translation id="8564182942834072828">Mga hiwalay na dokumento/Mga hindi naka-collate na kopya</translation>
-<translation id="8564985650692024650">Inirerekomenda ng Chromium na i-reset ang iyong password sa <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> kung ginamit mo ito sa iba pang site.</translation>
+<translation id="8564985650692024650">Inirerekomenda ng Mises na i-reset ang iyong password sa <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> kung ginamit mo ito sa iba pang site.</translation>
 <translation id="8574899947864779331">Gamitin ang Touch ID para kumpirmahin nang mas mabilis ang mga card</translation>
 <translation id="8577348305244205642">Hindi available ang virtual card</translation>
 <translation id="858637041960032120">Magdagdag ng numero ng telepono</translation>
@@ -2358,7 +2358,7 @@ Mga karagdagang detalye:
 <translation id="868922510921656628">Mga page bawat hanay</translation>
 <translation id="869891660844655955">Expiration date</translation>
 <translation id="8699041776323235191">HID device</translation>
-<translation id="8699899385443889493">Button na Laruin ang Chrome Dino, pindutin ang Enter para laruin ang Dino Run sa Chrome</translation>
+<translation id="8699899385443889493">Button na Laruin ang Mises Dino, pindutin ang Enter para laruin ang Dino Run sa Mises</translation>
 <translation id="8703575177326907206">Ang iyong koneksyon sa <ph name="DOMAIN" /> ay hindi naka-encrypt.</translation>
 <translation id="8705331520020532516">Serial Number</translation>
 <translation id="8708134712139312373">Puwedeng hilinging kumonekta sa mga Bluetooth device</translation>
@@ -2371,10 +2371,10 @@ Mga karagdagang detalye:
 <translation id="8725066075913043281">Muling subukan</translation>
 <translation id="8726549941689275341">Laki ng page:</translation>
 <translation id="8730621377337864115">Tapos na</translation>
-<translation id="8731544501227493793">Button na Pamahalaan ang mga password, pindutin ang Enter para tingnan at pamahalaan ang mga password mo sa mga setting ng Chrome</translation>
+<translation id="8731544501227493793">Button na Pamahalaan ang mga password, pindutin ang Enter para tingnan at pamahalaan ang mga password mo sa mga setting ng Mises</translation>
 <translation id="8734529307927223492">Pinapamahalaan ng <ph name="MANAGER" /> ang iyong <ph name="DEVICE_TYPE" /></translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay Enter para magbukas ng bagong Incognito window para makapag-browse nang pribado</translation>
-<translation id="8738058698779197622">Upang makapagtatag ng secure na koneksyon, kailangang itakda nang tama ang iyong orasan. Ito ay dahil sa may-bisa lang ang mga certificate na ginagamit ng mga website upang tukuyin ang mga sarili ng mga ito sa loob ng mga partikular na tagal ng panahon. Dahil mali ang orasan ng iyong device, hindi ma-verify ng Chromium ang mga certificate na ito.</translation>
+<translation id="8738058698779197622">Upang makapagtatag ng secure na koneksyon, kailangang itakda nang tama ang iyong orasan. Ito ay dahil sa may-bisa lang ang mga certificate na ginagamit ng mga website upang tukuyin ang mga sarili ng mga ito sa loob ng mga partikular na tagal ng panahon. Dahil mali ang orasan ng iyong device, hindi ma-verify ng Mises ang mga certificate na ito.</translation>
 <translation id="8740359287975076522">Hindi makita ang &lt;abbr id="dnsDefinition"&gt;DNS address&lt;/abbr&gt; ng <ph name="HOST_NAME" />. Dina-diagnose ang problema.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> ang iyong code para sa <ph name="ORIGIN" /></translation>
 <translation id="874918643257405732">I-bookmark ang tab na ito</translation>
@@ -2387,14 +2387,14 @@ Mga karagdagang detalye:
 <translation id="8766943070169463815">Binuksan ang sheet para sa pag-authenticate ng kredensyal sa secure na pagbabayad</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Gawing muli ang pagtanggal</translation>
-<translation id="8792621596287649091">Maaari kang mawalan ng access sa iyong account sa <ph name="ORG_NAME" /> o manakawan ng pagkakakilanlan. Inirerekomenda ng Chromium na palitan ang iyong password ngayon.</translation>
+<translation id="8792621596287649091">Maaari kang mawalan ng access sa iyong account sa <ph name="ORG_NAME" /> o manakawan ng pagkakakilanlan. Inirerekomenda ng Mises na palitan ang iyong password ngayon.</translation>
 <translation id="8792626944327216835">mikropono</translation>
-<translation id="8793655568873652685">Na-on ng <ph name="ENROLLMENT_DOMAIN" /> ang Chrome Enterprise Connectors sa iyong browser. May access ang mga connector na ito sa ilan sa iyong data.</translation>
+<translation id="8793655568873652685">Na-on ng <ph name="ENROLLMENT_DOMAIN" /> ang Mises Enterprise Connectors sa iyong browser. May access ang mga connector na ito sa ilan sa iyong data.</translation>
 <translation id="8798099450830957504">Default</translation>
 <translation id="8798739476508189189">Hinahanap ang mga flag ng browser? Bisitahin</translation>
 <translation id="8805819170075074995">Listahan ng entry na "<ph name="LANGUAGE_ID" />": Binalewala ang entry dahil kasama rin ito sa patakarang SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">Paikliin pagkatapos ng bawat page</translation>
-<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para i-update ang Chrome mula sa iyong mga setting ng Chrome</translation>
+<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para i-update ang Mises mula sa iyong mga setting ng Mises</translation>
 <translation id="8820817407110198400">Mga Bookmark</translation>
 <translation id="882338992931677877">Manual na Slot</translation>
 <translation id="8834380158646307944">Button na Isara ang mga Incognito window, pindutin ang Enter para isara ang lahat ng Incognito window na kasalukuyang nakabukas</translation>
@@ -2402,7 +2402,7 @@ Mga karagdagang detalye:
 <translation id="884264119367021077">Shipping address</translation>
 <translation id="884923133447025588">Walang nahanap na mekanismo ng pagpapawalang-bisa.</translation>
 <translation id="885730110891505394">Pagbabahagi sa Google</translation>
-<translation id="8858065207712248076">Inirerekomenda ng Chrome na i-reset ang iyong password sa <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> kung ginamit mo ito sa iba pang site.</translation>
+<translation id="8858065207712248076">Inirerekomenda ng Mises na i-reset ang iyong password sa <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> kung ginamit mo ito sa iba pang site.</translation>
 <translation id="885906927438988819">Kung tama ang pagbabaybay, <ph name="BEGIN_LINK" />subukang patakbuhin ang Mga Diagnostic ng Network ng Windows<ph name="END_LINK" />.</translation>
 <translation id="8866481888320382733">Error sa pag-parse ng mga setting ng patakaran</translation>
 <translation id="8866928039507595380">Fold</translation>
@@ -2419,7 +2419,7 @@ Mga karagdagang detalye:
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Button na Alisin ang Suhestyon, pindutin ang Enter para alisin, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
 <translation id="8912362522468806198">Google Account</translation>
-<translation id="8913778647360618320">Button na pamahalaan ang mga paraan ng pagbabayad, pindutin ang Enter para pamahalaan ang iyong mga pagbabayad at ang impormasyon ng credit card sa mga setting ng Chrome</translation>
+<translation id="8913778647360618320">Button na pamahalaan ang mga paraan ng pagbabayad, pindutin ang Enter para pamahalaan ang iyong mga pagbabayad at ang impormasyon ng credit card sa mga setting ng Mises</translation>
 <translation id="8922013791253848639">Palaging payagan ang mga ad sa site na ito</translation>
 <translation id="892588693504540538">Punch top right</translation>
 <translation id="8931333241327730545">Gusto mo bang i-save ang card na ito sa iyong Google Account?</translation>
@@ -2438,7 +2438,7 @@ Mga karagdagang detalye:
 <translation id="8978053250194585037">May <ph name="BEGIN_LINK" />na-detect na phishing<ph name="END_LINK" /> sa <ph name="SITE" /> kamakailan ang Ligtas na Pag-browse sa Google. Nagpapanggap ang mga phishing site bilang ibang website upang linlangin ka.</translation>
 <translation id="8983003182662520383">Mga Paraan ng Pagbabayad at Address Gamit ang Google Pay</translation>
 <translation id="8983369100812962543">Puwede mo na ngayong i-resize ang app</translation>
-<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para tingnan ang iyong history ng pag-browse sa Chrome</translation>
+<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Pindutin ang tab at pagkatapos ay ang Enter para tingnan ang iyong history ng pag-browse sa Mises</translation>
 <translation id="8987927404178983737">Buwan</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
 <translation id="899688752321268742">Gustong malaman ng <ph name="URL" /> kung kailan mo aktibong ginagamit ang device na ito</translation>
@@ -2477,14 +2477,14 @@ Mga karagdagang detalye:
 <translation id="9089260154716455634">Patakaran sa Mga Off Hour:</translation>
 <translation id="9095388113577226029">Higit pang wika...</translation>
 <translation id="9101630580131696064">Tray 1</translation>
-<translation id="9103872766612412690">Karaniwang gumagamit ang <ph name="SITE" /> ng pag-encrypt upang protektahan ang iyong impormasyon. Noong sinubukang kumonekta ng Chromium sa <ph name="SITE" /> sa pagkakataong ito, nagbalik ang website ng mga hindi pangkaraniwan at maling kredensyal. Maaari itong mangyari kapag sinusubukan ng isang attacker na magpanggap bilang <ph name="SITE" />, o naputol ang koneksyon dahil sa isang screen ng pag-sign in sa Wi-Fi. Secure pa rin ang iyong impormasyon dahil inihinto ng Chromium ang koneksyon bago magkaroon ng palitan ng anumang data.</translation>
+<translation id="9103872766612412690">Karaniwang gumagamit ang <ph name="SITE" /> ng pag-encrypt upang protektahan ang iyong impormasyon. Noong sinubukang kumonekta ng Mises sa <ph name="SITE" /> sa pagkakataong ito, nagbalik ang website ng mga hindi pangkaraniwan at maling kredensyal. Maaari itong mangyari kapag sinusubukan ng isang attacker na magpanggap bilang <ph name="SITE" />, o naputol ang koneksyon dahil sa isang screen ng pag-sign in sa Wi-Fi. Secure pa rin ang iyong impormasyon dahil inihinto ng Mises ang koneksyon bago magkaroon ng palitan ng anumang data.</translation>
 <translation id="9106062320799175032">Magdagdag ng Billing Address</translation>
 <translation id="9107467864910557787">Pinapamahalaan ng <ph name="MANAGER" /> ang iyong browser</translation>
 <translation id="91108059142052966">Dini-disable ng patakaran ng administrator ang pagbabahagi ng screen sa <ph name="APPLICATION_TITLE" /> kapag may nakikitang kumpidensyal na content</translation>
 <translation id="9114524666733003316">Kinukumpirma ang card...</translation>
-<translation id="9114581008513152754">Hindi pinapamahalaan ng kumpanya o iba pang organisasyon ang browser na ito. Posibleng pinapamahalaan sa labas ng Chrome ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
+<translation id="9114581008513152754">Hindi pinapamahalaan ng kumpanya o iba pang organisasyon ang browser na ito. Posibleng pinapamahalaan sa labas ng Mises ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
 <translation id="9117930699067497412">Bago</translation>
-<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para ipagpatuloy ang iyong paglalakbay para makakita ng nauugnay na aktibidad sa history mo sa Chrome</translation>
+<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, pindutin ang Tab at pagkatapos ay ang Enter para ipagpatuloy ang iyong paglalakbay para makakita ng nauugnay na aktibidad sa history mo sa Mises</translation>
 <translation id="9119042192571987207">Na-upload</translation>
 <translation id="9128016270925453879">Na-load na ang mga patakaran</translation>
 <translation id="9128870381267983090">Kumonekta sa network</translation>
@@ -2495,7 +2495,7 @@ Mga karagdagang detalye:
 <translation id="9148088599418889305">Pumili ng Paraan ng Pagpapadala</translation>
 <translation id="9148507642005240123">&amp;I-undo ang pag-e-edit</translation>
 <translation id="9150045010208374699">Gamitin ang iyong camera</translation>
-<translation id="9150685862434908345">Mababago ng iyong administrator ang setup ng browser mo nang malayuan. Puwede ring pamahalaan sa labas ng Chrome ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
+<translation id="9150685862434908345">Mababago ng iyong administrator ang setup ng browser mo nang malayuan. Puwede ring pamahalaan sa labas ng Mises ang aktibidad sa device na ito. <ph name="BEGIN_LINK" />Matuto pa<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">Na-update</translation>
 <translation id="9157595877708044936">Nagse-set up...</translation>
 <translation id="9158625974267017556">C6 (Envelope)</translation>
@@ -2510,7 +2510,7 @@ Mga karagdagang detalye:
 <translation id="9173995187295789444">Nagsa-scan ng mga Bluetooth device...</translation>
 <translation id="917450738466192189">Di-wastong certificate ng server.</translation>
 <translation id="9174917557437862841">Button na lumipat ng tab, pindutin ang Enter para lumipat sa tab na ito</translation>
-<translation id="9179703756951298733">Pamahalaan ang iyong mga pagbabayad at impormasyon ng credit card sa mga setting ng Chrome</translation>
+<translation id="9179703756951298733">Pamahalaan ang iyong mga pagbabayad at impormasyon ng credit card sa mga setting ng Mises</translation>
 <translation id="9183302530794969518">Google Docs</translation>
 <translation id="9183425211371246419">Gumagamit ng hindi sinusuportahang protocol ang <ph name="HOST_NAME" />.</translation>
 <translation id="9191834167571392248">Punch bottom left</translation>
@@ -2519,13 +2519,13 @@ Mga karagdagang detalye:
 <translation id="920511547311754821">Hindi makita ang iyong code? <ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE" /></translation>
 <translation id="9207861905230894330">Hindi naidagdag ang artikulo.</translation>
 <translation id="9213433120051936369">I-customize ang hitsura</translation>
-<translation id="9215416866750762878">Pinipigilan ng isang application na makakonekta nang ligtas ang Chrome sa site na ito</translation>
+<translation id="9215416866750762878">Pinipigilan ng isang application na makakonekta nang ligtas ang Mises sa site na ito</translation>
 <translation id="9219103736887031265">Mga Larawan</translation>
-<translation id="922152298093051471">I-customize ang Chrome</translation>
+<translation id="922152298093051471">I-customize ang Mises</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">CLEAR FORM</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">Maaari kang mawalan ng access sa iyong Google Account. Inirerekomenda ng Chromium na palitan na ang iyong password. Hihilingin sa iyong mag-sign in.</translation>
+<translation id="936602727769022409">Maaari kang mawalan ng access sa iyong Google Account. Inirerekomenda ng Mises na palitan na ang iyong password. Hihilingin sa iyong mag-sign in.</translation>
 <translation id="939736085109172342">Bagong folder</translation>
 <translation id="945522503751344254">Magpadala ng feedback</translation>
 <translation id="945855313015696284">Tingnan ang impormasyon sa ibaba at mag-delete ng anumang invalid na card</translation>

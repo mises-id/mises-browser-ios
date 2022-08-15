@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">તમારી સંસ્થા માત્ર અમુક ચોક્કસ એકાઉન્ટ વડે તમને સાઇન ઇન કરવાની મંજૂરી આપે છે. મંજૂરી ન હોય એવા એકાઉન્ટને છુપાવવામાં આવે છે. <ph name="BEGIN_LINK" />વધુ જાણો<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">કૉપિ કરવા માટે બે વાર ટૅપ કરો.</translation>
 <translation id="1952172573699511566">જ્યારે શક્ય હશે, ત્યારે વેબસાઇટ તમારી પસંદગીની ભાષામાં ટેક્સ્ટ બતાવશે.</translation>
-<translation id="1965935827552890526">તમે અન્ય ખુલ્લી Chrome વિંડોમાં જે કાર્ય કરતા તા તે પૂર્ણ કરો.</translation>
+<translation id="1965935827552890526">તમે અન્ય ખુલ્લી Mises વિંડોમાં જે કાર્ય કરતા તા તે પૂર્ણ કરો.</translation>
 <translation id="196896377990863006">લિંકનો પ્રીવ્યૂ બતાવો</translation>
 <translation id="1973912524893600642">ડેટા રાખો</translation>
 <translation id="1974060860693918893">વિગતવાર</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">લિંક બનાવી શકાતી નથી</translation>
 <translation id="2800683595868705743">ટેબ સ્વિચર છોડી દો</translation>
 <translation id="2815198996063984598">2. ડિફૉલ્ટ બ્રાઉઝર ઍપ પર ટૅપ કરો</translation>
-<translation id="2820289420301699633">તમારા વ્યવસ્થાપક Chrome પર નિયંત્રણ ધરાવે છે અને તેનો ડેટા ઍક્સેસ કરી શકે છે</translation>
+<translation id="2820289420301699633">તમારા વ્યવસ્થાપક Mises પર નિયંત્રણ ધરાવે છે અને તેનો ડેટા ઍક્સેસ કરી શકે છે</translation>
 <translation id="2830972654601096923">સરનામા મેનેજ કરો…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">અનુવાદ સેટિંગને રીસેટ કરો</translation>
 <translation id="2848086008667475748">સેટિંગમાં ડિફૉલ્ટ બનાવો…</translation>
-<translation id="2858204748079866344">તમારી પ્રાઇવસીની સુરક્ષા કરવા માટે, Chrome આ ફીલ્ડમાં તમારો પાસવર્ડ સ્વતઃ નહીં ભરે.</translation>
+<translation id="2858204748079866344">તમારી પ્રાઇવસીની સુરક્ષા કરવા માટે, Mises આ ફીલ્ડમાં તમારો પાસવર્ડ સ્વતઃ નહીં ભરે.</translation>
 <translation id="285960592395650245">ડાઉનલોડનો ફરી પ્રયાસ કરો</translation>
 <translation id="2870560284913253234">સાઇટ</translation>
 <translation id="2871695793448672541">છુપાયેલ, પાસવર્ડ</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">પેસ્ટ કરો અને જાઓ</translation>
 <translation id="292639812446257861">વાંચ્યા વગરની તરીકે ચિહ્નિત કરો</translation>
 <translation id="2932085390869194046">પાસવર્ડ સૂચવો...</translation>
-<translation id="2952581218264071393">1. Chrome સેટિંગ ખોલો</translation>
+<translation id="2952581218264071393">1. Mises સેટિંગ ખોલો</translation>
 <translation id="2958718410589002129">પાસવર્ડ</translation>
 <translation id="2961210776189273067">શીર્ષક</translation>
 <translation id="2964349545761222050">ત્રીજા પક્ષની કુકીને બ્લૉક કરો</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">બંધ કરેલું ટૅબ ફરીથી ખોલો</translation>
 <translation id="3371831930909698441">અનુવાદ ઉપલબ્ધ છે. વિકલ્પો સ્ક્રીનની નીચેની બાજુએ ઉપલબ્ધ રહે છે.</translation>
 <translation id="3393920035788932672">પૉપ-અપ્સ મંજૂર છે</translation>
-<translation id="3399930248910934354">Chrome સેટિંગ ખોલો</translation>
+<translation id="3399930248910934354">Mises સેટિંગ ખોલો</translation>
 <translation id="3404744938087714423">સાઇન આઉટ કરવાથી સિંકની સુવિધા બંધ થઈ જાય છે.</translation>
 <translation id="3414451675185661089">2. પાસવર્ડ પર ટૅપ કરો</translation>
 <translation id="3425644765244388016">કાર્ડનું ઉપનામ</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899"><ph name="FOLDER_TITLE" /> પર બુકમાર્ક કર્યું</translation>
 <translation id="369349502275246497">પાસવર્ડ સાચવવાની સુવિધા ઑફર કરો</translation>
 <translation id="3709582977625132201">વાંચ્યા વગરનું તરીકે માર્ક કરો</translation>
-<translation id="3740397331642243698">ઇનપુટ કરેલા URLsને Google Chrome છૂપા મોડમાં ખોલે છે.</translation>
+<translation id="3740397331642243698">ઇનપુટ કરેલા URLsને Mises છૂપા મોડમાં ખોલે છે.</translation>
 <translation id="3762232513783804601">તમારા iPad માટે બનાવાયેલું</translation>
 <translation id="3771033907050503522">છૂપા ટેબ્સ</translation>
 <translation id="3775743491439407556">સિંક કાર્ય કરી રહ્યું નથી</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">Google ડ્રાઇવ ઇન્સ્ટોલ કરો</translation>
 <translation id="5083464117946352670">ફાઇલ કદ નિર્ધારિત કરી શકાતું નથી.</translation>
 <translation id="5090832849094901128">આ પાસવર્ડ ડિલીટ કરવાથી <ph name="WEBSITE" />નું તમારું એકાઉન્ટ ડિલીટ થશે નહીં.</translation>
-<translation id="5092117651143801290">તમે પછીથી અથવા ઑફલાઇન વાંચવા માટે પેજ સાચવી શકો છો. તમારે લાંબા પેજ સાચવવા છે કે નહીં તેના માટે Chrome તમને પૂછશે.</translation>
+<translation id="5092117651143801290">તમે પછીથી અથવા ઑફલાઇન વાંચવા માટે પેજ સાચવી શકો છો. તમારે લાંબા પેજ સાચવવા છે કે નહીં તેના માટે Mises તમને પૂછશે.</translation>
 <translation id="5094827893301452931">ટ્વિટ પૂર્ણ કરેલ છે.</translation>
 <translation id="5118764316110575523">બંધ</translation>
 <translation id="5127805178023152808">સમન્વયન બંધ છે</translation>
 <translation id="5132942445612118989">બધા ડિવાઇસ પર તમારા પાસવર્ડ, ઇતિહાસ અને વધુ સિંક કરો</translation>
-<translation id="5140288047769711648">Chrome તમારા માટે આ પાસવર્ડ યાદ રાખશે. તમારે તેને યાદ રાખવાની જરૂર નથી.</translation>
+<translation id="5140288047769711648">Mises તમારા માટે આ પાસવર્ડ યાદ રાખશે. તમારે તેને યાદ રાખવાની જરૂર નથી.</translation>
 <translation id="5150492518600715772">તમારા ડિવાઇસ પર મોકલો</translation>
 <translation id="5168414296986405587">iPadOS માટે બનાવવામાં આવેલું</translation>
 <translation id="5173088371991956744">સિંકને તમારી ઓળખની ચકાસણી કરવાની જરૂર પડે છે</translation>
@@ -479,7 +479,7 @@
 <translation id="5659593005791499971">ઇમેઇલ</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">વર્ઝન <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{હમણાં 1 Chrome વિન્ડો બતાવવામાં આવી રહી છે}one{હમણાં {count} Chrome વિન્ડો બતાવવામાં આવી રહી છે}other{હમણાં {count} Chrome વિન્ડો બતાવવામાં આવી રહી છે}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{હમણાં 1 Mises વિન્ડો બતાવવામાં આવી રહી છે}one{હમણાં {count} Mises વિન્ડો બતાવવામાં આવી રહી છે}other{હમણાં {count} Mises વિન્ડો બતાવવામાં આવી રહી છે}}</translation>
 <translation id="5706552126692816153">1 દિવસ પહેલાં સક્રિય હતું</translation>
 <translation id="5711039611392265845">ગોપનીયતા, સુરક્ષા, અને ડેટા સંગ્રહથી સંબંધિત વધુ સેટિંગ માટે, <ph name="BEGIN_LINK" />સિંક અને Google સેવાઓ<ph name="END_LINK" /> જુઓ.</translation>
 <translation id="5724941645893276623">વેબને ખાનગી રીતે બ્રાઉઝ કરવા માટે, નવી ટૅબ ઉમેરો</translation>
@@ -699,7 +699,7 @@
 <translation id="7454057999980797137">રાજ્ય / કાઉન્ટી</translation>
 <translation id="7456847797759667638">સ્થાન ખોલો...</translation>
 <translation id="7464701184726199289">આનાથી તમામ ડિવાઇસમાંથી સિંક ડેટા સાફ થાય છે. સાચવેલા સાઇટ સેટિંગ ડિલીટ કરવામાં આવશે નહીં અને તે તમારી બ્રાઉઝિંગ ટેવોને પ્રતિબિંબિત કરી શકે છે. <ph name="BEGIN_LINK" />વધુ જાણો<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Chrome પસંદ કરો</translation>
+<translation id="746684838091935575">3. Mises પસંદ કરો</translation>
 <translation id="7472734401283673885">કંપનીનું નામ</translation>
 <translation id="7473891865547856676">નહીં આભાર</translation>
 <translation id="7481312909269577407">ફોર્વર્ડ કરો</translation>
@@ -727,13 +727,13 @@
 <translation id="7781011649027948662">પેજનો અનુવાદ કરીએ?</translation>
 <translation id="7781069478569868053">નવું ટૅબ પેજ</translation>
 <translation id="7781829728241885113">ગઈ કાલે</translation>
-<translation id="778855399387580014">નવા Chrome ટૅબમાં શોધ શરૂ કરો.</translation>
+<translation id="778855399387580014">નવા Mises ટૅબમાં શોધ શરૂ કરો.</translation>
 <translation id="7791543448312431591">ઉમેરો</translation>
 <translation id="7839985698273989086">ઑફલાઇન પેજ</translation>
 <translation id="7840771868269352570">તમે પસંદ કરેલી આઇટમ કાઢી નાખવામાં આવશે.</translation>
 <translation id="7856733331829174190">ડાઉનલોડ ન કરી શક્યાં</translation>
 <translation id="7859704718976024901">બ્રાઉઝિંગ ઇતિહાસ</translation>
-<translation id="7887198238286927132">તમારી પ્રાઇવસીની સુરક્ષા કરવા માટે, Chrome આ ફીલ્ડ સ્વતઃ નહીં ભરે.</translation>
+<translation id="7887198238286927132">તમારી પ્રાઇવસીની સુરક્ષા કરવા માટે, Mises આ ફીલ્ડ સ્વતઃ નહીં ભરે.</translation>
 <translation id="7911190106180361398">તમારી સંસ્થા તમને બધું જ સિંક કરવાની મંજૂરી આપતી નથી.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">પાસવર્ડની નિકાસ કરો...</translation>
@@ -855,7 +855,7 @@
 <translation id="9081058212938299310"><ph name="USERNAME" /> માટેનો પાસવર્ડ અપડેટ કરીએ?</translation>
 <translation id="9083392325882095631">1 આઇટમ</translation>
 <translation id="9083838294503912307">એકથી વધુ ડિવાઇસને સિંક અને વ્યક્તિગત કરવા માટે સિંક ચાલુ કરો.</translation>
-<translation id="9087108903408689779">Chrome દ્વારા સૂચિત પાસવર્ડ:</translation>
+<translation id="9087108903408689779">Mises દ્વારા સૂચિત પાસવર્ડ:</translation>
 <translation id="9094033019050270033">પાસવર્ડ અપડેટ કરો</translation>
 <translation id="9100610230175265781">પાસફ્રેઝ આવશ્યક છે</translation>
 <translation id="9107664647686727385">ચેડાં કરાયેલા પાસવર્ડ ચેક કરો</translation>

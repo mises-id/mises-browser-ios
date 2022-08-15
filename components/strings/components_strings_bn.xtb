@@ -9,7 +9,7 @@
 <translation id="1015730422737071372">অতিরিক্ত বিবরণ দিন</translation>
 <translation id="1019413721762100891">বন্ধ করা আছে</translation>
 <translation id="1021110881106174305">এই কার্ডগুলি গ্রহণ করা হয়</translation>
-<translation id="1021753677514347426">আপনার ডিভাইসে আপনি বা অন্য কেউ একটি সার্টিফিকেট ইনস্টল করায় এই সমস্যা দেখা দিচ্ছে। এই সার্টিফিকেট ব্যবহার করে নেটওয়ার্ক ইন্টারসেপ্ট এবং মনিটর করা হয়, তবে Chromium এটিকে বিশ্বস্ত বলে মনে করে না। কোনও স্কুলের বা কোম্পানি নেটওয়ার্কের মতো কিছু নেটওয়ার্ক মনিটর করার প্রয়োজন হলেও, Chromium দেখে নেয় যে, আপনি যদি এটি বন্ধ করতে নাও পারেন, কী ঘটছে সেই সম্পর্কে যেন জানতে পারেন। ওয়েবে অ্যাক্সেস আছে, এমন যেকোনও ব্রাউজার বা অ্যাপের উপর নজর রাখা হতে পারে।</translation>
+<translation id="1021753677514347426">আপনার ডিভাইসে আপনি বা অন্য কেউ একটি সার্টিফিকেট ইনস্টল করায় এই সমস্যা দেখা দিচ্ছে। এই সার্টিফিকেট ব্যবহার করে নেটওয়ার্ক ইন্টারসেপ্ট এবং মনিটর করা হয়, তবে Mises এটিকে বিশ্বস্ত বলে মনে করে না। কোনও স্কুলের বা কোম্পানি নেটওয়ার্কের মতো কিছু নেটওয়ার্ক মনিটর করার প্রয়োজন হলেও, Mises দেখে নেয় যে, আপনি যদি এটি বন্ধ করতে নাও পারেন, কী ঘটছে সেই সম্পর্কে যেন জানতে পারেন। ওয়েবে অ্যাক্সেস আছে, এমন যেকোনও ব্রাউজার বা অ্যাপের উপর নজর রাখা হতে পারে।</translation>
 <translation id="1024111578869940408">আক্রমণকারীরা কখনও কখনও ওয়েব অ্যাড্রেসে ছোট ও সহজে দেখা যায় না এমন পরিবর্তন করে কোনও সাইট নকল করে নেয়।</translation>
 <translation id="1028781062521375153">বিবরণ দেখুন</translation>
 <translation id="1030706264415084469"><ph name="URL" /> আপনার ডিভাইসে স্থায়ীভাবে বেশি ডেটা স্টোর করে রাখতে চায়</translation>
@@ -24,7 +24,7 @@
 <translation id="1050038467049342496">অন্যান্য অ্যাপ্লিকেশানগুলি বন্ধ করুন</translation>
 <translation id="1055184225775184556">&amp;যোগ করাকে পূর্বাবস্থায় ফেরান</translation>
 <translation id="1056898198331236512">সতর্কতা</translation>
-<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome-এ ডাইনো রান গেম খেলতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
+<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises-এ ডাইনো রান গেম খেলতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
 <translation id="1058479211578257048">কার্ড সেভ করা হচ্ছে...</translation>
 <translation id="10614374240317010">কখনও সংরক্ষিত হয়নি</translation>
 <translation id="1062160989074299343">Prc10 (Envelope)</translation>
@@ -38,7 +38,7 @@
 <translation id="1088860948719068836">কার্ডে নাম যোগ করুন</translation>
 <translation id="1089439967362294234">পাসওয়ার্ড পরিবর্তন করুন</translation>
 <translation id="1096545575934602868">এই ফিল্ডে <ph name="MAX_ITEMS_LIMIT" />টির বেশি এন্ট্রি লেখা যাবে না। অন্য সব এন্ট্রি বাতিল করা হবে।</translation>
-<translation id="1100782917270858593">'আপনার ব্রাউজার অ্যাক্টিভিটির আবার চালু করুন' বোতাম, ব্রাউজার অ্যাক্টিভিটি আবার চালু করতে এবং Chrome ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে Enter প্রেস করুন</translation>
+<translation id="1100782917270858593">'আপনার ব্রাউজার অ্যাক্টিভিটির আবার চালু করুন' বোতাম, ব্রাউজার অ্যাক্টিভিটি আবার চালু করতে এবং Mises ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে Enter প্রেস করুন</translation>
 <translation id="1101672080107056897">সমস্যা সংক্রান্ত অ্যাকশন</translation>
 <translation id="1103523840287552314">সর্বদা অনুবাদ করুন <ph name="LANGUAGE" /></translation>
 <translation id="1110994991967754504"><ph name="PERMISSION_NAME" /> এর জন্য অনুমতি বেছে নিন</translation>
@@ -83,7 +83,7 @@
 <translation id="124116460088058876">আরও ভাষা</translation>
 <translation id="1243027604378859286">লেখক:</translation>
 <translation id="1246424317317450637">বোল্ড</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome OS সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দ মতো বেছে নিতে 'Tab' কী প্রেস করে 'Enter' কী প্রেস করুন</translation>
+<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises OS সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দ মতো বেছে নিতে 'Tab' কী প্রেস করে 'Enter' কী প্রেস করুন</translation>
 <translation id="1250759482327835220">পরেরবার আরও দ্রুত পেমেন্ট করা জন্য আপনার কার্ড, নাম এবং বিলিং ঠিকানাটি Google অ্যাকাউন্টে সেভ করে রাখুন।</translation>
 <translation id="1252799212227771492">'শিট তৈরি করুন' বোতাম, চটপট নতুন Google Sheet তৈরি করতে Enter প্রেস করুন</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />, <ph name="TYPE_2" /> (সিঙ্ক হয়েছে)</translation>
@@ -95,7 +95,7 @@
     &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">আপনার প্রতিষ্ঠানের নয় এমন একটি সাইটে আপনার পাসওয়ার্ড লিখেছেন। আপনার অ্যাকাউন্টের সুরক্ষার জন্য অন্যান্য অ্যাপ এবং সাইটগুলিতে আপনার এই পাসওয়ার্ডটি ব্যবহার করবেন না।</translation>
 <translation id="1257553931232494454">জুম লেভেল</translation>
-<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, আপনার Chrome সেটিংস ম্যানেজ করতে Tab প্রেস করে Enter প্রেস করুন</translation>
+<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, আপনার Mises সেটিংস ম্যানেজ করতে Tab প্রেস করে Enter প্রেস করুন</translation>
 <translation id="1263231323834454256">পড়ার তালিকা</translation>
 <translation id="1264309058268477500">বিকল্প</translation>
 <translation id="1269516672602708785">Google Sites-এ চটপট নতুন সাইট তৈরি করুন</translation>
@@ -103,7 +103,7 @@
 <translation id="1281476433249504884">স্ট্যাকার ১</translation>
 <translation id="1285320974508926690">কখনই এই সাইটটিকে অনুবাদ করবেন না</translation>
 <translation id="1292571435393770077">ট্রে ১৬</translation>
-<translation id="1292701964462482250">"আপনার কম্পিউটারের সফ্টওয়্যার Chrome-কে নিরাপদে ইন্টারনেটে কানেক্ট করতে বাধা দিচ্ছে" (শুধুমাত্র Windows কম্পিউটারের জন্য)</translation>
+<translation id="1292701964462482250">"আপনার কম্পিউটারের সফ্টওয়্যার Mises-কে নিরাপদে ইন্টারনেটে কানেক্ট করতে বাধা দিচ্ছে" (শুধুমাত্র Windows কম্পিউটারের জন্য)</translation>
 <translation id="1294154142200295408">কম্যান্ড-লাইন ভেরিয়েশন</translation>
 <translation id="129553762522093515">সম্প্রতি বন্ধ হয়েছে</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK" />আপনার কুকিজ সাফ করে দেখুন<ph name="END_LINK" /></translation>
@@ -150,7 +150,7 @@
 <translation id="1384725838384960382">নিরাপদ পেমেন্ট ক্রেডেনশিয়াল যাচাই করার শিট</translation>
 <translation id="1386623374109090026">টিকা</translation>
 <translation id="139305205187523129"><ph name="HOST_NAME" /> কোনো তথ্য পাঠায়নি।</translation>
-<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, সার্চ আবার চালু করতে Tab ও তারপরে Enter প্রেস করুন এবং আপনার Chrome ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখুন</translation>
+<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, সার্চ আবার চালু করতে Tab ও তারপরে Enter প্রেস করুন এবং আপনার Mises ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখুন</translation>
 <translation id="1405567553485452995">হালকা সবুজ</translation>
 <translation id="1407135791313364759">সব খুলুন</translation>
 <translation id="1408787208417187241">উপরে ট্রিপল স্টেপল</translation>
@@ -200,7 +200,7 @@
 <translation id="154408704832528245">ডেলিভারি ঠিকানা বেছে নিন</translation>
 <translation id="1549470594296187301">এই বৈশিষ্ট্যটি ব্যবহার করার জন্য জাভাস্ক্রিপ্ট চালু করা প্রয়োজন।</translation>
 <translation id="155039086686388498">Engineering-D</translation>
-<translation id="1553358976309200471">Chrome আপডেট করুন</translation>
+<translation id="1553358976309200471">Mises আপডেট করুন</translation>
 <translation id="1555130319947370107">নীল</translation>
 <translation id="1559447966090556585">বিজ্ঞপ্তি পেতে চান?</translation>
 <translation id="1559528461873125649">এমন কোন ফাইল বা ডিরেক্টরি নেই</translation>
@@ -216,7 +216,7 @@
 <translation id="1588438908519853928">সাধারণ</translation>
 <translation id="1592005682883173041">স্থানীয় ডেটা অ্যাক্সেস</translation>
 <translation id="1594030484168838125">বেছে নিন</translation>
-<translation id="160851722280695521">Chrome-এ ডাইনো রান গেম খেলুন</translation>
+<translation id="160851722280695521">Mises-এ ডাইনো রান গেম খেলুন</translation>
 <translation id="161042844686301425">নীলাভ</translation>
 <translation id="1611101756749861742">Second Roll</translation>
 <translation id="1615402009686901181">কোনও গোপনীয় কন্টেন্ট দেখা গেলে অ্যাডমিনিস্ট্রেটরের সেট করা নীতি অনুযায়ী স্ক্রিন ক্যাপচার করার সুবিধা বন্ধ করে দেওয়া হয়</translation>
@@ -233,13 +233,13 @@
 <translation id="1642410292376109062">'Google পাসওয়ার্ড পরিবর্তন করুন' বোতাম, আপনার Google অ্যাকাউন্টের পাসওয়ার্ড পরিবর্তন করতে Enter প্রেস করুন</translation>
 <translation id="1644574205037202324">ইতিহাস</translation>
 <translation id="1645368109819982629">অসমর্থিত প্রোটোকল</translation>
-<translation id="1650602712345345441">আপনার Chrome সেটিংস ম্যানেজ করুন</translation>
+<translation id="1650602712345345441">আপনার Mises সেটিংস ম্যানেজ করুন</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="1656024727720460136">পৃষ্ঠাটি যাতে সহজপাঠ্য হয়, তার জন্য Chrome এটিকে সহজ করে তুলেছে। একটি সুরক্ষিত কানেকশন ব্যবহার করে Chrome আবার মূল পৃষ্ঠায় ফিরে এসেছে।</translation>
+<translation id="1656024727720460136">পৃষ্ঠাটি যাতে সহজপাঠ্য হয়, তার জন্য Mises এটিকে সহজ করে তুলেছে। একটি সুরক্ষিত কানেকশন ব্যবহার করে Mises আবার মূল পৃষ্ঠায় ফিরে এসেছে।</translation>
 <translation id="1656489000284462475">তুলে নিন</translation>
 <translation id="1658918301167915956">ব্লুটুথ ডিভাইস</translation>
 <translation id="1662550410081243962">পেমেন্টের পদ্ধতিগুলি পূরণ করে সেভ করুন</translation>
-<translation id="1663943134801823270">Chrome থেকে কার্ড এবং ঠিকানাগুলি এসেছে। আপনি <ph name="BEGIN_LINK" />সেটিংস<ph name="END_LINK" /> এ এগুলি পরিচালনা করতে পারবেন।</translation>
+<translation id="1663943134801823270">Mises থেকে কার্ড এবং ঠিকানাগুলি এসেছে। আপনি <ph name="BEGIN_LINK" />সেটিংস<ph name="END_LINK" /> এ এগুলি পরিচালনা করতে পারবেন।</translation>
 <translation id="1671391448414634642">এখন থেকে <ph name="SOURCE_LANGUAGE" /> ভাষার পৃষ্ঠা <ph name="TARGET_LANGUAGE" /> ভাষায় অনুবাদ করা হবে।</translation>
 <translation id="1682696192498422849">আগে ছোট প্রান্ত</translation>
 <translation id="168693727862418163">এই নীতির মান সেটির স্কিমার সাথে যাচাই করা যায়নি, তাই সেটি উপেক্ষা করা হবে।</translation>
@@ -325,11 +325,11 @@
 <translation id="1919345977826869612">বিজ্ঞাপন</translation>
 <translation id="1919367280705858090">কোনও নির্দিষ্ট এরর মেসেজের বিষয়ে সাহায্য পান</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{কিছুই নয়}=1{১টি সাইট}one{#টি সাইট}other{#টি সাইট}}</translation>
-<translation id="1923390796829649802">'অ্যাক্সেসিবিলিটি সেটিংস ম্যানেজ করুন' বোতাম, Chrome OS সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দ মতো বেছে নিতে Enter প্রেস করুন</translation>
+<translation id="1923390796829649802">'অ্যাক্সেসিবিলিটি সেটিংস ম্যানেজ করুন' বোতাম, Mises OS সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দ মতো বেছে নিতে Enter প্রেস করুন</translation>
 <translation id="1924727005275031552">নতুন</translation>
-<translation id="1927439593081478069">'Chrome নিরাপত্তা সংক্রান্ত পরীক্ষা চালান' বোতাম, Chrome সেটিংসে নিরাপত্তা সংক্রান্ত পরীক্ষা চালাতে Enter কী প্রেস করুন</translation>
+<translation id="1927439593081478069">'Mises নিরাপত্তা সংক্রান্ত পরীক্ষা চালান' বোতাম, Mises সেটিংসে নিরাপত্তা সংক্রান্ত পরীক্ষা চালাতে Enter কী প্রেস করুন</translation>
 <translation id="1939175642807587452">বিজ্ঞপ্তি পাঠাতে অনুমতি চাইতে পারে</translation>
-<translation id="1945968466830820669">আপনি নিজের প্রতিষ্ঠানের অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Chromium এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
+<translation id="1945968466830820669">আপনি নিজের প্রতিষ্ঠানের অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Mises এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
 <translation id="1947454675006758438">উপরের ডানদিকে স্টেপল করুন</translation>
 <translation id="1956486093533522234">খুঁজুন, সুরক্ষিত করুন বা আপনার ডিভাইস মুছুন</translation>
 <translation id="1958218078413065209">আপনার সর্বোচ্চ স্কোর <ph name="SCORE" />।</translation>
@@ -346,8 +346,8 @@
 <translation id="2001146170449793414">{COUNT,plural, =1{এবং আরও ১টি}one{এবং আরও #টি}other{এবং আরও #টি}}</translation>
 <translation id="2003709556000175978">আপনার পাসওয়ার্ড রিসেট করুন</translation>
 <translation id="2003775180883135320">উপরে কোয়াড পাঞ্চ</translation>
-<translation id="201174227998721785">Chrome সেটিংসে বিভিন্ন সাইটের স্টোর করা ডেটা ও অনুমতি ম্যানেজ করুন</translation>
-<translation id="2019607688127825327">'অ্যাক্সেসিবিলিটি সেটিংস ম্যানেজ করুন' বোতাম, Chrome সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দ মতো বেছে নিতে Enter প্রেস করুন</translation>
+<translation id="201174227998721785">Mises সেটিংসে বিভিন্ন সাইটের স্টোর করা ডেটা ও অনুমতি ম্যানেজ করুন</translation>
+<translation id="2019607688127825327">'অ্যাক্সেসিবিলিটি সেটিংস ম্যানেজ করুন' বোতাম, Mises সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দ মতো বেছে নিতে Enter প্রেস করুন</translation>
 <translation id="2025115093177348061">অগমেন্টেড রিয়েলিটি</translation>
 <translation id="2025186561304664664">অটো কনফিগার করতে প্রক্সি সেট করা হয়৷</translation>
 <translation id="2025891858974379949">নিরাপদ নয় এমন কন্টেন্ট</translation>
@@ -358,7 +358,7 @@
 <translation id="2042213636306070719">ট্রে ৭</translation>
 <translation id="204357726431741734">আপনার Google অ্যাকাউন্টে সেভ করা পাসওয়ার্ড ব্যবহার করতে সাইন-ইন করুন</translation>
 <translation id="2053111141626950936"><ph name="LANGUAGE" /> ভাষার পৃষ্ঠা অনুবাদ করা হবে না।</translation>
-<translation id="2053373601901562871">{NUM_DAYS,plural, =0{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Chrome' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রত্যেকদিন আপডেট করা হয়।}=1{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Chrome' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রত্যেকদিন আপডেট করা হয়।}one{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Chrome' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রতি {NUM_DAYS} দিনে আপডেট করা হয়।}other{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Chrome' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রতি {NUM_DAYS} দিনে আপডেট করা হয়।}}</translation>
+<translation id="2053373601901562871">{NUM_DAYS,plural, =0{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Mises' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রত্যেকদিন আপডেট করা হয়।}=1{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Mises' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রত্যেকদিন আপডেট করা হয়।}one{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Mises' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রতি {NUM_DAYS} দিনে আপডেট করা হয়।}other{এই কন্ট্রোল চালু এবং স্ট্যাটাস অ্যাক্টিভ থাকলে আপনার সাম্প্রতিক ব্রাউজিং-এর ইতিহাস, আরও বড় কোন গ্রুপ বা 'দল'-এর সাথে সবচেয়ে বেশি মেলে, 'Mises' তা নির্ধারণ করে। বিজ্ঞাপনদাতারা গ্রুপের জন্য বিজ্ঞাপন বেছে নিতে পারেন এবং আপনার ব্রাউজিং-এর ইতিহাস ডিভাইসে ব্যক্তিগত রাখা হয়। আপনার গ্রুপ প্রতি {NUM_DAYS} দিনে আপডেট করা হয়।}}</translation>
 <translation id="2053553514270667976">পিন কোড</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{১টি প্রস্তাব}one{#টি প্রস্তাব}other{#টি প্রস্তাব}}</translation>
 <translation id="2071156619270205202">ভার্চুয়াল কার্ড নম্বরের জন্য এই কার্ডটি যোগ্য নয়।</translation>
@@ -367,7 +367,7 @@
 <translation id="20817612488360358">সিস্টেম প্রক্সি সেটিংস ব্যবহার করার জন্য সেট আছে কিন্তু একটি সুনির্দিষ্ট প্রক্সি কনফিগারেশনও নির্দিষ্ট করা আছে৷</translation>
 <translation id="2082238445998314030"><ph name="TOTAL_RESULTS" /> এর মধ্যে <ph name="RESULT_NUMBER" /> টি ফলাফল</translation>
 <translation id="2085876078937250610">সেভ করুন…</translation>
-<translation id="2088086323192747268">সিঙ্ক করার বোতাম ম্যানেজ করুন, Chrome সেটিংসে আপনি কী ধরনের তথ্য সিঙ্ক করবেন, তা ম্যানেজ করতে Enter প্রেস করুন</translation>
+<translation id="2088086323192747268">সিঙ্ক করার বোতাম ম্যানেজ করুন, Mises সেটিংসে আপনি কী ধরনের তথ্য সিঙ্ক করবেন, তা ম্যানেজ করতে Enter প্রেস করুন</translation>
 <translation id="2091887806945687916">আওয়াজ</translation>
 <translation id="2094505752054353250">ডোমেন মেলেনি</translation>
 <translation id="2096368010154057602">বিভাগ</translation>
@@ -434,7 +434,7 @@
 <translation id="2293443924986248631">এটি চালু করা থাকলে যেসব কুকি ওয়েব জুড়ে আপনার অ্যাক্টিভিটি ট্র্যাক করে, সাইট সেগুলি ব্যবহার করতে পারবে না। কিছু কিছু সাইটের ফিচারগুলি কাজ নাও করতে পারে।</translation>
 <translation id="2295290966866883927">আপনি যেসব পৃষ্ঠাতে ভিজিট করেন, সেগুলির ইউআরএল বিশ্লেষণ করার জন্য Google Cloud-এ বা অন্য থার্ড-পার্টির কাছে পাঠানো হয়। যেমন, সেগুলিতে কোনও ক্ষতিকর ওয়েবসাইট আছে কিনা তা জানার জন্য স্ক্যান করা হতে পারে।</translation>
 <translation id="2297722699537546652">B5 (Envelope)</translation>
-<translation id="2298855485018661510">'কুকি' বোতাম ম্যানেজ করুন, Chrome সেটিংসে আপনার কুকি সম্পর্কিত পছন্দগুলি ম্যানেজ করতে Enter প্রেস করুন</translation>
+<translation id="2298855485018661510">'কুকি' বোতাম ম্যানেজ করুন, Mises সেটিংসে আপনার কুকি সম্পর্কিত পছন্দগুলি ম্যানেজ করতে Enter প্রেস করুন</translation>
 <translation id="2300306941146563769">আপলোড করা হয়নি</translation>
 <translation id="2310021320168182093">Chou2 (Envelope)</translation>
 <translation id="2316887270356262533">১ MB-এর চেয়ে কম জায়গা খালি করে। পরের বার ভিজিটের সময় কিছু সাইট লোড হতে দেরি হতে পারে।</translation>
@@ -457,9 +457,9 @@
 <translation id="2367567093518048410">স্তর</translation>
 <translation id="2372464001869762664">আপনি কনফার্ম করার পর, আপনার Google অ্যাকাউন্ট থেকে কার্ডের বিবরণ এই সাইটে শেয়ার করা হবে। আপনার Plex অ্যাকাউন্ট সংক্রান্ত বিবরণ থেকে সিভিসি দেখে নিন।</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="2383455408879745299">Chrome সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দমতো তৈরি করুন</translation>
+<translation id="2383455408879745299">Mises সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দমতো তৈরি করুন</translation>
 <translation id="2384307209577226199">এন্টারপ্রাইজ ডিফল্ট</translation>
-<translation id="2385809941344967209">Chrome সেটিংস থেকে ব্রাউজার আপডেট করুন</translation>
+<translation id="2385809941344967209">Mises সেটিংস থেকে ব্রাউজার আপডেট করুন</translation>
 <translation id="2386255080630008482">সার্ভারের সার্টিফিকেটটি প্রত্যাহার করা হয়েছে৷</translation>
 <translation id="2392959068659972793">কোনো মান সেট করা নেই এমন নীতিগুলি দেখান</translation>
 <translation id="239429038616798445">এই পদ্ধতিতে শিপিং করা যাবে না। অন্য পদ্ধতি ব্যবহার করুন।</translation>
@@ -476,7 +476,7 @@
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">ডেলিভারি পদ্ধতি বেছে নিন</translation>
 <translation id="2465688316154986572">স্টেপল করুন</translation>
-<translation id="2465914000209955735">Chrome-এ ডাউনলোড করা ফাইল ম্যানেজ করুন</translation>
+<translation id="2465914000209955735">Mises-এ ডাউনলোড করা ফাইল ম্যানেজ করুন</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />নেটওয়ার্ক ডায়গনিস্টিক্স চালান<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">1-to-N অর্ডার</translation>
 <translation id="2470767536994572628">অ্যানোটেশন এডিট করার সময় এই ডকুমেন্ট 'সিঙ্গেল পেজ ভিউ' মোডে এবং এর আসল রোটেশনে ফিরে যাবে</translation>
@@ -512,28 +512,28 @@
 <translation id="2556876185419854533">&amp;সম্পাদনাকে পূর্বাবস্থায় ফেরান</translation>
 <translation id="2570734079541893434">সেটিংস ম্যানেজ করুন</translation>
 <translation id="257674075312929031">গ্রুপ</translation>
-<translation id="2576880857912732701">'নিরাপত্তা সেটিংস' বোতাম ম্যানেজ করুন, Chrome সেটিংসে Safe Browsing ও আরও অনেক কিছু ম্যানেজ করতে, Enter প্রেস করুন</translation>
+<translation id="2576880857912732701">'নিরাপত্তা সেটিংস' বোতাম ম্যানেজ করুন, Mises সেটিংসে Safe Browsing ও আরও অনেক কিছু ম্যানেজ করতে, Enter প্রেস করুন</translation>
 <translation id="2586657967955657006">ক্লিপবোর্ড</translation>
 <translation id="2587730715158995865"><ph name="ARTICLE_PUBLISHER" /> থেকে পাওয়া। এটি এবং আরও <ph name="OTHER_ARTICLE_COUNT" />টি গল্প পড়ুন।</translation>
 <translation id="2587841377698384444">ডিরেক্টরি API আইডি:</translation>
 <translation id="2594318783181750337">চটপট ওয়েব ভিউ:</translation>
 <translation id="2595719060046994702">কোনও কোম্পানি বা সংস্থা এই ডিভাইস ও অ্যাকাউন্ট ম্যানেজ করে না।</translation>
-<translation id="2596415276201385844">নিরাপদ নেটওয়ার্ক সংযোগ স্থাপন করতে আপনার ঘড়িকে সঠিকভাবে সেট করতে হবে৷ নিরাপদ সংযোগ স্থাপন করার জন্য নিজেদের শনাক্ত করার জন্য ওয়েবসাইটগুলি যে শংসাপত্রগুলি ব্যবহার করে, সেগুলি শুধুমাত্র নির্দিষ্ট সময়ের জন্য বৈধ থাকে৷ যেহেতু আপনার ডিভাইসের ঘড়িটি ভুল, সেই জন্য Chrome সঠিকভাবে শংসাপত্রগুলি পরীক্ষা করতে পারে না৷</translation>
+<translation id="2596415276201385844">নিরাপদ নেটওয়ার্ক সংযোগ স্থাপন করতে আপনার ঘড়িকে সঠিকভাবে সেট করতে হবে৷ নিরাপদ সংযোগ স্থাপন করার জন্য নিজেদের শনাক্ত করার জন্য ওয়েবসাইটগুলি যে শংসাপত্রগুলি ব্যবহার করে, সেগুলি শুধুমাত্র নির্দিষ্ট সময়ের জন্য বৈধ থাকে৷ যেহেতু আপনার ডিভাইসের ঘড়িটি ভুল, সেই জন্য Mises সঠিকভাবে শংসাপত্রগুলি পরীক্ষা করতে পারে না৷</translation>
 <translation id="2597378329261239068">এই দস্তাবেজটি পাসওয়ার্ড সুরক্ষিত৷  দয়া করে একটি পাসওয়ার্ড লিখুন৷</translation>
 <translation id="2609632851001447353">বৈচিত্রতা</translation>
 <translation id="2610561535971892504">কপি করতে ক্লিক করুন</translation>
 <translation id="2618023639789766142">C10 (Envelope)</translation>
 <translation id="2625385379895617796">আপনার ঘড়ির সময় অনেকটা এগিয়ে</translation>
 <translation id="262745152991669301">USB ডিভাইসের সাথে কানেক্ট করতে, অনুমতি চাইতে পারে</translation>
-<translation id="2629325967560697240">Chrome-এ সবচেয়ে বেশি সুরক্ষা পেতে, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />উন্নত সুরক্ষা চালু করুন<ph name="END_ENHANCED_PROTECTION_LINK" />।</translation>
+<translation id="2629325967560697240">Mises-এ সবচেয়ে বেশি সুরক্ষা পেতে, <ph name="BEGIN_ENHANCED_PROTECTION_LINK" />উন্নত সুরক্ষা চালু করুন<ph name="END_ENHANCED_PROTECTION_LINK" />।</translation>
 <translation id="2634124572758952069"><ph name="HOST_NAME" />-এর সার্ভার আইপি অ্যাড্রেস পাওয়া যায়নি।</translation>
 <translation id="2639739919103226564">স্থিতি: </translation>
 <translation id="264810637653812429">উপযুক্ত ডিভাইস খুঁজে পাওয়া যায়নি।</translation>
 <translation id="2649204054376361687"><ph name="CITY" />, <ph name="COUNTRY" /></translation>
-<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে আপনার ব্রাউজিং ইতিহাস, কুকি, ক্যাশে ও আরও অনেক কিছু মুছতে প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
+<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে আপনার ব্রাউজিং ইতিহাস, কুকি, ক্যাশে ও আরও অনেক কিছু মুছতে প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
 <translation id="2650446666397867134">ফাইলে অ্যাক্সেস অস্বীকৃত হয়েছে</translation>
 <translation id="2653659639078652383">জমা দিন</translation>
-<translation id="2659491813326907275">Chrome OS সেটিংস থেকে আপনার পছন্দ মতো অ্যাক্সেসিবিলিটি টুল বেছে নিন</translation>
+<translation id="2659491813326907275">Mises OS সেটিংস থেকে আপনার পছন্দ মতো অ্যাক্সেসিবিলিটি টুল বেছে নিন</translation>
 <translation id="2660779039299703961">ইভেন্ট</translation>
 <translation id="2664887757054927933">{COUNT,plural, =0{একটিও নয়}=1{১টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য)}=2{২টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য)}one{#টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য)}other{#টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য)}}</translation>
 <translation id="2666092431469916601">শীর্ষ</translation>
@@ -555,13 +555,13 @@
 <translation id="2705137772291741111">এই সাইটের সেভ করা (ক্যাশে করা) কপি পড়া যাবে না।</translation>
 <translation id="2709516037105925701">স্বয়ংপূরণ</translation>
 <translation id="2713444072780614174">সাদা</translation>
-<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে আপনার পেমেন্ট ও ক্রেডিট কার্ডের তথ্য ম্যানেজ করতে প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
+<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে আপনার পেমেন্ট ও ক্রেডিট কার্ডের তথ্য ম্যানেজ করতে প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
 <translation id="2721148159707890343">অনুরোধ সফল হয়েছে</translation>
-<translation id="2723669454293168317">Chrome সেটিংস থেকে 'নিরাপত্তা সংক্রান্ত পরীক্ষা' চালান</translation>
+<translation id="2723669454293168317">Mises সেটিংস থেকে 'নিরাপত্তা সংক্রান্ত পরীক্ষা' চালান</translation>
 <translation id="2726001110728089263">সাইড ট্রে</translation>
 <translation id="2728127805433021124">একটি দুর্বল স্বাক্ষর অ্যালগোরিদম ব্যবহার করে সার্ভারের সার্টিফিকেটে সাইন করা হয়েছে৷</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />সংযোগের ডায়গনিস্টিক্স চালান<ph name="END_LINK" /></translation>
-<translation id="2737403869486738563">Chrome ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে আপনার সার্চ আবার চালু করুন</translation>
+<translation id="2737403869486738563">Mises ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে আপনার সার্চ আবার চালু করুন</translation>
 <translation id="2738330467931008676">পিক-আপের ঠিকানা বেছে নিন</translation>
 <translation id="2740531572673183784">ঠিক আছে</translation>
 <translation id="2742870351467570537">নির্বাচিত আইটেমগুলি সরান</translation>
@@ -574,7 +574,7 @@
 <translation id="2792012897584536778">এই ডিভাইসের অ্যাডমিনিস্ট্রেটর যে নিরাপত্তার সার্টিফিকেট সেট-আপ করেছেন সেটি তাকে আপনার ঘোরা ওয়েবসাইটগুলির কন্টেন্ট দেখার অনুমতি দিতে পারে।</translation>
 <translation id="2799020568854403057">যে সাইট খুলতে চলেছেন সেটিতে ক্ষতিকারক অ্যাপ আছে</translation>
 <translation id="2799223571221894425">পুনঃশুরু</translation>
-<translation id="2799846101868535739">'আপনার সার্চ আবার চালু করুন' বোতাম, আপনার সার্চ আবার চালু করতে এবং Chrome ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে Enter প্রেস করুন</translation>
+<translation id="2799846101868535739">'আপনার সার্চ আবার চালু করুন' বোতাম, আপনার সার্চ আবার চালু করতে এবং Mises ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে Enter প্রেস করুন</translation>
 <translation id="2803306138276472711">Google নিরাপদ ব্রাউজিং সাম্প্রতিক <ph name="SITE" />-এ <ph name="BEGIN_LINK" />ম্যালওয়্যার শনাক্ত করেছে<ph name="END_LINK" />। যেসব ওয়েবসাইট সাধারণত নিরাপদ থাকে, সেগুলি কখনও কখনও ম্যালওয়্যার দিয়ে আক্রান্ত হয়।</translation>
 <translation id="2807052079800581569">ছবি Y পজিশন</translation>
 <translation id="2820957248982571256">স্ক্যান করা হচ্ছে…</translation>
@@ -588,7 +588,7 @@
 <translation id="2859806420264540918">এই সাইট ব্যাঘাত সৃষ্টিকারী বা বিভ্রান্তিকর বিজ্ঞাপন দেখায়।</translation>
 <translation id="287596039013813457">বন্ধুত্বপূর্ণ</translation>
 <translation id="2876489322757410363">এক্সটার্নাল অ্যাপ্লিকেশনের মাধ্যমে পেমেন্ট করার জন্য ছদ্মবেশী মোড ছেড়ে বেরিয়ে আসা হচ্ছে। চালিয়ে যেতে চান?</translation>
-<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে আপনার Safe Browsing ও আরও অনেক কিছু ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
+<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে আপনার Safe Browsing ও আরও অনেক কিছু ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
 <translation id="2878197950673342043">পোস্টার ফোল্ড</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">উইন্ডো প্লেসমেন্ট</translation>
@@ -600,7 +600,7 @@
 <translation id="290376772003165898">পৃষ্ঠাটি <ph name="LANGUAGE" /> ভাষায় নয়?</translation>
 <translation id="2909946352844186028">একটি নেটওয়ার্ক পরিবর্তন শনাক্ত হয়েছে৷</translation>
 <translation id="2911973620368911614">জব অ্যাকাউন্টিং ব্যবহারকারীর আইডি</translation>
-<translation id="2914160345369867329"><ph name="SITE" /> সাধারণত আপনার তথ্য সুরক্ষিত রাখতে এনক্রিপশন ব্যবহার করে। Chrome যখন <ph name="SITE" />-এ কানেক্ট করার চেষ্টা করেছিল, ওয়েবসাইটটি তখন অস্বাভাবিক এবং ভুল ক্রেডেনশিয়াল পাঠিয়েছে। এর কারণ হতে পারে, হয় কোনও হ্যাকার <ph name="SITE" />-এর ছদ্মবেশ ধারণ করেছে অথবা কোনও ওয়াই-ফাই সাইন-ইন স্ক্রিন কানেকশনে বাধা সৃষ্টি করছে। তবে আপনার তথ্য নিরাপদেই আছে, কারণ কোনও ডেটা আদানপ্রদানের আগেই Chrome কানেকশনটি বন্ধ করে দিয়েছে।</translation>
+<translation id="2914160345369867329"><ph name="SITE" /> সাধারণত আপনার তথ্য সুরক্ষিত রাখতে এনক্রিপশন ব্যবহার করে। Mises যখন <ph name="SITE" />-এ কানেক্ট করার চেষ্টা করেছিল, ওয়েবসাইটটি তখন অস্বাভাবিক এবং ভুল ক্রেডেনশিয়াল পাঠিয়েছে। এর কারণ হতে পারে, হয় কোনও হ্যাকার <ph name="SITE" />-এর ছদ্মবেশ ধারণ করেছে অথবা কোনও ওয়াই-ফাই সাইন-ইন স্ক্রিন কানেকশনে বাধা সৃষ্টি করছে। তবে আপনার তথ্য নিরাপদেই আছে, কারণ কোনও ডেটা আদানপ্রদানের আগেই Mises কানেকশনটি বন্ধ করে দিয়েছে।</translation>
 <translation id="2915068235268646559"><ph name="CRASH_TIME" />-এ হওয়া ক্র্যাশ</translation>
 <translation id="2916038427272391327">অন্যান্য প্রোগ্রামগুলি বন্ধ করুন</translation>
 <translation id="2922350208395188000">সার্ভারের সার্টিফিকেট চেক করা যাবে না৷</translation>
@@ -613,14 +613,14 @@
 <translation id="2941952326391522266">এই সার্ভার প্রমাণ করতে পারেনি যে এটি <ph name="DOMAIN" />; এর নিরাপত্তা সার্টিফিকেট <ph name="DOMAIN2" /> থেকে পাওয়া। কোনো ভুল কনফিগারেশনের কারণে অথবা কোনো আক্রমণকারী আপনার সংযোগ মাঝপথে আটকে দিচ্ছে বলে এমনটা হতে পারে।</translation>
 <translation id="2943895734390379394">যে সময়ে আপলোড করা হয়েছিল:</translation>
 <translation id="2948083400971632585">আপনি সেটিংস পৃষ্ঠা থেকে কানেকশনের জন্য কনফিগার করা যেকোনো প্রক্সি নিষ্ক্রিয় করতে পারেন৷</translation>
-<translation id="2949183777371959169">মেশিনটি Chrome ব্রাউজার ক্লাউড ম্যানেজমেন্টে নথিভুক্ত নয় বলে এড়িয়ে যাওয়া হয়েছে।</translation>
+<translation id="2949183777371959169">মেশিনটি Mises ব্রাউজার ক্লাউড ম্যানেজমেন্টে নথিভুক্ত নয় বলে এড়িয়ে যাওয়া হয়েছে।</translation>
 <translation id="2951588413176968965">আমার মেলবক্স</translation>
 <translation id="2952820037279740115">সব 'ছদ্মবেশী' উইন্ডো বন্ধ করুন</translation>
 <translation id="295526156371527179">সতর্কতা: এই নীতি ডিকশনারি নয় বলে এটিকে নীতি অনুযায়ী ডিকশনারি হিসেবে মার্জ করা হয়নি।</translation>
 <translation id="2955913368246107853">খোঁজ দণ্ড বন্ধ করুন</translation>
 <translation id="2972581237482394796">&amp;পুনরায় করুন</translation>
 <translation id="2977665033722899841">এখন <ph name="ROW_NAME" /> বেছে নিয়েছেন। <ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">চালু করা হলে, ফর্ম পূরণের কাজ দ্রুত করতে Chromium এই ডিভাইসে আপনার কার্ডের একটি কপি স্টোর করবে।</translation>
+<translation id="2985306909656435243">চালু করা হলে, ফর্ম পূরণের কাজ দ্রুত করতে Mises এই ডিভাইসে আপনার কার্ডের একটি কপি স্টোর করবে।</translation>
 <translation id="2985398929374701810">একটি সঠিক ঠিকানা লিখুন</translation>
 <translation id="2986368408720340940">এই পদ্ধতিতে পিক-আপ করা যাবে না। অন্য পদ্ধতি ব্যবহার করুন।</translation>
 <translation id="2987034854559945715">একই ধরনের ফিচার পাওয়া যায়নি</translation>
@@ -679,7 +679,7 @@
 <translation id="3194737229810486521"><ph name="URL" /> স্থায়ীভাবে আপনার ডিভাইসে ডেটা স্টোর করতে চায়</translation>
 <translation id="3195213714973468956"><ph name="SERVER_NAME" /> এ <ph name="PRINTER_NAME" /></translation>
 <translation id="3197136577151645743">আপনি কখন ডিভাইস সক্রিয়ভাবে ব্যবহার করেন তা জানতে চাইতে পারে</translation>
-<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে কী ধরনের তথ্য আপনি সিঙ্ক করবেন, তা ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
+<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে কী ধরনের তথ্য আপনি সিঙ্ক করবেন, তা ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
 <translation id="320323717674993345">পেমেন্ট বাতিল করুন</translation>
 <translation id="3207960819495026254">বুকমার্ক করা হয়েছে</translation>
 <translation id="3209034400446768650">পৃষ্ঠাটির মাধ্যমে টাকা চার্জ করা হতে পারে</translation>
@@ -701,7 +701,7 @@
 <translation id="3252266817569339921">ফরাসী</translation>
 <translation id="3257954757204451555">এই তথ্যের পিছনে কে আছে?</translation>
 <translation id="3259648571731540213"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />, চটপট নতুন Google Calendar তৈরি করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
-<translation id="3264837738038045344">Chrome সেটিংস বোতাম ম্যানেজ করুন, আপনার Chrome সেটিংস দেখতে Enter প্রেস করুন</translation>
+<translation id="3264837738038045344">Mises সেটিংস বোতাম ম্যানেজ করুন, আপনার Mises সেটিংস দেখতে Enter প্রেস করুন</translation>
 <translation id="3266793032086590337">মান (ম্যাচ করছে না)</translation>
 <translation id="3268451620468152448">ওপেন ট্যাব</translation>
 <translation id="3270847123878663523">&amp;পুনর্বিন্যাসকে পূর্বাবস্থায় ফেরান</translation>
@@ -713,7 +713,7 @@
 <translation id="3287510313208355388">অনলাইন হয়ে ডাউনলোড করবেন</translation>
 <translation id="3288238092761586174">আপনার পেমেন্ট যাচাই করতে, <ph name="URL" />হয়ত আরও কিছু করতে পারে</translation>
 <translation id="3293642807462928945"><ph name="POLICY_NAME" /> নীতি সম্পর্কে আরও জানুন</translation>
-<translation id="3295444047715739395">Chrome সেটিংস থেকে আপনার পাসওয়ার্ড দেখুন ও ম্যানেজ করুন</translation>
+<translation id="3295444047715739395">Mises সেটিংস থেকে আপনার পাসওয়ার্ড দেখুন ও ম্যানেজ করুন</translation>
 <translation id="3303855915957856445">কোনো সার্চ ফলাফল পাওয়া যায়নি</translation>
 <translation id="3304073249511302126">ব্লুটুথ স্ক্যানিং</translation>
 <translation id="3308006649705061278">অর্গানাইজেশনাল ইউনিট (OU) </translation>
@@ -727,7 +727,7 @@
 <translation id="3345782426586609320">চোখ</translation>
 <translation id="3355823806454867987">প্রক্সি সেটিংস পরিবর্তন করুন...</translation>
 <translation id="3360103848165129075">পেমেন্ট হ্যান্ডলার শিট</translation>
-<translation id="3361596688432910856">Chrome এ নিম্নলিখিত তথ্য <ph name="BEGIN_EMPHASIS" />সংরক্ষণ করা হয় না<ph name="END_EMPHASIS" />:
+<translation id="3361596688432910856">Mises এ নিম্নলিখিত তথ্য <ph name="BEGIN_EMPHASIS" />সংরক্ষণ করা হয় না<ph name="END_EMPHASIS" />:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />আপনার ব্রাউজিং এর ইতিহাস
           <ph name="LIST_ITEM" />কুকিজ এবং সাইটের ডেটা
@@ -741,7 +741,7 @@
       • আপনার আশেপাশের জায়গার একটি 3D ম্যাপ তৈরি করা ও ক্যামেরার অবস্থান ট্র্যাক করা
       • আপনার ক্যামেরা ব্যবহার করা</translation>
 <translation id="337363190475750230">প্রদান করবে না</translation>
-<translation id="3375754925484257129">'Chrome নিরাপত্তা সংক্রান্ত পরীক্ষা' চালান</translation>
+<translation id="3375754925484257129">'Mises নিরাপত্তা সংক্রান্ত পরীক্ষা' চালান</translation>
 <translation id="3377144306166885718">সার্ভার TLS-এর এমন একটি ভার্সন ব্যবহার করছে যা এখন আর ব্যবহারে নেই।</translation>
 <translation id="3377188786107721145">নীতি বিশ্লেষণ ত্রুটি</translation>
 <translation id="3377736046129930310">কার্ড আরও দ্রুত কনফার্ম করতে স্ক্রিন লক ব্যবহার করুন</translation>
@@ -764,7 +764,7 @@
 <translation id="3423742043356668186">সিস্টেমের নির্দিষ্ট করা</translation>
 <translation id="3427092606871434483">মঞ্জুরি দিন (ডিফল্ট)</translation>
 <translation id="3427342743765426898">&amp;সম্পাদনাকে আবার করুন</translation>
-<translation id="342781501876943858">Chromium-এর নীতি অনুযায়ী আপনার পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
+<translation id="342781501876943858">Mises-এর নীতি অনুযায়ী আপনার পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
 <translation id="3428151540071562330">DnsOverHttpsTemplates সার্ভারের এক বা একাধিক টেমপ্লেট ইউআরআই সঠিক নয় এবং ব্যবহার করা যাবে না।</translation>
 <translation id="3431636764301398940">এই ডিভাইসে এই কার্ডটি সেভ করুন</translation>
 <translation id="3432601291244612633">পৃষ্ঠা বন্ধ করুন</translation>
@@ -785,14 +785,14 @@
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" />, এখন খোলা আছে, খোলা ট্যাবে যেতে ট্যাব প্রেস করে এন্টার প্রেস করুন</translation>
 <translation id="3470563864795286535"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />, বর্তমানে খোলা আছে এমন সব 'ছদ্মবেশী' উইন্ডো বন্ধ করতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
 <translation id="3479552764303398839">এখনই নয়</translation>
-<translation id="3484560055331845446">আপনি আপনার Google অ্যাকাউন্টে অ্যাক্সেস হারাতে পারেন। Chrome-এর প্রস্তাব হল যে আপনি আপনার পাসওয়ার্ড এখনই পরিবর্তন করুন। আপনাকে আবার সাইন-ইন করতে বলা হবে।</translation>
+<translation id="3484560055331845446">আপনি আপনার Google অ্যাকাউন্টে অ্যাক্সেস হারাতে পারেন। Mises-এর প্রস্তাব হল যে আপনি আপনার পাসওয়ার্ড এখনই পরিবর্তন করুন। আপনাকে আবার সাইন-ইন করতে বলা হবে।</translation>
 <translation id="3487845404393360112">ট্রে ৪</translation>
 <translation id="3495081129428749620">এই পৃষ্ঠাতে খুঁজুন
     <ph name="PAGE_TITLE" /></translation>
 <translation id="350069200438440499">ফাইলের নাম:</translation>
 <translation id="3507936815618196901">আপনার আশেপাশের এলাকার একটি 3D ম্যাপ তৈরি করতে এবং ক্যামেরার অবস্থান ট্র্যাক করতে চায়</translation>
 <translation id="3512163584740124171">একই নীতির গ্রুপের অন্য একটি নীতি অগ্রাধিকার পেয়েছে, তাই এই নীতি অগ্রাহ্য করা হয়েছে।</translation>
-<translation id="35172538073169599">ঠিকানা সংক্রান্ত বোতাম ম্যানেজ করুন, Chrome সেটিংসে ঠিকানা যোগ ও ম্যানেজ করতে, Enter প্রেস করুন</translation>
+<translation id="35172538073169599">ঠিকানা সংক্রান্ত বোতাম ম্যানেজ করুন, Mises সেটিংসে ঠিকানা যোগ ও ম্যানেজ করতে, Enter প্রেস করুন</translation>
 <translation id="3518941727116570328">মাল্টিপল অবজেক্ট ম্যানেজ করা</translation>
 <translation id="3528171143076753409">সার্ভারের সার্টিফিকেট বিশ্বস্ত নয়৷</translation>
 <translation id="3528485271872257980">গাঢ় বাদামি</translation>
@@ -807,7 +807,7 @@
 <translation id="3574305903863751447"><ph name="CITY" />, <ph name="STATE" /> <ph name="COUNTRY" /></translation>
 <translation id="3575121482199441727">এই সাইটের জন্য অনুমতি দিন</translation>
 <translation id="3576616784287504635"><ph name="SITE" /> এ এম্বেডেড করা পৃষ্ঠায় এটি দেখানো হচ্ছে</translation>
-<translation id="3581089476000296252">এই পৃষ্ঠাটি প্রস্তুত হলে Chrome আপনাকে জানাবে। &lt;a&gt;বাতিল করুন&lt;/a&gt;</translation>
+<translation id="3581089476000296252">এই পৃষ্ঠাটি প্রস্তুত হলে Mises আপনাকে জানাবে। &lt;a&gt;বাতিল করুন&lt;/a&gt;</translation>
 <translation id="3582930987043644930">নাম যোগ করুন</translation>
 <translation id="3583757800736429874">&amp;সরানোর কাজটি আবার করুন</translation>
 <translation id="3584299510153766161">নিচে ডুয়াল পাঞ্চ</translation>
@@ -822,7 +822,7 @@
 <translation id="3611395257124510155"><ph name="CARD_IDENTIFIER" />-এর জন্য ভার্চুয়াল কার্ড</translation>
 <translation id="3614103345592970299">সাইজ ২</translation>
 <translation id="361438452008624280">তালিকার এন্ট্রি "<ph name="LANGUAGE_ID" />": অজানা বা কাজ করে না এমন ভাষা।</translation>
-<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে 'নিরাপত্তা সংক্রান্ত পরীক্ষা' চালাতে প্রথমে Tab আর তারপরে Enter কী প্রেস করুন</translation>
+<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে 'নিরাপত্তা সংক্রান্ত পরীক্ষা' চালাতে প্রথমে Tab আর তারপরে Enter কী প্রেস করুন</translation>
 <translation id="3615877443314183785">মেয়াদ শেষ হওয়ার তারিখের সঠিক মান লিখুন</translation>
 <translation id="36224234498066874">ব্রাউজ করা ডেটা সাফ করুন...</translation>
 <translation id="362276910939193118">সম্পূর্ণ ইতিহাস দেখুন</translation>
@@ -832,9 +832,9 @@
 <translation id="3631244953324577188">বায়োমেট্রিক্স</translation>
 <translation id="3632503704576938756">স্ক্রিন শেয়ার করার ফিচার আবার চালু করা হয়েছে</translation>
 <translation id="3632892046558972264">স্ক্রিন শেয়ার করার ফিচার পজ করা হয়েছে</translation>
-<translation id="3633738897356909127">Chrome আপডেট করার বোতাম, আপনার Chrome সেটিংসে Chrome আপডেট করতে Enter প্রেস করুন</translation>
+<translation id="3633738897356909127">Mises আপডেট করার বোতাম, আপনার Mises সেটিংসে Mises আপডেট করতে Enter প্রেস করুন</translation>
 <translation id="3634530185120165534">ট্রে ৫</translation>
-<translation id="3634567936866541746">আপনি এইমাত্র একটি প্রতারণামূলক সাইটে আপনার পাসওয়ার্ড লিখেছেন। আপনার অ্যাকাউন্ট সুরক্ষিত করার জন্য, Chrome আপনার সেভ করা পাসওয়ার্ড চেক করে নিতে সাজেস্ট করছে।</translation>
+<translation id="3634567936866541746">আপনি এইমাত্র একটি প্রতারণামূলক সাইটে আপনার পাসওয়ার্ড লিখেছেন। আপনার অ্যাকাউন্ট সুরক্ষিত করার জন্য, Mises আপনার সেভ করা পাসওয়ার্ড চেক করে নিতে সাজেস্ট করছে।</translation>
 <translation id="3637662659967048211">Google অ্যাকাউন্টে সেভ করুন</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">অ্যাপ্লিকেশন:</translation>
@@ -850,7 +850,7 @@
 <translation id="3678029195006412963">অনুরোধটি স্বাক্ষরিত করা যায়নি</translation>
 <translation id="3678529606614285348">নতুন ছদ্মবেশী উইন্ডোতে (Ctrl-Shift-N) করে একটি পৃষ্ঠা খুলুন</translation>
 <translation id="3681007416295224113">সার্টিফিকেট তথ্য</translation>
-<translation id="3701427423622901115">সব এক্সপেরিমেন্ট রিসেট ভ্যালুতে সেট করা হয়েছে, Chrome রিস্টার্ট করার পর এই পরিবর্তনগুলি প্রয়োগ করা হবে।</translation>
+<translation id="3701427423622901115">সব এক্সপেরিমেন্ট রিসেট ভ্যালুতে সেট করা হয়েছে, Mises রিস্টার্ট করার পর এই পরিবর্তনগুলি প্রয়োগ করা হবে।</translation>
 <translation id="3704162925118123524">আপনি যে নেটওয়ার্কটি ব্যবহার করছেন সেটির জন্য অপনাকে এটির লগ-ইন পৃষ্ঠাতে যেতে হতে পরে৷</translation>
 <translation id="3705189812819839667"><ph name="RESULT_OWNER" /> - <ph name="RESULT_PRODUCT_SOURCE" /></translation>
 <translation id="370665806235115550">লোড হচ্ছে...</translation>
@@ -867,7 +867,7 @@
 <translation id="3736520371357197498">আপনি যদি আপনার নিরাপত্তার ঝুঁকিগুলি বুঝতে পারেন, তাহলে ক্ষতিকারক প্রোগ্রাম সরানোর আগে আপনি <ph name="BEGIN_LINK" />বিপজ্জনক সাইটে যেতে পারেন<ph name="END_LINK" />।</translation>
 <translation id="3738166223076830879">আপনার অ্যাডমিনিস্ট্রেটর ব্রাউজারটি ম্যানেজ করেন।</translation>
 <translation id="3744111561329211289">পটভূমি সিঙ্ক</translation>
-<translation id="3744899669254331632">এই মূহুর্তে আপনি <ph name="SITE" />-এ যেতে পারবেন না কারণ ওয়েবসাইটি অসংলগ্ন ক্রেডেনশিয়াল পাঠিয়েছে যা Chromium প্রসেস করতে পারেনা৷ নেটওয়ার্ক সমস্যা এবং আক্রমণ সাধারণত অস্থায়ী, তাই এই পৃষ্ঠাটি সম্ভবত পরে কাজ করবে৷</translation>
+<translation id="3744899669254331632">এই মূহুর্তে আপনি <ph name="SITE" />-এ যেতে পারবেন না কারণ ওয়েবসাইটি অসংলগ্ন ক্রেডেনশিয়াল পাঠিয়েছে যা Mises প্রসেস করতে পারেনা৷ নেটওয়ার্ক সমস্যা এবং আক্রমণ সাধারণত অস্থায়ী, তাই এই পৃষ্ঠাটি সম্ভবত পরে কাজ করবে৷</translation>
 <translation id="3745099705178523657">আপনি কনফার্ম করার পর আপনার Google অ্যাকাউন্ট থেকে কার্ডের বিবরণ এই সাইটে শেয়ার করা হবে।</translation>
 <translation id="3748148204939282805"><ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" />-এর আক্রমণকারীরা আপনাকে সফ্টওয়্যার ইনস্টলেশন বা আপনার ব্যক্তিগত তথ্য (যেমন পাসওয়ার্ড, ফোন নম্বর বা ক্রেডিট কার্ড) প্রকাশ করার মত বিপজ্জনক কাজ করার জন্য আপনাকে প্রতারিত করতে পারে। <ph name="BEGIN_LEARN_MORE_LINK" />আরও জানুন<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3754210790023674521">ছবির-মধ্যে-ছবি মোড থেকে বেরিয়ে আসুন</translation>
@@ -961,7 +961,7 @@
 <translation id="4089152113577680600">ট্রে ১৪</translation>
 <translation id="4098354747657067197">সামনে ধোঁকাবাজ সাইট</translation>
 <translation id="4099048595830172239">গোপনীয় কন্টেন্ট দেখা গেলে, অ্যাডমিনিস্ট্রেটরের নীতি <ph name="APPLICATION_TITLE" />-এর সাথে আপনার স্ক্রিন শেয়ার করার জন্য সাজেস্ট করবে না:</translation>
-<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome-এ ফন্ট সাইজ এবং টাইপফেস কাস্টমাইজ করতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
+<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises-এ ফন্ট সাইজ এবং টাইপফেস কাস্টমাইজ করতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
 <translation id="4101413244023615925">টেক্সট ও গ্রাফিক</translation>
 <translation id="4103249731201008433">ডিভাইসের ক্রমিক সংখ্যা ভুল</translation>
 <translation id="4106133539597032659">'সাইট তৈরি করুন' বোতাম, Google Sites-এ চটপট নতুন সাইট তৈরি করতে Enter প্রেস করুন</translation>
@@ -973,7 +973,7 @@
 <translation id="4117700440116928470">নীতির সুযোগটি সমর্থিত নয়৷</translation>
 <translation id="4121428309786185360">এই তারিখে মেয়াদউত্তীর্ণ হয়</translation>
 <translation id="4123572138124678573">নিচে ট্রিপল পাঞ্চ</translation>
-<translation id="4127575959421463246">ChromeOS ফ্ল্যাগ খুঁজছেন? দেখুন</translation>
+<translation id="4127575959421463246">MisesOS ফ্ল্যাগ খুঁজছেন? দেখুন</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{আরও ১টি}one{অন্যান্য #টি}other{অন্যান্য #টি}}</translation>
 <translation id="4130226655945681476">নেটওয়ার্কের তার, মডেম, এবং রাউটার পরীক্ষা করুন</translation>
 <translation id="4134123981501319574">ডক তৈরি করুন</translation>
@@ -1016,11 +1016,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;ধাপ ২: ছদ্মবেশী মোডে পৃষ্ঠাটি খুলুন (শুধুমাত্র কম্পিউটারের জন্য)&lt;/h4&gt;
     &lt;p&gt;আগে যে পৃষ্ঠাটি দেখছিলেন সেটি ছদ্মবেশী মোডে খুলুন।&lt;/p&gt;
-    &lt;p&gt;যদি পৃষ্ঠাটি খোলে, তাহলে বুঝতে হবে Chrome-এর কোনও একটি এক্সটেনশন ঠিকভাবে কাজ করছে না। সমস্যাটির সমাধানের জন্য এক্সটেনশনটি বন্ধ করে দিন।&lt;/p&gt;
+    &lt;p&gt;যদি পৃষ্ঠাটি খোলে, তাহলে বুঝতে হবে Mises-এর কোনও একটি এক্সটেনশন ঠিকভাবে কাজ করছে না। সমস্যাটির সমাধানের জন্য এক্সটেনশনটি বন্ধ করে দিন।&lt;/p&gt;
     &lt;h4&gt;ধাপ ৩: অপারেটিং সিস্টেম আপডেট করুন&lt;/h4&gt;
     &lt;p&gt;আপনার ডিভাইস আপ-টু-ডেট আছে কিনা নিশ্চিত করুন।&lt;/p&gt;
     &lt;h4&gt;ধাপ ৪: অ্যান্টিভাইরাস সাময়িকভাবে বন্ধ রাখুন&lt;/h4&gt;
-    &lt;p&gt;আপনার ডিভাইসে যদি এমন কোনও অ্যান্টিভাইরাস থাকে যা "HTTPS সুরক্ষা" অথবা "HTTPS স্ক্যানিং"-এর পরিষেবা দেয়, তাহলে এই সমস্যাটি হবে। তাহলে বুঝতে হবে অ্যান্টিভাইরাসটি Chrome-কে নিরাপত্তা দেওয়ার ক্ষেত্রে বাধা দিচ্ছে।&lt;/p&gt;
+    &lt;p&gt;আপনার ডিভাইসে যদি এমন কোনও অ্যান্টিভাইরাস থাকে যা "HTTPS সুরক্ষা" অথবা "HTTPS স্ক্যানিং"-এর পরিষেবা দেয়, তাহলে এই সমস্যাটি হবে। তাহলে বুঝতে হবে অ্যান্টিভাইরাসটি Mises-কে নিরাপত্তা দেওয়ার ক্ষেত্রে বাধা দিচ্ছে।&lt;/p&gt;
     &lt;p&gt;সমাধানের জন্য অ্যান্টিভাইরাস সফ্টওয়্যারটি বন্ধ করুন। বন্ধ করার পরে যদি পৃষ্ঠাটি খোলা যায় তাহলে নিরাপদ সাইট ব্রাউজ করার সময় সফ্টওয়্যারটি বন্ধই রাখবেন।&lt;/p&gt;
     &lt;p&gt;কাজ হলে গেলে মনে করে অ্যান্টিভাইরাস সফ্টওয়্যারটি আবার চালু করে নিন।&lt;/p&gt;
     &lt;h4&gt;ধাপ ৫: আরও সাহায্য পান&lt;/h4&gt;
@@ -1061,8 +1061,8 @@
 <translation id="4329871760342656885">নীতি পার্স করার সময় সমস্যা হয়েছে: <ph name="ERROR" /></translation>
 <translation id="4331519897422864041">স্ট্যাকার ৫</translation>
 <translation id="4331708818696583467">সুরক্ষিত নয়</translation>
-<translation id="4340575312453649552">এই বিজ্ঞাপন আপনার ডিভাইসের অনেক রিসোর্স ব্যবহার করেছে, তাই Chrome সেটি মুছে দিয়েছে।</translation>
-<translation id="4340982228985273705">এই কম্পিউটারটি এন্টারপ্রাইজ স্তরে পরিচালনা করা হচ্ছে হিসেবে শনাক্ত করা যায়নি, তাই নীতিটি শুধুমাত্র Chrome ওয়েব স্টোরে হোস্ট করা এক্সটেনশন নিজে থেকে ইনস্টল করতে পারবে। Chrome ওয়েব স্টোর আপডেটের ইউআরএল হল "<ph name="CWS_UPDATE_URL" />"।</translation>
+<translation id="4340575312453649552">এই বিজ্ঞাপন আপনার ডিভাইসের অনেক রিসোর্স ব্যবহার করেছে, তাই Mises সেটি মুছে দিয়েছে।</translation>
+<translation id="4340982228985273705">এই কম্পিউটারটি এন্টারপ্রাইজ স্তরে পরিচালনা করা হচ্ছে হিসেবে শনাক্ত করা যায়নি, তাই নীতিটি শুধুমাত্র Mises ওয়েব স্টোরে হোস্ট করা এক্সটেনশন নিজে থেকে ইনস্টল করতে পারবে। Mises ওয়েব স্টোর আপডেটের ইউআরএল হল "<ph name="CWS_UPDATE_URL" />"।</translation>
 <translation id="4346197816712207223">এই ক্রেডিট কার্ডগুলি গ্রহণ করা হয়</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206"><ph name="SITE" />-এর কানেকশনটি সুরক্ষিত নয়</translation>
@@ -1073,7 +1073,7 @@
 <translation id="4356973930735388585">এই সাইটে আক্রমণকারীরা আপনার কম্পিউটারে ক্ষতিকারক প্রোগ্রাম ইনস্টল করতে পারে যা আপনার তথ্য (যেমন, ফটো, পাসওয়ার্ড, মেসেজ এবং ক্রেডিট কার্ড) চুরি করতে বা মুছে দিতে পারে।</translation>
 <translation id="4358059973562876591">DnsOverHttpsMode নীতিতে সমস্যা থাকার কারণে আপনার নির্দিষ্ট করা টেমপ্লেট হয়তো ব্যবহার করা যাবে না।</translation>
 <translation id="4358461427845829800">পেমেন্ট পদ্ধতিগুলি পরিচালনা করুন...</translation>
-<translation id="4359160567981085931">আপনি এখনই প্রতারণামূলক একটি সাইটে আপনার পাসওয়ার্ড লিখেছেন। Chrome সাহায্য করবে। আপনার অ্যাকাউন্টের নিরাপত্তা লঙ্ঘনের সম্ভাবনা এড়ানোর জন্য পাসওয়ার্ড পরিবর্তন করতে এবং Google-কে বিজ্ঞপ্তি দিয়ে জানাতে 'অ্যাকাউন্ট সুরক্ষিত রাখুন' বিকল্পে ক্লিক করুন।</translation>
+<translation id="4359160567981085931">আপনি এখনই প্রতারণামূলক একটি সাইটে আপনার পাসওয়ার্ড লিখেছেন। Mises সাহায্য করবে। আপনার অ্যাকাউন্টের নিরাপত্তা লঙ্ঘনের সম্ভাবনা এড়ানোর জন্য পাসওয়ার্ড পরিবর্তন করতে এবং Google-কে বিজ্ঞপ্তি দিয়ে জানাতে 'অ্যাকাউন্ট সুরক্ষিত রাখুন' বিকল্পে ক্লিক করুন।</translation>
 <translation id="4367563149485757821">Number-12 (Envelope)</translation>
 <translation id="437040971055499437">নিরাপত্তা সংক্রান্ত ঘটনা ঘটেছে</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -1087,7 +1087,7 @@
 <translation id="4408413947728134509"><ph name="NUM_COOKIES" />টি কুকিজ</translation>
 <translation id="4414515549596849729">কুকি ও সাইট ডেটা</translation>
 <translation id="4415426530740016218">পিক-আপের ঠিকানা</translation>
-<translation id="4424024547088906515">এই সার্ভার প্রমাণ করতে পারেনি যে এটি <ph name="DOMAIN" />; এর নিরাপত্তা সার্টিফিকেট Chrome এর নিকট বিশ্বাসযোগ্য নয়। কোনো ভুল কনফিগারেশনের কারণে অথবা কোনো আক্রমণকারী আপনার সংযোগ মাঝপথে আটকে দিচ্ছে বলে এমনটা হতে পারে।</translation>
+<translation id="4424024547088906515">এই সার্ভার প্রমাণ করতে পারেনি যে এটি <ph name="DOMAIN" />; এর নিরাপত্তা সার্টিফিকেট Mises এর নিকট বিশ্বাসযোগ্য নয়। কোনো ভুল কনফিগারেশনের কারণে অথবা কোনো আক্রমণকারী আপনার সংযোগ মাঝপথে আটকে দিচ্ছে বলে এমনটা হতে পারে।</translation>
 <translation id="443121186588148776">সিরিয়াল পোর্ট</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> আপনার লগ-ইন সার্টিফিকেটটি স্বীকার করেনি, অথবা কোনো সার্টিফিকেট দেওয়া হয়নি।</translation>
 <translation id="4432792777822557199">এখন থেকে <ph name="SOURCE_LANGUAGE" /> ভাষার পৃষ্ঠাগুলিকে <ph name="TARGET_LANGUAGE" /> ভাষায় অনুবাদ করা হবে</translation>
@@ -1107,7 +1107,7 @@
 <translation id="4482953324121162758">এই সাইটটি অনুবাদ করা হবে না।</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">আপনার Google অ্যাকাউন্টের সাথে সিঙ্ক করা পাসওয়ার্ডগুলি এনক্রিপ্ট করুন</translation>
-<translation id="4492519888999857993">এই ফিচারগুলি ডিফল্ট হিসেবেই বন্ধ থাকে। Chrome-এর পরবর্তী ভার্সনে এই ফিচারগুলি আর থাকবে না।</translation>
+<translation id="4492519888999857993">এই ফিচারগুলি ডিফল্ট হিসেবেই বন্ধ থাকে। Mises-এর পরবর্তী ভার্সনে এই ফিচারগুলি আর থাকবে না।</translation>
 <translation id="4493480324863638523">ইউআরএলটি সঠিক নয়। অবশ্যই স্ট্যান্ডার্ড স্কিম সহ ইউআরএল হতে হবে, যেমন http://example.com বা https://example.com.</translation>
 <translation id="4500587658229086076">নিরাপদ নয় এমন কন্টেন্ট</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1118,7 +1118,7 @@
 <translation id="4509074745930862522"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT" />, Google Translate ব্যবহার করে এই পৃষ্ঠা অনুবাদ করতে, প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
 <translation id="4510487217173779431">Chou4 (Envelope)</translation>
 <translation id="4514308731478712184">অ্যাক্টিভিটির সিরিজ বন্ধ করুন</translation>
-<translation id="4515275063822566619">কার্ড ও ঠিকানাগুলি Chrome এবং আপনার Google অ্যাকাউন্ট (<ph name="ACCOUNT_EMAIL" />) থেকে এসেছে। আপনি <ph name="BEGIN_LINK" />সেটিংস<ph name="END_LINK" />এ গিয়ে সেগুলি পরিচালনা করতে পারবেন।</translation>
+<translation id="4515275063822566619">কার্ড ও ঠিকানাগুলি Mises এবং আপনার Google অ্যাকাউন্ট (<ph name="ACCOUNT_EMAIL" />) থেকে এসেছে। আপনি <ph name="BEGIN_LINK" />সেটিংস<ph name="END_LINK" />এ গিয়ে সেগুলি পরিচালনা করতে পারবেন।</translation>
 <translation id="4517607026994743406">Comm-10 (Envelope)</translation>
 <translation id="4521157617044179198"><ph name="WIDTH" /> × <ph name="HEIGHT" /> মিলিমিটার (<ph name="ORIENTATION" />)</translation>
 <translation id="4521916730539354575">বাঁদিকের ট্রে</translation>
@@ -1131,11 +1131,11 @@
 <translation id="455113658016510503">A9</translation>
 <translation id="4558551763791394412">আপনার এক্সটেনশানগুলি অক্ষম করে দেখুন।</translation>
 <translation id="4559332380232738994">10x11</translation>
-<translation id="4567686777917670400">আপনার অ্যাডমিনিস্ট্রেটর দূরবর্তী স্থান থেকে আপনার ব্রাউজারের সেটআপ পরিবর্তন করতে পারেন। এই ডিভাইসের অ্যাক্টিভিটি Chromium-এর বাইরে থেকেও ম্যানেজ করা যেতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">আপনার অ্যাডমিনিস্ট্রেটর দূরবর্তী স্থান থেকে আপনার ব্রাউজারের সেটআপ পরিবর্তন করতে পারেন। এই ডিভাইসের অ্যাক্টিভিটি Mises-এর বাইরে থেকেও ম্যানেজ করা যেতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
 <translation id="457875822857220463">ডেলিভারি</translation>
 <translation id="4579056131138995126">Personal (Envelope)</translation>
 <translation id="4582204425268416675">কার্ডটি সরিয়ে দিন</translation>
-<translation id="4587425331216688090">Chrome থেকে ঠিকানা সরাবেন?</translation>
+<translation id="4587425331216688090">Mises থেকে ঠিকানা সরাবেন?</translation>
 <translation id="459089498662672729">অ্যাডমিনিস্ট্রেটর নীতির সাজেশন অনুযায়ী, <ph name="ORIGIN_NAME" /> থেকে টেক্সট এই লোকেশনে পেস্ট করা যাবে না</translation>
 <translation id="4592951414987517459">একটি আধুনিক সাইফার স্যুট ব্যবহার করে <ph name="DOMAIN" />-এ আপনার সংযোগ এনক্রিপ্ট করা হয়েছে।</translation>
 <translation id="4594403342090139922">&amp;মুছে ফেলাকে পূর্বাবস্থায় ফেরান</translation>
@@ -1143,9 +1143,9 @@
 <translation id="4598556348158889687">সঞ্চয়স্থান ব্যবস্থাপনা</translation>
 <translation id="4600854749408232102">C6/C5 (Envelope)</translation>
 <translation id="4606870351894164739">প্রভাবশালী</translation>
-<translation id="4607603470419975064">Chrome সম্পর্কিত পরামর্শ দেখুন বোতাম, Chrome-এর ফিচার সম্পর্কে জানতে Enter প্রেস করুন</translation>
-<translation id="4607608436550361748">Chrome-এর পরামর্শ দেখুন</translation>
-<translation id="4627675673814409125">এই নীতিটি Chrome প্রোফাইল লেভেলে সেট করা যাবে না এবং এড়িয়ে যাওয়া হবে।</translation>
+<translation id="4607603470419975064">Mises সম্পর্কিত পরামর্শ দেখুন বোতাম, Mises-এর ফিচার সম্পর্কে জানতে Enter প্রেস করুন</translation>
+<translation id="4607608436550361748">Mises-এর পরামর্শ দেখুন</translation>
+<translation id="4627675673814409125">এই নীতিটি Mises প্রোফাইল লেভেলে সেট করা যাবে না এবং এড়িয়ে যাওয়া হবে।</translation>
 <translation id="4628948037717959914">ফটো</translation>
 <translation id="4631649115723685955">ক্যাশব্যাক অফার লিঙ্ক করা হয়েছে</translation>
 <translation id="4636930964841734540">তথ্য</translation>
@@ -1175,7 +1175,7 @@
 <translation id="4731638775147756694">আপনার অ্যাডমিনিস্ট্রেটর এই অ্যাপ্লিকেশন ব্লক করে দিয়েছেন</translation>
 <translation id="4731967714531604179">Prc2 (Envelope)</translation>
 <translation id="4733082559415072992"><ph name="URL" /> আপনার ডিভাইসের লোকেশন ব্যবহার করতে চায়</translation>
-<translation id="4736825316280949806">Chromium পুনরায় চালু করুন</translation>
+<translation id="4736825316280949806">Mises পুনরায় চালু করুন</translation>
 <translation id="4736934858538408121">ভার্চুয়াল কার্ড</translation>
 <translation id="473775607612524610">আপডেট করুন</translation>
 <translation id="4738601419177586157"><ph name="TEXT" /> সার্চ সাজেশন</translation>
@@ -1187,7 +1187,7 @@
 <translation id="4751476147751820511">মোশন বা হালকা সেন্সর</translation>
 <translation id="4754461935447132332">শুধুমাত্র সুরক্ষিত সাইটের ক্ষেত্রেই অনুমতি দেওয়া আছে</translation>
 <translation id="4756388243121344051">&amp;ইতিহাস</translation>
-<translation id="4757993714154412917">আপনি এইমাত্র একটি প্রতারণামূলক সাইটে আপনার পাসওয়ার্ড লিখেছেন। আপনার অ্যাকাউন্ট সুরক্ষিত করার জন্য, Chromium আপনার সেভ করা পাসওয়ার্ড চেক করে নিতে সাজেস্ট করছে।</translation>
+<translation id="4757993714154412917">আপনি এইমাত্র একটি প্রতারণামূলক সাইটে আপনার পাসওয়ার্ড লিখেছেন। আপনার অ্যাকাউন্ট সুরক্ষিত করার জন্য, Mises আপনার সেভ করা পাসওয়ার্ড চেক করে নিতে সাজেস্ট করছে।</translation>
 <translation id="4758311279753947758">পরিচিতির তথ্য জুড়ুন</translation>
 <translation id="4761104368405085019">আপনার মাইক্রোফোন ব্যবহার করুন</translation>
 <translation id="4764776831041365478"><ph name="URL" />-এ ওয়েবপৃষ্ঠাটি অস্থায়ীভাবে ডাউন থাকতে পারে অথবা এটি স্থায়ীভাবে কোনো নতুন ওয়েব অ্যাড্রেসে সরানো হয়ে থাকতে পারে৷</translation>
@@ -1218,7 +1218,7 @@
         <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">সতর্কতা চালু করুন</translation>
 <translation id="4838327282952368871">স্বপ্নালু</translation>
-<translation id="4840250757394056958">আপনার Chrome ইতিহাস দেখুন</translation>
+<translation id="4840250757394056958">আপনার Mises ইতিহাস দেখুন</translation>
 <translation id="484462545196658690">অটো</translation>
 <translation id="4849865131988503897">আরও উন্নত করার জন্য দেওয়া পরামর্শ যাচাই করা</translation>
 <translation id="4850886885716139402">দেখুন</translation>
@@ -1267,7 +1267,7 @@
 <translation id="4995216769782533993">এই সাইটের সাথে আপনার কার্ডের বিবরণ শেয়ার করতে নিরাপত্তা কোডটি কনফার্ম করুন</translation>
 <translation id="4995474875135717171">সংশোধন করার তারিখ:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />, সাইট সার্চ এবং আপনার ডিফল্ট সার্চ ইঞ্জিন ম্যানেজ করতে Tab প্রেস করে Enter প্রেস করুন</translation>
-<translation id="5002932099480077015">সক্রিয় করা হলে, ফর্ম পূরণের কাজ দ্রুত করতে Chrome এই ডিভাইসে আপনার কার্ডের একটি কপি স্টোর করবে।</translation>
+<translation id="5002932099480077015">সক্রিয় করা হলে, ফর্ম পূরণের কাজ দ্রুত করতে Mises এই ডিভাইসে আপনার কার্ডের একটি কপি স্টোর করবে।</translation>
 <translation id="5011561501798487822">শনাক্ত করা ভাষা</translation>
 <translation id="5015510746216210676">মেশিনের নাম:</translation>
 <translation id="5017554619425969104">আপনার কপি করা টেক্সট</translation>
@@ -1298,7 +1298,7 @@
 <translation id="5088142053160410913">অপারেটরকে মেসেজ করুন</translation>
 <translation id="5089810972385038852">রাজ্য</translation>
 <translation id="5093232627742069661">জেড ফোল্ড</translation>
-<translation id="5094747076828555589">এই সার্ভার প্রমাণ করতে পারেনি যে এটি <ph name="DOMAIN" />; এর নিরাপত্তা সার্টিফিকেটটি Chromium এর নিকট বিশ্বাসযোগ্য নয়। কোনো ভুল কনফিগারেশনের কারণে অথবা কোনো আক্রমণকারী আপনার সংযোগ মাঝপথে আটকে দিচ্ছে বলে এমনটা হতে পারে।</translation>
+<translation id="5094747076828555589">এই সার্ভার প্রমাণ করতে পারেনি যে এটি <ph name="DOMAIN" />; এর নিরাপত্তা সার্টিফিকেটটি Mises এর নিকট বিশ্বাসযোগ্য নয়। কোনো ভুল কনফিগারেশনের কারণে অথবা কোনো আক্রমণকারী আপনার সংযোগ মাঝপথে আটকে দিচ্ছে বলে এমনটা হতে পারে।</translation>
 <translation id="5095208057601539847">প্রদেশ</translation>
 <translation id="5097099694988056070">CPU/RAM ব্যবহারের মতো ডিভাইসের পরিসংখ্যান</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1327,7 +1327,7 @@
 <translation id="5161506081086828129">স্ট্যাকার ৯</translation>
 <translation id="5164798890604758545">টেক্সট লেখা হয়েছে</translation>
 <translation id="516920405563544094"><ph name="CREDIT_CARD" />-এর জন্য সিভিসি লিখুন। আপনি কনফার্ম করার পর আপনার Google অ্যাকাউন্ট থেকে কার্ডের বিবরণ এই সাইটে শেয়ার করা হবে।</translation>
-<translation id="5169827969064885044">আপনি নিজের প্রতিষ্ঠানের অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Chrome এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
+<translation id="5169827969064885044">আপনি নিজের প্রতিষ্ঠানের অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Mises এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
 <translation id="5171045022955879922">খুঁজুন বা URL লিখুন</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">যন্ত্র</translation>
@@ -1336,7 +1336,7 @@
 <translation id="51918995459521422"><ph name="ORIGIN" /> একাধিক ফাইল ডাউনলোড করতে চায়</translation>
 <translation id="519422657042045905">ব্যাখ্যা নেই</translation>
 <translation id="5201306358585911203">এই পৃষ্ঠার এম্বেডেড করা একটি পৃষ্ঠায় এটি দেখানো হচ্ছে</translation>
-<translation id="5204468114771111727">আপনি এখনই যে পাসওয়ার্ড ব্যবহার করলেন, সেটি Chrome হ্যাক হওয়া ডেটাবেসে পেয়েছে। Google Assistant আপনার পাসওয়ার্ড অটোমেটিক পরিবর্তন করতে পারবে।</translation>
+<translation id="5204468114771111727">আপনি এখনই যে পাসওয়ার্ড ব্যবহার করলেন, সেটি Mises হ্যাক হওয়া ডেটাবেসে পেয়েছে। Google Assistant আপনার পাসওয়ার্ড অটোমেটিক পরিবর্তন করতে পারবে।</translation>
 <translation id="5205222826937269299">নাম প্রয়োজন</translation>
 <translation id="5209518306177824490">SHA-1 আঙুলের ছাপ</translation>
 <translation id="5209670883520018268">ট্রে ২০</translation>
@@ -1349,7 +1349,7 @@
 <translation id="5233045608889518621">12x19</translation>
 <translation id="5234764350956374838">খারিজ</translation>
 <translation id="5250209940322997802">"নেটওয়ার্কে কানেক্ট করুন"</translation>
-<translation id="52517543715119994">Chrome-এর ফিচার সম্পর্কে জানুন</translation>
+<translation id="52517543715119994">Mises-এর ফিচার সম্পর্কে জানুন</translation>
 <translation id="5251803541071282808">ক্লাউড</translation>
 <translation id="5252000469029418751">C7 (Envelope)</translation>
 <translation id="5254043433801397071">প্রিন্ট কন্টেন্ট অপ্টিমাইজ করুন</translation>
@@ -1368,7 +1368,7 @@
 <translation id="5287240709317226393">কুকিজ দেখান</translation>
 <translation id="5287456746628258573">এই সাইটটি পুরনো সিকিউরিটি কনফিগারেশন ব্যবহার করে তাই আপনার সংবেদনশীল তথ্য (যেমন, পাসওয়ার্ড বা ক্রেডিট কার্ডের নম্বর) এই সাইটে পাঠানোর সময় এইসব তথ্যের নিরাপত্তা বিঘ্নিত হতে পারে।</translation>
 <translation id="5288108484102287882">নীতির মূল্য যাচাইকরণ থেকে সতর্কতা পাওয়া গেছে</translation>
-<translation id="5288808348893593856">Chrome থেকে কোনও সতর্কতা না পাওয়া পর্যন্ত সাইটের কানেকশনটি সুরক্ষিত।</translation>
+<translation id="5288808348893593856">Mises থেকে কোনও সতর্কতা না পাওয়া পর্যন্ত সাইটের কানেকশনটি সুরক্ষিত।</translation>
 <translation id="5289384342738547352">মাল্টিপল ডকুমেন্ট ম্যানেজ করা</translation>
 <translation id="5299298092464848405">নীতি বিশ্লেষণ করার সময় ত্রুটি</translation>
 <translation id="5300589172476337783">দেখান</translation>
@@ -1383,13 +1383,13 @@
 <translation id="5324080437450482387">পরিচিতির তথ্য বেছে নিন</translation>
 <translation id="5329858041417644019">আপনার ব্রাউজারটি ম্যানেজ করা হয়নি</translation>
 <translation id="5332219387342487447">শিপিংয়ের মাধ্যম</translation>
-<translation id="5333022057423422993">Chrome-এর হিসেবে আপনার এখনই ব্যবহার করা পাসওয়ার্ডের তথ্য চুরি হয়ে গেছে। আপনার অ্যাকাউন্ট সুরক্ষিত রাখতে, আপনার সেভ করা পাসওয়ার্ড চেক করার জন্য সাজেস্ট করছি।</translation>
+<translation id="5333022057423422993">Mises-এর হিসেবে আপনার এখনই ব্যবহার করা পাসওয়ার্ডের তথ্য চুরি হয়ে গেছে। আপনার অ্যাকাউন্ট সুরক্ষিত রাখতে, আপনার সেভ করা পাসওয়ার্ড চেক করার জন্য সাজেস্ট করছি।</translation>
 <translation id="5334013548165032829">বিস্তারিত সিস্টেম লগ</translation>
 <translation id="5334145288572353250">ঠিকানা সেভ করবেন?</translation>
 <translation id="5340250774223869109">অ্যাপ্লিকেশনটি ব্লক করা আছে</translation>
 <translation id="534295439873310000">NFC ডিভাইস</translation>
 <translation id="5344579389779391559">এই পৃষ্ঠাতে আপনাকে চার্জ করা হতে পারে</translation>
-<translation id="5347645913823149105">Chrome বোতামে ফন্ট কাস্টমাইজ করুন, Chrome-এ ফন্ট সাইজ এবং টাইপফেস কাস্টমাইজ করতে Enter প্রেস করুন</translation>
+<translation id="5347645913823149105">Mises বোতামে ফন্ট কাস্টমাইজ করুন, Mises-এ ফন্ট সাইজ এবং টাইপফেস কাস্টমাইজ করতে Enter প্রেস করুন</translation>
 <translation id="5355557959165512791">ওয়েবসাইটটির সার্টিফিকেট তুলে নেওয়ার কারণে আপনি এখন <ph name="SITE" /> এ যেতে পারবেন না। নেটওয়ার্ক সমস্যা এবং আক্রমণ সাধারণত সাময়িকভাবে হয়, তাই এই পৃষ্ঠাটি সম্ভবত পরে কাজ করবে।</translation>
 <translation id="5356837363448394805">মুখ লাল হয়ে যাওয়া</translation>
 <translation id="536296301121032821">নীতি সেটিংস সংরক্ষণ করতে ব্যর্থ হয়েছে</translation>
@@ -1435,14 +1435,14 @@
 <translation id="5523118979700054094">নীতি নাম</translation>
 <translation id="55293785478302737">ধারের দিকে সেলাই</translation>
 <translation id="553484882784876924">Prc6 (Envelope)</translation>
-<translation id="5535133333442455806">ব্রাউজ করা ডেটা মোছার বোতাম, Chrome সেটিংসে আপনার ব্রাউজিং ইতিহাস, কুকি, ক্যাশে ও আরও অনেক কিছু মুছতে Enter প্রেস করুন</translation>
+<translation id="5535133333442455806">ব্রাউজ করা ডেটা মোছার বোতাম, Mises সেটিংসে আপনার ব্রাউজিং ইতিহাস, কুকি, ক্যাশে ও আরও অনেক কিছু মুছতে Enter প্রেস করুন</translation>
 <translation id="5536214594743852365">"<ph name="SECTION" />" বিভাগ দেখুন</translation>
 <translation id="5539243836947087108">র‍্যাফট</translation>
 <translation id="5540224163453853">অনুরোধকৃত নিবন্ধ খুঁজে পাওয়া যায়নি৷</translation>
 <translation id="5541086400771735334">মেলবক্স ৭</translation>
 <translation id="5541546772353173584">ইমেল আইডি যোগ করুন</translation>
 <translation id="5545756402275714221">আপনার জন্য নিবন্ধ</translation>
-<translation id="5552137475244467770">Chrome মাঝে মাঝে অনলাইনে প্রকাশ করা তালিকা অনুযায়ী আপনার পাসওয়ার্ড চেক করে। এটি করার সময় আপনার পাসওয়ার্ড ও ইউজারনেম এনক্রিপ্ট করা থাকে, তাই সেগুলি কেউ দেখতে পাবে না, এমনকি Google-ও না।</translation>
+<translation id="5552137475244467770">Mises মাঝে মাঝে অনলাইনে প্রকাশ করা তালিকা অনুযায়ী আপনার পাসওয়ার্ড চেক করে। এটি করার সময় আপনার পাসওয়ার্ড ও ইউজারনেম এনক্রিপ্ট করা থাকে, তাই সেগুলি কেউ দেখতে পাবে না, এমনকি Google-ও না।</translation>
 <translation id="5556459405103347317">রিলোড করুন</translation>
 <translation id="5560088892362098740">মেয়াদ শেষের তারিখ</translation>
 <translation id="55635442646131152">ডকুমেন্ট আউটলাইন</translation>
@@ -1491,7 +1491,7 @@
 <translation id="571403275720188526">(arm64)</translation>
 <translation id="5720705177508910913">বর্তমান ব্যবহারকারী</translation>
 <translation id="5728056243719941842">C5 (Envelope)</translation>
-<translation id="5730040223043577876">Chrome-এর নীতি অনুযায়ী আপনার পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
+<translation id="5730040223043577876">Mises-এর নীতি অনুযায়ী আপনার পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{Google অ্যাকাউন্টে কার্ড সেভ করুন}one{Google অ্যাকাউন্টে কার্ড সেভ করুন}other{Google অ্যাকাউন্টে কার্ড সেভ করুন}}</translation>
 <translation id="5745733273847572235">আপনার লোকেশন জানতে চাইতে পারে</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{এই কার্ডের জন্য ভার্চুয়াল নম্বর ব্যবহার করুন}one{একটি কার্ড বেছে নিন}other{একটি কার্ড বেছে নিন}}</translation>
@@ -1506,12 +1506,12 @@
 <translation id="5784606427469807560">আপনার কার্ডটি নিশ্চিত করতে একটি সমস্যা হয়েছিল৷ আপনার ইন্টারনেট সংযোগ পরীক্ষা করে আবার চেষ্টা করুন৷</translation>
 <translation id="5785756445106461925">উপরন্তু, এই পৃষ্ঠাতে অন্যান্য সংস্থান অন্তর্ভুক্ত রয়েছে যা নিরাপদ নয়৷ এই সংস্থানগুলি ট্রানজিটের সময় অন্যরা দেখতে পাবে এবং পৃষ্ঠাটির চেহারাটি পরিবর্তন করতে কোনও আক্রমণকারী এর পরিবর্তন করতে পারেন৷</translation>
 <translation id="5786044859038896871">আপনি কি আপনার কার্ডের তথ্য পূরণ করতে চান?</translation>
-<translation id="578633867165174378">Chrome-এর হিসেবে আপনার এখনই ব্যবহার করা পাসওয়ার্ডের তথ্য চুরি হয়ে গেছে। আমরা সাজেস্ট করছি এখনই এই পাসওয়ার্ড পরিবর্তন করুন।</translation>
+<translation id="578633867165174378">Mises-এর হিসেবে আপনার এখনই ব্যবহার করা পাসওয়ার্ডের তথ্য চুরি হয়ে গেছে। আমরা সাজেস্ট করছি এখনই এই পাসওয়ার্ড পরিবর্তন করুন।</translation>
 <translation id="5789643057113097023">.</translation>
 <translation id="5803412860119678065">আপনি কি আপনার <ph name="CARD_DETAIL" /> এর তথ্য পূরণ করতে চান?</translation>
 <translation id="5804241973901381774">অনুমতিগুলি</translation>
 <translation id="5810442152076338065"><ph name="DOMAIN" />-এ আপনার সংযোগ একটি অপ্রচলিত সাইফার স্যুট ব্যবহার করে এনক্রিপ্ট করা হয়েছে৷</translation>
-<translation id="5812947184178430888">Chrome নিরাপত্তা সংক্রান্ত কোনও ইভেন্টের ব্যাপারে ফ্ল্যাগ করে জানালে, সেই ইভেন্টের সাথে সম্পর্কিত প্রাসঙ্গিক ডেটা আপনার অ্যাডমিনিস্ট্রেটরকে পাঠিয়ে দেওয়া হয়। এর মধ্যে Chrome-এ আপনার ব্রাউজ করা পৃষ্ঠার URL, ফাইলের নাম বা মেটাডেটা এবং ওয়েব ভিত্তিক অ্যাপ্লিকেশন, আপনার ডিভাইস ও Chrome-এ সাইন-ইন করার সময় আপনার ব্যবহার করা ইউজারনেম থাকতে পারে।</translation>
+<translation id="5812947184178430888">Mises নিরাপত্তা সংক্রান্ত কোনও ইভেন্টের ব্যাপারে ফ্ল্যাগ করে জানালে, সেই ইভেন্টের সাথে সম্পর্কিত প্রাসঙ্গিক ডেটা আপনার অ্যাডমিনিস্ট্রেটরকে পাঠিয়ে দেওয়া হয়। এর মধ্যে Mises-এ আপনার ব্রাউজ করা পৃষ্ঠার URL, ফাইলের নাম বা মেটাডেটা এবং ওয়েব ভিত্তিক অ্যাপ্লিকেশন, আপনার ডিভাইস ও Mises-এ সাইন-ইন করার সময় আপনার ব্যবহার করা ইউজারনেম থাকতে পারে।</translation>
 <translation id="5813119285467412249">&amp;যোগ করাকে পুনরায় করুন</translation>
 <translation id="5817918615728894473">যুক্ত করুন</translation>
 <translation id="5824687817967109979">{NUM_CARDS,plural, =1{আপনি পেমেন্ট করলে এই কার্ডে চার্জ করা হবে, তবে এটির আসল নম্বর এই সাইটের সাথে শেয়ার করা হবে না। অতিরিক্ত নিরাপত্তার জন্য, একটি অস্থায়ী সিভিসি জেনারেট করা হবে।}one{আপনি পেমেন্ট করলে বেছে নেওয়া কার্ডটিতে চার্জ করা হবে, তবে এটির আসল নম্বর এই সাইটের সাথে শেয়ার করা হবে না। অতিরিক্ত নিরাপত্তার জন্য, একটি অস্থায়ী সিভিসি জেনারেট করা হবে।}other{আপনি পেমেন্ট করলে বেছে নেওয়া কার্ডটিতে চার্জ করা হবে, তবে এটির আসল নম্বর এই সাইটের সাথে শেয়ার করা হবে না। অতিরিক্ত নিরাপত্তার জন্য, একটি অস্থায়ী সিভিসি জেনারেট করা হবে।}}</translation>
@@ -1601,7 +1601,7 @@
 <translation id="610911394827799129"><ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />-এ আপনার Google অ্যাকাউন্টের অন্যান্য ধরনের ব্রাউজিংয়ের ইতিহাস থাকতে পারে</translation>
 <translation id="6116338172782435947">ক্লিপবোর্ডে কপি করা টেক্সট এবং ছবি দেখতে</translation>
 <translation id="6120179357481664955">আপনার UPI আইডি মনে আছে?</translation>
-<translation id="6124432979022149706">Chrome Enterprise কানেক্টর</translation>
+<translation id="6124432979022149706">Mises Enterprise কানেক্টর</translation>
 <translation id="6127379762771434464">আইটেম সরানো হয়েছে</translation>
 <translation id="6146055958333702838">সব কেবল পরীক্ষা করুন এবং আপনি ব্যবহার করছেন এমন যেকোনো রাউটার, মডেম বা অন্যান্য নেটওয়ার্ক ডিভাইসগুলি আবার চালু করুন।</translation>
 <translation id="614940544461990577">এটি করে দেখুন:</translation>
@@ -1617,35 +1617,35 @@
 <translation id="619448280891863779">স্ক্রিনে উইন্ডো খুলতে এবং রাখতে চাইলে অনুমতি চাইতে পারে</translation>
 <translation id="6196640612572343990">তৃতীয় পক্ষের কুকিজ অবরুদ্ধ করুন</translation>
 <translation id="6203231073485539293">আপনার ইন্টারনেট সংযোগ পরীক্ষা করুন</translation>
-<translation id="6218753634732582820">Chromium থেকে ঠিকানা সরাবেন?</translation>
+<translation id="6218753634732582820">Mises থেকে ঠিকানা সরাবেন?</translation>
 <translation id="622039917539443112">প্যারালাল ফোল্ড</translation>
 <translation id="6221345481584921695">Google নিরাপদ ব্রাউজিং সাম্প্রতিক <ph name="SITE" />-এ <ph name="BEGIN_LINK" />ম্যালওয়্যার শনাক্ত করেছে<ph name="END_LINK" />। যেসব ওয়েবসাইট সাধারণত নিরাপদ থাকে সেগুলি কখনও কখনও ম্যালওয়্যার দ্বারা আক্রান্ত হয়। <ph name="SUBRESOURCE_HOST" />, একটি পরিচিত ম্যালওয়্যার ডিস্ট্রিবিউটরের, থেকে ক্ষতিকারক কন্টেন্ট আসে। কয়েক ঘণ্টা পরে আপনার ফিরে আসা উচিত।</translation>
-<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দমতো সাজিয়ে নিতে Tab বোতাম প্রেস করে Enter প্রেস করুন</translation>
+<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংস থেকে আপনার অ্যাক্সেসিবিলিটি টুল পছন্দমতো সাজিয়ে নিতে Tab বোতাম প্রেস করে Enter প্রেস করুন</translation>
 <translation id="6233160458685643793">দাঁত বের করে হাসা</translation>
 <translation id="6234122620015464377">প্রতিটি ডকুমেন্টের শেষে ট্রিম করুন</translation>
 <translation id="6240447795304464094">Google Pay লোগো</translation>
 <translation id="6241121617266208201">সাজেশন মেনু লুকান</translation>
 <translation id="624499991300733384">প্রিন্ট কম্পোজিটর পরিষেবা</translation>
-<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome-এ ডাউনলোড করা ফাইল ম্যানেজ করতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
+<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises-এ ডাউনলোড করা ফাইল ম্যানেজ করতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
 <translation id="6254436959401408446">এই পৃষ্ঠাটি খোলার জন্য পর্যাপ্ত মেমরি নেই</translation>
 <translation id="6259156558325130047">&amp;পুনর্বিন্যাসকে আবার করুন</translation>
 <translation id="6263376278284652872"><ph name="DOMAIN" /> বুকমার্কগুলি</translation>
 <translation id="6264485186158353794">সুরক্ষাতে ফিরুন</translation>
 <translation id="6265794661083428563"><ph name="POLICY_NAME" />-এর নীতির মান কপি করুন</translation>
 <translation id="6266934640124581640">হালকা টিল</translation>
-<translation id="6272088941196661550">Chrome ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে সার্চ করা আবার চালু করুন</translation>
+<translation id="6272088941196661550">Mises ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখতে সার্চ করা আবার চালু করুন</translation>
 <translation id="6272383483618007430">Google আপডেট</translation>
 <translation id="6276112860590028508">পড়ার তালিকার পৃষ্ঠাগুলি এখানে দেখা যাবে</translation>
 <translation id="627746635834430766">পরের বার আরও দ্রুত পেমেন্ট করা জন্য আপনার এই কার্ড এবং বিলিং ঠিকানাটি Google অ্যাকাউন্টে সেভ করে রাখুন।</translation>
 <translation id="6279098320682980337">ভার্চুয়াল কার্ডের নম্বর দেওয়া হয়নি? কপি করতে কার্ডের বিবরণে ক্লিক করুন</translation>
 <translation id="6280223929691119688">এই ঠিকানায় ডেলিভারি করা যাবে না। অন্য ঠিকানা বেছে নিন।</translation>
 <translation id="6282194474023008486">পোস্টাল কোড</translation>
-<translation id="6285507000506177184">Chrome বোতামে ডাউনলোড ম্যানেজ করুন, Chrome-এ ডাউনলোড করা ফাইল ম্যানেজ করতে Enter প্রেস করুন</translation>
+<translation id="6285507000506177184">Mises বোতামে ডাউনলোড ম্যানেজ করুন, Mises-এ ডাউনলোড করা ফাইল ম্যানেজ করতে Enter প্রেস করুন</translation>
 <translation id="6289939620939689042">পৃষ্ঠার রঙ</translation>
 <translation id="6290238015253830360">আপনার প্রস্তাবিত নিবন্ধগুলি এখানে দেখা যাবে</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">CVC:</translation>
-<translation id="6302269476990306341">Chrome-এ Google অ্যাসিস্ট্যান্ট এতক্ষণ পরে বন্ধ হয়ে যাবে:</translation>
+<translation id="6302269476990306341">Mises-এ Google অ্যাসিস্ট্যান্ট এতক্ষণ পরে বন্ধ হয়ে যাবে:</translation>
 <translation id="6305205051461490394"><ph name="URL" /> এ পৌঁছানো যাচ্ছে না</translation>
 <translation id="6312113039770857350">Webpage not available</translation>
 <translation id="63172326633386613">অ্যাক্সেসিবিলিটি সেটিংস ম্যানেজ করুন</translation>
@@ -1659,7 +1659,7 @@
 <translation id="6340739886198108203">গোপনীয় কন্টেন্ট দেখা গেলে অ্যাডমিনিস্ট্রেটরের নীতি স্ক্রিনশট নেওয়া অথবা রেকর্ডিং করার সাজেশন দেয় না:</translation>
 <translation id="6349101878882523185"><ph name="APP_NAME" /> ইনস্টল করুন</translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{একটিও নয়}=1{১টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য, সিঙ্ক করা হয়েছে)}=2{২টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য, সিঙ্ক করা হয়েছে)}one{#টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য, সিঙ্ক করা হয়েছে)}other{#টি পাসওয়ার্ড (<ph name="DOMAIN_LIST" />-এর জন্য, সিঙ্ক করা হয়েছে)}}</translation>
-<translation id="6355392890578844978">কোনও কোম্পানি বা অন্য কোনও সংস্থা এই ব্রাউজার ম্যানেজ করে না। এই ডিভাইসের অ্যাক্টিভিটি Chromium-এর বাইরে থেকে ম্যানেজ করা যেতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">কোনও কোম্পানি বা অন্য কোনও সংস্থা এই ব্রাউজার ম্যানেজ করে না। এই ডিভাইসের অ্যাক্টিভিটি Mises-এর বাইরে থেকে ম্যানেজ করা যেতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">এর অর্থ কী?</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />প্রক্সি, ফায়ারওয়াল এবং নিরাপদ DNS কনফিগারেশন পরীক্ষা করে দেখা হচ্ছে<ph name="END_LINK" /></translation>
@@ -1680,7 +1680,7 @@
 <translation id="6404511346730675251">বুকমার্ক সম্পাদনা করুন</translation>
 <translation id="6406765186087300643">C0 (Envelope)</translation>
 <translation id="6410264514553301377">Enter the expiration date and CVC for <ph name="CREDIT_CARD" /></translation>
-<translation id="6415778972515849510">আপনার পাসওয়ার্ড পরিবর্তন করে Google অ্যাকাউন্ট সুরক্ষিত রাখতে Chromium সাহায্য করতে পারবে।</translation>
+<translation id="6415778972515849510">আপনার পাসওয়ার্ড পরিবর্তন করে Google অ্যাকাউন্ট সুরক্ষিত রাখতে Mises সাহায্য করতে পারবে।</translation>
 <translation id="6423385022588644828">এখন থেকে টাচ আইডি ব্যবহার করে আপনার কার্ড আরও দ্রুত কনফার্ম করুন</translation>
 <translation id="6425092077175753609">মেটারিয়াল</translation>
 <translation id="6427730057873428458">গেট ফোল্ড</translation>
@@ -1709,7 +1709,7 @@
 <translation id="6499038740797743453">পাসওয়ার্ড রিসেট করবেন?</translation>
 <translation id="6502991525169604759">আপনার করা এডিট ছাড়া</translation>
 <translation id="6506959208958864820">খাম</translation>
-<translation id="6508722015517270189">Chrome পুনরায় চালু করুন</translation>
+<translation id="6508722015517270189">Mises পুনরায় চালু করুন</translation>
 <translation id="6513005815064132016">ক্যামেরার পজিশন ট্র্যাক করতে অনুমতি চাইতে পারে</translation>
 <translation id="6517596291481585650">সতর্কতা: এই নীতি কোনও তালিকা নয় বলে সেটি নীতি অনুযায়ী তালিকা হিসেবে মার্জ করা হয়নি।</translation>
 <translation id="6518133107902771759">যাচাই করুন</translation>
@@ -1725,10 +1725,10 @@
 <translation id="6579630537141957243">MIDI ডিভাইস কানেক্ট করবেন?</translation>
 <translation id="6579990219486187401">হালকা গোলাপি</translation>
 <translation id="6583674473685352014">B6 (Envelope)</translation>
-<translation id="6587182488465657433">Chrome-এর হিসেবে আপনার এখনই ব্যবহার করা পাসওয়ার্ডের তথ্য চুরি হয়ে গেছে। আপনার অ্যাকাউন্ট সুরক্ষিত রাখতে আমাদের সাজেশন, পাসওয়ার্ড এখনই পরিবর্তন করুন এবং সেভ করা পাসওয়ার্ড চেক করুন।</translation>
+<translation id="6587182488465657433">Mises-এর হিসেবে আপনার এখনই ব্যবহার করা পাসওয়ার্ডের তথ্য চুরি হয়ে গেছে। আপনার অ্যাকাউন্ট সুরক্ষিত রাখতে আমাদের সাজেশন, পাসওয়ার্ড এখনই পরিবর্তন করুন এবং সেভ করা পাসওয়ার্ড চেক করুন।</translation>
 <translation id="6587923378399804057">আপনার কপি করা লিঙ্ক</translation>
 <translation id="6591833882275308647">আপনার <ph name="DEVICE_TYPE" /> ম্যানেজ করা হয়নি</translation>
-<translation id="6592952801936330159">'সাইট সেটিংস' বোতাম ম্যানেজ করুন, Chrome সেটিংসে বিভিন্ন সাইটের স্টোর করা ডেটা ও অনুমতি ম্যানেজ করতে Enter প্রেস করুন</translation>
+<translation id="6592952801936330159">'সাইট সেটিংস' বোতাম ম্যানেজ করুন, Mises সেটিংসে বিভিন্ন সাইটের স্টোর করা ডেটা ও অনুমতি ম্যানেজ করতে Enter প্রেস করুন</translation>
 <translation id="6596325263575161958">এনক্রিপশন বিকল্পগুলি</translation>
 <translation id="6609880536175561541">Prc7 (Envelope)</translation>
 <translation id="6615297766614333076">স্ট্যাকার ২</translation>
@@ -1742,7 +1742,7 @@
 <translation id="6643016212128521049">সাফ করুন</translation>
 <translation id="6645291930348198241">কুকি ও সাইট ডেটা অ্যাক্সেস করার অনুমতি দিন।</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{কিছুই নয়}=1{১টি সাইট থেকে (আপনাকে আপনার Google অ্যাকাউন্ট থেকে সাইন-আউট করা হবে না)}one{#টি সাইট থেকে (আপনাকে আপনার Google অ্যাকাউন্ট থেকে সাইন-আউট করা হবে না)}other{#টি সাইট থেকে (আপনাকে আপনার Google অ্যাকাউন্ট থেকে সাইন-আউট করা হবে না)}}</translation>
-<translation id="6648459603387803038">আপনার অ্যাডমিনিস্ট্রেটর রিমোট লোকেশন থেকে আপনার ব্রাউজারের সেটআপ পরিবর্তন করতে পারেন। এই ডিভাইসের অ্যাক্টিভিটি Chrome-এর বাইরে থেকেও ম্যানেজ করা যেতে পারে।</translation>
+<translation id="6648459603387803038">আপনার অ্যাডমিনিস্ট্রেটর রিমোট লোকেশন থেকে আপনার ব্রাউজারের সেটআপ পরিবর্তন করতে পারেন। এই ডিভাইসের অ্যাক্টিভিটি Mises-এর বাইরে থেকেও ম্যানেজ করা যেতে পারে।</translation>
 <translation id="6648524591329069940">Serif হরফ</translation>
 <translation id="6651270836885078973">এটি ম্যানেজ করে:</translation>
 <translation id="6652101503459149953">Windows Hello ব্যবহার করুন</translation>
@@ -1752,13 +1752,13 @@
 <translation id="666259744093848177">(x86_64-এর অনুবাদ করা হয়েছে)</translation>
 <translation id="6663846344464066639">নমস্কার</translation>
 <translation id="6665553082534466207">ডানদিকে ট্রিপল পাঞ্চ</translation>
-<translation id="6671697161687535275">Chromium থেকে ফর্ম প্রস্তাবনা সরাবেন?</translation>
+<translation id="6671697161687535275">Mises থেকে ফর্ম প্রস্তাবনা সরাবেন?</translation>
 <translation id="6685834062052613830">সাইন-আউট করে সেট-আপ সম্পূর্ণ করুন</translation>
 <translation id="6687335167692595844">ফন্ট সাইজের অনুরোধ করা হয়েছে</translation>
 <translation id="6688743156324860098">আপডেট করুন…</translation>
 <translation id="6688775486821967877">এই মুহূর্তে ভার্চুয়াল কার্ড উপলভ্য নয়, পরে আবার চেষ্টা করুন</translation>
 <translation id="6689249931105087298">ব্ল্যাক পয়েন্ট কম্প্রেশনের সাথে রিলেটিভ</translation>
-<translation id="6689271823431384964">আপনি সাইন-ইন করে আছেন বলে, Chrome আপনার কার্ডগুলি Google অ্যাকাউন্টে সেভ করতে চান কিনা তা জানতে চাইছে। সেটিংস থেকে আপনি এই বিকল্প পরিবর্তন করতে পারেন। আপনার অ্যাকাউন্ট থেকেই কার্ডহোল্ডারের নাম পাওয়া গেছে।</translation>
+<translation id="6689271823431384964">আপনি সাইন-ইন করে আছেন বলে, Mises আপনার কার্ডগুলি Google অ্যাকাউন্টে সেভ করতে চান কিনা তা জানতে চাইছে। সেটিংস থেকে আপনি এই বিকল্প পরিবর্তন করতে পারেন। আপনার অ্যাকাউন্ট থেকেই কার্ডহোল্ডারের নাম পাওয়া গেছে।</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />, Google অ্যাকাউন্টে আপনার ডিভাইস খুঁজে দেখতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
 <translation id="6696588630955820014">এই ট্যাব বোতামটি শেয়ার করুন। লিংক শেয়ার করে, QR কোড তৈরি করে, কাস্ট করে, এবং আরও অন্যান্য বিকল্পের সাহায্যে এই ট্যাবটি শেয়ার করতে Enter প্রেস করুন</translation>
 <translation id="6698381487523150993">তৈরি হয়েছে:</translation>
@@ -1804,7 +1804,7 @@
 <translation id="6883221904761970440">নিরাপদে পেমেন্ট ক্রেডেনশিয়াল যাচাই করার শিট বন্ধ করা হয়েছে</translation>
 <translation id="6884662655240309489">সাইজ ১</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" /> <ph name="SHORT_URL" /></translation>
-<translation id="6888584790432772780">পৃষ্ঠাটি যাতে সহজপাঠ্য হয়, তার জন্য Chrome এটিকে সহজ করে তুলেছে। একটি অসুরক্ষিত কানেকশন ব্যবহার করে Chrome আবার মূল পৃষ্ঠায় ফিরে এসেছে।</translation>
+<translation id="6888584790432772780">পৃষ্ঠাটি যাতে সহজপাঠ্য হয়, তার জন্য Mises এটিকে সহজ করে তুলেছে। একটি অসুরক্ষিত কানেকশন ব্যবহার করে Mises আবার মূল পৃষ্ঠায় ফিরে এসেছে।</translation>
 <translation id="6890443033788248019">লোকেশন অ্যাক্সেস করার অনুমতি দেবেন?</translation>
 <translation id="6891596781022320156">নীতি স্তর সমর্থিত নয়।</translation>
 <translation id="6895143722905299846">ভার্চুয়াল সংখ্যা:</translation>
@@ -1862,7 +1862,7 @@
 <translation id="7053983685419859001">ব্লক করুন</translation>
 <translation id="7058163556978339998"><ph name="ISSUER" /> এই ওয়েবসাইটের সার্টিফিকেট ইস্যু করেছে এবং <ph name="BROWSER" /> সেটি যাচাই করেছে।</translation>
 <translation id="7062635574500127092">নীলচে সবুজ</translation>
-<translation id="706295145388601875">Chrome সেটিংসে ঠিকানা যোগ ও ম্যানেজ করুন</translation>
+<translation id="706295145388601875">Mises সেটিংসে ঠিকানা যোগ ও ম্যানেজ করুন</translation>
 <translation id="7064851114919012435">পরিচিতি তথ্য</translation>
 <translation id="7068733155164172741"><ph name="OTP_LENGTH" />-সংখ্যার কোড লিখুন</translation>
 <translation id="7070090581017165256">এই সাইটের বিষয়ে</translation>
@@ -1873,9 +1873,9 @@
 <translation id="7083258188081898530">ট্রে ৯</translation>
 <translation id="7086090958708083563">ব্যবহারকারী আপলোড করার অনুরোধ জানিয়েছেন</translation>
 <translation id="7087282848513945231">দেশ</translation>
-<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে বিভিন্ন সাইটের স্টোর করা ডেটা ও অনুমতি ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
+<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে বিভিন্ন সাইটের স্টোর করা ডেটা ও অনুমতি ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
 <translation id="7096937462164235847">এই ওয়েবসাইটের পরিচয় যাচাই করা যায়নি।</translation>
-<translation id="7102554173784142865">Chrome ডাইনো গেম খেলুন</translation>
+<translation id="7102554173784142865">Mises ডাইনো গেম খেলুন</translation>
 <translation id="7108338896283013870">লুকান</translation>
 <translation id="7108634116785509031"><ph name="HOST" /> আপনার ক্যামেরা ব্যবহার করতে চায়</translation>
 <translation id="7108819624672055576">একটি এক্সটেনশন দ্বারা অনুমোদিত</translation>
@@ -1951,12 +1951,12 @@
 <translation id="7353601530677266744">কম্যান্ড লাইন</translation>
 <translation id="7359588939039777303">বিজ্ঞাপন ব্লক করা হয়েছে।</translation>
 <translation id="7363096869660964304">তবে, আপনি অদৃশ্য থাকবেন না। ছদ্মবেশী মোড ব্যবহার করলেও আপনার ব্রাউজিং ইতিহাস নিয়োগকর্তা, ইন্টারনেট পরিষেবা প্রদানকারী বা আপনার দেখা ওয়েবসাইটের থেকে লুকানো যাবে না।</translation>
-<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে ঠিকানা যোগ ও ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
+<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে ঠিকানা যোগ ও ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
 <translation id="7365849542400970216">আপনি জানেন আপনার ডিভাইস কী কাজে ব্যবহার হয়?</translation>
 <translation id="7366362069757178916">পেমেন্ট হ্যান্ডলার</translation>
 <translation id="7372973238305370288">ফলাফল খুঁজুন</translation>
 <translation id="7374461526650987610">প্রোটোকল পরিচালনাকারী</translation>
-<translation id="7374733840632556089">আপনার ডিভাইসে আপনি বা অন্য কেউ একটি সার্টিফিকেট ইনস্টল করায় এই সমস্যা দেখা দিচ্ছে। এই সার্টিফিকেট ব্যবহার করে নেটওয়ার্ক ইন্টারসেপ্ট এবং মনিটর করা হয়, তবে Chrome এটিকে বিশ্বস্ত বলে মনে করে না। কোনও স্কুলের বা কোম্পানি নেটওয়ার্কের মতো কিছু নেটওয়ার্ক মনিটর করার প্রয়োজন হলেও, Chrome দেখে নেয় যে, আপনি যদি এটি বন্ধ করতে নাও পারেন, কী ঘটছে সেই সম্পর্কে যেন জানতে পারেন। ওয়েবে অ্যাক্সেস আছে, এমন যেকোনও ব্রাউজার বা অ্যাপের উপর নজর রাখা হতে পারে।</translation>
+<translation id="7374733840632556089">আপনার ডিভাইসে আপনি বা অন্য কেউ একটি সার্টিফিকেট ইনস্টল করায় এই সমস্যা দেখা দিচ্ছে। এই সার্টিফিকেট ব্যবহার করে নেটওয়ার্ক ইন্টারসেপ্ট এবং মনিটর করা হয়, তবে Mises এটিকে বিশ্বস্ত বলে মনে করে না। কোনও স্কুলের বা কোম্পানি নেটওয়ার্কের মতো কিছু নেটওয়ার্ক মনিটর করার প্রয়োজন হলেও, Mises দেখে নেয় যে, আপনি যদি এটি বন্ধ করতে নাও পারেন, কী ঘটছে সেই সম্পর্কে যেন জানতে পারেন। ওয়েবে অ্যাক্সেস আছে, এমন যেকোনও ব্রাউজার বা অ্যাপের উপর নজর রাখা হতে পারে।</translation>
 <translation id="7375818412732305729">ফাইল অ্যাটাচ করা হয়েছে</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">মিডিয়ার নিয়ন্ত্রণ</translation>
@@ -1977,14 +1977,14 @@
       &lt;li&gt;&lt;strong&gt;স্টার্ট-আপের ধরন&lt;/strong&gt;, বিকল্পে গিয়ে&lt;strong&gt;বন্ধ আছে&lt;/strong&gt; বিকল্পটি বেছে নিন
       &lt;li&gt;&lt;strong&gt;পরিষেবার স্ট্যাটাসে&lt;/strong&gt; গিয়ে, &lt;strong&gt;থামান&lt;/strong&gt; বোতামে ক্লিক করুন
       &lt;li&gt;&lt;strong&gt;প্রয়োগ করুন&lt;/strong&gt;-এ ক্লিক করে, &lt;strong&gt;ঠিক আছে&lt;/strong&gt;বোতামে ক্লিক করুন
-      &lt;li&gt;কম্পিউটার থেকে সফ্টওয়্যারটি স্থায়ীভাবে সরিয়ে দেওয়ার পদ্ধতি জানতে &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Chrome সহায়তা কেন্দ্রে&lt;/a&gt; যান
+      &lt;li&gt;কম্পিউটার থেকে সফ্টওয়্যারটি স্থায়ীভাবে সরিয়ে দেওয়ার পদ্ধতি জানতে &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Mises সহায়তা কেন্দ্রে&lt;/a&gt; যান
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">সুন্দর</translation>
 <translation id="7416351320495623771">পাসওয়ার্ডগুলি পরিচালনা করুন…</translation>
 <translation id="7419106976560586862">প্রোফাইল পাথ</translation>
 <translation id="7421067045979951561">প্রোটোকল হ্যান্ডলার</translation>
-<translation id="7426022697669111648">'আপনার 'Chrome ইতিহাস দেখুন' বোতাম, Chrome সেটিংস থেকে ব্রাউজিংয়ের ইতিহাস দেখতে এবং ম্যানেজ করতে Enter প্রেস করুন</translation>
+<translation id="7426022697669111648">'আপনার 'Mises ইতিহাস দেখুন' বোতাম, Mises সেটিংস থেকে ব্রাউজিংয়ের ইতিহাস দেখতে এবং ম্যানেজ করতে Enter প্রেস করুন</translation>
 <translation id="7437289804838430631">পরিচিতির তথ্য যোগ করুন</translation>
 <translation id="7440140511386898319">অফলাইন থাকা অবস্থায় দেখুন</translation>
 <translation id="7441627299479586546">ভুল বিষয় বিশিষ্ট নীতি</translation>
@@ -2016,16 +2016,16 @@
 <translation id="7542995811387359312">স্বয়ংক্রিয় ক্রেডিট কার্ড পূরণটি অক্ষম রয়েছে কারণ এই ফর্মটি কোনও সুরক্ষিত সংযোগ ব্যবহার করে না৷</translation>
 <translation id="7548892272833184391">কানেকশনের সমস্যার সমাধান করুন</translation>
 <translation id="7549584377607005141">ঠিকঠাক ডিসপ্লে করার জন্য এই ওয়েবপৃষ্ঠার আপনার আগে দেওয়া ডেটা প্রযোজন৷ আপনি এই ডেটাটি আবার পাঠাতে পারেন, কিন্তু এমনটি করে আপনি যেকোনো পদক্ষেপের পুনরাবৃত্তি করবেন যা এই পৃষ্ঠাটি আগেই সম্পাদনা করেছে৷</translation>
-<translation id="7550637293666041147">আপনার ডিভাইসের ব্যবহারকারীর নাম এবং Chrome-এর ব্যবহারকারীর নাম</translation>
+<translation id="7550637293666041147">আপনার ডিভাইসের ব্যবহারকারীর নাম এবং Mises-এর ব্যবহারকারীর নাম</translation>
 <translation id="755279583747225797">ট্রায়াল চালু আছে</translation>
 <translation id="7552846755917812628">নিম্নোল্লিখিত টিপ্স ব্যবহার করে দেখুন:</translation>
 <translation id="7554475479213504905">ঠিক আছে, আবার লোড করে দেখান</translation>
 <translation id="7554791636758816595">নতুন ট্যাব</translation>
 <translation id="7559278538486662777">এই অ্যাপটি ছোট বড় করা যাবে না</translation>
-<translation id="7564049878696755256">আপনি নিজের <ph name="ORG_NAME" /> অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Chrome এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
+<translation id="7564049878696755256">আপনি নিজের <ph name="ORG_NAME" /> অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Mises এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
 <translation id="7567204685887185387">এই সার্ভার প্রমাণ করতে পারেনি যে এটি <ph name="DOMAIN" />; এর নিরাপত্তা সার্টিফিকেট প্রতারণাপূর্ণভাবে ইস্যু করা হয়ে থাকতে পারে। কোনো ভুল কনফিগারেশনের কারণে অথবা কোনো আক্রমণকারী আপনার সংযোগ মাঝপথে আটকে দিচ্ছে বলে এমনটা হতে পারে।</translation>
 <translation id="7569761772822664555">সার্চ ইঞ্জিন বোতাম ম্যানেজ করুন, আপনার ডিফল্ট সার্চ ইঞ্জিন এবং সাইট সার্চ ম্যানেজ করতে Enter প্রেস করুন</translation>
-<translation id="7569952961197462199">Chrome থেকে ক্রেডিট কার্ড সরাবেন?</translation>
+<translation id="7569952961197462199">Mises থেকে ক্রেডিট কার্ড সরাবেন?</translation>
 <translation id="7569983096843329377">কালো</translation>
 <translation id="7575207903026901870">সাজেশন বোতাম সরান, এই সাজেশন সরাতে 'Enter' কী প্রেস করুন</translation>
 <translation id="7578104083680115302">আপনি Google এর সাথে সংরক্ষণ করেছেন এমন কার্ড ব্যবহার করে ডিভাইস জুড়ে সাইট এবং অ্যাপ্লিকেশানগুলিতে দ্রুত অর্থ পরিশোধ করুন।</translation>
@@ -2039,13 +2039,13 @@
 <translation id="7600965453749440009"><ph name="LANGUAGE" /> কখনও অনুবাদ করবেন না</translation>
 <translation id="7610193165460212391">সীমার বাইরে মান <ph name="VALUE" />৷</translation>
 <translation id="7613889955535752492">মেয়াদোত্তীর্ণ: <ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
-<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে আপনার পাসওয়ার্ড দেখতে ও ম্যানেজ করতে প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
-<translation id="7616645509853975347">আপনার অ্যাডমিনিস্ট্রেটর Chrome Enterprise কানেক্টরগুলিকে আপনার ব্রাউজারে চালু করেছে। এই কানেক্টর আপনার কিছু ডেটা অ্যাক্সেস করতে পারবে।</translation>
+<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে আপনার পাসওয়ার্ড দেখতে ও ম্যানেজ করতে প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
+<translation id="7616645509853975347">আপনার অ্যাডমিনিস্ট্রেটর Mises Enterprise কানেক্টরগুলিকে আপনার ব্রাউজারে চালু করেছে। এই কানেক্টর আপনার কিছু ডেটা অ্যাক্সেস করতে পারবে।</translation>
 <translation id="7619838219691048931">শেষ শিট</translation>
 <translation id="7625242817712715120">অ্যাডমিনিস্ট্রেটরের নীতি এই কন্টেন্ট প্রিন্ট করার সাজেশন দেয় না</translation>
 <translation id="762844065391966283">এক এক করে</translation>
 <translation id="7633909222644580952">পারফর্ম্যান্সের ডেটা ও ক্র্যাশ রিপোর্ট</translation>
-<translation id="7637571805876720304">Chromium থেকে ক্রেডিট কার্ড সরাবেন?</translation>
+<translation id="7637571805876720304">Mises থেকে ক্রেডিট কার্ড সরাবেন?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{কোনও পাসওয়ার্ড সেভ করা নেই}=1{আপনার অ্যাকাউন্টে ১টি পাসওয়ার্ড সেভ করা আছে (<ph name="DOMAIN_LIST" />-এর জন্য)}one{আপনার অ্যাকাউন্টে #টি পাসওয়ার্ড সেভ করা আছে (<ph name="DOMAIN_LIST" />-এর জন্য)}other{আপনার অ্যাকাউন্টে #টি পাসওয়ার্ড সেভ করা আছে (<ph name="DOMAIN_LIST" />-এর জন্য)}}</translation>
 <translation id="7638605456503525968">সিরিয়াল পোর্ট</translation>
 <translation id="7639968568612851608">গাঢ় ধূসর</translation>
@@ -2064,7 +2064,7 @@
 <translation id="7669907849388166732">{COUNT,plural, =1{গোপন হিসেবে চিহ্নিত ডেটা ব্যবহার করে যে অ্যাকশন নেওয়া হয়েছে (লগ-ইন করার পরে ১টি অ্যাকশন)। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" />}one{গোপন হিসেবে চিহ্নিত ডেটা ব্যবহার করে যে অ্যাকশন নেওয়া হয়েছে (লগ-ইন করার পরে #টি অ্যাকশন)। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" />}other{গোপন হিসেবে চিহ্নিত ডেটা ব্যবহার করে যে অ্যাকশন নেওয়া হয়েছে (লগ-ইন করার পরে #টি অ্যাকশন)। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" />}}</translation>
 <translation id="7673278391011283842">মেলবক্স ৬</translation>
 <translation id="7676643023259824263">ক্লিপবোর্ড টেক্সট <ph name="TEXT" /> সার্চ করুন</translation>
-<translation id="7679367271685653708">Chrome সেটিংস থেকে আপনার ব্রাউজিংয়ের ইতিহাস দেখুন এবং ম্যানেজ করুন</translation>
+<translation id="7679367271685653708">Mises সেটিংস থেকে আপনার ব্রাউজিংয়ের ইতিহাস দেখুন এবং ম্যানেজ করুন</translation>
 <translation id="7682287625158474539">শিপিং</translation>
 <translation id="7687186412095877299">আপনার সেভ করা পেমেন্ট পদ্ধতি দিয়ে পেমেন্ট ফর্ম পূরণ করে</translation>
 <translation id="7687305263118037187">আর চেষ্টা করতে পারবেন না</translation>
@@ -2084,7 +2084,7 @@
 <translation id="7740996059027112821">মানক</translation>
 <translation id="77424286611022110">এই সাইট ব্যাঘাত সৃষ্টিকারী বা বিভ্রান্তিকর বিজ্ঞাপন দেখায়। <ph name="LEARN_MORE_LINK_TEXT" /></translation>
 <translation id="774634243536837715">বিপজ্জনক কন্টেন্ট ব্লক করা হয়েছে।</translation>
-<translation id="7751971323486164747">Chrome-এ ফন্ট সাইজ এবং টাইপফেস কাস্টমাইজ করুন</translation>
+<translation id="7751971323486164747">Mises-এ ফন্ট সাইজ এবং টাইপফেস কাস্টমাইজ করুন</translation>
 <translation id="7752995774971033316">অপরিচালিত</translation>
 <translation id="7755624218968747854">প্রাইমারি রোল</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2108,7 +2108,7 @@
 <translation id="7805571567667010077">আপনার সংস্থার মাধ্যমে ম্যানেজ করা হয়</translation>
 <translation id="7805768142964895445">স্থিতি</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Chrome থেকে ফর্ম প্রস্তাবনা সরাবেন?</translation>
+<translation id="7813600968533626083">Mises থেকে ফর্ম প্রস্তাবনা সরাবেন?</translation>
 <translation id="781440967107097262">ক্লিপবোর্ড শেয়ার করবেন?</translation>
 <translation id="7815407501681723534">'<ph name="SEARCH_STRING" />' এর জন্য <ph name="NUMBER_OF_RESULTS" />টি <ph name="SEARCH_RESULTS" /> খুঁজে পাওয়া গেছে</translation>
 <translation id="782125616001965242">এই সাইটের বিষয়ে তথ্য দেখুন</translation>
@@ -2139,8 +2139,8 @@
 <translation id="7942349550061667556">লাল</translation>
 <translation id="7943893128817522649">একাধিক ফাইল অটোমেটিক ডাউনলোড করতে অনুমতি চাইতে পারে</translation>
 <translation id="7947285636476623132">আপনার মেয়াদ শেষের বছর পরীক্ষা করে আবার চেষ্টা করুন</translation>
-<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome-এর ফিচার সম্পর্কে জানতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
-<translation id="7950027195171824198">Chrome সেটিংসে কুকি সম্পর্কিত পছন্দগুলি ম্যানেজ করুন</translation>
+<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises-এর ফিচার সম্পর্কে জানতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
+<translation id="7950027195171824198">Mises সেটিংসে কুকি সম্পর্কিত পছন্দগুলি ম্যানেজ করুন</translation>
 <translation id="7951415247503192394">(৩২-বিট)</translation>
 <translation id="7953569069500808819">উপরের ধারের দিকে সেলাই</translation>
 <translation id="7956713633345437162">মোবাইল বুকমার্ক</translation>
@@ -2154,7 +2154,7 @@
 <translation id="7977538094055660992">আউটপুট ডিভাইস</translation>
 <translation id="7977894662897852582">Edp</translation>
 <translation id="798134797138789862">ভার্চুয়াল রিয়েলিটি ডিভাইস ও ডেটা ব্যবহার করতে অনুমতি চাইতে পারে</translation>
-<translation id="7984945080620862648">আপনি <ph name="SITE" /> এ যেতে পারবেন না কারণ অসম্পূর্ণ শংসাপত্র পাঠিয়েছে যেটি Chrome প্রক্রিয়া করতে পারে না।  নেটওয়ার্ক ত্রুটি এবং আক্রমণ সাধারণত সাময়িকভাবে হয়, তাই এই পৃষ্ঠা সম্ভবত পরে কাজ করবে।</translation>
+<translation id="7984945080620862648">আপনি <ph name="SITE" /> এ যেতে পারবেন না কারণ অসম্পূর্ণ শংসাপত্র পাঠিয়েছে যেটি Mises প্রক্রিয়া করতে পারে না।  নেটওয়ার্ক ত্রুটি এবং আক্রমণ সাধারণত সাময়িকভাবে হয়, তাই এই পৃষ্ঠা সম্ভবত পরে কাজ করবে।</translation>
 <translation id="79859296434321399">অগমেন্টেড রিয়েলিটি কন্টেন্ট দেখার জন্য ARCore ইনস্টল করুন</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">বাঁধাই</translation>
@@ -2179,7 +2179,7 @@
 <translation id="8052898407431791827">ক্লিপবোর্ডে কপি করা হয়েছে</translation>
 <translation id="8057711352706143257">"<ph name="SOFTWARE_NAME" />" সঠিকভাবে কনফিগার হয়নি। সাধারণত "<ph name="SOFTWARE_NAME" />" আন-ইনস্টল করা হলে সমস্যার সমাধান হয়ে যায়। <ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">কিছু সমস্যা হয়েছে।</translation>
-<translation id="8067872629359326442">আপনি এখনই প্রতারণামূলক একটি সাইটে আপনার পাসওয়ার্ড লিখেছেন। Chromium সাহায্য করবে। আপনার অ্যাকাউন্টের নিরাপত্তা লঙ্ঘনের সম্ভাবনা এড়ানোর জন্য পাসওয়ার্ড পরিবর্তন করতে এবং Google-কে বিজ্ঞপ্তি দিয়ে জানাতে 'অ্যাকাউন্ট সুরক্ষিত রাখুন' বিকল্পে ক্লিক করুন।</translation>
+<translation id="8067872629359326442">আপনি এখনই প্রতারণামূলক একটি সাইটে আপনার পাসওয়ার্ড লিখেছেন। Mises সাহায্য করবে। আপনার অ্যাকাউন্টের নিরাপত্তা লঙ্ঘনের সম্ভাবনা এড়ানোর জন্য পাসওয়ার্ড পরিবর্তন করতে এবং Google-কে বিজ্ঞপ্তি দিয়ে জানাতে 'অ্যাকাউন্ট সুরক্ষিত রাখুন' বিকল্পে ক্লিক করুন।</translation>
 <translation id="8070439594494267500">অ্যাপ আইকন</translation>
 <translation id="8074253406171541171">10x13 (Envelope)</translation>
 <translation id="8075736640322370409">চটপট Google Sheet তৈরি করুন</translation>
@@ -2201,7 +2201,7 @@
 <translation id="810875025413331850">কাছাকাছি কোনও ডিভাইস পাওয়া যায়নি।</translation>
 <translation id="8116925261070264013">মিউট করা আছে</translation>
 <translation id="8118489163946903409">পেমেন্টের পদ্ধতি</translation>
-<translation id="8124639700796374294">Chrome বোতাম কাস্টমাইজ করুন, আপনার ব্রাউজার কেমন দেখতে হবে সেটি কাস্টমাইজ করতে Enter প্রেস করুন</translation>
+<translation id="8124639700796374294">Mises বোতাম কাস্টমাইজ করুন, আপনার ব্রাউজার কেমন দেখতে হবে সেটি কাস্টমাইজ করতে Enter প্রেস করুন</translation>
 <translation id="8127301229239896662">"<ph name="SOFTWARE_NAME" />" আপনার কম্পিউটার বা নেটওয়ার্কে সঠিক ভাবে ইনস্টল করা হয়নি। আপনার IT প্রশাসককে এই সমস্যাটি সমাধান করতে বলুন।</translation>
 <translation id="8131740175452115882">নিশ্চিত হন</translation>
 <translation id="8148608574971654810">PDF ভার্সন:</translation>
@@ -2209,7 +2209,7 @@
 <translation id="8150722005171944719"><ph name="URL" />এ ফাইলটি পাঠযোগ্য নয়৷ এটা মুছে ফেলা হয়েছে পারে, সরিয়ে দেওয়া হয়েছে, অথবা ফাইল অনুমতি প্রবেশাধিকার প্রতিরোধ করতে পারে৷</translation>
 <translation id="8157295877370077682">সাইট থেকে বেরিয়ে আসুন</translation>
 <translation id="8163866351304776260">বাঁদিকে কোয়াড পাঞ্চ</translation>
-<translation id="8175796834047840627">আপনি সাইন-ইন করে রয়েছেন বলে, Chrome আপনার কার্ডগুলি আপনার Google অ্যাকাউন্টে সেভ করার অফার করছে। সেটিংসে গিয়ে এই আচরণটি পরিবর্তন করতে পারেন।</translation>
+<translation id="8175796834047840627">আপনি সাইন-ইন করে রয়েছেন বলে, Mises আপনার কার্ডগুলি আপনার Google অ্যাকাউন্টে সেভ করার অফার করছে। সেটিংসে গিয়ে এই আচরণটি পরিবর্তন করতে পারেন।</translation>
 <translation id="8176440868214972690">এই ডিভাইসের অ্যাডমিনিস্ট্রেটর নিম্নলিখিত ওয়েবসাইটগুলিকে সেটিংস বা নীতির মতো কিছু তথ্য পাঠিয়েছে।</translation>
 <translation id="8184538546369750125">বিশ্বব্যাপী ডিফল্ট ব্যবহার করুন (অনুমতি দিন)</translation>
 <translation id="8190193880870196235">এক্সটেনশনের মাধ্যমে ম্যানেজ করা হয়েছে</translation>
@@ -2246,7 +2246,7 @@
 <translation id="8280630997017109758">ট্রে ১১</translation>
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8282947398454257691">আপনার অনন্য ডিভাইস সনাক্তকারীকে জানুন</translation>
-<translation id="8284769179630993263">Chrome সেটিংসে আপনার Safe Browsing ও আরও অনেক কিছু ম্যানেজ করুন</translation>
+<translation id="8284769179630993263">Mises সেটিংসে আপনার Safe Browsing ও আরও অনেক কিছু ম্যানেজ করুন</translation>
 <translation id="8286036467436129157">সাইন-ইন করুন</translation>
 <translation id="8288807391153049143">সার্টিফিকেট দেখান</translation>
 <translation id="8289355894181816810">যদি আপনি এর অর্থের ব্যাপারে নিশ্চিত না হন তাহলে আপনার নেটওয়ার্ক প্রশাসকের সঙ্গে যোগাযোগ করুন৷</translation>
@@ -2261,7 +2261,7 @@
 <translation id="8307888238279532626">কোন কোন অ্যাপ ইনস্টল করা আছে এবং কত ঘন ঘন সেগুলি ব্যবহার করা হয়েছে</translation>
 <translation id="831997045666694187">সন্ধ্যা</translation>
 <translation id="8321476692217554900">বিজ্ঞপ্তি</translation>
-<translation id="8328484624016508118">সব 'ছদ্মবেশী' ট্যাব বন্ধ করার পরে, Chrome এগুলি মুছে ফেলে:
+<translation id="8328484624016508118">সব 'ছদ্মবেশী' ট্যাব বন্ধ করার পরে, Mises এগুলি মুছে ফেলে:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />এই ডিভাইস থেকে আপনার ব্রাউজিং অ্যাক্টিভিটি<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />এই ডিভাইস থেকে আপনার সার্চ ইতিহাস<ph name="END_LIST_ITEM" />
@@ -2286,7 +2286,7 @@
 <translation id="8381674639488873545">এই চার্জ এককালীন হতে পারে বা তার পুনরাবৃত্তি হতে পারে এবং তা স্পষ্ট করে বোঝা নাও যেতে পারে। <ph name="BEGIN_LINK" />তবুও দেখান<ph name="END_LINK" /></translation>
 <translation id="8390725133630534698"><ph name="ORIGIN_NAME" /> থেকে <ph name="VM_NAME" />-এ শেয়ার করা অ্যাডমিনিস্ট্রেটর পলিসির মাধ্যমে ব্লক করা হয়েছে</translation>
 <translation id="8398790343843005537">আপনার ফোন খুঁজুন</translation>
-<translation id="8405579342203358118">Chrome সেটিংসে আপনি কী ধরনের তথ্য সিঙ্ক করবেন, তা ম্যানেজ করুন</translation>
+<translation id="8405579342203358118">Mises সেটিংসে আপনি কী ধরনের তথ্য সিঙ্ক করবেন, তা ম্যানেজ করুন</translation>
 <translation id="8409413588194360210">পেমেন্ট হ্যান্ডলার</translation>
 <translation id="8412145213513410671">ক্র্যাশ (<ph name="CRASH_COUNT" />টি)</translation>
 <translation id="8412392972487953978">আপনাকে একই পাসফ্রেজ অবশ্যই দু'বার প্রবেশ করাতে হবে৷</translation>
@@ -2295,7 +2295,7 @@
 <ph name="DEBUG_INFO" /></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL" /> <ph name="SECOND_LABEL" /> <ph name="THIRD_LABEL" /></translation>
 <translation id="8428213095426709021">সেটিংস</translation>
-<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome সেটিংসে আপনার কুকির অগ্রাধিকার ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
+<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises সেটিংসে আপনার কুকির অগ্রাধিকার ম্যানেজ করতে প্রথমে Tab, তারপরে Enter প্রেস করুন</translation>
 <translation id="8433057134996913067">এটি বেশিরভাগ ওয়েবসাইট থেকে আপনাকে প্রস্থান করুন করবে।</translation>
 <translation id="8437238597147034694">&amp;সরানোকে পূর্বাবস্থায় ফেরান</translation>
 <translation id="8438476240229491014">এই সেটিং মনে রাখবেন</translation>
@@ -2308,18 +2308,18 @@
 <translation id="8473863474539038330">ঠিকানা ও আরও অনেককিছু</translation>
 <translation id="8474910779563686872">ডেভেলপারের বিবরণ দেখান</translation>
 <translation id="8479754468255770962">নিচে বাঁদিকে স্টেপল করুন</translation>
-<translation id="8483780878231876732">আপনার Google অ্যাকাউন্ট থেকে কার্ড ব্যবহার করার জন্য Chrome-এ সাইন-ইন করুন</translation>
+<translation id="8483780878231876732">আপনার Google অ্যাকাউন্ট থেকে কার্ড ব্যবহার করার জন্য Mises-এ সাইন-ইন করুন</translation>
 <translation id="8488350697529856933">এতে প্রয়োগ হয়</translation>
 <translation id="8490137692873530638">স্ট্যাকার ১০</translation>
 <translation id="8493948351860045254">জায়গা ফাঁকা করুন</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> সাড়া দিতে খুবে বেশি সময় নিয়েছে।</translation>
-<translation id="8503559462189395349">Chrome পাসওয়ার্ডগুলি</translation>
+<translation id="8503559462189395349">Mises পাসওয়ার্ডগুলি</translation>
 <translation id="8503813439785031346">ইউজারনেম</translation>
 <translation id="8507227106804027148">কমান্ড লাইন</translation>
 <translation id="8508648098325802031">সার্চ আইকন</translation>
 <translation id="8511402995811232419">কুকি ম্যানেজ করুন</translation>
-<translation id="8522552481199248698">পাসওয়ার্ড পরিবর্তন করে আপনার Google অ্যাকাউন্ট সুরক্ষিত রাখতে Chrome সাহায্য করতে পারবে।</translation>
-<translation id="8530813470445476232">Chrome সেটিংস থেকে আপনার ব্রাউজিং ইতিহাস, কুকি, ক্যাশে ও আরও অনেক কিছু মুছুন</translation>
+<translation id="8522552481199248698">পাসওয়ার্ড পরিবর্তন করে আপনার Google অ্যাকাউন্ট সুরক্ষিত রাখতে Mises সাহায্য করতে পারবে।</translation>
+<translation id="8530813470445476232">Mises সেটিংস থেকে আপনার ব্রাউজিং ইতিহাস, কুকি, ক্যাশে ও আরও অনেক কিছু মুছুন</translation>
 <translation id="8533619373899488139">ব্লক করা ইউআরএলের তালিকা এবং আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের প্রয়োগ করা অন্যান্য নীতিগুলি দেখার জন্য &lt;strong&gt;chrome://policy&lt;/strong&gt;-এ যান।</translation>
 <translation id="8539500321752640291">২টি অনুমতি দেবেন?</translation>
 <translation id="8541158209346794904">ব্লুটুথ ডিভাইস</translation>
@@ -2332,7 +2332,7 @@
 <translation id="8558485628462305855">অগমেন্টেড রিয়েলিটি কন্টেন্ট দেখার জন্য ARCore আপডেট করুন</translation>
 <translation id="8559762987265718583"><ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> এ একটি ব্যক্তিগত সংযোগ স্থাপন করা যায়নি কারণ আপনার ডিভাইসের তারিখ এবং সময় (<ph name="DATE_AND_TIME" />) সঠিক নয়৷</translation>
 <translation id="8564182942834072828">আলাদা ডকুমেন্ট/সংগ্রহ না করা কপি</translation>
-<translation id="8564985650692024650">Chromium-এর নীতি অনুযায়ী আপনার <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
+<translation id="8564985650692024650">Mises-এর নীতি অনুযায়ী আপনার <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
 <translation id="8574899947864779331">কার্ড আরও দ্রুত কনফার্ম করতে টাচ আইডি ব্যবহার করুন</translation>
 <translation id="8577348305244205642">ভার্চুয়াল কার্ড উপলভ্য নেই</translation>
 <translation id="858637041960032120">ফোননম্বর জুড়ুন</translation>
@@ -2358,7 +2358,7 @@
 <translation id="868922510921656628">সেট প্রতি পৃষ্ঠা</translation>
 <translation id="869891660844655955">মেয়াদকাল সমাপ্তির তারিখ</translation>
 <translation id="8699041776323235191">HID ডিভাইস</translation>
-<translation id="8699899385443889493">Chrome ডাইনো গেম বোতাম চালু করুন, Chrome-এ ডাইনো রান গেম খেলতে Enter প্রেস করুন</translation>
+<translation id="8699899385443889493">Mises ডাইনো গেম বোতাম চালু করুন, Mises-এ ডাইনো রান গেম খেলতে Enter প্রেস করুন</translation>
 <translation id="8703575177326907206"><ph name="DOMAIN" />-এ আপনার কানেকশন এনক্রিপ্ট হয় নি৷</translation>
 <translation id="8705331520020532516">ক্রমিক সংখ্যা</translation>
 <translation id="8708134712139312373">ব্লুটুথ ডিভাইসের সাথে কানেক্ট করার অনুমতি চাইতে পারে</translation>
@@ -2371,10 +2371,10 @@
 <translation id="8725066075913043281">আবার চেষ্টা করুন</translation>
 <translation id="8726549941689275341">পৃষ্ঠার সাইজ:</translation>
 <translation id="8730621377337864115">হয়ে গেছে</translation>
-<translation id="8731544501227493793">পাসওয়ার্ড ম্যানেজ করার বোতাম, Chrome সেটিংসে আপনার পাসওয়ার্ড দেখতে ও ম্যানেজ করতে Enter প্রেস করুন</translation>
+<translation id="8731544501227493793">পাসওয়ার্ড ম্যানেজ করার বোতাম, Mises সেটিংসে আপনার পাসওয়ার্ড দেখতে ও ম্যানেজ করতে Enter প্রেস করুন</translation>
 <translation id="8734529307927223492">আপনার <ph name="DEVICE_TYPE" />, <ph name="MANAGER" />-এর মাধ্যমে ম্যানেজ করা হয়</translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />, গোপনে ব্রাউজিংয়ের জন্য নতুন ছদ্মবেশী উইন্ডো খুলতে প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
-<translation id="8738058698779197622">নিরাপদ নেটওয়ার্ক সংযোগ স্থাপন করতে আপনার ঘড়িকে সঠিকভাবে সেট করতে হবে৷ নিরাপদ সংযোগ স্থাপন করার জন্য নিজেদের শনাক্ত করার জন্য ওয়েবসাইটগুলি যে শংসাপত্রগুলি ব্যবহার করে, সেগুলি শুধুমাত্র নির্দিষ্ট সময়ের জন্য বৈধ থাকে৷ যেহেতু আপনার ডিভাইসের ঘড়িটি ভুল, সেই জন্য Chromium সঠিকভাবে শংসাপত্রগুলি পরীক্ষা করতে পারে না৷</translation>
+<translation id="8738058698779197622">নিরাপদ নেটওয়ার্ক সংযোগ স্থাপন করতে আপনার ঘড়িকে সঠিকভাবে সেট করতে হবে৷ নিরাপদ সংযোগ স্থাপন করার জন্য নিজেদের শনাক্ত করার জন্য ওয়েবসাইটগুলি যে শংসাপত্রগুলি ব্যবহার করে, সেগুলি শুধুমাত্র নির্দিষ্ট সময়ের জন্য বৈধ থাকে৷ যেহেতু আপনার ডিভাইসের ঘড়িটি ভুল, সেই জন্য Mises সঠিকভাবে শংসাপত্রগুলি পরীক্ষা করতে পারে না৷</translation>
 <translation id="8740359287975076522"><ph name="HOST_NAME" /> এর &lt;abbr id="ডিএনএসDefinition"&gt;ডিএনএস ঠিকানা&lt;/abbr&gt; পাওয়া যায়নি। সমস্যা নির্ণয় করা হচ্ছে।</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE" /> হল আপনার <ph name="ORIGIN" />-এর কোড</translation>
 <translation id="874918643257405732">এই ট্যাব বুকমার্ক করুন</translation>
@@ -2387,14 +2387,14 @@
 <translation id="8766943070169463815">নিরাপদে পেমেন্ট ক্রেডেনশিয়াল যাচাই করার শিট খোলা হয়েছে</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;মুছে ফেলাকে আবার করুন</translation>
-<translation id="8792621596287649091">আপনি নিজের <ph name="ORG_NAME" /> অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Chromium এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
+<translation id="8792621596287649091">আপনি নিজের <ph name="ORG_NAME" /> অ্যাকাউন্টের অ্যাক্সেস হারাতে পারেন অথবা আপনার পরিচয় চুরি হয়ে যেতে পারে। Mises এখনই আপনার পাসওয়ার্ড পরিবর্তন করার আর্জি জানাচ্ছে।</translation>
 <translation id="8792626944327216835">মাইক্রোফোন</translation>
-<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> আপনার ব্রাউজারে Chrome Enterprise কানেক্টর চালু করেছে। এই কানেক্টর আপনার কিছু ডেটা অ্যাক্সেস করতে পারবে।</translation>
+<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> আপনার ব্রাউজারে Mises Enterprise কানেক্টর চালু করেছে। এই কানেক্টর আপনার কিছু ডেটা অ্যাক্সেস করতে পারবে।</translation>
 <translation id="8798099450830957504">ডিফল্ট</translation>
 <translation id="8798739476508189189">ব্রাউজার ফ্ল্যাগ খুঁজছেন? দেখুন</translation>
 <translation id="8805819170075074995">তালিকার এন্ট্রি "<ph name="LANGUAGE_ID" />": এন্ট্রিটি SpellcheckLanguage নীতিতেও অন্তর্ভুক্ত থাকার জন্য এটি অগ্রাহ্য করা হয়েছে।</translation>
 <translation id="8807160976559152894">প্রতিটি পৃষ্ঠার পর ট্রিম করুন</translation>
-<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, আপনার Chrome সেটিংসে Chrome আপডেট করতে, প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
+<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />, আপনার Mises সেটিংসে Mises আপডেট করতে, প্রথমে Tab আর তারপরে Enter প্রেস করুন</translation>
 <translation id="8820817407110198400">Bookmarks</translation>
 <translation id="882338992931677877">ম্যানুয়াল স্লট</translation>
 <translation id="8834380158646307944">'ছদ্মবেশী উইন্ডো বন্ধ করুন' বোতাম, বর্তমানে খোলা আছে এমন সব 'ছদ্মবেশী' উইন্ডো বন্ধ করতে Enter প্রেস করুন</translation>
@@ -2402,7 +2402,7 @@
 <translation id="884264119367021077">শিপিং ঠিকানা</translation>
 <translation id="884923133447025588">কোন প্রত্যাহার নির্মাণকৌশল পাওয়া যায় নি৷</translation>
 <translation id="885730110891505394">Google এর সাথে ভাগ করছে</translation>
-<translation id="8858065207712248076">Chrome-এর নীতি অনুযায়ী আপনার <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
+<translation id="8858065207712248076">Mises-এর নীতি অনুযায়ী আপনার <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> পাসওয়ার্ড বদলে ফেলা উচিত যদি আপনি সেটি অন্য কোনও সাইটে ব্যবহার করে থাকেন।</translation>
 <translation id="885906927438988819">বানান সঠিক হলে, <ph name="BEGIN_LINK" />'Windows নেটওয়ার্ক ডায়াগনস্টিক' টুল চালিয়ে দেখুন<ph name="END_LINK" />।</translation>
 <translation id="8866481888320382733">নীতি সেটিংস বিশ্লেষণ করার সময় ত্রুটি</translation>
 <translation id="8866928039507595380">ফোল্ড</translation>
@@ -2419,7 +2419,7 @@
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">সাজেশন বোতাম সরান, সরাতে Enter বোতাম প্রেস করুন, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" /></translation>
 <translation id="8912362522468806198">Google অ্যাকাউন্ট</translation>
-<translation id="8913778647360618320">পেমেন্ট পদ্ধতি ম্যানেজ করার বোতাম, Chrome সেটিংসে আপনার পেমেন্ট ও ক্রেডিট কার্ডের তথ্য ম্যানেজ করতে Enter প্রেস করুন</translation>
+<translation id="8913778647360618320">পেমেন্ট পদ্ধতি ম্যানেজ করার বোতাম, Mises সেটিংসে আপনার পেমেন্ট ও ক্রেডিট কার্ডের তথ্য ম্যানেজ করতে Enter প্রেস করুন</translation>
 <translation id="8922013791253848639">এই সাইটে সবসময় বিজ্ঞাপন দেখানোর অনুমতি দিন</translation>
 <translation id="892588693504540538">উপরের ডানদিকে পাঞ্চ</translation>
 <translation id="8931333241327730545">আপনি কি আপনার Google অ্যাকাউন্টে এই কার্ড সেভ করতে চান?</translation>
@@ -2438,7 +2438,7 @@
 <translation id="8978053250194585037">Google Safe Browsing সম্প্রতি <ph name="SITE" /> এ <ph name="BEGIN_LINK" />ফিশিং শনাক্ত করেছে<ph name="END_LINK" />। ফিশিং সাইটগুলি আপনাকে প্রতারিত করার জন্য অন্যান্য সাইট যেমন হয় সেইরকম ভান করে।</translation>
 <translation id="8983003182662520383">Google Pay ব্যবহার করে এমন পেমেন্টের পদ্ধতি এবং ঠিকানা</translation>
 <translation id="8983369100812962543">আপনি এখন অ্যাপ ছোট বড় করতে পারবেন</translation>
-<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Chrome-এ আপনার ব্রাউজিংয়ের ইতিহাস দেখতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
+<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />, Mises-এ আপনার ব্রাউজিংয়ের ইতিহাস দেখতে Tab প্রেস করার পর Enter প্রেস করুন</translation>
 <translation id="8987927404178983737">মাস</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
 <translation id="899688752321268742"><ph name="URL" /> জানতে চায় আপনি সক্রিয়ভাবে কখন এই ডিভাইস ব্যবহার করেন</translation>
@@ -2477,14 +2477,14 @@
 <translation id="9089260154716455634">Off-Hours সংক্রান্ত নীতি:</translation>
 <translation id="9095388113577226029">আরও ভাষা...</translation>
 <translation id="9101630580131696064">ট্রে ১</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> সাধারণত আপনার তথ্য সুরক্ষিত রাখতে এনক্রিপশন ব্যবহার করে। এবার Chromium, <ph name="SITE" />-এর সাথে কানেক্ট করার চেষ্টা করলে ওয়েবসাইটটি অস্বাভাবিক এবং ভুল ক্রেডেনশিয়াল পাঠিয়ে দেয়। হয় একজন আক্রমণকারী <ph name="SITE" /> হতে চাইছে অথবা একটি ওয়াই-ফাই সাইন-ইন স্ক্রিন কানেকশনকে বাধা দিয়েছে। আপনার তথ্য এখনো নিরাপদ আছে কারণ কোনো ডেটা আদানপ্রদানের আগেই Chromium কানেকশন বন্ধ করে দিয়েছে।</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> সাধারণত আপনার তথ্য সুরক্ষিত রাখতে এনক্রিপশন ব্যবহার করে। এবার Mises, <ph name="SITE" />-এর সাথে কানেক্ট করার চেষ্টা করলে ওয়েবসাইটটি অস্বাভাবিক এবং ভুল ক্রেডেনশিয়াল পাঠিয়ে দেয়। হয় একজন আক্রমণকারী <ph name="SITE" /> হতে চাইছে অথবা একটি ওয়াই-ফাই সাইন-ইন স্ক্রিন কানেকশনকে বাধা দিয়েছে। আপনার তথ্য এখনো নিরাপদ আছে কারণ কোনো ডেটা আদানপ্রদানের আগেই Mises কানেকশন বন্ধ করে দিয়েছে।</translation>
 <translation id="9106062320799175032">বিলিংয়ের ঠিকানা যোগ করুন</translation>
 <translation id="9107467864910557787"><ph name="MANAGER" />-এর মাধ্যমে আপনার ব্রাউজার ম্যানেজ করা হয়</translation>
 <translation id="91108059142052966">কোনও গোপন কন্টেন্ট দেখা গেলে 'অ্যাডমিনিস্ট্রেটর নীতি' অনুযায়ী <ph name="APPLICATION_TITLE" />-এর সাথে স্ক্রিন শেয়ার করা হবে না</translation>
 <translation id="9114524666733003316">কার্ড নিশ্চিত করা হচ্ছে...</translation>
-<translation id="9114581008513152754">কোনও কোম্পানি বা অন্য কোনও সংস্থা এই ব্রাউজার ম্যানেজ করে না। এই ডিভাইসের অ্যাক্টিভিটি Chrome-এর বাইরে থেকে ম্যানেজ করা যেতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
+<translation id="9114581008513152754">কোনও কোম্পানি বা অন্য কোনও সংস্থা এই ব্রাউজার ম্যানেজ করে না। এই ডিভাইসের অ্যাক্টিভিটি Mises-এর বাইরে থেকে ম্যানেজ করা যেতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
 <translation id="9117930699067497412">তাজা</translation>
-<translation id="9118692854637641831">সার্চ করা আবার চালু করতে <ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, Tab ও তারপরে Enter প্রেস করুন এবং আপনার Chrome ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখুন</translation>
+<translation id="9118692854637641831">সার্চ করা আবার চালু করতে <ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />, Tab ও তারপরে Enter প্রেস করুন এবং আপনার Mises ইতিহাসে প্রাসঙ্গিক অ্যাক্টিভিটি দেখুন</translation>
 <translation id="9119042192571987207">আপলোড করা হয়েছে</translation>
 <translation id="9128016270925453879">নীতি লোড হয়েছে</translation>
 <translation id="9128870381267983090">নেটওয়ার্কে সংযোগ করুন</translation>
@@ -2495,7 +2495,7 @@
 <translation id="9148088599418889305">শিপিংয়ের পদ্ধতি বেছে নিন</translation>
 <translation id="9148507642005240123">&amp;সম্পাদনাকে পূর্বাবস্থায় ফেরান</translation>
 <translation id="9150045010208374699">আপনার ক্যামেরা ব্যবহার করুন</translation>
-<translation id="9150685862434908345">আপনার অ্যাডমিনিস্ট্রেটর রিমোট লোকেশন থেকে আপনার ব্রাউজারের সেটআপ পরিবর্তন করতে পারেন। তাছাড়া, এই ডিভাইসের অ্যাক্টিভিটি Chrome-এর বাইরে থেকেও ম্যানেজ করা হতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
+<translation id="9150685862434908345">আপনার অ্যাডমিনিস্ট্রেটর রিমোট লোকেশন থেকে আপনার ব্রাউজারের সেটআপ পরিবর্তন করতে পারেন। তাছাড়া, এই ডিভাইসের অ্যাক্টিভিটি Mises-এর বাইরে থেকেও ম্যানেজ করা হতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">আপডেট রয়েছে</translation>
 <translation id="9157595877708044936">সেট-আপ হচ্ছে...</translation>
 <translation id="9158625974267017556">C6 (Envelope)</translation>
@@ -2510,7 +2510,7 @@
 <translation id="9173995187295789444">ব্লুটুথ ডিভাইসগুলির জন্য স্ক্যান করা হচ্ছে...</translation>
 <translation id="917450738466192189">সার্ভারের সার্টিফিকেট অকার্যকর৷</translation>
 <translation id="9174917557437862841">ট্যাব সুইচ বোতাম, এই ট্যাবে পরিবর্তন করতে এন্টার প্রেস করুন</translation>
-<translation id="9179703756951298733">Chrome সেটিংস থেকে আপনার পেমেন্ট ও ক্রেডিট কার্ডের তথ্য ম্যানেজ করুন</translation>
+<translation id="9179703756951298733">Mises সেটিংস থেকে আপনার পেমেন্ট ও ক্রেডিট কার্ডের তথ্য ম্যানেজ করুন</translation>
 <translation id="9183302530794969518">Google Docs</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME" /> একটি অসমর্থিত প্রোটোকল ব্যবহার করে।</translation>
 <translation id="9191834167571392248">নিচে বাঁদিকে পাঞ্চ করুন</translation>
@@ -2519,13 +2519,13 @@
 <translation id="920511547311754821">আপনার কোড খুঁজে পাচ্ছেন না? <ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE" /></translation>
 <translation id="9207861905230894330">নিবন্ধ যোগ করতে ব্যর্থ হয়েছে৷</translation>
 <translation id="9213433120051936369">কেমন দেখাবে তা কাস্টমাইজ করুন</translation>
-<translation id="9215416866750762878">একটি অ্যাপ্লিকেশন Chrome কে এই সাইটের সাথে নিরাপদভাবে সংযুক্ত হতে বাধা দিচ্ছে</translation>
+<translation id="9215416866750762878">একটি অ্যাপ্লিকেশন Mises কে এই সাইটের সাথে নিরাপদভাবে সংযুক্ত হতে বাধা দিচ্ছে</translation>
 <translation id="9219103736887031265">Images</translation>
-<translation id="922152298093051471">Chrome কাস্টমাইজ করুন</translation>
+<translation id="922152298093051471">Mises কাস্টমাইজ করুন</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">ফর্ম সাফ করুন</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">আপনি আপনার Google অ্যাকাউন্টে অ্যাক্সেস হারাতে পারেন। Chromium-এর প্রস্তাব হল যে আপনি আপনার পাসওয়ার্ড এখনই পরিবর্তন করুন। আপনাকে আবার সাইন-ইন করতে বলা হবে।</translation>
+<translation id="936602727769022409">আপনি আপনার Google অ্যাকাউন্টে অ্যাক্সেস হারাতে পারেন। Mises-এর প্রস্তাব হল যে আপনি আপনার পাসওয়ার্ড এখনই পরিবর্তন করুন। আপনাকে আবার সাইন-ইন করতে বলা হবে।</translation>
 <translation id="939736085109172342">নতুন ফোল্ডার</translation>
 <translation id="945522503751344254">মতামত জানান</translation>
 <translation id="945855313015696284">নিচে দেওয়া তথ্য পরীক্ষা করুন এবং কোনও ভুল কার্ড থাকলে তা মুছে ফেলুন</translation>

@@ -196,7 +196,7 @@ Web lokacije ne mogu koristiti kolačiće da vide vašu aktivnost pregledanja na
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Poništi postavke Prevodioca</translation>
 <translation id="2848086008667475748">Postavite kao zadano u Postavkama…</translation>
-<translation id="2858204748079866344">Radi zaštite vaše privatnosti, Chrome neće automatski popunjavati vašu lozinku u ovoj rubrici.</translation>
+<translation id="2858204748079866344">Radi zaštite vaše privatnosti, Mises neće automatski popunjavati vašu lozinku u ovoj rubrici.</translation>
 <translation id="285960592395650245">Ponovo pokušaj preuzeti</translation>
 <translation id="2870560284913253234">Web lokacija</translation>
 <translation id="2871695793448672541">Sakriveno, zaporka</translation>
@@ -309,7 +309,7 @@ Slijedite korake u nastavku:</translation>
 <translation id="3858860766373142691">Naziv</translation>
 <translation id="3892144330757387737">Svoju historiju ćete pronaći ovdje</translation>
 <translation id="3897092660631435901">Meni</translation>
-<translation id="3913386780052199712">Prijavljeni ste na Chrome</translation>
+<translation id="3913386780052199712">Prijavljeni ste na Mises</translation>
 <translation id="3915450441834151894">Informacije o web lokaciji</translation>
 <translation id="3922310737605261887">Pretraži kopirani tekst</translation>
 <translation id="3928666092801078803">Kombiniraj moje podatke</translation>
@@ -426,12 +426,12 @@ Da biste promijenili tu postavku, <ph name="BEGIN_LINK" />poništite sinkronizac
 <translation id="5062321486222145940">Instaliraj Google Disk</translation>
 <translation id="5083464117946352670">Nije moguće utvrditi veličinu fajla.</translation>
 <translation id="5090832849094901128">Brisanjem ove lozinke se neće izbrisati vaš račun na web lokaciji <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Možete sačuvati stranice da ih čitate kasnije ili offline. Chrome će vas pitati želite li sačuvati duge stranice.</translation>
+<translation id="5092117651143801290">Možete sačuvati stranice da ih čitate kasnije ili offline. Mises će vas pitati želite li sačuvati duge stranice.</translation>
 <translation id="5094827893301452931">Tweet je završen.</translation>
 <translation id="5118764316110575523">Isključeno</translation>
 <translation id="5127805178023152808">Sinkronizacija je isključena</translation>
 <translation id="5132942445612118989">Sinhronizacija lozinki, historije i ostalog na svim uređajima</translation>
-<translation id="5140288047769711648">Chrome će zapamtiti ovu zaporku umjesto vas. Ne morate je pamtiti.</translation>
+<translation id="5140288047769711648">Mises će zapamtiti ovu zaporku umjesto vas. Ne morate je pamtiti.</translation>
 <translation id="5150492518600715772">Pošalji na uređaj</translation>
 <translation id="5168414296986405587">Napravljeno za iPadOS</translation>
 <translation id="5173088371991956744">Sinhronizacija mora potvrditi da ste to vi</translation>
@@ -673,7 +673,7 @@ U anonimnom načinu rada web lokacije ne mogu koristiti kolačiće da vide vašu
 <translation id="7189598951263744875">Dijeli...</translation>
 <translation id="7192050974311852563">Pokreni zapisivanje</translation>
 <translation id="7203585745079012652">Izgovori odgovore</translation>
-<translation id="7207383424303353046">Novo: Postavite Chrome kao zadanu aplikaciju preglednika i automatski u njemu otvarajte web lokacije. <ph name="BEGIN_LINK" />Otvori Postavke<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Novo: Postavite Mises kao zadanu aplikaciju preglednika i automatski u njemu otvarajte web lokacije. <ph name="BEGIN_LINK" />Otvori Postavke<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Nevažeći nadimak kartice</translation>
 <translation id="722454870747268814">Nova anonimna kartica</translation>
 <translation id="7265758999917665941">Nikada za ovu web lokaciju</translation>
@@ -699,7 +699,7 @@ U anonimnom načinu rada web lokacije ne mogu koristiti kolačiće da vide vašu
 <translation id="7454057999980797137">Zemlja / Okrug</translation>
 <translation id="7456847797759667638">Otvori lokaciju...</translation>
 <translation id="7464701184726199289">Ovim se brišu sinhronizirani podaci sa svih uređaja. Sačuvane postavke web lokacije se neće izbrisati i one mogu odražavati vaše navike prilikom pregledanja. <ph name="BEGIN_LINK" />Saznajte više<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Odaberite Chrome</translation>
+<translation id="746684838091935575">3. Odaberite Mises</translation>
 <translation id="7472734401283673885">Naziv kompanije</translation>
 <translation id="7473891865547856676">Ne, hvala</translation>
 <translation id="7481312909269577407">Proslijedi</translation>
@@ -727,13 +727,13 @@ U anonimnom načinu rada web lokacije ne mogu koristiti kolačiće da vide vašu
 <translation id="7781011649027948662">Prevesti stranicu?</translation>
 <translation id="7781069478569868053">Stranica na novoj kartici</translation>
 <translation id="7781829728241885113">Jučer</translation>
-<translation id="778855399387580014">Započni pretraživanje na novoj Chrome kartici.</translation>
+<translation id="778855399387580014">Započni pretraživanje na novoj Mises kartici.</translation>
 <translation id="7791543448312431591">Dodaj</translation>
 <translation id="7839985698273989086">Offline stranica</translation>
 <translation id="7840771868269352570">Stavke koje ste odabrali će biti uklonjene.</translation>
 <translation id="7856733331829174190">Preuzimanje nije uspjelo</translation>
 <translation id="7859704718976024901">Historija pregledanja</translation>
-<translation id="7887198238286927132">Chrome neće automatski popuniti ovu rubriku radi zaštite vaše privatnosti.</translation>
+<translation id="7887198238286927132">Mises neće automatski popuniti ovu rubriku radi zaštite vaše privatnosti.</translation>
 <translation id="7911190106180361398">Vaša organizacija vam ne dozvoljava da sve sinhronizirate.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Izvezi lozinke...</translation>
@@ -855,7 +855,7 @@ Web lokacije mogu koristiti kolačiće da vide vašu aktivnost pregledanja na ra
 <translation id="9081058212938299310">Ažurirati lozinku za <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 stavka</translation>
 <translation id="9083838294503912307">Uključite sinhroniziranje da sinhronizirate i personalizirate kartice na svim uređajima.</translation>
-<translation id="9087108903408689779">Lozinka koju predlaže Chrome:</translation>
+<translation id="9087108903408689779">Lozinka koju predlaže Mises:</translation>
 <translation id="9094033019050270033">Ažuriraj lozinku</translation>
 <translation id="9100610230175265781">Potreban je pristupni izraz</translation>
 <translation id="9107664647686727385">Provjera ugroženih lozinki</translation>

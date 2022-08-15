@@ -9,7 +9,7 @@
 <translation id="1015730422737071372">提供其他詳細資訊</translation>
 <translation id="1019413721762100891">關閉</translation>
 <translation id="1021110881106174305">接受的信用卡</translation>
-<translation id="1021753677514347426">發生這個問題是因為你或其他人在裝置上安裝了具有風險的憑證。已知這個憑證是用於監控及攔截網路資訊，且不受 Chromium 信任。雖然有部分監控活動屬於正當行為 (例如學校或公司網路上的監控機制)，Chromium 仍想確保你知曉此一情況，即使你無法阻止這類監控活動。任何存取網路的瀏覽器或應用程式都可能受到監控。</translation>
+<translation id="1021753677514347426">發生這個問題是因為你或其他人在裝置上安裝了具有風險的憑證。已知這個憑證是用於監控及攔截網路資訊，且不受 Mises 信任。雖然有部分監控活動屬於正當行為 (例如學校或公司網路上的監控機制)，Mises 仍想確保你知曉此一情況，即使你無法阻止這類監控活動。任何存取網路的瀏覽器或應用程式都可能受到監控。</translation>
 <translation id="1024111578869940408">攻擊者有時會在網址中加入不易察覺的細微變更來仿冒網站。</translation>
 <translation id="1028781062521375153">查看詳細資料</translation>
 <translation id="1030706264415084469"><ph name="URL" /> 要求在你的裝置上永久儲存大量資料</translation>
@@ -24,7 +24,7 @@
 <translation id="1050038467049342496">關閉其他應用程式</translation>
 <translation id="1055184225775184556">復原新增(&amp;U)</translation>
 <translation id="1056898198331236512">警告</translation>
-<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可暢玩 Chrome 恐龍遊戲</translation>
+<translation id="1058344460600311577"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可暢玩 Mises 恐龍遊戲</translation>
 <translation id="1058479211578257048">正在儲存卡片...</translation>
 <translation id="10614374240317010">一律不儲存</translation>
 <translation id="1062160989074299343">Prc10 (信封)</translation>
@@ -38,7 +38,7 @@
 <translation id="1088860948719068836">新增持卡人姓名</translation>
 <translation id="1089439967362294234">變更密碼</translation>
 <translation id="1096545575934602868">這個欄位最多只能包含 <ph name="MAX_ITEMS_LIMIT" /> 個項目，其餘將會捨棄。</translation>
-<translation id="1100782917270858593">「繼續瀏覽歷程」按鈕；按下 Enter 鍵即可繼續瀏覽歷程，查看 Chrome 歷史記錄中的相關活動</translation>
+<translation id="1100782917270858593">「繼續瀏覽歷程」按鈕；按下 Enter 鍵即可繼續瀏覽歷程，查看 Mises 歷史記錄中的相關活動</translation>
 <translation id="1101672080107056897">錯誤動作</translation>
 <translation id="1103523840287552314">一律翻譯<ph name="LANGUAGE" /></translation>
 <translation id="1110994991967754504">選取<ph name="PERMISSION_NAME" />權限設定</translation>
@@ -83,7 +83,7 @@
 <translation id="124116460088058876">更多語言</translation>
 <translation id="1243027604378859286">作者：</translation>
 <translation id="1246424317317450637">粗體</translation>
-<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome OS 設定中依個人需求調整無障礙工具</translation>
+<translation id="1248573052514400575"><ph name="MANAGE_CHROMEOS_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises OS 設定中依個人需求調整無障礙工具</translation>
 <translation id="1250759482327835220">只要將你的卡片資訊、姓名與帳單地址儲存到你的 Google 帳戶中，下次即可更快完成付款程序。</translation>
 <translation id="1252799212227771492">建立試算表的按鈕；按下 Enter 鍵即可快速建立新的 Google 試算表</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1" />、<ph name="TYPE_2" /> (已同步)</translation>
@@ -95,7 +95,7 @@
     &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">你在不是由貴機構管理的網站上輸入了你的密碼。為確保帳戶安全，請勿在其他應用程式和網站上重複使用你的密碼。</translation>
 <translation id="1257553931232494454">縮放等級</translation>
-<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可管理 Chrome 設定</translation>
+<translation id="1262388120645841613"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可管理 Mises 設定</translation>
 <translation id="1263231323834454256">閱讀清單</translation>
 <translation id="1264309058268477500">替用匣</translation>
 <translation id="1269516672602708785">在 Google 協作平台中快速建立新網站</translation>
@@ -103,7 +103,7 @@
 <translation id="1281476433249504884">堆疊出紙器 1</translation>
 <translation id="1285320974508926690">一律不翻譯此網站</translation>
 <translation id="1292571435393770077">紙匣 16</translation>
-<translation id="1292701964462482250">「你的電腦上有軟體阻止 Chrome 建立安全的網路連線」(僅限 Windows 電腦)</translation>
+<translation id="1292701964462482250">「你的電腦上有軟體阻止 Mises 建立安全的網路連線」(僅限 Windows 電腦)</translation>
 <translation id="1294154142200295408">命令列變化版本</translation>
 <translation id="129553762522093515">最近關閉的分頁</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK" />試試看清除 Cookie<ph name="END_LINK" /></translation>
@@ -150,7 +150,7 @@
 <translation id="1384725838384960382">安全付款憑證驗證表</translation>
 <translation id="1386623374109090026">註解</translation>
 <translation id="139305205187523129"><ph name="HOST_NAME" /> 未傳送任何資料。</translation>
-<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可繼續搜尋，查看 Chrome 歷史記錄中的相關活動</translation>
+<translation id="1403196654932095242"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可繼續搜尋，查看 Mises 歷史記錄中的相關活動</translation>
 <translation id="1405567553485452995">淺綠色</translation>
 <translation id="1407135791313364759">全部開啟</translation>
 <translation id="1408787208417187241">三釘 (頂端)</translation>
@@ -200,7 +200,7 @@
 <translation id="154408704832528245">選擇快遞地址</translation>
 <translation id="1549470594296187301">您必須啟用 JavaScript 才能使用這項功能。</translation>
 <translation id="155039086686388498">Engineering-D</translation>
-<translation id="1553358976309200471">更新 Chrome</translation>
+<translation id="1553358976309200471">更新 Mises</translation>
 <translation id="1555130319947370107">藍色</translation>
 <translation id="1559447966090556585">要接收通知嗎？</translation>
 <translation id="1559528461873125649">找不到你所指定的檔案或目錄</translation>
@@ -216,7 +216,7 @@
 <translation id="1588438908519853928">一般</translation>
 <translation id="1592005682883173041">本機資料存取權</translation>
 <translation id="1594030484168838125">選擇</translation>
-<translation id="160851722280695521">暢玩 Chrome 恐龍遊戲</translation>
+<translation id="160851722280695521">暢玩 Mises 恐龍遊戲</translation>
 <translation id="161042844686301425">青色</translation>
 <translation id="1611101756749861742">第二卷</translation>
 <translation id="1615402009686901181">當畫面上出現機密內容，系統管理員政策就會停用螢幕畫面擷取功能</translation>
@@ -233,13 +233,13 @@
 <translation id="1642410292376109062">變更 Google 密碼的按鈕；按下 Enter 鍵即可變更 Google 帳戶密碼</translation>
 <translation id="1644574205037202324">歷史記錄</translation>
 <translation id="1645368109819982629">不支援的通訊協定</translation>
-<translation id="1650602712345345441">管理 Chrome 設定</translation>
+<translation id="1650602712345345441">管理 Mises 設定</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="1656024727720460136">Chrome 已簡化這個頁面，讓內容更易於閱讀。Chrome 透過安全連線擷取原始頁面。</translation>
+<translation id="1656024727720460136">Mises 已簡化這個頁面，讓內容更易於閱讀。Mises 透過安全連線擷取原始頁面。</translation>
 <translation id="1656489000284462475">取件</translation>
 <translation id="1658918301167915956">藍牙裝置</translation>
 <translation id="1662550410081243962">儲存及填入付款方式</translation>
-<translation id="1663943134801823270">信用卡和地址資訊皆來自 Chrome。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
+<translation id="1663943134801823270">信用卡和地址資訊皆來自 Mises。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
 <translation id="1671391448414634642">從現在起，系統會將<ph name="SOURCE_LANGUAGE" />網頁翻譯成<ph name="TARGET_LANGUAGE" />。</translation>
 <translation id="1682696192498422849">先從短邊開始</translation>
 <translation id="168693727862418163">這項政策的值未通過其結構定義的驗證，因此會遭到忽略。</translation>
@@ -320,11 +320,11 @@
 <translation id="1919345977826869612">廣告</translation>
 <translation id="1919367280705858090">瞭解如何修正特定錯誤訊息指出的錯誤</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{無}=1{1 個網站}other{# 個網站}}</translation>
-<translation id="1923390796829649802">「管理無障礙設定」按鈕；按下 Enter 鍵即可在 Chrome OS 設定中依個人需求調整無障礙工具</translation>
+<translation id="1923390796829649802">「管理無障礙設定」按鈕；按下 Enter 鍵即可在 Mises OS 設定中依個人需求調整無障礙工具</translation>
 <translation id="1924727005275031552">新地址</translation>
-<translation id="1927439593081478069">[執行 Chrome 安全檢查] 按鈕；按下 Enter 鍵即可在 Chrome 設定中執行安全檢查</translation>
+<translation id="1927439593081478069">[執行 Mises 安全檢查] 按鈕；按下 Enter 鍵即可在 Mises 設定中執行安全檢查</translation>
 <translation id="1939175642807587452">可以要求傳送通知</translation>
-<translation id="1945968466830820669">你可能會失去貴機構帳戶的存取權，或身分遭到冒用。Chromium 建議你立即變更密碼。</translation>
+<translation id="1945968466830820669">你可能會失去貴機構帳戶的存取權，或身分遭到冒用。Mises 建議你立即變更密碼。</translation>
 <translation id="1947454675006758438">釘裝 (右上方)</translation>
 <translation id="1956486093533522234">尋找、保護裝置或清除裝置資料</translation>
 <translation id="1958218078413065209">最高得分為 <ph name="SCORE" />。</translation>
@@ -341,8 +341,8 @@
 <translation id="2001146170449793414">{COUNT,plural, =1{以及另外 1 個應用程式}other{以及另外 # 個應用程式}}</translation>
 <translation id="2003709556000175978">立即重設你的密碼</translation>
 <translation id="2003775180883135320">四孔 (頂端)</translation>
-<translation id="201174227998721785">在 Chrome 設定中管理各網站的權限及儲存的資料</translation>
-<translation id="2019607688127825327">[管理無障礙設定] 按鈕；按下 Enter 鍵即可在 Chrome 設定中依個人需求調整無障礙工具</translation>
+<translation id="201174227998721785">在 Mises 設定中管理各網站的權限及儲存的資料</translation>
+<translation id="2019607688127825327">[管理無障礙設定] 按鈕；按下 Enter 鍵即可在 Mises 設定中依個人需求調整無障礙工具</translation>
 <translation id="2025115093177348061">擴增實境</translation>
 <translation id="2025186561304664664">Proxy 已設為自動設定。</translation>
 <translation id="2025891858974379949">不安全的內容</translation>
@@ -353,7 +353,7 @@
 <translation id="2042213636306070719">紙匣 7</translation>
 <translation id="204357726431741734">登入以使用儲存在 Google 帳戶中的密碼</translation>
 <translation id="2053111141626950936">系統不會翻譯<ph name="LANGUAGE" />網頁。</translation>
-<translation id="2053373601901562871">{NUM_DAYS,plural, =0{如果這項功能已啟用且處於有效狀態，Chrome 就能判斷你近期的瀏覽活動與哪個大型使用者群組 (或稱「同類群組」) 最為相近。廣告客戶可以選擇要向該群組顯示的廣告，而你的瀏覽記錄會保留在裝置上，僅供本人存取。你所在的群組會每天更新。}=1{如果這項功能已啟用且處於有效狀態，Chrome 就能判斷你近期的瀏覽活動與哪個大型使用者群組 (或稱「同類群組」) 最為相近。廣告客戶可以選擇要向該群組顯示的廣告，而你的瀏覽記錄會保留在裝置上，僅供本人存取。你所在的群組會每天更新。}other{如果這項功能已啟用且處於有效狀態，Chrome 就能判斷你近期的瀏覽活動與哪個大型使用者群組 (或稱「同類群組」) 最為相近。廣告客戶可以選擇要向該群組顯示的廣告，而你的瀏覽記錄會保留在裝置上，僅供本人存取。你所在的群組會每隔 {NUM_DAYS} 天更新。}}</translation>
+<translation id="2053373601901562871">{NUM_DAYS,plural, =0{如果這項功能已啟用且處於有效狀態，Mises 就能判斷你近期的瀏覽活動與哪個大型使用者群組 (或稱「同類群組」) 最為相近。廣告客戶可以選擇要向該群組顯示的廣告，而你的瀏覽記錄會保留在裝置上，僅供本人存取。你所在的群組會每天更新。}=1{如果這項功能已啟用且處於有效狀態，Mises 就能判斷你近期的瀏覽活動與哪個大型使用者群組 (或稱「同類群組」) 最為相近。廣告客戶可以選擇要向該群組顯示的廣告，而你的瀏覽記錄會保留在裝置上，僅供本人存取。你所在的群組會每天更新。}other{如果這項功能已啟用且處於有效狀態，Mises 就能判斷你近期的瀏覽活動與哪個大型使用者群組 (或稱「同類群組」) 最為相近。廣告客戶可以選擇要向該群組顯示的廣告，而你的瀏覽記錄會保留在裝置上，僅供本人存取。你所在的群組會每隔 {NUM_DAYS} 天更新。}}</translation>
 <translation id="2053553514270667976">郵遞區號</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 個建議項目}other{# 個建議項目}}</translation>
 <translation id="2071156619270205202">這張卡片不能建立虛擬卡號。</translation>
@@ -362,7 +362,7 @@
 <translation id="20817612488360358">雖然系統 Proxy 設定已設為使用，不過也指定了明確 Proxy 設定。</translation>
 <translation id="2082238445998314030">第 <ph name="RESULT_NUMBER" /> 個結果，共 <ph name="TOTAL_RESULTS" /> 個</translation>
 <translation id="2085876078937250610">儲存…</translation>
-<translation id="2088086323192747268">「管理同步功能」按鈕；按下 Enter 鍵即可在 Chrome 設定中管理要同步處理哪些資訊</translation>
+<translation id="2088086323192747268">「管理同步功能」按鈕；按下 Enter 鍵即可在 Mises 設定中管理要同步處理哪些資訊</translation>
 <translation id="2091887806945687916">音訊</translation>
 <translation id="2094505752054353250">網域不符</translation>
 <translation id="2096368010154057602">部門</translation>
@@ -430,7 +430,7 @@
 <translation id="2293443924986248631">開啟這項功能後，網站無法使用 Cookie 來追蹤你在網路上的活動。某些網站的功能可能無法正常運作。</translation>
 <translation id="2295290966866883927">系統會將你造訪的網頁網址傳送到 Google Cloud 或第三方進行分析。舉例來說，Google Cloud 或第三方可能會掃描網頁網址，藉此偵測不安全的網站。</translation>
 <translation id="2297722699537546652">B5 (信封)</translation>
-<translation id="2298855485018661510">「管理 Cookie」按鈕；按下 Enter 鍵即可在 Chrome 設定中管理 Cookie 偏好設定</translation>
+<translation id="2298855485018661510">「管理 Cookie」按鈕；按下 Enter 鍵即可在 Mises 設定中管理 Cookie 偏好設定</translation>
 <translation id="2300306941146563769">未上傳</translation>
 <translation id="2310021320168182093">Chou2 (信封)</translation>
 <translation id="2316887270356262533">釋出不到 1 MB。下次造訪部分網站時，載入速度可能會變慢。</translation>
@@ -453,9 +453,9 @@
 <translation id="2367567093518048410">等級</translation>
 <translation id="2372464001869762664">確認後，這個網站就會取得你在 Google 帳戶中的卡片資料。如要查詢信用卡驗證碼，請瀏覽 Plex 帳戶詳細資料。</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="2383455408879745299">在 Chrome 設定中依個人需求調整無障礙工具</translation>
+<translation id="2383455408879745299">在 Mises 設定中依個人需求調整無障礙工具</translation>
 <translation id="2384307209577226199">企業預設</translation>
-<translation id="2385809941344967209">前往 Chrome 設定更新 Chrome</translation>
+<translation id="2385809941344967209">前往 Mises 設定更新 Mises</translation>
 <translation id="2386255080630008482">伺服器憑證已遭撤銷。</translation>
 <translation id="2392959068659972793">顯示尚未設定任何值的政策</translation>
 <translation id="239429038616798445">不支援所選的運送方式，請改選其他方式。</translation>
@@ -472,7 +472,7 @@
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">選擇快遞方式</translation>
 <translation id="2465688316154986572">釘裝</translation>
-<translation id="2465914000209955735">管理在 Chrome 中下載的檔案</translation>
+<translation id="2465914000209955735">管理在 Mises 中下載的檔案</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK" />執行網路診斷<ph name="END_LINK" /></translation>
 <translation id="2469153820345007638">1 到 N 的順序</translation>
 <translation id="2470767536994572628">這份文件會在你編輯註解時重設為單頁檢視和原始顯示方向</translation>
@@ -508,28 +508,28 @@
 <translation id="2556876185419854533">復原編輯(&amp;U)</translation>
 <translation id="2570734079541893434">管理設定</translation>
 <translation id="257674075312929031">群組</translation>
-<translation id="2576880857912732701">[管理安全性設定] 按鈕；按下 Enter 鍵即可在 Chrome 設定中管理安全瀏覽等功能</translation>
+<translation id="2576880857912732701">[管理安全性設定] 按鈕；按下 Enter 鍵即可在 Mises 設定中管理安全瀏覽等功能</translation>
 <translation id="2586657967955657006">剪貼簿</translation>
 <translation id="2587730715158995865">出自「<ph name="ARTICLE_PUBLISHER" />」。閱讀這篇報導和另外 <ph name="OTHER_ARTICLE_COUNT" /> 篇報導。</translation>
 <translation id="2587841377698384444">Directory API ID：</translation>
 <translation id="2594318783181750337">快速網頁檢視：</translation>
 <translation id="2595719060046994702">這個裝置和帳戶未受到任何公司或其他機構管理。</translation>
-<translation id="2596415276201385844">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Chrome 無法驗證這些憑證。</translation>
+<translation id="2596415276201385844">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Mises 無法驗證這些憑證。</translation>
 <translation id="2597378329261239068">此文件受到密碼保護，請輸入密碼。</translation>
 <translation id="2609632851001447353">變化版本</translation>
 <translation id="2610561535971892504">點選複製</translation>
 <translation id="2618023639789766142">C10 (信封)</translation>
 <translation id="2625385379895617796">你的時鐘時間過快</translation>
 <translation id="262745152991669301">可以要求連線至 USB 裝置</translation>
-<translation id="2629325967560697240">要獲得 Chrome 最高等級的安全防護，請<ph name="BEGIN_ENHANCED_PROTECTION_LINK" />啟用強化防護功能<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
+<translation id="2629325967560697240">要獲得 Mises 最高等級的安全防護，請<ph name="BEGIN_ENHANCED_PROTECTION_LINK" />啟用強化防護功能<ph name="END_ENHANCED_PROTECTION_LINK" /></translation>
 <translation id="2634124572758952069">找不到 <ph name="HOST_NAME" /> 的伺服器 IP 位址。</translation>
 <translation id="2639739919103226564">狀態：</translation>
 <translation id="264810637653812429">找不到相容的裝置。</translation>
 <translation id="2649204054376361687"><ph name="COUNTRY" />，<ph name="CITY" /></translation>
-<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中清除你的瀏覽記錄、Cookie、快取和其他資料</translation>
+<translation id="2649259151839507861"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中清除你的瀏覽記錄、Cookie、快取和其他資料</translation>
 <translation id="2650446666397867134">存取檔案遭拒</translation>
 <translation id="2653659639078652383">提交</translation>
-<translation id="2659491813326907275">在 Chrome OS 設定中依個人需求調整無障礙工具</translation>
+<translation id="2659491813326907275">在 Mises OS 設定中依個人需求調整無障礙工具</translation>
 <translation id="2660779039299703961">活動</translation>
 <translation id="2664887757054927933">{COUNT,plural, =0{無}=1{有 1 組密碼 (<ph name="DOMAIN_LIST" />)}=2{有 2 組密碼 (<ph name="DOMAIN_LIST" />)}other{有 # 組密碼 (<ph name="DOMAIN_LIST" />)}}</translation>
 <translation id="2666092431469916601">置頂</translation>
@@ -551,13 +551,13 @@
 <translation id="2705137772291741111">已儲存 (快取) 這個網站的複本，但無法讀取。</translation>
 <translation id="2709516037105925701">自動填入</translation>
 <translation id="2713444072780614174">白色</translation>
-<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中管理付款和信用卡資訊</translation>
+<translation id="2715612312510870559"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中管理付款和信用卡資訊</translation>
 <translation id="2721148159707890343">要求成功</translation>
-<translation id="2723669454293168317">在 Chrome 設定中執行安全檢查</translation>
+<translation id="2723669454293168317">在 Mises 設定中執行安全檢查</translation>
 <translation id="2726001110728089263">側匣</translation>
 <translation id="2728127805433021124">伺服器憑證是以防護力較弱的簽章演算法進行簽署。</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK" />執行連線診斷<ph name="END_LINK" /></translation>
-<translation id="2737403869486738563">繼續搜尋即可查看 Chrome 歷史記錄中的相關活動</translation>
+<translation id="2737403869486738563">繼續搜尋即可查看 Mises 歷史記錄中的相關活動</translation>
 <translation id="2738330467931008676">選擇取件地址</translation>
 <translation id="2740531572673183784">確定</translation>
 <translation id="2742870351467570537">移除選取的項目</translation>
@@ -570,7 +570,7 @@
 <translation id="2792012897584536778">這個裝置的系統管理員已設定安全憑證，這些憑證將允許系統管理員檢視你所造訪的網站內容。</translation>
 <translation id="2799020568854403057">你要造訪的網站含有有害的應用程式</translation>
 <translation id="2799223571221894425">重新啟動</translation>
-<translation id="2799846101868535739">「繼續搜尋」按鈕；按下 Enter 鍵即可繼續搜尋，查看 Chrome 歷史記錄中的相關活動</translation>
+<translation id="2799846101868535739">「繼續搜尋」按鈕；按下 Enter 鍵即可繼續搜尋，查看 Mises 歷史記錄中的相關活動</translation>
 <translation id="2803306138276472711">Google 安全瀏覽功能最近在 <ph name="SITE" /> 上<ph name="BEGIN_LINK" />偵測到惡意軟體<ph name="END_LINK" />。即使是平常可以安全使用的網站，有時也會遭到惡意軟體感染。</translation>
 <translation id="2807052079800581569">圖片 Y 位置</translation>
 <translation id="2820957248982571256">掃描中...</translation>
@@ -584,7 +584,7 @@
 <translation id="2859806420264540918">這個網站會顯示干擾性或誤導性的廣告。</translation>
 <translation id="287596039013813457">友善</translation>
 <translation id="2876489322757410363">即將退出無痕模式，改為使用外部應用程式付款，要繼續嗎？</translation>
-<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中管理安全瀏覽等功能</translation>
+<translation id="2876949457278336305"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中管理安全瀏覽等功能</translation>
 <translation id="2878197950673342043">十字摺</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">放置視窗</translation>
@@ -596,7 +596,7 @@
 <translation id="290376772003165898">不是<ph name="LANGUAGE" />網頁嗎？</translation>
 <translation id="2909946352844186028">系統偵測到網路變更。</translation>
 <translation id="2911973620368911614">工作帳戶使用者 ID</translation>
-<translation id="2914160345369867329"><ph name="SITE" /> 通常會使用加密方式保護你的資訊。但 Chrome 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Chrome 已及時停止連線，並未傳輸任何資料，因此你的資訊仍然安全無虞。</translation>
+<translation id="2914160345369867329"><ph name="SITE" /> 通常會使用加密方式保護你的資訊。但 Mises 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Mises 已及時停止連線，並未傳輸任何資料，因此你的資訊仍然安全無虞。</translation>
 <translation id="2915068235268646559">當機時間：<ph name="CRASH_TIME" /></translation>
 <translation id="2916038427272391327">關閉其他程式</translation>
 <translation id="2922350208395188000">無法檢查伺服器憑證。</translation>
@@ -609,14 +609,14 @@
 <translation id="2941952326391522266">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證來自 <ph name="DOMAIN2" /> 網域。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="2943895734390379394">上傳時間：</translation>
 <translation id="2948083400971632585">你可以在設定頁面停用任何為連線設置的 Proxy。</translation>
-<translation id="2949183777371959169">裝置並未透過 Chrome 瀏覽器雲端管理服務註冊，因此系統已忽略這項政策。</translation>
+<translation id="2949183777371959169">裝置並未透過 Mises 瀏覽器雲端管理服務註冊，因此系統已忽略這項政策。</translation>
 <translation id="2951588413176968965">我的出紙槽</translation>
 <translation id="2952820037279740115">關閉所有無痕式視窗</translation>
 <translation id="295526156371527179">警告：這項政策並非字典，因此未依照政策中指定的方式合併為字典。</translation>
 <translation id="2955913368246107853">關閉搜尋列</translation>
 <translation id="2972581237482394796">重做(&amp;R)</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />，目前已選取。<ph name="ROW_CONTENT" /></translation>
-<translation id="2985306909656435243">啟用後，Chromium 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="2985306909656435243">啟用後，Mises 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="2985398929374701810">請輸入有效的地址</translation>
 <translation id="2986368408720340940">不支援所選的取件方式，請改選其他方式。</translation>
 <translation id="2987034854559945715">找不到相符的功能</translation>
@@ -676,7 +676,7 @@
 <translation id="3194737229810486521"><ph name="URL" /> 要求在你的裝置上永久儲存資料</translation>
 <translation id="3195213714973468956"><ph name="SERVER_NAME" /> 上的 <ph name="PRINTER_NAME" /></translation>
 <translation id="3197136577151645743">可以要求偵測你使用這部裝置的時間</translation>
-<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中管理要同步處理哪些資訊</translation>
+<translation id="3202497928925179914"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中管理要同步處理哪些資訊</translation>
 <translation id="320323717674993345">取消付款</translation>
 <translation id="3207960819495026254">已加入書籤</translation>
 <translation id="3209034400446768650">這個頁面可能會產生費用</translation>
@@ -698,7 +698,7 @@
 <translation id="3252266817569339921">法文</translation>
 <translation id="3257954757204451555">這項資訊是由誰提供？</translation>
 <translation id="3259648571731540213"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Google 日曆中快速建立新活動</translation>
-<translation id="3264837738038045344">「管理 Chrome 設定」按鈕；按下 Enter 鍵即可前往 Chrome 設定</translation>
+<translation id="3264837738038045344">「管理 Mises 設定」按鈕；按下 Enter 鍵即可前往 Mises 設定</translation>
 <translation id="3266793032086590337">值 (衝突)</translation>
 <translation id="3268451620468152448">開啟的分頁</translation>
 <translation id="3270847123878663523">復原重新排序(&amp;U)</translation>
@@ -710,7 +710,7 @@
 <translation id="3287510313208355388">等到可連線時再下載網頁內容</translation>
 <translation id="3288238092761586174"><ph name="URL" /> 可能需要採取其他步驟，才能驗證付款方式</translation>
 <translation id="3293642807462928945">進一步瞭解 <ph name="POLICY_NAME" /> 政策</translation>
-<translation id="3295444047715739395">在 Chrome 設定中查看和管理密碼</translation>
+<translation id="3295444047715739395">在 Mises 設定中查看和管理密碼</translation>
 <translation id="3303855915957856445">找不到相符的搜尋結果</translation>
 <translation id="3304073249511302126">藍牙掃描</translation>
 <translation id="3308006649705061278">組織單位 (OU)</translation>
@@ -724,7 +724,7 @@
 <translation id="3345782426586609320">眼睛</translation>
 <translation id="3355823806454867987">變更 Proxy 設定...</translation>
 <translation id="3360103848165129075">付款處理常式工作表</translation>
-<translation id="3361596688432910856">Chrome <ph name="BEGIN_EMPHASIS" />不會儲存<ph name="END_EMPHASIS" />下列資訊：
+<translation id="3361596688432910856">Mises <ph name="BEGIN_EMPHASIS" />不會儲存<ph name="END_EMPHASIS" />下列資訊：
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />你的瀏覽記錄
           <ph name="LIST_ITEM" />Cookie 和網站資料
@@ -738,7 +738,7 @@
       • 根據你的周遭環境建立 3D 地圖並追蹤攝影機位置
       • 使用裝置的攝影機</translation>
 <translation id="337363190475750230">已取消佈建</translation>
-<translation id="3375754925484257129">執行 Chrome 安全檢查</translation>
+<translation id="3375754925484257129">執行 Mises 安全檢查</translation>
 <translation id="3377144306166885718">伺服器的傳輸層安全標準 (TLS) 版本已過時。</translation>
 <translation id="3377188786107721145">政策解析錯誤</translation>
 <translation id="3377736046129930310">使用螢幕鎖定功能加快卡片驗證速度</translation>
@@ -761,7 +761,7 @@
 <translation id="3423742043356668186">指定的系統</translation>
 <translation id="3427092606871434483">允許 (預設)</translation>
 <translation id="3427342743765426898">重做編輯(&amp;R)</translation>
-<translation id="342781501876943858">如果你在其他網站上重複使用過你的密碼，Chromium 會建議你重設密碼。</translation>
+<translation id="342781501876943858">如果你在其他網站上重複使用過你的密碼，Mises 會建議你重設密碼。</translation>
 <translation id="3428151540071562330">一或多個 DnsOverHttpsTemplates 伺服器範本 URI 無效，因此系統不會採用這些伺服器範本 URI。</translation>
 <translation id="3431636764301398940">將這張信用卡儲存到這個裝置</translation>
 <translation id="3432601291244612633">關閉頁面</translation>
@@ -782,14 +782,14 @@
 <translation id="3468054117417088249"><ph name="TAB_SWITCH_SUFFIX" />，目前已開啟，依序按下 Tab 鍵和 Enter 鍵即可切換至開啟的分頁</translation>
 <translation id="3470563864795286535"><ph name="CLOSE_INCOGNITO_WINDOWS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可關閉目前開啟的所有無痕式視窗</translation>
 <translation id="3479552764303398839">現在不要</translation>
-<translation id="3484560055331845446">為避免失去 Google 帳戶存取權，Chrome 建議你立即變更密碼。系統會要求你登入帳戶。</translation>
+<translation id="3484560055331845446">為避免失去 Google 帳戶存取權，Mises 建議你立即變更密碼。系統會要求你登入帳戶。</translation>
 <translation id="3487845404393360112">紙匣 4</translation>
 <translation id="3495081129428749620">在
     「<ph name="PAGE_TITLE" />」網頁中尋找</translation>
 <translation id="350069200438440499">檔案名稱：</translation>
 <translation id="3507936815618196901">根據你的周遭環境建立 3D 地圖並追蹤攝影機位置</translation>
 <translation id="3512163584740124171">由於相同政策群組中有其他政策的優先順序更高，因此系統已忽略這項政策。</translation>
-<translation id="35172538073169599">「管理地址」按鈕；按下 Enter 鍵即可在 Chrome 設定中新增及管理地址</translation>
+<translation id="35172538073169599">「管理地址」按鈕；按下 Enter 鍵即可在 Mises 設定中新增及管理地址</translation>
 <translation id="3518941727116570328">多個物件處理</translation>
 <translation id="3528171143076753409">伺服器憑證授權不可靠。</translation>
 <translation id="3528485271872257980">深棕色</translation>
@@ -804,7 +804,7 @@
 <translation id="3574305903863751447"><ph name="COUNTRY" />，<ph name="STATE" />，<ph name="CITY" /></translation>
 <translation id="3575121482199441727">允許這個網站的通知</translation>
 <translation id="3576616784287504635"><ph name="SITE" /> 的嵌入式網頁顯示</translation>
-<translation id="3581089476000296252">Chrome 會在網頁就緒後通知你。&lt;a&gt;取消&lt;/a&gt;</translation>
+<translation id="3581089476000296252">Mises 會在網頁就緒後通知你。&lt;a&gt;取消&lt;/a&gt;</translation>
 <translation id="3582930987043644930">新增名稱</translation>
 <translation id="3583757800736429874">重做移動(&amp;R)</translation>
 <translation id="3584299510153766161">雙孔 (底部)</translation>
@@ -819,7 +819,7 @@
 <translation id="3611395257124510155"><ph name="CARD_IDENTIFIER" /> 的虛擬卡片</translation>
 <translation id="3614103345592970299">粗細：2</translation>
 <translation id="361438452008624280">清單項目「<ph name="LANGUAGE_ID" />」：不明或不支援的語言。</translation>
-<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中執行安全檢查</translation>
+<translation id="3614934205542186002"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中執行安全檢查</translation>
 <translation id="3615877443314183785">請輸入有效的到期日</translation>
 <translation id="36224234498066874">清除瀏覽資料...</translation>
 <translation id="362276910939193118">顯示完整記錄</translation>
@@ -829,9 +829,9 @@
 <translation id="3631244953324577188">生物特徵辨識</translation>
 <translation id="3632503704576938756">已繼續分享螢幕畫面</translation>
 <translation id="3632892046558972264">已暫停分享螢幕畫面</translation>
-<translation id="3633738897356909127">「更新 Chrome」按鈕，按下 Enter 鍵即可透過 Chrome 設定來更新 Chrome</translation>
+<translation id="3633738897356909127">「更新 Mises」按鈕，按下 Enter 鍵即可透過 Mises 設定來更新 Mises</translation>
 <translation id="3634530185120165534">紙匣 5</translation>
-<translation id="3634567936866541746">你剛才在詐騙網站上輸入了密碼。為確保帳戶安全，Chrome 建議你檢查已儲存的密碼。</translation>
+<translation id="3634567936866541746">你剛才在詐騙網站上輸入了密碼。為確保帳戶安全，Mises 建議你檢查已儲存的密碼。</translation>
 <translation id="3637662659967048211">儲存至 Google 帳戶</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">應用程式：</translation>
@@ -864,7 +864,7 @@
 <translation id="3736520371357197498">如果你瞭解安全性風險，也可以選擇在危險程式尚未遭到移除的狀態下<ph name="BEGIN_LINK" />造訪這個不安全的網站<ph name="END_LINK" />。</translation>
 <translation id="3738166223076830879">你的瀏覽器是由系統管理員管理。</translation>
 <translation id="3744111561329211289">背景同步處理</translation>
-<translation id="3744899669254331632"><ph name="SITE" /> 傳送的憑證受到干擾，造成 Chromium 無法處理，因此你目前無法造訪該網站。網路錯誤和攻擊通常是暫時性狀態，因此這個網頁可能稍後就會恢復正常運作。</translation>
+<translation id="3744899669254331632"><ph name="SITE" /> 傳送的憑證受到干擾，造成 Mises 無法處理，因此你目前無法造訪該網站。網路錯誤和攻擊通常是暫時性狀態，因此這個網頁可能稍後就會恢復正常運作。</translation>
 <translation id="3745099705178523657">經你確認後，這個網站就會取得你的 Google 帳戶中的信用卡詳細資料。</translation>
 <translation id="3748148204939282805">攻擊者可能會試圖透過 <ph name="BEGIN_BOLD" /><ph name="SITE" /><ph name="END_BOLD" /> 誘使你做一些危險行為，例如安裝軟體或提供個人資訊 (包括密碼、電話號碼或信用卡資料)。<ph name="BEGIN_LEARN_MORE_LINK" />瞭解詳情<ph name="END_LEARN_MORE_LINK" /></translation>
 <translation id="3754210790023674521">離開子母畫面</translation>
@@ -958,7 +958,7 @@
 <translation id="4089152113577680600">紙匣 14</translation>
 <translation id="4098354747657067197">你要瀏覽的是詐騙網站</translation>
 <translation id="4099048595830172239">根據管理員政策，當畫面上有機密內容時，不建議你與「<ph name="APPLICATION_TITLE" />」分享螢幕畫面：</translation>
-<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可自訂 Chrome 中的字型大小和字體</translation>
+<translation id="4099391883283080991"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可自訂 Mises 中的字型大小和字體</translation>
 <translation id="4101413244023615925">文字和圖片</translation>
 <translation id="4103249731201008433">裝置序號無效</translation>
 <translation id="4106133539597032659">建立網站的按鈕；按下 Enter 鍵即可在 Google 協作平台中快速建立新網站</translation>
@@ -970,7 +970,7 @@
 <translation id="4117700440116928470">系統不支援這項政策的範圍。</translation>
 <translation id="4121428309786185360">到期日</translation>
 <translation id="4123572138124678573">三孔 (底部)</translation>
-<translation id="4127575959421463246">在尋找 Chrome 作業系統旗標嗎？請前往</translation>
+<translation id="4127575959421463246">在尋找 Mises 作業系統旗標嗎？請前往</translation>
 <translation id="4129401438321186435">{COUNT,plural, =1{以及另外 1 項表單資料}other{以及另外 # 項表單資料}}</translation>
 <translation id="4130226655945681476">檢查網路線、數據機和路由器</translation>
 <translation id="4134123981501319574">建立文件</translation>
@@ -1009,11 +1009,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;步驟 2：以無痕模式開啟網頁 (僅適用於電腦)&lt;/h4&gt;
     &lt;p&gt;使用無痕式視窗開啟您曾造訪的網頁。&lt;/p&gt;
-    &lt;p&gt;如果網頁可以順利開啟，表示有 Chrome 擴充功能並未正常運作。如要修正這項錯誤，請關閉該擴充功能。&lt;/p&gt;
+    &lt;p&gt;如果網頁可以順利開啟，表示有 Mises 擴充功能並未正常運作。如要修正這項錯誤，請關閉該擴充功能。&lt;/p&gt;
     &lt;h4&gt;步驟 3：更新您的作業系統&lt;/h4&gt;
     &lt;p&gt;確認您的裝置已更新至最新版本的作業系統。&lt;/p&gt;
     &lt;h4&gt;步驟 4：暫時關閉防毒軟體&lt;/h4&gt;
-    &lt;p&gt;如果您的電腦使用任何提供「HTTPS 保護」或「HTTPS 掃描」功能的防毒軟體，導致 Chrome 無法提供安全支援，系統就會顯示這則錯誤訊息。&lt;/p&gt;
+    &lt;p&gt;如果您的電腦使用任何提供「HTTPS 保護」或「HTTPS 掃描」功能的防毒軟體，導致 Mises 無法提供安全支援，系統就會顯示這則錯誤訊息。&lt;/p&gt;
     &lt;p&gt;如要修正這個問題，請關閉防毒軟體。如果這麼做可以順利解決問題，代表您必須關閉防毒軟體，才能使用安全網站。&lt;/p&gt;
     &lt;p&gt;事後請記得再次開啟防毒程式。&lt;/p&gt;
     &lt;h4&gt;步驟 5：尋求更多協助&lt;/h4&gt;
@@ -1054,8 +1054,8 @@
 <translation id="4329871760342656885">政策剖析錯誤：<ph name="ERROR" /></translation>
 <translation id="4331519897422864041">堆疊出紙器 5</translation>
 <translation id="4331708818696583467">不安全</translation>
-<translation id="4340575312453649552">這個廣告使用了太多裝置資源，因此 Chrome 已將其移除。</translation>
-<translation id="4340982228985273705">系統偵測結果顯示這台電腦未受企業管理，因此政策只能自動安裝透過 Chrome 線上應用程式商店代管的擴充功能。Chrome 線上應用程式商店更新網址為「<ph name="CWS_UPDATE_URL" />」。</translation>
+<translation id="4340575312453649552">這個廣告使用了太多裝置資源，因此 Mises 已將其移除。</translation>
+<translation id="4340982228985273705">系統偵測結果顯示這台電腦未受企業管理，因此政策只能自動安裝透過 Mises 線上應用程式商店代管的擴充功能。Mises 線上應用程式商店更新網址為「<ph name="CWS_UPDATE_URL" />」。</translation>
 <translation id="4346197816712207223">接受的信用卡</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">與 <ph name="SITE" /> 的連線並不安全</translation>
@@ -1066,7 +1066,7 @@
 <translation id="4356973930735388585">攻擊者可能會試圖透過這個網站在你的電腦上安裝危險程式，藉此竊取或刪除你的資訊 (例如相片、密碼、郵件和信用卡資料)。</translation>
 <translation id="4358059973562876591">DnsOverHttpsMode 政策發生錯誤，因此系統無法套用你指定的範本。</translation>
 <translation id="4358461427845829800">管理付款方式...</translation>
-<translation id="4359160567981085931">你剛才在詐騙網站上輸入了密碼。Chrome 能夠幫助你。如要變更密碼並通知 Google 你的帳戶可能面臨風險，請按一下 [保護帳戶]。</translation>
+<translation id="4359160567981085931">你剛才在詐騙網站上輸入了密碼。Mises 能夠幫助你。如要變更密碼並通知 Google 你的帳戶可能面臨風險，請按一下 [保護帳戶]。</translation>
 <translation id="4367563149485757821">Number-12 (Envelope)</translation>
 <translation id="437040971055499437">發生安全性事件</translation>
 <translation id="4372516964750095882">Fanfold-Us</translation>
@@ -1080,7 +1080,7 @@
 <translation id="4408413947728134509"><ph name="NUM_COOKIES" /> 個 Cookie</translation>
 <translation id="4414515549596849729">Cookie 和網站資料</translation>
 <translation id="4415426530740016218">取件地址</translation>
-<translation id="4424024547088906515">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Chrome 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
+<translation id="4424024547088906515">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Mises 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="443121186588148776">序列埠</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> 不接受你的登入憑證，或是你可能未提供登入憑證。</translation>
 <translation id="4432792777822557199">從現在起，系統會將<ph name="SOURCE_LANGUAGE" />網頁內容翻譯成<ph name="TARGET_LANGUAGE" /></translation>
@@ -1101,7 +1101,7 @@
 <translation id="4482953324121162758">系統不會翻譯這個網站。</translation>
 <translation id="4490717597759821841">A7</translation>
 <translation id="449126573531210296">使用你的 Google 帳戶對已同步處理的密碼進行加密</translation>
-<translation id="4492519888999857993">這些功能預設為停用。日後發布的 Chrome 版本將不再提供這些功能。</translation>
+<translation id="4492519888999857993">這些功能預設為停用。日後發布的 Mises 版本將不再提供這些功能。</translation>
 <translation id="4493480324863638523">網址無效。網址必須採用標準架構，例如 http://example.com 或 https://example.com。</translation>
 <translation id="4500587658229086076">不安全的內容</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1112,7 +1112,7 @@
 <translation id="4509074745930862522"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可使用 Google 翻譯來翻譯這個網頁</translation>
 <translation id="4510487217173779431">Chou4 (信封)</translation>
 <translation id="4514308731478712184">關閉瀏覽歷程</translation>
-<translation id="4515275063822566619">信用卡和地址資訊皆來自 Chrome 和你的 Google 帳戶 (<ph name="ACCOUNT_EMAIL" />)。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
+<translation id="4515275063822566619">信用卡和地址資訊皆來自 Mises 和你的 Google 帳戶 (<ph name="ACCOUNT_EMAIL" />)。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
 <translation id="4517607026994743406">Comm-10 (信封)</translation>
 <translation id="4521157617044179198"><ph name="WIDTH" /> × <ph name="HEIGHT" /> 公釐 (<ph name="ORIENTATION" />)</translation>
 <translation id="4521916730539354575">左匣</translation>
@@ -1125,11 +1125,11 @@
 <translation id="455113658016510503">A9</translation>
 <translation id="4558551763791394412">試試看停用擴充功能。</translation>
 <translation id="4559332380232738994">10x11</translation>
-<translation id="4567686777917670400">你的系統管理員可從遠端變更瀏覽器設定。這部裝置上的活動也可透過 Chromium 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
+<translation id="4567686777917670400">你的系統管理員可從遠端變更瀏覽器設定。這部裝置上的活動也可透過 Mises 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
 <translation id="457875822857220463">快遞</translation>
 <translation id="4579056131138995126">Personal (信封)</translation>
 <translation id="4582204425268416675">移除卡片</translation>
-<translation id="4587425331216688090">要從 Chrome 中移除地址嗎？</translation>
+<translation id="4587425331216688090">要從 Mises 中移除地址嗎？</translation>
 <translation id="459089498662672729">系統管理員政策不建議將資料從「<ph name="ORIGIN_NAME" />」貼到這個位置</translation>
 <translation id="4592951414987517459">您的 <ph name="DOMAIN" /> 連線使用新型加密套件進行加密。</translation>
 <translation id="4594403342090139922">復原刪除(&amp;U)</translation>
@@ -1137,9 +1137,9 @@
 <translation id="4598556348158889687">儲存空間管理</translation>
 <translation id="4600854749408232102">C6/C5 (信封)</translation>
 <translation id="4606870351894164739">深具影響力</translation>
-<translation id="4607603470419975064">查看 Chrome 提示的按鈕；按下 Enter 鍵即可瞭解 Chrome 功能</translation>
-<translation id="4607608436550361748">查看 Chrome 提示</translation>
-<translation id="4627675673814409125">這項政策無法在 Chrome 設定檔層級設定，因此將遭到忽略。</translation>
+<translation id="4607603470419975064">查看 Mises 提示的按鈕；按下 Enter 鍵即可瞭解 Mises 功能</translation>
+<translation id="4607608436550361748">查看 Mises 提示</translation>
+<translation id="4627675673814409125">這項政策無法在 Mises 設定檔層級設定，因此將遭到忽略。</translation>
 <translation id="4628948037717959914">相片</translation>
 <translation id="4631649115723685955">已連結現金回饋</translation>
 <translation id="4636930964841734540">資訊</translation>
@@ -1169,7 +1169,7 @@
 <translation id="4731638775147756694">系統管理員已封鎖這個應用程式</translation>
 <translation id="4731967714531604179">Prc2 (信封)</translation>
 <translation id="4733082559415072992"><ph name="URL" /> 要求使用裝置的位置資訊</translation>
-<translation id="4736825316280949806">重新啟動 Chromium</translation>
+<translation id="4736825316280949806">重新啟動 Mises</translation>
 <translation id="4736934858538408121">虛擬卡片</translation>
 <translation id="473775607612524610">更新</translation>
 <translation id="4738601419177586157">「<ph name="TEXT" />」搜尋建議</translation>
@@ -1181,7 +1181,7 @@
 <translation id="4751476147751820511">動作或光源感應器</translation>
 <translation id="4754461935447132332">禁止用於不安全的網站</translation>
 <translation id="4756388243121344051">記錄(&amp;H)</translation>
-<translation id="4757993714154412917">你剛才在詐騙網站上輸入了密碼。為確保帳戶安全，Chromium 建議你檢查已儲存的密碼。</translation>
+<translation id="4757993714154412917">你剛才在詐騙網站上輸入了密碼。為確保帳戶安全，Mises 建議你檢查已儲存的密碼。</translation>
 <translation id="4758311279753947758">新增聯絡資訊</translation>
 <translation id="4761104368405085019">使用你的麥克風</translation>
 <translation id="4764776831041365478"><ph name="URL" /> 的網頁可能暫時離線，或是已經遷移到另一個網址。</translation>
@@ -1212,7 +1212,7 @@
         <ph name="END_LIST" /></translation>
 <translation id="483241715238664915">開啟警告</translation>
 <translation id="4838327282952368871">夢幻</translation>
-<translation id="4840250757394056958">查看 Chrome 歷史記錄</translation>
+<translation id="4840250757394056958">查看 Mises 歷史記錄</translation>
 <translation id="484462545196658690">自動</translation>
 <translation id="4849865131988503897">準確率檢查</translation>
 <translation id="4850886885716139402">檢視</translation>
@@ -1261,7 +1261,7 @@
 <translation id="4995216769782533993">如要與這個網站分享你的卡片資料，請確認安全碼</translation>
 <translation id="4995474875135717171">修改日期：</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可管理站內搜尋和預設搜尋引擎</translation>
-<translation id="5002932099480077015">啟用後，Chrome 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="5002932099480077015">啟用後，Mises 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="5011561501798487822">偵測到的語言</translation>
 <translation id="5015510746216210676">裝置名稱：</translation>
 <translation id="5017554619425969104">你複製的文字</translation>
@@ -1292,7 +1292,7 @@
 <translation id="5088142053160410913">給操作員的訊息</translation>
 <translation id="5089810972385038852">州</translation>
 <translation id="5093232627742069661">彈簧二摺</translation>
-<translation id="5094747076828555589">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Chromium 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
+<translation id="5094747076828555589">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Mises 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="5095208057601539847">州/省</translation>
 <translation id="5097099694988056070">CPU/RAM 使用量等裝置統計資料</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1321,7 +1321,7 @@
 <translation id="5161506081086828129">堆疊出紙器 9</translation>
 <translation id="5164798890604758545">已輸入文字</translation>
 <translation id="516920405563544094">請輸入 <ph name="CREDIT_CARD" /> 的信用卡驗證碼。你確認後，這個網站就會取得你 Google 帳戶中的信用卡詳細資料。</translation>
-<translation id="5169827969064885044">你可能會失去貴機構帳戶的存取權，或身分遭到冒用。Chrome 建議你立即變更密碼。</translation>
+<translation id="5169827969064885044">你可能會失去貴機構帳戶的存取權，或身分遭到冒用。Mises 建議你立即變更密碼。</translation>
 <translation id="5171045022955879922">搜尋或輸入網址</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">本機</translation>
@@ -1330,7 +1330,7 @@
 <translation id="51918995459521422"><ph name="ORIGIN" /> 想要下載多個檔案</translation>
 <translation id="519422657042045905">無法使用註解模式</translation>
 <translation id="5201306358585911203">這個網頁上的嵌入式網頁顯示</translation>
-<translation id="5204468114771111727">Chrome 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。Google 助理可以自動變更你的密碼。</translation>
+<translation id="5204468114771111727">Mises 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。Google 助理可以自動變更你的密碼。</translation>
 <translation id="5205222826937269299">請輸入名稱</translation>
 <translation id="5209518306177824490">SHA-1 指紋</translation>
 <translation id="5209670883520018268">紙匣 20</translation>
@@ -1343,7 +1343,7 @@
 <translation id="5233045608889518621">12x19</translation>
 <translation id="5234764350956374838">關閉</translation>
 <translation id="5250209940322997802">「連線至網路」</translation>
-<translation id="52517543715119994">瞭解 Chrome 功能</translation>
+<translation id="52517543715119994">瞭解 Mises 功能</translation>
 <translation id="5251803541071282808">雲端</translation>
 <translation id="5252000469029418751">C7 (信封)</translation>
 <translation id="5254043433801397071">最佳化列印內容</translation>
@@ -1362,7 +1362,7 @@
 <translation id="5287240709317226393">顯示 Cookie</translation>
 <translation id="5287456746628258573">這個網站的安全性設定過舊，因此你傳送給這個網站的的資訊 (例如密碼或信用卡號碼) 可能會外洩。</translation>
 <translation id="5288108484102287882">政策值驗證作業出現警告訊息</translation>
-<translation id="5288808348893593856">如果 Chrome 未另行通知，表示網站連線安全無虞。</translation>
+<translation id="5288808348893593856">如果 Mises 未另行通知，表示網站連線安全無虞。</translation>
 <translation id="5289384342738547352">多份文件處理</translation>
 <translation id="5299298092464848405">解析政策時發生錯誤</translation>
 <translation id="5300589172476337783">顯示</translation>
@@ -1377,13 +1377,13 @@
 <translation id="5324080437450482387">選擇聯絡資訊</translation>
 <translation id="5329858041417644019">你的瀏覽器未受管理</translation>
 <translation id="5332219387342487447">運送方式</translation>
-<translation id="5333022057423422993">Chrome 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。如要確保帳戶安全，建議你檢查已儲存的密碼。</translation>
+<translation id="5333022057423422993">Mises 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。如要確保帳戶安全，建議你檢查已儲存的密碼。</translation>
 <translation id="5334013548165032829">詳細系統記錄</translation>
 <translation id="5334145288572353250">要儲存地址嗎？</translation>
 <translation id="5340250774223869109">應用程式已遭封鎖</translation>
 <translation id="534295439873310000">NFC 裝置</translation>
 <translation id="5344579389779391559">進入接下來的頁面後，系統可能會向您收費</translation>
-<translation id="5347645913823149105">「自訂 Chrome 中的字型」按鈕；按下 Enter 鍵即可自訂 Chrome 中的字型大小和字體</translation>
+<translation id="5347645913823149105">「自訂 Mises 中的字型」按鈕；按下 Enter 鍵即可自訂 Mises 中的字型大小和字體</translation>
 <translation id="5355557959165512791">目前無法造訪 <ph name="SITE" />，因為這個網站的憑證已遭撤銷。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會恢復正常狀態。</translation>
 <translation id="5356837363448394805">臉紅</translation>
 <translation id="536296301121032821">無法儲存政策設定</translation>
@@ -1429,14 +1429,14 @@
 <translation id="5523118979700054094">政策名稱</translation>
 <translation id="55293785478302737">邊緣裝訂</translation>
 <translation id="553484882784876924">Prc6 (信封)</translation>
-<translation id="5535133333442455806">「清除瀏覽資料」按鈕，按下 Enter 鍵即可在 Chrome 設定中清除你的瀏覽記錄、Cookie、快取和其他資料</translation>
+<translation id="5535133333442455806">「清除瀏覽資料」按鈕，按下 Enter 鍵即可在 Mises 設定中清除你的瀏覽記錄、Cookie、快取和其他資料</translation>
 <translation id="5536214594743852365">顯示「<ph name="SECTION" />」部分</translation>
 <translation id="5539243836947087108">筏板</translation>
 <translation id="5540224163453853">找不到要求的文章。</translation>
 <translation id="5541086400771735334">出紙槽 7</translation>
 <translation id="5541546772353173584">新增電子郵件地址</translation>
 <translation id="5545756402275714221">為你推薦的報導</translation>
-<translation id="5552137475244467770">Chrome 會定期將你的密碼與網路上發布的清單進行比對。在比對過程中，你的密碼和使用者名稱會經過加密，任何人 (包括 Google) 都無法讀取。</translation>
+<translation id="5552137475244467770">Mises 會定期將你的密碼與網路上發布的清單進行比對。在比對過程中，你的密碼和使用者名稱會經過加密，任何人 (包括 Google) 都無法讀取。</translation>
 <translation id="5556459405103347317">重新載入</translation>
 <translation id="5560088892362098740">到期日</translation>
 <translation id="55635442646131152">文件大綱</translation>
@@ -1485,7 +1485,7 @@
 <translation id="571403275720188526">(arm64)</translation>
 <translation id="5720705177508910913">目前使用者</translation>
 <translation id="5728056243719941842">C5 (信封)</translation>
-<translation id="5730040223043577876">如果你在其他網站上重複使用過你的密碼，Chrome 會建議你重設密碼。</translation>
+<translation id="5730040223043577876">如果你在其他網站上重複使用過你的密碼，Mises 會建議你重設密碼。</translation>
 <translation id="5737183892635480227">{NUM_CARDS,plural, =1{將卡片儲存到你的 Google 帳戶}other{將卡片儲存到你的 Google 帳戶}}</translation>
 <translation id="5745733273847572235">可以要求你提供位置資訊</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{使用這張卡片的虛擬卡號}other{請選取卡片}}</translation>
@@ -1500,12 +1500,12 @@
 <translation id="5784606427469807560">驗證您的信用卡時發生問題。請檢查網際網路連線，然後再試一次。</translation>
 <translation id="5785756445106461925">此外，這個網頁含有其他不安全的資源。其他人可能會在資源傳輸期間檢視這些資源，攻擊者也可能會修改這些資源，進而變更網頁外觀。</translation>
 <translation id="5786044859038896871">要填入你的信用卡資訊嗎？</translation>
-<translation id="578633867165174378">Chrome 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。建議你立即變更密碼。</translation>
+<translation id="578633867165174378">Mises 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。建議你立即變更密碼。</translation>
 <translation id="5789643057113097023">.</translation>
 <translation id="5803412860119678065">要填入你的 <ph name="CARD_DETAIL" /> 資訊嗎？</translation>
 <translation id="5804241973901381774">權限</translation>
 <translation id="5810442152076338065">您的 <ph name="DOMAIN" /> 連線使用過舊的加密套件進行加密。</translation>
-<translation id="5812947184178430888">當 Chrome 標記安全性事件時，系統會將與事件相關的資料傳送給系統管理員。這些資料可能包括檔案名稱或中繼資料、你在 Chrome 中造訪的網頁網址，以及用於登入網頁應用程式、裝置和 Chrome 的使用者名稱。</translation>
+<translation id="5812947184178430888">當 Mises 標記安全性事件時，系統會將與事件相關的資料傳送給系統管理員。這些資料可能包括檔案名稱或中繼資料、你在 Mises 中造訪的網頁網址，以及用於登入網頁應用程式、裝置和 Mises 的使用者名稱。</translation>
 <translation id="5813119285467412249">重做新增(&amp;R)</translation>
 <translation id="5817918615728894473">配對</translation>
 <translation id="5824687817967109979">{NUM_CARDS,plural, =1{當你付款時，系統會從這張卡片扣款。別擔心，我們不會將卡片的實際卡號提供給這個網站。為了加強安全性，系統會產生暫時性的信用卡驗證碼。}other{當你付款時，系統會從這張卡片扣款。別擔心，我們不會將卡片的實際卡號提供給這個網站。為了加強安全性，系統會產生暫時性的信用卡驗證碼。}}</translation>
@@ -1597,7 +1597,7 @@
 <translation id="610911394827799129">你的 Google 帳戶仍可能保留了其他類型的瀏覽記錄 (可前往 <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" /> 查詢)。</translation>
 <translation id="6116338172782435947">讀取已複製到剪貼簿的文字和圖片</translation>
 <translation id="6120179357481664955">還記得你的 UPI ID 嗎？</translation>
-<translation id="6124432979022149706">Chrome Enterprise 連接器</translation>
+<translation id="6124432979022149706">Mises Enterprise 連接器</translation>
 <translation id="6127379762771434464">已移除項目</translation>
 <translation id="6146055958333702838">檢查您的網路線是否穩固連接。重新啟動您可能正在使用的任何路由器、
     數據機或其他網路裝置。</translation>
@@ -1614,35 +1614,35 @@
 <translation id="619448280891863779">可以要求在你的畫面中開啟和放置視窗</translation>
 <translation id="6196640612572343990">封鎖第三方 Cookie</translation>
 <translation id="6203231073485539293">檢查網際網路連線</translation>
-<translation id="6218753634732582820">要從 Chromium 中移除地址嗎？</translation>
+<translation id="6218753634732582820">要從 Mises 中移除地址嗎？</translation>
 <translation id="622039917539443112">雙對摺</translation>
 <translation id="6221345481584921695">Google 安全瀏覽功能最近在 <ph name="SITE" /> 上<ph name="BEGIN_LINK" />偵測到惡意軟體<ph name="END_LINK" />。即使是平常可以安全使用的網站，有時也會遭到惡意軟體感染。這些惡意內容來自已知的惡意軟體散佈網站 <ph name="SUBRESOURCE_HOST" />。</translation>
-<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中依個人需求調整無障礙工具</translation>
+<translation id="6226163402662242066"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中依個人需求調整無障礙工具</translation>
 <translation id="6233160458685643793">露齒笑</translation>
 <translation id="6234122620015464377">完成每份文件後裁切</translation>
 <translation id="6240447795304464094">Google Pay 標誌</translation>
 <translation id="6241121617266208201">隱藏建議項目</translation>
 <translation id="624499991300733384">列印合成器服務</translation>
-<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可管理在 Chrome 中下載的檔案</translation>
+<translation id="6252613631861574218"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可管理在 Mises 中下載的檔案</translation>
 <translation id="6254436959401408446">記憶體不足，無法開啟這個網頁</translation>
 <translation id="6259156558325130047">重做重新排序(&amp;R)</translation>
 <translation id="6263376278284652872"><ph name="DOMAIN" /> 書籤</translation>
 <translation id="6264485186158353794">返回安全性瀏覽</translation>
 <translation id="6265794661083428563">複製 <ph name="POLICY_NAME" /> 政策的值</translation>
 <translation id="6266934640124581640">淺藍綠色</translation>
-<translation id="6272088941196661550">繼續瀏覽歷程即可查看 Chrome 歷史記錄中的相關活動</translation>
+<translation id="6272088941196661550">繼續瀏覽歷程即可查看 Mises 歷史記錄中的相關活動</translation>
 <translation id="6272383483618007430">Google 更新</translation>
 <translation id="6276112860590028508">你的閱讀清單中的頁面會顯示在這裡</translation>
 <translation id="627746635834430766">只要將卡片資訊與帳單地址儲存到你的 Google 帳戶中，下次即可更快完成付款程序。</translation>
 <translation id="6279098320682980337">尚未填寫虛擬卡號嗎？點選卡片資料即可複製</translation>
 <translation id="6280223929691119688">快遞無法送貨到這個地址，請改用其他地址。</translation>
 <translation id="6282194474023008486">郵遞區號</translation>
-<translation id="6285507000506177184">[管理 Chrome 下載內容] 按鈕；按下 Enter 鍵即可管理在 Chrome 中下載的檔案</translation>
+<translation id="6285507000506177184">[管理 Mises 下載內容] 按鈕；按下 Enter 鍵即可管理在 Mises 中下載的檔案</translation>
 <translation id="6289939620939689042">頁面顏色</translation>
 <translation id="6290238015253830360">這裡會顯示推薦給你的文章</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">CVC：</translation>
-<translation id="6302269476990306341">正在停止 Chrome 版 Google 助理</translation>
+<translation id="6302269476990306341">正在停止 Mises 版 Google 助理</translation>
 <translation id="6305205051461490394">無法連上 <ph name="URL" />。</translation>
 <translation id="6312113039770857350">網頁無法使用</translation>
 <translation id="63172326633386613">管理無障礙設定</translation>
@@ -1656,7 +1656,7 @@
 <translation id="6340739886198108203">根據管理員政策，當畫面上有機密內容時，不建議你擷取螢幕截圖或錄影：</translation>
 <translation id="6349101878882523185">安裝 <ph name="APP_NAME" /></translation>
 <translation id="6353505687280762741">{COUNT,plural, =0{無}=1{有 1 組密碼 (<ph name="DOMAIN_LIST" />，已同步處理)}=2{有 2 組密碼 (<ph name="DOMAIN_LIST" />，已同步處理)}other{有 # 組密碼 (<ph name="DOMAIN_LIST" />，已同步處理)}}</translation>
-<translation id="6355392890578844978">這個瀏覽器未受到任何公司或其他機構管理。這部裝置上的活動可透過 Chromium 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
+<translation id="6355392890578844978">這個瀏覽器未受到任何公司或其他機構管理。這部裝置上的活動可透過 Mises 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
 <translation id="6358450015545214790">我需要進一步資訊</translation>
 <translation id="6361757823711327522">B7</translation>
 <translation id="6364095313648930329"><ph name="BEGIN_LINK" />檢查 Proxy、防火牆和安全 DNS 設定<ph name="END_LINK" /></translation>
@@ -1677,7 +1677,7 @@
 <translation id="6404511346730675251">編輯書籤</translation>
 <translation id="6406765186087300643">C0 (信封)</translation>
 <translation id="6410264514553301377">輸入 <ph name="CREDIT_CARD" /> 的到期日和信用卡驗證碼</translation>
-<translation id="6415778972515849510">Chromium 可協助你保護 Google 帳戶並變更密碼。</translation>
+<translation id="6415778972515849510">Mises 可協助你保護 Google 帳戶並變更密碼。</translation>
 <translation id="6423385022588644828">現在就開始使用 Touch ID，加快卡片驗證速度</translation>
 <translation id="6425092077175753609">質感</translation>
 <translation id="6427730057873428458">開門摺</translation>
@@ -1706,7 +1706,7 @@
 <translation id="6499038740797743453">要重設密碼嗎？</translation>
 <translation id="6502991525169604759">不包含你所做的變更</translation>
 <translation id="6506959208958864820">信封</translation>
-<translation id="6508722015517270189">重新啟動 Chrome</translation>
+<translation id="6508722015517270189">重新啟動 Mises</translation>
 <translation id="6513005815064132016">可以要求追蹤你的攝影機位置</translation>
 <translation id="6517596291481585650">警告：這項政策並非清單，因此未依照政策中指定的方式合併為清單。</translation>
 <translation id="6518133107902771759">驗證</translation>
@@ -1722,10 +1722,10 @@
 <translation id="6579630537141957243">要連接 MIDI 裝置嗎？</translation>
 <translation id="6579990219486187401">淺粉紅色</translation>
 <translation id="6583674473685352014">B6 (信封)</translation>
-<translation id="6587182488465657433">Chrome 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。如要確保帳戶安全，建議你立即變更密碼，並檢查已儲存的密碼。</translation>
+<translation id="6587182488465657433">Mises 發現你剛才使用的密碼因為資料侵害事件而遭到外洩。如要確保帳戶安全，建議你立即變更密碼，並檢查已儲存的密碼。</translation>
 <translation id="6587923378399804057">你複製的連結</translation>
 <translation id="6591833882275308647">你的 <ph name="DEVICE_TYPE" /> 未受管理</translation>
-<translation id="6592952801936330159">「管理網站設定」按鈕；按下 Enter 鍵即可在 Chrome 設定中管理各網站的權限及儲存的資料</translation>
+<translation id="6592952801936330159">「管理網站設定」按鈕；按下 Enter 鍵即可在 Mises 設定中管理各網站的權限及儲存的資料</translation>
 <translation id="6596325263575161958">加密選項</translation>
 <translation id="6609880536175561541">Prc7 (信封)</translation>
 <translation id="6615297766614333076">堆疊出紙器 2</translation>
@@ -1739,7 +1739,7 @@
 <translation id="6643016212128521049">清除</translation>
 <translation id="6645291930348198241">存取 Cookie 和網站資料。</translation>
 <translation id="6646269444027925224">{COUNT,plural, =0{無}=1{1 個網站 (你不會因此登出 Google 帳戶)}other{# 個網站 (你不會因此登出 Google 帳戶)}}</translation>
-<translation id="6648459603387803038">你的系統管理員可以遠端變更瀏覽器設定。這部裝置上的活動也可以透過 Chrome 以外的服務管理。</translation>
+<translation id="6648459603387803038">你的系統管理員可以遠端變更瀏覽器設定。這部裝置上的活動也可以透過 Mises 以外的服務管理。</translation>
 <translation id="6648524591329069940">Serif 字型</translation>
 <translation id="6651270836885078973">管理網域/帳戶：</translation>
 <translation id="6652101503459149953">使用 Windows Hello</translation>
@@ -1749,13 +1749,13 @@
 <translation id="666259744093848177">(經過翻譯的 x86_64)</translation>
 <translation id="6663846344464066639">雙手合十</translation>
 <translation id="6665553082534466207">三孔 (右側)</translation>
-<translation id="6671697161687535275">要從 Chromium 中移除表單填寫建議嗎？</translation>
+<translation id="6671697161687535275">要從 Mises 中移除表單填寫建議嗎？</translation>
 <translation id="6685834062052613830">請登出並完成設定程序</translation>
 <translation id="6687335167692595844">要求的字型大小</translation>
 <translation id="6688743156324860098">更新…</translation>
 <translation id="6688775486821967877">目前無法使用虛擬卡片，請稍後再試</translation>
 <translation id="6689249931105087298">與黑點壓縮相對</translation>
-<translation id="6689271823431384964">你已登入帳戶，因此 Chrome 詢問你是否要將卡片儲存至 Google 帳戶。你可以在設定中變更這項行為。持卡人姓名來自你的帳戶。</translation>
+<translation id="6689271823431384964">你已登入帳戶，因此 Mises 詢問你是否要將卡片儲存至 Google 帳戶。你可以在設定中變更這項行為。持卡人姓名來自你的帳戶。</translation>
 <translation id="6694681292321232194"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可找出你在 Google 帳戶中的裝置</translation>
 <translation id="6696588630955820014">[分享這個分頁] 按鈕；按下 Enter 鍵，即可透過分享連結、建立 QR 圖碼、投放等功能分享這個分頁</translation>
 <translation id="6698381487523150993">建立於：</translation>
@@ -1801,7 +1801,7 @@
 <translation id="6883221904761970440">已關閉安全付款憑證驗證表</translation>
 <translation id="6884662655240309489">粗細：1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE" /> <ph name="SHORT_URL" /></translation>
-<translation id="6888584790432772780">Chrome 已簡化這個頁面，讓內容更易於閱讀。Chrome 透過不安全的連線擷取原始頁面。</translation>
+<translation id="6888584790432772780">Mises 已簡化這個頁面，讓內容更易於閱讀。Mises 透過不安全的連線擷取原始頁面。</translation>
 <translation id="6890443033788248019">要授予位置存取權嗎？</translation>
 <translation id="6891596781022320156">系統不支援這項政策的層級。</translation>
 <translation id="6895143722905299846">虛擬卡號：</translation>
@@ -1859,7 +1859,7 @@
 <translation id="7053983685419859001">封鎖</translation>
 <translation id="7058163556978339998"><ph name="BROWSER" /> 已驗證這個網站的憑證是由「<ph name="ISSUER" />」所核發。</translation>
 <translation id="7062635574500127092">藍綠色</translation>
-<translation id="706295145388601875">在 Chrome 設定中新增及管理地址</translation>
+<translation id="706295145388601875">在 Mises 設定中新增及管理地址</translation>
 <translation id="7064851114919012435">聯絡資訊</translation>
 <translation id="7068733155164172741">輸入 <ph name="OTP_LENGTH" /> 位數驗證碼</translation>
 <translation id="7070090581017165256">關於這個網站</translation>
@@ -1870,9 +1870,9 @@
 <translation id="7083258188081898530">紙匣 9</translation>
 <translation id="7086090958708083563">使用者要求上傳</translation>
 <translation id="7087282848513945231">郡/縣</translation>
-<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中管理各網站的權限及儲存的資料</translation>
+<translation id="7095139009144195559"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中管理各網站的權限及儲存的資料</translation>
 <translation id="7096937462164235847">這個網站的身分未經過驗證。</translation>
-<translation id="7102554173784142865">暢玩 Chrome 恐龍遊戲</translation>
+<translation id="7102554173784142865">暢玩 Mises 恐龍遊戲</translation>
 <translation id="7108338896283013870">隱藏</translation>
 <translation id="7108634116785509031"><ph name="HOST" /> 要求使用攝影機</translation>
 <translation id="7108819624672055576">依據擴充功能設定允許</translation>
@@ -1948,12 +1948,12 @@
 <translation id="7353601530677266744">命令列</translation>
 <translation id="7359588939039777303">已封鎖廣告。</translation>
 <translation id="7363096869660964304">不過，這並不代表你的瀏覽記錄會完全不留痕跡。你使用無痕模式時，你的雇主、網際網路服務供應商和你所造訪的網站仍然可以追蹤你的瀏覽記錄。</translation>
-<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中新增及管理地址</translation>
+<translation id="7365596969960773405"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中新增及管理地址</translation>
 <translation id="7365849542400970216">知道你的裝置使用狀態嗎？</translation>
 <translation id="7366362069757178916">付款處理常式</translation>
 <translation id="7372973238305370288">搜尋結果</translation>
 <translation id="7374461526650987610">通訊協定處理常式</translation>
-<translation id="7374733840632556089">發生這個問題是因為你或其他人在裝置上安裝了具有風險的憑證。已知這個憑證是用於監控及攔截網路資訊，且不受 Chrome 信任。雖然有部分監控活動屬於正當行為 (例如學校或公司網路上的監控機制)，Chrome 仍想確保你知曉此一情況，即使你無法阻止這類監控活動。任何存取網路的瀏覽器或應用程式都可能受到監控。</translation>
+<translation id="7374733840632556089">發生這個問題是因為你或其他人在裝置上安裝了具有風險的憑證。已知這個憑證是用於監控及攔截網路資訊，且不受 Mises 信任。雖然有部分監控活動屬於正當行為 (例如學校或公司網路上的監控機制)，Mises 仍想確保你知曉此一情況，即使你無法阻止這類監控活動。任何存取網路的瀏覽器或應用程式都可能受到監控。</translation>
 <translation id="7375818412732305729">已附加檔案</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE" /> - <ph name="FULL_DATE" /></translation>
 <translation id="7378594059915113390">媒體控制項</translation>
@@ -1974,14 +1974,14 @@
       &lt;li&gt;在「啟動類型」&lt;strong&gt;&lt;/strong&gt;之下，選取 [已停用]&lt;strong&gt;&lt;/strong&gt;
       &lt;li&gt;在「服務狀態」&lt;strong&gt;&lt;/strong&gt;之下，按一下 [停止]&lt;strong&gt;&lt;/strong&gt;
       &lt;li&gt;依序按一下 [套用]&lt;strong&gt;&lt;/strong&gt; 和 [確定]&lt;strong&gt;&lt;/strong&gt;
-      &lt;li&gt;前往 &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Chrome 說明中心&lt;/a&gt;瞭解如何將該軟體從電腦上永久移除
+      &lt;li&gt;前往 &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Mises 說明中心&lt;/a&gt;瞭解如何將該軟體從電腦上永久移除
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">可愛</translation>
 <translation id="7416351320495623771">管理密碼…</translation>
 <translation id="7419106976560586862">設定檔路徑</translation>
 <translation id="7421067045979951561">通訊協定處理常式</translation>
-<translation id="7426022697669111648">「查看 Chrome 歷史記錄」按鈕；按下 Enter 鍵即可在 Chrome 設定中查看及管理瀏覽記錄</translation>
+<translation id="7426022697669111648">「查看 Mises 歷史記錄」按鈕；按下 Enter 鍵即可在 Mises 設定中查看及管理瀏覽記錄</translation>
 <translation id="7437289804838430631">新增聯絡資訊</translation>
 <translation id="7440140511386898319">探索可供離線檢視的內容</translation>
 <translation id="7441627299479586546">政策主體有誤</translation>
@@ -2013,16 +2013,16 @@
 <translation id="7542995811387359312">由於這個表單並未採用加密連線方式，所以信用卡自動填入功能已停用。</translation>
 <translation id="7548892272833184391">修正連線錯誤</translation>
 <translation id="7549584377607005141">這個網頁需要使用你先前輸入的資料才能正確顯示。你可以重新傳送這些資料，不過這麼做會重複執行這個網頁先前執行過的任何動作。</translation>
-<translation id="7550637293666041147">你的裝置使用者名稱和 Chrome 使用者名稱</translation>
+<translation id="7550637293666041147">你的裝置使用者名稱和 Mises 使用者名稱</translation>
 <translation id="755279583747225797">試用功能已啟用</translation>
 <translation id="7552846755917812628">嘗試按照下列提示操作：</translation>
 <translation id="7554475479213504905">仍要重新載入及顯示內容</translation>
 <translation id="7554791636758816595">新分頁</translation>
 <translation id="7559278538486662777">這個應用程式無法調整大小。</translation>
-<translation id="7564049878696755256">你可能會失去 <ph name="ORG_NAME" /> 帳戶存取權，或身分遭到冒用。Chrome 建議你立即變更密碼。</translation>
+<translation id="7564049878696755256">你可能會失去 <ph name="ORG_NAME" /> 帳戶存取權，或身分遭到冒用。Mises 建議你立即變更密碼。</translation>
 <translation id="7567204685887185387">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證是以欺詐方式發行。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="7569761772822664555">「管理搜尋引擎」按鈕；按下 Enter 鍵即可管理預設搜尋引擎和站內搜尋</translation>
-<translation id="7569952961197462199">要從 Chrome 中移除信用卡嗎？</translation>
+<translation id="7569952961197462199">要從 Mises 中移除信用卡嗎？</translation>
 <translation id="7569983096843329377">黑色</translation>
 <translation id="7575207903026901870">移除建議按鈕，按下 Enter 鍵即可移除這項建議</translation>
 <translation id="7578104083680115302">在不同的裝置上透過各個網站和應用程式消費時，使用您讓 Google 儲存的信用卡資料即可快速付款。</translation>
@@ -2036,13 +2036,13 @@
 <translation id="7600965453749440009">一律不翻譯<ph name="LANGUAGE" /></translation>
 <translation id="7610193165460212391">值超出 <ph name="VALUE" /> 的範圍。</translation>
 <translation id="7613889955535752492">有效期限：<ph name="EXPIRATION_MONTH" />/<ph name="EXPIRATION_YEAR" /></translation>
-<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中查看和管理密碼</translation>
-<translation id="7616645509853975347">系統管理員已為你的瀏覽器啟用 Chrome Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
+<translation id="7614494068621678628"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中查看和管理密碼</translation>
+<translation id="7616645509853975347">系統管理員已為你的瀏覽器啟用 Mises Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
 <translation id="7619838219691048931">結束工作表</translation>
 <translation id="7625242817712715120">根據管理員政策，不建議你列印這類內容</translation>
 <translation id="762844065391966283">一次一個物件</translation>
 <translation id="7633909222644580952">效能資料和當機報告</translation>
-<translation id="7637571805876720304">要從 Chromium 中移除信用卡嗎？</translation>
+<translation id="7637571805876720304">要從 Mises 中移除信用卡嗎？</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{無}=1{你的帳戶中有 1 組密碼 (<ph name="DOMAIN_LIST" /> 的密碼)}other{你的帳戶中有 # 組密碼 (<ph name="DOMAIN_LIST" /> 的密碼)}}</translation>
 <translation id="7638605456503525968">序列埠</translation>
 <translation id="7639968568612851608">深灰色</translation>
@@ -2061,7 +2061,7 @@
 <translation id="7669907849388166732">{COUNT,plural, =1{針對標記為機密的資料所執行的動作 (自登入後已回報 1 個動作)。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" />}other{針對標記為機密的資料所執行的動作 (自登入後已回報 # 個動作)。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" />}}</translation>
 <translation id="7673278391011283842">出紙槽 6</translation>
 <translation id="7676643023259824263">搜尋剪貼簿文字：<ph name="TEXT" /></translation>
-<translation id="7679367271685653708">在 Chrome 設定中查看及管理瀏覽記錄</translation>
+<translation id="7679367271685653708">在 Mises 設定中查看及管理瀏覽記錄</translation>
 <translation id="7682287625158474539">寄送地址</translation>
 <translation id="7687186412095877299">在付款表單中填入已儲存的付款方式</translation>
 <translation id="7687305263118037187">重試逾時</translation>
@@ -2081,7 +2081,7 @@
 <translation id="7740996059027112821">標準</translation>
 <translation id="77424286611022110">這個網站會顯示干擾性或誤導性的廣告。<ph name="LEARN_MORE_LINK_TEXT" /></translation>
 <translation id="774634243536837715">已封鎖危險內容。</translation>
-<translation id="7751971323486164747">自訂 Chrome 中的字型大小和字體</translation>
+<translation id="7751971323486164747">自訂 Mises 中的字型大小和字體</translation>
 <translation id="7752995774971033316">未管理</translation>
 <translation id="7755624218968747854">主卷</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2105,7 +2105,7 @@
 <translation id="7805571567667010077">由貴機構所管理</translation>
 <translation id="7805768142964895445">狀態</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">要從 Chrome 中移除建議嗎？</translation>
+<translation id="7813600968533626083">要從 Mises 中移除建議嗎？</translation>
 <translation id="781440967107097262">要分享剪貼簿嗎？</translation>
 <translation id="7815407501681723534">找到 <ph name="NUMBER_OF_RESULTS" /> 個與「<ph name="SEARCH_STRING" />」相符的<ph name="SEARCH_RESULTS" /></translation>
 <translation id="782125616001965242">顯示這個網站的相關資訊</translation>
@@ -2136,8 +2136,8 @@
 <translation id="7942349550061667556">紅色</translation>
 <translation id="7943893128817522649">可以要求自動下載多個檔案</translation>
 <translation id="7947285636476623132">請檢查信用卡到期年份，然後再試一次</translation>
-<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可瞭解 Chrome 功能</translation>
-<translation id="7950027195171824198">在 Chrome 設定中管理 Cookie 偏好設定</translation>
+<translation id="7947813448670013867"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可瞭解 Mises 功能</translation>
+<translation id="7950027195171824198">在 Mises 設定中管理 Cookie 偏好設定</translation>
 <translation id="7951415247503192394">(32 位元)</translation>
 <translation id="7953569069500808819">邊緣裝訂 (右側)</translation>
 <translation id="7956713633345437162">行動版書籤</translation>
@@ -2151,7 +2151,7 @@
 <translation id="7977538094055660992">輸出裝置</translation>
 <translation id="7977894662897852582">Edp</translation>
 <translation id="798134797138789862">可以要求使用虛擬實境裝置和資料</translation>
-<translation id="7984945080620862648">你目前無法造訪 <ph name="SITE" />，因為這個網站傳送的憑證經過編碼，導致 Chrome 無法處理。網路錯誤和攻擊行為通常是暫時性的，所以這個網頁可能稍後就能正常使用。</translation>
+<translation id="7984945080620862648">你目前無法造訪 <ph name="SITE" />，因為這個網站傳送的憑證經過編碼，導致 Mises 無法處理。網路錯誤和攻擊行為通常是暫時性的，所以這個網頁可能稍後就能正常使用。</translation>
 <translation id="79859296434321399">如要查看擴增實境內容，請安裝 ARCore</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE" /> <ph name="TIME" /> <ph name="BOOKMARKED" /> <ph name="TITLE" /> <ph name="DOMAIN" /></translation>
 <translation id="799149739215780103">裝訂</translation>
@@ -2176,7 +2176,7 @@
 <translation id="8052898407431791827">已複製到剪貼簿</translation>
 <translation id="8057711352706143257">「<ph name="SOFTWARE_NAME" />」的設定不正確。通常解除安裝「<ph name="SOFTWARE_NAME" />」即可修正這個問題。<ph name="FURTHER_EXPLANATION" /></translation>
 <translation id="8066955247577885446">抱歉，系統發生錯誤。</translation>
-<translation id="8067872629359326442">你剛才在詐騙網站上輸入了密碼。Chromium 能夠幫助你。如要變更密碼並通知 Google 你的帳戶可能面臨風險，請按一下 [保護帳戶]。</translation>
+<translation id="8067872629359326442">你剛才在詐騙網站上輸入了密碼。Mises 能夠幫助你。如要變更密碼並通知 Google 你的帳戶可能面臨風險，請按一下 [保護帳戶]。</translation>
 <translation id="8070439594494267500">應用程式圖示</translation>
 <translation id="8074253406171541171">10x13 (信封)</translation>
 <translation id="8075736640322370409">快速建立新的 Google 試算表</translation>
@@ -2198,7 +2198,7 @@
 <translation id="810875025413331850">找不到附近的裝置。</translation>
 <translation id="8116925261070264013">已設為靜音</translation>
 <translation id="8118489163946903409">付款方式</translation>
-<translation id="8124639700796374294">[自訂 Chrome] 按鈕；按下 Enter 鍵即可自訂瀏覽器外觀</translation>
+<translation id="8124639700796374294">[自訂 Mises] 按鈕；按下 Enter 鍵即可自訂瀏覽器外觀</translation>
 <translation id="8127301229239896662">「<ph name="SOFTWARE_NAME" />」未正確安裝在電腦或網路上。請通知 IT 管理員解決這個問題。</translation>
 <translation id="8131740175452115882">確認</translation>
 <translation id="8148608574971654810">PDF 版本：</translation>
@@ -2206,7 +2206,7 @@
 <translation id="8150722005171944719">無法讀取位於 <ph name="URL" /> 的檔案。這個檔案可能已遭移除或移動位置，或者檔案權限為禁止存取。</translation>
 <translation id="8157295877370077682">離開網站</translation>
 <translation id="8163866351304776260">四孔 (左側)</translation>
-<translation id="8175796834047840627">你已登入帳戶，因此 Chrome 詢問你是否要將卡片儲存至你的 Google 帳戶。你可以在設定中變更這項行為。</translation>
+<translation id="8175796834047840627">你已登入帳戶，因此 Mises 詢問你是否要將卡片儲存至你的 Google 帳戶。你可以在設定中變更這項行為。</translation>
 <translation id="8176440868214972690">這部裝置的管理員已將一些資訊 (例如設定或政策) 傳送到下列網站。</translation>
 <translation id="8184538546369750125">使用全域預設值 (允許)</translation>
 <translation id="8190193880870196235">由擴充功能管理</translation>
@@ -2243,7 +2243,7 @@
 <translation id="8280630997017109758">紙匣 11</translation>
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8282947398454257691">存取您的專屬裝置 ID</translation>
-<translation id="8284769179630993263">在 Chrome 設定中管理安全瀏覽等功能</translation>
+<translation id="8284769179630993263">在 Mises 設定中管理安全瀏覽等功能</translation>
 <translation id="8286036467436129157">登入</translation>
 <translation id="8288807391153049143">顯示憑證</translation>
 <translation id="8289355894181816810">如果你不確定這代表什麼意思，請與網路管理員聯絡。</translation>
@@ -2258,7 +2258,7 @@
 <translation id="8307888238279532626">已安裝的應用程式以及使用頻率</translation>
 <translation id="831997045666694187">傍晚</translation>
 <translation id="8321476692217554900">通知</translation>
-<translation id="8328484624016508118">關閉所有無痕分頁後，Chrome 就會從這部裝置上清除下列資料：
+<translation id="8328484624016508118">關閉所有無痕分頁後，Mises 就會從這部裝置上清除下列資料：
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />你的瀏覽活動<ph name="END_LIST_ITEM" />
           <ph name="LIST_ITEM" />你的搜尋記錄<ph name="END_LIST_ITEM" />
@@ -2283,7 +2283,7 @@
 <translation id="8381674639488873545">這些費用可能是一次性或週期性的費用，而且可能難以察覺。<ph name="BEGIN_LINK" />仍要顯示<ph name="END_LINK" /></translation>
 <translation id="8390725133630534698">系統管理員政策禁止將 <ph name="ORIGIN_NAME" /> 的內容分享到 <ph name="VM_NAME" /></translation>
 <translation id="8398790343843005537">搜尋你的手機</translation>
-<translation id="8405579342203358118">在 Chrome 設定中管理要同步處理哪些資訊</translation>
+<translation id="8405579342203358118">在 Mises 設定中管理要同步處理哪些資訊</translation>
 <translation id="8409413588194360210">付款處理常式</translation>
 <translation id="8412145213513410671">當機次數 (<ph name="CRASH_COUNT" />)</translation>
 <translation id="8412392972487953978">你必須輸入兩次相同的通關密語。</translation>
@@ -2292,7 +2292,7 @@
 <ph name="DEBUG_INFO" /></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL" /> <ph name="SECOND_LABEL" /> <ph name="THIRD_LABEL" /></translation>
 <translation id="8428213095426709021">設定</translation>
-<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 設定中管理 Cookie 偏好設定</translation>
+<translation id="8431194080598727332"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 設定中管理 Cookie 偏好設定</translation>
 <translation id="8433057134996913067">您會因此登出大多數網站。</translation>
 <translation id="8437238597147034694">復原移動(&amp;U)</translation>
 <translation id="8438476240229491014">記住這項設定</translation>
@@ -2305,18 +2305,18 @@
 <translation id="8473863474539038330">地址和其他資訊</translation>
 <translation id="8474910779563686872">顯示開發人員詳細資料</translation>
 <translation id="8479754468255770962">釘裝 (左下方)</translation>
-<translation id="8483780878231876732">如要使用您的 Google 帳戶中的信用卡，請登入 Chrome</translation>
+<translation id="8483780878231876732">如要使用您的 Google 帳戶中的信用卡，請登入 Mises</translation>
 <translation id="8488350697529856933">適用對象</translation>
 <translation id="8490137692873530638">堆疊出紙器 10</translation>
 <translation id="8493948351860045254">釋出空間</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> 的回應時間過長。</translation>
-<translation id="8503559462189395349">Chrome 密碼</translation>
+<translation id="8503559462189395349">Mises 密碼</translation>
 <translation id="8503813439785031346">使用者名稱</translation>
 <translation id="8507227106804027148">指令列</translation>
 <translation id="8508648098325802031">搜尋圖示</translation>
 <translation id="8511402995811232419">管理 Cookie</translation>
-<translation id="8522552481199248698">Chrome 可協助你保護 Google 帳戶並變更密碼。</translation>
-<translation id="8530813470445476232">清除瀏覽記錄、Cookie、快取以及其他 Chrome 設定</translation>
+<translation id="8522552481199248698">Mises 可協助你保護 Google 帳戶並變更密碼。</translation>
+<translation id="8530813470445476232">清除瀏覽記錄、Cookie、快取以及其他 Mises 設定</translation>
 <translation id="8533619373899488139">請前往 &lt;strong&gt;chrome://policy&lt;/strong&gt; 查看遭到封鎖的網址清單，以及由系統管理員所強制執行的其他政策。</translation>
 <translation id="8539500321752640291">要授予 2 項權限嗎？</translation>
 <translation id="8541158209346794904">藍牙裝置</translation>
@@ -2329,7 +2329,7 @@
 <translation id="8558485628462305855">如要查看擴增實境內容，請更新 ARCore</translation>
 <translation id="8559762987265718583">你裝置的日期和時間 (<ph name="DATE_AND_TIME" />) 不正確，因此無法與 <ph name="BEGIN_BOLD" /><ph name="DOMAIN" /><ph name="END_BOLD" /> 建立私人連線。</translation>
 <translation id="8564182942834072828">個別文件/未自動分頁的副本</translation>
-<translation id="8564985650692024650">如果你在其他網站上重複使用過你的 <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> 密碼，Chromium 會建議你重設密碼。</translation>
+<translation id="8564985650692024650">如果你在其他網站上重複使用過你的 <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> 密碼，Mises 會建議你重設密碼。</translation>
 <translation id="8574899947864779331">使用 Touch ID 加快卡片驗證速度</translation>
 <translation id="8577348305244205642">虛擬卡片無法使用</translation>
 <translation id="858637041960032120">新增電話號碼</translation>
@@ -2355,7 +2355,7 @@
 <translation id="868922510921656628">每組頁數</translation>
 <translation id="869891660844655955">到期日</translation>
 <translation id="8699041776323235191">HID 裝置</translation>
-<translation id="8699899385443889493">「暢玩 Chrome 恐龍遊戲」按鈕；按下 Enter 鍵即可暢玩 Chrome 恐龍遊戲</translation>
+<translation id="8699899385443889493">「暢玩 Mises 恐龍遊戲」按鈕；按下 Enter 鍵即可暢玩 Mises 恐龍遊戲</translation>
 <translation id="8703575177326907206">你到 <ph name="DOMAIN" /> 的連線未加密。</translation>
 <translation id="8705331520020532516">序號</translation>
 <translation id="8708134712139312373">可以要求連線至藍牙裝置</translation>
@@ -2368,10 +2368,10 @@
 <translation id="8725066075913043281">再試一次</translation>
 <translation id="8726549941689275341">頁面大小：</translation>
 <translation id="8730621377337864115">完成</translation>
-<translation id="8731544501227493793">「管理密碼」按鈕，按下 Enter 鍵即可在 Chrome 設定中查看和管理密碼</translation>
+<translation id="8731544501227493793">「管理密碼」按鈕，按下 Enter 鍵即可在 Mises 設定中查看和管理密碼</translation>
 <translation id="8734529307927223492">你的 <ph name="DEVICE_TYPE" /> 是由 <ph name="MANAGER" /> 管理</translation>
 <translation id="8737134861345396036"><ph name="LAUNCH_INCOGNITO_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可開啟新的無痕式視窗進行私密瀏覽</translation>
-<translation id="8738058698779197622">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Chromium 無法驗證這些憑證。</translation>
+<translation id="8738058698779197622">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Mises 無法驗證這些憑證。</translation>
 <translation id="8740359287975076522">找不到 <ph name="HOST_NAME" /> 的 &lt;abbr id="dnsDefinition"&gt;DNS 位址&lt;/abbr&gt;，正在診斷問題。</translation>
 <translation id="8742371904523228557">你的 <ph name="ORIGIN" /> 驗證碼是 <ph name="ONE_TIME_CODE" /></translation>
 <translation id="874918643257405732">將此分頁加入書籤</translation>
@@ -2384,14 +2384,14 @@
 <translation id="8766943070169463815">已開啟安全付款憑證驗證表</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">重做刪除(&amp;R)</translation>
-<translation id="8792621596287649091">你可能會失去 <ph name="ORG_NAME" /> 帳戶存取權，或身分遭到冒用。Chromium 建議你立即變更密碼。</translation>
+<translation id="8792621596287649091">你可能會失去 <ph name="ORG_NAME" /> 帳戶存取權，或身分遭到冒用。Mises 建議你立即變更密碼。</translation>
 <translation id="8792626944327216835">麥克風</translation>
-<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> 已為你的瀏覽器啟用 Chrome Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
+<translation id="8793655568873652685"><ph name="ENROLLMENT_DOMAIN" /> 已為你的瀏覽器啟用 Mises Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
 <translation id="8798099450830957504">預設</translation>
 <translation id="8798739476508189189">在尋找瀏覽器旗標嗎？請前往</translation>
 <translation id="8805819170075074995">清單項目「<ph name="LANGUAGE_ID" />」：這個項目同時也納入在 SpellcheckLanguage 政策中，因此系統已予以忽略。</translation>
 <translation id="8807160976559152894">每完成一頁後裁切</translation>
-<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可透過 Chrome 設定來更新 Chrome</translation>
+<translation id="8816395686387277279"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT" />，按下 Tab 鍵再按下 Enter 鍵即可透過 Mises 設定來更新 Mises</translation>
 <translation id="8820817407110198400">書籤</translation>
 <translation id="882338992931677877">手動插槽</translation>
 <translation id="8834380158646307944">[關閉無痕式視窗] 按鈕；按下 Enter 鍵即可關閉目前開啟的所有無痕式視窗</translation>
@@ -2399,7 +2399,7 @@
 <translation id="884264119367021077">運送地址</translation>
 <translation id="884923133447025588">未發現撤銷機制。</translation>
 <translation id="885730110891505394">與 Google 分享</translation>
-<translation id="8858065207712248076">如果你在其他網站上重複使用過你的 <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> 密碼，Chrome 會建議你重設密碼。</translation>
+<translation id="8858065207712248076">如果你在其他網站上重複使用過你的 <ph name="BEGIN_BOLD" /><ph name="ORG_NAME" /><ph name="END_BOLD" /> 密碼，Mises 會建議你重設密碼。</translation>
 <translation id="885906927438988819">如果拼字正確，<ph name="BEGIN_LINK" />請嘗試執行 Windows 網路診斷<ph name="END_LINK" />。</translation>
 <translation id="8866481888320382733">解析政策設定時發生錯誤</translation>
 <translation id="8866928039507595380">折疊</translation>
@@ -2416,7 +2416,7 @@
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">移除建議按鈕，按一下 Enter 鍵即可移除「<ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT" />」</translation>
 <translation id="8912362522468806198">Google 帳戶</translation>
-<translation id="8913778647360618320">「管理付款方式」按鈕，按下 Enter 鍵即可在 Chrome 設定中管理付款和信用卡資訊</translation>
+<translation id="8913778647360618320">「管理付款方式」按鈕，按下 Enter 鍵即可在 Mises 設定中管理付款和信用卡資訊</translation>
 <translation id="8922013791253848639">一律允許在這個網站中顯示廣告</translation>
 <translation id="892588693504540538">打孔 (右上方)</translation>
 <translation id="8931333241327730545">您要將這張卡片的資訊儲存到您的 Google 帳戶嗎？</translation>
@@ -2435,7 +2435,7 @@
 <translation id="8978053250194585037">Google 安全瀏覽功能最近在 <ph name="SITE" /> 上<ph name="BEGIN_LINK" />偵測到網路詐騙行為<ph name="END_LINK" />。詐騙網站會偽裝成其他網站，藉此騙取你的資訊。</translation>
 <translation id="8983003182662520383">儲存在 Google Pay 的付款方式和地址資訊</translation>
 <translation id="8983369100812962543">你現在可以調整應用程式大小</translation>
-<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Chrome 中查看瀏覽記錄</translation>
+<translation id="8987245424886630962"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可在 Mises 中查看瀏覽記錄</translation>
 <translation id="8987927404178983737">月</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION" /> [<ph name="COUNTRY" />]</translation>
 <translation id="899688752321268742"><ph name="URL" /> 想知道你使用這部裝置的時間</translation>
@@ -2474,14 +2474,14 @@
 <translation id="9089260154716455634">停機時間政策：</translation>
 <translation id="9095388113577226029">更多語言...</translation>
 <translation id="9101630580131696064">紙匣 1</translation>
-<translation id="9103872766612412690"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Chromium 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Chromium 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
+<translation id="9103872766612412690"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Mises 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Mises 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
 <translation id="9106062320799175032">新增帳單地址</translation>
 <translation id="9107467864910557787">你的瀏覽器是由 <ph name="MANAGER" /> 管理</translation>
 <translation id="91108059142052966">當畫面上出現機密內容，系統管理員政策就會停用與「<ph name="APPLICATION_TITLE" />」分享螢幕畫面的功能</translation>
 <translation id="9114524666733003316">正在驗證信用卡...</translation>
-<translation id="9114581008513152754">這個瀏覽器未受到任何公司或其他機構管理。這部裝置上的活動可透過 Chrome 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
+<translation id="9114581008513152754">這個瀏覽器未受到任何公司或其他機構管理。這部裝置上的活動可透過 Mises 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
 <translation id="9117930699067497412">新鮮</translation>
-<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可繼續歷程，查看 Chrome 歷史記錄中的相關活動</translation>
+<translation id="9118692854637641831"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT" />；按下 Tab 鍵再按下 Enter 鍵即可繼續歷程，查看 Mises 歷史記錄中的相關活動</translation>
 <translation id="9119042192571987207">已上傳</translation>
 <translation id="9128016270925453879">已載入政策</translation>
 <translation id="9128870381267983090">連線至網路</translation>
@@ -2492,7 +2492,7 @@
 <translation id="9148088599418889305">選擇運送方式</translation>
 <translation id="9148507642005240123">復原編輯(&amp;U)</translation>
 <translation id="9150045010208374699">使用你的相機</translation>
-<translation id="9150685862434908345">你的系統管理員可以遠端變更瀏覽器設定。這部裝置上的活動也可以透過 Chrome 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
+<translation id="9150685862434908345">你的系統管理員可以遠端變更瀏覽器設定。這部裝置上的活動也可以透過 Mises 以外的服務管理。<ph name="BEGIN_LINK" />瞭解詳情<ph name="END_LINK" /></translation>
 <translation id="9154194610265714752">已更新</translation>
 <translation id="9157595877708044936">設定中...</translation>
 <translation id="9158625974267017556">C6 (信封)</translation>
@@ -2507,7 +2507,7 @@
 <translation id="9173995187295789444">正在掃描藍牙裝置…</translation>
 <translation id="917450738466192189">伺服器憑證無效。</translation>
 <translation id="9174917557437862841">分頁切換按鈕，按下 Enter 鍵即可切換到這個分頁</translation>
-<translation id="9179703756951298733">在 Chrome 設定中管理付款和信用卡資訊</translation>
+<translation id="9179703756951298733">在 Mises 設定中管理付款和信用卡資訊</translation>
 <translation id="9183302530794969518">Google 文件</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME" /> 使用了不支援的通訊協定。</translation>
 <translation id="9191834167571392248">打孔 (左下方)</translation>
@@ -2516,13 +2516,13 @@
 <translation id="920511547311754821">找不到動態密碼嗎？<ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE" /></translation>
 <translation id="9207861905230894330">無法新增文章。</translation>
 <translation id="9213433120051936369">自訂外觀</translation>
-<translation id="9215416866750762878">有應用程式阻止 Chrome 建立這個網站的安全連線</translation>
+<translation id="9215416866750762878">有應用程式阻止 Mises 建立這個網站的安全連線</translation>
 <translation id="9219103736887031265">圖片</translation>
-<translation id="922152298093051471">自訂 Chrome</translation>
+<translation id="922152298093051471">自訂 Mises</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">清除表單</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="936602727769022409">為避免失去 Google 帳戶存取權，Chromium 建議你立即變更密碼。系統會要求你登入帳戶。</translation>
+<translation id="936602727769022409">為避免失去 Google 帳戶存取權，Mises 建議你立即變更密碼。系統會要求你登入帳戶。</translation>
 <translation id="939736085109172342">新增資料夾</translation>
 <translation id="945522503751344254">提供意見</translation>
 <translation id="945855313015696284">查看下方資訊並刪除所有無效的卡片</translation>

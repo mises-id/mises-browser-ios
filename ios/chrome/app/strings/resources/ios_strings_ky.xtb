@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">Азырынча жашыруу</translation>
 <translation id="1219674500290482172">Интернетке туташуу мүмкүн болбой жатат.</translation>
 <translation id="122699739164161391">Бардык өтмөктөрдү жабуу</translation>
-<translation id="1229222343402087523">${searchPhrase} Chrome'до издөө</translation>
+<translation id="1229222343402087523">${searchPhrase} Mises'до издөө</translation>
 <translation id="1231733316453485619">Шайкештирүү күйгүзүлсүнбү?</translation>
 <translation id="1242044645101871359">Кайра кириңиз</translation>
 <translation id="1254117744268754948">Куржун тандоо</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">Уюмуңуз белгилүү бир аккаунттар менен гана кирүүгө уруксат берет. Тыюу салынган аккаунттар жашырылды. <ph name="BEGIN_LINK" />Кеңири маалымат<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Көчүрүү үчүн эки жолу таптап коюңуз.</translation>
 <translation id="1952172573699511566">Мүмкүн болгон учурда вебсайттар текстти сиз каалаган тилде көрсөтүшөт.</translation>
-<translation id="1965935827552890526">Жасап жаткан нерсени Chrome'дун ачык терезесинде улантыңыз.</translation>
+<translation id="1965935827552890526">Жасап жаткан нерсени Mises'дун ачык терезесинде улантыңыз.</translation>
 <translation id="196896377990863006">Алдын ала көрүү шилтемесин көрсөтүү</translation>
 <translation id="1973912524893600642">Дайындарды сактоо</translation>
 <translation id="1974060860693918893">Өркүндөтүлгөн</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">Ката коду: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">Аккаунт кошуу</translation>
 <translation id="2268044343513325586">Мыктылоо</translation>
-<translation id="2271351792809375263">Chrome'го сактаган сырсөздөрдү түзмөгүңүздөгү башка колдонмолордо пайдаланыңыз</translation>
+<translation id="2271351792809375263">Mises'го сактаган сырсөздөрдү түзмөгүңүздөгү башка колдонмолордо пайдаланыңыз</translation>
 <translation id="2273327106802955778">"Дагы" менюсу</translation>
 <translation id="2302742851632557585">Вебсайттагы сырсөзүңүздү өзгөртүңүз</translation>
 <translation id="2316709634732130529">Сунушталган сырсөздү колдонуу</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">Шилтеме түзүлгөн жок</translation>
 <translation id="2800683595868705743">Өтмөк которуштургучтан кетүү</translation>
 <translation id="2815198996063984598">2. Демейки серепчи колдонмосун басыңыз</translation>
-<translation id="2820289420301699633">Администраторуңуз Chrome'ду көзөмөлдөп, андагы маалыматты колдоно алат.</translation>
+<translation id="2820289420301699633">Администраторуңуз Mises'ду көзөмөлдөп, андагы маалыматты колдоно алат.</translation>
 <translation id="2830972654601096923">Даректерди башкаруу…</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Котор жөндөөлрн кайр кюу</translation>
 <translation id="2848086008667475748">Жөндөөлөрдө демейки катары коюу…</translation>
-<translation id="2858204748079866344">Купуялыгыңызды коргоо максатында, Chrome бул талаага сырсөзүңүздү автоматтык түрдө киргизбейт.</translation>
+<translation id="2858204748079866344">Купуялыгыңызды коргоо максатында, Mises бул талаага сырсөзүңүздү автоматтык түрдө киргизбейт.</translation>
 <translation id="285960592395650245">Дагы бир жолу жүктөп алуу</translation>
 <translation id="2870560284913253234">Сайт</translation>
 <translation id="2871695793448672541">Жашыруун, Сырсөз</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">Чаптоо жана өтүү</translation>
 <translation id="292639812446257861">Окула элек деп белгилөө</translation>
 <translation id="2932085390869194046">Сырсөз сунушталсын…</translation>
-<translation id="2952581218264071393">1. Chrome'дун жөндөөлөрүн ачыңыз</translation>
+<translation id="2952581218264071393">1. Mises'дун жөндөөлөрүн ачыңыз</translation>
 <translation id="2958718410589002129">Сырсөздөр</translation>
 <translation id="2961210776189273067">Аталышы</translation>
 <translation id="2964349545761222050">Үчүнчү тараптын cookie файлдарын бөгөттөө</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">Жабылган терезени кайра ачуу</translation>
 <translation id="3371831930909698441">Котормочу жеткиликтүү. Параметрлер экрандын төмөн жагында берилген.</translation>
 <translation id="3393920035788932672">Калк чыкм урукс берл</translation>
-<translation id="3399930248910934354">Chrome'дун жөндөөлөрүн ачыңыз</translation>
+<translation id="3399930248910934354">Mises'дун жөндөөлөрүн ачыңыз</translation>
 <translation id="3404744938087714423">Аккаунтуңуздан чыксаңыз, шайкештирүү өчүрүлөт.</translation>
 <translation id="3414451675185661089">2. "Сырсөздөр" дегенди таптап коюңуз</translation>
 <translation id="3425644765244388016">Картанын ылакап аты</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">Өтмөктү жабуу</translation>
 <translation id="3581564640715911333">Башка тилдердеги барактарды которуу сунушталсын</translation>
 <translation id="3588820906588687999">Сүрөттү жаңы өтмөктө ачуу</translation>
-<translation id="359441731697487922">Chrome'ду демейки серепчиңиз кылып алып, шилтемелерди автоматтык түрдө ачыңыз.
+<translation id="359441731697487922">Mises'ду демейки серепчиңиз кылып алып, шилтемелерди автоматтык түрдө ачыңыз.
       
 Төмөнкү кадамдарды аткарыңыз:</translation>
 <translation id="3603009562372709545">Шилтеменин URL көчүрүү</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899">Кыстарма <ph name="FOLDER_TITLE" /> куржунуна кошулду</translation>
 <translation id="369349502275246497">Сырсөздөрдү сактоону сунуштоо</translation>
 <translation id="3709582977625132201">Окула элек деп белгилөө</translation>
-<translation id="3740397331642243698">Киргизилген URL даректерин Google Chrome'до Жашыруун режимде ачат.</translation>
+<translation id="3740397331642243698">Киргизилген URL даректерин Mises'до Жашыруун режимде ачат.</translation>
 <translation id="3762232513783804601">iPad үчүн түзүлгөн</translation>
 <translation id="3771033907050503522">Жашыруун өтмөктөр</translation>
 <translation id="3775743491439407556">Шайкештирүү иштебей жатат</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">Аталышы</translation>
 <translation id="3892144330757387737">Таржымалыңызды ушул жерден табасыз</translation>
 <translation id="3897092660631435901">Меню</translation>
-<translation id="3913386780052199712">Chrome'го кирдиңиз</translation>
+<translation id="3913386780052199712">Mises'го кирдиңиз</translation>
 <translation id="3915450441834151894">Сайт тууралуу маалымат</translation>
 <translation id="3922310737605261887">Көчүрүп алган текстти издеңиз</translation>
 <translation id="3928666092801078803">Дайындарымды бириктирүү</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">Google Drive'ды орнотуу</translation>
 <translation id="5083464117946352670">Файлдын өлчөмү аныкталбайт.</translation>
 <translation id="5090832849094901128">Бул сырсөздү жок кылуу менен <ph name="WEBSITE" /> аккаунтуңуз өчпөйт.</translation>
-<translation id="5092117651143801290">Барактарды сактап коюп, кийинчерээк оффлайн режиминде окуй аласыз. Chrome узун барактарды сактоого уруксат сурайт.</translation>
+<translation id="5092117651143801290">Барактарды сактап коюп, кийинчерээк оффлайн режиминде окуй аласыз. Mises узун барактарды сактоого уруксат сурайт.</translation>
 <translation id="5094827893301452931">Твиттелди.</translation>
 <translation id="5118764316110575523">Өчүк</translation>
 <translation id="5127805178023152808">Шайкештештирүү өчүк</translation>
 <translation id="5132942445612118989">Бардык түзмөктөрдөгү сырсөздөрдү, таржымалды жана башкаларды шайкештирүү</translation>
-<translation id="5140288047769711648">Chrome бул сырсөздү сиз үчүн сактап коёт. Аны эстеп калуунун кажети жок.</translation>
+<translation id="5140288047769711648">Mises бул сырсөздү сиз үчүн сактап коёт. Аны эстеп калуунун кажети жок.</translation>
 <translation id="5150492518600715772">Түзмөгүңүзгө жөнөтүү</translation>
 <translation id="5168414296986405587">iPadOS үчүн куралган</translation>
 <translation id="5173088371991956744">Шайкештирүү бул сиз экениңизди ырасташы керек</translation>
@@ -479,7 +479,7 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="5659593005791499971">Электрондук почта</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Версия <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{1 Chrome терезеси көрсөтүлүүдө}other{{count} Chrome терезеси көрсөтүлүүдө}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{1 Mises терезеси көрсөтүлүүдө}other{{count} Mises терезеси көрсөтүлүүдө}}</translation>
 <translation id="5706552126692816153">Акыркы аракеттер: 1 күн мурун</translation>
 <translation id="5711039611392265845">Купуялыкка, коопсуздукка жана дайындарды чогултууга байланыштуу дагы башка жөндөөлөрдү көрүү үчүн <ph name="BEGIN_LINK" />Шайкештирүү жана Google кызматтары<ph name="END_LINK" /> бөлүмүнө өтүңүз.</translation>
 <translation id="5724941645893276623">Интернетти купуя серептөө үчүн жаңы өтмөк кошуңуз</translation>
@@ -518,7 +518,7 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="5979837087407522202">Сырсөздөрдү издөө</translation>
 <translation id="5982717868370722439">Учурдагы дайындарды <ph name="USER_EMAIL" /> аккаунтка кошуу.</translation>
 <translation id="5984222099446776634">Жакында каралгандар</translation>
-<translation id="5988851877894965432">URL'дерди Chrome'до ачуу</translation>
+<translation id="5988851877894965432">URL'дерди Mises'до ачуу</translation>
 <translation id="6012140227487808125">Шифрленүүдө…</translation>
 <translation id="6021332621416007159">Төмнкүдө ачуу…</translation>
 <translation id="6027945736510816438"><ph name="WEBSITE" /> эмес беле?</translation>
@@ -539,7 +539,7 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="6136914049981179737">Секнд мурн</translation>
 <translation id="6144589619057374135">${url} сайтын Жашыруун режимде ачуу</translation>
 <translation id="6159839020698489198">кошумча</translation>
-<translation id="6177442314419606057">Chrome'до издөө</translation>
+<translation id="6177442314419606057">Mises'до издөө</translation>
 <translation id="6184086493125982861">Өтмөктөрдү көрсөтүү</translation>
 <translation id="6187302354554850004">Акркы жолу шайкешт: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">Окулбагандар</translation>
@@ -673,7 +673,7 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="7189598951263744875">Бөлүшүү…</translation>
 <translation id="7192050974311852563">Таржымалын жыйнап баштоо</translation>
 <translation id="7203585745079012652">Жоопторду айтуу</translation>
-<translation id="7207383424303353046">Жаңы: Chrome'ду демейки серепчиңиз кылып алып, андагы сайттарды автоматтык түрдө ачыңыз. <ph name="BEGIN_LINK" />Жөндөөлөрдү ачуу<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Жаңы: Mises'ду демейки серепчиңиз кылып алып, андагы сайттарды автоматтык түрдө ачыңыз. <ph name="BEGIN_LINK" />Жөндөөлөрдү ачуу<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Картанын ылакап аты туура эмес</translation>
 <translation id="722454870747268814">Жаңы жашыруун өтмөк</translation>
 <translation id="7265758999917665941">Бул сайт үчүн эч качан</translation>
@@ -699,7 +699,7 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="7454057999980797137">Өлкө/Округ</translation>
 <translation id="7456847797759667638">Жайгашкан жерди ачуу…</translation>
 <translation id="7464701184726199289">Бул учурда шайкештештирилген дайындар бардык түзмөктөрдөн тазаланат. Сакталган сайт жөндөөлөрү өзгөрүлбөйт, андыктан, сайттарды адаттагыдай карай бересиз. <ph name="BEGIN_LINK" />Көбүрөөк маалымат алуу<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Chrome'ду тандаңыз</translation>
+<translation id="746684838091935575">3. Mises'ду тандаңыз</translation>
 <translation id="7472734401283673885">Компаниянын аты</translation>
 <translation id="7473891865547856676">Жок, рахмат</translation>
 <translation id="7481312909269577407">Багыттоо</translation>
@@ -727,13 +727,13 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="7781011649027948662">Бул баракча которулсунбу?</translation>
 <translation id="7781069478569868053">Жаңы өтмөк бети</translation>
 <translation id="7781829728241885113">Кечээ</translation>
-<translation id="778855399387580014">Chrome'дун жаңы өтмөгүндө издеңиз.</translation>
+<translation id="778855399387580014">Mises'дун жаңы өтмөгүндө издеңиз.</translation>
 <translation id="7791543448312431591">Кошуу</translation>
 <translation id="7839985698273989086">Оффлайн барак</translation>
 <translation id="7840771868269352570">Тандалган элементтер өчүрүлөт.</translation>
 <translation id="7856733331829174190">Жүктөлүп алынган жок</translation>
 <translation id="7859704718976024901">Серептөө таржымалы</translation>
-<translation id="7887198238286927132">Купуялыгыңызды коргоо максатында, Chrome бул талааны автоматтык түрдө толтурбайт.</translation>
+<translation id="7887198238286927132">Купуялыгыңызды коргоо максатында, Mises бул талааны автоматтык түрдө толтурбайт.</translation>
 <translation id="7911190106180361398">Уюмуңуз бардык маалыматты шайкештирүүгө тыюу салган.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Сырсөздөрдү экспорттоо…</translation>
@@ -748,14 +748,14 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="7978018860671536736">3. Сырсөздөрдү автотолтурууну таптап коюңуз</translation>
 <translation id="7982789257301363584">Тармак</translation>
 <translation id="7993619969781047893">Функциялар айрым сайттарда туура иштебеши мүмкүн</translation>
-<translation id="800361585186029508">URL'дерди Google Chrome'до ачат.</translation>
+<translation id="800361585186029508">URL'дерди Mises'до ачат.</translation>
 <translation id="802154636333426148">Жүктөлүп алынбай калды</translation>
 <translation id="8023878949384262191">Бөлүмдү кеңейтет.</translation>
 <translation id="8027581147000338959">Жаңы терезеде ачуу</translation>
 <translation id="804225253087497565">Аккаунтуңузга кирип турсаңыз, <ph name="BEGIN_LINK" />издөө таржымалы<ph name="END_LINK" /> жана <ph name="BEGIN_LINK" />башка аракеттер<ph name="END_LINK" /> Google аккаунтуңузга сакталышы мүмкүн. Аларды каалаган убакта жок кылсаңыз болот.</translation>
 <translation id="804427445359061970">Башка түзмөктөрдөгү өтмөктөрүңүздү ушул жерден табасыз</translation>
 <translation id="8059533439631660104">Бөлүмдү жыйыштырат.</translation>
-<translation id="8065292699993359127">URL даректерин Chrome'до Жашыруун режимде ачуу</translation>
+<translation id="8065292699993359127">URL даректерин Mises'до Жашыруун режимде ачуу</translation>
 <translation id="806745655614357130">Дайындарды өзүнчө сактоо</translation>
 <translation id="8073670137947914548">Жүктөлүп алынды</translation>
 <translation id="8073872304774253879">Издөө жана серептөө аракеттериңизди жакшыртыңыз</translation>
@@ -804,7 +804,7 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="8533670235862049797">Коопсуз серептөө күйүк</translation>
 <translation id="8534481786647257214">Google+ жайгаштырылды.</translation>
 <translation id="8548878600947630424">Беттен табуу…</translation>
-<translation id="8574235780160508979">Chrome’дун Тейлөө шарттары 31-марттан кийин өзгөргөнү жатат. <ph name="BEGIN_LINK" />Карап чыгыңыз<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Mises’дун Тейлөө шарттары 31-марттан кийин өзгөргөнү жатат. <ph name="BEGIN_LINK" />Карап чыгыңыз<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Өчүк</translation>
 <translation id="8590913940444621808">Эч качан суралбасын</translation>
 <translation id="8591976964826315682">Жашыруун режимде үчүнчү тараптын cookie файлдарын бөгөттөө</translation>
@@ -855,7 +855,7 @@ Handoff Жөндөөлөрдүн жалпы бөлүмүндө да иштети
 <translation id="9081058212938299310"><ph name="USERNAME" /> үчүн сырсөз жаңыртылсынбы?</translation>
 <translation id="9083392325882095631">1 нерсе</translation>
 <translation id="9083838294503912307">Бардык түзмөктөрүңүздө шайкештирүү жана жекечелештирүү үчүн шайкештирүүнү иштетиңиз.</translation>
-<translation id="9087108903408689779">Chrome сунуштаган сырсөз:</translation>
+<translation id="9087108903408689779">Mises сунуштаган сырсөз:</translation>
 <translation id="9094033019050270033">Сырсөздү жаңыртуу</translation>
 <translation id="9100610230175265781">Купуя сөз айкашы талап кылынат</translation>
 <translation id="9107664647686727385">Уурдалган сырсөздөрдү текшерет</translation>

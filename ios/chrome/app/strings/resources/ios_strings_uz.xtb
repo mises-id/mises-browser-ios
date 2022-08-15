@@ -33,7 +33,7 @@ Qidiruv tizimingiz: <ph name="DSE_NAME" />. Imkon boʻlsa, qidiruv tarixini qand
 <translation id="1209206284964581585">Berkitish</translation>
 <translation id="1219674500290482172">Internetga ulanib bo‘lmadi.</translation>
 <translation id="122699739164161391">Barcha varaqlarni yopish</translation>
-<translation id="1229222343402087523">${searchPhrase} – Chrome orqali qidirish</translation>
+<translation id="1229222343402087523">${searchPhrase} – Mises orqali qidirish</translation>
 <translation id="1231733316453485619">Sinxronizatsiya yoqilsinmi?</translation>
 <translation id="1242044645101871359">Qaytadan kiring</translation>
 <translation id="1254117744268754948">Jildni tanlash</translation>
@@ -110,7 +110,7 @@ Qidiruv tizimingiz: <ph name="DSE_NAME" />. Imkon boʻlsa, qidiruv tarixini qand
 <translation id="1930989359703290198">Tashkilotingiz faqat ayrim hisoblardan kirishga ruxsat beradi. Ruxsat etilmagan hisoblar yashirilgan. <ph name="BEGIN_LINK" />Batafsil<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">Nusxalash uchun ikki marta bosing.</translation>
 <translation id="1952172573699511566">Imkoni bo‘lishi bilan sayt matni siz tanlagan tilda ko‘rinadi.</translation>
-<translation id="1965935827552890526">Yopilmagan Chrome oynangizdagi ishni davom ettiring.</translation>
+<translation id="1965935827552890526">Yopilmagan Mises oynangizdagi ishni davom ettiring.</translation>
 <translation id="196896377990863006">Havolaning qisqa mazmunini koʻrsatish</translation>
 <translation id="1973912524893600642">Maʼlumotlar joyida qolsin</translation>
 <translation id="1974060860693918893">Qo‘shimcha</translation>
@@ -196,7 +196,7 @@ Saytlar reklamalarni sizga moslashtirish uchun brauzerdagi faoliyatingizni kuzat
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Tarjima sozlamalarini tiklash</translation>
 <translation id="2848086008667475748">Sozlamalar orqali Birlamchi qilish…</translation>
-<translation id="2858204748079866344">Maxfiyligingizni muhofaza qilish uchun Chrome parolingizni bu maydonga kiritmaydi.</translation>
+<translation id="2858204748079866344">Maxfiyligingizni muhofaza qilish uchun Mises parolingizni bu maydonga kiritmaydi.</translation>
 <translation id="285960592395650245">Qaytadan urinish</translation>
 <translation id="2870560284913253234">Sayt</translation>
 <translation id="2871695793448672541">Yashirin parol</translation>
@@ -210,7 +210,7 @@ Saytlar reklamalarni sizga moslashtirish uchun brauzerdagi faoliyatingizni kuzat
 <translation id="2923448633003185837">Joylash va davom etish</translation>
 <translation id="292639812446257861">O‘qilmagan deb belgilash</translation>
 <translation id="2932085390869194046">Parol yaratish...</translation>
-<translation id="2952581218264071393">1. Chrome sozlamalarini oching</translation>
+<translation id="2952581218264071393">1. Mises sozlamalarini oching</translation>
 <translation id="2958718410589002129">Parollar</translation>
 <translation id="2961210776189273067">Nomi</translation>
 <translation id="2964349545761222050">Tashqi cookie fayllarni bloklash</translation>
@@ -257,7 +257,7 @@ Imkon boʻlsa, qidiruv tarixini qanday tozalash haqidagi qidiruv tizimi koʻrsat
 <translation id="3335947283844343239">Yopilgan ichki oynani qayta ochish</translation>
 <translation id="3371831930909698441">Tarjima mavjud. Parametrlar ekranning quyi qismiga yaqinroq joyda</translation>
 <translation id="3393920035788932672">Qalqib chiquvchi oynalarga ruxsat</translation>
-<translation id="3399930248910934354">Chrome sozlamalarini oching</translation>
+<translation id="3399930248910934354">Mises sozlamalarini oching</translation>
 <translation id="3404744938087714423">Hisobdan chiqsangiz, sinxronizatsiya oʻchiriladi.</translation>
 <translation id="3414451675185661089">2. Parollar ustiga bosing</translation>
 <translation id="3425644765244388016">Karta nomi</translation>
@@ -283,7 +283,7 @@ Imkon boʻlsa, qidiruv tarixini qanday tozalash haqidagi qidiruv tizimi koʻrsat
 <translation id="3551320343578183772">Ichki oynani yopish</translation>
 <translation id="3581564640715911333">Boshqa tildagi sahifalarni tarjima qilish taklif qilinsin</translation>
 <translation id="3588820906588687999">Tasvirni yangi tabda ochish</translation>
-<translation id="359441731697487922">Havolalar Chrome brauzerida avtomatik ochilishi uchun uni birlamchi brauzer etib tayinlash kifoya.
+<translation id="359441731697487922">Havolalar Mises brauzerida avtomatik ochilishi uchun uni birlamchi brauzer etib tayinlash kifoya.
       
 Quyidagi amallarni bajaring:</translation>
 <translation id="3603009562372709545">URLdan nusxa olish</translation>
@@ -296,7 +296,7 @@ Quyidagi amallarni bajaring:</translation>
 <translation id="3691593122358196899">Xatcho‘p “<ph name="FOLDER_TITLE" />” jildiga saqlandi</translation>
 <translation id="369349502275246497">Parollarni saqlashni taklif qilish</translation>
 <translation id="3709582977625132201">Oʻqilmagan deb belgilash</translation>
-<translation id="3740397331642243698">Kiritilgan URL manzillar Google Chrome brauzerida Inkognito rejimda ochiladi.</translation>
+<translation id="3740397331642243698">Kiritilgan URL manzillar Mises brauzerida Inkognito rejimda ochiladi.</translation>
 <translation id="3762232513783804601">iPad uchun ishlab chiqilgan</translation>
 <translation id="3771033907050503522">Inkognito varaqlar</translation>
 <translation id="3775743491439407556">Sinxronizatsiya ishlamayapti</translation>
@@ -309,7 +309,7 @@ Quyidagi amallarni bajaring:</translation>
 <translation id="3858860766373142691">Ism</translation>
 <translation id="3892144330757387737">Brauzer tarixi shu yerda chiqadi</translation>
 <translation id="3897092660631435901">Menyu</translation>
-<translation id="3913386780052199712">Chrome hisobiga kirildi</translation>
+<translation id="3913386780052199712">Mises hisobiga kirildi</translation>
 <translation id="3915450441834151894">Sayt haqida</translation>
 <translation id="3922310737605261887">Nusxalangan matnni qidirish</translation>
 <translation id="3928666092801078803">Ma’lumotlarni birlashtirish</translation>
@@ -426,12 +426,12 @@ Bu sozlamani almashtirish uchun <ph name="BEGIN_LINK" />sinxronizatsiyani tiklan
 <translation id="5062321486222145940">Google Drive’ni o‘rnatish</translation>
 <translation id="5083464117946352670">Fayl hajmi aniqlanmadi</translation>
 <translation id="5090832849094901128">Bu parol olib tashlangani bilan <ph name="WEBSITE" /> hisobingiz oʻchib ketmaydi.</translation>
-<translation id="5092117651143801290">Sahifalarni keyinroq yoki oflayn mutolaa qilish uchun saqlashingiz mumkin. Chrome uzun sahifalar saqlanishi kerakligini soʻraydi.</translation>
+<translation id="5092117651143801290">Sahifalarni keyinroq yoki oflayn mutolaa qilish uchun saqlashingiz mumkin. Mises uzun sahifalar saqlanishi kerakligini soʻraydi.</translation>
 <translation id="5094827893301452931">Tvit joylandi.</translation>
 <translation id="5118764316110575523">Yoqilmagan</translation>
 <translation id="5127805178023152808">Sinxronizatsiya o‘chiq</translation>
 <translation id="5132942445612118989">Parollar, tarix va boshqa sozlamalaringizni barcha qurilmalaringizda sinxronlang</translation>
-<translation id="5140288047769711648">Chrome bu parolni eslab qoladi. Yodda tutishingiz shart emas.</translation>
+<translation id="5140288047769711648">Mises bu parolni eslab qoladi. Yodda tutishingiz shart emas.</translation>
 <translation id="5150492518600715772">Qurilmangizga yuborish</translation>
 <translation id="5168414296986405587">iPadOS uchun ishlab chiqilgan</translation>
 <translation id="5173088371991956744">Sinxronizatsiya uchun shaxsingizni tasdiqlang</translation>
@@ -467,7 +467,7 @@ Bu sozlamani almashtirish uchun <ph name="BEGIN_LINK" />sinxronizatsiyani tiklan
 <translation id="5532698011560297095">Kirish amalga oshmadi</translation>
 <translation id="5548760955356983418">Handoff funksiyasi veb-saytni bir qurilmada ochib, boshqasida davom etish imkoniyatini beradi. Ochilgan sayt Mac kompyuteringizning Dock panelida paydo bo‘ladi.
 
-Handoff funksiyasini faqatgina Chrome sozlamalarida emas, balki qurilma sozlamalarida (“Umumiy” bo‘limida) ham yoqish kerak. Barcha qurilmalaringiz umumiy iCloud hisobida sinxronlanishi zarur.</translation>
+Handoff funksiyasini faqatgina Mises sozlamalarida emas, balki qurilma sozlamalarida (“Umumiy” bo‘limida) ham yoqish kerak. Barcha qurilmalaringiz umumiy iCloud hisobida sinxronlanishi zarur.</translation>
 <translation id="5551897871312988470">Tarjima qilishni taklif qilish</translation>
 <translation id="5556459405103347317">Qayta yuklash</translation>
 <translation id="5580834567471114021">Keyinroq oʻqish uchun mutolaa roʻyxatiga kiritilsinmi?</translation>
@@ -479,7 +479,7 @@ Handoff funksiyasini faqatgina Chrome sozlamalarida emas, balki qurilma sozlamal
 <translation id="5659593005791499971">Email</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783"><ph name="PRODUCT_VERSION" />-versiya</translation>
-<translation id="5690398455483874150">{count,plural, =1{Hozir 1 ta Chrome oynasi chiqarilgan}other{Hozir {count} ta Chrome oynasi chiqarilgan}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Hozir 1 ta Mises oynasi chiqarilgan}other{Hozir {count} ta Mises oynasi chiqarilgan}}</translation>
 <translation id="5706552126692816153">1 kun oldin onlayn edi</translation>
 <translation id="5711039611392265845">Maxfiylik, xavfsizlik va maʻlumotlar yigʻilishi haqida batafsil axborot olish uchun <ph name="BEGIN_LINK" />Sinxronizatsiya va shaxsiy sozlamalar<ph name="END_LINK" /> bilan tanishing</translation>
 <translation id="5724941645893276623">Internetni pinhona kezish uchun yangi varaq oching</translation>
@@ -518,7 +518,7 @@ Handoff funksiyasini faqatgina Chrome sozlamalarida emas, balki qurilma sozlamal
 <translation id="5979837087407522202">Parollar ichidan qidirish</translation>
 <translation id="5982717868370722439">Mavjud ma’lumotlarni <ph name="USER_EMAIL" /> manziliga qo‘shish.</translation>
 <translation id="5984222099446776634">So‘nggi ochilgan sahifalar</translation>
-<translation id="5988851877894965432">URL manzillarni Chrome orqali ochish</translation>
+<translation id="5988851877894965432">URL manzillarni Mises orqali ochish</translation>
 <translation id="6012140227487808125">Shifrlanmoqda…</translation>
 <translation id="6021332621416007159">Bunda ochish...</translation>
 <translation id="6027945736510816438">Buni nazarda tutdingizmi: <ph name="WEBSITE" />?</translation>
@@ -546,7 +546,7 @@ Handoff funksiyasini faqatgina Chrome sozlamalarida emas, balki qurilma sozlamal
 <translation id="6196207969502475924">Ovozli qidiruv</translation>
 <translation id="6202364442240589072">{COUNT,plural, =1{{COUNT} ta varaqni yopish}other{{COUNT} ta varaqni yopish}}</translation>
 <translation id="6219688215832490856">Hech qachon tarjima qilinmasin</translation>
-<translation id="6223816392543092032">Chrome brauzeriga kirganingizdan so‘ng xatcho‘plar, tarix, parollar va boshqa sozlamalaringiz barcha qurilmalaringizda sinxronlanadi.</translation>
+<translation id="6223816392543092032">Mises brauzeriga kirganingizdan so‘ng xatcho‘plar, tarix, parollar va boshqa sozlamalaringiz barcha qurilmalaringizda sinxronlanadi.</translation>
 <translation id="6232329973559504466">Inkognito qidiruv</translation>
 <translation id="6254066287920239840">Havolalarni brauzerning o‘rniga boshqa ilovada oching.</translation>
 <translation id="6255097610484507482">Kartani tahrirlash</translation>
@@ -673,7 +673,7 @@ Inkognito rejimida cookie fayllaringiz yopiq boʻladi va saytlar reklamalarni si
 <translation id="7189598951263744875">Ulashish…</translation>
 <translation id="7192050974311852563">Yozib olishni boshlash</translation>
 <translation id="7203585745079012652">Qidiruv natijalari o‘qilsin</translation>
-<translation id="7207383424303353046">Yangi: Saytlar Chrome brauzerida avtomatik ochilishi uchun uni birlamchi brauzer etib tayinlash kifoya. <ph name="BEGIN_LINK" />Sozlamalarni ochish<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Yangi: Saytlar Mises brauzerida avtomatik ochilishi uchun uni birlamchi brauzer etib tayinlash kifoya. <ph name="BEGIN_LINK" />Sozlamalarni ochish<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Karta nomi yaroqsiz</translation>
 <translation id="722454870747268814">Yangi inkognito sahifa</translation>
 <translation id="7265758999917665941">Bu saytda hech qachon</translation>
@@ -699,7 +699,7 @@ Inkognito rejimida cookie fayllaringiz yopiq boʻladi va saytlar reklamalarni si
 <translation id="7454057999980797137">Hudud</translation>
 <translation id="7456847797759667638">Manzilni ochish...</translation>
 <translation id="7464701184726199289">Barcha qurilmalardagi sinxronlangan ma’lumotlar tozalanadi. Saytlarda saqlangan ma’lumotlar tozalanmaydi va brauzer faoliyatiga ta’sir qilmaydi. <ph name="BEGIN_LINK" />Batafsil<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Chrome brauzerini tanlang</translation>
+<translation id="746684838091935575">3. Mises brauzerini tanlang</translation>
 <translation id="7472734401283673885">Kompaniya nomi</translation>
 <translation id="7473891865547856676">Yo‘q, rahmat</translation>
 <translation id="7481312909269577407">Oldinga</translation>
@@ -727,13 +727,13 @@ Inkognito rejimida cookie fayllaringiz yopiq boʻladi va saytlar reklamalarni si
 <translation id="7781011649027948662">Sahifa tarjima qilinsinmi?</translation>
 <translation id="7781069478569868053">Tezkor kirish sahifasi</translation>
 <translation id="7781829728241885113">Kecha</translation>
-<translation id="778855399387580014">Yangi Chrome sahifasida qidirish.</translation>
+<translation id="778855399387580014">Yangi Mises sahifasida qidirish.</translation>
 <translation id="7791543448312431591">Qo‘shish</translation>
 <translation id="7839985698273989086">Oflayn sahifa</translation>
 <translation id="7840771868269352570">Tanlangan elementlar olib tashlanadi.</translation>
 <translation id="7856733331829174190">Yuklab olinmadi</translation>
 <translation id="7859704718976024901">Veb-sahifalarni ko‘rish tarixi</translation>
-<translation id="7887198238286927132">Maxfiyligingizni muhofaza qilish uchun Chrome axborotlarni bu maydonga kiritmaydi.</translation>
+<translation id="7887198238286927132">Maxfiyligingizni muhofaza qilish uchun Mises axborotlarni bu maydonga kiritmaydi.</translation>
 <translation id="7911190106180361398">Tashkilotingiz hamma narsa sinxronlanishiga ruxsat bermaydi.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Parollarni eksport qilish...</translation>
@@ -748,14 +748,14 @@ Saytlar reklamalarni sizga moslashtirish uchun brauzerdagi faoliyatingizni kuzat
 <translation id="7978018860671536736">3. Parollarni avtomatik kiritish uchun bosing</translation>
 <translation id="7982789257301363584">Tarmoq</translation>
 <translation id="7993619969781047893">Ayrim saytlardagi funksiyalar ishalamay qolishi mumkin</translation>
-<translation id="800361585186029508">Kiritiladigan URL manzillarni Google Chrome orqali ochadi.</translation>
+<translation id="800361585186029508">Kiritiladigan URL manzillarni Mises orqali ochadi.</translation>
 <translation id="802154636333426148">Yuklab olib bo‘lmadi</translation>
 <translation id="8023878949384262191">Bo‘limni yoyadi.</translation>
 <translation id="8027581147000338959">Yangi oynada ochish</translation>
 <translation id="804225253087497565">Google hisobingizga kirganingizda <ph name="BEGIN_LINK" />Qidiruv tarixi<ph name="END_LINK" /> va <ph name="BEGIN_LINK" />boshqa shakldagi harakatlaringiz<ph name="END_LINK" /> hisobingizga saqlanishi mumkin. Ularni istalgan vaqt oʻchirish mumkin.</translation>
 <translation id="804427445359061970">Boshqa qurilmalarda ochilgan varaqlar shu yerda chiqadi</translation>
 <translation id="8059533439631660104">Bo‘limni yig‘adi.</translation>
-<translation id="8065292699993359127">URL manzillarni Chrome brauzerida Inkognito rejimda ochish</translation>
+<translation id="8065292699993359127">URL manzillarni Mises brauzerida Inkognito rejimda ochish</translation>
 <translation id="806745655614357130">Ma’lumotlar alohida saqlansin</translation>
 <translation id="8073670137947914548">Yuklab olindi</translation>
 <translation id="8073872304774253879">Sahifalarni kezish va qidiruvni yaxshilash</translation>
@@ -804,7 +804,7 @@ Saytlar reklamalarni sizga moslashtirish uchun brauzerdagi faoliyatingizni kuzat
 <translation id="8533670235862049797">Saytlarni xavfsiz kezish rejimi yoniq</translation>
 <translation id="8534481786647257214">Google+’ga joylandi.</translation>
 <translation id="8548878600947630424">Sahifadan qidirish...</translation>
-<translation id="8574235780160508979">Chrome xizmat shartlari 31-mart kuni yangilanadi. <ph name="BEGIN_LINK" />Tanishib chiqing<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Mises xizmat shartlari 31-mart kuni yangilanadi. <ph name="BEGIN_LINK" />Tanishib chiqing<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Yoqilmagan</translation>
 <translation id="8590913940444621808">Soʻralmasin</translation>
 <translation id="8591976964826315682">Inkognito rejimidagi tashqi cookie fayllarni taqiqlash</translation>
@@ -855,7 +855,7 @@ Saytlar reklamalarni sizga moslashtirish uchun brauzerdagi faoliyatingizni kuzat
 <translation id="9081058212938299310"><ph name="USERNAME" /> paroli yangilansinmi?</translation>
 <translation id="9083392325882095631">1 ta xatcho‘p</translation>
 <translation id="9083838294503912307">Barcha qurilmalarda sinxronlash va oʻzingizga moslash uchun sinxronizatsiyani yoqing.</translation>
-<translation id="9087108903408689779">Chrome taklif qilgan parol:</translation>
+<translation id="9087108903408689779">Mises taklif qilgan parol:</translation>
 <translation id="9094033019050270033">Parolni yangilash</translation>
 <translation id="9100610230175265781">Kodli ibora zarur</translation>
 <translation id="9107664647686727385">Oshkor etilgan parollar uchun tekshirish</translation>

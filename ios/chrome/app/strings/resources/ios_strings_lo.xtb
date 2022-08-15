@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">ເຊື່ອງສຳລັບຕອນນີ້</translation>
 <translation id="1219674500290482172">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບອິນເຕີເນັດໄດ້.</translation>
 <translation id="122699739164161391">ປິດແຖບທັງໝົດ</translation>
-<translation id="1229222343402087523">ຊອກຫາ ${searchPhrase} ໃນ Chrome</translation>
+<translation id="1229222343402087523">ຊອກຫາ ${searchPhrase} ໃນ Mises</translation>
 <translation id="1231733316453485619">ເປີດການຊິ້ງຂໍ້ມູນບໍ?</translation>
 <translation id="1242044645101871359">ເຂົ້າສູ່ລະບົບອີກເທື່ອໜຶ່ງ</translation>
 <translation id="1254117744268754948">ເລືອກ​ໂຟລເດີ</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">ອົງການຂອງທ່ານອະນຸຍາດໃຫ້ທ່ານເຂົ້າສູ່ລະບົບດ້ວຍບັນຊີບາງຢ່າງເທົ່ານັ້ນ. ບັນຊີທີ່ບໍ່ໄດ້ຮັບອະນຸຍາດແມ່ນຖືກເຊື່ອງໄວ້. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">ແຕະສອງຄັ້ງເພື່ອສຳເນົາ</translation>
 <translation id="1952172573699511566">ເວັບໄຊຈະສະແດງຂໍ້ຄວາມໃນພາສາທີ່ທ່ານເລືອກ ເມື່ອເປັນໄປໄດ້.</translation>
-<translation id="1965935827552890526">ສຳເລັດສິ່ງທີ່ທ່ານກຳລັງເຮັດໃນໜ້າຈໍອື່ນຂອງ Chrome ທີ່ີເປີດຢູ່.</translation>
+<translation id="1965935827552890526">ສຳເລັດສິ່ງທີ່ທ່ານກຳລັງເຮັດໃນໜ້າຈໍອື່ນຂອງ Mises ທີ່ີເປີດຢູ່.</translation>
 <translation id="196896377990863006">ສະແດງຕົວຢ່າງລິ້ງ</translation>
 <translation id="1973912524893600642">ຮັກສາຂໍ້ມູນໄວ້</translation>
 <translation id="1974060860693918893">ຂັ້ນສູງ</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">ລະຫັດຜິດພາດ: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">ເພີ່ມ​ບັນ​ຊີ</translation>
 <translation id="2268044343513325586">ກັ່ນ​ຕອງ</translation>
-<translation id="2271351792809375263">ໃຊ້ລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄປໃສ່ Chrome ໃນແອັບອື່ນຢູ່ອຸປະກອນຂອງທ່ານ</translation>
+<translation id="2271351792809375263">ໃຊ້ລະຫັດຜ່ານທີ່ທ່ານບັນທຶກໄປໃສ່ Mises ໃນແອັບອື່ນຢູ່ອຸປະກອນຂອງທ່ານ</translation>
 <translation id="2273327106802955778">ເມນູເພີ່ມເຕີມ</translation>
 <translation id="2302742851632557585">ປ່ຽນລະຫັດຜ່ານໃນເວັບໄຊ</translation>
 <translation id="2316709634732130529">ໃຊ້ລະຫັດຜ່ານທີ່ແນະນຳ</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">ບໍ່ສາມາດສ້າງລິ້ງໄດ້</translation>
 <translation id="2800683595868705743">ອອກ​ໄປ​ຈາກ​ປຸ່ມ​ຕົວ​ສະ​ຫຼັບ​ແຖບ</translation>
 <translation id="2815198996063984598">2. ແຕະແອັບໂປຣແກຣມທ່ອງເວັບເລີ່ມຕົ້ນ</translation>
-<translation id="2820289420301699633">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດຄວບຄຸມ Chrome ແລະ ເຂົ້າເຖິງຂໍ້ມູນຂອງມັນໄດ້</translation>
+<translation id="2820289420301699633">ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານສາມາດຄວບຄຸມ Mises ແລະ ເຂົ້າເຖິງຂໍ້ມູນຂອງມັນໄດ້</translation>
 <translation id="2830972654601096923">ຈັດການທີ່ຢູ່...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">ຕັ້ງຄ່າການຕັ້ງຄ່າການແປຄືນໃໝ່</translation>
 <translation id="2848086008667475748">ຕັ້ງເປັນຄ່າເລີ່ມຕົ້ນໃນການຕັ້ງຄ່າ…</translation>
-<translation id="2858204748079866344">ເພື່ອປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງທ່ານ, Chrome ຈະບໍ່ຕື່ມຂໍ້ມູນລະຫັດຜ່ານຂອງທ່ານໃສ່ຊ່ອງຂໍ້ມູນນີ້ໂດຍອັດຕະໂນມັດ.</translation>
+<translation id="2858204748079866344">ເພື່ອປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງທ່ານ, Mises ຈະບໍ່ຕື່ມຂໍ້ມູນລະຫັດຜ່ານຂອງທ່ານໃສ່ຊ່ອງຂໍ້ມູນນີ້ໂດຍອັດຕະໂນມັດ.</translation>
 <translation id="285960592395650245">ລອງດາວໂຫຼດໃໝ່</translation>
 <translation id="2870560284913253234">ເວັບ​ໄຊທ໌</translation>
 <translation id="2871695793448672541">ເຊື່ອງ​ແລ້ວ, ລະ​ຫັດ​ຜ່ານ</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">ວາງໃສ່ ແລະ ຊອກຫາ</translation>
 <translation id="292639812446257861">ໝາຍວ່າຍັງບໍ່ໄດ້ອ່ານ</translation>
 <translation id="2932085390869194046">ແນະນຳລະຫັດຜ່ານ...</translation>
-<translation id="2952581218264071393">1. ເປີດການຕັ້ງຄ່າ Chrome</translation>
+<translation id="2952581218264071393">1. ເປີດການຕັ້ງຄ່າ Mises</translation>
 <translation id="2958718410589002129">ລະຫັດຜ່ານ</translation>
 <translation id="2961210776189273067">ຊື່</translation>
 <translation id="2964349545761222050">ບລັອກຄຸກກີ້ພາກສ່ວນທີສາມ</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">ເປີດ​ແຖບ​ທີ່ປິດແລ້ວຄືນໃໝ່</translation>
 <translation id="3371831930909698441">ມີບໍລິການແປພາສາ. ມີຕົວເລືອກໃຫ້ນຳໃຊ້ຢູ່ໃກ້ລຸ່ມສຸດຂອງໜ້າຈໍ.</translation>
 <translation id="3393920035788932672">ອະ​ນຸ​ຍາດ​ໃຫ້ປັອບອັບແລ້ວ</translation>
-<translation id="3399930248910934354">ເປີດການຕັ້ງຄ່າ Chrome</translation>
+<translation id="3399930248910934354">ເປີດການຕັ້ງຄ່າ Mises</translation>
 <translation id="3404744938087714423">ການອອກຈາກລະບົບຈະເປັນການປິດການຊິ້ງຂໍ້ມູນ.</translation>
 <translation id="3414451675185661089">2. ແຕະໃສ່ລະຫັດຜ່ານ</translation>
 <translation id="3425644765244388016">ຊື່ຫຼິ້ນບັດ</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">ປິດແຖບ</translation>
 <translation id="3581564640715911333">ໃຫ້ການແປໜ້າຕ່າງໆເປັນພາສາອື່ນ</translation>
 <translation id="3588820906588687999">ຮູບເປີດຢູ່ໃນແຖບໃໝ່</translation>
-<translation id="359441731697487922">ທ່ານສາມາດເປີດລິ້ງຕ່າງໆໃນ Chrome ໂດຍອັດຕະໂນມັດໂດຍການເຮັດໃຫ້ມັນເປັນແອັບໂປຣແກຣມທ່ອງເວັບເລີ່ມຕົ້ນຂອງທ່ານ.
+<translation id="359441731697487922">ທ່ານສາມາດເປີດລິ້ງຕ່າງໆໃນ Mises ໂດຍອັດຕະໂນມັດໂດຍການເຮັດໃຫ້ມັນເປັນແອັບໂປຣແກຣມທ່ອງເວັບເລີ່ມຕົ້ນຂອງທ່ານ.
       
 ປະຕິບັດຕາມຂັ້ນຕອນຂ້າງລຸ່ມ:</translation>
 <translation id="3603009562372709545">ອັດ​ສຳ​ເນົາ URL ຂອງ​ລິ້ງ</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899">ເພີ່ມບຸກມາກໃສ່ <ph name="FOLDER_TITLE" /> ແລ້ວ</translation>
 <translation id="369349502275246497">ສະເໜີໃຫ້ບັນທຶກລະຫັດຜ່ານ</translation>
 <translation id="3709582977625132201">ໝາຍວ່າຍັງບໍ່ໄດ້ອ່ານ</translation>
-<translation id="3740397331642243698">ເປີດ URL ທີ່ປ້ອນເຂົ້າໃນ Google Chrome ໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ.</translation>
+<translation id="3740397331642243698">ເປີດ URL ທີ່ປ້ອນເຂົ້າໃນ Mises ໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ.</translation>
 <translation id="3762232513783804601">ສ້າງມາສຳລັບ iPad ຂອງທ່ານ</translation>
 <translation id="3771033907050503522">ແຖບບໍ່ເຜີຍຕົນຕົວ</translation>
 <translation id="3775743491439407556">ການຊິ້ງຂໍ້ມູນໃຊ້ບໍ່ໄດ້</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">ຊື່</translation>
 <translation id="3892144330757387737">ທ່ານຈະເຫັນປະຫວັດຂອງທ່ານຢູ່ບ່ອນນີ້</translation>
 <translation id="3897092660631435901">ເມ​ນູ</translation>
-<translation id="3913386780052199712">ເຂົ້າສູ່ລະບົບ Chrome ແລ້ວ</translation>
+<translation id="3913386780052199712">ເຂົ້າສູ່ລະບົບ Mises ແລ້ວ</translation>
 <translation id="3915450441834151894">ຂໍ້ມູນເວັບໄຊ</translation>
 <translation id="3922310737605261887">ຊອກຫາຂໍ້ຄວາມທີ່ສຳເນົາໄວ້</translation>
 <translation id="3928666092801078803">ລວມຂໍ້ມູນຂອງຂ້ອຍເຂົ້າກັນ</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">ຕິດ​ຕັ້ງ Google Drive</translation>
 <translation id="5083464117946352670">ບໍ່​ສາ​ມາດ​ກຳ​ນົດ​ຂະ​ໜາດ​ໄຟ​ລ໌​ໄດ້.</translation>
 <translation id="5090832849094901128">ການລຶບລະຫັດຜ່ານນີ້ຈະບໍ່ລຶບບັນຊີຂອງທ່ານໃນ <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">ທ່ານສາມາດບັນທຶກໜ້າຕ່າງໆໄວ້ອ່ານໃນພາຍຫຼັງ ຫຼື ອ່ານອອບລາຍໄດ້. Chrome ຈະຖາມວ່າທ່ານຕ້ອງການບັນທຶກໜ້າເວັບແບບຍາວບໍ່.</translation>
+<translation id="5092117651143801290">ທ່ານສາມາດບັນທຶກໜ້າຕ່າງໆໄວ້ອ່ານໃນພາຍຫຼັງ ຫຼື ອ່ານອອບລາຍໄດ້. Mises ຈະຖາມວ່າທ່ານຕ້ອງການບັນທຶກໜ້າເວັບແບບຍາວບໍ່.</translation>
 <translation id="5094827893301452931">Tweet ສໍາ​ເລັດ​.</translation>
 <translation id="5118764316110575523">ປິດ</translation>
 <translation id="5127805178023152808">ຊິງ​ຄ໌​ປິດ</translation>
 <translation id="5132942445612118989">ຊິ້ງຂໍ້ມູນລະຫັດຜ່ານ, ປະຫວັດຂອງທ່ານ ແລະ ອື່ນໆອີກຢູ່ໃນທຸກອຸປະກອນ</translation>
-<translation id="5140288047769711648">Chrome ຈະຈື່ລະຫັດຜ່ານນີ້ສຳລັບທ່ານ. ທ່ານບໍ່ຈໍາເປັນຕ້ອງຈື່ມັນ.</translation>
+<translation id="5140288047769711648">Mises ຈະຈື່ລະຫັດຜ່ານນີ້ສຳລັບທ່ານ. ທ່ານບໍ່ຈໍາເປັນຕ້ອງຈື່ມັນ.</translation>
 <translation id="5150492518600715772">ສົ່ງຫາອຸປະກອນຂອງທ່ານ</translation>
 <translation id="5168414296986405587">ສ້າງມາສຳລັບ iPadOS</translation>
 <translation id="5173088371991956744">ການຊິ້ງຂໍ້ມູນຕ້ອງການຢັ້ງຢືນວ່າແມ່ນທ່ານແທ້</translation>
@@ -479,7 +479,7 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="5659593005791499971">ອີເມວ</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">ລຸ້ນ <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{ດຽວນີ້ກຳລັງສະແດງໜ້າຈໍ Chrome 1 ລາຍການ}other{ດຽວນີ້ກຳລັງສະແດງໜ້າຈໍ Chrome {count} ລາຍການ}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{ດຽວນີ້ກຳລັງສະແດງໜ້າຈໍ Mises 1 ລາຍການ}other{ດຽວນີ້ກຳລັງສະແດງໜ້າຈໍ Mises {count} ລາຍການ}}</translation>
 <translation id="5706552126692816153">ນຳໃຊ້ເມື່ອ 1 ມື້ກ່ອນ</translation>
 <translation id="5711039611392265845">ສຳລັບການຕັ້ງຄ່າເພີ່ມເຕີມທີ່ກ່ຽວຂ້ອງກັບຄວາມເປັນສ່ວນຕົວ, ຄວາມປອດໄພ ແລະ ການເກັບກຳຂໍ້ມູນ, ກະລຸນາເບິ່ງ <ph name="BEGIN_LINK" />ການຊິ້ງຂໍ້ມູນ ແລະ ການບໍລິການຂອງ Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">ເພື່ອທ່ອງເວັບແບບເປັນສ່ວນຕົວ, ກະລຸນາເພີ່ມແຖບໃໝ່</translation>
@@ -518,7 +518,7 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="5979837087407522202">ຊອກຫາລະຫັດຜ່ານ</translation>
 <translation id="5982717868370722439">ເພີ່ມຂໍ້ມູນທີ່ມີຢູ່ໃສ່ <ph name="USER_EMAIL" />.</translation>
 <translation id="5984222099446776634">ເຂົ້າເບິ່ງບໍ່​ດົນ​ມາ​ນີ້</translation>
-<translation id="5988851877894965432">ເປີດ URL ໃນ Chrome</translation>
+<translation id="5988851877894965432">ເປີດ URL ໃນ Mises</translation>
 <translation id="6012140227487808125">ກຳລັງເຂົ້າລະຫັດ...</translation>
 <translation id="6021332621416007159">ເປີດ​ຢູ່​ໃນ...</translation>
 <translation id="6027945736510816438">ທ່ານໝາຍເຖິງ <ph name="WEBSITE" /> ບໍ?</translation>
@@ -539,7 +539,7 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="6136914049981179737">ວິ​ນາ​ທີ​ກ່ອນ​​ນີ້</translation>
 <translation id="6144589619057374135">ເປີດ ${url} ໃນໂໝດທີ່ບໍ່ເປີດເຜີຍຕົວຕົນ</translation>
 <translation id="6159839020698489198">ບໍ່ບັງຄັບ</translation>
-<translation id="6177442314419606057">ຊອກຫາໃນ Chrome</translation>
+<translation id="6177442314419606057">ຊອກຫາໃນ Mises</translation>
 <translation id="6184086493125982861">ສະ​ແດງ​ແຖບ</translation>
 <translation id="6187302354554850004">ຊິ້ງຂໍ້ມູນຫຼ້າສຸດ: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">ຍັງບໍ່ໄດ້ອ່ານ</translation>
@@ -673,7 +673,7 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="7189598951263744875">ແບ່ງປັນ...</translation>
 <translation id="7192050974311852563">ເລີ່ມການບັນທຶກ</translation>
 <translation id="7203585745079012652">ເວົ້າ​ຄຳ​ຕອບ​ກັບ​ຄືນ</translation>
-<translation id="7207383424303353046">ໃໝ່: ເປີດເວັບໄຊໃນ Chrome ໂດຍອັດຕະໂນມັດໂດຍການເຮັດໃຫ້ມັນເປັນແອັບໂປຣແກຣມທ່ອງເວັບເລີ່ມຕົ້ນຂອງທ່ານ. <ph name="BEGIN_LINK" />ເປີດການຕັ້ງຄ່າ<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">ໃໝ່: ເປີດເວັບໄຊໃນ Mises ໂດຍອັດຕະໂນມັດໂດຍການເຮັດໃຫ້ມັນເປັນແອັບໂປຣແກຣມທ່ອງເວັບເລີ່ມຕົ້ນຂອງທ່ານ. <ph name="BEGIN_LINK" />ເປີດການຕັ້ງຄ່າ<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">ຊື່ຫຼິ້ນບັດບໍ່ຖືກຕ້ອງ</translation>
 <translation id="722454870747268814">ແຖບທີ່ບໍ່ເຜີຍຕົວຕົນໃໝ່</translation>
 <translation id="7265758999917665941">ບໍ່ເລີຍສໍາລັບເວັບໄຊນີ້</translation>
@@ -699,7 +699,7 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="7454057999980797137">ລັດ / ຄາວ​ຕີ້</translation>
 <translation id="7456847797759667638">ເປີດ​ສະ​ຖານ​ທີ່...</translation>
 <translation id="7464701184726199289">ນີ້ລຶບລ້າງຂໍ້ມູນທີ່ຊິ້ງຈາກທຸກອຸປະກອນ. ການຕັ້ງຄ່າເວັບໄຊທີ່ບັນທຶກໄວ້ຈະບໍ່ຖືກລຶບ ແລະ ອາດຈະສະທ້ອນເຖິງນິໄສການທ່ອງເວັບຂອງທ່ານ. <ph name="BEGIN_LINK" />ສຶກສາເພີ່ມເຕີມ<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. ເລືອກ Chrome</translation>
+<translation id="746684838091935575">3. ເລືອກ Mises</translation>
 <translation id="7472734401283673885">ຊື່​ບໍ​ລິ​ສັດ</translation>
 <translation id="7473891865547856676">​ບໍ່, ຂອບ​ໃຈ</translation>
 <translation id="7481312909269577407">ສົ່ງຕໍ່</translation>
@@ -727,13 +727,13 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="7781011649027948662">ແປໜ້າບໍ?</translation>
 <translation id="7781069478569868053">ໜ້າແຖບໃໝ່</translation>
 <translation id="7781829728241885113">ມື້​ວານ​ນີ້</translation>
-<translation id="778855399387580014">ເລີ່ມການຊອກຫາໃນແຖບ Chrome ໃໝ່.</translation>
+<translation id="778855399387580014">ເລີ່ມການຊອກຫາໃນແຖບ Mises ໃໝ່.</translation>
 <translation id="7791543448312431591">ເພີ່ມ</translation>
 <translation id="7839985698273989086">ໜ້າອອບລາຍ</translation>
 <translation id="7840771868269352570">ລາຍການທີ່ທ່ານເລືອກຈະຖືກລຶບອອກ.</translation>
 <translation id="7856733331829174190">ບໍ່ສາມາດດາວໂຫລດໄດ້</translation>
 <translation id="7859704718976024901">ປະຫວັດການທ່ອງເວັບ</translation>
-<translation id="7887198238286927132">ເພື່ອປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງທ່ານ, Chrome ຈະບໍ່ຕື່ມຂໍ້ມູນໃສ່ຊ່ອງຂໍ້ມູນນີ້ໂດຍອັດຕະໂນມັດ.</translation>
+<translation id="7887198238286927132">ເພື່ອປົກປ້ອງຄວາມເປັນສ່ວນຕົວຂອງທ່ານ, Mises ຈະບໍ່ຕື່ມຂໍ້ມູນໃສ່ຊ່ອງຂໍ້ມູນນີ້ໂດຍອັດຕະໂນມັດ.</translation>
 <translation id="7911190106180361398">ອົງການຂອງທ່ານບໍ່ອະນຸຍາດໃຫ້ທ່ານຊິ້ງຂໍ້ມູນທຸກຢ່າງ.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">ສົ່ງລະຫັດຜ່ານອອກ...</translation>
@@ -748,14 +748,14 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="7978018860671536736">3. ແຕະໃສ່ການຕື່ມຂໍ້ມູນລະຫັດຜ່ານອັດຕະໂນມັດ</translation>
 <translation id="7982789257301363584">ເຄືອ​ຂ່າຍ</translation>
 <translation id="7993619969781047893">ຄຸນສົມບັດໃນບາງເວັບໄຊອາດຈະໃຊ້ບໍ່ໄດ້</translation>
-<translation id="800361585186029508">ເປີດ URL ທີ່ປ້ອນໃນ Google Chrome.</translation>
+<translation id="800361585186029508">ເປີດ URL ທີ່ປ້ອນໃນ Mises.</translation>
 <translation id="802154636333426148">ການດາວໂຫຼດບໍ່ສຳເລັດ</translation>
 <translation id="8023878949384262191">ຂະ​ຫຍາຍ​ສ່ວນ.</translation>
 <translation id="8027581147000338959">ເປີດໃນໜ້າຈໍໃໝ່</translation>
 <translation id="804225253087497565"><ph name="BEGIN_LINK" />ປະ​ຫວັດ​ການ​ຊອກຫາ<ph name="END_LINK" /> ແລະ <ph name="BEGIN_LINK" />ການເຄື່ອນໄຫວຮູບແບບອື່ນໆ<ph name="END_LINK" /> ອາດຖືກບັນທຶກໄວ້ໃນບັນຊີ Google ຂອງທ່ານເມື່ອທ່ານເຂົ້າສູ່ລະບົບ. ທ່ານສາມາດລຶບພວກມັນຕອນໃດກໍໄດ້.</translation>
 <translation id="804427445359061970">ທ່ານຈະເຫັນແຖບຂອງທ່ານຈາກອຸປະກອນອື່ນຢູ່ບ່ອນນີ້</translation>
 <translation id="8059533439631660104">ຫຍໍ້​ສ່ວນ​ລົງ.</translation>
-<translation id="8065292699993359127">ເປີດ URL ໃນ Chrome ໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ</translation>
+<translation id="8065292699993359127">ເປີດ URL ໃນ Mises ໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ</translation>
 <translation id="806745655614357130">ຮັກສາຂໍ້ມູນຂອງຂ້ອຍໄວ້ແຍກຕ່າງຫາກ</translation>
 <translation id="8073670137947914548">ສຳເລັດການດາວໂຫຼດແລ້ວ</translation>
 <translation id="8073872304774253879">ເຮັດໃຫ້ການຊອກຫາ ແລະ ການທ່ອງເວັບດີຂຶ້ນ</translation>
@@ -804,7 +804,7 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="8533670235862049797">Safe Browsing ເປີດຢູ່</translation>
 <translation id="8534481786647257214">ການ​ໂພ​ສ​ທ໌ Google+ ສຳ​ເລັດ.</translation>
 <translation id="8548878600947630424">ຊອກ​ຫາ​ຢູ່​ໃນ​ຫນ້າ​...</translation>
-<translation id="8574235780160508979">ຂໍ້ກຳນົດການບໍລິການຂອງ Chrome ຈະປ່ຽນແປງໃນວັນທີ 31 ເດືອນມີນາ. <ph name="BEGIN_LINK" />ກະລຸນາກວດເບິ່ງ<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">ຂໍ້ກຳນົດການບໍລິການຂອງ Mises ຈະປ່ຽນແປງໃນວັນທີ 31 ເດືອນມີນາ. <ph name="BEGIN_LINK" />ກະລຸນາກວດເບິ່ງ<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">ປິດ</translation>
 <translation id="8590913940444621808">ຢ່າຖາມອີກ</translation>
 <translation id="8591976964826315682">ບລັອກຄຸກກີ້ພາກສ່ວນທີສາມໃນໂໝດບໍ່ເປີດເຜີຍຕົວຕົນ</translation>
@@ -855,7 +855,7 @@ Handoff ຍັງ​ຕ້ອງ​ໄດ້​ເປີດ​ໃຊ້​ງາ
 <translation id="9081058212938299310">ອັບເດດລະຫັດຜ່ານສຳລັບ <ph name="USERNAME" /> ບໍ?</translation>
 <translation id="9083392325882095631">1 ລາຍ​ການ</translation>
 <translation id="9083838294503912307">ເພື່ອຊິ້ງຂໍ້ມູນ ແລະ ປັບແຕ່ງເປັນແບບສ່ວນຕົວໃນທົ່ວອຸປະກອນ, ກະລຸນາເປີດການຊິ້ງຂໍ້ມູນກ່ອນ.</translation>
-<translation id="9087108903408689779">ລະຫັດຜ່ານທີ່ແນະນຳຂອງ Chrome:</translation>
+<translation id="9087108903408689779">ລະຫັດຜ່ານທີ່ແນະນຳຂອງ Mises:</translation>
 <translation id="9094033019050270033">ອັບ​ເດດ​ລະ​ຫັດ​ຜ່ານ</translation>
 <translation id="9100610230175265781">ຕ້ອງມີລະຫັດຜ່ານ</translation>
 <translation id="9107664647686727385">ກວດຫາລະຫັດຜ່ານທີ່ຖືກລະເມີດ</translation>

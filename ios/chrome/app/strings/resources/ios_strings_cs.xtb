@@ -191,12 +191,12 @@ Weby pomocí souborů cookie nemohou sledovat vaši aktivitu prohlížení mezi 
 <translation id="2783054063075604403">Vytvoření odkazu se nezdařilo</translation>
 <translation id="2800683595868705743">Opustit přepínač karet</translation>
 <translation id="2815198996063984598">2. Klepněte na Výchozí prohlížeč.</translation>
-<translation id="2820289420301699633">Váš administrátor může ovládat Chrome a má přístup k jeho datům</translation>
+<translation id="2820289420301699633">Váš administrátor může ovládat Mises a má přístup k jeho datům</translation>
 <translation id="2830972654601096923">Spravovat adresy...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">Obnovit nastavení Překladače</translation>
 <translation id="2848086008667475748">Nastavit jako výchozí v Nastavení…</translation>
-<translation id="2858204748079866344">Aby Chrome chránil vaše soukromí, nebude do tohoto pole automaticky vyplňovat heslo.</translation>
+<translation id="2858204748079866344">Aby Mises chránil vaše soukromí, nebude do tohoto pole automaticky vyplňovat heslo.</translation>
 <translation id="285960592395650245">Znovu stáhnout</translation>
 <translation id="2870560284913253234">Stránky</translation>
 <translation id="2871695793448672541">Skryté, heslo</translation>
@@ -296,7 +296,7 @@ Postupujte podle následujících pokynů:</translation>
 <translation id="3691593122358196899">Záložka přidána do složky <ph name="FOLDER_TITLE" /></translation>
 <translation id="369349502275246497">Nabízet uložení hesel</translation>
 <translation id="3709582977625132201">Označit jako nepřečtené</translation>
-<translation id="3740397331642243698">Otevře zadané adresy URL v prohlížeči Google Chrome v anonymním režimu.</translation>
+<translation id="3740397331642243698">Otevře zadané adresy URL v prohlížeči Mises v anonymním režimu.</translation>
 <translation id="3762232513783804601">Vytvořeno pro iPad</translation>
 <translation id="3771033907050503522">Anonymní karty</translation>
 <translation id="3775743491439407556">Synchronizace nefunguje</translation>
@@ -426,12 +426,12 @@ Chcete-toto nastavení změnit, <ph name="BEGIN_LINK" />resetujte synchronizaci<
 <translation id="5062321486222145940">Instalace Disku Google</translation>
 <translation id="5083464117946352670">Velikost souboru nelze zjistit.</translation>
 <translation id="5090832849094901128">Odstraněním tohoto hesla nesmažete svůj účet na webu <ph name="WEBSITE" />.</translation>
-<translation id="5092117651143801290">Stránky si můžete uložit a přečíst si je později nebo v režimu offline. U dlouhých stránek se vás Chrome zeptá.</translation>
+<translation id="5092117651143801290">Stránky si můžete uložit a přečíst si je později nebo v režimu offline. U dlouhých stránek se vás Mises zeptá.</translation>
 <translation id="5094827893301452931">Tweet byl odeslán.</translation>
 <translation id="5118764316110575523">Vypnuto</translation>
 <translation id="5127805178023152808">Synchronizace je vypnuta</translation>
 <translation id="5132942445612118989">Vaše hesla, historie a další údaje na všech zařízeních</translation>
-<translation id="5140288047769711648">Chrome si pro vás toto heslo zapamatuje. Vy si ho pamatovat nemusíte.</translation>
+<translation id="5140288047769711648">Mises si pro vás toto heslo zapamatuje. Vy si ho pamatovat nemusíte.</translation>
 <translation id="5150492518600715772">Odeslat na vaše zařízení</translation>
 <translation id="5168414296986405587">Vytvořeno pro iPadOS</translation>
 <translation id="5173088371991956744">Synchronizace potřebuje ověřit vaši identitu</translation>
@@ -479,7 +479,7 @@ Funkce Handoff musí být povolena také v Nastavení v sekci Obecné a zaříze
 <translation id="5659593005791499971">E-mail</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">Verze <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{Je zobrazeno 1 okno prohlížeče Chrome}few{Jsou zobrazena {count} okna prohlížeče Chrome}many{Je zobrazeno {count} okna prohlížeče Chrome}other{Je zobrazeno {count} oken prohlížeče Chrome}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{Je zobrazeno 1 okno prohlížeče Mises}few{Jsou zobrazena {count} okna prohlížeče Mises}many{Je zobrazeno {count} okna prohlížeče Mises}other{Je zobrazeno {count} oken prohlížeče Mises}}</translation>
 <translation id="5706552126692816153">Aktivní včera</translation>
 <translation id="5711039611392265845">Další nastavení související s ochranou soukromí, zabezpečením a shromažďováním dat naleznete v části <ph name="BEGIN_LINK" />Synchronizace a služby Google<ph name="END_LINK" />.</translation>
 <translation id="5724941645893276623">Chcete-li procházet web v soukromí, přidejte novou kartu</translation>
@@ -673,7 +673,7 @@ V anonymním režimu weby nemohou používat soubory cookie ke sledování vaš
 <translation id="7189598951263744875">Sdílet...</translation>
 <translation id="7192050974311852563">Začít protokolovat</translation>
 <translation id="7203585745079012652">Vyslovovat odpovědi</translation>
-<translation id="7207383424303353046">Novinka: Nastavte si Chrome jako výchozí prohlížeč a otevírejte weby automaticky v Chromu. <ph name="BEGIN_LINK" />Otevřít nastavení<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">Novinka: Nastavte si Mises jako výchozí prohlížeč a otevírejte weby automaticky v Chromu. <ph name="BEGIN_LINK" />Otevřít nastavení<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">Neplatná přezdívka karty</translation>
 <translation id="722454870747268814">Nová anonymní karta</translation>
 <translation id="7265758999917665941">Pro tento web nikdy</translation>
@@ -699,7 +699,7 @@ V anonymním režimu weby nemohou používat soubory cookie ke sledování vaš
 <translation id="7454057999980797137">Stát / země</translation>
 <translation id="7456847797759667638">Otevřít umístění...</translation>
 <translation id="7464701184726199289">Tímto vymažete synchronizovaná data ze všech zařízení. Uložená nastavení webů nebudou smazána a mohou vypovídat o vašich zvycích při prohlížení. <ph name="BEGIN_LINK" />Další informace<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Vyberte Chrome.</translation>
+<translation id="746684838091935575">3. Vyberte Mises.</translation>
 <translation id="7472734401283673885">Název společnosti</translation>
 <translation id="7473891865547856676">Ne, děkuji</translation>
 <translation id="7481312909269577407">Vpřed</translation>
@@ -733,7 +733,7 @@ V anonymním režimu weby nemohou používat soubory cookie ke sledování vaš
 <translation id="7840771868269352570">Vybrané položky budou odstraněny.</translation>
 <translation id="7856733331829174190">Stažení se nezdařilo</translation>
 <translation id="7859704718976024901">Historie procházení</translation>
-<translation id="7887198238286927132">Aby Chrome chránil vaše soukromí, nebude toto pole automaticky vyplňovat.</translation>
+<translation id="7887198238286927132">Aby Mises chránil vaše soukromí, nebude toto pole automaticky vyplňovat.</translation>
 <translation id="7911190106180361398">Vaše organizace nepovoluje synchronizaci všeho.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">Exportovat hesla...</translation>
@@ -748,7 +748,7 @@ Weby pomocí souborů cookie mohou sledovat vaši aktivitu prohlížení na růz
 <translation id="7978018860671536736">3. Klepněte na Automatické vyplnění hesel.</translation>
 <translation id="7982789257301363584">Síť</translation>
 <translation id="7993619969781047893">Některé weby mohou přestat fungovat</translation>
-<translation id="800361585186029508">Otevře zadané adresy URL v prohlížeči Google Chrome.</translation>
+<translation id="800361585186029508">Otevře zadané adresy URL v prohlížeči Mises.</translation>
 <translation id="802154636333426148">Stažení se nezdařilo</translation>
 <translation id="8023878949384262191">Rozbalí sekci.</translation>
 <translation id="8027581147000338959">Otevřít v novém okně</translation>
@@ -804,7 +804,7 @@ Weby pomocí souborů cookie mohou sledovat vaši aktivitu prohlížení na růz
 <translation id="8533670235862049797">Bezpečné prohlížení je zapnuté</translation>
 <translation id="8534481786647257214">Příspěvek na Google+ byl odeslán.</translation>
 <translation id="8548878600947630424">Hledat na stránce...</translation>
-<translation id="8574235780160508979">Smluvní podmínky prohlížeče Chrome se 31. března změní. <ph name="BEGIN_LINK" />Prohlédnout nové smluvní podmínky<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Smluvní podmínky prohlížeče Mises se 31. března změní. <ph name="BEGIN_LINK" />Prohlédnout nové smluvní podmínky<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">Vypnuto</translation>
 <translation id="8590913940444621808">Nikdy se neptat</translation>
 <translation id="8591976964826315682">V anonymním režimu blokovat soubory cookie třetích stran</translation>
@@ -855,7 +855,7 @@ Weby pomocí souborů cookie mohou sledovat vaši aktivitu prohlížení na růz
 <translation id="9081058212938299310">Aktualizovat heslo uživatele <ph name="USERNAME" />?</translation>
 <translation id="9083392325882095631">1 položka</translation>
 <translation id="9083838294503912307">Chcete-li synchronizovat a přizpůsobit různá zařízení, zapněte synchronizaci.</translation>
-<translation id="9087108903408689779">Heslo navrhované prohlížečem Chrome:</translation>
+<translation id="9087108903408689779">Heslo navrhované prohlížečem Mises:</translation>
 <translation id="9094033019050270033">Aktualizovat heslo</translation>
 <translation id="9100610230175265781">Je vyžadována heslová fráze</translation>
 <translation id="9107664647686727385">Kontroluje, zda nedošlo k prolomení hesel</translation>

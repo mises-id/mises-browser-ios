@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">এখনকার মতো লুকান</translation>
 <translation id="1219674500290482172">ইন্টারনেটের সাথে সংযোগ করতে অক্ষম৷</translation>
 <translation id="122699739164161391">সব ট্যাব বন্ধ করুন</translation>
-<translation id="1229222343402087523">Chrome-এ ${searchPhrase} সার্চ করুন</translation>
+<translation id="1229222343402087523">Mises-এ ${searchPhrase} সার্চ করুন</translation>
 <translation id="1231733316453485619">সিঙ্ক চালু করবেন?</translation>
 <translation id="1242044645101871359">আবার সাইন-ইন করুন</translation>
 <translation id="1254117744268754948">ফোল্ডার বেছে নিন</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">আপনার সংস্থা শুধু কিছু নির্দিষ্ট অ্যাকাউন্ট ব্যবহার করে আপনাকে সাইন-ইন করার অনুমতি দিয়েছে। অনুমোদন করা নেই এমন অ্যাকাউন্ট লুকানো আছে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">কপি করতে দুবার আলতো চাপুন।</translation>
 <translation id="1952172573699511566">যখন সম্ভব হবে ওয়েবসাইট আপনার পছন্দের ভাষায় টেক্সট দেখাবে।</translation>
-<translation id="1965935827552890526">আপনার খুলে রাখা অন্যান্য Chrome উইন্ডোতে যেসব কাজ করছেন, সেগুলি সম্পূর্ণ করুন।</translation>
+<translation id="1965935827552890526">আপনার খুলে রাখা অন্যান্য Mises উইন্ডোতে যেসব কাজ করছেন, সেগুলি সম্পূর্ণ করুন।</translation>
 <translation id="196896377990863006">লিঙ্ক প্রিভিউ দেখুন</translation>
 <translation id="1973912524893600642">ডেটা রাখুন</translation>
 <translation id="1974060860693918893">উন্নত</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">ত্রুটি কোড: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">অ্যাকাউন্ট যোগ করুন</translation>
 <translation id="2268044343513325586">রিফাইন করুন</translation>
-<translation id="2271351792809375263">Chrome-এ সেভ করা পাসওয়ার্ড আপনার ডিভাইসের অন্যান্য অ্যাপে ব্যবহার করুন</translation>
+<translation id="2271351792809375263">Mises-এ সেভ করা পাসওয়ার্ড আপনার ডিভাইসের অন্যান্য অ্যাপে ব্যবহার করুন</translation>
 <translation id="2273327106802955778">‘আরও’ মেনু</translation>
 <translation id="2302742851632557585">ওয়েবসাইটে গিয়ে পাসওয়ার্ড পরিবর্তন করুন</translation>
 <translation id="2316709634732130529">সাজেস্ট করা পাসওয়ার্ড ব্যবহার করুন</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">লিঙ্ক তৈরি করা যাচ্ছে না</translation>
 <translation id="2800683595868705743">ট্যাব পরিবর্তনকারী থেকে বেরিয়ে যান</translation>
 <translation id="2815198996063984598">২. 'ডিফল্ট ব্রাউজার অ্যাপ' বিকল্পে ট্যাপ করুন</translation>
-<translation id="2820289420301699633">আপনার অ্যাডমিনিস্ট্রেটরের কাছে Chrome-এর নিয়ন্ত্রণ আছে এবং তিনি এর ডেটা অ্যাক্সেস করতে পারবেন</translation>
+<translation id="2820289420301699633">আপনার অ্যাডমিনিস্ট্রেটরের কাছে Mises-এর নিয়ন্ত্রণ আছে এবং তিনি এর ডেটা অ্যাক্সেস করতে পারবেন</translation>
 <translation id="2830972654601096923">ঠিকানাগুলি ম্যানেজ করুন...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">অনুবাদ সেটিংস রিসেট করুন</translation>
 <translation id="2848086008667475748">Settings-এ এটিকে ডিফল্ট হিসেবে সেট করুন…</translation>
-<translation id="2858204748079866344">আপনার গোপনীয়তা রক্ষার জন্য, Chrome এই ক্ষেত্রে আপনার পাসওয়ার্ডটি নিজে থেকে পূরণ করবে না।</translation>
+<translation id="2858204748079866344">আপনার গোপনীয়তা রক্ষার জন্য, Mises এই ক্ষেত্রে আপনার পাসওয়ার্ডটি নিজে থেকে পূরণ করবে না।</translation>
 <translation id="285960592395650245">আবার ডাউনলোডের চেষ্টা করুন</translation>
 <translation id="2870560284913253234">সাইট</translation>
 <translation id="2871695793448672541">লুকানো, পাসওয়ার্ড</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">পেস্ট করে শুরু করুন</translation>
 <translation id="292639812446257861">অপঠিত হিসেবে চিহ্নিত করুন</translation>
 <translation id="2932085390869194046">পাসওয়ার্ড প্রস্তাব করুন…</translation>
-<translation id="2952581218264071393">১. Chrome সেটিংস খুলুন</translation>
+<translation id="2952581218264071393">১. Mises সেটিংস খুলুন</translation>
 <translation id="2958718410589002129">পাসওয়ার্ড</translation>
 <translation id="2961210776189273067">সম্বোধন</translation>
 <translation id="2964349545761222050">থার্ড-পার্টি কুকি ব্লক করুন</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">বন্ধ হওয়া ট্যাব আবার খুলুন</translation>
 <translation id="3371831930909698441">অনুবাদ পাওয়া যাচ্ছে। স্ক্রিনের একটু নিচের দিকে বিকল্পগুলি দেওয়া আছে।</translation>
 <translation id="3393920035788932672">মঞ্জুরিপ্রাপ্ত পপ-আপ</translation>
-<translation id="3399930248910934354">Chrome সেটিংস খুলুন</translation>
+<translation id="3399930248910934354">Mises সেটিংস খুলুন</translation>
 <translation id="3404744938087714423">সাইন-আউট করলে সিঙ্ক করা বন্ধ হয়ে যাবে।</translation>
 <translation id="3414451675185661089">২. পাসওয়ার্ড বিকল্পে ট্যাপ করুন</translation>
 <translation id="3425644765244388016">কার্ডের বিশেষ নাম</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">ট্যাব বন্ধ করুন</translation>
 <translation id="3581564640715911333">অন্য ভাষাতে পৃষ্ঠা অনুবাদ করার প্রস্তাব দিন</translation>
 <translation id="3588820906588687999">নতুন ট্যাবে ছবি খুলুন</translation>
-<translation id="359441731697487922">Chrome-কে আপনার ডিফল্ট ব্রাউজার অ্যাপ হিসেবে সেট করে এতে অটোমেটিক লিঙ্ক খুলতে পারবেন।
+<translation id="359441731697487922">Mises-কে আপনার ডিফল্ট ব্রাউজার অ্যাপ হিসেবে সেট করে এতে অটোমেটিক লিঙ্ক খুলতে পারবেন।
       
 নিচে দেওয়া এই ধাপগুলি অনুসরণ করুন:</translation>
 <translation id="3603009562372709545">লিঙ্ক ইউআরএল কপি করুন</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899"><ph name="FOLDER_TITLE" /> এ বুকমার্ক করা হয়েছে</translation>
 <translation id="369349502275246497">পাসওয়ার্ড সেভ করার প্রস্তাব</translation>
 <translation id="3709582977625132201">'পড়া হয়নি' হিসেবে চিহ্নিত করুন</translation>
-<translation id="3740397331642243698">এটি ইনপুট করা ইউআরএলগুলিকে Google Chrome-এ, 'ছদ্মবেশী' মোডে খোলে।</translation>
+<translation id="3740397331642243698">এটি ইনপুট করা ইউআরএলগুলিকে Mises-এ, 'ছদ্মবেশী' মোডে খোলে।</translation>
 <translation id="3762232513783804601">আপনার iPad-এর জন্য তৈরি করা হয়েছে</translation>
 <translation id="3771033907050503522">ছদ্মবেশী ট্যাবগুলি</translation>
 <translation id="3775743491439407556">সিঙ্ক কাজ করছে না</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">নাম</translation>
 <translation id="3892144330757387737">আপনি এখানে আপনার ইতিহাস দেখতে পাবেন</translation>
 <translation id="3897092660631435901">মেনু</translation>
-<translation id="3913386780052199712">Chrome-এ সাইন-ইন করা হয়েছে</translation>
+<translation id="3913386780052199712">Mises-এ সাইন-ইন করা হয়েছে</translation>
 <translation id="3915450441834151894">সাইটের তথ্য</translation>
 <translation id="3922310737605261887">কপি করা টেক্সট সার্চ করুন</translation>
 <translation id="3928666092801078803">আমার ডেটা একত্রিত করুন</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">Google ড্রাইভ ইনস্টল করুন</translation>
 <translation id="5083464117946352670">ফাইলের আকার নির্ধারণ করা যাচ্ছে না।</translation>
 <translation id="5090832849094901128">এই পাসওয়ার্ডটি মুছে দিলেও, <ph name="WEBSITE" />-এ আপনার অ্যাকাউন্ট মুছে যাবে না।</translation>
-<translation id="5092117651143801290">পরে বা অফলাইনে পড়ার জন্য আপনি পৃষ্ঠাগুলি সেভ করে রাখতে পারেন। আপনি দীর্ঘ পৃষ্ঠা সেভ করতে চান কিনা Chrome-এ আপনাকে সেই সম্পর্কে জানতে জিজ্ঞাসা করা হবে।</translation>
+<translation id="5092117651143801290">পরে বা অফলাইনে পড়ার জন্য আপনি পৃষ্ঠাগুলি সেভ করে রাখতে পারেন। আপনি দীর্ঘ পৃষ্ঠা সেভ করতে চান কিনা Mises-এ আপনাকে সেই সম্পর্কে জানতে জিজ্ঞাসা করা হবে।</translation>
 <translation id="5094827893301452931">Tweet সম্পূর্ণ হয়েছে৷</translation>
 <translation id="5118764316110575523">বন্ধ করা আছে</translation>
 <translation id="5127805178023152808">সিঙ্ক বন্ধ রয়েছে</translation>
 <translation id="5132942445612118989">সমস্ত ডিভাইসে আপনার পাসওয়ার্ড, ইতিহাস ও আরও অনেক কিছু সিঙ্ক করুন</translation>
-<translation id="5140288047769711648">Chrome আপনার জন্য এই পাসওয়ার্ড মনে রাখবে। আপনাকে এটি মনে রাখতে হবে না।</translation>
+<translation id="5140288047769711648">Mises আপনার জন্য এই পাসওয়ার্ড মনে রাখবে। আপনাকে এটি মনে রাখতে হবে না।</translation>
 <translation id="5150492518600715772">আপনার অন্য ডিভাইসে পাঠান</translation>
 <translation id="5168414296986405587">iPadOS-এর জন্য তৈরি</translation>
 <translation id="5173088371991956744">সিঙ্ক করার আগে যাচাই করিয়ে নিতে হবে যে এটি আপনি করছেন</translation>
@@ -480,7 +480,7 @@
 <translation id="5659593005791499971">ইমেল আইডি</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">ভার্সন <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{এখন ১টি Chrome উইন্ডো দেখা যাচ্ছে}one{এখন {count}টি Chrome উইন্ডো দেখা যাচ্ছে}other{এখন {count}টি Chrome উইন্ডো দেখা যাচ্ছে}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{এখন ১টি Mises উইন্ডো দেখা যাচ্ছে}one{এখন {count}টি Mises উইন্ডো দেখা যাচ্ছে}other{এখন {count}টি Mises উইন্ডো দেখা যাচ্ছে}}</translation>
 <translation id="5706552126692816153">১ দিন আগে ব্যবহার করা হয়েছে</translation>
 <translation id="5711039611392265845">আপনার গোপনীয়তা, নিরাপত্তা ও ডেটা সংগ্রহের সাথে সম্পর্কিত আরও সেটিংসের জন্য <ph name="BEGIN_LINK" />সিঙ্ক এবং Google পরিষেবা<ph name="END_LINK" /> দেখুন।</translation>
 <translation id="5724941645893276623">ব্যক্তিগতভাবে ওয়েব ব্রাউজ করতে, একটি নতুন ট্যাব যোগ করুন</translation>
@@ -519,7 +519,7 @@
 <translation id="5979837087407522202">পাসওয়ার্ড খুঁজুন</translation>
 <translation id="5982717868370722439">বিদ্যমান ডেটা <ph name="USER_EMAIL" /> এ যোগ করুন।</translation>
 <translation id="5984222099446776634">সাম্প্রতিককালে দেখা</translation>
-<translation id="5988851877894965432">Chrome ব্রাউজার থেকে ইউআরএলগুলি খুলুন</translation>
+<translation id="5988851877894965432">Mises ব্রাউজার থেকে ইউআরএলগুলি খুলুন</translation>
 <translation id="6012140227487808125">এনক্রিপ্ট হচ্ছে...</translation>
 <translation id="6021332621416007159">এতে খুলুন...</translation>
 <translation id="6027945736510816438">আপনি কি <ph name="WEBSITE" /> ডোমেনের কথা বলছেন?</translation>
@@ -540,7 +540,7 @@
 <translation id="6136914049981179737">সেকেন্ড আগে</translation>
 <translation id="6144589619057374135">'ছদ্মবেশী মোডে' ${url} খুলুন</translation>
 <translation id="6159839020698489198">ঐচ্ছিক</translation>
-<translation id="6177442314419606057">Chrome-এ সার্চ করুন</translation>
+<translation id="6177442314419606057">Mises-এ সার্চ করুন</translation>
 <translation id="6184086493125982861">ট্যাব দেখান</translation>
 <translation id="6187302354554850004">শেষে সিঙ্ক হয়েছে: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">অপঠিত</translation>
@@ -674,7 +674,7 @@
 <translation id="7189598951263744875">শেয়ার করুন...</translation>
 <translation id="7192050974311852563">লগ করা শুরু করুন</translation>
 <translation id="7203585745079012652">আবার উত্তরগুলি বলে</translation>
-<translation id="7207383424303353046">নতুন: Chrome-কে আপনার ডিফল্ট ব্রাউজার অ্যাপ হিসেবে সেট করে এতে অটোমেটিক সাইট খুলুন। <ph name="BEGIN_LINK" />সেটিংস খুলুন<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">নতুন: Mises-কে আপনার ডিফল্ট ব্রাউজার অ্যাপ হিসেবে সেট করে এতে অটোমেটিক সাইট খুলুন। <ph name="BEGIN_LINK" />সেটিংস খুলুন<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">কার্ডের বিশেষ নামটি সঠিক নয়</translation>
 <translation id="722454870747268814">নতুন ছদ্মবেশী ট্যাব</translation>
 <translation id="7265758999917665941">এই সাইটের জন্য কখনই নয়</translation>
@@ -700,7 +700,7 @@
 <translation id="7454057999980797137">রাজ্য / দেশ</translation>
 <translation id="7456847797759667638">লোকেশন খুলুন...</translation>
 <translation id="7464701184726199289">এটি সব ডিভাইস থেকে সিঙ্ক হওয়া ডেটা সাফ করবে। সংরক্ষিত সাইটের সেটিংস মোছা হবে না এবং আপনার ব্রাউজিং অভ্যাস প্রতিফলিত হতে পারে। <ph name="BEGIN_LINK" />আরও জানুন<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">৩. Chrome বেছে নিন</translation>
+<translation id="746684838091935575">৩. Mises বেছে নিন</translation>
 <translation id="7472734401283673885">কোম্পানির নাম:</translation>
 <translation id="7473891865547856676">না থাক</translation>
 <translation id="7481312909269577407">ফরওয়ার্ড</translation>
@@ -728,13 +728,13 @@
 <translation id="7781011649027948662">পৃষ্ঠাটি অনুবাদ করতে চান?</translation>
 <translation id="7781069478569868053">নতুন ট্যাব পৃষ্ঠা</translation>
 <translation id="7781829728241885113">গতকাল</translation>
-<translation id="778855399387580014">নতুন Chrome ট্যাবে সার্চ করা শুরু করুন।</translation>
+<translation id="778855399387580014">নতুন Mises ট্যাবে সার্চ করা শুরু করুন।</translation>
 <translation id="7791543448312431591">জুড়ুন</translation>
 <translation id="7839985698273989086">অফলাইন পৃষ্ঠা</translation>
 <translation id="7840771868269352570">আপনার বেছে নেওয়া আইটেমগুলি সরানো হবে।</translation>
 <translation id="7856733331829174190">ডাউনলোড করা যায়নি</translation>
 <translation id="7859704718976024901">ব্রাউজিং ইতিহাস</translation>
-<translation id="7887198238286927132">আপনার গোপনীয়তা রক্ষার জন্য, Chrome এই ক্ষেত্রটি নিজে থেকে পূরণ করবে না।</translation>
+<translation id="7887198238286927132">আপনার গোপনীয়তা রক্ষার জন্য, Mises এই ক্ষেত্রটি নিজে থেকে পূরণ করবে না।</translation>
 <translation id="7911190106180361398">আপনার প্রতিষ্ঠান আপনার জন্য সবকিছু সিঙ্ক করার অনুমতি দেয় না।</translation>
 <translation id="7938254975914653459">ফেসটাইম</translation>
 <translation id="7939128259257418052">পাসওয়ার্ড এক্সপোর্ট করুন...</translation>
@@ -749,14 +749,14 @@
 <translation id="7978018860671536736">৩. অটোফিল পাসওয়ার্ড বিকল্পে ট্যাপ করুন</translation>
 <translation id="7982789257301363584">নেটওয়ার্ক</translation>
 <translation id="7993619969781047893">কিছু কিছু সাইটের ফিচারগুলি কাজ নাও করতে পারে</translation>
-<translation id="800361585186029508">Google Chrome-এ ইনপুট করা ইউআরএলগুলি খোলে।</translation>
+<translation id="800361585186029508">Mises-এ ইনপুট করা ইউআরএলগুলি খোলে।</translation>
 <translation id="802154636333426148">ডাউনলোড করা যায়নি</translation>
 <translation id="8023878949384262191">বিভাগটি প্রসারিত করে।</translation>
 <translation id="8027581147000338959">নতুন উইন্ডোতে খুলুন</translation>
 <translation id="804225253087497565">আপনি সাইন-ইন করে থাকলে <ph name="BEGIN_LINK" />সার্চ ইতিহাস<ph name="END_LINK" /> এবং <ph name="BEGIN_LINK" />অন্যান্য অ্যাক্টিভিটি<ph name="END_LINK" /> আপনার Google অ্যাকাউন্টে সেভ হয়ে যেতে পারে। আপনি যেকোনও সময় সেগুলি মুছে দিতে পারেন।</translation>
 <translation id="804427445359061970">আপনি অন্যান্য ডিভাইস থেকে নিজের ট্যাবগুলি এখানে দেখতে পাবেন</translation>
 <translation id="8059533439631660104">বিভাগটি সঙ্কুচন করে।</translation>
-<translation id="8065292699993359127">Chrome-এ 'ছদ্মবেশী' মোডে ইউআরএল খুলুন</translation>
+<translation id="8065292699993359127">Mises-এ 'ছদ্মবেশী' মোডে ইউআরএল খুলুন</translation>
 <translation id="806745655614357130">আমার ডেটা আলাদা রাখুন</translation>
 <translation id="8073670137947914548">ডাউনলোড হয়ে গেছে</translation>
 <translation id="8073872304774253879">সার্চ এবং ব্রাউজিং অভিজ্ঞতা আরও উন্নত করুন</translation>
@@ -805,7 +805,7 @@
 <translation id="8533670235862049797">Safe Browsing চালু আছে</translation>
 <translation id="8534481786647257214">Google+ পোষ্ট সম্পূর্ণ হয়েছে৷</translation>
 <translation id="8548878600947630424">পৃষ্ঠাটি খুঁজুন...</translation>
-<translation id="8574235780160508979">৩১ মার্চ থেকে Chrome-এর 'পরিষেবার শর্তাবলী'-তে পরিবর্তন করা হবে। <ph name="BEGIN_LINK" />ভাল করে পড়ে নিন<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">৩১ মার্চ থেকে Mises-এর 'পরিষেবার শর্তাবলী'-তে পরিবর্তন করা হবে। <ph name="BEGIN_LINK" />ভাল করে পড়ে নিন<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">বন্ধ করা আছে</translation>
 <translation id="8590913940444621808">আর কখনো দেখতে চাই না</translation>
 <translation id="8591976964826315682">'ছদ্মবেশী' মোডে থার্ড-পার্টি কুকি ব্লক করুন</translation>
@@ -856,7 +856,7 @@
 <translation id="9081058212938299310"><ph name="USERNAME" />-এর পাসওয়ার্ড আপডেট করবেন?</translation>
 <translation id="9083392325882095631">১টি আইটেম</translation>
 <translation id="9083838294503912307">সমগ্র ডিভাইস জুড়ে সিঙ্ক এবং নিজের মতো সাজিয়ে নিতে সিঙ্ক বিকল্পটি চালু করুন।</translation>
-<translation id="9087108903408689779">Chrome-এর সাজেস্ট করা পাসওয়ার্ড:</translation>
+<translation id="9087108903408689779">Mises-এর সাজেস্ট করা পাসওয়ার্ড:</translation>
 <translation id="9094033019050270033">পাসওয়ার্ড আপডেট করুন</translation>
 <translation id="9100610230175265781">পাসফ্রেজের প্রয়োজন</translation>
 <translation id="9107664647686727385">কোনও পাসওয়ার্ড লিক হয়েছে কিনা দেখুন</translation>

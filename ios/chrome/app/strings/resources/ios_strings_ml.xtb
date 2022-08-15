@@ -33,7 +33,7 @@
 <translation id="1209206284964581585">ഇപ്പോഴത്തേയ്‌ക്ക് മറയ്‌ക്കുക</translation>
 <translation id="1219674500290482172">ഇന്‍റര്‍നെറ്റിലേക്ക് കണക്റ്റുചെയ്യാൻ കഴിയില്ല.</translation>
 <translation id="122699739164161391">എല്ലാ ടാബുകളും അവസാനിപ്പിക്കുക</translation>
-<translation id="1229222343402087523">Chrome-ൽ ${searchPhrase} തിരയുക</translation>
+<translation id="1229222343402087523">Mises-ൽ ${searchPhrase} തിരയുക</translation>
 <translation id="1231733316453485619">സമന്വയിപ്പിക്കൽ ഓണാക്കണോ?</translation>
 <translation id="1242044645101871359">വീണ്ടും സൈൻ ഇൻ ചെയ്യുക</translation>
 <translation id="1254117744268754948">ഫോൾഡർ തിരഞ്ഞെടുക്കുക</translation>
@@ -110,7 +110,7 @@
 <translation id="1930989359703290198">ചില അക്കൗണ്ടുകൾ ഉപയോഗിച്ച് മാത്രമേ സൈൻ ഇൻ ചെയ്യാൻ നിങ്ങളുടെ സ്ഥാപനം അനുവദിക്കൂ. അനുവദനീയമല്ലാത്ത അക്കൗണ്ടുകൾ മറച്ചിരിക്കുന്നു. <ph name="BEGIN_LINK" />കൂടുതലറിയുക<ph name="END_LINK" /></translation>
 <translation id="1941314575388338491">പകർത്താൻ ഡബിൾ ടാപ്പ് ചെയ്യുക.</translation>
 <translation id="1952172573699511566">വെബ്സൈറ്റുകൾ, സാധ്യമാകുന്നിടത്തെല്ലാം, നിങ്ങൾ തിരഞ്ഞെടുത്ത ഭാഷയിൽ ടെക്‌സ്‌റ്റ് കാണിക്കും.</translation>
-<translation id="1965935827552890526">തുറന്ന മറ്റ് Chrome വിൻഡോയിൽ നിങ്ങൾ ചെയ്ത് കൊണ്ടിരുന്നത് പൂർത്തിയാക്കുക.</translation>
+<translation id="1965935827552890526">തുറന്ന മറ്റ് Mises വിൻഡോയിൽ നിങ്ങൾ ചെയ്ത് കൊണ്ടിരുന്നത് പൂർത്തിയാക്കുക.</translation>
 <translation id="196896377990863006">ലിങ്ക് പ്രിവ്യൂ കാണിക്കുക</translation>
 <translation id="1973912524893600642">ഡാറ്റ നിലനിർത്തുക</translation>
 <translation id="1974060860693918893">നൂതനം</translation>
@@ -138,7 +138,7 @@
 <translation id="225943865679747347">പിശക് കോഡ്: <ph name="ERROR_CODE" /></translation>
 <translation id="2267753748892043616">അക്കൗണ്ട് ചേർക്കുക</translation>
 <translation id="2268044343513325586">പരിഷ്‌ക്കരിക്കുക</translation>
-<translation id="2271351792809375263">Chrome-ൽ സംരക്ഷിച്ചിരിക്കുന്ന പാസ്‌വേഡുകൾ, നിങ്ങളുടെ ഉപകരണത്തിലുള്ള മറ്റ് ആപ്പുകളിൽ ഉപയോഗിക്കുക</translation>
+<translation id="2271351792809375263">Mises-ൽ സംരക്ഷിച്ചിരിക്കുന്ന പാസ്‌വേഡുകൾ, നിങ്ങളുടെ ഉപകരണത്തിലുള്ള മറ്റ് ആപ്പുകളിൽ ഉപയോഗിക്കുക</translation>
 <translation id="2273327106802955778">കൂടുതൽ ഓപ്ഷൻ മെനു</translation>
 <translation id="2302742851632557585">വെബ്‌സൈറ്റിലെ പാസ്‌വേഡ് മാറ്റുക</translation>
 <translation id="2316709634732130529">നിർദ്ദേശിച്ച പാസ്‌വേഡ് ഉപയോഗിക്കുക</translation>
@@ -191,12 +191,12 @@
 <translation id="2783054063075604403">ലിങ്ക് സൃഷ്‌ടിക്കാനാകുന്നില്ല</translation>
 <translation id="2800683595868705743">ടാബ് സ്വിച്ചർ വിടുക</translation>
 <translation id="2815198996063984598">2. ഡിഫോൾട്ട് ബ്രൗസർ ആപ്പ് ടാപ്പ് ചെയ്യുക</translation>
-<translation id="2820289420301699633">നിങ്ങളുടെ അഡ്‌മിൻ ആണ് Chrome നിയന്ത്രിക്കുന്നത്, അവർക്ക് അതിന്റെ ഡാറ്റ ആക്‌സസ് ചെയ്യാനാകും</translation>
+<translation id="2820289420301699633">നിങ്ങളുടെ അഡ്‌മിൻ ആണ് Mises നിയന്ത്രിക്കുന്നത്, അവർക്ക് അതിന്റെ ഡാറ്റ ആക്‌സസ് ചെയ്യാനാകും</translation>
 <translation id="2830972654601096923">വിലാസങ്ങൾ മാനേജ് ചെയ്യുക...</translation>
 <translation id="2834956026595107950"><ph name="TITLE" />, <ph name="STATE" />, <ph name="URL" /></translation>
 <translation id="2843803966603263712">വിവർത്തന ക്രമീകരണം റീസെറ്റ് ചെയ്യുക</translation>
 <translation id="2848086008667475748">ക്രമീകരണത്തിൽ ഡിഫോൾട്ട് ആക്കുക…</translation>
-<translation id="2858204748079866344">നിങ്ങളുടെ സ്വകാര്യത പരിരക്ഷിക്കാൻ, Chrome ഈ ഫീൽഡിൽ പാസ്‌വേഡ് സ്വമേധയാ പൂരിപ്പിക്കില്ല.</translation>
+<translation id="2858204748079866344">നിങ്ങളുടെ സ്വകാര്യത പരിരക്ഷിക്കാൻ, Mises ഈ ഫീൽഡിൽ പാസ്‌വേഡ് സ്വമേധയാ പൂരിപ്പിക്കില്ല.</translation>
 <translation id="285960592395650245">വീണ്ടും ഡൗൺലോഡ് ചെയ്യാൻ ശ്രമിക്കുക</translation>
 <translation id="2870560284913253234">സൈറ്റ്</translation>
 <translation id="2871695793448672541">മറച്ചിരിക്കുന്ന പാസ്‌വേഡ്</translation>
@@ -210,7 +210,7 @@
 <translation id="2923448633003185837">ഒട്ടിച്ചാൽ മാത്രം മതി</translation>
 <translation id="292639812446257861">വായിക്കാത്തതായി അടയാളപ്പെടുത്തുക</translation>
 <translation id="2932085390869194046">പാസ്‌വേഡ് നിർദ്ദേശിക്കുക...</translation>
-<translation id="2952581218264071393">1. Chrome ക്രമീകരണം തുറക്കുക</translation>
+<translation id="2952581218264071393">1. Mises ക്രമീകരണം തുറക്കുക</translation>
 <translation id="2958718410589002129">പാസ്‌വേഡുകൾ</translation>
 <translation id="2961210776189273067">ശീർഷകം</translation>
 <translation id="2964349545761222050">മൂന്നാം കക്ഷി കുക്കികൾ ബ്ലോക്ക് ചെയ്യുക</translation>
@@ -257,7 +257,7 @@
 <translation id="3335947283844343239">അടച്ച ടാബ് വീണ്ടും തുറക്കുക</translation>
 <translation id="3371831930909698441">വിവർത്തനം ലഭ്യമാണ്. സ്‌ക്രീനിൻ്റെ ചുവടെ ഓപ്‌ഷനുകൾ ലഭ്യമാണ്.</translation>
 <translation id="3393920035788932672">പോപ്പ്-അപ്പുകൾ അനുവദിച്ചു</translation>
-<translation id="3399930248910934354">Chrome ക്രമീകരണം തുറക്കുക</translation>
+<translation id="3399930248910934354">Mises ക്രമീകരണം തുറക്കുക</translation>
 <translation id="3404744938087714423">സൈൻ ഔട്ട് ചെയ്യുന്നത് സമന്വയിപ്പിക്കൽ ഓഫാക്കും.</translation>
 <translation id="3414451675185661089">2. 'പാസ്‌വേഡുകൾ' എന്നതിൽ ടാപ്പ് ചെയ്യുക</translation>
 <translation id="3425644765244388016">കാർഡിന്റെ വിളിപ്പേര്</translation>
@@ -283,7 +283,7 @@
 <translation id="3551320343578183772">ടാബ് അടയ്‌ക്കുക</translation>
 <translation id="3581564640715911333">പേജുകൾ മറ്റ് ഭാഷകളിലേക്ക് വിവർത്തനം ചെയ്യാനുള്ള ഓഫർ</translation>
 <translation id="3588820906588687999">ചിത്രം പുതിയ ടാബിൽ തുറക്കുക</translation>
-<translation id="359441731697487922">Chrome നിങ്ങളുടെ ഡിഫോൾട്ട് ബ്രൗസർ ആപ്പ് ആയി സജ്ജീകരിച്ച്, അതിൽ ലിങ്കുകൾ സ്വയമേവ തുറക്കാം.
+<translation id="359441731697487922">Mises നിങ്ങളുടെ ഡിഫോൾട്ട് ബ്രൗസർ ആപ്പ് ആയി സജ്ജീകരിച്ച്, അതിൽ ലിങ്കുകൾ സ്വയമേവ തുറക്കാം.
       
 ചുവടെയുള്ള ഘട്ടങ്ങൾ പാലിക്കുക:</translation>
 <translation id="3603009562372709545">ലിങ്ക് URL പകർത്തുക</translation>
@@ -296,7 +296,7 @@
 <translation id="3691593122358196899"><ph name="FOLDER_TITLE" /> ഫോൾഡറിലേക്ക് ബുക്ക്മാർക്ക് ചെയ്‌തു</translation>
 <translation id="369349502275246497">പാസ്‌വേഡുകൾ സംരക്ഷിക്കുന്നതിനുള്ള നിർദ്ദേശം</translation>
 <translation id="3709582977625132201">വായിച്ചില്ലെന്ന് അടയാളപ്പെടുത്തുക</translation>
-<translation id="3740397331642243698">Google Chrome-ൽ നൽകിയിട്ടുള്ള URL-കൾ അദൃശ്യ മോഡിൽ തുറക്കുന്നു.</translation>
+<translation id="3740397331642243698">Mises-ൽ നൽകിയിട്ടുള്ള URL-കൾ അദൃശ്യ മോഡിൽ തുറക്കുന്നു.</translation>
 <translation id="3762232513783804601">നിങ്ങളുടെ iPad-നായി നിർമ്മിച്ചത്</translation>
 <translation id="3771033907050503522">ആൾമാറാട്ട ടാബുകൾ</translation>
 <translation id="3775743491439407556">സമന്വയം പ്രവർത്തിക്കുന്നില്ല</translation>
@@ -309,7 +309,7 @@
 <translation id="3858860766373142691">പേര്</translation>
 <translation id="3892144330757387737">നിങ്ങളുടെ ചരിത്രം ഇവിടെ കാണാം</translation>
 <translation id="3897092660631435901">മെനു</translation>
-<translation id="3913386780052199712">Chrome-ൽ സൈൻ ഇൻ ചെയ്‌തു</translation>
+<translation id="3913386780052199712">Mises-ൽ സൈൻ ഇൻ ചെയ്‌തു</translation>
 <translation id="3915450441834151894">സൈറ്റ് വിവരങ്ങള്‍</translation>
 <translation id="3922310737605261887">പകർത്തിയ ടെക്‌സ്‌റ്റ് തിരയുക</translation>
 <translation id="3928666092801078803">എന്റെ വിവരങ്ങൾ സംയോജിപ്പിക്കുക</translation>
@@ -426,12 +426,12 @@
 <translation id="5062321486222145940">Google ഡ്രൈവ് ഇൻസ്‌റ്റാൾ ചെയ്യുക</translation>
 <translation id="5083464117946352670">ഫയൽ വലുപ്പം നിർണ്ണയിക്കാനാവില്ല.</translation>
 <translation id="5090832849094901128">ഈ പാസ്‌വേഡ് ഇല്ലാതാക്കുന്നത് <ph name="WEBSITE" /> -ലെ നിങ്ങളുടെ അക്കൗണ്ട് ഇല്ലാതാക്കില്ല.</translation>
-<translation id="5092117651143801290">പിന്നീട് അല്ലെങ്കിൽ ഓഫ്‌ലൈനിൽ വായിക്കുന്നതിന് നിങ്ങൾക്ക് പേജുകൾ സംരക്ഷിക്കാനാകും. ദൈർഘ്യമേറിയ പേജുകൾ സംരക്ഷിക്കണോ എന്ന് Chrome നിങ്ങളോട് ചോദിക്കും.</translation>
+<translation id="5092117651143801290">പിന്നീട് അല്ലെങ്കിൽ ഓഫ്‌ലൈനിൽ വായിക്കുന്നതിന് നിങ്ങൾക്ക് പേജുകൾ സംരക്ഷിക്കാനാകും. ദൈർഘ്യമേറിയ പേജുകൾ സംരക്ഷിക്കണോ എന്ന് Mises നിങ്ങളോട് ചോദിക്കും.</translation>
 <translation id="5094827893301452931">Tweet പങ്കിടൽ പൂർത്തിയായി.</translation>
 <translation id="5118764316110575523">ഓഫാണ്</translation>
 <translation id="5127805178023152808">സമന്വയം ഓഫാണ്</translation>
 <translation id="5132942445612118989">നിങ്ങളുടെ പാസ്‌വേഡുകളും ചരിത്രവും മറ്റും എല്ലാ ഉപകരണങ്ങളിലും സമന്വയിപ്പിക്കുക</translation>
-<translation id="5140288047769711648">നിങ്ങൾക്കായി Chrome ഈ പാസ്‌വേഡ് ഓർത്തുവെയ്ക്കും. നിങ്ങളത് ഓർക്കേണ്ടതില്ല.</translation>
+<translation id="5140288047769711648">നിങ്ങൾക്കായി Mises ഈ പാസ്‌വേഡ് ഓർത്തുവെയ്ക്കും. നിങ്ങളത് ഓർക്കേണ്ടതില്ല.</translation>
 <translation id="5150492518600715772">നിങ്ങളുടെ ഉപകരണത്തിലേക്ക് അയയ്‌ക്കുക</translation>
 <translation id="5168414296986405587">iPadOS-നായി സൃഷ്‌ടിച്ചിരിക്കുന്നത്</translation>
 <translation id="5173088371991956744">സമന്വയത്തിന് ഇത് നിങ്ങൾ തന്നെയാണെന്ന് പരിശോധിച്ചുറപ്പിക്കേണ്ടതുണ്ട്</translation>
@@ -479,7 +479,7 @@
 <translation id="5659593005791499971">ഇമെയില്‍</translation>
 <translation id="5669528293118408608">www</translation>
 <translation id="567881659373499783">പതിപ്പ് <ph name="PRODUCT_VERSION" /></translation>
-<translation id="5690398455483874150">{count,plural, =1{ഇപ്പോൾ ഒരു Chrome വിൻഡോ കാണിക്കുന്നു}other{ഇപ്പോൾ {count} Chrome വിൻഡോകൾ കാണിക്കുന്നു}}</translation>
+<translation id="5690398455483874150">{count,plural, =1{ഇപ്പോൾ ഒരു Mises വിൻഡോ കാണിക്കുന്നു}other{ഇപ്പോൾ {count} Mises വിൻഡോകൾ കാണിക്കുന്നു}}</translation>
 <translation id="5706552126692816153">ഒരു ദിവസം മുമ്പ് സജീവമായിരുന്നു</translation>
 <translation id="5711039611392265845">സ്വകാര്യത, സുരക്ഷ, ഡാറ്റാ ശേഖരണം എന്നിവയുമായി ബന്ധപ്പെട്ട കൂടുതൽ ക്രമീകരണത്തിന് <ph name="BEGIN_LINK" />സമന്വയവും Google സേവനങ്ങളും<ph name="END_LINK" /> കാണുക.</translation>
 <translation id="5724941645893276623">വെബ് സ്വകാര്യമായി ബ്രൗസ് ചെയ്യാൻ, പുതിയ ടാബ് ചേർക്കുക</translation>
@@ -518,7 +518,7 @@
 <translation id="5979837087407522202">പാസ്‌വേഡുകൾ തിരയുക</translation>
 <translation id="5982717868370722439">നിലവിലുള്ള വിവരങ്ങളെ <ph name="USER_EMAIL" /> എന്നതിലേക്ക് ചേർക്കുക.</translation>
 <translation id="5984222099446776634">സമീപകാലത്ത് സന്ദർശിച്ചത്</translation>
-<translation id="5988851877894965432">Chrome-ൽ URL-കൾ തുറക്കുക</translation>
+<translation id="5988851877894965432">Mises-ൽ URL-കൾ തുറക്കുക</translation>
 <translation id="6012140227487808125">എൻക്രിപ്റ്റുചെയ്യുന്നു...</translation>
 <translation id="6021332621416007159">ഇതിൽ തുറക്കുക...</translation>
 <translation id="6027945736510816438"><ph name="WEBSITE" /> ആണോ നിങ്ങൾ ഉദ്ദേശിച്ചത്?</translation>
@@ -539,7 +539,7 @@
 <translation id="6136914049981179737">സെക്കൻഡ് മുമ്പ്</translation>
 <translation id="6144589619057374135">${url} അദൃശ്യ മോഡിൽ തുറക്കുക</translation>
 <translation id="6159839020698489198">ഓപ്‌ഷണൽ</translation>
-<translation id="6177442314419606057">Chrome-ൽ തിരയുക</translation>
+<translation id="6177442314419606057">Mises-ൽ തിരയുക</translation>
 <translation id="6184086493125982861">ടാബുകൾ കാണിക്കുക</translation>
 <translation id="6187302354554850004">അവസാനം സമന്വയിപ്പിച്ചത്: <ph name="LAST_USED_TIME" /></translation>
 <translation id="6189413832092199491">വായിക്കാത്തവ</translation>
@@ -673,7 +673,7 @@
 <translation id="7189598951263744875">പങ്കിടുക...</translation>
 <translation id="7192050974311852563">ലോഗിംഗ് ആരംഭിക്കുക</translation>
 <translation id="7203585745079012652">മറുപടിയായി ഉത്തരങ്ങൾ പറയുക</translation>
-<translation id="7207383424303353046">പുതിയത്: Chrome നിങ്ങളുടെ ഡിഫോൾഡ് ബ്രൗസർ ആപ്പ് ആയി സജ്ജീകരിച്ച് അതിൽ സൈറ്റുകൾ സ്വയമേവ തുറക്കൂ. <ph name="BEGIN_LINK" />ക്രമീകരണം തുറക്കുക<ph name="END_LINK" /></translation>
+<translation id="7207383424303353046">പുതിയത്: Mises നിങ്ങളുടെ ഡിഫോൾഡ് ബ്രൗസർ ആപ്പ് ആയി സജ്ജീകരിച്ച് അതിൽ സൈറ്റുകൾ സ്വയമേവ തുറക്കൂ. <ph name="BEGIN_LINK" />ക്രമീകരണം തുറക്കുക<ph name="END_LINK" /></translation>
 <translation id="721597782417389033">കാർഡിന്റെ വിളിപ്പേര് അസാധുവാണ്</translation>
 <translation id="722454870747268814">പുതിയ ആൾമാറാട്ട ടാബ്</translation>
 <translation id="7265758999917665941">ഈ സൈറ്റിൻ്റെ പാസ്‌വേഡ് ഓർക്കേണ്ടതില്ല</translation>
@@ -699,7 +699,7 @@
 <translation id="7454057999980797137">സംസ്ഥാനം / രാജ്യം</translation>
 <translation id="7456847797759667638">സ്ഥാനം തുറക്കുക...</translation>
 <translation id="7464701184726199289">ഇത് എല്ലാ ഉപകരണങ്ങളിൽ നിന്നും സമന്വയിപ്പിച്ച ഡാറ്റയെ മായ്‌ക്കും. സംരക്ഷിച്ച സൈറ്റ് ക്രമീകരണം ഇല്ലാതാക്കപ്പെടില്ല, ഇത് നിങ്ങളുടെ ബ്രൗസിംഗ് രീതികളെ പ്രതിഫലിപ്പിക്കാനുമിടയുണ്ട്. <ph name="BEGIN_LINK" />കൂടുതലറിയുക<ph name="END_LINK" /></translation>
-<translation id="746684838091935575">3. Chrome തിരഞ്ഞെടുക്കുക</translation>
+<translation id="746684838091935575">3. Mises തിരഞ്ഞെടുക്കുക</translation>
 <translation id="7472734401283673885">കമ്പനിയുടെ പേര്</translation>
 <translation id="7473891865547856676">വേണ്ട, നന്ദി</translation>
 <translation id="7481312909269577407">മുന്നോട്ട്</translation>
@@ -727,13 +727,13 @@
 <translation id="7781011649027948662">പേജ് വിവർത്തനം ചെയ്യണോ?</translation>
 <translation id="7781069478569868053">പുതിയ ടാബ് പേജ്</translation>
 <translation id="7781829728241885113">ഇന്നലെ</translation>
-<translation id="778855399387580014">പുതിയ Chrome ടാബിൽ തിരയൽ ആരംഭിക്കുക.</translation>
+<translation id="778855399387580014">പുതിയ Mises ടാബിൽ തിരയൽ ആരംഭിക്കുക.</translation>
 <translation id="7791543448312431591">ചേര്‍ക്കൂ</translation>
 <translation id="7839985698273989086">പേജ് ഓഫ്‌ലൈനാണ്</translation>
 <translation id="7840771868269352570">നിങ്ങൾ തിരഞ്ഞെടുത്ത ഇനങ്ങൾ നീക്കം ചെയ്യപ്പെടും.</translation>
 <translation id="7856733331829174190">ഡൗൺലോഡ് ചെയ്യാനായില്ല</translation>
 <translation id="7859704718976024901">ബ്രൗസിംഗ് ചരിത്രം</translation>
-<translation id="7887198238286927132">നിങ്ങളുടെ സ്വകാര്യത പരിരക്ഷിക്കാൻ, Chrome ഈ ഫീൽഡ് സ്വമേധയാ പൂരിപ്പിക്കില്ല.</translation>
+<translation id="7887198238286927132">നിങ്ങളുടെ സ്വകാര്യത പരിരക്ഷിക്കാൻ, Mises ഈ ഫീൽഡ് സ്വമേധയാ പൂരിപ്പിക്കില്ല.</translation>
 <translation id="7911190106180361398">എല്ലാം സമന്വയിപ്പിക്കാൻ നിങ്ങളുടെ സ്ഥാപനം അനുവദിക്കുന്നില്ല.</translation>
 <translation id="7938254975914653459">FaceTime</translation>
 <translation id="7939128259257418052">പാസ്‌വേഡുകൾ എക്‌സ്‌പോർട്ട് ചെയ്യുക...</translation>
@@ -748,14 +748,14 @@
 <translation id="7978018860671536736">3. 'പാസ്‌വേഡുകൾ സ്വയമേവ പൂരിപ്പിക്കുക' ടാപ്പ് ചെയ്യുക</translation>
 <translation id="7982789257301363584">നെറ്റ്‌വർക്ക്</translation>
 <translation id="7993619969781047893">ചില സൈറ്റുകളിലെ ഫീച്ചറുകൾക്ക് പ്രവർത്തനം നടത്താനായേക്കില്ല</translation>
-<translation id="800361585186029508">Google Chrome-ൽ നൽകിയിട്ടുള്ള URL-കൾ തുറക്കുന്നു.</translation>
+<translation id="800361585186029508">Mises-ൽ നൽകിയിട്ടുള്ള URL-കൾ തുറക്കുന്നു.</translation>
 <translation id="802154636333426148">ഡൗൺലോഡ് പരാജയപ്പെട്ടു</translation>
 <translation id="8023878949384262191">വിഭാഗത്തെ വിപുലീകരിക്കുന്നു.</translation>
 <translation id="8027581147000338959">പുതിയ വിന്‍ഡോയില്‍ തുറക്കുക</translation>
 <translation id="804225253087497565">നിങ്ങൾ സൈൻ ഇൻ ചെയ്‌തിരിക്കുമ്പോൾ <ph name="BEGIN_LINK" />തിരയൽ ചരിത്രവും<ph name="END_LINK" /> <ph name="BEGIN_LINK" />മറ്റ് തരത്തിലുള്ള ആക്റ്റിവിറ്റിയും<ph name="END_LINK" /> Google അക്കൗണ്ടിൽ സംരക്ഷിച്ചേക്കാം. അവ ഏതുസമയത്തും നിങ്ങൾക്ക് ഇല്ലാതാക്കാം.</translation>
 <translation id="804427445359061970">മറ്റ് ഉപകരണങ്ങളിൽ നിന്നുള്ള നിങ്ങളുടെ ടാബുകൾ ഇവിടെ കാണാം</translation>
 <translation id="8059533439631660104">വിഭാഗത്തെ ചുരുക്കുന്നു.</translation>
-<translation id="8065292699993359127">Chrome-ൽ അദൃശ്യ മോഡിൽ URL-കൾ തുറക്കുക</translation>
+<translation id="8065292699993359127">Mises-ൽ അദൃശ്യ മോഡിൽ URL-കൾ തുറക്കുക</translation>
 <translation id="806745655614357130">എന്റെ വിവരങ്ങൾ പ്രത്യേകം വേർതിരിച്ച് സൂക്ഷിക്കുക</translation>
 <translation id="8073670137947914548">ഡൗൺലോഡ് പൂർത്തിയായി</translation>
 <translation id="8073872304774253879">തിരയലുകളും ബ്രൗസിംഗും മികച്ചതാക്കൂ</translation>
@@ -804,7 +804,7 @@
 <translation id="8533670235862049797">സുരക്ഷിത ബ്രൗസിംഗ് ഓണാണ്</translation>
 <translation id="8534481786647257214">Google+ പങ്കിടൽ പൂർത്തിയായി.</translation>
 <translation id="8548878600947630424">പേജിൽ കണ്ടെത്തുക...</translation>
-<translation id="8574235780160508979">Chrome-ന്റെ സേവന നിബന്ധനകളിൽ മാർച്ച് 31-ന് മാറ്റം വരുന്നു. <ph name="BEGIN_LINK" />അവലോകനം ചെയ്യുക<ph name="END_LINK" /></translation>
+<translation id="8574235780160508979">Mises-ന്റെ സേവന നിബന്ധനകളിൽ മാർച്ച് 31-ന് മാറ്റം വരുന്നു. <ph name="BEGIN_LINK" />അവലോകനം ചെയ്യുക<ph name="END_LINK" /></translation>
 <translation id="8588404856427128947">ഓഫാണ്</translation>
 <translation id="8590913940444621808">വീണ്ടും ചോദിക്കരുത്</translation>
 <translation id="8591976964826315682">അദൃശ്യ മോഡിൽ മൂന്നാം കക്ഷി കുക്കികൾ ബ്ലോക്ക് ചെയ്യുക</translation>
@@ -855,7 +855,7 @@
 <translation id="9081058212938299310"><ph name="USERNAME" /> എന്നയാളുടെ പാസ്‌വേഡ് അപ്‌ഡേറ്റ് ചെയ്യണോ?</translation>
 <translation id="9083392325882095631">ഒരു ഇനം</translation>
 <translation id="9083838294503912307">ഉപകരണങ്ങളിൽ ഉടനീളം സമന്വയിപ്പിക്കാനും വ്യക്തിപരമാക്കാനും, സമന്വയിപ്പിക്കൽ ഓണാക്കുക.</translation>
-<translation id="9087108903408689779">Chrome നിർദ്ദേശിക്കുന്ന പാസ്‌വേഡ്:</translation>
+<translation id="9087108903408689779">Mises നിർദ്ദേശിക്കുന്ന പാസ്‌വേഡ്:</translation>
 <translation id="9094033019050270033">പാസ്‌വേഡ് അപ്‌ഡേറ്റ് ചെയ്യുക</translation>
 <translation id="9100610230175265781">പാസ്‌ഫ്രെയ്‌സ് ആവശ്യമാണ്</translation>
 <translation id="9107664647686727385">അപഹരിക്കപ്പെട്ട പാസ്‌വേഡുകൾ കണ്ടെത്താൻ പരിശോധിക്കുക</translation>
