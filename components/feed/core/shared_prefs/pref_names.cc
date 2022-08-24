@@ -20,7 +20,7 @@ const char kArticlesListVisible[] = "ntp_snippets.list_visible";
 const char kVideoPreviewsType[] = "ntp_snippets.video_previews_type";
 
 void RegisterFeedSharedProfilePrefs(PrefRegistrySimple* registry) {
-  registry->RegisterBooleanPref(kEnableSnippets, true);
+  registry->RegisterBooleanPref(kEnableSnippets, false);
   registry->RegisterBooleanPref(kArticlesListVisible, true);
   registry->RegisterIntegerPref(kVideoPreviewsType, 1);
 }

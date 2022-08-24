@@ -134,9 +134,12 @@ const net::NetworkTrafficAnnotationTag kTrafficAnnotation =
 }
 - (void)accountChanged {
   
+
+  [Mises account].cachedMisesAvatar = nil;
+  [self.delegate updateMisesAvatar:nil];
+
   NSString* strurl = [[Mises account] misesAvatar];
   if ([strurl length] == 0) {
-      [self.delegate updateMisesAvatar:nil];
       return;
   }
 

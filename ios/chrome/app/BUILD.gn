@@ -125,7 +125,7 @@ if (!is_fat_secondary_toolchain) {
       "--version-overrides=MAJOR=1",
       "--version-overrides=MINOR=0",
       "--version-overrides=BUILD=1",
-      "--version-overrides=PATCH=15",
+      "--version-overrides=PATCH=18",
     ]
   }
 

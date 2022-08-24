@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreen_app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="K7H-Iv-QNk">
-                        <rect key="frame" x="148.5" y="377" width="117" height="142"/>
+                        <rect key="frame" x="148" y="377" width="117" height="142"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="117" id="Ybu-iB-Ad4"/>
                             <constraint firstAttribute="height" constant="142" id="gGV-z8-zNx"/>
