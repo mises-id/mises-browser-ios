@@ -961,9 +961,13 @@ BrowserView::BrowserView(std::unique_ptr<Browser> browser)
                        weak_ptr_factory_.GetWeakPtr()));
   }
 #endif
+#if BUILDFLAG(IS_ANDROID) 
+  SetOwnedByWidget(true);
+#endif
 }
 
 BrowserView::~BrowserView() {
+  LOG(INFO) << "BrowserView::~BrowserView";
   // Destroy the top controls slide controller first as it depends on the
   // tabstrip model and the browser frame.
   top_controls_slide_controller_.reset();
@@ -1278,10 +1282,12 @@ void BrowserView::Close() {
 }
 
 void BrowserView::Activate() {
+  LOG(INFO) << "BrowserView::Activate id:" << browser()->session_id();
   frame_->Activate();
 }
 
 void BrowserView::Deactivate() {
+  LOG(INFO) << "BrowserView::Deactivate id:" << browser()->session_id();
   frame_->Deactivate();
 }
 

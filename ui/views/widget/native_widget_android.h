@@ -169,6 +169,8 @@ class VIEWS_EXPORT NativeWidgetAndroid : public internal::NativeWidgetPrivate {
 
   // Are we in the destructor?
   bool destroying_;
+  bool is_active_;
+  bool is_hidden_;
 
   std::unique_ptr<TooltipManagerAura> tooltip_manager_;
 

@@ -56,13 +56,14 @@ int DesktopBrowserFrameAndroid::GetMinimizeButtonOffset() const {
 
 bool DesktopBrowserFrameAndroid::ShouldSaveWindowPlacement() const {
   // The placement can always be stored.
-  return true;
+  return false;
 }
 
 void DesktopBrowserFrameAndroid::GetWindowPlacement(
     gfx::Rect* bounds,
     ui::WindowShowState* show_state) const {
-  *show_state = ui::SHOW_STATE_NORMAL;
+  if (show_state)
+    *show_state = ui::SHOW_STATE_NORMAL;
 }
 
 content::KeyboardEventProcessingResult
@@ -77,7 +78,7 @@ bool DesktopBrowserFrameAndroid::HandleKeyboardEvent(
 }
 
 bool DesktopBrowserFrameAndroid::ShouldRestorePreviousBrowserWidgetState() const {
-  return true;
+  return false;
 }
 bool DesktopBrowserFrameAndroid::ShouldUseInitialVisibleOnAllWorkspaces() const {
   return true;

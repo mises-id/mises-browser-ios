@@ -131,6 +131,7 @@
 #include "chrome/browser/ui/android/tab_model/tab_model.h"
 #include "chrome/browser/ui/android/tab_model/tab_model_list.h"
 #include "content/public/browser/web_contents.h"
+#include "chrome/browser/android/tab_android.h"
 #endif
 
 using content::BrowserThread;
@@ -487,12 +488,12 @@ ExtensionFunction::ResponseAction WindowsGetFunction::Run() {
   if (!windows_util::GetBrowserFromWindowID(this, params->window_id,
                                             extractor.type_filters(), &browser,
                                             &error)) {
-    // return RespondNow(Error(std::move(error)));
     LOG(INFO) << "[EXTENSIONS] WindowsGetFunction - Step 1a";
-    if (!browser) {
-      Profile* profile = Profile::FromBrowserContext(browser_context());
-      browser = Browser::Create(Browser::CreateParams(profile, true));
-    }
+    return RespondNow(Error(std::move(error)));
+    //if (!browser) {
+    //  Profile* profile = Profile::FromBrowserContext(browser_context());
+    //  browser = Browser::Create(Browser::CreateParams(profile, true));
+    //}
   }
   LOG(INFO) << "[EXTENSIONS] WindowsGetFunction - Step 2";
   ExtensionTabUtil::PopulateTabBehavior populate_tab_behavior =
@@ -520,16 +521,13 @@ ExtensionFunction::ResponseAction WindowsGetCurrentFunction::Run() {
           &browser, &error)) {
     //return RespondNow(Error(std::move(error)));
     LOG(INFO) << "[EXTENSIONS] WindowsGetCurrentFunction - Step 1a - Window not found";
-    if (!browser) {
-      Profile* profile = Profile::FromBrowserContext(browser_context());
-      browser = Browser::Create(Browser::CreateParams(profile, true));
-    }
+    return RespondNow(Error(std::move(error)));
   }
   LOG(INFO) << "[EXTENSIONS] WindowsGetCurrentFunction - Step 2";
   ExtensionTabUtil::PopulateTabBehavior populate_tab_behavior =
       extractor.populate_tabs() ? ExtensionTabUtil::kPopulateTabs
                                 : ExtensionTabUtil::kDontPopulateTabs;
-  LOG(INFO) << "[EXTENSIONS] WindowsGetCurrentFunction - Step 3";
+  LOG(INFO) << "[EXTENSIONS] WindowsGetCurrentFunction - Step 3 found window " << browser->session_id();
   std::unique_ptr<base::DictionaryValue> windows =
       ExtensionTabUtil::CreateWindowValueForExtension(
           *browser, extension(), populate_tab_behavior, source_context_type());
@@ -560,16 +558,18 @@ ExtensionFunction::ResponseAction WindowsGetLastFocusedFunction::Run() {
         break;  // Use focused window.
     }
   }
-  if (!browser) {
-    Profile* profile = Profile::FromBrowserContext(browser_context());
-    browser = Browser::Create(Browser::CreateParams(profile, true));
-  }
-  if (!browser)
-    return RespondNow(Error(tabs_constants::kNoLastFocusedWindowError));
+  //if (!browser)
+  //  return RespondNow(Error(tabs_constants::kNoLastFocusedWindowError));
 
   ExtensionTabUtil::PopulateTabBehavior populate_tab_behavior =
       extractor.populate_tabs() ? ExtensionTabUtil::kPopulateTabs
                                 : ExtensionTabUtil::kDontPopulateTabs;
+  if (!browser) {
+    std::unique_ptr<base::DictionaryValue> windows = 
+	ExtensionTabUtil::CreateDummyWindowValueForExtension(populate_tab_behavior);
+    return RespondNow(
+      OneArgument(base::Value::FromUniquePtrValue(std::move(windows))));
+  }
   std::unique_ptr<base::DictionaryValue> windows =
       ExtensionTabUtil::CreateWindowValueForExtension(
           *browser, extension(), populate_tab_behavior, source_context_type());
@@ -578,48 +578,51 @@ ExtensionFunction::ResponseAction WindowsGetLastFocusedFunction::Run() {
 }
 
 ExtensionFunction::ResponseAction WindowsGetAllFunction::Run() {
-  LOG(INFO) << "[EXTENSIONS] Called chrome.windows.getAll() - Step 1";
+  LOG(INFO) << "[EXTENSIONS] WindowsGetAllFunction - Step 1";
   std::unique_ptr<windows::GetAll::Params> params(
       windows::GetAll::Params::Create(args()));
   EXTENSION_FUNCTION_VALIDATE(params.get());
 
   ApiParameterExtractor<windows::GetAll::Params> extractor(params.get());
-  Browser* browser = nullptr;
-  std::string error;
-  if (!windows_util::GetBrowserFromWindowID(
-          this, extension_misc::kCurrentWindowId, extractor.type_filters(),
-          &browser, &error)) {
-    LOG(INFO) << "[EXTENSIONS] WindowsGetCurrentFunction - Step 1a - Window not found";
-    if (!browser) {
-      Profile* profile = Profile::FromBrowserContext(browser_context());
-     browser = Browser::Create(Browser::CreateParams(profile, true));
-    }
-  }
+  //Browser* browser = nullptr;
+  //std::string error;
+  //if (!windows_util::GetBrowserFromWindowID(
+  //        this, extension_misc::kCurrentWindowId, extractor.type_filters(),
+  //        &browser, &error)) {
+  //  LOG(INFO) << "[EXTENSIONS] WindowsGetCurrentFunction - Step 1a - Window not found";
+    //if (!browser) {
+    //  Profile* profile = Profile::FromBrowserContext(browser_context());
+    //  browser = Browser::Create(Browser::CreateParams(profile, true));
+    //}
+  //}
 
-  LOG(INFO) << "[EXTENSIONS] Called chrome.windows.getAll() - Step 2";
+  LOG(INFO) << "[EXTENSIONS] WindowsGetAllFunction - Step 2";
   base::Value::List window_list;
   ExtensionTabUtil::PopulateTabBehavior populate_tab_behavior =
       extractor.populate_tabs() ? ExtensionTabUtil::kPopulateTabs
                                 : ExtensionTabUtil::kDontPopulateTabs;
-#if !BUILDFLAG(IS_ANDROID)
+//#if !BUILDFLAG(IS_ANDROID)
   for (auto* controller : WindowControllerList::GetInstance()->windows()) {
     if (!controller->GetBrowser() ||
         !windows_util::CanOperateOnWindow(this, controller,
                                           extractor.type_filters())) {
       continue;
     }
+    LOG(INFO) << "[EXTENSIONS] WindowsGetAllFunction - Step 2-a found window " << controller->GetBrowser()->session_id();
     window_list.Append(base::Value::FromUniquePtrValue(
         ExtensionTabUtil::CreateWindowValueForExtension(
             *controller->GetBrowser(), extension(), populate_tab_behavior,
             source_context_type())));
   }
-#else
-  LOG(INFO) << "[EXTENSIONS] Called chrome.windows.getAll() - Step 3";
-  window_list.Append(base::Value::FromUniquePtrValue(
-	ExtensionTabUtil::CreateWindowValueForExtension(
-      *browser, extension(), populate_tab_behavior, source_context_type())));
-  LOG(INFO) << "[EXTENSIONS] Called chrome.windows.getAll() - Step 4";
-#endif
+//#else
+  LOG(INFO) << "[EXTENSIONS] WindowsGetAllFunction - Step 3";
+  //if (browser) {
+  //  window_list.Append(base::Value::FromUniquePtrValue(
+//	ExtensionTabUtil::CreateWindowValueForExtension(
+ //     *browser, extension(), populate_tab_behavior, source_context_type())));
+ // }
+//  LOG(INFO) << "[EXTENSIONS] Called chrome.windows.getAll() - Step 4";
+//#endif
 
   return RespondNow(OneArgument(base::Value(std::move(window_list))));
 }
@@ -636,7 +639,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
   DCHECK(extension() || source_context_type() == Feature::WEBUI_CONTEXT ||
          source_context_type() == Feature::WEBUI_UNTRUSTED_CONTEXT);
   windows::Create::Params::CreateData* create_data = params->create_data.get();
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 2";
   // Look for optional url.
   if (create_data && create_data->url) {
     std::vector<std::string> url_strings;
@@ -657,7 +660,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
       urls.push_back(url);
     }
   }
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 3";
   // Decide whether we are opening a normal window or an incognito window.
   std::string error;
   Profile* calling_profile = Profile::FromBrowserContext(browser_context());
@@ -670,7 +673,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
           &urls, &error);
   if (incognito_result == windows_util::IncognitoResult::kError)
     return RespondNow(Error(std::move(error)));
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 4";
   Profile* window_profile =
       incognito_result == windows_util::IncognitoResult::kIncognito
           ? calling_profile->GetPrimaryOTRProfile(/*create_if_needed=*/true)
@@ -698,7 +701,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
     if (DevToolsWindow::IsDevToolsWindow(web_contents))
       return RespondNow(Error(tabs_constants::kNotAllowedForDevToolsError));
   }
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 5";
   if (!IsValidStateForWindowsCreateFunction(create_data))
     return RespondNow(Error(tabs_constants::kInvalidWindowStateError));
 
@@ -707,7 +710,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
   gfx::Rect window_bounds;
   bool focused = true;
   std::string extension_id;
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 6";
   if (create_data) {
     // Figure out window type before figuring out bounds so that default
     // bounds can be set according to the window type.
@@ -723,6 +726,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
       case windows::CREATE_TYPE_NORMAL:
         break;
       default:
+	LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 6a" << create_data->type;
         return RespondNow(Error(tabs_constants::kInvalidWindowTypeError));
     }
 
@@ -758,17 +762,18 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
           display::Screen::GetScreen()->GetDisplayMatching(window_bounds);
       window_bounds.AdjustToFit(display.bounds());
     }
-
+#if !BUILDFLAG(IS_ANDROID)
     // Immediately fail if the window bounds don't intersect the displays.
     if ((set_window_position || set_window_size) &&
         !WindowBoundsIntersectDisplays(window_bounds)) {
       return RespondNow(Error(tabs_constants::kInvalidWindowBoundsError));
     }
+#endif
 
     if (create_data->focused)
       focused = *create_data->focused;
   }
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 7";
   // Create a new BrowserWindow if possible.
   if (Browser::GetCreationStatusForProfile(window_profile) !=
       Browser::CreationStatus::kOk) {
@@ -785,6 +790,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
         false /* trusted_source */, window_bounds, window_profile,
         user_gesture());
   }
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 8";
   create_params.initial_show_state = ui::SHOW_STATE_NORMAL;
   if (create_data && create_data->state) {
     if (create_data->state == windows::WINDOW_STATE_LOCKED_FULLSCREEN &&
@@ -795,7 +801,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
     create_params.initial_show_state =
         ConvertToWindowShowState(create_data->state);
   }
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 9";
   Browser* new_window = Browser::Create(create_params);
   if (!new_window)
     return RespondNow(Error(tabs_constants::kBrowserWindowNotAllowed));
@@ -825,10 +831,21 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
       navigate_params.source_site_instance =
           render_frame_host()->GetSiteInstance();
     }
-
+#if BUILDFLAG(IS_ANDROID)
+    if (TabModelList::models().size() == 0) {
+        return RespondNow(
+            Error("no tab model."));
+    }
+    TabModel* tab_model = *(TabModelList::models().begin());
+    WebContents* web_contents = tab_model->CreateNewTabForExtension(url, new_window->session_id().id());
+    navigate_params.navigated_or_inserted_contents = web_contents;
+#else
     Navigate(&navigate_params);
-  }
+#endif
 
+  }
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 10";
+#if !BUILDFLAG(IS_ANDROID)
   WebContents* contents = NULL;
   // Move the tab into the created window only if it's an empty popup or it's
   // a tabbed window.
@@ -850,10 +867,12 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
   if (!contents && urls.empty() && window_type == Browser::TYPE_NORMAL) {
     chrome::NewTab(new_window);
   }
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 11";
   chrome::SelectNumberedTab(
       new_window, 0,
       TabStripUserGestureDetails(
           TabStripUserGestureDetails::GestureType::kNone));
+#endif
 
   if (focused) {
     new_window->window()->Show();
@@ -887,7 +906,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
       create_data->state == windows::WINDOW_STATE_LOCKED_FULLSCREEN) {
     SetLockedFullscreenState(new_window, /*pinned=*/true);
   }
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 12";
   std::unique_ptr<base::Value> result;
   if (new_window->profile()->IsOffTheRecord() &&
       !browser_context()->IsOffTheRecord() &&
@@ -900,7 +919,7 @@ ExtensionFunction::ResponseAction WindowsCreateFunction::Run() {
         *new_window, extension(), ExtensionTabUtil::kPopulateTabs,
         source_context_type());
   }
-
+  LOG(INFO) << "[EXTENSIONS] WindowsCreate::Run - Step 13";
   return RespondNow(
       OneArgument(base::Value::FromUniquePtrValue(std::move(result))));
 }
@@ -910,7 +929,6 @@ ExtensionFunction::ResponseAction WindowsUpdateFunction::Run() {
       windows::Update::Params::Create(args()));
   LOG(INFO) << "[EXTENSIONS] WindowsUpdateFunction::Run - Step 1";
   EXTENSION_FUNCTION_VALIDATE(params);
-#if !BUILDFLAG(IS_ANDROID)
   Browser* browser = nullptr;
   std::string error;
   if (!windows_util::GetBrowserFromWindowID(
@@ -918,7 +936,7 @@ ExtensionFunction::ResponseAction WindowsUpdateFunction::Run() {
           &browser, &error)) {
     return RespondNow(Error(std::move(error)));
   }
-
+#if !BUILDFLAG(IS_ANDROID)
   // Don't allow locked fullscreen operations on a window without the proper
   // permission (also don't allow any operations on a locked window if the
   // extension doesn't have the permission).
@@ -1038,14 +1056,11 @@ ExtensionFunction::ResponseAction WindowsUpdateFunction::Run() {
 
   if (params->update_info.draw_attention)
     browser->window()->FlashFrame(*params->update_info.draw_attention);
-
+#endif
   return RespondNow(OneArgument(base::Value::FromUniquePtrValue(
       ExtensionTabUtil::CreateWindowValueForExtension(
           *browser, extension(), ExtensionTabUtil::kDontPopulateTabs,
           source_context_type()))));
-#else
-  return RespondNow(Error(kUnknownErrorDoNotUse));
-#endif
 }
 
 ExtensionFunction::ResponseAction WindowsRemoveFunction::Run() {
@@ -1053,7 +1068,6 @@ ExtensionFunction::ResponseAction WindowsRemoveFunction::Run() {
       windows::Remove::Params::Create(args()));
   LOG(INFO) << "[EXTENSIONS] WindowsRemoveFunction::Run - Step 1";
   EXTENSION_FUNCTION_VALIDATE(params);
-#if !BUILDFLAG(IS_ANDROID)
   Browser* browser = nullptr;
   std::string error;
   if (!windows_util::GetBrowserFromWindowID(this, params->window_id,
@@ -1061,12 +1075,13 @@ ExtensionFunction::ResponseAction WindowsRemoveFunction::Run() {
                                             &browser, &error)) {
     return RespondNow(Error(std::move(error)));
   }
-
+  LOG(INFO) << "[EXTENSIONS] WindowsRemoveFunction::Run - Step 2";
   if (platform_util::IsBrowserLockedFullscreen(browser) &&
       !ExtensionHasLockedFullscreenPermission(extension())) {
     return RespondNow(
         Error(tabs_constants::kMissingLockWindowFullscreenPrivatePermission));
   }
+  LOG(INFO) << "[EXTENSIONS] WindowsRemoveFunction::Run - Step 3";
 
   WindowController* controller = browser->extension_window_controller();
   WindowController::Reason reason;
@@ -1075,11 +1090,44 @@ ExtensionFunction::ResponseAction WindowsRemoveFunction::Run() {
                                 ? tabs_constants::kTabStripNotEditableError
                                 : kUnknownErrorDoNotUse));
   }
-  controller->window()->Close();
-  return RespondNow(NoArguments());
-#else
-  return RespondNow(Error(kUnknownErrorDoNotUse));
+#if BUILDFLAG(IS_ANDROID)
+  LOG(INFO) << "[EXTENSIONS] WindowsRemoveFunction::Run - Step 4";
+  // simply close all extension tabs
+  TabModel *tab_strip = nullptr;
+  if (!TabModelList::models().empty())
+    tab_strip = *(TabModelList::models().begin());
+  if (tab_strip) {
+    for (int i = 0; i < tab_strip->GetTabCount(); ++i) {
+      WebContents* web_contents = tab_strip->GetWebContentsAt(i);
+
+      int openingTab = (tab_strip->GetLastNonExtensionActiveIndex());
+      if (openingTab == -1)
+        openingTab = 0;
+
+      if (i == openingTab)
+        continue;
+
+      if (!web_contents) {
+        continue;
+      }
+      TabAndroid *tab_android = tab_strip->GetTabAt(i);
+      if (!tab_android) {
+        continue;
+      }
+      if (!tab_android->GetURL().SchemeIs(extensions::kExtensionScheme)) {
+        continue;
+      }
+      tab_strip->CloseTabAt(i);
+    }
+  }
 #endif
+    if (BrowserList::GetInstance()->size() == 1) {
+      return RespondNow(Error(tabs_constants::kTabStripNotEditableError));
+    }
+  LOG(INFO) << "[EXTENSIONS] WindowsRemoveFunction::Run - Step 5";
+  controller->window()->Close();
+  LOG(INFO) << "[EXTENSIONS] WindowsRemoveFunction::Run - Step 6";
+  return RespondNow(NoArguments());
 }
 
 // Tabs ------------------------------------------------------------------------
@@ -2982,7 +3030,7 @@ ExtensionFunction::ResponseAction TabsGoForwardFunction::Run() {
   std::unique_ptr<tabs::GoForward::Params> params(
       tabs::GoForward::Params::Create(args()));
   EXTENSION_FUNCTION_VALIDATE(params.get());
-
+  LOG(INFO) << "TabsDiscardFunction::Run";
   int tab_id = params->tab_id ? *params->tab_id : -1;
   std::string error;
   WebContents* web_contents =
@@ -3002,6 +3050,7 @@ ExtensionFunction::ResponseAction TabsGoBackFunction::Run() {
   std::unique_ptr<tabs::GoBack::Params> params(
       tabs::GoBack::Params::Create(args()));
   EXTENSION_FUNCTION_VALIDATE(params.get());
+   LOG(INFO) << "TabsGoBackFunction::Run";
 
   int tab_id = params->tab_id ? *params->tab_id : -1;
   std::string error;

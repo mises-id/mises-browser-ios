@@ -55,7 +55,9 @@ namespace views {
 NativeWidgetAndroid::NativeWidgetAndroid(internal::NativeWidgetDelegate* delegate)
     : delegate_(delegate),
       ownership_(Widget::InitParams::NATIVE_WIDGET_OWNS_WIDGET),
-      destroying_(false) {
+      destroying_(false),
+      is_active_(false),
+      is_hidden_(false){
 }
 
 // static
@@ -226,30 +228,47 @@ void NativeWidgetAndroid::SetShape(std::unique_ptr<Widget::ShapeRects> shape) {
 }
 
 void NativeWidgetAndroid::Close() {
+  LOG(INFO) << " NativeWidgetAndroid::Close";
+  delegate_->OnNativeWidgetDestroying();
+  if (!close_widget_factory_.HasWeakPtrs()) {
+    base::ThreadTaskRunnerHandle::Get()->PostTask(
+        FROM_HERE, base::BindOnce(&NativeWidgetAndroid::CloseNow,
+                                  close_widget_factory_.GetWeakPtr()));
+  }
 }
 
 void NativeWidgetAndroid::CloseNow() {
+  LOG(INFO) << " NativeWidgetAndroid::CloseNow";
+  bool should_delete_this =
+      (ownership_ == Widget::InitParams::NATIVE_WIDGET_OWNS_WIDGET);
+  delegate_->OnNativeWidgetDestroyed();
+  if (should_delete_this)
+    delete this;
 }
 
 void NativeWidgetAndroid::Show(ui::WindowShowState show_state,
                             const gfx::Rect& restore_bounds) {
+  is_hidden_ = false;
 }
 
 void NativeWidgetAndroid::Hide() {
+  is_hidden_ = true;
 }
 
 bool NativeWidgetAndroid::IsVisible() const {
-  return true;
+  return !is_hidden_;
 }
 
 void NativeWidgetAndroid::Activate() {
+  is_active_ = true;
 }
 
 void NativeWidgetAndroid::Deactivate() {
+  is_active_ = false;
 }
 
 bool NativeWidgetAndroid::IsActive() const {
-  return true;
+  return is_active_;
 }
 
 void NativeWidgetAndroid::SetZOrderLevel(ui::ZOrderLevel order) {
@@ -380,6 +399,7 @@ std::string NativeWidgetAndroid::GetName() const {
 // NativeWidgetAndroid, protected:
 
 NativeWidgetAndroid::~NativeWidgetAndroid() {
+  LOG(INFO) << " NativeWidgetAndroid::~NativeWidgetAndroid";
   destroying_ = true;
   if (ownership_ == Widget::InitParams::NATIVE_WIDGET_OWNS_WIDGET)
     delete delegate_;

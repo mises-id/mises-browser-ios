@@ -26,6 +26,8 @@
 #include "ui/base/window_open_disposition.h"
 #include "url/android/gurl_android.h"
 
+#include "chrome/browser/extensions/api/tabs/tabs_windows_api.h"
+
 using base::android::AttachCurrentThread;
 using base::android::ConvertUTF8ToJavaString;
 using base::android::JavaParamRef;
@@ -39,6 +41,7 @@ TabModelJniBridge::TabModelJniBridge(JNIEnv* env,
                                      ActivityType activity_type)
     : TabModel(profile, activity_type),
       java_object_(env, env->NewWeakGlobalRef(jobj)) {
+  extensions::TabsWindowsAPI::Get(profile);  
   TabModelList::AddTabModel(this);
 }
 
@@ -179,7 +182,25 @@ WebContents* TabModelJniBridge::CreateNewTabForDevTools(
   }
   return tab->web_contents();
 }
-
+content::WebContents* TabModelJniBridge::CreateNewTabForExtension(
+		const GURL& url, const SessionID::id_type& session_window_id){
+  JNIEnv* env = AttachCurrentThread();
+  ScopedJavaLocalRef<jobject> obj =
+      Java_TabModelJniBridge_createNewTabForDevTools(
+          env, java_object_.get(env),
+          url::GURLAndroid::FromNativeGURL(env, url));
+  if (obj.is_null()) {
+    VLOG(0) << "Failed to create java tab";
+    return NULL;
+  }
+  TabAndroid* tab = TabAndroid::GetNativeTab(env, obj);
+  if (!tab) {
+    VLOG(0) << "Failed to create java tab";
+    return NULL;
+  }
+  tab->SetExtensionWindowID(session_window_id);
+  return tab->web_contents();
+}
 bool TabModelJniBridge::IsSessionRestoreInProgress() const {
   JNIEnv* env = AttachCurrentThread();
   return Java_TabModelJniBridge_isSessionRestoreInProgress(

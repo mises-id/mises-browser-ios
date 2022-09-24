@@ -1109,4 +1109,25 @@ TabStripModel* ExtensionTabUtil::GetEditableTabStripModel(Browser* browser) {
   return browser->tab_strip_model();
 }
 
+std::unique_ptr<base::DictionaryValue> ExtensionTabUtil::CreateDummyWindowValueForExtension(
+		                    PopulateTabBehavior populate_tab_behavior) {
+  auto  dict = std::make_unique<base::DictionaryValue>();
+
+  dict->SetIntKey(tabs_constants::kIdKey, -1);
+  dict->SetStringKey(tabs_constants::kWindowTypeKey, "");
+  dict->SetBoolKey(tabs_constants::kFocusedKey, false);
+  dict->SetBoolKey(tabs_constants::kIncognitoKey, false);
+  dict->SetBoolKey(tabs_constants::kAlwaysOnTopKey, false);
+
+  dict->SetStringKey(tabs_constants::kShowStateKey, tabs_constants::kShowStateValueNormal);
+  dict->SetIntKey(tabs_constants::kLeftKey, 0);
+  dict->SetIntKey(tabs_constants::kTopKey, 0);
+  dict->SetIntKey(tabs_constants::kWidthKey, 1920);
+  dict->SetIntKey(tabs_constants::kHeightKey, 1080);
+
+  if (populate_tab_behavior == kPopulateTabs) {
+    dict->SetKey(tabs_constants::kTabsKey,base::ListValue());
+  }
+  return dict;
+}
 }  // namespace extensions
