@@ -991,5 +991,9 @@
   "wmDesksPrivate": {
     "dependencies": ["permission:wmDesksPrivate"],
     "contexts": ["blessed_extension"]
+  },
+  "misesPrivate": {
+    "dependencies": ["permission:misesPrivate"],
+    "contexts": ["blessed_extension"]
   }
 }

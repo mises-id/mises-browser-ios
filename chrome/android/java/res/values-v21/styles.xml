@@ -50,4 +50,11 @@
     <style name="TextAppearance.FreFirstFrameButton" parent="TextAppearance.Button.Text.Filled">
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
+
+    <!-- Bubble styles -->
+    <style name="LeftMenuStyle">
+        <item name="android:windowEnterAnimation">@anim/left_enter</item>
+        <item name="android:windowExitAnimation">@anim/left_exit</item>
+    </style>
+
   </resources>

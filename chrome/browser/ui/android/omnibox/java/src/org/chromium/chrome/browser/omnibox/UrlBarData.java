@@ -40,7 +40,7 @@ public class UrlBarData {
     private static final HashSet<String> ACCEPTED_SCHEMES = CollectionUtil.newHashSet(
             ContentUrlConstants.ABOUT_SCHEME, UrlConstants.DATA_SCHEME, UrlConstants.FILE_SCHEME,
             UrlConstants.FTP_SCHEME, UrlConstants.HTTP_SCHEME, UrlConstants.HTTPS_SCHEME,
-            UrlConstants.INLINE_SCHEME, UrlConstants.JAVASCRIPT_SCHEME, UrlConstants.CHROME_SCHEME);
+            UrlConstants.INLINE_SCHEME, UrlConstants.JAVASCRIPT_SCHEME, UrlConstants.CHROME_SCHEME, "mises");
     // Unicode "Left-To-Right Mark" (LRM) character.
     private static final char LRM = '\u200E';
 
@@ -63,7 +63,14 @@ public class UrlBarData {
     }
 
     public static UrlBarData forUrlAndText(String url, String displayText) {
-        return forUrlAndText(url, displayText, null);
+        String originalScheme = Uri.parse(displayText).getScheme();
+        if (!TextUtils.isEmpty(originalScheme) && (originalScheme.equals("chrome") || originalScheme.equals("chrome-extension"))) {
+          displayText = displayText.replace("chrome://", "mises://");
+          url = url.replace("chrome://", "mises://");
+          displayText = displayText.replace("chrome-extension://", "mises-extension://");
+          url = url.replace("chrome-extension://", "mises-extension://");
+        }
+	return forUrlAndText(url, displayText, null);
     }
 
     /** Returns whether supplied URL should be shown in the Omnibox/Suggestions list. */

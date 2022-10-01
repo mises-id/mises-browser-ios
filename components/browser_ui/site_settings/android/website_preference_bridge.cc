@@ -472,6 +472,17 @@ static void JNI_WebsitePreferenceBridge_GetChosenObjects(
   }
 }
 
+static void JNI_WebsitePreferenceBridge_SetPopupSettingForOrigin(
+    JNIEnv* env,
+    const JavaParamRef<jobject>& jbrowser_context_handle,
+    const JavaParamRef<jstring>& origin,
+    jint value,
+    jboolean is_incognito) {
+	JNI_WebsitePreferenceBridge_SetPermissionSettingForOrigin(
+      env,  jbrowser_context_handle, static_cast<int>(ContentSettingsType::POPUPS), origin, origin,
+      static_cast<ContentSetting>(value));
+}
+
 static void JNI_WebsitePreferenceBridge_RevokeObjectPermission(
     JNIEnv* env,
     const JavaParamRef<jobject>& jbrowser_context_handle,

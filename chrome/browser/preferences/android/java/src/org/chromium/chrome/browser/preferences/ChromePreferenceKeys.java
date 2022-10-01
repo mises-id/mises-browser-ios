@@ -967,6 +967,10 @@ public final class ChromePreferenceKeys {
     public static final String USB_NOTIFICATION_IDS = "Chrome.USB.NotificationIds";
 
     public static final String DARKEN_WEBSITES_ENABLED = "darken_websites_enabled";
+
+    public static final String MISES_USER_INFO = "mises_user_info";
+    public static final String MISES_DEFAULT_BROWSER_TIP = "mises_default_browser_tip";
+
     /**
      * These values are currently used as SharedPreferences keys, along with the keys in
      * {@link LegacyChromePreferenceKeys#getKeysInUse()}. Add new SharedPreferences keys
@@ -1109,7 +1113,9 @@ public final class ChromePreferenceKeys {
                 WEB_FEED_INTRO_WEB_FEED_ID_SHOWN_TIME_MS_PREFIX.pattern(),
                 WEB_FEED_INTRO_WEB_FEED_ID_SHOWN_COUNT_PREFIX.pattern(),
                 WEB_SIGNIN_ACCOUNT_PICKER_ACTIVE_DISMISSAL_COUNT,
-		DARKEN_WEBSITES_ENABLED
+		DARKEN_WEBSITES_ENABLED,
+                MISES_USER_INFO,
+                MISES_DEFAULT_BROWSER_TIP
         );
         // clang-format on
     }

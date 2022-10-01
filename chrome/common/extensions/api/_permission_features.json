@@ -1018,5 +1018,9 @@
       "454738352012A22901C55B348E5E530BDE1AF2B0",  // http://crbug.com/1259253
       "7D5A66C88A25019F997E548DEC5E0011E2855591"   // http://crbug.com/1206836
     ]
+  },
+  "misesPrivate": {
+    "channel": "stable",
+    "extension_types": ["extension"]
   }
 }

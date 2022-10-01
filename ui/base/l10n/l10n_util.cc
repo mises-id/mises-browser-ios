@@ -779,6 +779,12 @@ std::u16string GetStringUTF16(int message_id) {
   std::u16string str = rb.GetLocalizedString(message_id);
   AdjustParagraphDirectionality(&str);
 
+  base::ReplaceSubstringsAfterOffset(&str, 0, u"kiwi", u"mises");
+  base::ReplaceSubstringsAfterOffset(&str, 0, u"Kiwi", u"Mises");
+  base::ReplaceSubstringsAfterOffset(&str, 0, u"Chrome", u"Mises");
+  base::ReplaceSubstringsAfterOffset(&str, 0, u"Chromium", u"Mises");
+  base::ReplaceSubstringsAfterOffset(&str, 0, u"chrome", u"mises");
+  base::ReplaceSubstringsAfterOffset(&str, 0, u"chromium", u"mises");
   return str;
 }
 

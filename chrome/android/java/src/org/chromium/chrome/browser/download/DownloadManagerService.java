@@ -536,6 +536,10 @@ public class DownloadManagerService implements DownloadController.Observer,
                             info, item.getSystemDownloadId(), result.second, isSupportedMimeType);
                     broadcastDownloadSuccessful(info);
                 } else {
+		             if (info.getMimeType().equalsIgnoreCase("application/x-chrome-extension")){
+		               mDownloadNotifier.notifyDownloadCanceled(item.getContentId());
+		               return;
+		             }
                     info = DownloadInfo.Builder.fromDownloadInfo(info)
                                    .setFailState(FailState.CANNOT_DOWNLOAD)
                                    .build();

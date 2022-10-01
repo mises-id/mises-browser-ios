@@ -101,6 +101,15 @@ public abstract class TabCreator {
         } finally {
             TraceEvent.end("TabCreator.launchNTP");
         }
+
+    }
+
+    public void openSinglePage(String url) {
+        try {
+            launchUrl(url, TabLaunchType.FROM_CHROME_UI);
+        } finally {
+            TraceEvent.end("TabCreator.openSinglePage");
+        }
     }
 
     /**

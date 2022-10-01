@@ -104,6 +104,23 @@ public class SharedPreferencesManager {
         ContextUtils.getAppSharedPreferences().unregisterOnSharedPreferenceChangeListener(listener);
     }
 
+    public String getMisesUserInfo() {
+        // Convention to keep all the key in preference lower case.
+        return getInstance().readString(ChromePreferenceKeys.MISES_USER_INFO, "");
+    }
+
+    public void setMisesUserInfo(String userinfo) {
+        getInstance().writeString(ChromePreferenceKeys.MISES_USER_INFO, userinfo);
+    }
+
+    public boolean hasShowDefaultBrowserTip() {
+        return getInstance().readBoolean(ChromePreferenceKeys.MISES_DEFAULT_BROWSER_TIP, false);
+    }
+
+    public void setShowDefaultBrowserTip(boolean show) {
+        getInstance().writeBoolean(ChromePreferenceKeys.MISES_DEFAULT_BROWSER_TIP, show);
+    }
+
     /**
      * Reads set of String values from preferences.
      *

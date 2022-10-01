@@ -156,15 +156,15 @@ gfx::Rect BrowserFrame::GetBoundsForTabStripRegion(
 }
 
 int BrowserFrame::GetTopInset() const {
-  return browser_frame_view_->GetTopInset(false);
+  return browser_frame_view_ ? browser_frame_view_->GetTopInset(false) : 0;
 }
 
 int BrowserFrame::GetThemeBackgroundXInset() const {
-  return browser_frame_view_->GetThemeBackgroundXInset();
+  return browser_frame_view_ ? browser_frame_view_->GetThemeBackgroundXInset() : 0;
 }
 
 void BrowserFrame::UpdateThrobber(bool running) {
-  browser_frame_view_->UpdateThrobber(running);
+  if (browser_frame_view_) browser_frame_view_->UpdateThrobber(running);
 }
 
 BrowserNonClientFrameView* BrowserFrame::GetFrameView() const {
@@ -199,7 +199,7 @@ bool BrowserFrame::HandleKeyboardEvent(
 }
 
 void BrowserFrame::OnBrowserViewInitViewsComplete() {
-  browser_frame_view_->OnBrowserViewInitViewsComplete();
+  if (browser_frame_view_) browser_frame_view_->OnBrowserViewInitViewsComplete();
 }
 
 void BrowserFrame::UserChangedTheme(BrowserThemeChangeType theme_change_type) {

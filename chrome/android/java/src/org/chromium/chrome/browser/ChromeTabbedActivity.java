@@ -227,6 +227,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import android.net.Uri;
+import org.chromium.components.url_formatter.UrlFormatter;
+import org.chromium.chrome.browser.init.ChromeBrowserReferrer;
+import org.chromium.chrome.browser.init.InAppUpdater;
 
 import org.chromium.chrome.browser.homepage.HomepageManager;
 
@@ -357,6 +361,8 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
 
     // Time at which an intent was received and handled.
     private long mIntentHandlingTimeMs;
+    
+    private InAppUpdater mInAppUpdater = new InAppUpdater();
 
     /**
      * Whether the StartSurface is shown when Chrome is launched.
@@ -968,6 +974,18 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
 
     @Override
     public void onNewIntent(Intent intent) {
+        if (intent != null) {
+            if (intent.getAction() != null && intent.getAction().equals(Intent.ACTION_MAIN)) {
+                String url = intent.getStringExtra("mises_url");
+                if (url != null && !url.isEmpty()) {
+                    url = UrlFormatter.fixupUrl(url).getSpec();
+                    Intent newintent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    newintent.setPackage(getPackageName());
+                    startActivity(newintent);
+                }
+		
+            }
+        }
         // The intent to use in maybeDispatchExplicitMainViewIntent(). We're explicitly
         // adding NEW_TASK flag to make sure backing from CCT brings up the caller activity,
         // and not Chrome
@@ -1014,6 +1032,9 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
             } else {
                 initializeCompositorContent();
             }
+            
+	    ChromeBrowserReferrer.handleInstallReferrer(this);
+	    mInAppUpdater.startCheck(this);
 
             // All this initialization can be expensive so it's split into multiple tasks.
             PostTask.postTask(UiThreadTaskTraits.DEFAULT,
@@ -1099,7 +1120,14 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
         }
 
         FeatureNotificationUtils.handleIntentIfApplicable(getIntent());
+        mInAppUpdater.onResume(this);
     }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode,resultCode,data);
+        mInAppUpdater.onActivityResult(requestCode,resultCode,data);	
+    }  
 
     @Override
     public void onPauseWithNative() {

@@ -46,7 +46,7 @@ bool MinimumChromeVersionChecker::Parse(Extension* extension,
     return false;
   }
 
-  if (current_version.CompareTo(minimum_version) < 0) {
+  if (false && current_version.CompareTo(minimum_version) < 0) {
     *error = ErrorUtils::FormatErrorMessageUTF16(
         errors::kChromeVersionTooLow,
         l10n_util::GetStringUTF8(IDS_PRODUCT_NAME), *minimum_version_string);

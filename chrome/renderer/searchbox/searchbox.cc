@@ -348,3 +348,11 @@ void SearchBox::DidCommitProvisionalLoad(ui::PageTransition transition) {
 void SearchBox::OnDestruct() {
   delete this;
 }
+
+void SearchBox::MisesInfoChanged(const std::u16string &info) {
+  if (can_run_js_in_renderframe_) {
+      SearchBoxExtension::DispatchMisesInfoChanged(
+          render_frame()->GetWebFrame(), info);
+  }
+}
+

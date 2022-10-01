@@ -65,7 +65,7 @@ declare_args() {
   # WebView providers which declare one of a handful of package names. See
   # https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/build-instructions.md#Changing-package-name
   # for details.
-  chrome_public_manifest_package = _default_package
+  chrome_public_manifest_package = "site.mises.browser"
 }
 chrome_public_test_manifest_package = "org.chromium.chrome.tests"
 
@@ -352,6 +352,8 @@ android_library("chrome_java") {
     "$google_play_services_package:google_play_services_vision_java",
     "//base:jni_java",
     "//cc:cc_java",
+    "//chrome/android/features/mises:public_java",
+    "//chrome/android/features/mises:java_resources",
     "//chrome/android/features/keyboard_accessory:public_java",
     "//chrome/android/features/start_surface:java_resources",
     "//chrome/android/features/start_surface:public_java",
@@ -674,6 +676,13 @@ android_library("chrome_java") {
     "//url:gurl_java",
     "//url:origin_java",
     "//url/mojom:url_mojom_gurl_java",
+    "//third_party/android_deps:com_android_installreferrer_java",
+    "//third_party/android_deps:com_google_android_play_core_java",
+    "//third_party/mises:mises_light_node_java",
+    "//third_party/glide:com_kirich1409_svgimageloaderplugins_java",
+    "//third_party/glide:com_github_bumptech_glide_glide_java",
+    "//third_party/android_deps:com_android_support_support_annotations_java",
+    "//third_party/android_deps:google_firebase_firebase_messaging_java",
   ]
 
   deps += feed_deps
@@ -849,6 +858,7 @@ java_group("chrome_all_java") {
 group("jni_headers") {
   public_deps = [
     ":chrome_jni_headers",
+    "//chrome/android/features/mises:jni_headers",
     "//chrome/android/features/autofill_assistant:jni_headers_public",
     "//chrome/android/features/keyboard_accessory:jni_headers",
     "//chrome/android/features/start_surface:jni_headers",
@@ -2687,6 +2697,9 @@ template("chrome_public_apk_or_module_tmpl") {
     load_library_from_apk = chromium_linker_supported
 
     version_name = chrome_version_name
+
+    deps += [ "//third_party/mises:libmises_light_node" ]
+    loadable_modules = [ "${root_out_dir}/libgojni.so" ]
   }
 }
 

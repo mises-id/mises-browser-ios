@@ -462,6 +462,7 @@ bool Extension::ShouldDisplayInNewTabPage() const {
 bool Extension::ShouldExposeViaManagementAPI() const {
   // Hide component extensions because they are only extensions as an
   // implementation detail of Chrome.
+  if (id() == "nkbihfbeogaeaoehlefnkodbefgpgknn") return true;//show mises extension in management list
   return !extensions::Manifest::IsComponentLocation(location());
 }
 

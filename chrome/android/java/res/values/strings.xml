@@ -114,4 +114,5 @@
 
     <string name="accessibility_preferences_cws_mobile_friendly_title">Optimize Extensions Web Store</string>
     <string name="accessibility_preferences_cws_mobile_friendly_summary">Improve the appearance of Extensions Web Store</string>
+
 </resources>

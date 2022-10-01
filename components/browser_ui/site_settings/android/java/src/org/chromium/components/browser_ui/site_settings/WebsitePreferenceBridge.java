@@ -351,6 +351,10 @@ public class WebsitePreferenceBridge {
         WebsitePreferenceBridgeJni.get().setContentSettingCustomScope(browserContextHandle,
                 contentSettingType, primaryPattern, secondaryPattern, setting);
     }
+    public static void setPopupSettingForOrigin(BrowserContextHandle browserContextHandle, String origin, int contentSettingsType, boolean isIncognito) {
+        WebsitePreferenceBridgeJni.get().setPopupSettingForOrigin(browserContextHandle, origin, contentSettingsType, isIncognito);
+    }
+
 
     @NativeMethods
     public interface Natives {
@@ -413,5 +417,7 @@ public class WebsitePreferenceBridge {
         boolean isContentSettingManagedByCustodian(
                 BrowserContextHandle browserContextHandle, int contentSettingType);
         boolean getLocationAllowedByPolicy(BrowserContextHandle browserContextHandle);
+        void setPopupSettingForOrigin(BrowserContextHandle browserContextHandle,
+            String origin, int value, boolean isIncognito);
     }
 }

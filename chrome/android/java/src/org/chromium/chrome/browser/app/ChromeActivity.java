@@ -269,6 +269,10 @@ import org.chromium.components.content_settings.ContentSettingsType;
 import org.chromium.components.browser_ui.site_settings.WebsitePreferenceBridge;
 import org.chromium.components.browser_ui.site_settings.WebsitePreferenceBridgeJni;
 import org.chromium.ui.widget.Toast;
+import android.content.ComponentName;
+import android.provider.Settings;
+import org.chromium.chrome.browser.mises.MisesUtil;
+import org.chromium.chrome.browser.mises.MisesController;
 
 import org.chromium.chrome.browser.AppMenuBridge;
 
@@ -875,7 +879,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
 	      if (tab != null && !tab.isNativePage()) {
                 Log.i(TAG,"#onUrlUpdated: " + tab.getUrl().getPossiblyInvalidSpec());
 	        FixDevToolsWindow.Execute(tab);
-                //PersonalizeResults.Execute(tab);
+                PersonalizeResults.Execute(tab);
 	      }
               mRootUiCoordinator.getStatusBarColorController().updateStatusBarColor();
             }
@@ -1501,6 +1505,22 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             if (structuredData != null) {
                 outContent.setStructuredData(structuredData);
             }
+        }
+	MisesController.getInstance();
+
+        if (!SharedPreferencesManager.getInstance().hasShowDefaultBrowserTip()) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                Intent intent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
+                ComponentName componentName = intent.resolveActivity(getPackageManager());
+                if (componentName != null) {
+                    MisesUtil.showAlertDialog(ChromeActivity.this, ChromeActivity.this.getString(R.string.lbl_default_browser_tip), v1 -> {
+                            startActivity(intent);
+                    });
+                    SharedPreferencesManager.getInstance().setShowDefaultBrowserTip(true);
+                }
+            }
+            Profile profile = getCurrentTabModel().getProfile();
+	    WebsitePreferenceBridge.setPopupSettingForOrigin(profile, "https://home.mises.site", 1, false);
         }
     }
 

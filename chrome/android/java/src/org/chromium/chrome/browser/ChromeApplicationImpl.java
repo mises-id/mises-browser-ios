@@ -11,6 +11,7 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
+import org.chromium.base.Log;
 import org.chromium.base.ApplicationStatus;
 import org.chromium.base.library_loader.LibraryLoader;
 import org.chromium.chrome.browser.app.notifications.ContextualNotificationPermissionRequesterImpl;
@@ -38,6 +39,8 @@ import org.chromium.url.GURL;
 import org.chromium.base.ContextUtils;
 import org.chromium.chrome.browser.preferences.SharedPreferencesManager;
 import org.chromium.chrome.browser.night_mode.ThemeType;
+import android.os.Build;
+import org.chromium.chrome.browser.mises.MisesLCDService;
 
 /**
  * Basic application functionality that should be shared among all browser applications that use
@@ -47,6 +50,7 @@ import org.chromium.chrome.browser.night_mode.ThemeType;
  * called from the superclass. See {@link SplitCompatApplication} for more info.
  */
 public class ChromeApplicationImpl extends SplitCompatApplication.Impl {
+    static final String TAG = "ChromeApplication";
     /** Lock on creation of sComponent. */
     private static final Object sLock = new Object();
     @Nullable
@@ -93,6 +97,16 @@ public class ChromeApplicationImpl extends SplitCompatApplication.Impl {
             PartitionResolverSupplier.setInstance(new ProfileResolver());
 
             AppHooks.get().getChimeDelegate().initialize();
+            if (!MisesLCDService.IS_RUNNING) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    Log.i(TAG, "start MisesLCDService1");
+                    getApplication().startForegroundService(new Intent(getApplication(), MisesLCDService.class));
+                } else {
+                    Log.i(TAG, "start MisesLCDService2");
+                    getApplication().startService(new Intent(getApplication(), MisesLCDService.class));
+                }
+            }
+
         }
     }
 

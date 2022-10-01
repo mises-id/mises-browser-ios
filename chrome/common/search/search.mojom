@@ -76,4 +76,6 @@ interface EmbeddedSearchClient {
 
   // The NTP theme has changed; update accordingly.
   ThemeChanged(NtpTheme theme);
+
+  MisesInfoChanged(mojo_base.mojom.String16 info);
 };

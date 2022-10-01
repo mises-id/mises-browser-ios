@@ -363,7 +363,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
 
         Menu extensionMenu = new PopupMenu(mContext, mDecorView).getMenu();
         // If we are not showing extensions first, we append the extensions to the existing menu
-        if (!ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", false))
+        if (!ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", true))
             extensionMenu = menu;
         prepareExtensionMenu(
                     extensionMenu, isInStartSurfaceHomepage() ? null : currentTab, handler, mTabModelSelector.getCurrentModel().isIncognito());
@@ -387,7 +387,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
             if (!item.isVisible()) continue;
 
             // If we do not have a five icons row in the main menu, we immediately show the extensions
-            if (ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", false)
+            if (ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", true)
                 && !menuHasFiveIconsRow
                 && !extensionsHaveBeenAdded) {
                     extensionsHaveBeenAdded = true;
@@ -450,7 +450,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
             modelList.add(new MVCListAdapter.ListItem(menutype, propertyModel));
 
             // If we chose to show extensions first, we append them after the first row that has 5 action buttons
-            if (ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", false)
+            if (ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", true)
                 && !extensionsHaveBeenAdded
                 && menuHasFiveIconsRow
                 // current row is five icons row

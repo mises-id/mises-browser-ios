@@ -5,7 +5,7 @@
 #include "chrome/browser/ui/search/search_ipc_router.h"
 
 #include <utility>
-
+#include "base/strings/utf_string_conversions.h"
 #include "base/memory/raw_ptr.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/search/instant_service.h"
@@ -22,6 +22,7 @@
 #include "mojo/public/cpp/bindings/pending_associated_receiver.h"
 #include "mojo/public/cpp/bindings/pending_associated_remote.h"
 #include "third_party/blink/public/common/associated_interfaces/associated_interface_provider.h"
+#include "chrome/browser/android/mises/mises_controller.h"
 
 namespace {
 
@@ -224,3 +225,4 @@ void SearchIPCRouter::set_policy_for_testing(std::unique_ptr<Policy> policy) {
   DCHECK(policy);
   policy_ = std::move(policy);
 }
+

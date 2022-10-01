@@ -53,6 +53,10 @@ chrome_junit_test_java_deps += commerce_subscriptions_junit_test_deps
 chrome_test_java_sources += commerce_subscriptions_java_test_sources
 chrome_test_java_sources += commerce_merchant_viewer_java_test_sources
 
+chrome_java_sources += [
+  "java/src/org/chromium/chrome/browser/init/InAppUpdater.java",
+]
+
 if (enable_arcore) {
   chrome_java_sources += [
     "java/src/org/chromium/chrome/browser/vr/ArCompositorDelegateImpl.java",

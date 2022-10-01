@@ -1,0 +1,69 @@
+import("//build/config/android/rules.gni")
+
+android_aar_prebuilt("com_github_bumptech_glide_glide_java") {
+  aar_path = "glide-4.11.0.aar"
+  deps = [
+    "//third_party/androidx:androidx_appcompat_appcompat_java",
+    "//third_party/androidx:androidx_exifinterface_exifinterface_java",
+    ":com_github_bumptech_glide_annotations_java",
+    ":com_github_bumptech_glide_disklrucache_java",
+    ":com_github_bumptech_glide_gifdecoder_java",
+  ]
+}
+
+java_prebuilt("com_github_bumptech_glide_annotations_java") {
+  jar_path = "annotations-4.11.0.jar"
+  supports_android = true
+  visibility = [ ":*" ]
+}
+
+java_prebuilt("com_github_bumptech_glide_disklrucache_java") {
+  jar_path = "disklrucache-4.11.0.jar"
+  supports_android = true
+  visibility = [ ":*" ]
+}
+
+android_aar_prebuilt("com_github_bumptech_glide_gifdecoder_java") {
+  aar_path = "gifdecoder-4.11.0.aar"
+  visibility = [ ":*" ]
+  deps = [
+    "//third_party/android_deps:com_android_support_support_annotations_java",
+  ]
+}
+
+android_aar_prebuilt("com_caverock_androidsvg_java") {
+  aar_path = "androidsvg-aar-1.4.aar"
+  visibility = [ ":*" ]
+  deps = [
+  ]
+}
+java_annotation_processor("glide_annotation_processor") {
+   jar_path = "compiler-4.11.0.jar"
+   main_class = "com.bumptech.glide.annotation.compiler.GlideAnnotationProcessor"
+  deps = [
+    ":com_github_bumptech_glide_annotations_java",
+  ]
+}
+android_aar_prebuilt("com_kirich1409_svgplugin_java") {
+  aar_path = "svg-glide4-plugin-1.2.1.aar"
+  deps = [
+    ":com_caverock_androidsvg_java",
+   ":com_github_bumptech_glide_annotations_java",
+    ":com_github_bumptech_glide_glide_java"
+  ]
+}
+android_library("com_kirich1409_svgimageloaderplugins_java") {
+  annotation_processor_deps = [ ":glide_annotation_processor" ]
+  chromium_code = false
+  sources  = [
+    "SvgGlideModule.java",
+  ]
+  deps = [
+    ":com_kirich1409_svgplugin_java",
+    ":com_github_bumptech_glide_annotations_java",
+    ":com_github_bumptech_glide_glide_java",
+    "//third_party/android_deps:com_android_support_support_annotations_java",
+   "//third_party/androidx:androidx_annotation_annotation_java",
+   "//third_party/androidx:androidx_fragment_fragment_java",
+  ]
+}

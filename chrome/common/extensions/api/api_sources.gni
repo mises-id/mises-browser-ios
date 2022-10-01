@@ -67,6 +67,7 @@ schema_sources_ = [
 
   "webstore_private.json",
   "windows.json",
+  "mises_private.idl",
 ]
 
 if (true || !is_android) {

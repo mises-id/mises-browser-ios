@@ -396,8 +396,11 @@ int g_next_accessibility_reset_token = 1;
 
 // Whether to allow injecting javascript into any kind of frame, for Android
 // WebView, WebLayer, Fuchsia web.ContextProvider and CastOS content shell.
+#if BUILDFLAG(IS_ANDROID)
+bool g_allow_injecting_javascript = true;
+#else
 bool g_allow_injecting_javascript = false;
-
+#endif
 const char kDotGoogleDotCom[] = ".google.com";
 
 typedef std::unordered_map<GlobalRenderFrameHostId,
@@ -2638,7 +2641,6 @@ void RenderFrameHostImpl::ExecuteJavaScriptMethod(
 void RenderFrameHostImpl::ExecuteJavaScript(const std::u16string& javascript,
                                             JavaScriptResultCallback callback) {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
-  LOG(ERROR) << "RenderFrameHostImpl::ExecuteJavaScript" << "," << javascript << "," << GetLastCommittedURL();
   CHECK(CanExecuteJavaScript());
   AssertNonSpeculativeFrame();
 

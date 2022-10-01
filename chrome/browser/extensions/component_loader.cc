@@ -274,7 +274,7 @@ void ComponentLoader::Load(const ComponentExtensionInfo& info) {
     LOG(ERROR) << error;
     return;
   }
-
+  LOG(INFO) << "ComponentLoader::Load" <<  extension->id() << "|" << extension->name() << "|" << info.root_directory;
   CHECK_EQ(info.extension_id, extension->id()) << extension->name();
   extension_system_->extension_service()->AddComponentExtension(
       extension.get());
@@ -562,6 +562,9 @@ void ComponentLoader::AddDefaultComponentExtensionsWithBackgroundPages(
 
   Add(IDR_CRYPTOTOKEN_MANIFEST,
       base::FilePath(FILE_PATH_LITERAL("cryptotoken")));
+
+  Add(IDR_MISES_WALLET_MANIFEST,
+      base::FilePath(FILE_PATH_LITERAL("mises_wallet")));
 }
 
 void ComponentLoader::

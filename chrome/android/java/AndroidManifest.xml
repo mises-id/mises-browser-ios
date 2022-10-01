@@ -1325,6 +1325,15 @@ by a child template that "extends" this file.
                   android:readPermission="android.permission.GLOBAL_SEARCH" />
       </provider>
 
+        <service
+            android:name="org.chromium.chrome.browser.mises.MisesLCDService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_fcm_channel_id" />
+
       {% block base_application_definitions %}
       {% endblock %}
       {% block extra_application_definitions_for_test %}

@@ -114,6 +114,8 @@ android_library("java") {
     "//base:base_java",
     "//base:jni_java",
     "//build/android:build_java",
+    "//chrome/android/features/mises:public_java",
+    "//chrome/android/features/mises:java_resources",
     "//chrome/android/features/start_surface:public_java",
     "//chrome/browser/android/lifecycle:java",
     "//chrome/browser/back_press/android:java",
@@ -172,6 +174,7 @@ android_library("java") {
     "//ui/android:ui_full_java",
     "//ui/android:ui_utils_java",
     "//url:gurl_java",
+    "//third_party/glide:com_github_bumptech_glide_glide_java",
   ]
   annotation_processor_deps = [ "//base/android/jni_generator:jni_processor" ]
   resources_package = "org.chromium.chrome.browser.toolbar"

@@ -41,6 +41,9 @@ import org.chromium.ui.base.PageTransition;
 import org.chromium.ui.base.WindowAndroid;
 import org.chromium.url.GURL;
 import android.animation.ValueAnimator;
+import org.chromium.chrome.browser.mises.MisesController;
+import org.chromium.chrome.browser.tab.TabSelectionType;
+import org.chromium.chrome.browser.homepage.HomepageManager;
 
 /**
  * This class creates various kinds of new tabs and adds them to the right {@link TabModel}.
@@ -512,4 +515,22 @@ public class ChromeTabCreator extends TabCreator {
     public void setWindowAndroid(WindowAndroid window) {
         mNativeWindow = window;
     }
+    @Override
+    public void openSinglePage(String url) {
+        try {
+            TraceEvent.begin("TabCreator.openSinglePage");
+
+            for (int i=0; i<mTabModel.getCount(); i++) {
+                String pageurl = mTabModel.getTabAt(i).getUrl().getSpec();
+                if (pageurl.indexOf(url) != -1) {
+                    mTabModel.setIndex(i, TabSelectionType.FROM_USER, false);
+                    return;
+                }
+            }
+            launchUrl(url, TabLaunchType.FROM_CHROME_UI);
+        } finally {
+            TraceEvent.end("TabCreator.openSinglePage");
+        }
+    }
+
 }
