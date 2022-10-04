@@ -97,7 +97,7 @@ public abstract class TabCreator {
     public final void launchNTP() {
         try {
             TraceEvent.begin("TabCreator.launchNTP");
-            launchUrl(ContextUtils.getAppSharedPreferences().getString("active_homepage", "chrome://newtab"), TabLaunchType.FROM_CHROME_UI);
+            launchUrl(ContextUtils.getAppSharedPreferences().getString("active_homepage", UrlConstants.NTP_NON_NATIVE_URL), TabLaunchType.FROM_CHROME_UI);
         } finally {
             TraceEvent.end("TabCreator.launchNTP");
         }

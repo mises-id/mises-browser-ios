@@ -1,9 +1,7 @@
-// Copyright 2021 Geometry OU (Kiwi Browser)
 // Copyright 2015 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
 
-/* Easter egg (ASCII art) */
-var __easter_egg = "IF8uXyAgICAgXywtJyIiYC0uXyAgICAgICAgICAgICBfXyBfCigsLS5gLl8sJyggICAgICAgfFxgLS98ICAgICAgICAvICAgKCAnID4tCiAgICBgLS4tJyBcICktYCggLCBvIG8pICAgICAgICBcX18vCiAgICAgICAgICBgLSAgICBcYF9gIictICAgICAgICAgTCBcXwo=";
-window.setTimeout(function () { console.log(window.atob(__easter_egg)); }, 1000);
 
 /**
  * @fileoverview The local InstantExtended NTP.
@@ -554,6 +552,23 @@ function init() {
 }
 
 
+function loadConfig() {
+  var configScript = document.createElement('script');
+  configScript.type = 'text/javascript';
+  configScript.src = 'chrome-search://local-ntp/config.js';
+  configScript.onload = init;
+  document.head.appendChild(configScript);
+}
+
+
+/**
+ * Binds event listeners.
+ */
+function listen() {
+  document.addEventListener('DOMContentLoaded', loadConfig);
+}
+
+
 /**
  * Injects the One Google Bar into the page. Called asynchronously, so that it
  * doesn't block the main page load.
@@ -946,6 +961,10 @@ this._item=a,Vb.initItem(a),this._initCn(),Vb.calcGridOffsets(),Vb.findItemCente
 
 
 
+if (!window.localNTPUnitTest) {
+  LocalNTP().listen();
+}
+
 // Jdenticon 2.1.0 | jdenticon.com | MIT licensed | (c) 2014-2018 Daniel Mester Pirttijärvi
 (function(q,y,z){var t=z(q,q.jQuery);"undefined"!==typeof module&&"exports"in module?module.exports=t:"function"===typeof define&&define.amd?define([],function(){return t}):q[y]=t})(this,"jdenticon",function(q,y){function z(a,b,c){for(var d=document.createElementNS("http://www.w3.org/2000/svg",b),f=2;f+1<arguments.length;f+=2)d.setAttribute(arguments[f],arguments[f+1]);a.appendChild(d)}function t(a){this.b=Math.min(Number(a.getAttribute("width"))||100,Number(a.getAttribute("height"))||100);for(this.a=
 a;a.firstChild;)a.removeChild(a.firstChild);a.setAttribute("viewBox","0 0 "+this.b+" "+this.b);a.setAttribute("preserveAspectRatio","xMidYMid meet")}function K(a){this.b=a;this.a='\x3csvg xmlns\x3d"http://www.w3.org/2000/svg" width\x3d"'+a+'" height\x3d"'+a+'" viewBox\x3d"0 0 '+a+" "+a+'" preserveAspectRatio\x3d"xMidYMid meet"\x3e'}function N(a){return function(a){for(var b=[],d=0;d<a.length;d++)for(var f=a[d],e=28;0<=e;e-=4)b.push((f>>>e&15).toString(16));return b.join("")}(function(a){for(var b=
@@ -998,13 +1017,13 @@ function setup_grid()
       console.log("Fetch tiles from most visited: " + err);
     }
     if (typeof localStorage.storedItems == "undefined")
-      window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); if (localStorage.triedToLoadMostVisited < 10) { document.location.reload(); } } }, 10);
+      window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); } }, 10);
     if (typeof localStorage.storedItems == "undefined")
       window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); } }, 100);
     if (typeof localStorage.storedItems == "undefined")
       window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); } }, 500);
     if (typeof localStorage.storedItems == "undefined")
-      window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); if (localStorage.triedToLoadMostVisited < 10) { document.location.reload(); } } }, 1000);
+      window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); } }, 1000);
     if (typeof localStorage.storedItems == "undefined")
       window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); } }, 2000);
     if (typeof localStorage.storedItems == "undefined")
@@ -1012,7 +1031,7 @@ function setup_grid()
     if (typeof localStorage.storedItems == "undefined")
       window.setTimeout(function () { if (typeof localStorage.storedItems == "undefined") { fetch_tiles_from_most_visited(); globalGrid.appendNew(); swap_if_ready(); } }, 8000);
   }
-  grid.appendNew();
+  // grid.appendNew();
   swap_if_ready();
   window.setTimeout(function () { swap_if_ready(); }, 10);
   window.setTimeout(function () { swap_if_ready(); }, 100);
@@ -1072,7 +1091,7 @@ function setup_grid()
 
   if (!document.areIdeasFetched && !window.chrome.embeddedSearch.newTabPage.isIncognito && typeof localStorage.hideExplore == "undefined") {
     document.areIdeasFetched = true;
-    document.getElementById('explore-section').style.display = 'none';
+    // document.getElementById('explore-section').style.display = 'none';
     console.log("Fetching tiles ideas");
     fetch('https://tiles.kiwibrowser.org/ideas/?version=2&cachebuster=' + Math.random(), { method: 'GET' })
         .then(function(response) {
@@ -1083,8 +1102,8 @@ function setup_grid()
             for (var i = 0; i < answer.length; i++) {
               add_favorite_idea(answer[i].name, answer[i].click_url, answer[i].impression_url, answer[i].image_url);
             }
-            if (answer.length > 0)
-              document.getElementById('explore-section').style.display = 'block';
+            // if (answer.length > 0)
+            //   document.getElementById('explore-section').style.display = 'block';
             grid.appendNew();
             swap_if_ready();
             window.setTimeout(function () { swap_if_ready(); }, 10);

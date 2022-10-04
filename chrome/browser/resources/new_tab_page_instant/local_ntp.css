@@ -2,40 +2,7 @@
  * Use of this source code is governed by a BSD-style license that can be
  * found in the LICENSE file. */
 
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-html {
+ html {
   /* Material Design constants */
   --md-tile-height: 104px;
   --md-tile-margin: 8px;
@@ -103,7 +70,6 @@ body {
   min-height: 100%;
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
-  background: white;
 }
 
 body.inited {
@@ -123,7 +89,8 @@ button {
   height: 100%;
   position: relative;
   z-index: 1;
-  width: 98%;
+  /* padding:0 15px; */
+  /* width: 98%; */
 }
 
 #logo,
@@ -783,48 +750,42 @@ input:checked + .toggle::before {
 }
 
 #bookmarks-grid, #fake-bookmarks-grid, #ideas-grid {
-    margin: 2%;
-    margin-top: 0px;
+    /* margin: 2%; */
     position: relative;
-}
-
-@media (max-width: 450px) {
-  #bookmarks-grid, #fake-bookmarks-grid, #ideas-grid {
-    min-height: 208px;
+    background-color: white;
+    border-radius: 15px;
+    display: grid;
+    margin: 0 15px;
+    /* padding: 0 15px; */
+    /* padding-top: 6px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-}
-
-@media (min-width: 450px) {
-  #bookmarks-grid, #fake-bookmarks-grid, #ideas-grid {
-    min-height: 104px;
-  }
-}
 
 #fake-bookmarks-grid {
     z-index: -99999;
 }
 
 .grid-item {
-    float: left;
-    width: 64px;
-    font-size: 10px;
+    /* float: left; */
+    /* width: 60px; */
+    font-size: 13px;
     overflow: hidden;
     background: #fff;
-    margin: 10px;
-    color: #3c3c3c;
+    /* margin: 10px; */
+    /* color: #3c3c3c; */
     text-align: center;
     z-index: 999999;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-decoration: none;
+    margin: 15px auto 10px;
+    position: relative;
 }
 
 .grid-item a {
     text-decoration: none;
     color: #555;
-}
-
-.grid-image {
-    height: 64px;
-    width: 64px;
-    object-fit: contain;
 }
 
 #explore-section {
@@ -986,4 +947,3 @@ input:checked + .toggle::before {
     transform: rotate(360deg);
   }
 }
-

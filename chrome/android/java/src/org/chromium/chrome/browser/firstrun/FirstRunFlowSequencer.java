@@ -236,7 +236,7 @@ public abstract class FirstRunFlowSequencer  {
      */
     public static boolean checkIfFirstRunIsNecessary(boolean preferLightweightFre, boolean isCct) {
         // If FRE is disabled (e.g. in tests), proceed directly to the intent handling.
-        if (CommandLine.getInstance().hasSwitch(ChromeSwitches.DISABLE_FIRST_RUN_EXPERIENCE)
+        if (true || CommandLine.getInstance().hasSwitch(ChromeSwitches.DISABLE_FIRST_RUN_EXPERIENCE)
                 || ApiCompatibilityUtils.isDemoUser()
                 || ApiCompatibilityUtils.isRunningInUserTestHarness()) {
             return false;

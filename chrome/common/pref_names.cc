@@ -3486,7 +3486,7 @@ const char kDiscountConsentShowInterestIn[] =
 const char kWebXRImmersiveArEnabled[] = "webxr.immersive_ar_enabled";
 #endif
 
-#if !BUILDFLAG(IS_ANDROID)
+#if true || !BUILDFLAG(IS_ANDROID)
 // The duration for keepalive requests on browser shutdown.
 const char kFetchKeepaliveDurationOnShutdown[] =
     "fetch_keepalive_duration_on_shutdown";

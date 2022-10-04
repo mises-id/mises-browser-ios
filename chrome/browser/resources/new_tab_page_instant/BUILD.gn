@@ -36,6 +36,21 @@ generate_grd("build_grd") {
   input_files = [
     "most_visited_title.css",
     "most_visited_title.html",
+    "local_ntp.css",
+    "local_ntp.html",
+    "local_ntp.js",
+    "incognito_ntp.html",
+    "new_ntp.html",
+    "mises_logo.png",
+    "loadingImage.js",
+    "Private.svg",
+    "images/Airdrop.png",
+    "images/Discover.png",
+    "images/Invite.png",
+    "images/Staking.png",
+    "images/add.png",
+    "images/add@2x.png",
+    "images/more@2x.png",
   ]
   input_files_base_dir = rebase_path(".", "//")
 

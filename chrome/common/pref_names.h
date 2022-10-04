@@ -1212,7 +1212,7 @@ extern const char kDiscountConsentShowInterestIn[];
 extern const char kWebXRImmersiveArEnabled[];
 #endif
 
-#if !BUILDFLAG(IS_ANDROID)
+#if true || !BUILDFLAG(IS_ANDROID)
 extern const char kFetchKeepaliveDurationOnShutdown[];
 #endif
 

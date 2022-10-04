@@ -148,7 +148,6 @@ public class HomepageManager implements HomepagePolicyManager.HomepagePolicyStat
      *         if the homepage button is force enabled via flag.
      */
     public static String getDefaultHomepageUri() {
-        if (true) return "chrome://newtab";
         if (PartnerBrowserCustomizations.getInstance().isHomepageProviderAvailableAndEnabled()) {
             return PartnerBrowserCustomizations.getInstance().getHomePageUrl().getSpec();
         }
@@ -166,7 +165,7 @@ public class HomepageManager implements HomepagePolicyManager.HomepagePolicyStat
         }
         if (!homepagePartnerDefaultUri.equals("")) return homepagePartnerDefaultUri;
 
-        return "chrome-search://local-ntp/local-ntp.html";
+        return UrlConstants.NTP_NON_NATIVE_URL;
     }
 
     /**
@@ -199,7 +198,7 @@ public class HomepageManager implements HomepagePolicyManager.HomepagePolicyStat
      * @return Homepage URI based on policy and shared preference settings.
      */
     public @NonNull String getHomepageUriIgnoringEnabledState() {
-        return ContextUtils.getAppSharedPreferences().getString("active_homepage", "chrome://newtab");
+        return ContextUtils.getAppSharedPreferences().getString("active_homepage", UrlConstants.NTP_NON_NATIVE_URL);
     }
 
     /**
@@ -224,7 +223,6 @@ public class HomepageManager implements HomepagePolicyManager.HomepagePolicyStat
      * @return User specified homepage custom URI string.
      */
     public String getPrefHomepageCustomUri() {
-        if (true) return ContextUtils.getAppSharedPreferences().getString("active_homepage", "chrome://newtab");
         return mSharedPreferencesManager.readString(ChromePreferenceKeys.HOMEPAGE_CUSTOM_URI, "");
     }
 

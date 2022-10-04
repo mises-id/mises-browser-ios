@@ -44,7 +44,8 @@ public class UrlConstants {
     public static final String ABOUT_URL = "chrome://about/";
 
     public static final String NTP_HOST = "newtab";
-    public static final String NTP_URL = "chrome-native://newtab/";
+    //public static final String NTP_URL = "chrome-native://newtab/";
+    public static final String NTP_URL = "chrome-search://local-ntp/local-ntp.html";
     public static final String NTP_NON_NATIVE_URL = "chrome-search://local-ntp/local-ntp.html";
     public static final String NTP_ABOUT_URL = "about:newtab";
 

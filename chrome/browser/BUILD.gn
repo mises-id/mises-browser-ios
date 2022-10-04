@@ -4159,6 +4159,8 @@ static_library("browser") {
       "search/instant_service_observer.h",
       "search/most_visited_iframe_source.cc",
       "search/most_visited_iframe_source.h",
+      "search/new_tab_page_source.cc",
+      "search/new_tab_page_source.h",
       "search/ntp_custom_background_enabled_policy_handler.cc",
       "search/ntp_custom_background_enabled_policy_handler.h",
       "search/search_engine_base_url_tracker.cc",
