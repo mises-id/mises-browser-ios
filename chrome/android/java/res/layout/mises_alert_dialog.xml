@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chrome="http://schemas.android.com/apk/res-auto"	
     android:id="@+id/pop_layout"
     android:layout_width="335dp"
     android:layout_height="wrap_content"
@@ -35,6 +36,7 @@
         android:orientation="horizontal">
 
         <Button
+	    chrome:backgroundTint="@null" 
             android:id="@+id/btn_cancel"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
@@ -50,7 +52,8 @@
             android:layout_width="15dp"
             android:layout_height="match_parent" />
 
-        <Button
+	<Button
+	    chrome:backgroundTint="@null"
             android:id="@+id/btn_confirm"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"

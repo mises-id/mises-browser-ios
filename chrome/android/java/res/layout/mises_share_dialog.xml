@@ -98,7 +98,8 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_cancel"
+		chrome:backgroundTint="@null"    
+		android:id="@+id/btn_cancel"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -113,7 +114,8 @@
                 android:layout_width="15dp"
                 android:layout_height="match_parent" />
 
-            <Button
+	    <Button
+	        chrome:backgroundTint="@null"
                 android:id="@+id/btn_share"
                 style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="0dp"
