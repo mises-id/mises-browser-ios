@@ -596,7 +596,7 @@ std::unique_ptr<content::WebContents> CreateTargetContents(
 base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
   TRACE_EVENT1("navigation", "chrome::Navigate", "disposition",
                params->disposition);
-  if (false) {
+  if (true) {
     TabModelList::TabModelVector tab_model_vector = TabModelList::models();
     if (!tab_model_vector.size())
       return nullptr;

@@ -30,6 +30,7 @@
 #include "third_party/blink/public/web/web_frame.h"
 #include "third_party/blink/public/web/web_local_frame.h"
 #include "third_party/blink/public/web/web_performance.h"
+#include "extensions/common/constants.h"
 
 namespace {
 
@@ -223,12 +224,12 @@ void SearchBox::GetMostVisitedItems(
 
 bool ItemIsExtension (InstantMostVisitedItemIDPair pair) 
 { 
-  return pair.second.url.SchemeIs("chrome-extension");
+  return pair.second.url.SchemeIs(extensions::kExtensionScheme);
 }
 
 bool ItemIsSite (InstantMostVisitedItemIDPair pair)
 { 
-  return !pair.second.url.SchemeIs("chrome-extension");
+  return !pair.second.url.SchemeIs(extensions::kExtensionScheme);
 } 
 
 void SearchBox::GetMostVisitedExtensions(

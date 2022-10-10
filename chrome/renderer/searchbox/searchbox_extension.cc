@@ -590,10 +590,6 @@ v8::Local<v8::Value> NewTabPageBindings::GetMostVisitedExtensions(v8::Isolate* i
   content::RenderFrame* render_frame = GetMainRenderFrameForCurrentContext();
 
   // This corresponds to "window.devicePixelRatio" in JavaScript.
-  float zoom_factor =
-      blink::PageZoomLevelToZoomFactor(render_frame->GetWebView()->ZoomLevel());
-  float device_pixel_ratio = render_frame->GetDeviceScaleFactor() * zoom_factor;
-
   int render_frame_id = render_frame->GetRoutingID();
 
   std::vector<InstantMostVisitedItemIDPair> instant_mv_items;

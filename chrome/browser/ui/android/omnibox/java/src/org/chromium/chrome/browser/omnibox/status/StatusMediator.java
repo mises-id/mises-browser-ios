@@ -560,7 +560,7 @@ public class StatusMediator implements PermissionDialogController.Observer,
         boolean showIconOnNTP = mProfileSupplier.get() != null
                 && UrlUtilities.isCanonicalizedNTPUrl(mLocationBarDataProvider.getCurrentUrl())
                 && !mLocationBarDataProvider.isLoading() && !mIsTablet
-                && (mUrlHasFocus || mUrlFocusPercent > 0);
+                && (mUrlHasFocus || mUrlFocusPercent > 0) && false;
 
         return mSearchEngineLogoUtils.shouldShowSearchEngineLogo(
                        mLocationBarDataProvider.isIncognito())

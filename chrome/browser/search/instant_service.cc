@@ -226,6 +226,13 @@ void InstantService::OnNativeThemeUpdated(ui::NativeTheme* observed_theme) {
   UpdateNtpTheme();
 }
 
+static GURL GetExtensionURL(const std::string& extension_id) {
+  std::string url = extensions::kExtensionScheme;
+  url += "://";
+  url += extension_id;
+  return GURL(url.c_str());
+}
+
 void InstantService::OnURLsAvailable(
     const std::map<ntp_tiles::SectionType, ntp_tiles::NTPTilesVector>&
         sections) {
@@ -256,7 +263,7 @@ void InstantService::OnURLsAvailable(
     if (action) {
        InstantMostVisitedItem item;
        const int kDefaultTabId = extensions::ExtensionAction::kDefaultTabId;
-       item.url = action->GetPopupUrl(kDefaultTabId);
+       item.url = GetExtensionURL(extension->id());
        item.title = base::UTF8ToUTF16(action->GetTitle(kDefaultTabId));
   	gfx::Image icon =
       		action->GetExplicitlySetIcon(kDefaultTabId);
@@ -267,12 +274,12 @@ void InstantService::OnURLsAvailable(
   	if (!icon.IsEmpty()) {
     	  std::vector<gfx::ImageSkiaRep> image_reps = icon.AsImageSkia().image_reps();
     	  for (const gfx::ImageSkiaRep& rep : image_reps) {
-            LOG(INFO) << "[Kiwi] InstantService::OnURLsAvailable - icon_size: " << rep.scale() << "x" << icon.AsImageSkia().width();
             std::string base64_image = webui::GetBitmapDataUrl(rep.GetBitmap());
             
             item.favicon = GURL(base64_image);
           }
         }
+      LOG(INFO) << "[Kiwi] InstantService::OnURLsAvailable - found extension: " << item.url;
        most_visited_info_->items.push_back(item);
     }
   }
@@ -398,7 +405,7 @@ void InstantService::OpenExtension(content::WebContents* web_contents, const GUR
     }  
     if (action) {
        const int kDefaultTabId = extensions::ExtensionAction::kDefaultTabId;
-       if (url == action->GetPopupUrl(kDefaultTabId)) {
+       if (url == GetExtensionURL(extension->id())) {
           extensions::ExtensionActionAPI* action_api = extensions::ExtensionActionAPI::Get(profile_);
           if (web_contents != nullptr) {
             extensions::TabHelper::FromWebContents(web_contents)
@@ -406,10 +413,16 @@ void InstantService::OpenExtension(content::WebContents* web_contents, const GUR
               ->GrantIfRequested(extension_ptr);
             
           }
-          if (!TabModelList::models().empty()){
-            TabModel* tab_model = TabModelList::models()[0];
-            if (tab_model)
-              tab_model->CreateNewTabForDevTools(url);
+          GURL popup = action->GetPopupUrl(kDefaultTabId);
+          if (popup != "") {
+           
+            if (!TabModelList::models().empty()){
+              TabModel* tab_model = TabModelList::models()[0];
+              if (tab_model)
+                tab_model->CreateNewTabForDevTools(popup);
+            }
+          } else {
+            action_api->DispatchExtensionActionClicked(*action, web_contents, extension_ptr);
           }
           break;
        };

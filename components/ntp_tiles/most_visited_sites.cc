@@ -634,8 +634,11 @@ absl::optional<NTPTile> MostVisitedSites::CreateExploreSitesTile() {
   explore_sites_tile.title = explore_sites_client_->GetExploreSitesTitle();
   explore_sites_tile.source = TileSource::EXPLORE;
   explore_sites_tile.title_source = TileTitleSource::UNKNOWN;
-
+#if !BUILDFLAG(IS_ANDROID)
   return explore_sites_tile;
+#else
+  return absl::nullopt; 
+#endif
 }
 
 void MostVisitedSites::OnCustomLinksChanged() {

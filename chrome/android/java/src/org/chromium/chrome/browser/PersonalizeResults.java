@@ -47,12 +47,33 @@ public class PersonalizeResults {
                        || tab.getUrl().getSpec().startsWith("chrome-extension://")
                        || tab.getUrl().getSpec().startsWith("mises://"))) {
           tab.getWebContents().evaluateJavaScript("(function() { if (!document.location.href.includes('chrome://') && !document.location.href.includes('chrome-extension://') && !document.location.href.includes('mises://')) { return; } " + ADAPT_TO_MOBILE_VIEWPORT + "})();", null);
+         
        }
        if (tab != null && ContextUtils.getAppSharedPreferences().getBoolean("accept_cookie_consent", true) && (tab.getUrl().getSpec().startsWith("http://") || tab.getUrl().getSpec().startsWith("https://"))) {
           tab.getWebContents().evaluateJavaScript("(function(){function clickItem(elem) { elem.click(); } function acceptViaAPIs(){typeof window.__cmpui=='function'&&window.__cmpui('setAndSaveAllConsent',!0);typeof window.Didomi=='object'&&window.Didomi.setUserAgreeToAll()}window.globalObserver=null;function setupObserver(){if(!window.globalObserver){var newelem=document.createElement('style');newelem.innerHTML='.qc-cmp-showing { visibility: hidden !important; } body.didomi-popup-open { overflow: auto !important; } #didomi-host { visibility: hidden !important; }';document.body.appendChild(newelem);var MutationObserver=window.MutationObserver||window.WebKitMutationObserver;window.globalObserver=new MutationObserver(check);window.globalObserver.observe(window.document.documentElement,{childList:true,subtree:true});window.setTimeout(function(){window.globalObserver.disconnect();window.globalObserver=null},15000)}check()}function check(){window.setTimeout(function(){var listeners=[];listeners.push({selector:'#qcCmpUi',fn:acceptViaAPIs});listeners.push({selector:'#didomi-popup',fn:acceptViaAPIs});listeners.push({selector: '.accept-cookies-button,#purch-gdpr-banner__accept-button,#bbccookies-continue-button,.user-action--accept,.consent-accept,.bcpConsentOKButton,.button.accept,#footer_tc_privacy_button,button[aria-label=\"Button to collapse the message\"],.gdpr-form>.btn[value=\"Continue\"],button[on^=\"tap:\"][on$=\".accept\"],button[on^=\"tap:\"][on$=\".dismiss\"],.js-cookies-button,.app-offer__close_js,.lg-cc__button_type_action',fn: clickItem});for(var i=0,len=listeners.length,listener,elements;i<len;i++){listener=listeners[i];elements=window.document.querySelectorAll(listener.selector);for(var j=0,jLen=elements.length,element;j<jLen;j++){element=elements[j];if(!element.ready){element.ready=true;listener.fn.call(element, element)}}}},5)}window.addEventListener('DOMContentLoaded',setupObserver);check()})();", null);
        }
+       // tronlink extension 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://ibnejdfjmmkpcnlpebklmnkoeoihofec")) {
+          tab.getWebContents().evaluateJavaScript(RenderStyleContent(TRONLINK_EXTENSION_STYLES), null);
+       }
+       // keplr extension 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap")) {
+          tab.getWebContents().evaluateJavaScript(RenderStyleContent(KEPLR_EXTENSION_STYLES), null);
+       }
+       // hulio extension 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://olikokhekcibedhfkhbkmphgmopigibb")) {
+          tab.getWebContents().evaluateJavaScript(RenderStyleContent(HULIO_EXTENSION_STYLES), null);
+       }
+       // coinhub extension 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://jgaaimajipbpdogpdglhaphldakikgef")) {
+          tab.getWebContents().evaluateJavaScript(RenderStyleContent(COINHUB_EXTENSION_STYLES), null);
+       }
     }
 
+    private static String RenderStyleContent(String STYLES) {
+      return "(function(){window.addEventListener('load', function() { console.log('hack style'); var styleTag = document.createElement('style'); styleTag.type='text/css'; styleTag.innerHTML = "+ STYLES +";document.body.appendChild(styleTag)})})()";
+    }
+    
     private static boolean IsSearchUrl(String sUrl) {
         if (sUrl == null || sUrl.isEmpty()) {
           return false;
@@ -69,6 +90,18 @@ public class PersonalizeResults {
 
         return false;
     }
+
+   // tronlink extension 
+   private static final String TRONLINK_EXTENSION_STYLES = "'#root, body, html {width:100vw} body, html {overflow:auto;} .accountsPage .accountInfo,.pageContainer {width:100vw}'";
+
+   // keplr extension 
+   private static final String KEPLR_EXTENSION_STYLES = "'html,body,#app {width:100vw} .container-3Ms4OvCWNwJapzrn-T5Uyd {margin-left:0;width:100vw} .container-3Ms4OvCWNwJapzrn-T5Uyd.large {margin-left:0;width:100vw} .background-xbpI23q2_pUFQsakAulEU {width:100vw}'";
+
+   // hulio extension 
+   private static final String HULIO_EXTENSION_STYLES = "'#interaction {padding:unset}'";
+
+   // coinhub extension 
+   private static final String COINHUB_EXTENSION_STYLES = "'.select-action__select-buttons {flex-direction:column;}.select-action__select-button {width:100vw;margin-left:0;}'";
 
     private static final String MAKE_USER_AGENT_WRITABLE = ""
 +"(function() {"
