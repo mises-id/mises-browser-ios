@@ -70,7 +70,7 @@ static_library("storage_monitor") {
       ]
       deps += [ "//services/device/public/mojom" ]
     }
-  } else if (is_linux || is_chromeos_lacros) {
+  } else if (is_android || is_linux || is_chromeos_lacros) {
     if (use_udev) {
       sources += [
         "mtab_watcher_linux.cc",

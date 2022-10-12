@@ -1177,7 +1177,7 @@ void BrowserProcessImpl::PreMainMessageLoopRun() {
   PluginFinder::GetInstance();
 #endif  // BUILDFLAG(ENABLE_PLUGINS)
 
-#if !BUILDFLAG(IS_ANDROID)
+#if true || !BUILDFLAG(IS_ANDROID)
   storage_monitor::StorageMonitor::Create();
 #endif
 
