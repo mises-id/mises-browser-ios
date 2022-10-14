@@ -52,49 +52,69 @@ public class PersonalizeResults {
        if (tab != null && ContextUtils.getAppSharedPreferences().getBoolean("accept_cookie_consent", true) && (tab.getUrl().getSpec().startsWith("http://") || tab.getUrl().getSpec().startsWith("https://"))) {
           tab.getWebContents().evaluateJavaScript("(function(){function clickItem(elem) { elem.click(); } function acceptViaAPIs(){typeof window.__cmpui=='function'&&window.__cmpui('setAndSaveAllConsent',!0);typeof window.Didomi=='object'&&window.Didomi.setUserAgreeToAll()}window.globalObserver=null;function setupObserver(){if(!window.globalObserver){var newelem=document.createElement('style');newelem.innerHTML='.qc-cmp-showing { visibility: hidden !important; } body.didomi-popup-open { overflow: auto !important; } #didomi-host { visibility: hidden !important; }';document.body.appendChild(newelem);var MutationObserver=window.MutationObserver||window.WebKitMutationObserver;window.globalObserver=new MutationObserver(check);window.globalObserver.observe(window.document.documentElement,{childList:true,subtree:true});window.setTimeout(function(){window.globalObserver && window.globalObserver.disconnect();window.globalObserver=null},15000)}check()}function check(){window.setTimeout(function(){var listeners=[];listeners.push({selector:'#qcCmpUi',fn:acceptViaAPIs});listeners.push({selector:'#didomi-popup',fn:acceptViaAPIs});listeners.push({selector: '.accept-cookies-button,#purch-gdpr-banner__accept-button,#bbccookies-continue-button,.user-action--accept,.consent-accept,.bcpConsentOKButton,.button.accept,#footer_tc_privacy_button,button[aria-label=\"Button to collapse the message\"],.gdpr-form>.btn[value=\"Continue\"],button[on^=\"tap:\"][on$=\".accept\"],button[on^=\"tap:\"][on$=\".dismiss\"],.js-cookies-button,.app-offer__close_js,.lg-cc__button_type_action',fn: clickItem});for(var i=0,len=listeners.length,listener,elements;i<len;i++){listener=listeners[i];elements=window.document.querySelectorAll(listener.selector);for(var j=0,jLen=elements.length,element;j<jLen;j++){element=elements[j];if(!element.ready){element.ready=true;listener.fn.call(element, element)}}}},5)}window.addEventListener('DOMContentLoaded',setupObserver);check()})();", null);
        }
-       // tronlink extension 
+       // tronlink 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://ibnejdfjmmkpcnlpebklmnkoeoihofec")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(TRONLINK_EXTENSION_STYLES), null);
        }
-       // keplr extension 
+       // keplr 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://dmkamcknogkgcdfhhbddcghachkejeap")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(KEPLR_EXTENSION_STYLES), null);
        }
-       // hulio extension 
+       // hulio 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://olikokhekcibedhfkhbkmphgmopigibb")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(HULIO_EXTENSION_STYLES), null);
        }
-       // coinhub extension 
+       // coinhub 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://jgaaimajipbpdogpdglhaphldakikgef")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(COINHUB_EXTENSION_STYLES), null);
        }
-       // Avana extension 
+       // Avana 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://ajnodjmfajgabkmeididajpkoobeiofn")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(AVANA_EXTENSION_STYLES), null);
        }
-       // Teleport Wallet extension 
+       // Teleport Wallet 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://gkeelndblnomfmjnophbhfhcjbcnemka")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(TELEPORTWALLET_EXTENSION_STYLES), null);
        }
-       // umi extension 
+       // umi 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://einhphiffjfjogeofkpclobkcgennocm")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(UMI_EXTENSION_STYLES), null);
        }
-       // ezdefi extension 
+       // ezdefi 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://ejeemacpidnaejkhpbmfkadhgjhnolaa")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(EZDEFI_EXTENSION_STYLES), null);
        }
-       // lilico extension 
+       // lilico 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://hpclkefagolihohboafpheddmmgdffjm")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(LILICO_EXTENSION_STYLES), null);
        }
-       // xdefi extension 
+       // xdefi 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://hmeobnfnfcmdkdcmlblgagmfpfboieaf")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(XDEFI_EXTENSION_STYLES), null);
        }
-       // soda extension 
+       // soda 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://ckeekocbghailhahfmkdgffiieolpagi")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(SODA_EXTENSION_STYLES), null);
+       }
+       // traitsniper 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://acaonckckmmakfgjfkgbfeepdhmajkeg")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(TRAITSNIPER_EXTENSION_STYLES), null);
+       }
+       // similarweb 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(SIMILARWEB_EXTENSION_STYLES), null);
+       }
+       // Talisman 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://fijngjgcjhjmmpcmkeiomlglpeiijkld")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(TALISMAN_EXTENSION_STYLES), null);
+       }
+       // celo extension wallet 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://kkilomkmpmkbdnfelcpgckmpcaemjcdh")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(CELOEXTENSION_EXTENSION_STYLES), null);
+       }
+       // Cosmos Wallet 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://fcfcfllfndlomdhbehjjcoimbgofdncg")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(COSMOS_EXTENSION_STYLES), null);
        }
     }
 
@@ -119,37 +139,53 @@ public class PersonalizeResults {
         return false;
     }
 
-   // tronlink extension 
+   // tronlink 
    private static final String TRONLINK_EXTENSION_STYLES = "'#root, body, html {width:100vw} body, html {overflow:auto;} .accountsPage .accountInfo,.pageContainer {width:100vw}'";
 
-   // keplr extension 
+   // keplr 
    private static final String KEPLR_EXTENSION_STYLES = "'html,body,#app {width:100vw} .container-3Ms4OvCWNwJapzrn-T5Uyd {margin-left:0;width:100vw} .container-3Ms4OvCWNwJapzrn-T5Uyd.large {margin-left:0;width:100vw} .background-xbpI23q2_pUFQsakAulEU {width:100vw}'";
 
-   // hulio extension 
+   // hulio 
    private static final String HULIO_EXTENSION_STYLES = "'#interaction {padding:unset}'";
 
-   // coinhub extension 
+   // coinhub 
    private static final String COINHUB_EXTENSION_STYLES = "'.select-action__select-buttons {flex-direction:column;}.select-action__select-button {width:100vw;margin-left:0;}'";
 
-   // avana extension 
+   // avana 
    private static final String AVANA_EXTENSION_STYLES = "'.css-v7pilp {max-width: 100vw} .css-1xvtca5 {max-width: 100vw;min-width: 100vw}'";
 
-   // Teleport Wallet extension 
+   // Teleport Wallet 
    private static final String TELEPORTWALLET_EXTENSION_STYLES = "'.expanded-view .popup-size, body {width: 100vw;height:inherit}'";
 
-   // umi extension 
+   // umi 
    private static final String UMI_EXTENSION_STYLES = "'.select-action__selection {flex-direction:column} .select-action .form:first-child {margin-right:0;margin-bottom:10px} .select-action .select-action__selection .form,body .form{min-width:95vw!important;max-width:95vw!important;} .select-action__body {padding:20px;box-sizing:border-box} .initialize__body{width:95vw;min-width:95vw} .end-of-flow .steps__img{position:inherit!important;left:0!important}'";
 
-   // ezdefi extension 
+   // ezdefi 
    private static final String EZDEFI_EXTENSION_STYLES = "'#root {height:auto!important} .privacy-policy-page .confirmModal .content-area {height:calc(100vh - 245px);} .container {width:100vw}'";
 
-   // lilico extension 
-   private static final String LILICO_EXTENSION_STYLES = "'body .h-full{width:100vw!important;height:auto!important}body .css-8exq99 {display: block} body .css-ukvzfb {width: 100vw} body .css-ff30gh {padding: 24px 24px 32px} body .css-168mpgf {width:95vw;height:auto;} body .css-18xmly0 {width: 100%} body .css-rgv6dd {width:95vw;height:auto;} body .css-105skla{width:95vw;height:auto;} body .css-1uez6az{width:auto;} body .css-1qjqn4b{width:95vw;height:auto;}body .css-qxmw80{font-size:0.8rem}'";
+   // lilico 
+   private static final String LILICO_EXTENSION_STYLES = "'body .h-full{width:100vw!important;height:100vh!important}body .css-8exq99 {display: block} body .css-ukvzfb {width: 100vw} body .css-ff30gh {padding: 24px 24px 32px} body .css-168mpgf {width:95vw;height:auto;} body .css-18xmly0 {width: 100%} body .css-rgv6dd {width:95vw;height:auto;} body .css-105skla{width:95vw;height:auto;} body .css-1uez6az{width:auto;} body .css-1qjqn4b{width:95vw;height:auto;}body .css-qxmw80{font-size:0.8rem} .css-1aiq4ho,.css-19gyshh{width: 100vw} .css-tlszgr{width: 100%}'";
 
-   // xdefi extension 
+   // xdefi 
    private static final String XDEFI_EXTENSION_STYLES = "'.gsrcgK,.index-module__wrapper___W2wCS .index-module__buttonWrapper___TqFk5  {flex-direction: column;align-items: center;} .index-module__onboarding___XQLfD .index-module__contentContainer___Iujo0 .index-module__body___grFff {width: 100vw;min-width:100vw;padding: 0 20px} .jeVaVP{min-width:100%} .izXqrv{width:90vw}'";
-   // xdefi extension 
+
+   // xdefi 
    private static final String SODA_EXTENSION_STYLES = "'.options-container .navbar .logo {margin:11px 43px} .options-container .navbar {width:100vw;height:auto} .options-container .navbar>ul .link-item{width:auto;height:auto;padding:7px 12px;white-space:nowrap} .options-container .navbar>ul{overflow:auto;display:flex}'";
+   
+   // Traitsniper 
+   private static final String TRAITSNIPER_EXTENSION_STYLES = "'.asset-line .grid a {white-space: nowrap;width: 60%;overflow: hiddentext-overflow: ellipsis;} .css-jwylpl{width: 100vw}'";
+   
+   // similarweb 
+   private static final String SIMILARWEB_EXTENSION_STYLES = "'iframe#similarweb-outer-content {width: 98vw !important;transform: translateX(calc(-98vw - 1%)) !important}'";
+   
+   // Talisman 
+   private static final String TALISMAN_EXTENSION_STYLES = "'.fLhJqK > section > div .welcome-text, .fLhJqK > section > div .welcome-buttons {width: 87vw; !important} .csupaF > section{padding: 0} .bCtBOW > section > .hflex > .content {width: 90vw;margin-bottom: 100px;} .dmEafL {width:auto;padding:2.8rem} .jvPIFO .main-area{padding: 20px} .bwSBFR .main-area{padding:20px} .jfBDUi{grid-template-columns: initial}'";
+
+   // celo extension wallet 
+   private static final String CELOEXTENSION_EXTENSION_STYLES = "'.select-action__select-buttons {flex-direction:column;}.select-action__select-button {width:100vw;margin-left:0;}'";
+
+   // cosmos wallet 
+   private static final String COSMOS_EXTENSION_STYLES = "'.flex.flex-row.gap-x-[20px]{flex-direction: column;}'";
 
     private static final String MAKE_USER_AGENT_WRITABLE = ""
 +"(function() {"

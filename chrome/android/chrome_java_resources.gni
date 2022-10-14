@@ -989,7 +989,11 @@ mises_java_resources = [
   "//chrome/android/java/res/drawable/mises_share_content_bg.xml",
   "//chrome/android/java/res/anim/left_enter.xml",
   "//chrome/android/java/res/anim/left_exit.xml",
-
+  "//chrome/android/java/res/drawable-hdpi/ic_menu_mises_forward.png",
+  "//chrome/android/java/res/drawable-mdpi/ic_menu_mises_forward.png",
+  "//chrome/android/java/res/drawable-xhdpi/ic_menu_mises_forward.png",
+  "//chrome/android/java/res/drawable-xxhdpi/ic_menu_mises_forward.png",
+  "//chrome/android/java/res/drawable-xxxhdpi/ic_menu_mises_forward.png",
 
 ]
 chrome_java_resources += mises_java_resources

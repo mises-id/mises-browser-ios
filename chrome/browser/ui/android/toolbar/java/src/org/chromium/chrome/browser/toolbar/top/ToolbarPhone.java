@@ -128,6 +128,7 @@ import androidx.fragment.app.FragmentActivity;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.bumptech.glide.request.RequestOptions;
+import org.chromium.chrome.browser.ui.appmenu.AppMenuDelegate;
 
 /**
  * Phone specific toolbar implementation.
@@ -3056,7 +3057,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
 
     @Override
     protected void updateReloadButtonVisibility(boolean isReloading) {
-        mMisesShareButton.setEnabled(!isReloading);
+        //mMisesShareButton.setEnabled(!isReloading);
     }
 
     private float drawMisesShareButton(Canvas canvas,float previousAlpha, int rgbAlpha) {
@@ -3117,7 +3118,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
         MisesController.getInstance().AddObserver(this);
 
         mMisesShareButton =  (ChromeImageButton) findViewById(R.id.mises_share_button);
-        mMisesShareButton.setEnabled(false);
+        //mMisesShareButton.setEnabled(false);
     }
     private void setupMisesButtonClickListener() {
         if (mMisesMainButton != null) mMisesMainButton.setOnClickListener(this);
@@ -3186,6 +3187,9 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
             misesUserInfoMenu.showAtLocation(mMisesMainButton, Gravity.START | Gravity.TOP, 0, 0);
         } else if (mMisesShareButton != null && mMisesShareButton == v) {
             //FirebaseAnalytics.getInstance(getContext()).logEvent("share", new Bundle());
+	    final AppMenuDelegate act = (AppMenuDelegate) getContext();
+	    act.onOptionsItemSelected((int)R.id.show_menu, null);
+	  if(false) {
             String SCRIPT = "if(window.misesModule && window.misesModule.getWindowInformation){window.misesModule.getWindowInformation()} else {console.log('window.misesModule or window.misesModule.getWindowInformation is null')}";
             final Context context = getContext();
 	    if ( !(context instanceof FragmentActivity) || !(context instanceof TabCreatorManager))
@@ -3231,6 +3235,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
                     Toast.makeText(getContext(), getContext().getString(R.string.lbl_can_not_share_tip), Toast.LENGTH_SHORT).show();
                 }
             });
+	  }
       }
     }
 }

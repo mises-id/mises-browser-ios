@@ -115,7 +115,8 @@ public class TabGridDialogCoordinator implements TabGridDialogMediator.DialogCon
                 @TabListCoordinator.TabListMode
                 int mode = SysUtils.isLowEndDevice() ? TabListCoordinator.TabListMode.LIST
                                                      : TabListCoordinator.TabListMode.GRID;
-                if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("default") || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic") || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("grid"))
+		final String active_tabswitcher = ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default");
+                if (active_tabswitcher.equals("default") || active_tabswitcher.equals("classic") || active_tabswitcher.equals("grid"))
                     mode = TabListCoordinator.TabListMode.GRID;
                 mTabSelectionEditorCoordinator = new TabSelectionEditorCoordinator(context,
                         mDialogView.findViewById(R.id.dialog_container_view), tabModelSelector,

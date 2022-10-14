@@ -151,4 +151,6 @@ public interface AppMenuPropertiesDelegate {
 
     /** Returns whether the menu icon is positioned at the start. */
     boolean isMenuIconAtStart();
+
+    void showExtensionOnly(boolean show);
 }

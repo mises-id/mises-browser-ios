@@ -17,7 +17,7 @@
     </style>
     <style name="ToolbarButton">
         <item name="android:background">?attr/selectableItemBackground</item>
-        <item name="android:layout_width">@dimen/toolbar_button_width</item>
+        <item name="android:layout_width">42dp</item>
         <item name="android:layout_height">56dp</item>
         <item name="android:scaleType">center</item>
     </style>

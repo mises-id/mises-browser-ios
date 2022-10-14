@@ -31,6 +31,7 @@
 #include "ui/native_theme/native_theme.h"
 #include "ui/native_theme/native_theme_observer.h"
 #include "url/gurl.h"
+#include "chrome/common/search/instant_types.h"
 
 #if 0
 #if BUILDFLAG(IS_ANDROID)
@@ -167,6 +168,9 @@ class InstantService : public KeyedService,
   GURL GetExtensionURL(const std::string& extension_id);
   
   void SearchComplete(history::QueryResults results);
+
+  std::vector<InstantMostVisitedItem> most_visited_items_;
+  std::vector<InstantMostVisitedItem> recent_extensions_;
 
   base::CancelableTaskTracker task_tracker_;
 

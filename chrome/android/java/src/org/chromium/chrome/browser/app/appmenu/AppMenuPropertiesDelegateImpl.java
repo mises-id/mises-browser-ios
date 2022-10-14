@@ -151,6 +151,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
     private int mAddAppTitleShown;
     private Map<CustomViewBinder, Integer> mCustomViewTypeOffsetMap;
     private boolean mIsTypeSpecificBookmarkItemRowPresent;
+    private boolean mShowExtensionOnly;
     /**
      * This is non null for the case of ChromeTabbedActivity when the corresponding {@link
      * CallbackController} has been fired.
@@ -363,11 +364,20 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
 
         Menu extensionMenu = new PopupMenu(mContext, mDecorView).getMenu();
         // If we are not showing extensions first, we append the extensions to the existing menu
-        if (!ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", true))
-            extensionMenu = menu;
-        prepareExtensionMenu(
+        boolean show_extensions_first = ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", true);
+        if (mShowExtensionOnly) {
+	  show_extensions_first = false;
+          for (int i = 0; i < menu.size(); ++i) {
+            MenuItem item = menu.getItem(i); 
+            if (item.getItemId() != R.id.extensions_id) {
+              item.setVisible(false);
+            }
+          }
+	}
+	if (!show_extensions_first)
+           extensionMenu = menu;
+	prepareExtensionMenu(
                     extensionMenu, isInStartSurfaceHomepage() ? null : currentTab, handler, mTabModelSelector.getCurrentModel().isIncognito());
-
         boolean menuHasFiveIconsRow = false;
         for (int i = 0; i < menu.size(); ++i) {
             MenuItem item = menu.getItem(i);
@@ -387,7 +397,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
             if (!item.isVisible()) continue;
 
             // If we do not have a five icons row in the main menu, we immediately show the extensions
-            if (ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", true)
+            if (show_extensions_first
                 && !menuHasFiveIconsRow
                 && !extensionsHaveBeenAdded) {
                     extensionsHaveBeenAdded = true;
@@ -450,7 +460,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
             modelList.add(new MVCListAdapter.ListItem(menutype, propertyModel));
 
             // If we chose to show extensions first, we append them after the first row that has 5 action buttons
-            if (ContextUtils.getAppSharedPreferences().getBoolean("show_extensions_first", true)
+            if (show_extensions_first
                 && !extensionsHaveBeenAdded
                 && menuHasFiveIconsRow
                 // current row is five icons row
@@ -496,10 +506,9 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
         boolean canShowExtensions = false;
         if (currentTab != null)
           canShowExtensions = true;
-
         int numItems = menu.size();
 
-        if (canShowExtensions) {
+        if (mShowExtensionOnly && canShowExtensions) {
           int itemIndex = numItems++;
           String extensions = "";
           if (isIncognito)
@@ -1218,6 +1227,7 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
 
     @Override
     public void onMenuDismissed() {
+	mShowExtensionOnly = false;
         mReloadPropertyModel = null;
         if (mUpdateMenuItemVisible) {
             UpdateMenuItemHelper.getInstance().onMenuDismissed();
@@ -1561,5 +1571,10 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
             return R.color.default_icon_color_accent1_tint_list;
         }
         return R.color.default_icon_color_secondary_tint_list;
+    }
+ 
+    @Override
+    public void showExtensionOnly(boolean show) {
+        mShowExtensionOnly = show;  
     }
 }

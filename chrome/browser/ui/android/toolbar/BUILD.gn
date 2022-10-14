@@ -277,7 +277,18 @@ android_resources("java_resources") {
     "java/res/values/values.xml",
     "java/res/xml/adaptive_toolbar_preference.xml",
   ]
-
+  sources += [
+    "java/res/drawable-hdpi/btn_tabswitcher_mises.png",
+    "java/res/drawable-hdpi/btn_extension.png",
+    "java/res/drawable-mdpi/btn_tabswitcher_mises.png",
+    "java/res/drawable-mdpi/btn_extension.png",
+    "java/res/drawable-xhdpi/btn_tabswitcher_mises.png",
+    "java/res/drawable-xhdpi/btn_extension.png",
+    "java/res/drawable-xxhdpi/btn_tabswitcher_mises.png",
+    "java/res/drawable-xxhdpi/btn_extension.png",
+    "java/res/drawable-xxxhdpi/btn_tabswitcher_mises.png",
+    "java/res/drawable-xxxhdpi/btn_extension.png",
+  ]
   deps = [
     "//chrome/browser/ui/android/strings:ui_strings_grd",
     "//chrome/browser/ui/android/theme:java_resources",

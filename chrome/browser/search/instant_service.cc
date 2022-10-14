@@ -286,9 +286,10 @@ void InstantService::SearchComplete(history::QueryResults results) {
         std::vector<GURL>::iterator itrr = std::find(recent.begin(), recent.end(), r.url);
         return itrl <  itrr;
   });
+  recent_extensions_.clear();
   for (const auto& item : items) {
-   LOG(INFO) << "[Kiwi] InstantService::SearchComplete - sort extension: " << item.url;
-    most_visited_info_->items.push_back(item);
+    LOG(INFO) << "[Kiwi] InstantService::SearchComplete - sort extension: " << item.url;
+    recent_extensions_.push_back(item);
   }
   NotifyAboutMostVisitedInfo();
 }
@@ -296,7 +297,7 @@ void InstantService::OnURLsAvailable(
     const std::map<ntp_tiles::SectionType, ntp_tiles::NTPTilesVector>&
         sections) {
   DCHECK(most_visited_sites_);
-  most_visited_info_->items.clear();
+  most_visited_items_.clear();
   // Use only personalized tiles for instant service.
   const ntp_tiles::NTPTilesVector& tiles =
       sections.at(ntp_tiles::SectionType::PERSONALIZED);
@@ -305,7 +306,7 @@ void InstantService::OnURLsAvailable(
     item.url = tile.url;
     item.title = tile.title;
     item.favicon = tile.favicon_url;
-    most_visited_info_->items.push_back(item);
+    most_visited_items_.push_back(item);
   }
   std::u16string search_text = base::UTF8ToUTF16(GetExtensionURL("").spec());
   history::QueryOptions options;
@@ -324,6 +325,14 @@ void InstantService::OnIconMadeAvailable(const GURL& site_url) {}
 
 void InstantService::NotifyAboutMostVisitedInfo() {
   LOG(INFO) << "[Kiwi] InstantService::NotifyAboutMostVisitedInfo";
+  most_visited_info_->items.clear();
+  for (const auto& item : most_visited_items_) {
+    most_visited_info_->items.push_back(item);
+  }
+  for (const auto& item : recent_extensions_) {
+    most_visited_info_->items.push_back(item);
+  }
+
   for (InstantServiceObserver& observer : observers_)
     observer.MostVisitedInfoChanged(*most_visited_info_);
 }

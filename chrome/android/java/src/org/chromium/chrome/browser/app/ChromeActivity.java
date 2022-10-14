@@ -1506,22 +1506,6 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                 outContent.setStructuredData(structuredData);
             }
         }
-	MisesController.getInstance();
-
-        if (!SharedPreferencesManager.getInstance().hasShowDefaultBrowserTip()) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                Intent intent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
-                ComponentName componentName = intent.resolveActivity(getPackageManager());
-                if (componentName != null) {
-                    MisesUtil.showAlertDialog(ChromeActivity.this, ChromeActivity.this.getString(R.string.lbl_default_browser_tip), v1 -> {
-                            startActivity(intent);
-                    });
-                    SharedPreferencesManager.getInstance().setShowDefaultBrowserTip(true);
-                }
-            }
-            Profile profile = getCurrentTabModel().getProfile();
-	    WebsitePreferenceBridge.setPopupSettingForOrigin(profile, "https://home.mises.site", 1, false);
-        }
     }
 
     // TODO(crbug.com/973781): Once Chromium is built against Android Q SDK, replace
@@ -1796,6 +1780,24 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             }
         };
         display.addObserver(mDisplayAndroidObserver);
+
+
+        MisesController.getInstance();
+
+        if (!SharedPreferencesManager.getInstance().hasShowDefaultBrowserTip()) {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                Intent intent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
+                ComponentName componentName = intent.resolveActivity(getPackageManager());
+                if (componentName != null) {
+                    MisesUtil.showAlertDialog(ChromeActivity.this, ChromeActivity.this.getString(R.string.lbl_default_browser_tip), v1 -> {
+                            startActivity(intent);
+                    });
+                    SharedPreferencesManager.getInstance().setShowDefaultBrowserTip(true);
+                }
+            }
+            Profile profile = getCurrentTabModel().getProfile();
+            WebsitePreferenceBridge.setPopupSettingForOrigin(profile, "https://home.mises.site", 1, false);
+        }
     }
 
     /**
@@ -1821,6 +1823,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         if (mManualFillingComponentSupplier.hasValue()) {
             mManualFillingComponentSupplier.get().dismiss();
         }
+	if (menuItemData == null) {
+	    mRootUiCoordinator.getAppMenuCoordinatorForTesting().getAppMenuPropertiesDelegate().showExtensionOnly(true);
+	}
         return onMenuOrKeyboardAction(itemId, true);
     }
 

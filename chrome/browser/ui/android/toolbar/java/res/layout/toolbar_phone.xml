@@ -65,9 +65,10 @@
 
         <org.chromium.ui.widget.ChromeImageButton
             android:id="@+id/mises_share_button"
-            style="@style/ToolbarButton"
+	    style="@style/ToolbarButton"
+	    android:paddingStart="8dp"
             android:layout_gravity="top"
-            android:src="@mipmap/ic_mises_forward"
+            android:src="@drawable/btn_extension"
             android:contentDescription="@null" />
 
         <org.chromium.chrome.browser.toolbar.top.ToggleTabStackButton

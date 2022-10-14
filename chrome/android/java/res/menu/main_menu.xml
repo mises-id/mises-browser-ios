@@ -35,6 +35,9 @@
                 android:icon="@drawable/btn_reload_stop"/>
             </menu>
         </item>
+        <item android:id="@+id/mises_forward_menu_id"
+            android:title="@string/menu_mises_forward"
+            android:icon="@drawable/ic_menu_mises_forward" />
         <item android:id="@+id/update_menu_id"
             android:title="@string/menu_update"
             android:icon="@drawable/menu_update" />

@@ -46,7 +46,7 @@ public class TabSwitcherDrawable extends TintedDrawable {
     public static TabSwitcherDrawable createTabSwitcherDrawable(
             Context context, @BrandedColorScheme int brandedColorScheme) {
         Bitmap icon = BitmapFactory.decodeResource(
-                context.getResources(), R.drawable.btn_tabswitcher_modern);
+                context.getResources(), R.drawable.btn_tabswitcher_mises);
         return new TabSwitcherDrawable(context, brandedColorScheme, icon);
     }
 

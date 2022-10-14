@@ -235,7 +235,11 @@ import org.chromium.chrome.browser.init.InAppUpdater;
 import org.chromium.chrome.browser.homepage.HomepageManager;
 
 import android.animation.ValueAnimator;
-
+import org.chromium.chrome.browser.mises.MisesController;
+import org.chromium.chrome.browser.mises.MisesShareWin;
+import org.chromium.chrome.browser.mises.MisesUtil;
+import org.json.JSONException;
+import org.json.JSONObject;
 /**
  * This is the main activity for ChromeMobile when not running in document mode.  All the tabs
  * are accessible via a chrome specific tab switching UI.
@@ -1460,6 +1464,7 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
         // If the start surface or grid tab switcher will be shown on start, do not create a new
         // tab.
         if (!shouldShowOverviewPageOnStart()) {
+	    Log.i(TAG, "#createInitialTab step - 1.");
             String url = HomepageManager.getHomepageUri();
             if (TextUtils.isEmpty(url)) {
                 url = "chrome-search://local-ntp/local-ntp.html";
@@ -1467,13 +1472,15 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
                 // Migrate legacy NTP URLs (chrome://newtab) to the newer format
                 // (chrome-native://newtab)
                 if (UrlUtilities.isNTPUrl(url)) {
-                    if (false)
                     url = "chrome-search://local-ntp/local-ntp.html";
                 }
             }
+	    Log.i(TAG, "#createInitialTab step - 2." + url);
 
             getTabCreator(false).launchUrl(url, TabLaunchType.FROM_STARTUP);
-        }
+        } else {
+	  Log.i(TAG, "#createInitialTab step - 3.");
+	}
 
         // If we didn't call setInitialOverviewState() in onStartWithNative() because
         // mPendingInitialTabCreation was true then do so now.
@@ -2286,7 +2293,49 @@ public class ChromeTabbedActivity extends ChromeActivity<ChromeActivityComponent
             RecordUserAction.record("MobileTabClosedUndoShortCut");
         } else if (id == R.id.enter_vr_id) {
             VrModuleProvider.getDelegate().enterVrIfNecessary();
-        } else {
+        } else if (id == R.id.mises_forward_menu_id) {
+            String SCRIPT = "if(window.misesModule && window.misesModule.getWindowInformation){window.misesModule.getWindowInformation()} else {console.log('window.misesModule or window.misesModule.getWindowInformation is null')}";
+            final Context context = ChromeTabbedActivity.this;
+            if (currentTab == null || currentTab.getWebContents() == null)
+                return true;
+            if (currentTab.isNativePage() || currentTab.isClosing()
+                    || currentTab.isShowingErrorPage() ) {
+                Log.e("mises","share currentTab.isNativePage() || currentTab.isClosing() || currentTab.isShowingErrorPage() || currentTab.isShowingSadTab()");
+                Toast.makeText(context, context.getString(R.string.lbl_can_not_share_tip), Toast.LENGTH_SHORT).show();
+                return true;
+            }
+            currentTab.getWebContents().evaluateJavaScript(SCRIPT, jsonResult -> {
+                Log.e("mises share msg : ", jsonResult);
+                if (jsonResult != null && !jsonResult.isEmpty()) {
+                    try {
+                        JSONObject ob = new JSONObject(jsonResult);
+                        String icon = "";
+                        if (ob.has("icon"))
+                            icon = ob.getString("icon");
+                        String title = ob.getString("title");
+                        String url = ob.getString("url");
+                        if (MisesController.getInstance().getMisesToken().isEmpty()) {
+                            MisesUtil.showAlertDialog(context, context.getString(R.string.lbl_login_tip), v1 -> {
+                                ChromeTabCreator tabCreator = ChromeTabbedActivity.this.getTabCreator(false);
+                                if (tabCreator != null) {
+                                    tabCreator.openSinglePage("https://home.mises.site/home/me");
+                                }
+                            });
+                            return;
+                        }
+                        MisesShareWin shareWin = MisesShareWin.newInstance(ChromeTabbedActivity.this, icon, title, url);
+                        shareWin.show((ChromeTabbedActivity.this).getSupportFragmentManager(), "MisesShareWin");
+                    } catch (JSONException e) {
+                        Log.e("mises", "share is not json" + e.toString());
+                        Toast.makeText(context, context.getString(R.string.lbl_can_not_share_tip), Toast.LENGTH_SHORT).show();
+                        e.printStackTrace();
+                    }
+                } else {
+                    Log.e("mises", "share json is null");
+                    Toast.makeText(context, context.getString(R.string.lbl_can_not_share_tip), Toast.LENGTH_SHORT).show();
+                }
+            });
+	} else {
             return super.onMenuOrKeyboardAction(id, fromMenu);
         }
         return true;
