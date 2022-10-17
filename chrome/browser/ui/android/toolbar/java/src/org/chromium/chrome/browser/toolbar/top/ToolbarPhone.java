@@ -3122,7 +3122,7 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
     }
     private void setupMisesButtonClickListener() {
         if (mMisesMainButton != null) mMisesMainButton.setOnClickListener(this);
-        if (mMisesShareButton != null) mMisesShareButton.setOnClickListener(this);
+	if (mMisesShareButton != null) mMisesShareButton.setOnClickListener(this);
     }
     private void onClickMisesButton(View v) {
         if (mMisesMainButton != null && mMisesMainButton == v) {
@@ -3188,7 +3188,10 @@ public class ToolbarPhone extends ToolbarLayout implements OnClickListener, TabC
         } else if (mMisesShareButton != null && mMisesShareButton == v) {
             //FirebaseAnalytics.getInstance(getContext()).logEvent("share", new Bundle());
 	    final AppMenuDelegate act = (AppMenuDelegate) getContext();
-	    act.onOptionsItemSelected((int)R.id.show_menu, null);
+	    act.setShowExtensionOnly();
+            if (getMenuButtonCoordinator() != null) {
+	        getMenuButtonCoordinator().getHelper().onEnterKeyPress(v);
+	    }
 	  if(false) {
             String SCRIPT = "if(window.misesModule && window.misesModule.getWindowInformation){window.misesModule.getWindowInformation()} else {console.log('window.misesModule or window.misesModule.getWindowInformation is null')}";
             final Context context = getContext();

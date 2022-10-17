@@ -1808,6 +1808,10 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
     }
 
     @Override
+    public void setShowExtensionOnly() {
+      mRootUiCoordinator.getAppMenuCoordinatorForTesting().getAppMenuPropertiesDelegate().showExtensionOnly(true);
+    }
+    @Override
     public void setLastItemTitle(String itemTitle) {
 	Log.d("Kiwi", "setLastItemTitle:" + itemTitle);
         mMenuTitleCondensed = itemTitle;
@@ -1823,9 +1827,6 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         if (mManualFillingComponentSupplier.hasValue()) {
             mManualFillingComponentSupplier.get().dismiss();
         }
-	if (menuItemData == null) {
-	    mRootUiCoordinator.getAppMenuCoordinatorForTesting().getAppMenuPropertiesDelegate().showExtensionOnly(true);
-	}
         return onMenuOrKeyboardAction(itemId, true);
     }
 

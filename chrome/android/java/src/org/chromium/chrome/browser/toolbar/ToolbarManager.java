@@ -577,10 +577,6 @@ public class ToolbarManager implements UrlFocusChangeListener, ThemeColorObserve
                 TabUiFeatureUtilities.isGridTabSwitcherEnabled(mActivity);
         boolean isTabletGtsPolishEnabled =
                 TabUiFeatureUtilities.isTabletGridTabSwitcherPolishEnabled(mActivity);
-        //if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("default")
-        //          || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("original")
-        //          || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("horizontal"))
-        //    isGridTabSwitcherEnabled = true;
         boolean isTabToGtsAnimationEnabled = TabUiFeatureUtilities.isTabToGtsAnimationEnabled();
         boolean isTabGroupsAndroidContinuationEnabled =
                 TabUiFeatureUtilities.isTabGroupsAndroidContinuationEnabled(mActivity);

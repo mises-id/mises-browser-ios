@@ -199,9 +199,10 @@ public class TabSwitcherCoordinator
             @NonNull ModalDialogManager modalDialogManager) {
         try (TraceEvent e = TraceEvent.scoped("TabSwitcherCoordinator.constructor")) {
             mActivity = activity;
-            if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("list"))
+	    final String active_tabswitcher = ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default");
+            if (active_tabswitcher.equals("list"))
               mode = TabListCoordinator.TabListMode.LIST;
-            if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic") || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("grid"))
+            if (active_tabswitcher.equals("default") || active_tabswitcher.equals("grid"))
               mode = TabListCoordinator.TabListMode.GRID;
             mMode = mode;
             mTabModelSelector = tabModelSelector;

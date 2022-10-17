@@ -81,11 +81,15 @@ public class TabGridDialogCoordinator implements TabGridDialogMediator.DialogCon
 
             // TODO(crbug.com/1031349) : Remove the inline mode logic here, make the constructor to
             // take in a mode parameter instead.
-            mTabListCoordinator = new TabListCoordinator(
-                    TabUiFeatureUtilities.isTabGroupsAndroidContinuationEnabled(activity)
+	    int mode = TabUiFeatureUtilities.isTabGroupsAndroidContinuationEnabled(activity)
                                     && SysUtils.isLowEndDevice()
                             ? TabListCoordinator.TabListMode.LIST
-                            : TabListCoordinator.TabListMode.GRID,
+                            : TabListCoordinator.TabListMode.GRID;
+            final String active_tabswitcher = ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default");
+            if (active_tabswitcher.equals("default") || active_tabswitcher.equals("grid"))
+                mode = TabListCoordinator.TabListMode.GRID;
+            mTabListCoordinator = new TabListCoordinator(
+                    mode,
                     activity, tabModelSelector, tabContentManager::getTabThumbnailWithCallback,
                     null, false, gridCardOnClickListenerProvider,
                     mMediator.getTabGridDialogHandler(), TabProperties.UiType.CLOSABLE, null, null,
@@ -116,7 +120,7 @@ public class TabGridDialogCoordinator implements TabGridDialogMediator.DialogCon
                 int mode = SysUtils.isLowEndDevice() ? TabListCoordinator.TabListMode.LIST
                                                      : TabListCoordinator.TabListMode.GRID;
 		final String active_tabswitcher = ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default");
-                if (active_tabswitcher.equals("default") || active_tabswitcher.equals("classic") || active_tabswitcher.equals("grid"))
+                if (active_tabswitcher.equals("default") || active_tabswitcher.equals("grid"))
                     mode = TabListCoordinator.TabListMode.GRID;
                 mTabSelectionEditorCoordinator = new TabSelectionEditorCoordinator(context,
                         mDialogView.findViewById(R.id.dialog_container_view), tabModelSelector,

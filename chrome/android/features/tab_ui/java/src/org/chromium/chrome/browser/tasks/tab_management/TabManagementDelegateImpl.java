@@ -81,9 +81,9 @@ public class TabManagementDelegateImpl implements TabManagementDelegate {
         if (TabUiFeatureUtilities.isTabGroupsAndroidContinuationEnabled(activity)
                                 && SysUtils.isLowEndDevice())
             mode = TabListCoordinator.TabListMode.LIST;
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic") || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("grid"))
-            mode = TabListCoordinator.TabListMode.GRID;
-
+        final String active_tabswitcher = ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default");
+	if (active_tabswitcher.equals("default") || active_tabswitcher.equals("grid"))
+	    mode = TabListCoordinator.TabListMode.GRID;
         return new TabSwitcherCoordinator(activity, activityLifecycleDispatcher, tabModelSelector,
                 tabContentManager, browserControlsStateProvider, tabCreatorManager,
                 menuOrKeyboardActionController, containerView, shareDelegateSupplier,

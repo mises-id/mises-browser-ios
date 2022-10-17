@@ -568,12 +568,6 @@ class TabListMediator {
             @Nullable TabGridDialogHandler dialogHandler,
             @Nullable PriceWelcomeMessageController priceWelcomeMessageController,
             String componentName, @UiType int uiType) {
-/*
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("list"))
-          mode = TabListMode.LIST;
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic") || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("grid"))
-          mode = TabListMode.GRID;
-*/
         mContext = context;
         mTabModelSelector = tabModelSelector;
         mThumbnailProvider = thumbnailProvider;
@@ -1346,9 +1340,6 @@ class TabListMediator {
     void updateSpanCount(
             GridLayoutManager manager, int orientation, int screenWidthDp) {
         int spanCount = getSpanCount(orientation, screenWidthDp);
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "classic").equals("classic")) {
-          spanCount = 1;
-        }
         manager.setSpanCount(spanCount);
         manager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
             @Override
@@ -1370,6 +1361,9 @@ class TabListMediator {
      * reasonable.
      */
     private int getSpanCount(int orientation, int screenWidthDp) {
+        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic")) {
+          return 1;
+        }
         if (DeviceFormFactor.isNonMultiDisplayContextOnTablet(mContext)
                 && TabUiFeatureUtilities.isGridTabSwitcherEnabled(mContext)) {
             return screenWidthDp < TabListCoordinator.MAX_SCREEN_WIDTH_COMPACT_DP

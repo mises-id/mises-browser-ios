@@ -35,7 +35,7 @@
 namespace {
 
 // The size of the InstantMostVisitedItem cache.
-const size_t kMaxInstantMostVisitedItemCacheSize = 100;
+const size_t kMaxInstantMostVisitedItemCacheSize = 500;
 
 // Returns true if items stored in |old_item_id_pairs| and |new_items| are
 // equal.

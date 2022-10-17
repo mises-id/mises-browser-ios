@@ -27,4 +27,5 @@ public interface AppMenuDelegate {
 
     void setLastItemTitle(String itemTitle);
     void setLastVisibleItemTitle(String itemTitle);
+    void setShowExtensionOnly();
 }

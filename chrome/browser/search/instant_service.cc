@@ -326,13 +326,12 @@ void InstantService::OnIconMadeAvailable(const GURL& site_url) {}
 void InstantService::NotifyAboutMostVisitedInfo() {
   LOG(INFO) << "[Kiwi] InstantService::NotifyAboutMostVisitedInfo";
   most_visited_info_->items.clear();
-  for (const auto& item : most_visited_items_) {
-    most_visited_info_->items.push_back(item);
-  }
   for (const auto& item : recent_extensions_) {
     most_visited_info_->items.push_back(item);
   }
-
+  for (const auto& item : most_visited_items_) {
+    most_visited_info_->items.push_back(item);
+  }
   for (InstantServiceObserver& observer : observers_)
     observer.MostVisitedInfoChanged(*most_visited_info_);
 }

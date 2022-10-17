@@ -164,7 +164,7 @@ public class PersonalizeResults {
    private static final String EZDEFI_EXTENSION_STYLES = "'#root {height:auto!important} .privacy-policy-page .confirmModal .content-area {height:calc(100vh - 245px);} .container {width:100vw}'";
 
    // lilico 
-   private static final String LILICO_EXTENSION_STYLES = "'body .h-full{width:100vw!important;height:100vh!important}body .css-8exq99 {display: block} body .css-ukvzfb {width: 100vw} body .css-ff30gh {padding: 24px 24px 32px} body .css-168mpgf {width:95vw;height:auto;} body .css-18xmly0 {width: 100%} body .css-rgv6dd {width:95vw;height:auto;} body .css-105skla{width:95vw;height:auto;} body .css-1uez6az{width:auto;} body .css-1qjqn4b{width:95vw;height:auto;}body .css-qxmw80{font-size:0.8rem} .css-1aiq4ho,.css-19gyshh{width: 100vw} .css-tlszgr{width: 100%}'";
+   private static final String LILICO_EXTENSION_STYLES = "'body .h-full{width:100vw!important;height:100vh!important}body .css-8exq99 {display: block} body .css-ukvzfb {width: 100vw} body .css-ff30gh {padding: 24px 24px 32px} body .css-168mpgf,body .css-11ickte,body .css-qbxbh8,body .css-r0k0t6{width:95vw;height:auto;} body .css-18xmly0 {width: 100%} body .css-rgv6dd {width:95vw;height:auto;} body .css-105skla{width:95vw;height:auto;} body .css-1uez6az{width:auto;} body .css-1qjqn4b{width:95vw;height:auto;}body .css-qxmw80{font-size:0.8rem} .css-1aiq4ho,.css-19gyshh{width: 100vw} .css-tlszgr{width: 100%}'";
 
    // xdefi 
    private static final String XDEFI_EXTENSION_STYLES = "'.gsrcgK,.index-module__wrapper___W2wCS .index-module__buttonWrapper___TqFk5  {flex-direction: column;align-items: center;} .index-module__onboarding___XQLfD .index-module__contentContainer___Iujo0 .index-module__body___grFff {width: 100vw;min-width:100vw;padding: 0 20px} .jeVaVP{min-width:100%} .izXqrv{width:90vw}'";
@@ -185,7 +185,7 @@ public class PersonalizeResults {
    private static final String CELOEXTENSION_EXTENSION_STYLES = "'.select-action__select-buttons {flex-direction:column;}.select-action__select-button {width:100vw;margin-left:0;}'";
 
    // cosmos wallet 
-   private static final String COSMOS_EXTENSION_STYLES = "'.flex.flex-row.gap-x-[20px]{flex-direction: column;}'";
+   private static final String COSMOS_EXTENSION_STYLES = "'.flex.z-10.overflow-scroll.mt-24.items-start.justify-center .flex.flex-row{flex-direction: column;} .flex.z-10.overflow-scroll.mt-24.items-start.justify-center .flex.flex-col.justify-center{width:100%} .flex.flex-row.justify-center.items-center.h-12.rounded-3xl.border-none {width: 100%} .flex.z-10.overflow-scroll.mt-24.items-start.justify-center .shrink.flex-col.rounded-lg.border-gray-800 {margin-top:20px;width:100%} .rounded-2xl.dark:bg-gray-900.bg-white-100.text-xs.font-medium.box-border.font-Satoshi.p-6 {width:100%} .overflow-y-auto.bg-gray-50.dark:bg-black-100{width:100%}'";
 
     private static final String MAKE_USER_AGENT_WRITABLE = ""
 +"(function() {"

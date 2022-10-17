@@ -247,4 +247,7 @@ public class MenuButtonCoordinator {
     public boolean isShowingUpdateBadge() {
         return mPropertyModel.get(MenuButtonProperties.SHOW_UPDATE_BADGE).mShowUpdateBadge;
     }
+    public AppMenuButtonHelper getHelper() {
+	return mPropertyModel.get(MenuButtonProperties.APP_MENU_BUTTON_HELPER);
+    }
 }

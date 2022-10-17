@@ -256,10 +256,11 @@ class TabSwitcherMediator implements TabSwitcher.Controller, TabListRecyclerView
         mTabModelSelector = tabModelSelector;
         mBrowserControlsStateProvider = browserControlsStateProvider;
         mMultiWindowModeStateDispatcher = multiWindowModeStateDispatcher;
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("list"))
-          mode = TabListMode.LIST;
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic") || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("grid"))
-          mode = TabListMode.GRID;
+        final String active_tabswitcher = ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default");
+        if (active_tabswitcher.equals("list"))
+          mode = TabListCoordinator.TabListMode.LIST;
+        if (active_tabswitcher.equals("default") || active_tabswitcher.equals("grid"))
+          mode = TabListCoordinator.TabListMode.GRID;
         mMode = mode;
         mContext = context;
 

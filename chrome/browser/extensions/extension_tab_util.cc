@@ -765,7 +765,7 @@ bool ExtensionTabUtil::GetTabById(int tab_id,
                                   TabStripModel** tab_strip,
                                   WebContents** contents,
                                   int* tab_index) {
-  LOG(INFO) << "ExtensionTabUtil::GetTabById" << tab_id;
+  //LOG(INFO) << "ExtensionTabUtil::GetTabById" << tab_id;
   if (tab_id == api::tabs::TAB_ID_NONE)
     return false;
   Profile* profile = Profile::FromBrowserContext(browser_context);
@@ -774,13 +774,13 @@ bool ExtensionTabUtil::GetTabById(int tab_id,
           ? profile->GetPrimaryOTRProfile(/*create_if_needed=*/false)
           : nullptr;
   for (auto* target_browser : *BrowserList::GetInstance()) {
-    LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check profile " << profile << " target_browser " << target_browser << " target_profile " << target_browser->profile();
+    //LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check profile " << profile << " target_browser " << target_browser << " target_profile " << target_browser->profile();
     if (target_browser->profile() == profile ||
         target_browser->profile() == incognito_profile) {
       TabStripModel* target_tab_strip = target_browser->tab_strip_model();
       for (int i = 0; i < target_tab_strip->count(); ++i) {
         WebContents* target_contents = target_tab_strip->GetWebContentsAt(i);
-	LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check browser tab " << sessions::SessionTabHelper::IdForTab(target_contents).id();
+	//LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check browser tab " << sessions::SessionTabHelper::IdForTab(target_contents).id();
         if (sessions::SessionTabHelper::IdForTab(target_contents).id() ==
             tab_id) {
           if (browser)
@@ -799,10 +799,10 @@ bool ExtensionTabUtil::GetTabById(int tab_id,
 #if BUILDFLAG(IS_ANDROID)
       if (!TabModelList::models().empty()) {
         TabModel * my_tab_strip = *(TabModelList::models().begin());
-        LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check profile " << profile << " target_model " << my_tab_strip << " target_profile " << my_tab_strip->GetProfile();
+        //LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check profile " << profile << " target_model " << my_tab_strip << " target_profile " << my_tab_strip->GetProfile();
         for (int i = 0; i < my_tab_strip->GetTabCount(); ++i) {
           WebContents* target_contents = my_tab_strip->GetWebContentsAt(i);
-          LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check model tab " << sessions::SessionTabHelper::IdForTab(target_contents).id();
+          //LOG(INFO) << "ExtensionTabUtil::GetTabById" << "check model tab " << sessions::SessionTabHelper::IdForTab(target_contents).id();
           if (sessions::SessionTabHelper::IdForTab(target_contents).id() == tab_id) {
             if (contents)
               *contents = target_contents;

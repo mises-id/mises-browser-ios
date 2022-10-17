@@ -148,12 +148,6 @@ public class TabListCoordinator
                     .PriceWelcomeMessageController priceWelcomeMessageController,
             @NonNull ViewGroup parentView, boolean attachToParent, String componentName,
             @NonNull ViewGroup rootView) {
-/*
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("list"))
-          mode = TabListMode.LIST;
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic") || ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("grid"))
-          mode = TabListMode.GRID;
-*/
         mMode = mode;
         mItemType = itemType;
         mContext = context;
@@ -161,15 +155,6 @@ public class TabListCoordinator
         mAdapter = new SimpleRecyclerViewAdapter(mModel);
         mRootView = rootView;
         RecyclerView.RecyclerListener recyclerListener = null;
-/*
-        if (ContextUtils.getAppSharedPreferences().getString("active_tabswitcher", "default").equals("classic") && componentName != "TabGridDialogInSwitcher" && componentName != "TabGridDialogFromStrip") {
-          GRID_LAYOUT_SPAN_COUNT_PORTRAIT = 1;
-          GRID_LAYOUT_SPAN_COUNT_LANDSCAPE = 1;
-        } else {
-          GRID_LAYOUT_SPAN_COUNT_PORTRAIT = 2;
-          GRID_LAYOUT_SPAN_COUNT_LANDSCAPE = 3;
-        }
-*/
         if (mMode == TabListMode.GRID || mMode == TabListMode.CAROUSEL) {
             mAdapter.registerType(UiType.SELECTABLE, parent -> {
                 ViewGroup group = (ViewGroup) LayoutInflater.from(context).inflate(

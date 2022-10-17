@@ -1280,7 +1280,7 @@ ExtensionFunction::ResponseAction TabsQueryFunction::Run() {
   std::unique_ptr<tabs::Query::Params> params(
       tabs::Query::Params::Create(args()));
   EXTENSION_FUNCTION_VALIDATE(params.get());
-  LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 1";
+  LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run";
   bool loading_status_set = params->query_info.status != tabs::TAB_STATUS_NONE;
 
   URLPatternSet url_patterns;
@@ -1432,7 +1432,7 @@ ExtensionFunction::ResponseAction TabsQueryFunction::Run() {
         continue;
       }
 #else
-  LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 4";
+  //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 4";
 //  Profile* profile = Profile::FromBrowserContext(browser_context());
 //  Browser* last_active_browser =
 //      chrome::FindAnyBrowser(profile, include_incognito());
@@ -1441,40 +1441,38 @@ ExtensionFunction::ResponseAction TabsQueryFunction::Run() {
  // LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5: " << profile;
   //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5-1: " << last_active_browser;
   //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5-2: " << current_browser;
-  LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - IsOffTheRecordSessionActive: " << TabModelList::IsOffTheRecordSessionActive();
+  //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - IsOffTheRecordSessionActive: " << TabModelList::IsOffTheRecordSessionActive();
   TabModel *tab_strip = nullptr;
   if (!TabModelList::models().empty())
     tab_strip = *(TabModelList::models().begin());
-  LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel: " << tab_strip;
+  //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel: " << tab_strip;
   if (tab_strip) {
-    LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Open tabs: " << tab_strip->GetTabCount();
-    LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Active index: " << tab_strip->GetActiveIndex();
-    LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Last user-interacted active index: " << tab_strip->GetLastNonExtensionActiveIndex();
+    //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Open tabs: " << tab_strip->GetTabCount();
+    //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Active index: " << tab_strip->GetActiveIndex();
+    //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Last user-interacted active index: " << tab_strip->GetLastNonExtensionActiveIndex();
     for (int i = 0; i < tab_strip->GetTabCount(); ++i) {
        WebContents* web_contents = tab_strip->GetWebContentsAt(i);
-      LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-1 (tab loop)";
+      //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-1 (tab loop)";
 
       if (index > -1 && i != index) {
-         LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-1a (oob-index): " << i << " vs " << index;
+         //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-1a (oob-index): " << i << " vs " << index;
          continue;
        }
-/*
-      int openingTab = (tab_strip->GetLastNonExtensionActiveIndex());
+
+      int openingTab = (tab_strip->GetActiveIndex());
       if (openingTab == -1)
         openingTab = 0;
 
-       if (!MatchesBool(params->query_info.active.get(),
-
-                       i == openingTab)) {
+       if (!MatchesBool(params->query_info.active.get(), i == openingTab)) {
          continue;
        }
-*/
+
       if (!web_contents) {
-        LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-1b (there is no webcontents)";
+        //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-1b (there is no webcontents)";
          continue;
        }
 
-      LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-2";
+      //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-2";
 #endif
       if (!title.empty() || !url_patterns.is_empty()) {
         // "title" and "url" properties are considered privileged data and can
