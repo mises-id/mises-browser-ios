@@ -713,6 +713,9 @@ public class AppMenuPropertiesDelegateImpl implements AppMenuPropertiesDelegate 
             if (disableProxyMenu != null)
                 disableProxyMenu.setVisible(false);
         }
+        MenuItem devToolMenu = menu.findItem(R.id.developer_tools_id);
+	if (devToolMenu != null) 
+	    devToolMenu.setVisible(false);
 
         // Only display reader mode settings menu option if the current page is in reader mode.
         if (menu.findItem(R.id.reader_mode_prefs_id) != null)

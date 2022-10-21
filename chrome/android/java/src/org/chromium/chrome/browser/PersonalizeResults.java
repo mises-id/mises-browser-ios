@@ -181,7 +181,7 @@ public class PersonalizeResults {
    private static final String COINHUB_EXTENSION_STYLES = "'.select-action__select-buttons {flex-direction:column;}.select-action__select-button {width:100vw;margin-left:0;}'";
 
    // avana 
-   private static final String AVANA_EXTENSION_STYLES = "'.css-v7pilp {max-width: 100vw} .css-1xvtca5 {max-width: 100vw;min-width: 100vw}'";
+   private static final String AVANA_EXTENSION_STYLES = "'.css-v7pilp {max-width: 100vw} .css-1xvtca5 {max-width: 100vw;min-width: 100vw} .css-10otl7m{    max-width: 29.5vw;}'";
 
    // Teleport Wallet 
    private static final String TELEPORTWALLET_EXTENSION_STYLES = "'.expanded-view .popup-size, body {width: 100vw;height:inherit}'";

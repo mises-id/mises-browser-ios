@@ -665,7 +665,6 @@ void FeatureList::RegisterOverride(StringPiece feature_name,
                                    OverrideState overridden_state,
                                    FieldTrial* field_trial) {
   DCHECK(!initialized_);
-   LOG(INFO) << "FeatureList::RegisterOverride - " << feature_name;
   DCheckOverridesAllowed();
   if (field_trial) {
     DCHECK(IsValidFeatureOrFieldTrialName(field_trial->trial_name()))
