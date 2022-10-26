@@ -113,12 +113,12 @@ public class SharedPreferencesManager {
         getInstance().writeString(ChromePreferenceKeys.MISES_USER_INFO, userinfo);
     }
 
-    public boolean hasShowDefaultBrowserTip() {
-        return getInstance().readBoolean(ChromePreferenceKeys.MISES_DEFAULT_BROWSER_TIP, false);
+    public boolean isMisesFirstRun() {
+        return getInstance().readBoolean(ChromePreferenceKeys.MISES_FIRST_RUN, true);
     }
 
-    public void setShowDefaultBrowserTip(boolean show) {
-        getInstance().writeBoolean(ChromePreferenceKeys.MISES_DEFAULT_BROWSER_TIP, show);
+    public void setMisesFirstRun(boolean isFirst) {
+        getInstance().writeBoolean(ChromePreferenceKeys.MISES_FIRST_RUN, isFirst);
     }
 
     /**

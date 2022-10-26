@@ -375,6 +375,7 @@ void ExtensionHost::AddNewContents(WebContents* source,
                                    const gfx::Rect& initial_rect,
                                    bool user_gesture,
                                    bool* was_blocked) {
+  LOG(INFO) << "ExtensionHost::AddNewContents";
   // First, if the creating extension view was associated with a tab contents,
   // use that tab content's delegate. We must be careful here that the
   // associated tab contents has the same profile as the new tab contents. In

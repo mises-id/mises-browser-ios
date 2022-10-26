@@ -330,7 +330,6 @@ void FeatureList::RegisterFieldTrialOverride(const std::string& feature_name,
       << "Check the trial (study) in (1) the server config, "
       << "(2) fieldtrial_testing_config.json, (3) about_flags.cc, and "
       << "(4) client-side field trials.";
-  LOG(INFO) << "FeatureList::RegisterFieldTrialOverride";
   RegisterOverride(feature_name, override_state, field_trial);
 }
 

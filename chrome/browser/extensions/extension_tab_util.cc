@@ -981,6 +981,7 @@ void ExtensionTabUtil::CreateTab(std::unique_ptr<WebContents> web_contents,
                                  WindowOpenDisposition disposition,
                                  const gfx::Rect& initial_rect,
                                  bool user_gesture) {
+  LOG(INFO) << "ExtensionTabUtil::CreateTab";
   Profile* profile =
       Profile::FromBrowserContext(web_contents->GetBrowserContext());
   Browser* browser = chrome::FindTabbedBrowser(profile, false);

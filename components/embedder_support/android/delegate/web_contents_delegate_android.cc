@@ -189,6 +189,7 @@ void WebContentsDelegateAndroid::WebContentsCreated(
     const std::string& frame_name,
     const GURL& target_url,
     WebContents* new_contents) {
+  LOG(INFO) << " WebContentsDelegateAndroid::WebContentsCreated" << target_url.spec();
   JNIEnv* env = AttachCurrentThread();
   ScopedJavaLocalRef<jobject> obj = GetJavaDelegate(env);
   if (obj.is_null())

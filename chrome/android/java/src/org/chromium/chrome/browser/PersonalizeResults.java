@@ -20,6 +20,7 @@ public class PersonalizeResults {
 	      "https://link3.to",
 	      "https://chartex.pro",
 	      "https://app.slingshot.finance",
+	      "https://bridge.terra.money"
 	  };
 	  for (int i = 0; i < urlUseDesktop.length; i++) {
 	     final GURL url = new GURL(urlUseDesktop[i]);
@@ -145,6 +146,22 @@ public class PersonalizeResults {
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://mfhbebgoclkghebffdldpobeajmbecfk")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(STERMASK_EXTENSION_STYLES), null);
        }
+       // Adena
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://oefglhbffgfkcpboeackfgdagmlnihnh")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(ADENA_EXTENSION_STYLES), null);
+       }
+       // Push Protocol (Alpha)
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://lbdcbpaldalgiieffakjhiccoeebchmg")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(PUSHPROTOCOL_EXTENSION_STYLES), null);
+       }
+       // coin 98
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://aeachknmefphepccionboohckonoeemg")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(COIN98_EXTENSION_STYLES), null);
+       }
+       // DioWallet
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://ghdejoclpabnhidemhnfagafafcmgcfm")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(DIOWALLET_EXTENSION_STYLES), null);
+       }
     }
 
     private static String RenderStyleContent(String STYLES) {
@@ -224,6 +241,18 @@ public class PersonalizeResults {
 
    // StarMask 
    private static final String STERMASK_EXTENSION_STYLES = "'.select-action__select-buttons {flex-direction:column} .select-action__select-button {margin-left:0;margin-bottom:10px} .first-time-flow{padding:20px}'";
+
+   // adena 
+   private static final String ADENA_EXTENSION_STYLES = "'html, body{width:100vw}'";
+
+   // push protocol 
+   private static final String PUSHPROTOCOL_EXTENSION_STYLES = "'.hdHyne{width:100vw;height:auto;overflow:auto} .transition-effect{display: none}'";
+
+
+   // dio wallet 
+   private static final String DIOWALLET_EXTENSION_STYLES = "'.app{max-width: 100vw;} .create-account{width: 100%}'";
+   // coin 98
+   private static final String COIN98_EXTENSION_STYLES = "'.popup-chain-selection{height: 93vh}'";
 
     private static final String MAKE_USER_AGENT_WRITABLE = ""
 +"(function() {"

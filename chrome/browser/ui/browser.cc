@@ -539,28 +539,28 @@ Browser::Browser(const CreateParams& params)
 
   if (params.skip_window_init_for_testing)
     return;
-  LOG(INFO) << "Browser::Browser step - 2";
+  //LOG(INFO) << "Browser::Browser step - 2";
   window_ = params.window ? params.window.get()
                           : CreateBrowserWindow(std::unique_ptr<Browser>(this),
                                                 params.user_gesture,
                                                 params.in_tab_dragging);
-  LOG(INFO) << "Browser::Browser step - 3";
+  //LOG(INFO) << "Browser::Browser step - 3";
   if (app_controller_)
     app_controller_->UpdateCustomTabBarVisibility(false);
-  LOG(INFO) << "Browser::Browser step - 4";
+  //LOG(INFO) << "Browser::Browser step - 4";
   // Create the extension window controller before sending notifications.
   extension_window_controller_ =
       std::make_unique<extensions::BrowserExtensionWindowController>(this);
-  LOG(INFO) << "Browser::Browser step - 5";
+  //LOG(INFO) << "Browser::Browser step - 5";
   SessionServiceBase* service =
       GetAppropriateSessionServiceForSessionRestore(this);
-  LOG(INFO) << "Browser::Browser step - 6";
+  //LOG(INFO) << "Browser::Browser step - 6";
   if (service)
     service->WindowOpened(this);
-  LOG(INFO) << "Browser::Browser step - 7";
+  //LOG(INFO) << "Browser::Browser step - 7";
   exclusive_access_manager_ = std::make_unique<ExclusiveAccessManager>(
       window_->GetExclusiveAccessContext());
-  LOG(INFO) << "Browser::Browser step - 8";
+  //LOG(INFO) << "Browser::Browser step - 8";
   if (window_->GetDownloadBubbleUIController()) {
     window_->GetDownloadBubbleUIController()
         ->GetDownloadDisplayController()
@@ -1561,6 +1561,7 @@ WebContents* Browser::OpenURLFromTab(WebContents* source,
 #if DCHECK_IS_ON()
   DCHECK(params.Valid());
 #endif
+  LOG(INFO) << "Browser::OpenURLFromTab";
 
   if (is_type_devtools()) {
     DevToolsWindow* window = DevToolsWindow::AsDevToolsWindow(source);
@@ -1861,6 +1862,7 @@ void Browser::WebContentsCreated(WebContents* source_contents,
   // requests for its initial navigation will start immediately. The WebContents
   // will later be inserted into this browser using Browser::Navigate via
   // AddNewContents.
+  LOG(INFO) << "Browser::WebContentsCreated";
   TabHelpers::AttachTabHelpers(new_contents);
 
   // Make the tab show up in the task manager.

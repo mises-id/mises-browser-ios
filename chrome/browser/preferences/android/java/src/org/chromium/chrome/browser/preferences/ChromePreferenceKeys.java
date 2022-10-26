@@ -969,7 +969,7 @@ public final class ChromePreferenceKeys {
     public static final String DARKEN_WEBSITES_ENABLED = "darken_websites_enabled";
 
     public static final String MISES_USER_INFO = "mises_user_info";
-    public static final String MISES_DEFAULT_BROWSER_TIP = "mises_default_browser_tip";
+    public static final String MISES_FIRST_RUN = "mises_first_run";
 
     /**
      * These values are currently used as SharedPreferences keys, along with the keys in
@@ -1115,7 +1115,7 @@ public final class ChromePreferenceKeys {
                 WEB_SIGNIN_ACCOUNT_PICKER_ACTIVE_DISMISSAL_COUNT,
 		DARKEN_WEBSITES_ENABLED,
                 MISES_USER_INFO,
-                MISES_DEFAULT_BROWSER_TIP
+                MISES_FIRST_RUN
         );
         // clang-format on
     }

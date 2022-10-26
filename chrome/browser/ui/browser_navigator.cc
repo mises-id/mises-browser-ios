@@ -596,33 +596,22 @@ std::unique_ptr<content::WebContents> CreateTargetContents(
 base::WeakPtr<content::NavigationHandle> Navigate(NavigateParams* params) {
   TRACE_EVENT1("navigation", "chrome::Navigate", "disposition",
                params->disposition);
+#if BUILDFLAG(IS_ANDROID) 
   if (true) {
-    TabModelList::TabModelVector tab_model_vector = TabModelList::models();
-    if (!tab_model_vector.size())
+    
+    if (TabModelList::models().size() == 0)
       return nullptr;
-
     TabModel* tab_model = TabModelList::models()[0];
-    if (!tab_model)
-      return nullptr;
-
-    Profile* profile = GetSourceProfile(params);
-    if (profile && profile->IsOffTheRecord()) {
-       for (TabModel* tab_model_from_vector : tab_model_vector) {
-         if (tab_model_from_vector->IsOffTheRecord()) {
-           tab_model = tab_model_from_vector;
-           break;
-         }
-       }
-    }
-
-    GURL url = GURL("about:blank");
     if (params->url.is_valid() && !(params->url.is_empty())) {
-      url = params->url;
+      GURL url = params->url;
+      tab_model->CreateNewTabForDevTools(url.is_empty() ? GURL(chrome::kChromeUINewTabURL) : url);
     }
-
-    tab_model->CreateNewTabForDevTools(url.is_empty() ? GURL(chrome::kChromeUINewTabURL) : url);
+    else if (params->contents_to_insert) {
+      tab_model->CreateTab(nullptr, params->contents_to_insert.release());       
+    }
     return nullptr;
   }
+#endif
 
   Browser* source_browser = params->browser;
   if (source_browser)

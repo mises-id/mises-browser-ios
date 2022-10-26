@@ -88,7 +88,9 @@ enum class RendererState {
 }  // namespace
 
 ServiceWorkerTaskQueue::ServiceWorkerTaskQueue(BrowserContext* browser_context)
-    : browser_context_(browser_context) {}
+    : browser_context_(browser_context) {
+    LOG(INFO) << "ServiceWorkerTaskQueue::ServiceWorkerTaskQueue";    
+}
 
 ServiceWorkerTaskQueue::~ServiceWorkerTaskQueue() {
   for (auto* const service_worker_context : observing_worker_contexts_)
@@ -350,7 +352,7 @@ void ServiceWorkerTaskQueue::AddPendingTask(
     const LazyContextId& lazy_context_id,
     PendingTask task) {
   DCHECK(lazy_context_id.is_for_service_worker());
-
+  LOG(INFO) << "ServiceWorkerTaskQueue::AddPendingTask";
   // TODO(lazyboy): Do we need to handle incognito context?
 
   auto sequence = GetCurrentSequence(lazy_context_id.extension_id());

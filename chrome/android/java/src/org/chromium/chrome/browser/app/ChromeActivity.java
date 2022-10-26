@@ -1785,7 +1785,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
         MisesController.getInstance();
 
 	Profile profile = getCurrentTabModel().getProfile();
-        if (!SharedPreferencesManager.getInstance().hasShowDefaultBrowserTip()) {
+        if (SharedPreferencesManager.getInstance().isMisesFirstRun()) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
                 Intent intent = new Intent(Settings.ACTION_MANAGE_DEFAULT_APPS_SETTINGS);
                 ComponentName componentName = intent.resolveActivity(getPackageManager());
@@ -1793,12 +1793,12 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                     MisesUtil.showAlertDialog(ChromeActivity.this, ChromeActivity.this.getString(R.string.lbl_default_browser_tip), v1 -> {
                             startActivity(intent);
                     });
-                    SharedPreferencesManager.getInstance().setShowDefaultBrowserTip(true);
                 }
             }
+	    SharedPreferencesManager.getInstance().setMisesFirstRun(false);
             WebsitePreferenceBridge.setPopupSettingForOrigin(profile, "https://home.mises.site", 1, false);
+	    PersonalizeResults.SetupDefaultUserAgent(profile);
         }
-	PersonalizeResults.SetupDefaultUserAgent(profile);
     }
 
     /**

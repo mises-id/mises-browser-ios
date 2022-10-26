@@ -27,14 +27,12 @@ UkmDatabaseClient& UkmDatabaseClient::GetInstance() {
 }
 
 UkmDatabaseClient::UkmDatabaseClient() {
-   LOG(ERROR) << "UkmDatabaseClient::UkmDatabaseClient - Step 1";
   if (base::FeatureList::IsEnabled(
           segmentation_platform::features::kSegmentationPlatformUkmEngine)) {
     ukm_data_manager_ = std::make_unique<UkmDataManagerImpl>();
   } else {
     ukm_data_manager_ = std::make_unique<DummyUkmDataManager>();
   }
-  LOG(ERROR) << "UkmDatabaseClient::UkmDatabaseClient - Step 2";
 }
 
 UkmDatabaseClient::~UkmDatabaseClient() = default;
@@ -45,23 +43,19 @@ segmentation_platform::UkmDataManager* UkmDatabaseClient::GetUkmDataManager() {
 }
 
 void UkmDatabaseClient::PreProfileInit() {
-  LOG(ERROR) << "UkmDatabaseClient::PreProfileInit - Step 1";
   if (ukm_recorder_for_testing_) {
     ukm_observer_ = std::make_unique<UkmObserver>(ukm_recorder_for_testing_);
   } else {
     ukm_observer_ = std::make_unique<UkmObserver>(
         g_browser_process->GetMetricsServicesManager()->GetUkmService());
   }
-LOG(ERROR) << "UkmDatabaseClient::PreProfileInit - Step 2";
   // Path service is setup at early startup.
   base::FilePath local_data_dir;
   bool result = base::PathService::Get(chrome::DIR_USER_DATA, &local_data_dir);
   DCHECK(result);
-  LOG(ERROR) << "UkmDatabaseClient::PreProfileInit - Step 3";
   ukm_data_manager_->Initialize(
       local_data_dir.Append(FILE_PATH_LITERAL("segmentation_platform/ukm_db")),
       ukm_observer_.get());
-  LOG(ERROR) << "UkmDatabaseClient::PreProfileInit - Step 4";
 }
 
 void UkmDatabaseClient::PostMessageLoopRun() {

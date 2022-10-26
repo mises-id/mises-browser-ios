@@ -421,7 +421,7 @@ void ServiceWorkerVersion::StartWorker(ServiceWorkerMetrics::EventType purpose,
       "ServiceWorker", "ServiceWorkerVersion::StartWorker (instant)",
       TRACE_EVENT_SCOPE_THREAD, "Script", script_url_.spec(), "Purpose",
       ServiceWorkerMetrics::EventTypeToString(purpose));
-
+  LOG(INFO) <<  "ServiceWorkerVersion::StartWorker purpose " << (int)purpose;
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
   const bool is_browser_startup_complete =
       GetContentClient()->browser()->IsBrowserStartupComplete();
@@ -1182,6 +1182,7 @@ void ServiceWorkerVersion::OnScriptEvaluationStart() {
 }
 
 void ServiceWorkerVersion::OnStarting() {
+  LOG(INFO) << "ServiceWorkerVersion::OnStarting";
   for (auto& observer : observers_)
     observer.OnRunningStateChanged(this);
 }
@@ -1190,7 +1191,7 @@ void ServiceWorkerVersion::OnStarted(
     blink::mojom::ServiceWorkerStartStatus start_status,
     bool has_fetch_handler) {
   DCHECK_EQ(EmbeddedWorkerStatus::RUNNING, running_status());
-
+  LOG(INFO) << "ServiceWorkerVersion::OnStarted";
   // TODO(falken): This maps kAbruptCompletion to kErrorScriptEvaluated, which
   // most start callbacks will consider to be a failure. But the worker thread
   // is running, and the spec considers it a success, so the callbacks should
@@ -1226,6 +1227,7 @@ void ServiceWorkerVersion::OnStarted(
 
 void ServiceWorkerVersion::OnStopping() {
   DCHECK(stop_time_.is_null());
+  LOG(INFO) << "ServiceWorkerVersion::OnStopping";
   RestartTick(&stop_time_);
   TRACE_EVENT_NESTABLE_ASYNC_BEGIN2(
       "ServiceWorker", "ServiceWorkerVersion::StopWorker",
@@ -2254,6 +2256,7 @@ void ServiceWorkerVersion::FoundRegistrationForUpdate(
 
 void ServiceWorkerVersion::OnStoppedInternal(EmbeddedWorkerStatus old_status) {
   DCHECK_EQ(EmbeddedWorkerStatus::STOPPED, running_status());
+  LOG(INFO) << "ServiceWorkerVersion::OnStoppedInternal";
   scoped_refptr<ServiceWorkerVersion> protect;
   if (!in_dtor_)
     protect = this;

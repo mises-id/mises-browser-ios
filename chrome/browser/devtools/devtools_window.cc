@@ -1703,7 +1703,7 @@ void DevToolsWindow::CreateDevToolsBrowser() {
   if (TabModelList::models().size() > 0) {
     TabModel* tab_model = *(TabModelList::models().begin());
     WebContents* web_contents = OwnedMainWebContents::TakeWebContents( 
-          std::move(owned_main_web_contents_)).get();
+          std::move(owned_main_web_contents_)).release();
     TabAndroid* tab = tab_model->GetTabAt(tab_model->GetActiveIndex());
     if (tab && web_contents) {
       tab_model->CreateTab(tab, web_contents);

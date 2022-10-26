@@ -320,6 +320,7 @@ void TabWebContentsDelegateAndroid::SetOverlayMode(bool use_overlay_mode) {
 WebContents* TabWebContentsDelegateAndroid::OpenURLFromTab(
     WebContents* source,
     const content::OpenURLParams& params) {
+  LOG(INFO) << "TabWebContentsDelegateAndroid::OpenURLFromTab";
   WindowOpenDisposition disposition = params.disposition;
   if (!source || (disposition != WindowOpenDisposition::CURRENT_TAB &&
                   disposition != WindowOpenDisposition::NEW_FOREGROUND_TAB &&
@@ -378,6 +379,7 @@ void TabWebContentsDelegateAndroid::AddNewContents(
     const gfx::Rect& initial_rect,
     bool user_gesture,
     bool* was_blocked) {
+   LOG(INFO) << "TabWebContentsDelegateAndroid::AddNewContents";
   // No code for this yet.
   DCHECK_NE(disposition, WindowOpenDisposition::SAVE_TO_DISK);
   // Can't create a new contents for the current tab - invalid case.

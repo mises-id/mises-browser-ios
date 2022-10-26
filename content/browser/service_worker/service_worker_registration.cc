@@ -477,6 +477,7 @@ void ServiceWorkerRegistration::ActivateWaitingVersion(bool delay) {
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
   DCHECK(context_);
   DCHECK(IsReadyToActivate());
+  LOG(INFO) << "ServiceWorkerRegistration::ActivateWaitingVersion delay " << delay;
   should_activate_when_ready_ = false;
   lame_duck_timer_.Stop();
 
