@@ -126,10 +126,14 @@ public class MisesLCDService extends Service implements MLightNodeDelegator {
 
     private void startLCDService() {
         Log.i(TAG, "startLCDService");
-        startForeground(SERVICE_ID, getStickyNotification(
-                getString(R.string.title_foreground_service_notification_running),
-                getString(R.string.msg_notification_service_desc), true
-        ));
+	try {
+          startForeground(SERVICE_ID, getStickyNotification(
+              getString(R.string.title_foreground_service_notification_running),
+              getString(R.string.msg_notification_service_desc), true
+          ));
+	}
+	catch (Exception ex) {
+	}
         IS_RUNNING = true;
 
         uiThreadHandler.removeCallbacksAndMessages(null);
@@ -264,10 +268,14 @@ public class MisesLCDService extends Service implements MLightNodeDelegator {
     
     private void onErrorUIThread() {
         Log.e(TAG, "onError " + retryCounter);
-        startForeground(SERVICE_ID, getStickyNotification(
+	try {
+          startForeground(SERVICE_ID, getStickyNotification(
             getString(R.string.title_foreground_service_notification_error),
             getString(R.string.msg_notification_service_desc), false
-        ));
+          ));
+	}
+	catch (Exception ex) {
+	}
         int retryDelay = 30000;
         if (retryCounter < 0) {
             retryDelay = 30000;

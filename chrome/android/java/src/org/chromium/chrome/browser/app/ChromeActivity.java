@@ -768,11 +768,11 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             try (StrictModeContext ignored = StrictModeContext.allowDiskWrites()) {
                 SharedPreferencesManager.getInstance().writeBooleanUnchecked("is_tablet", DeviceFormFactor.isTablet());
                 TraceEvent.begin("setContentView(R.layout.main)");
-                if (ContextUtils.getAppSharedPreferences().getBoolean("enable_bottom_toolbar", false)) {
+		//if (ContextUtils.getAppSharedPreferences().getBoolean("enable_bottom_toolbar", false)) {
                     // setContentView(R.layout.main_bottombar); //mises
-                } else {
-                    setContentView(R.layout.main);
-                }
+                //} else {
+                setContentView(R.layout.main);
+                //}
                 TraceEvent.end("setContentView(R.layout.main)");
                 if (getControlContainerLayoutId() != ActivityUtils.NO_RESOURCE_ID) {
                     ViewStub toolbarContainerStub =

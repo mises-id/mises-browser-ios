@@ -188,8 +188,8 @@ public class MainSettings extends PreferenceFragmentCompat
             getPreferenceScreen().removePreference(safetyCheck);
 
 	if (true) {
-	    getPreferenceScreen().removePreference(findPreference("toolbar_options"));
-	    getPreferenceScreen().removePreference(findPreference("nightmode"));
+	    removePreferenceIfPresent("toolbar_options");
+	    removePreferenceIfPresent("nightmode");
 	}
         setManagedPreferenceDelegateForPreference(PREF_SEARCH_ENGINE);
 
@@ -212,7 +212,7 @@ public class MainSettings extends PreferenceFragmentCompat
         } else {
             // The per-website notification settings page can be accessed from Site
             // Settings, so we don't need to show this here.
-            getPreferenceScreen().removePreference(findPreference(PREF_NOTIFICATIONS));
+            removePreferenceIfPresent(PREF_NOTIFICATIONS);
         }
 
         if (!TemplateUrlServiceFactory.get().isLoaded()) {
@@ -223,7 +223,7 @@ public class MainSettings extends PreferenceFragmentCompat
         new AdaptiveToolbarStatePredictor(null).recomputeUiState(uiState -> {
             // We don't show the toolbar shortcut settings page if disabled from finch.
             if (uiState.canShowUi) return;
-            getPreferenceScreen().removePreference(findPreference(PREF_TOOLBAR_SHORTCUT));
+            removePreferenceIfPresent(PREF_TOOLBAR_SHORTCUT);
         });
     }
 

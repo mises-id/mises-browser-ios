@@ -325,7 +325,7 @@
         getIsAirdrop(data.misesId).then(res=>{
           if(res.data&&res.data.is_airdropped){
             localStorage.setItem(data.misesId, true);
-            showInvite()
+            showInvite(data.misesId)
             showBox()
             console.log('cache isAirdropMisesId:'+ res.misesId);
           }else{
@@ -336,7 +336,7 @@
         })
       }else{
         console.log('get cache isAirdropMisesId:'+ res.misesId);
-        showInvite()
+        showInvite(data.misesId)
         showBox()
       }
     }else{
@@ -352,8 +352,9 @@ function getIsAirdrop(misesId){
 function showBox(){
   document.getElementById('airdrop-box').style.visibility = 'unset';
 }
-function showInvite(){
+function showInvite(misesId){
   document.getElementById('invite').style.display = 'block';
+  document.getElementById('invite').setAttribute('href','https://home.mises.site/myInvitation?misesId='+misesId)
   document.getElementById('airdrop').style.display = 'none';
 }
 function replaceInnerHTML(oldDiv, html) {
