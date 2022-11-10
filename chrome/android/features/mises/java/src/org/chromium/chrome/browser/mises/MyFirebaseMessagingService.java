@@ -48,15 +48,18 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 notificationManager.createNotificationChannel(channel);
             }
             Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-            NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, CHANNEL_ID)
-                    .setSmallIcon(R.mipmap.ic_launcher)
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
                     .setContentTitle(remoteMessage.getNotification().getTitle())
                     .setContentText(remoteMessage.getNotification().getBody())
                     .setAutoCancel(true)
                     .setSound(defaultSoundUri)
                     .setContentIntent(pendingIntent);
-
-            NotificationManagerCompat.from(this).notify(0, notificationBuilder.build());
+            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
+              builder.setSmallIcon(R.mipmap.app_icon);
+            } else {
+              builder.setSmallIcon(R.mipmap.ic_launcher);
+            }
+            NotificationManagerCompat.from(this).notify(0, builder.build());
         }
     }
 }

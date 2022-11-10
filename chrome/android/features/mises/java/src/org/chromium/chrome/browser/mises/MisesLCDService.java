@@ -322,7 +322,11 @@ public class MisesLCDService extends Service implements MLightNodeDelegator {
         // Set big text style.
         builder.setStyle(bigTextStyle);
         builder.setWhen(System.currentTimeMillis());
-        builder.setSmallIcon(R.mipmap.ic_launcher);
+	if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) {
+	  builder.setSmallIcon(R.mipmap.app_icon);
+	} else {
+          builder.setSmallIcon(R.mipmap.ic_launcher);
+	}
         //val largeIconBitmap = BitmapFactory.decodeResource(resources, R.drawable.ic_alarm_on)
         //builder.setLargeIcon(largeIconBitmap)
         // Make the notification max priority.
