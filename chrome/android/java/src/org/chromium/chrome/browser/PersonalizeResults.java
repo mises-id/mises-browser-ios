@@ -98,6 +98,10 @@ public class PersonalizeResults {
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://einhphiffjfjogeofkpclobkcgennocm")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(UMI_EXTENSION_STYLES), null);
        }
+       // TokenPocket 
+       if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://mfgccjchihfkkindfppnaooecgfneiii")) {
+         tab.getWebContents().evaluateJavaScript(RenderStyleContent(TOKENPOCKET_EXTENSION_STYLES), null);
+       }
        // ezdefi 
        if (tab != null && tab.getUrl().getSpec().startsWith("chrome-extension://ejeemacpidnaejkhpbmfkadhgjhnolaa")) {
          tab.getWebContents().evaluateJavaScript(RenderStyleContent(EZDEFI_EXTENSION_STYLES), null);
@@ -205,6 +209,9 @@ public class PersonalizeResults {
 
    // umi 
    private static final String UMI_EXTENSION_STYLES = "'.select-action__selection {flex-direction:column} .select-action .form:first-child {margin-right:0;margin-bottom:10px} .select-action .select-action__selection .form,body .form{min-width:95vw!important;max-width:95vw!important;} .select-action__body {padding:20px;box-sizing:border-box} .initialize__body{width:95vw;min-width:95vw} .end-of-flow .steps__img{position:inherit!important;left:0!important}'";
+
+   // TokenPocket
+   private static final String TOKENPOCKET_EXTENSION_STYLES = "'.select-action__select-buttons {flex-direction:column} .select-action__select-button {margin-left:0;margin-bottom:10px} .first-time-flow{padding:20px} .select-action__select-button:first-child{margin-right: 0} .first-time-flow__import-container{width: 100%} .first-time-flow__import-select {flex-direction: column} .first-time-flow__import-select--seed-type{margin-top:10px} .first-time-flow__import-password-container {flex-direction: column} .first-time-flow__import-word-item{margin-right: 10px} .first-time-flow__import-word-input .MuiInputBase-root{width: 100px} .first-time-flow__import-word-item:nth-of-type(3n){margin-right: 10px} .first-time-flow__import-vault-error{width:100%} .end-of-flow__container,.end-of-flow{width: 100%} .extension-guide__container{display: none} .import-account__content{width: 100%} .first-view-main-wrapper{width: 90vw} .import-account__input-container,.first-time-flow__password{flex-direction: column} .first-time-flow__container{width:100%}  .welcome-page__container{width:100%} .welcome-page__wrapper{height: 100vh;width: 100vw;margin: -20px;padding: 20px;}'";
 
    // ezdefi 
    private static final String EZDEFI_EXTENSION_STYLES = "'#root {height:auto!important} .privacy-policy-page .confirmModal .content-area {height:calc(100vh - 245px);} .container {width:100vw}'";
