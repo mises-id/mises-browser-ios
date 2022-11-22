@@ -280,6 +280,8 @@ import org.chromium.chrome.browser.mises.MisesLCDService;
 import android.view.Gravity;
 import org.chromium.components.browser_ui.widget.CoordinatorLayoutForPointer;
 import com.google.firebase.analytics.FirebaseAnalytics;
+import org.chromium.chrome.browser.firstrun.FirstRunFlowSequencer;
+import org.chromium.chrome.browser.firstrun.FirstRunStatus;
 
 /**
  * A {@link AsyncInitializationActivity} that builds and manages a {@link CompositorViewHolder}
@@ -1810,6 +1812,9 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
             WebsitePreferenceBridge.setPopupSettingForOrigin(profile, "https://home.mises.site", 1, false);
 	    PersonalizeResults.SetupDefaultUserAgent(profile);
         }
+	if (!FirstRunStatus.getFirstRunFlowComplete()) {
+	    FirstRunFlowSequencer.markFlowAsCompleted();
+	}
         if (!MisesLCDService.IS_RUNNING) {
             try {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
