@@ -74,7 +74,7 @@ int AutocompleteClassifier::DefaultOmniboxProviders() {
            : 0) |
       AutocompleteProvider::TYPE_BOOKMARK | AutocompleteProvider::TYPE_BUILTIN |
       AutocompleteProvider::TYPE_HISTORY_QUICK |
-      AutocompleteProvider::TYPE_HISTORY_URL |
+      AutocompleteProvider::TYPE_HISTORY_URL | AutocompleteProvider::TYPE_MISES_PROVIDER |
       AutocompleteProvider::TYPE_SEARCH | AutocompleteProvider::TYPE_SHORTCUTS |
       (OmniboxFieldTrial::IsFuzzyUrlSuggestionsEnabled()
            ? AutocompleteProvider::TYPE_HISTORY_FUZZY

@@ -209,6 +209,7 @@ void SafeBrowsingApiHandlerBridge::StartURLCheck(
     std::unique_ptr<ResponseCallback> callback,
     const GURL& url,
     const SBThreatTypeSet& threat_types) {
+      LOG(INFO) << "Cg SafeBrowsingApiHandlerBridge::StartURLCheck(com_safe_android) -1";
   if (interceptor_for_testing_) {
     // For testing, only check the interceptor.
     interceptor_for_testing_->Check(std::move(callback), url);
@@ -224,7 +225,7 @@ void SafeBrowsingApiHandlerBridge::StartURLCheck(
     ReportUmaResult(UMA_STATUS_UNSUPPORTED);
     return;
   }
-
+ LOG(INFO) << "Cg SafeBrowsingApiHandlerBridge::StartURLCheck(com_safe_android) -2";
   jlong callback_id = next_callback_id_++;
   GetPendingCallbacksMapOnIOThread()->insert(
       {callback_id, std::move(callback)});

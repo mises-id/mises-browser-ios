@@ -7,6 +7,7 @@
 #include "base/logging.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/trace_event/trace_event.h"
+#include "chrome/browser/browser_process.h"
 #include "components/omnibox/browser/autocomplete_input.h"
 #include "components/omnibox/browser/autocomplete_match.h"
 #include "components/omnibox/browser/autocomplete_match_classification.h"
@@ -19,19 +20,24 @@
 #include "net/traffic_annotation/network_traffic_annotation.h"
 #include "base/json/json_string_value_serializer.h"
 #include "net/http/http_status_code.h"
+#include "chrome/browser/net/system_network_context_manager.h"
 
 namespace {
 
 }  // namespace
 
 MisesProvider::MisesProvider(AutocompleteProviderClient* client)
-        : AutocompleteProvider(AutocompleteProvider::TYPE_MISES_PROVIDER),
-          client_(client) {}
+        :BaseSearchProvider(AutocompleteProvider::TYPE_MISES_PROVIDER,client),
+          client_(client) {
+            //scoped_refptr<network::SharedURLLoaderFactory> url_loader_factory = g_browser_process->system_network_context_manager()->GetSharedURLLoaderFactory();
+            //url_loader_factory_ = std::move(url_loader_factory);
+          }
 
 MisesProvider::~MisesProvider() = default;
 
 void MisesProvider::Start(const AutocompleteInput& input,
                                  bool minimal_changes) {
+    autocomplete_input_ = &input;
     TRACE_EVENT0("omnibox", "MisesProvider::Start");
     LOG(INFO) << "Cg MisesProvider::Start input text=" << base::UTF16ToUTF8(input.text());
     matches_.clear();
@@ -40,6 +46,14 @@ void MisesProvider::Start(const AutocompleteInput& input,
     return;
 
   DoAutocomplete(input);
+    autocomplete_input_ = nullptr;
+}
+
+void MisesProvider::Stop(bool clear_cached_results,
+                                bool due_to_user_inactivity) {
+   LOG(INFO) << "Cg MisesProvider::Stop";
+  //AutocompleteProvider::Stop(clear_cached_results, due_to_user_inactivity);
+
 }
 
 void MisesProvider::DoAutocomplete(const AutocompleteInput &input) {
@@ -85,29 +99,29 @@ void MisesProvider::DoAutocomplete(const AutocompleteInput &input) {
     simple_url_loader_ = network::SimpleURLLoader::Create(std::move(resource_request),
                                                           traffic_annotation);
     LOG(INFO) << "Cg MisesProvider::DoAutocomplete -3";
-    scoped_refptr<network::SharedURLLoaderFactory> loader_factory =
-            client_.GetURLLoaderFactory();
-    auto* loader_factory_ptr = loader_factory.get();
     simple_url_loader_->DownloadToStringOfUnboundedSizeUntilCrashAndDie(
-            loader_factory_ptr,
+            //url_loader_factory_.get(),
+            client()->GetURLLoaderFactory().get(),
             base::BindOnce(&MisesProvider::OnURLLoadComplete,
-                           base::Unretained(this)));
+                           base::Unretained(this),simple_url_loader_.get()));
     LOG(INFO) << "Cg MisesProvider::DoAutocomplete -4";
 
 }
 
-void MisesProvider::OnURLLoadComplete(const network::SimpleURLLoader* simple_url_loader_,
+void MisesProvider::OnURLLoadComplete(const network::SimpleURLLoader* source,
                                     std::unique_ptr<std::string> response_body){
+    LOG(INFO) << "Cg MisesProvider::DoAutocomplete -4.5";
     int response_code = -1;
-    if (simple_url_loader_->ResponseInfo() &&
-        simple_url_loader_->ResponseInfo()->headers) {
+    if (source->ResponseInfo() &&
+        source->ResponseInfo()->headers) {
         response_code =
-                simple_url_loader_->ResponseInfo()->headers->response_code();
+                source->ResponseInfo()->headers->response_code();
     }
+    LOG(INFO) << "Cg MisesProvider::DoAutocomplete code " << response_code;
     std::string json_string;
     if (response_body)
         json_string = std::move(*response_body);
-    LOG(INFO) << "Cg MisesProvider API match string=" << *response_body;
+    LOG(INFO) << "Cg MisesProvider API match string=" << json_string;
     LOG(INFO) << "Cg MisesProvider::DoAutocomplete -5";
     JSONStringValueDeserializer deserializer(json_string);
     std::string error_msg;
@@ -124,6 +138,8 @@ void MisesProvider::OnURLLoadComplete(const network::SimpleURLLoader* simple_url
         LOG(WARNING) << "Server returned wrong response code: " << response_code
                      << ": " << (error_value ? error_value->GetString() : "Unknown")
                      << ".";
+
+    }
         if (!json_value) {
             LOG(WARNING) << "Unable to deserialize auth code json data: " << error_msg
                          << ".";
@@ -140,30 +156,54 @@ void MisesProvider::OnURLLoadComplete(const network::SimpleURLLoader* simple_url
             VLOG(1) << "No mises match found in the response.";
             return;
         }
+        LOG(INFO) << "Cg MisesProvider::DoAutocomplete -7";
         int matchNum = 3;
         for (const auto& data : data_list->GetListDeprecated()) {
             const std::string* title = data.FindStringKey("title");
             const std::string* desc = data.FindStringKey("desc");
             const std::string* url = data.FindStringKey("url");
             const std::string* logo = data.FindStringKey("logo");
-            LOG(INFO) << "Cg MisesProvider match. title=" << *title;
+            LOG(INFO) << "Cg MisesProvider match title=" << *title << ",logo=" << *logo;
             if(matchNum == 0){
                 break;
             }
             matchNum--;
-            std::unique_ptr<AutocompleteMatch> mises_match;
-            mises_match->relevance = 800;
-            mises_match->destination_url = GURL(*url);
-            mises_match->image_url = GURL(*logo);
-            mises_match->type = AutocompleteMatchType::MISES;
-            mises_match->description = base::UTF8ToUTF16(*desc);
-            mises_match->contents = base::UTF8ToUTF16(*title);
-
-            matches_.push_back(std::move(*mises_match));
+             LOG(INFO) << "Cg MisesProvider::DoAutocomplete -8";
+            AutocompleteMatch mises_match;
+            mises_match.relevance = 80000;
+            mises_match.destination_url = GURL(*url);
+            mises_match.image_url = GURL(*logo);
+            mises_match.type = AutocompleteMatchType::MISES;
+            mises_match.description = base::UTF8ToUTF16(*title);
+            mises_match.contents = base::UTF8ToUTF16(*desc);
+            LOG(INFO) << "Cg MisesProvider::DoAutocomplete -9";
+            matches_.push_back(mises_match);
+            LOG(INFO) << "Cg MisesProvider::DoAutocomplete -10";
         }
-    }
-
-
+       // Sort and clip the resulting matches.
+       /* size_t max_matches = 3;
+       size_t num_matches = std::min(matches_.size(), max_matches);
+       std::partial_sort(matches_.begin(), matches_.begin() + num_matches,
+                          matches_.end(), AutocompleteMatch::MoreRelevant);
+       matches_.resize(num_matches); */
+       LOG(INFO) << "Cg MisesProvider::DoAutocomplete -100";
 }
 
+const TemplateURL* MisesProvider::GetTemplateURL(bool is_keyword) const {
+  DCHECK(!is_keyword);
+  return client()->GetTemplateURLService()->GetDefaultSearchProvider();
+}
 
+const AutocompleteInput MisesProvider::GetInput(bool is_keyword) const {
+  DCHECK(!is_keyword);
+  DCHECK(autocomplete_input_);
+  return *autocomplete_input_;
+}
+
+bool MisesProvider::ShouldAppendExtraParams(
+    const SearchSuggestionParser::SuggestResult& result) const {
+  // We always use the default provider for search, so append the params.
+  return true;
+}
+
+void MisesProvider::RecordDeletionResult(bool success) {}

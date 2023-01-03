@@ -86,6 +86,8 @@ void RemoteSafeBrowsingDatabaseManager::ClientRequest::OnRequestDone(
     const ThreatMetadata& metadata) {
   DVLOG(1) << "OnRequestDone took " << timer_.Elapsed().InMilliseconds()
            << " ms for client " << client_ << " and URL " << url_;
+  LOG(INFO) << "Cg RemoteSafeBrowsingDatabaseManager::OnRequestDone(com_safe_android) OnRequestDone took " << timer_.Elapsed().InMilliseconds()
+           << " ms for client " << client_ << " and URL " << url_;
   client_->OnCheckBrowseUrlResult(url_, matched_threat_type, metadata);
   UMA_HISTOGRAM_TIMES("SB2.RemoteCall.Elapsed", timer_.Elapsed());
   // CancelCheck() will delete *this.
@@ -192,6 +194,7 @@ bool RemoteSafeBrowsingDatabaseManager::CheckBrowseUrl(
     const GURL& url,
     const SBThreatTypeSet& threat_types,
     Client* client) {
+       LOG(INFO) << "Cg RemoteSafeBrowsingDatabaseManager::CheckBrowseUrl(com_safe_android) -1";
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
   DCHECK(!threat_types.empty());
   DCHECK(SBThreatTypeSetIsValidForCheckBrowseUrl(threat_types));
@@ -206,6 +209,7 @@ bool RemoteSafeBrowsingDatabaseManager::CheckBrowseUrl(
   std::unique_ptr<ClientRequest> req(new ClientRequest(client, this, url));
 
   DVLOG(1) << "Checking for client " << client << " and URL " << url;
+   LOG(INFO) << "Cg RemoteSafeBrowsingDatabaseManager::CheckBrowseUrl Checking for client " << client << " and URL " << url;
   auto callback =
       std::make_unique<SafeBrowsingApiHandlerBridge::ResponseCallback>(
           base::BindOnce(&ClientRequest::OnRequestDoneWeak, req->GetWeakPtr()));

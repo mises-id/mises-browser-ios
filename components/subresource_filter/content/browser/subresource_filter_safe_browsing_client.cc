@@ -65,8 +65,10 @@ void SubresourceFilterSafeBrowsingClient::CheckUrlOnIO(
 }
 
 void SubresourceFilterSafeBrowsingClient::OnCheckBrowseUrlResult(
+  
     SubresourceFilterSafeBrowsingClientRequest* request,
     const CheckResult& check_result) {
+      LOG(INFO) << "Cg SubresourceFilterSafeBrowsingClient::OnCheckBrowseUrlResult(com_subresource) -1";
   DCHECK_CURRENTLY_ON(content::BrowserThread::IO);
   TRACE_EVENT_NESTABLE_ASYNC_END1(
       TRACE_DISABLED_BY_DEFAULT("loading"), "SubresourceFilterSBCheck",

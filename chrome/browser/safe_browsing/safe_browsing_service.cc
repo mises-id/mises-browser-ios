@@ -135,6 +135,7 @@ SafeBrowsingService::~SafeBrowsingService() {
 void SafeBrowsingService::Initialize() {
   // Ensure FileTypePolicies's Singleton is instantiated during startup.
   // This guarantees we'll log UMA metrics about its state.
+  LOG(INFO) << "Cg SafeBrowsingService::Initialize (chrome_browser_safe_browsing)";
   FileTypePolicies::GetInstance();
 
   base::FilePath user_data_dir;
@@ -318,6 +319,7 @@ void SafeBrowsingService::StopOnIOThread(bool shutdown) {
 }
 
 void SafeBrowsingService::Start() {
+  LOG(INFO) << "Cg SafeBrowsingService::Start (chrome_browser_safe_browsing)";
   DCHECK_CURRENTLY_ON(BrowserThread::UI);
 
   content::GetIOThreadTaskRunner({})->PostTask(

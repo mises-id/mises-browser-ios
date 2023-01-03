@@ -303,6 +303,11 @@ AutocompleteController::AutocompleteController(
       template_url_service_(provider_client_->GetTemplateURLService()) {
   provider_types &= ~OmniboxFieldTrial::GetDisabledProviderTypes();
     LOG(INFO) << "Cg AutocompleteController::AutocompleteController provider_types=" << provider_types;
+    //mises provider
+  LOG(INFO) << "Cg MisesProvider&=" << (provider_types & AutocompleteProvider::TYPE_MISES_PROVIDER);
+  LOG(INFO) << "Cg SearchProvider&=" << (provider_types & AutocompleteProvider::TYPE_SEARCH);
+  mises_provider_ = new MisesProvider(provider_client_.get());
+  providers_.push_back(mises_provider_.get());
   if (OmniboxFieldTrial::kAutocompleteStabilityAsyncProvidersFirst.Get()) {
     // Providers run in the order they're added. Run these async providers 1st
     // so their async requests can be kicked off before waiting a few
@@ -357,10 +362,6 @@ AutocompleteController::AutocompleteController(
     keyword_provider_ = new KeywordProvider(provider_client_.get(), this);
     providers_.push_back(keyword_provider_.get());
   }
-  //mises provider
-  LOG(INFO) << "Cg MisesProvider&=" << (provider_types & AutocompleteProvider::TYPE_MISES_PROVIDER);
-  mises_provider_ = new MisesProvider(provider_client_.get());
-  providers_.push_back(mises_provider_.get());
   if (!OmniboxFieldTrial::kAutocompleteStabilityAsyncProvidersFirst.Get()) {
     if (provider_types & AutocompleteProvider::TYPE_SEARCH) {
       search_provider_ = new SearchProvider(provider_client_.get(), this);
@@ -561,10 +562,11 @@ void AutocompleteController::Start(const AutocompleteInput& input) {
   // arithmetic mean.
   base::TimeTicks start_time = base::TimeTicks::Now();
   for (const auto& provider : providers_) {
-      LOG(INFO) << "Cg AutocompleteController::Start provider name: " << provider->GetName();
-    if (!ShouldRunProvider(provider.get()))
-      continue;
-
+      LOG(INFO) << "Cg AutocompleteController::Start providerName=" << provider->GetName();
+    if (!ShouldRunProvider(provider.get())){
+      LOG(INFO) << "Cg AutocompleteController::Start !ShouldRunProvider providerName=" << provider->GetName();
+        continue;
+    }
     base::TimeTicks provider_start_time = base::TimeTicks::Now();
     provider->Start(input_, minimal_changes);
     // `UmaHistogramTimes()` uses 1ms - 10s buckets, whereas this uses 1ms - 5s
@@ -655,6 +657,7 @@ void AutocompleteController::StartPrefetch(const AutocompleteInput& input) {
 }
 
 void AutocompleteController::Stop(bool clear_result) {
+   LOG(INFO) << "Cg AutocompleteController::Stop";
   StopHelper(clear_result, false);
 }
 
@@ -880,11 +883,15 @@ void AutocompleteController::UpdateResult(
   old_matches_to_reuse.Swap(&result_);
 
   for (const auto& provider : providers_) {
-    if (!ShouldRunProvider(provider.get()))
-      continue;
+    if (!ShouldRunProvider(provider.get())){
+       LOG(INFO) << "Cg AutocompleteController::UpdateResult !ShouldRunProvider providerName=" << provider->GetName();
+        continue;
+    }
     for (const auto& match : provider->matches()) {
-      LOG(INFO) << "Cg ProviderMatch provider=" << provider->GetName()
-      << ",match.content=" << match.contents << ", match.desc="<< match.description;
+      LOG(INFO) << "Cg ProviderMatch providerName=" << provider->GetName()
+      << ",match.content=" << match.contents << ", match.desc="<< match.description
+      << ",image_url=" << match.image_url
+      << ",relevance=" << match.relevance;
     }
     result_.AppendMatches(provider->matches());
     result_.MergeSuggestionGroupsMap(provider->suggestion_groups_map());
@@ -1216,7 +1223,7 @@ void AutocompleteController::StartExpireTimer() {
   // when we remove any copied entries. We do this from the time the
   // user stopped typing as some providers (such as SearchProvider)
   // wait for the user to stop typing before they initiate a query.
-  const int kExpireTimeMS = 500;
+  const int kExpireTimeMS = 5000;
 
   if (result_.HasCopiedMatches())
     expire_timer_.Start(FROM_HERE, base::Milliseconds(kExpireTimeMS), this,
@@ -1330,7 +1337,8 @@ bool AutocompleteController::ShouldRunProvider(
         case AutocompleteProvider::TYPE_OPEN_TAB:
           return (keyword_turl->starter_pack_id() ==
                   TemplateURLStarterPackData::kTabs);
-
+        case AutocompleteProvider::TYPE_MISES_PROVIDER:
+          return true;
         // No other providers should run when in a starter pack scope.
         default:
           return false;

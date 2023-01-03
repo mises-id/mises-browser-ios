@@ -113,6 +113,7 @@ void UrlCheckerDelegateImpl::StartDisplayingBlockingPageHelper(
     const net::HttpRequestHeaders& headers,
     bool is_main_frame,
     bool has_user_gesture) {
+  LOG(INFO) << "Cg UrlCheckerDelegateImpl::StartDisplayingBlockingPageHelper(src_chrome_safe_browsing) -1";
   content::GetUIThreadTaskRunner({})->PostTask(
       FROM_HERE,
       base::BindOnce(&SafeBrowsingUIManager::StartDisplayingBlockingPage,
@@ -124,6 +125,7 @@ void UrlCheckerDelegateImpl::
     StartObservingInteractionsForDelayedBlockingPageHelper(
         const security_interstitials::UnsafeResource& resource,
         bool is_main_frame) {
+  LOG(INFO) << "Cg UrlCheckerDelegateImpl::StartObservingInteractionsForDelayedBlockingPageHelper(src_chrome_safe_browsing) -1";
   content::GetUIThreadTaskRunner({})->PostTask(
       FROM_HERE, base::BindOnce(&CreateSafeBrowsingUserInteractionObserver,
                                 resource, is_main_frame, ui_manager_));

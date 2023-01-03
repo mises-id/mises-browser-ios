@@ -254,6 +254,7 @@ void SafeBrowsingUrlCheckerImpl::OnUrlResult(const GURL& url,
                                              SBThreatType threat_type,
                                              const ThreatMetadata& metadata,
                                              bool is_from_real_time_check) {
+   LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::OnUrlResult(src_components_safe_browsing_core_browser) -1";
   DCHECK_EQ(STATE_CHECKING_URL, state_);
   DCHECK_LT(next_index_, urls_.size());
   DCHECK_EQ(urls_[next_index_].url, url);
@@ -288,12 +289,13 @@ void SafeBrowsingUrlCheckerImpl::OnUrlResult(const GURL& url,
                   network::mojom::RequestDestination::kDocument);
       state_ = STATE_DELAYED_BLOCKING_PAGE;
     }
+    LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::OnUrlResult(src_components_safe_browsing_core_browser) state_=" << STATE_DELAYED_BLOCKING_PAGE;
     // Let the navigation continue in case of delayed warnings.
     // No need to call ProcessUrls here, it'll return early.
     RunNextCallback(true, false);
     return;
   }
-
+LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::OnUrlResult(src_components_safe_browsing_core_browser) -2";
   if (threat_type == SB_THREAT_TYPE_SAFE ||
       threat_type == SB_THREAT_TYPE_SUSPICIOUS_SITE) {
     state_ = STATE_NONE;
@@ -308,7 +310,7 @@ void SafeBrowsingUrlCheckerImpl::OnUrlResult(const GURL& url,
     ProcessUrls();
     return;
   }
-
+LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::OnUrlResult(src_components_safe_browsing_core_browser) -3";
   if (is_prefetch) {
     // Destroy the prefetch with FINAL_STATUS_SAFE_BROWSING.
     if (request_destination_ == network::mojom::RequestDestination::kDocument) {
@@ -324,7 +326,7 @@ void SafeBrowsingUrlCheckerImpl::OnUrlResult(const GURL& url,
     BlockAndProcessUrls(false);
     return;
   }
-
+LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::OnUrlResult(src_components_safe_browsing_core_browser) -4";
   UMA_HISTOGRAM_ENUMERATION("SB2.RequestDestination.Unsafe",
                             request_destination_);
 
@@ -358,6 +360,7 @@ void SafeBrowsingUrlCheckerImpl::CheckUrlImpl(const GURL& url,
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
 
   DVLOG(1) << "SafeBrowsingUrlCheckerImpl checks URL: " << url;
+  LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::CheckUrlImpl(src_components_safe_browsing_core_browser) URL:" << url;
   urls_.emplace_back(url, method, std::move(notifier),
                      /*safe_from_real_time_cache=*/false);
 
@@ -365,6 +368,7 @@ void SafeBrowsingUrlCheckerImpl::CheckUrlImpl(const GURL& url,
 }
 
 void SafeBrowsingUrlCheckerImpl::ProcessUrls() {
+  LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::ProcessUrls -1";
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
   DCHECK_NE(STATE_BLOCKED, state_);
   if (!base::FeatureList::IsEnabled(kDelayedWarnings)) {
@@ -376,7 +380,7 @@ void SafeBrowsingUrlCheckerImpl::ProcessUrls() {
       state_ == STATE_DELAYED_BLOCKING_PAGE) {
     return;
   }
-
+LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::ProcessUrls -2";
   while (next_index_ < urls_.size()) {
     DCHECK_EQ(STATE_NONE, state_);
 
@@ -387,7 +391,7 @@ void SafeBrowsingUrlCheckerImpl::ProcessUrls() {
 
       continue;
     }
-
+  LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::ProcessUrls -3";
     // TODO(yzshen): Consider moving CanCheckRequestDestination() to the
     // renderer side. That would save some IPCs. It requires a method on the
     // SafeBrowsing mojo interface to query all supported request destinations.
@@ -400,7 +404,7 @@ void SafeBrowsingUrlCheckerImpl::ProcessUrls() {
 
       continue;
     }
-
+LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::ProcessUrls -4";
     UMA_HISTOGRAM_ENUMERATION("SB2.RequestDestination.Checked",
                               request_destination_);
 
@@ -427,6 +431,7 @@ void SafeBrowsingUrlCheckerImpl::ProcessUrls() {
 
     bool safe_synchronously;
     bool can_perform_full_url_lookup = CanPerformFullURLLookup(url);
+    LOG(INFO) << "Cg SafeBrowsingUrlCheckerImpl::ProcessUrls -5. can_perform_full_url_lookup=" << can_perform_full_url_lookup;
     base::UmaHistogramBoolean("SafeBrowsing.RT.CanCheckDatabase",
                               can_check_db_);
     if (can_perform_full_url_lookup) {

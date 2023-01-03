@@ -1286,23 +1286,28 @@ void BrowserProcessImpl::CreateBackgroundPrintingManager() {
 }
 
 void BrowserProcessImpl::CreateSafeBrowsingService() {
+  LOG(INFO) << "Cg BrowserProcessImpl::CreateSafeBrowsingService -1";
   DCHECK(!safe_browsing_service_);
   // Set this flag to true so that we don't retry indefinitely to
   // create the service class if there was an error.
   created_safe_browsing_service_ = true;
+   LOG(INFO) << "Cg BrowserProcessImpl::CreateSafeBrowsingService -2";
 #if 0
   // The factory can be overridden in tests.
   if (!safe_browsing::SafeBrowsingServiceInterface::HasFactory()) {
     safe_browsing::SafeBrowsingServiceInterface::RegisterFactory(
         safe_browsing::GetSafeBrowsingServiceFactory());
   }
-
+ LOG(INFO) << "Cg BrowserProcessImpl::CreateSafeBrowsingService -3";
   // TODO(crbug/925153): Port consumers of the |safe_browsing_service_| to use
   // the interface in components/safe_browsing, and remove this cast.
   safe_browsing_service_ = static_cast<safe_browsing::SafeBrowsingService*>(
       safe_browsing::SafeBrowsingServiceInterface::CreateSafeBrowsingService());
-  if (safe_browsing_service_)
+  if (safe_browsing_service_){
+    LOG(INFO) << "Cg BrowserProcessImpl::CreateSafeBrowsingService -4";
     safe_browsing_service_->Initialize();
+  }
+  LOG(INFO) << "Cg BrowserProcessImpl::CreateSafeBrowsingService -5"; 
 #endif
 }
 

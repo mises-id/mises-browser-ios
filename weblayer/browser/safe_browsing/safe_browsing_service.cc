@@ -88,6 +88,7 @@ SafeBrowsingService::SafeBrowsingService(const std::string& user_agent)
 SafeBrowsingService::~SafeBrowsingService() = default;
 
 void SafeBrowsingService::Initialize() {
+    LOG(INFO) << "Cg SafeBrowsingService::Initialize (webplayer_browser_safebrowsing) -1";
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   if (network_context_) {

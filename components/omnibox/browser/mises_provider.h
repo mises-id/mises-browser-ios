@@ -17,12 +17,17 @@
 #include "services/network/public/cpp/shared_url_loader_factory.h"
 #include "services/network/public/cpp/weak_wrapper_shared_url_loader_factory.h"
 #include "services/network/test/test_url_loader_factory.h"
-
+#include "chrome/browser/net/system_network_context_manager.h"
+namespace network {
+class SharedURLLoaderFactory;
+class SimpleURLLoader;
+} 
 // Autocomplete provider serving Mises.
-class MisesProvider : public AutocompleteProvider {
+class MisesProvider : public BaseSearchProvider {
  public:
   explicit MisesProvider(AutocompleteProviderClient* client);
   void Start(const AutocompleteInput& input, bool minimal_changes) override;
+  void Stop(bool clear_cached_results, bool due_to_user_inactivity) override;
 
  private:
   // BaseSearchProvider:
@@ -30,11 +35,18 @@ class MisesProvider : public AutocompleteProvider {
   void OnURLLoadComplete(const network::SimpleURLLoader* source,
                          std::unique_ptr<std::string> response_body);
   void DoAutocomplete(const AutocompleteInput& input);
+  // BaseSearchProvider:
+  const TemplateURL* GetTemplateURL(bool is_keyword) const override;
+  const AutocompleteInput GetInput(bool is_keyword) const override;
+  bool ShouldAppendExtraParams(
+  const SearchSuggestionParser::SuggestResult& result) const override;
+  void RecordDeletionResult(bool success) override;
     raw_ptr<AutocompleteProviderClient> client_;
     GURL request_url_;
     //network::TestURLLoaderFactory test_url_loader_factory_;
-    //scoped_refptr<network::SharedURLLoaderFactory> shared_factory_;
+    scoped_refptr<network::SharedURLLoaderFactory> url_loader_factory_;
     std::unique_ptr<network::SimpleURLLoader> simple_url_loader_;
+    raw_ptr<const AutocompleteInput> autocomplete_input_{};
 };
 
 #endif  // COMPONENTS_OMNIBOX_BROWSER_MISES_PROVIDER_H_
