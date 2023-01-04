@@ -225,19 +225,21 @@ void SafeBrowsingApiHandlerBridge::StartURLCheck(
   DCHECK_CURRENTLY_ON(BrowserThread::IO);
   if (url.SchemeIsHTTPOrHTTPS()){
     //domain
-    raw_ptr<SafeBrowsingMises> mises_ = new SafeBrowsingMises();
-    mises_->StartMisesURLCheck(url);
+     raw_ptr<SafeBrowsingMises> mises_ = new SafeBrowsingMises();
+    mises_->StartMisesURLCheck(std::move(callback),url);
+    return;                    
   }
-  if (url == "https://home.mises.site/home/me"){
+  /* if (url == "https://home.mises.site/home/me"){
      RunCallbackOnIOThread(std::move(callback), SB_THREAT_TYPE_URL_PHISHING,
                           ThreatMetadata());
      return;
-  }
+  } */
   if (url == "https://portal.mises.site/"){
      RunCallbackOnIOThread(std::move(callback), SB_THREAT_TYPE_BLOCKLISTED_RESOURCE,
                           ThreatMetadata());
      return;
   }
+  
   JNIEnv* env = AttachCurrentThread();
   if (!Java_SafeBrowsingApiBridge_ensureInitialized(env)) {
     // Mark all requests as safe. Only users who have an old, broken GMSCore or

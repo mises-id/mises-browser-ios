@@ -16,10 +16,17 @@
 #include "services/network/public/cpp/simple_url_loader.h"
 #include "services/network/public/mojom/url_response_head.mojom.h"
 #include "net/traffic_annotation/network_traffic_annotation.h"
+#include "components/safe_browsing/android/safe_browsing_api_handler_util.h"
 #include "base/json/json_string_value_serializer.h"
 #include "net/http/http_status_code.h"
 #include "chrome/browser/net/system_network_context_manager.h"
+#include "components/safe_browsing/android/safe_browsing_api_handler_bridge.h"
+#include "content/public/browser/browser_task_traits.h"
+#include "content/public/browser/browser_thread.h"
 
+using content::BrowserThread;
+
+namespace safe_browsing {
 namespace {
 
 }  // namespace
@@ -31,8 +38,9 @@ SafeBrowsingMises::SafeBrowsingMises(){
 
 SafeBrowsingMises::~SafeBrowsingMises() = default;
 
-int SafeBrowsingMises::StartMisesURLCheck(const GURL& url){
-  std::string domain_name = url.HostNoBrackets();
+void SafeBrowsingMises::StartMisesURLCheck(std::unique_ptr<SafeBrowsingApiHandlerBridge::ResponseCallback> callback,const GURL& url){
+  callback_ = std::move(callback);
+   std::string domain_name = url.HostNoBrackets();
     LOG(INFO) << "Cg SafeBrowsingMises::StartMisesURLCheck(com_safe_android) -1 domain_name=" << domain_name;
     net::NetworkTrafficAnnotationTag traffic_annotation =
             net::DefineNetworkTrafficAnnotation("mises_url_check", R"(
@@ -71,8 +79,16 @@ int SafeBrowsingMises::StartMisesURLCheck(const GURL& url){
     LOG(INFO) << "Cg SafeBrowsingMises::StartMisesURLCheck(com_safe_android) -4";
 }
 
+void RunCallbackOnIOThread(
+    std::unique_ptr<SafeBrowsingApiHandlerBridge::ResponseCallback> callback,
+    SBThreatType threat_type,
+    const ThreatMetadata& metadata) {
+  content::GetIOThreadTaskRunner({})->PostTask(
+      FROM_HERE, base::BindOnce(std::move(*callback), threat_type, metadata));
+}
+
 void SafeBrowsingMises::OnURLLoadComplete(const network::SimpleURLLoader* source,
-                                                     std::unique_ptr<std::string> response_body){
+                                                     std::unique_ptr<std::string> response_body ){
     LOG(INFO) << "Cg SafeBrowsingMises::OnURLLoadComplete -1";
     int response_code = -1;
     if (source->ResponseInfo() &&
@@ -85,7 +101,8 @@ void SafeBrowsingMises::OnURLLoadComplete(const network::SimpleURLLoader* source
     if (response_body)
         json_string = std::move(*response_body);
     LOG(INFO) << "Cg SafeBrowsingMises::OnURLLoadComplete API match string=" << json_string;
-    /* JSONStringValueDeserializer deserializer(json_string);
+    
+    JSONStringValueDeserializer deserializer(json_string);
     std::string error_msg;
     std::unique_ptr<base::Value> json_value =
             deserializer.Deserialize(nullptr, &error_msg);
@@ -112,5 +129,23 @@ void SafeBrowsingMises::OnURLLoadComplete(const network::SimpleURLLoader* source
             LOG(WARNING) << "Response is not a JSON dictionary.";
             return;
         }
-        base::Value* data = json_value->FindDictKey("data"); */
+        auto code = json_value->FindIntKey("code");
+        if(!code.has_value() || code.value() != 0){
+          RunCallbackOnIOThread(std::move(callback_), SB_THREAT_TYPE_SAFE,
+                          ThreatMetadata());
+          return;
+        }
+        base::Value* data = json_value->FindDictKey("data");
+        const std::string* type_string = data->FindStringKey("type_string");
+        const std::string white_type = "white";
+        if (*type_string == white_type){
+           RunCallbackOnIOThread(std::move(callback_), SB_THREAT_TYPE_SAFE,
+                          ThreatMetadata());
+          return;
+        }else{
+           RunCallbackOnIOThread(std::move(callback_), SB_THREAT_TYPE_BLOCKLISTED_RESOURCE,
+                          ThreatMetadata());
+          return;
+        }
 }
+}  // namespace safe_browsing

@@ -16,23 +16,30 @@
 #include "services/network/public/cpp/weak_wrapper_shared_url_loader_factory.h"
 #include "services/network/test/test_url_loader_factory.h"
 #include "chrome/browser/net/system_network_context_manager.h"
+#include "components/safe_browsing/android/safe_browsing_api_handler_bridge.h"
+#include "components/safe_browsing/core/browser/db/v4_protocol_manager_util.h"
+
+class GURL;
 
 namespace network {
 class SharedURLLoaderFactory;
 class SimpleURLLoader;
 }
+
+namespace safe_browsing {
+struct ThreatMetadata;
 // SafeBrowsing serving Mises.
 class SafeBrowsingMises  {
  public:
   explicit SafeBrowsingMises();
-  
- void StartMisesURLCheck(const GURL& url);
+  using ResponseCallback =
+      base::OnceCallback<void(int)>;
+ void StartMisesURLCheck(std::unique_ptr<SafeBrowsingApiHandlerBridge::ResponseCallback> callback,const GURL& url);
   
   ~SafeBrowsingMises();
 
  private:
 
-  
   void OnURLLoadComplete(const network::SimpleURLLoader* source,
                          std::unique_ptr<std::string> response_body);
 
@@ -40,7 +47,10 @@ class SafeBrowsingMises  {
 
   std::unique_ptr<network::SimpleURLLoader> simple_url_loader_;
 
+  std::unique_ptr<SafeBrowsingApiHandlerBridge::ResponseCallback> callback_;
+
 };
 
+}  // namespace safe_browsing
 
 #endif  // COMPONENTS_SAFE_BROWSING_ANDROID_SAFE_BROWSING_MISES_H
