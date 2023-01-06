@@ -2506,10 +2506,7 @@ public abstract class ChromeActivity<C extends ChromeActivityComponent>
                 WebContents webContents = tab.getWebContents();
                 LaunchMetrics.commitLaunchMetrics(webContents);
                 AppMenuBridge.grantExtensionActiveTab(Profile.fromWebContents(webContents).getOriginalProfile(), webContents, extensionId);
-                if (!extensionUrl.equals(""))
-                  getCurrentTabCreator().launchUrl(extensionUrl, TabLaunchType.FROM_CHROME_UI);
-                else
-                  AppMenuBridge.callExtension(Profile.fromWebContents(webContents).getOriginalProfile(), webContents, extensionId);
+                AppMenuBridge.callExtension(Profile.fromWebContents(webContents).getOriginalProfile(), webContents, extensionId);
                 return true;
             }
             return false;

@@ -1451,9 +1451,9 @@ ExtensionFunction::ResponseAction TabsQueryFunction::Run() {
     tab_strip = *(TabModelList::models().begin());
   //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel: " << tab_strip;
   if (tab_strip) {
-    //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Open tabs: " << tab_strip->GetTabCount();
-    //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Active index: " << tab_strip->GetActiveIndex();
-    //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Last user-interacted active index: " << tab_strip->GetLastNonExtensionActiveIndex();
+    LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Open tabs: " << tab_strip->GetTabCount();
+    LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Active index: " << tab_strip->GetActiveIndex();
+    LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - TabModel - Last user-interacted active index: " << tab_strip->GetLastNonExtensionActiveIndex();
     for (int i = 0; i < tab_strip->GetTabCount(); ++i) {
        WebContents* web_contents = tab_strip->GetWebContentsAt(i);
       //LOG(INFO) << "[EXTENSIONS] TabsQueryFunction::Run - Step 5d-1 (tab loop)";

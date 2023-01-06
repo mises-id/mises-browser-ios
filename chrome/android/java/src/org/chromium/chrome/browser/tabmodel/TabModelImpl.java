@@ -755,11 +755,17 @@ public class TabModelImpl extends TabModelJniBridge {
     public int getLastNonExtensionActiveIndex() {
 //        Log.i("EXTENSIONS", "TabModelImpl - (secondary) getLastNonExtensionActiveIndex");
         int result = mIndex;
-//        Log.i("EXTENSIONS", "TabModelImpl - (secondary) getLastNonExtensionActiveIndex - " + mIndex);
+        Log.i("EXTENSIONS", "TabModelImpl - (secondary) getLastNonExtensionActiveIndex - " + mIndex);
         Tab currentTab = getTabAt(mIndex);
         // We get the adjacent tab in case we are currently on a chrome-extension page
-        if (currentTab != null && currentTab.getUrl() != null && (currentTab.getUrl().getSpec().contains("chrome-extension://")))
-          result = mIndex - 1;
+        if (currentTab != null && currentTab.getUrl() != null && (currentTab.getUrl().getSpec().contains("chrome-extension://"))) {
+	  Tab parentTab = findTabInAllTabModels(CriticalPersistedTabData.from(currentTab).getParentId());
+	  if (parentTab != null) {
+	    result =  indexOf(parentTab);
+	  } else {
+            result = mIndex - 1;
+	  }
+	}
         if (result < 0)
           return 0;
         return result;    
