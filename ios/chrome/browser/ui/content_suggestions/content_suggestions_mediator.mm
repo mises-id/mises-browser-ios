@@ -25,6 +25,7 @@
 #import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_return_to_recent_tab_item.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_whats_new_item.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_mises_item.h"
+#import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_mises_box_item.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/suggested_content.h"
 #import "ios/chrome/browser/ui/content_suggestions/content_suggestions_category_wrapper.h"
 #import "ios/chrome/browser/ui/content_suggestions/content_suggestions_commands.h"
@@ -85,6 +86,11 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
 // Most visited items from the MostVisitedSites service currently displayed.
 @property(nonatomic, strong)
     NSMutableArray<ContentSuggestionsMostVisitedItem*>* mostVisitedItems;
+// Most visited items from the MostVisitedSites service currently displayed.
+
+@property(nonatomic, strong)
+    NSMutableArray<ContentSuggestionsMostVisitedItem*>* misesWeb3siteItems;
+
 @property(nonatomic, strong)
     NSArray<ContentSuggestionsMostVisitedActionItem*>* actionButtonItems;
 // Most visited items from the MostVisitedSites service (copied upon receiving
@@ -105,6 +111,10 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
     ContentSuggestionsSectionInformation* promoSectionInfo;
 @property(nonatomic, strong)
     ContentSuggestionsSectionInformation* misesSectionInfo;
+@property(nonatomic, strong)
+    ContentSuggestionsSectionInformation* misesBoxMarginInfo;
+@property(nonatomic, strong)
+    ContentSuggestionsSectionInformation* misesWeb3siteSectionInfo;
 // Section Info for the Most Visited section.
 @property(nonatomic, strong)
     ContentSuggestionsSectionInformation* mostVisitedSectionInfo;
@@ -131,6 +141,8 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
     BOOL showMostRecentTabStartSurfaceTile;
 // Whether the incognito mode is available.
 @property(nonatomic, assign) BOOL incognitoAvailable;
+// Whether the incognito mode is available.
+@property(nonatomic, assign, readonly) void fetchWeb3site;
 
 @end
 
@@ -165,6 +177,8 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
     _logoSectionInfo = LogoSectionInformation();
     _promoSectionInfo = PromoSectionInformation();
     _misesSectionInfo = MisesSectionInformation();
+    _misesBoxMarginInfo = MisesBoxMarginInformation();
+    _misesWeb3siteSectionInfo = MisesWeb3siteSectionInformation();
     _mostVisitedSectionInfo = MostVisitedSectionInformation();
 
     _discoverSectionInfo =
@@ -182,6 +196,7 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
 
     _readingListModelBridge =
         std::make_unique<ReadingListModelBridge>(self, readingListModel);
+
   }
   return self;
 }
@@ -298,6 +313,10 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
   }
   [sectionsInfo addObject:self.misesSectionInfo];
 
+  [sectionsInfo addObject:self.misesWeb3siteSectionInfo];
+    
+  [sectionsInfo addObject:self.misesBoxMarginInfo];
+
   [sectionsInfo addObject:self.mostVisitedSectionInfo];
 
   return sectionsInfo;
@@ -322,6 +341,12 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
     ContentSuggestionsMisesItem* item =
           [[ContentSuggestionsMisesItem alloc] initWithType:0];
     [convertedSuggestions addObject:item];
+  }  else if (sectionInfo == self.misesBoxMarginInfo) {
+      ContentSuggestionsMisesBoxItem* item =
+            [[ContentSuggestionsMisesBoxItem alloc] initWithType:0];
+      [convertedSuggestions addObject:item];
+    }else if (sectionInfo == self.misesWeb3siteSectionInfo) {
+   [convertedSuggestions addObjectsFromArray:self.misesWeb3siteItems];
   } else if (sectionInfo == self.returnToRecentTabSectionInfo) {
     DCHECK(IsStartSurfaceEnabled());
     [convertedSuggestions addObject:self.returnToRecentTabItem];
@@ -359,7 +384,6 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
     [self.faviconMediator fetchFaviconForMostVisited:item];
     [self.freshMostVisitedItems addObject:item];
   }
-
   if ([self.mostVisitedItems count] > 0) {
     // If some content is already displayed to the user, do not update without a
     // user action.
@@ -389,6 +413,58 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
   }
 }
 
+- (void) fetchWeb3site {
+    if ([self.misesWeb3siteItems count] > 0) {
+      // If some content is already displayed to the user, do not update without a
+      // user action.
+      return;
+    }
+
+    NSString * apiURLStr =[NSString stringWithFormat:@"https://web3.mises.site/website/recommend.json"];
+    NSMutableURLRequest *dataRqst = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:apiURLStr] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.0];
+    
+    NSURLSession *session=[NSURLSession sharedSession];
+    NSURLSessionTask *dataTask=[session dataTaskWithRequest:dataRqst completionHandler:^(NSData * _Nullable responseData, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+        NSString *responseString = [[NSString alloc] initWithBytes:[responseData bytes] length:[responseData length] encoding:NSUTF8StringEncoding];
+        NSData *stringData = [responseString dataUsingEncoding:NSUTF8StringEncoding];
+        id json = [NSJSONSerialization JSONObjectWithData:stringData options:0 error:nil];
+        
+        NSMutableArray<ContentSuggestionsMostVisitedItem*> *items = [NSMutableArray array];
+        for (id element in json) {
+          ntp_tiles::NTPTile tile;
+          tile.url = GURL(base::SysNSStringToUTF8(element[@"url"]));
+          tile.title = base::SysNSStringToUTF16(element[@"title"]);
+          // tile.favicon_url = GURL(base::SysNSStringToUTF8(element[@"logo"]));
+          ContentSuggestionsMostVisitedItem* item =
+            ConvertNTPTile(tile, self.mostVisitedSectionInfo);
+          item.commandHandler = self.commandHandler;
+          item.incognitoAvailable = self.incognitoAvailable;
+          [items addObject:item];
+            NSLog(@"[fetchWeb3site]:item=%@", element);
+        }
+        ContentSuggestionsMediator* mediator = self;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [mediator updateMisesWeb3SiteItems:items];
+        });
+    }];
+    [dataTask resume];
+    
+}
+
+- (void)updateMisesWeb3SiteItems:
+    (NSMutableArray<ContentSuggestionsMostVisitedItem*> *)items {
+    
+    self.misesWeb3siteItems = items;
+    
+    [self reloadAllData];
+    [self.discoverFeedDelegate contentSuggestionsWasUpdated];
+    
+    for (ContentSuggestionsMostVisitedItem* item in self.misesWeb3siteItems) {
+      [self.faviconMediator fetchFaviconForMostVisited:item];
+    }
+}
+
 #pragma mark - ContentSuggestionsMetricsRecorderDelegate
 
 - (ContentSuggestionsCategoryWrapper*)categoryWrapperForSectionInfo:
@@ -401,6 +477,8 @@ const NSInteger kMaxNumMostVisitedTiles = 4;
 
 // Replaces the Most Visited items currently displayed by the most recent ones.
 - (void)useFreshMostVisited {
+    
+  [self fetchWeb3site];
   self.mostVisitedItems = self.freshMostVisitedItems;
     // All data needs to be reloaded in order to force a re-layout, this is
     // cheaper since the Feed is not part of this ViewController when Discover

@@ -324,8 +324,7 @@ CGFloat ToolbarHeight() {
   CGFloat searchFieldNormalWidth =
       content_suggestions::searchFieldWidth(contentWidth, self.traitCollection);
 
-  CGFloat percent =
-      [self searchFieldProgressForOffset:offset safeAreaInsets:safeAreaInsets];
+  CGFloat percent = 1.00;
 
   CGFloat toolbarExpandedHeight = ToolbarHeight();
 

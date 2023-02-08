@@ -22,6 +22,8 @@ typedef NS_ENUM(NSInteger, ContentSuggestionsSectionID) {
   ContentSuggestionsSectionReturnToRecentTab,
   ContentSuggestionsSectionPromo,
   ContentSuggestionsSectionMises,
+  ContentSuggestionsSectionMisesWeb3site,
+  ContentSuggestionsSectionMisesBox,
   ContentSuggestionsSectionMostVisited,
   ContentSuggestionsSectionDiscover,
 

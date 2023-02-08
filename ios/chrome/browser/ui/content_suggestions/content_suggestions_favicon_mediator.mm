@@ -85,9 +85,7 @@ const CGFloat kMostVisitedFaviconMinimalSize = 32;
     [strongSelf logFaviconFetchedForItem:strongItem];
     [strongSelf.dataSink itemHasChanged:strongItem];
   };
-
-  [self.mostVisitedAttributesProvider fetchFaviconAttributesForURL:item.URL
-                                                        completion:completion];
+    [self.mostVisitedAttributesProvider fetchFaviconAttributesForURL:item.URL completion:completion];
 }
 
 

@@ -646,6 +646,8 @@
 // |isScrolledIntoFeed| to prevent setting it multiple times.
 - (void)handleFakeOmniboxForScrollPosition:(CGFloat)scrollPosition
                                      force:(BOOL)force {
+    NSLog(@"scrollPosition%f", scrollPosition);
+    NSLog(@"[self offsetToStickOmnibox]%f", [self offsetToStickOmnibox]);
   if ((!self.isScrolledIntoFeed || force) &&
       scrollPosition > [self offsetToStickOmnibox]) {
     [self stickFakeOmniboxToTop];

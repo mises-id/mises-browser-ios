@@ -28,7 +28,6 @@ struct NTPTile {
   // Timestamp representing when the tile was originally generated (produced by
   // a ranking algorithm).
   base::Time data_generation_time;
-
   // True if this tile is a custom link and was initialized from a Most Visited
   // item. Used for debugging.
   bool from_most_visited = false;

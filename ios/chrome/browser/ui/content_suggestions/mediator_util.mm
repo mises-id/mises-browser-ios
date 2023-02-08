@@ -60,6 +60,15 @@ ContentSuggestionsSectionInformation* MisesSectionInformation() {
 }
 
 
+ContentSuggestionsSectionInformation* MisesBoxMarginInformation() {
+  return EmptySectionInfo(ContentSuggestionsSectionMisesBox);
+}
+
+ContentSuggestionsSectionInformation* MisesWeb3siteSectionInformation() {
+  return EmptySectionInfo(ContentSuggestionsSectionMisesWeb3site);
+}
+
+
 ContentSuggestionsSectionInformation* MostVisitedSectionInformation() {
   return EmptySectionInfo(ContentSuggestionsSectionMostVisited);
 }

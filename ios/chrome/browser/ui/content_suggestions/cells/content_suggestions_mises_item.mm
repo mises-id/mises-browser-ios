@@ -22,16 +22,11 @@ namespace {
 const CGFloat kLabelMargin = 14;
 //const CGFloat kLabelLineSpacing = 4;
 const CGFloat kLabelIconMargin = 8;
-const CGFloat kDescFontSize = 15;
-const CGFloat kWelcomeFontSize = 25;
-const CGFloat kButtonHeight = 50;
+const CGFloat kboxTitleFontSize = 20;
 const CGFloat kIconHeight = 55;
 const CGFloat kIconWidth = 89;
 const CGFloat kIconTopMargin = 10;
-NSString * const kWelcomeText = @"Welcome to Mises!";
-NSString * const kDescText = @"Mises is a blockchain which aims to support decentralized ID, strorage & social media. ";
-NSString * const kButtonTitle = @"Enter Mises";
-NSURL * const kLink = [NSURL URLWithString:@"https://home.mises.site/"];
+NSString * const kboxWebsiteText = @"Web3 Sites";
 }  // namespace
 
 #pragma mark - ContentSuggestionsMisesItem
@@ -68,69 +63,47 @@ NSURL * const kLink = [NSURL URLWithString:@"https://home.mises.site/"];
 
 @interface ContentSuggestionsMisesCell ()
 
-@property(nonatomic, strong) UIImageView* iconView;
-@property(nonatomic, strong) UILabel* welcomeLabel;
-@property(nonatomic, strong) UILabel* descLabel;
+@property(nonatomic, strong) UILabel* boxWebsiteLabel;
 @property(nonatomic, strong) UIView* containerView;
+
+// Most visited items from the MostVisitedSites service currently displayed.
 
 @end
 
 @implementation ContentSuggestionsMisesCell
 
-@synthesize iconView = _iconView;
-@synthesize welcomeLabel = _welcomeLabel;
-@synthesize descLabel = _descLabel;
+@synthesize boxWebsiteLabel = _boxWebsiteLabel;
 @synthesize containerView = _containerView;
-@synthesize enterButton = _enterButton;
 
 - (instancetype)initWithFrame:(CGRect)frame {
   self = [super initWithFrame:frame];
   if (self) {
-    _iconView =  [[UIImageView alloc]
-        initWithImage:[UIImage imageNamed:@"mises_welcome"]];
-    _welcomeLabel = [[UILabel alloc] init];
-    _descLabel = [[UILabel alloc] init];
+      
+    _boxWebsiteLabel = [[UILabel alloc] init];
     _containerView = [[UIView alloc] init];
-    _enterButton = [[MDCButton alloc] init];
 
-    _iconView.translatesAutoresizingMaskIntoConstraints = NO;
-    _welcomeLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    _boxWebsiteLabel.translatesAutoresizingMaskIntoConstraints = NO;
     _containerView.translatesAutoresizingMaskIntoConstraints = NO;
-    _descLabel.translatesAutoresizingMaskIntoConstraints = NO;
-    _enterButton.translatesAutoresizingMaskIntoConstraints = NO;
       
-    [[self class] configureWelcomeLabel:self.welcomeLabel withText:kWelcomeText];
-    [[self class] configureDescLabel:self.descLabel withText:kDescText];
-      
-      _iconView.contentMode = UIViewContentModeScaleAspectFit;
-    [_enterButton setTitle:kButtonTitle forState:UIControlStateNormal];
-    [_enterButton setBackgroundColor:UIColorFromRGB(0x5D61FF)];
-    _enterButton.layer.cornerRadius = kButtonHeight / 2;
+    [[self class] configureBoxWebsiteLabel:self.boxWebsiteLabel withText:kboxWebsiteText];
 
     [self.contentView addSubview:_containerView];
-    [_containerView addSubview:_iconView];
-    [_containerView addSubview:_welcomeLabel];
-    [_containerView addSubview:_descLabel];
-    [_containerView addSubview:_enterButton];
+    [_containerView addSubview:_boxWebsiteLabel];
 
     ApplyVisualConstraintsWithMetrics(
         @[
-          @"V:|-(>=margin)-[icon(iconHeight)]-(margin)-[welcome]-(margin)-[desc]-(margin)-[enter(buttonHeight)]-(>=margin)-|",
-          @"V:|[container]|", @"H:|[icon]|", @"H:|[welcome]|",
-          @"H:|[desc]|",@"H:|-(>=margin)-[enter]-(>=margin)-|",
-          @"H:|->=0-[container]->=0-|"
+          @"V:|[boxWebsiteTitle]|",
+          @"V:|[container]|",
+          @"H:|[boxWebsiteTitle]|",
+          @"H:|[container]|"
         ],
         @{
-          @"icon" : _iconView,
-          @"welcome" : _welcomeLabel,
-          @"desc" : _descLabel,
-          @"enter" : _enterButton,
+          @"boxWebsiteTitle" : _boxWebsiteLabel,
           @"container" : _containerView
         },
         @{
           @"margin" : @(kLabelMargin),
           @"iconMargin" : @(kIconTopMargin),
-          @"buttonHeight" : @(kButtonHeight),
           
           @"iconHeight" : @(kIconHeight),
           @"iconWidth" : @(kIconWidth),
@@ -140,22 +113,16 @@ NSURL * const kLink = [NSURL URLWithString:@"https://home.mises.site/"];
       [_containerView.centerXAnchor
           constraintEqualToAnchor:self.contentView.centerXAnchor]
     ]];
-      [NSLayoutConstraint activateConstraints:@[
-        [_enterButton.centerXAnchor
-            constraintEqualToAnchor:_containerView.centerXAnchor]
-      ]];
   }
   return self;
 }
 
 + (CGFloat)heightForWidth:(CGFloat)width {
-  UILabel* label1 = [[UILabel alloc] init];
-  [self configureWelcomeLabel:label1 withText:kWelcomeText];
-  UILabel* label2 = [[UILabel alloc] init];
-  [self configureDescLabel:label2 withText:kDescText];
-  CGSize sizeForLabel = CGSizeMake(width, 500);
+    UILabel* label1 = [[UILabel alloc] init];
+    [self configureBoxWebsiteLabel:label1 withText:kboxWebsiteText];
+    CGSize sizeForLabel = CGSizeMake(width, 500);
 
-  return 5 * kLabelMargin + [label1 sizeThatFits:sizeForLabel].height + kButtonHeight + [label2 sizeThatFits:sizeForLabel].height + kIconHeight;
+  return 2 * kLabelMargin + [label1 sizeThatFits:sizeForLabel].height;
 }
 
 
@@ -170,8 +137,7 @@ NSURL * const kLink = [NSURL URLWithString:@"https://home.mises.site/"];
   // changes, for instance on screen rotation.
   CGFloat parentWidth = CGRectGetWidth(self.contentView.bounds);
 
-  self.welcomeLabel.preferredMaxLayoutWidth = parentWidth;
-  self.descLabel.preferredMaxLayoutWidth = parentWidth;
+  self.boxWebsiteLabel.preferredMaxLayoutWidth = parentWidth;
 
   // Re-layout with the new preferred width to allow the label to adjust its
   // height.
@@ -181,21 +147,12 @@ NSURL * const kLink = [NSURL URLWithString:@"https://home.mises.site/"];
 #pragma mark Private
 
 // Configures the |promoLabel| with the |text|.
-+ (void)configureWelcomeLabel:(UILabel*)label withText:(NSString*)text {
++ (void)configureBoxWebsiteLabel:(UILabel*)label withText:(NSString*)text {
   label.font =
-      [[MDCTypography fontLoader] regularFontOfSize:kWelcomeFontSize];
+      [[MDCTypography fontLoader] regularFontOfSize:kboxTitleFontSize];
   label.textColor = [UIColor colorNamed:kTextPrimaryColor];
   label.numberOfLines = 0;
-    label.textAlignment = NSTextAlignmentCenter;
-  [label setText:[NSString stringWithString:text]];
-
-}
-
-+ (void)configureDescLabel:(UILabel*)label withText:(NSString*)text {
-  label.font =
-      [[MDCTypography fontLoader] regularFontOfSize:kDescFontSize];
-  label.textColor = [UIColor colorNamed:kTextPrimaryColor];
-  label.numberOfLines = 0;
+  label.textAlignment = NSTextAlignmentLeft;
   [label setText:[NSString stringWithString:text]];
 
 }

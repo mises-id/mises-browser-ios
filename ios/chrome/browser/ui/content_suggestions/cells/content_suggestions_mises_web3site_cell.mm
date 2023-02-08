@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_most_visited_cell.h"
+#import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_mises_web3site_cell.h"
 
 #import "ios/chrome/browser/ui/ntp_tile_views/ntp_most_visited_tile_view.h"
 
@@ -17,13 +17,13 @@
 #error "This file requires ARC support."
 #endif
 
-@interface ContentSuggestionsMostVisitedCell ()
+@interface ContentSuggestionsMisesWeb3siteCell ()
 
 @property(nonatomic, strong) NTPMostVisitedTileView* mostVisitedTile;
 
 @end
 
-@implementation ContentSuggestionsMostVisitedCell : MDCCollectionViewCell
+@implementation ContentSuggestionsMisesWeb3siteCell : MDCCollectionViewCell
 
 #pragma mark - Public
 
@@ -33,7 +33,6 @@
     _mostVisitedTile = [[NTPMostVisitedTileView alloc] initWithFrame:frame];
     [self.contentView addSubview:_mostVisitedTile];
     _mostVisitedTile.translatesAutoresizingMaskIntoConstraints = NO;
-    // _mostVisitedTile.backgroundColor = [UIColor whiteColor];
     AddSameConstraints(self.contentView, _mostVisitedTile);
     self.isAccessibilityElement = YES;
   }

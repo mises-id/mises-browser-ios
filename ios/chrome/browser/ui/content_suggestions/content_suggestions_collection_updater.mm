@@ -45,6 +45,8 @@ typedef NS_ENUM(NSInteger, ItemType) {
   ItemTypeMostVisited,
   ItemTypePromo,
   ItemTypeMises,
+  ItemTypeMisesWeb3site,
+  ItemTypeMisesBox,
   ItemTypeDiscover,
   ItemTypeReturnToRecentTab,
   ItemTypeUnknown,
@@ -58,6 +60,8 @@ typedef NS_ENUM(NSInteger, SectionIdentifier) {
   SectionIdentifierReturnToRecentTab,
   SectionIdentifierPromo,
   SectionIdentifierMises,
+  SectionIdentifierMisesWeb3site,
+  SectionIdentifierMisesBox,
   SectionIdentifierDiscover,
   SectionIdentifierDefault,
 };
@@ -74,6 +78,10 @@ ContentSuggestionType ContentSuggestionTypeForItemType(NSInteger type) {
     return ContentSuggestionTypePromo;
   if (type == ItemTypeMises)
     return ContentSuggestionTypeMises;
+  if (type == ItemTypeMisesWeb3site)
+    return ContentSuggestionTypeMisesWeb3site;
+  if (type == ItemTypeMisesBox)
+    return ContentSuggestionTypeMisesBox;
   if (type == ItemTypeDiscover)
     return ContentSuggestionTypeDiscover;
   // Add new type here
@@ -93,6 +101,10 @@ ItemType ItemTypeForInfo(ContentSuggestionsSectionInformation* info) {
       return ItemTypePromo;
     case ContentSuggestionsSectionMises:
       return ItemTypeMises;
+    case ContentSuggestionsSectionMisesWeb3site:
+      return ItemTypeMisesWeb3site;
+    case ContentSuggestionsSectionMisesBox:
+      return ItemTypeMisesBox;
     case ContentSuggestionsSectionDiscover:
       return ItemTypeDiscover;
     case ContentSuggestionsSectionLogo:
@@ -115,6 +127,10 @@ SectionIdentifier SectionIdentifierForInfo(
       return SectionIdentifierPromo;
     case ContentSuggestionsSectionMises:
       return SectionIdentifierMises;
+    case ContentSuggestionsSectionMisesWeb3site:
+      return SectionIdentifierMisesWeb3site;
+    case ContentSuggestionsSectionMisesBox:
+      return SectionIdentifierMisesBox;
     case ContentSuggestionsSectionDiscover:
       return SectionIdentifierDiscover;
     case ContentSuggestionsSectionUnknown:
@@ -558,6 +574,15 @@ addSuggestionsToModel:(NSArray<CSCollectionViewItem*>*)suggestions
 - (BOOL)isMisesSection:(NSInteger)section {
   return [self.collectionViewController.collectionViewModel
              sectionIdentifierForSection:section] == SectionIdentifierMises;
+}
+
+- (BOOL)isMisesWeb3siteSection:(NSInteger)section {
+  return [self.collectionViewController.collectionViewModel
+             sectionIdentifierForSection:section] == SectionIdentifierMisesWeb3site;
+}
+- (BOOL)isMisesBox:(NSInteger)section {
+  return [self.collectionViewController.collectionViewModel
+          sectionIdentifierForSection:section] == SectionIdentifierMisesBox;
 }
 
 #pragma mark - Private methods

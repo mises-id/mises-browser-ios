@@ -27,6 +27,10 @@ ContentSuggestionsSectionInformation* PromoSectionInformation();
 
 ContentSuggestionsSectionInformation* MisesSectionInformation();
 
+ContentSuggestionsSectionInformation* MisesBoxMarginInformation();
+
+ContentSuggestionsSectionInformation* MisesWeb3siteSectionInformation();
+
 // Creates and returns a SectionInfo for the Most Visited section.
 ContentSuggestionsSectionInformation* MostVisitedSectionInformation();
 

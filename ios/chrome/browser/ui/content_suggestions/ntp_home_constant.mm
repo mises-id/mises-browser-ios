@@ -31,7 +31,8 @@ const CGFloat kIdentityAvatarDimension = 32;
 const CGFloat kIdentityAvatarMargin = 16;
 
 UIColor* kNTPBackgroundColor() {
-  return [UIColor colorNamed:kBackgroundColor];
+  // return [UIColor colorWithRed:248/255.0 green:248/255.0 blue:248/255.0 alpha:1];
+ return [UIColor colorNamed:kBackgroundColor];
 }
 
 }  // namespace ntp_home

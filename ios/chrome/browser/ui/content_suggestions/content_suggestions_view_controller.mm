@@ -13,9 +13,11 @@
 #import "ios/chrome/browser/ui/collection_view/collection_view_model.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_discover_header_item.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_most_visited_cell.h"
+#import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_mises_web3site_cell.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_most_visited_item.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/suggested_content.h"
 #import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_mises_item.h"
+#import "ios/chrome/browser/ui/content_suggestions/cells/content_suggestions_mises_box_item.h"
 #import "ios/chrome/browser/ui/content_suggestions/content_suggestions_collection_updater.h"
 #import "ios/chrome/browser/ui/content_suggestions/content_suggestions_collection_utils.h"
 #import "ios/chrome/browser/ui/content_suggestions/content_suggestions_commands.h"
@@ -223,6 +225,12 @@ const CGFloat kDiscoverFeedFeaderHeight = 30;
       break;
     case ContentSuggestionTypeMises:
       break;
+    case ContentSuggestionTypeMisesBox:
+      break;
+    case ContentSuggestionTypeMisesWeb3site:
+      [self.suggestionCommandHandler openMostVisitedItem:item
+                                                  atIndex:indexPath.item];
+      break;
     case ContentSuggestionTypeDiscover:
     case ContentSuggestionTypeEmpty:
       break;
@@ -247,25 +255,24 @@ const CGFloat kDiscoverFeedFeaderHeight = 30;
     [self.collectionViewModel itemAtIndexPath:indexPath]
         .accessibilityIdentifier = cell.accessibilityIdentifier;
   }
-  if ([self.collectionUpdater isMisesSection:indexPath.section]) {
-    ContentSuggestionsMisesCell* misesCell = (ContentSuggestionsMisesCell*)cell;
-    [misesCell.enterButton addTarget:self
-                               action:@selector(enterMisesTapped)
-                     forControlEvents:UIControlEventTouchUpInside];
-  }
+//  if ([self.collectionUpdater isMisesSection:indexPath.section]) {
+//    ContentSuggestionsMisesCell* misesCell = (ContentSuggestionsMisesCell*)cell;
+//    [misesCell.enterButton addTarget:self
+//                               action:@selector(enterMisesTapped)
+//                     forControlEvents:UIControlEventTouchUpInside];
+//  }
 
   return cell;
 }
-- (void)enterMisesTapped {
-   [self.suggestionCommandHandler openMisesHome];
-}
+//- (void)enterMisesTapped {
+//   [self.suggestionCommandHandler openMisesHome];
+//}
 
 - (UIContextMenuConfiguration*)collectionView:(UICollectionView*)collectionView
     contextMenuConfigurationForItemAtIndexPath:(NSIndexPath*)indexPath
                                          point:(CGPoint)point {
   CollectionViewItem* item =
       [self.collectionViewModel itemAtIndexPath:indexPath];
-
   if (![item isKindOfClass:[ContentSuggestionsMostVisitedItem class]])
     return nil;
 
@@ -302,7 +309,10 @@ const CGFloat kDiscoverFeedFeaderHeight = 30;
                     layout:(UICollectionViewLayout*)collectionViewLayout
     sizeForItemAtIndexPath:(NSIndexPath*)indexPath {
   if ([self.collectionUpdater isMostVisitedSection:indexPath.section]) {
-    return [ContentSuggestionsMostVisitedCell defaultSize];
+      return [ContentSuggestionsMostVisitedCell defaultSize];
+  }
+  if ([self.collectionUpdater isMisesWeb3siteSection:indexPath.section]) {
+      return [ContentSuggestionsMisesWeb3siteCell defaultSize];
   }
   CGSize size = [super collectionView:collectionView
                                layout:collectionViewLayout
@@ -332,11 +342,13 @@ const CGFloat kDiscoverFeedFeaderHeight = 30;
         content_suggestions::kReturnToRecentTabSectionBottomMargin;
   } else if ([self.collectionUpdater isMostVisitedSection:section] ||
              [self.collectionUpdater isPromoSection:section] ||
-             [self.collectionUpdater isMisesSection:section]) {
-    CGFloat margin = CenteredTilesMarginForWidth(
-        self.traitCollection, collectionView.frame.size.width);
-    parentInset.left = margin;
-    parentInset.right = margin;
+             [self.collectionUpdater isMisesSection:section] ||
+             [self.collectionUpdater isMisesWeb3siteSection:section] ||
+             [self.collectionUpdater isMisesBox:section]) {
+//    CGFloat margin = CenteredTilesMarginForWidth(
+//        self.traitCollection, collectionView.frame.size.width);
+    parentInset.left = 40;
+    parentInset.right = 40;
     if ([self.collectionUpdater isMostVisitedSection:section]) {
       parentInset.bottom = kMostVisitedBottomMargin;
     }

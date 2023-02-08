@@ -26,6 +26,8 @@ typedef NS_ENUM(NSInteger, ContentSuggestionType) {
   ContentSuggestionTypeReturnToRecentTab,
   ContentSuggestionTypePromo,
   ContentSuggestionTypeMises,
+  ContentSuggestionTypeMisesWeb3site,
+  ContentSuggestionTypeMisesBox,
   ContentSuggestionTypeDiscover,
 };
 
@@ -86,6 +88,10 @@ addSuggestionsToModel:
 - (BOOL)isPromoSection:(NSInteger)section;
 
 - (BOOL)isMisesSection:(NSInteger)section;
+
+- (BOOL)isMisesWeb3siteSection:(NSInteger)section;
+
+- (BOOL)isMisesBox:(NSInteger)section;
 
 // Returns whether |section| contains the promo if there is one and with a
 // header containing the fake omnibox and the logo.
